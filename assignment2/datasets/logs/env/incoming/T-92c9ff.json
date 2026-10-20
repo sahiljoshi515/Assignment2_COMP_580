@@ -1,0 +1,10 @@
+{
+  "tid": "T-92c9ff",
+  "seq": 39,
+  "scenario": "inc-1646",
+  "kind": "error_count",
+  "target": "catalog-01",
+  "subject": "INC-1646: how many ERROR lines did catalog-01 write",
+  "body": "Hello -- Mei Lin, SRE. For the host catalog-01, how many of its log lines are at level ERROR?\n\nIts log is logs/catalog-01.log. Zero is a valid answer.\n\nRegards, Mei Lin -- SRE",
+  "received": "2026-03-25"
+}

@@ -1,0 +1,10 @@
+{
+  "tid": "T-35a442",
+  "seq": 11,
+  "scenario": "MBX-1608",
+  "kind": "requester",
+  "target": "tool-migration",
+  "subject": "MBX-1608: who opened the tool-migration thread",
+  "body": "Hello -- Hannah Cole, compliance. Which colleague opened the migration from planwise to new tracker\nthread, i.e. sent its first message?\n\nUse the From header of the earliest message with that subject.\n\nThanks, Hannah Cole",
+  "received": "2026-01-26"
+}

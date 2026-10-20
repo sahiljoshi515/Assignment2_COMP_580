@@ -1,0 +1,16 @@
+{
+  "tid": "T-c55dc2",
+  "seq": 64,
+  "citation": {
+    "authors": [
+      "Fischer, R.",
+      "Silva, Y."
+    ],
+    "title": "Spectral Clustering for Differential Link Prediction",
+    "venue": "ACL",
+    "year": 2022,
+    "doi": "10.5555/acl.2022.c45b"
+  },
+  "raw": "Fischer, R. and Silva, Y. (2022, March). Spectral Clustering for Differential Link Prediction. In Proceedings of ACL. Association for Computational Linguistics. doi:10.5555/acl.2022.c45b Retrieved from https://proceedings.example.org/acl/438",
+  "received": "2026-03-21"
+}

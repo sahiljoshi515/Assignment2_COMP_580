@@ -1,0 +1,10 @@
+{
+  "tid": "T-7d4d3f",
+  "seq": 31,
+  "scenario": "pol-1000",
+  "kind": "changes_count",
+  "target": "notice_days",
+  "subject": "POL-1000: how many times the notification deadline changed",
+  "body": "Hi, Tomas Vik from the SRE team here. Across all versions of the Change Management Policy, how often\nwas the notification deadline changed? A change is a revision whose value differs from the one\nbefore.\n\nThe first revision setting the value is not a change; count only later reisions wehre the value\ndiffers from the previous one.\n\nRegards, Tomas Vik -- SRE",
+  "received": "2026-03-09"
+}

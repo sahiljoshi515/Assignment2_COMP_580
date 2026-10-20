@@ -1,0 +1,10 @@
+{
+  "tid": "T-114ecb",
+  "seq": 34,
+  "scenario": "POL1000",
+  "kind": "introduced_in",
+  "target": "approval_days",
+  "subject": "POL-1000: which revision set the approval deadline to its current value",
+  "body": "Thanks, Omar Haddad\n\nOmar Haddad (payments) writing with a quick request. Which version of the Change Management Policy\nintroduced the current value of the approval deadline? I need the revision label, e.g. v04.\n\nCompare the versions in policy/; report the revision label as in the file name.",
+  "received": "2026-03-15"
+}

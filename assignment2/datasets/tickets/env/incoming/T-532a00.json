@@ -1,0 +1,10 @@
+{
+  "tid": "T-532a00",
+  "seq": 47,
+  "product": "CourierOS",
+  "error_code": "E5181",
+  "platform": "macos",
+  "subject": "E-5181: cannot write data directory on macOS",
+  "body": "Good morning. My setup is CourierOS 3.5.2, macOS 14.7.\nWhenever I open the app since yesterday, the app shows\n'E-5181: cannot write to data directory'.\n\nOur data folder is on a mapped network share, not the local\ndisk. After sleep the share takes a while to reconnect.\n\nWhat I tried so far: rebooting the router. No luck.\n\nThanks, Priya Nair (Harbour Freight)",
+  "opened": "2026-03-01"
+}

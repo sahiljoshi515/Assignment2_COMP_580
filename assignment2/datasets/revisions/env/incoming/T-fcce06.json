@@ -1,0 +1,10 @@
+{
+  "tid": "T-fcce06",
+  "seq": 24,
+  "scenario": "POL1380",
+  "kind": "changes_count",
+  "target": "backup_hours",
+  "subject": "POL-1380: how many times the backup interval changed",
+  "body": "Hannah Cole (compliance) writing with a quick request. Count the revisions of\nthe Vendor Security Policy in which the backup interval takes a value different\nfrom the previous revision.\n\nv01 establishes the value; count the later revisions that alter it.\n\nRegards, Hannah Cole -- compliance",
+  "received": "2026-02-22"
+}

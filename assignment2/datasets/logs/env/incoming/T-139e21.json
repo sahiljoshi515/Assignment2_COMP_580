@@ -1,0 +1,10 @@
+{
+  "tid": "T-139e21",
+  "seq": 33,
+  "scenario": "inc-1076",
+  "kind": "drift_host",
+  "target": null,
+  "subject": "INC-1076: which host started with a different configuration",
+  "body": "Hello -- Tomas Vik, data. Which billing host has a startup configuration that\ndoes not match the other hosts, and on which key does it differ?\n\nYou will find one log file per host under logs/; the banner at the top of each\nlists the loaded configuration.\n\nMuch appreciated, Tomas Vik",
+  "received": "2026-03-13"
+}

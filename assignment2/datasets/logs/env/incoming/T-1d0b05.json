@@ -1,0 +1,10 @@
+{
+  "tid": "T-1d0b05",
+  "seq": 32,
+  "scenario": "inc-1152",
+  "kind": "error_count",
+  "target": "notify-05",
+  "subject": "INC-1152: how many ERROR lines did notify-05 write",
+  "body": "Hello -- Hannah Cole, security. For the host notify-05, how many of its log\nlines are at level ERROR?\n\nIts log is logs/notify-05.log. Zero is a valid answer.\n\nMuch appreciated, Hannah Cole",
+  "received": "2026-03-11"
+}

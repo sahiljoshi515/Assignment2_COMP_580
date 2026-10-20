@@ -1,0 +1,117 @@
+{
+  "dataset": "docs",
+  "seed": 37,
+  "args": {
+    "history_size": 110,
+    "incoming": 60,
+    "dup_rate": 0.4
+  },
+  "counts": {
+    "history": 110,
+    "incoming": 60,
+    "duplicates": 24,
+    "hard_negatives": 11,
+    "by_kind": {
+      "exact": 4,
+      "format": 6,
+      "reorder": 3,
+      "edit": 5,
+      "paraphrase": 6
+    },
+    "dup_of_history": 17,
+    "dup_of_task": 7,
+    "history_twins": 10
+  },
+  "tokens": {
+    "instructions": 1180,
+    "history": 22691,
+    "incoming": 12348,
+    "reference": 0,
+    "total": 36219
+  },
+  "budget": {
+    "range": [
+      30000,
+      50000
+    ],
+    "enforced": true,
+    "ok": true
+  },
+  "similarity": {
+    "exact": {
+      "n": 4,
+      "min": 1.0,
+      "p10": 1.0,
+      "p50": 1.0,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "format": {
+      "n": 6,
+      "min": 1.0,
+      "p10": 1.0,
+      "p50": 1.0,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "reorder": {
+      "n": 3,
+      "min": 0.929,
+      "p10": 0.929,
+      "p50": 0.93,
+      "p90": 0.938,
+      "max": 0.938
+    },
+    "edit": {
+      "n": 5,
+      "min": 0.674,
+      "p10": 0.674,
+      "p50": 0.689,
+      "p90": 0.837,
+      "max": 0.837
+    },
+    "paraphrase": {
+      "n": 6,
+      "min": 0.265,
+      "p10": 0.265,
+      "p50": 0.31,
+      "p90": 0.373,
+      "max": 0.373
+    },
+    "hard_negative": {
+      "n": 11,
+      "min": 0.877,
+      "p10": 0.88,
+      "p50": 0.898,
+      "p90": 0.904,
+      "max": 0.909
+    },
+    "confusable": {
+      "n": 0
+    },
+    "random": {
+      "n": 298,
+      "min": 0.0,
+      "p10": 0.0,
+      "p50": 0.004,
+      "p90": 0.153,
+      "max": 0.899
+    }
+  },
+  "text_for_similarity": "title + body",
+  "answer_histogram": {
+    "{\"category\": \"policy-final\", \"duplicate_of\": null}": 8,
+    "{\"category\": \"incident-open\", \"duplicate_of\": null}": 7,
+    "{\"category\": \"policy-draft\", \"duplicate_of\": null}": 6,
+    "{\"category\": \"change-approved\", \"duplicate_of\": null}": 5,
+    "{\"category\": \"change-request\", \"duplicate_of\": null}": 5,
+    "{\"category\": \"incident-resolved\", \"duplicate_of\": null}": 5,
+    "{\"category\": \"release-notes\", \"duplicate_of\": null}": 3,
+    "{\"category\": \"change-rejected\", \"duplicate_of\": \"H-c34837\"}": 2,
+    "{\"category\": \"change-rejected\", \"duplicate_of\": null}": 2,
+    "{\"category\": \"incident-open\", \"duplicate_of\": \"H-89e51b\"}": 2,
+    "{\"category\": \"release-notes\", \"duplicate_of\": \"H-edc21d\"}": 2,
+    "{\"category\": \"change-approved\", \"duplicate_of\": \"H-3224ba\"}": 1
+  },
+  "max_answer_share": 0.133
+}

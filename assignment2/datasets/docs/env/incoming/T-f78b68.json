@@ -1,0 +1,7 @@
+{
+  "tid": "T-f78b68",
+  "seq": 30,
+  "title": "POL-965: Policy Governing The Ledger Core",
+  "body": "SCOPE:\n\nThis policy applies to every user of the Ledger Core and is in draft. The policy owner is Elena\nVasquez (Platform Engineering); yearly audits against the controls listed here are run by Meridian\nCloud.\n\nREQUIREMENTS:\n\nEvery person in scope must meet these requirements, reviewed on 2 November 2025:\n- Encrypt laptops and removable media with the standard tooling\n- Patch critical vulnerabilities within fourteen days of publication\n- Obtain written sign-off before granting vendor access\n\nSTATUS:\n\nThe policy is out for comment according to the register. Issued by Leila Nasser on 10 April 2025; 32\nexceptions are on file with Platform Engineering and expire at the yearly audit.",
+  "received": "2026-02-14"
+}

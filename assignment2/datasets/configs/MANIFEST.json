@@ -1,0 +1,140 @@
+{
+  "dataset": "configs",
+  "seed": 67,
+  "args": {
+    "history_size": 60,
+    "incoming": 40,
+    "dup_rate": 0.4
+  },
+  "counts": {
+    "history": 60,
+    "incoming": 40,
+    "duplicates": 16,
+    "hard_negatives": 8,
+    "by_kind": {
+      "exact": 3,
+      "format": 4,
+      "reorder": 2,
+      "edit": 3,
+      "paraphrase": 4
+    },
+    "dup_of_history": 11,
+    "dup_of_task": 5,
+    "history_twins": 8
+  },
+  "tokens": {
+    "instructions": 995,
+    "history": 7468,
+    "incoming": 4683,
+    "reference": 107482,
+    "total": 120628
+  },
+  "budget": {
+    "range": [
+      12000,
+      45000
+    ],
+    "enforced": true,
+    "ok": true,
+    "measured": 13058
+  },
+  "similarity": {
+    "exact": {
+      "n": 3,
+      "min": 1.0,
+      "p10": 1.0,
+      "p50": 1.0,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "format": {
+      "n": 4,
+      "min": 1.0,
+      "p10": 1.0,
+      "p50": 1.0,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "reorder": {
+      "n": 2,
+      "min": 0.565,
+      "p10": 0.565,
+      "p50": 0.919,
+      "p90": 0.919,
+      "max": 0.919
+    },
+    "edit": {
+      "n": 3,
+      "min": 0.565,
+      "p10": 0.565,
+      "p50": 0.733,
+      "p90": 0.76,
+      "max": 0.76
+    },
+    "paraphrase": {
+      "n": 4,
+      "min": 0.182,
+      "p10": 0.182,
+      "p50": 0.286,
+      "p90": 0.359,
+      "max": 0.359
+    },
+    "hard_negative": {
+      "n": 8,
+      "min": 0.5,
+      "p10": 0.5,
+      "p50": 0.793,
+      "p90": 0.877,
+      "max": 0.877
+    },
+    "confusable": {
+      "n": 0
+    },
+    "random": {
+      "n": 197,
+      "min": 0.0,
+      "p10": 0.0,
+      "p50": 0.0,
+      "p90": 0.076,
+      "max": 0.719
+    }
+  },
+  "text_for_similarity": "subject + body",
+  "answer_histogram": {
+    "{\"environment\": \"canary\", \"value\": \"info\"}": 3,
+    "{\"environment\": \"canary\", \"value\": 1}": 3,
+    "{\"environment\": \"prod-us-east\", \"key\": \"auth.allow_anonymous\"}": 3,
+    "{\"environment\": \"prod-us-east\", \"value\": \"info\"}": 3,
+    "{\"environment\": \"canary\", \"key\": \"cache.ttl_s\"}": 2,
+    "{\"environment\": \"prod-eu\", \"key\": \"auth.allow_anonymous\"}": 2,
+    "{\"environment\": \"prod-eu\", \"value\": 12}": 2,
+    "{\"environment\": \"prod-us-west\", \"value\": 6}": 2,
+    "{\"environment\": \"canary\", \"key\": \"cache.max_entries\"}": 1,
+    "{\"environment\": \"canary\", \"key\": \"payments.backoff_ms\"}": 1,
+    "{\"environment\": \"dev\", \"key\": \"payments.retry_limit\"}": 1,
+    "{\"environment\": \"dev\", \"key\": \"tls.verify\"}": 1
+  },
+  "max_answer_share": 0.075,
+  "content": {
+    "scenarios": 24,
+    "files_per_scenario": [
+      7,
+      10
+    ],
+    "tokens_per_scenario": {
+      "min": 3483,
+      "mean": 4478,
+      "max": 5122
+    },
+    "within_group_jaccard_p50": {
+      "min": 0.875,
+      "max": 0.899
+    },
+    "cross_group_jaccard_max": 0.043,
+    "groups_per_scenario": [
+      1,
+      1
+    ],
+    "normalisation": "lower-case alphanumeric tokens, digit runs masked to 0, word 3-shingles"
+  }
+}

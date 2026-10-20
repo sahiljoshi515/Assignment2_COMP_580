@@ -1,0 +1,10 @@
+{
+  "tid": "T-aac3f1",
+  "seq": 19,
+  "scenario": "FLT-1570",
+  "kind": "fullest_disk",
+  "target": null,
+  "subject": "FLT-1570: which host has the fullest root filesystem",
+  "body": "Hi, Hannah Cole from the support team here. Which api host\nhas the highest usage on its root filesystem (/), and what\npercentage is used?\n\nCompare the / lines under [mounts]; the highest value is\nunique.\n\nMuch appreciated, Hannah Cole",
+  "received": "2026-02-11"
+}

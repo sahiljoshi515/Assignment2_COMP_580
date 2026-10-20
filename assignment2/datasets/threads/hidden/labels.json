@@ -1,0 +1,487 @@
+{
+  "T-2c0301": {
+    "dup_of": "H-685b90",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "count": 7
+    },
+    "canonical_id": "C-fd9788f4",
+    "seq": 1
+  },
+  "T-3a49c4": {
+    "dup_of": "H-44a55e",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "date": "2026-04-22",
+      "reason": "credentials expired"
+    },
+    "canonical_id": "C-7d1220b9",
+    "seq": 2
+  },
+  "T-17d605": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-3ddac1",
+    "differs_in": [
+      "target"
+    ],
+    "answer": {
+      "decision": "defer",
+      "by": "Priya Nair",
+      "date": "2026-03-11"
+    },
+    "canonical_id": "C-d82b570f",
+    "seq": 3
+  },
+  "T-327dd6": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "count": 7
+    },
+    "canonical_id": "C-2bfa4e04",
+    "seq": 4
+  },
+  "T-194848": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "count": 5
+    },
+    "canonical_id": "C-0c261e2d",
+    "seq": 5
+  },
+  "T-7e289d": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-d25a6c",
+    "differs_in": [
+      "scenario",
+      "target"
+    ],
+    "answer": {
+      "name": "Jonas Berg"
+    },
+    "canonical_id": "C-9131b5f9",
+    "seq": 6
+  },
+  "T-32629a": {
+    "dup_of": "T-327dd6",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "count": 7
+    },
+    "canonical_id": "C-2bfa4e04",
+    "seq": 7
+  },
+  "T-3f6fc2": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "count": 6
+    },
+    "canonical_id": "C-02be5fe1",
+    "seq": 8
+  },
+  "T-9b17e6": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "decision": "reject",
+      "by": "Mei Lin",
+      "date": "2026-02-22"
+    },
+    "canonical_id": "C-e512b3b3",
+    "seq": 9
+  },
+  "T-b14d5f": {
+    "dup_of": "T-327dd6",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "count": 7
+    },
+    "canonical_id": "C-2bfa4e04",
+    "seq": 10
+  },
+  "T-35a442": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "T-7e289d",
+    "differs_in": [
+      "target"
+    ],
+    "answer": {
+      "name": "Omar Haddad"
+    },
+    "canonical_id": "C-36c82ce7",
+    "seq": 11
+  },
+  "T-cd7cb3": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-b54481",
+    "differs_in": [
+      "target"
+    ],
+    "answer": {
+      "count": 6
+    },
+    "canonical_id": "C-0d928166",
+    "seq": 12
+  },
+  "T-55b604": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "date": "2026-04-07",
+      "minutes": 94
+    },
+    "canonical_id": "C-c3dc51ed",
+    "seq": 13
+  },
+  "T-ffcd5d": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "name": "Jonas Berg"
+    },
+    "canonical_id": "C-bdb0988a",
+    "seq": 14
+  },
+  "T-72160c": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "name": "Aisha Bello"
+    },
+    "canonical_id": "C-e6895cf8",
+    "seq": 15
+  },
+  "T-066e10": {
+    "dup_of": "H-358860",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "count": 6
+    },
+    "canonical_id": "C-bca45080",
+    "seq": 16
+  },
+  "T-3dbb29": {
+    "dup_of": "H-18b264",
+    "dup_kind": "exact",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "dates": [
+        "2026-02-08",
+        "2026-02-13",
+        "2026-02-15"
+      ]
+    },
+    "canonical_id": "C-851d1c53",
+    "seq": 17
+  },
+  "T-5974b5": {
+    "dup_of": "H-ec5d52",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "name": "Mei Lin"
+    },
+    "canonical_id": "C-fbbc4910",
+    "seq": 18
+  },
+  "T-2e73ea": {
+    "dup_of": "H-cbc81a",
+    "dup_kind": "reorder",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "name": "Sofia Rossi"
+    },
+    "canonical_id": "C-8c5edf57",
+    "seq": 19
+  },
+  "T-2f6d37": {
+    "dup_of": "T-55b604",
+    "dup_kind": "reorder",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "date": "2026-04-07",
+      "minutes": 94
+    },
+    "canonical_id": "C-c3dc51ed",
+    "seq": 20
+  },
+  "T-1ce271": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-b00863",
+    "differs_in": [
+      "scenario"
+    ],
+    "answer": {
+      "date": "2026-03-15",
+      "minutes": 92
+    },
+    "canonical_id": "C-0ae5a612",
+    "seq": 21
+  },
+  "T-9e5b53": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-5fa49a",
+    "differs_in": [
+      "target"
+    ],
+    "answer": {
+      "name": "Kenji Sato"
+    },
+    "canonical_id": "C-496bc80c",
+    "seq": 22
+  },
+  "T-58e59f": {
+    "dup_of": "T-9e5b53",
+    "dup_kind": "exact",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "name": "Kenji Sato"
+    },
+    "canonical_id": "C-496bc80c",
+    "seq": 23
+  },
+  "T-a3d605": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "T-32629a",
+    "differs_in": [
+      "target"
+    ],
+    "answer": {
+      "count": 5
+    },
+    "canonical_id": "C-645877c9",
+    "seq": 24
+  },
+  "T-e9a747": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "decision": "reject",
+      "by": "Ivan Petrov",
+      "date": "2026-03-12"
+    },
+    "canonical_id": "C-be7f9e74",
+    "seq": 25
+  },
+  "T-89dfd1": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "count": 6
+    },
+    "canonical_id": "C-7882b028",
+    "seq": 26
+  },
+  "T-b7f6ee": {
+    "dup_of": "H-168927",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "decision": "defer",
+      "by": "Grace Okafor",
+      "date": "2026-03-21"
+    },
+    "canonical_id": "C-7f744bd3",
+    "seq": 27
+  },
+  "T-cb6282": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-44a55e",
+    "differs_in": [
+      "scenario"
+    ],
+    "answer": {
+      "date": "2026-02-08",
+      "reason": "checksum mismatch on 3 files"
+    },
+    "canonical_id": "C-2bc30ac8",
+    "seq": 28
+  },
+  "T-fd57ab": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "decision": "reject",
+      "by": "Grace Okafor",
+      "date": "2026-04-13"
+    },
+    "canonical_id": "C-b9a35ee4",
+    "seq": 29
+  },
+  "T-41f767": {
+    "dup_of": "H-73ee1c",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "decision": "defer",
+      "by": "Sofia Rossi",
+      "date": "2026-03-21"
+    },
+    "canonical_id": "C-d59bb16d",
+    "seq": 30
+  },
+  "T-a666f3": {
+    "dup_of": "H-af137e",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "dates": [
+        "2026-02-27",
+        "2026-02-28",
+        "2026-03-03"
+      ]
+    },
+    "canonical_id": "C-6dcc3112",
+    "seq": 31
+  },
+  "T-4a1546": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "date": "2026-02-20",
+      "reason": "target volume full"
+    },
+    "canonical_id": "C-25ef5b28",
+    "seq": 32
+  },
+  "T-26dd29": {
+    "dup_of": "T-066e10",
+    "dup_kind": "exact",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "count": 6
+    },
+    "canonical_id": "C-bca45080",
+    "seq": 33
+  },
+  "T-d7efa3": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "date": "2026-04-24",
+      "reason": "target volume full"
+    },
+    "canonical_id": "C-ba9d10f6",
+    "seq": 34
+  },
+  "T-957574": {
+    "dup_of": "H-671947",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "count": 6
+    },
+    "canonical_id": "C-2735215a",
+    "seq": 35
+  },
+  "T-601478": {
+    "dup_of": "H-7f6870",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "count": 5
+    },
+    "canonical_id": "C-c9fab41e",
+    "seq": 36
+  },
+  "T-e04e98": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "count": 6
+    },
+    "canonical_id": "C-0d72369b",
+    "seq": 37
+  },
+  "T-3e445c": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "date": "2026-02-27",
+      "reason": "snapshot lock held by a previous run"
+    },
+    "canonical_id": "C-5391c0dc",
+    "seq": 38
+  },
+  "T-e06bda": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "name": "Omar Haddad"
+    },
+    "canonical_id": "C-458bd8f2",
+    "seq": 39
+  },
+  "T-060357": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "name": "Arjun Mehta"
+    },
+    "canonical_id": "C-591e3ab6",
+    "seq": 40
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "tid": "T-40e640",
+  "seq": 23,
+  "scenario": "sdk-1380",
+  "kind": "decline_codes_of",
+  "target": "paypal",
+  "subject": "SDK-1380: which decline codes does the paypal adapter treat as permanent",
+  "body": "Hello -- Ivan Petrov, payments. Please give me the provider decline codes that\nadapters/paypal.py maps to PermanentError.\n\nThe codes are listed in the module constant DECLINE_CODES.\n\nMuch appreciated, Ivan Petrov",
+  "received": "2026-02-20"
+}

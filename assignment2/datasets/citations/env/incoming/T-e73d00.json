@@ -1,0 +1,17 @@
+{
+  "tid": "T-e73d00",
+  "seq": 62,
+  "citation": {
+    "authors": [
+      "Patel, I.",
+      "Xu, F."
+    ],
+    "title": "Efficient Mixture Models for Question Answering",
+    "venue": "SIGIR",
+    "year": 2023,
+    "doi": "10.5555/sigir.2023.77dc",
+    "pages": "6584-6597"
+  },
+  "raw": "Patel, I. and Xu, F., \"Efficient Mixture Models for Question Answering,\" in Proc. SIGIR '23, Jun. 2023, pages 6584-6597, http://dx.doi.org/10.5555/sigir.2023.77dc. [Online]. Available: https://proceedings.example.org/sigir/588",
+  "received": "2026-03-19"
+}

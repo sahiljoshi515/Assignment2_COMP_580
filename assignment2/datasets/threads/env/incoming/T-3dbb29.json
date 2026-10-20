@@ -1,0 +1,10 @@
+{
+  "tid": "T-3dbb29",
+  "seq": 17,
+  "scenario": "MBX1722",
+  "kind": "failed_backups",
+  "target": null,
+  "subject": "MBX-1722: which nightly backups failed",
+  "body": "Hello -- Aisha Bello, release. Please list the dates of the nightly backup reports whose status is FAILED.\n\nReport dates as YYYY-MM-DD, as a list.\n\nRegards, Aisha Bello -- release",
+  "received": "2026-02-07"
+}

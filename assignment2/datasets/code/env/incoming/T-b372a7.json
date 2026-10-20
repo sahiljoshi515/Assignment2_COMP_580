@@ -1,0 +1,10 @@
+{
+  "tid": "T-b372a7",
+  "seq": 2,
+  "scenario": "SDK-1418",
+  "kind": "missing_idempotency",
+  "target": null,
+  "subject": "SDK-1418: which adapter forgets the idempotency key",
+  "body": "Hello -- Hannah Cole, data. Rule R4 requires charge() and refund() to send an Idempotency-Key. One\nadapter's method does not. Which file, and which method?\n\nThe key is passed as idempotency_key= to _request in the compliant copies.\n\nMuch appreciated, Hannah Cole",
+  "received": "2026-01-07"
+}

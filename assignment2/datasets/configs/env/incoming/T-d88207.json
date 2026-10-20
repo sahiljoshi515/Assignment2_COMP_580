@@ -1,0 +1,10 @@
+{
+  "tid": "T-d88207",
+  "seq": 27,
+  "scenario": "CFG-1266",
+  "kind": "insecure",
+  "target": null,
+  "subject": "CFG-1266: which environment violates a security requirement",
+  "body": "Hello -- Mei Lin, QA. POLICY.md names two security requirements every billing-\napi environment must meet. One environment breaks one of them. Which\nenvironment, and which key?\n\nSee the 'Security requirements' section of config/POLICY.md for the two keys and\ntheir required values.\n\nRegards, Mei Lin -- QA",
+  "received": "2026-02-28"
+}

@@ -1,0 +1,7 @@
+{
+  "tid": "T-9b0fff",
+  "seq": 28,
+  "title": "POL-983: policy governing the Invoice Router",
+  "body": "Scope\n\nThis policy applies to every user of the Invoice Router and is in force.\nNorthwind Systems audits compliance with the controls listed here each year on\nbehalf of the owner, Tomas Lindqvist from Data Services.\n\nRequirements\n\nThe requirements, last reviewed on 20 July 2025, are:\n- Store secrets only in the central vault, never in source control\n- Retain audit logs for at least thirteen months\n- Tag every cloud resource with an owner and a cost centre\n\nStatus\n\nStatus of this policy: in force. Version issued 27 May 2025 by Samuel Adeyemi;\nexceptions on file: 36, all expiring at the yearly audit.",
+  "received": "2026-02-11"
+}

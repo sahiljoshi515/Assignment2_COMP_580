@@ -1,0 +1,10 @@
+{
+  "tid": "T-74abbb",
+  "seq": 34,
+  "scenario": "CFG1380",
+  "kind": "replicas_of",
+  "target": "prod-eu",
+  "subject": "CFG-1380: how many replicas does prod-eu run",
+  "body": "Arjun Mehta (data) writing with a quick request. How many replicas does the\nbilling-api deployment in the prod-eu environment run?\n\nThe value is the integer under the service section, key replicas.\n\nRegards, Arjun Mehta -- data",
+  "received": "2026-03-15"
+}

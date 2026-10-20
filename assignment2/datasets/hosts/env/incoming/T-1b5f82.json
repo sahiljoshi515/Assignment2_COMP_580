@@ -1,0 +1,10 @@
+{
+  "tid": "T-1b5f82",
+  "seq": 29,
+  "scenario": "flt-1304",
+  "kind": "uptime_of",
+  "target": "api-02",
+  "subject": "FLT-1304: how long has api-02 been up",
+  "body": "Hi, Priya Nair from the payments team here. What is the\nuptime_days value in the api snapshot of api-02?\n\nThe value is uptime_days under [system].\n\nMuch appreciated, Priya Nair",
+  "received": "2026-03-04"
+}

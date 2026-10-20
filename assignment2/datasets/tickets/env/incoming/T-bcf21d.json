@@ -1,0 +1,10 @@
+{
+  "tid": "T-bcf21d",
+  "seq": 16,
+  "product": "SyncVault",
+  "error_code": "E-1359",
+  "platform": "macos",
+  "subject": "E-1359: totals mismatch on macOS",
+  "body": "Hi, I'm using SyncVault 4.2.3 on macOS 15.3. Since yesterday, every time I export the report, I get\n'E-1359: totals do not match source'.\n\nThe summary still reflects last month's figures instead of this month's. If I open the underlying\nrecords the values are correct.\n\nWhat I tried so far: restarting the machine. No luck.\n\nDaniel Ortega -- Caldera Foods. Appreciate any pointers.",
+  "opened": "2026-01-23"
+}

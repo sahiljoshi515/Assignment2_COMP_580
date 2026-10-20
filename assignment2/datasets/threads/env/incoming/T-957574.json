@@ -1,0 +1,10 @@
+{
+  "tid": "T-957574",
+  "seq": 35,
+  "scenario": "MBX1570",
+  "kind": "message_count",
+  "target": "data-retention",
+  "subject": "MBX-1570: how many messages in the data-retention thread",
+  "body": "Hi, Nora Lindqvist from the security team here. How long is the retention change for invoice data\nthread, in messages?\n\nCount files whose Subject is that thread's subject, with or without Re:.\n\nThanks, Nora Lindqvist",
+  "received": "2026-03-17"
+}

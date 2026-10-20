@@ -1,0 +1,18 @@
+{
+  "tid": "T-24c0bd",
+  "seq": 65,
+  "citation": {
+    "authors": [
+      "M. Cole",
+      "J. Bello",
+      "M. Lopez",
+      "K. Farah"
+    ],
+    "title": "Prompt Tuning for Adapted Entity Resolution",
+    "venue": "International Conference on Learning Representations",
+    "year": 2023,
+    "doi": "10.5555/iclr.2023.e0bf"
+  },
+  "raw": "M. Cole, J. Bello, M. Lopez, and K. Farah, \"Prompt Tuning for Adapted Entity Resolution,\" in Proc. International Conference on Learning Representations, Sep. 2023, https://doi.org/10.5555/iclr.2023.e0bf. [Online]. Available: https://proceedings.example.org/iclr/476",
+  "received": "2026-03-22"
+}

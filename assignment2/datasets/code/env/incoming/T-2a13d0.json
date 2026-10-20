@@ -1,0 +1,10 @@
+{
+  "tid": "T-2a13d0",
+  "seq": 3,
+  "scenario": "SDK1304",
+  "kind": "decline_codes_of",
+  "target": "adyen",
+  "subject": "SDK-1304: which decline codes does the adyen adapter treat as permanent",
+  "body": "Hello -- Tomas Vik, infra. Which decline codes does the\nadyen adapter of tillbox treat as permanent failures?\n\nThe codes are listed in the module constant DECLINE_CODES.\n\nRegards, Tomas Vik -- infra",
+  "received": "2026-01-09"
+}

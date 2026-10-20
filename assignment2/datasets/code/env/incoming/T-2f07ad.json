@@ -1,0 +1,10 @@
+{
+  "tid": "T-2f07ad",
+  "seq": 8,
+  "scenario": "sdk-1228",
+  "kind": "timeout_drift",
+  "target": null,
+  "subject": "SDK-1228: which adapter uses a different timeout",
+  "body": "Arjun Mehta (security) writing with a quick request. Rule R2 says every adapter\nuses TIMEOUT_S = 10. One adapter sets a different value. Which file, and what\nvalue does it set?\n\nThe constant is near the top of each adapter module.\n\nMuch appreciated, Arjun Mehta",
+  "received": "2026-01-19"
+}

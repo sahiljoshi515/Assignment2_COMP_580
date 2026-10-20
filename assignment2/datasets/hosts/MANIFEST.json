@@ -1,0 +1,140 @@
+{
+  "dataset": "hosts",
+  "seed": 73,
+  "args": {
+    "history_size": 60,
+    "incoming": 40,
+    "dup_rate": 0.4
+  },
+  "counts": {
+    "history": 60,
+    "incoming": 40,
+    "duplicates": 16,
+    "hard_negatives": 8,
+    "by_kind": {
+      "exact": 3,
+      "format": 4,
+      "reorder": 2,
+      "edit": 3,
+      "paraphrase": 4
+    },
+    "dup_of_history": 11,
+    "dup_of_task": 5,
+    "history_twins": 2
+  },
+  "tokens": {
+    "instructions": 1003,
+    "history": 7037,
+    "incoming": 4443,
+    "reference": 97625,
+    "total": 110108
+  },
+  "budget": {
+    "range": [
+      12000,
+      45000
+    ],
+    "enforced": true,
+    "ok": true,
+    "measured": 12218
+  },
+  "similarity": {
+    "exact": {
+      "n": 3,
+      "min": 1.0,
+      "p10": 1.0,
+      "p50": 1.0,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "format": {
+      "n": 4,
+      "min": 1.0,
+      "p10": 1.0,
+      "p50": 1.0,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "reorder": {
+      "n": 2,
+      "min": 0.849,
+      "p10": 0.849,
+      "p50": 0.867,
+      "p90": 0.867,
+      "max": 0.867
+    },
+    "edit": {
+      "n": 3,
+      "min": 0.725,
+      "p10": 0.725,
+      "p50": 0.774,
+      "p90": 0.822,
+      "max": 0.822
+    },
+    "paraphrase": {
+      "n": 4,
+      "min": 0.098,
+      "p10": 0.098,
+      "p50": 0.233,
+      "p90": 0.25,
+      "max": 0.25
+    },
+    "hard_negative": {
+      "n": 8,
+      "min": 0.608,
+      "p10": 0.608,
+      "p50": 0.804,
+      "p90": 0.931,
+      "max": 0.931
+    },
+    "confusable": {
+      "n": 0
+    },
+    "random": {
+      "n": 198,
+      "min": 0.0,
+      "p10": 0.0,
+      "p50": 0.012,
+      "p90": 0.119,
+      "max": 0.574
+    }
+  },
+  "text_for_similarity": "subject + body",
+  "answer_histogram": {
+    "{\"host\": \"batch-06\", \"service\": \"nginx\"}": 2,
+    "{\"host\": \"cache-04\", \"service\": \"ssh\"}": 2,
+    "{\"host\": \"edge-05\", \"service\": \"nginx\"}": 2,
+    "{\"host\": \"worker-02\", \"used_pct\": 78}": 2,
+    "{\"host\": \"worker-08\", \"parameter\": \"vm.max_map_count\"}": 2,
+    "{\"days\": 140, \"host\": \"worker-05\"}": 1,
+    "{\"days\": 172, \"host\": \"proxy-03\"}": 1,
+    "{\"days\": 174, \"host\": \"api-02\"}": 1,
+    "{\"days\": 23, \"host\": \"cache-02\"}": 1,
+    "{\"days\": 47, \"host\": \"edge-05\"}": 1,
+    "{\"days\": 48, \"host\": \"cache-03\"}": 1,
+    "{\"days\": 5, \"host\": \"batch-07\"}": 1
+  },
+  "max_answer_share": 0.05,
+  "content": {
+    "scenarios": 24,
+    "files_per_scenario": [
+      6,
+      9
+    ],
+    "tokens_per_scenario": {
+      "min": 3315,
+      "mean": 4067,
+      "max": 5112
+    },
+    "within_group_jaccard_p50": {
+      "min": 0.982,
+      "max": 1.0
+    },
+    "cross_group_jaccard_max": 0.0,
+    "groups_per_scenario": [
+      1,
+      1
+    ],
+    "normalisation": "lower-case alphanumeric tokens, digit runs masked to 0, word 3-shingles"
+  }
+}

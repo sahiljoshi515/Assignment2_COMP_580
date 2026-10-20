@@ -1,0 +1,10 @@
+{
+  "tid": "T-b14d5f",
+  "seq": 10,
+  "scenario": "mbx-1152",
+  "kind": "message_count",
+  "target": "office-move",
+  "subject": "MBX-1152: how many messages in the office-move thread",
+  "body": "Hello -- Grace Okafor, compliiance. How long is the office\nmove to harbour house thread, in messages?\n\nEvery message is its own file; quoted text inide a reply\ndoes not count as a message.\n\nRegards, Grace Okafor -- compliance",
+  "received": "2026-01-23"
+}

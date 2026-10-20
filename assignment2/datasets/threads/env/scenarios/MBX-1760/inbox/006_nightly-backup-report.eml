@@ -1,0 +1,16 @@
+From: Backup Service <backup-bot@pinewoodlegal.example>
+To: ops-notify@pinewoodlegal.example
+Date: Sun, 05 Apr 2026 02:52:00 +0000
+Subject: Nightly backup report - wiki-and-tracker - 2026-04-04
+
+Nightly backup report for 2026-04-04
+Job: wiki-and-tracker
+Status: FAILED (credentials expired)
+Started: 02:04:45 UTC   Finished: 02:52:19 UTC   Duration: 48 min
+Bytes transferred: 50.4 GB   Files: 914,633   Changed since last run: 5.1 %
+Retention: 30 daily, 12 weekly, 6 monthly
+Next run: 2026-04-05 02:00 UTC
+
+-- 
+This message was generated automatically by the backup service. Replies are not read.
+To change the schedule or the recipients, edit the job in the backup console.

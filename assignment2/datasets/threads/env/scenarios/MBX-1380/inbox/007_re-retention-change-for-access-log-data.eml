@@ -1,0 +1,28 @@
+From: Priya Nair <priya.nair@ferrosons.example>
+To: Arjun Mehta <arjun.mehta@ferrosons.example>
+Cc: aisha.bello@ferrosons.example, luca.moretti@ferrosons.example, sofia.rossi@ferrosons.example
+Date: Sat, 02 May 2026 17:24:00 +0000
+Subject: Re: Retention change for access log data
+
+My only concern is timing: we have the audit in the same window, and I would rather not run both at once.
+
+-- 
+Priya
+
+On Sat, 02 May 2026 17:09:00 +0000, Arjun Mehta wrote:
+> We looked at the two alternatives; both were cheaper on paper and more expensive once the migration effort was counted.
+>
+> -- 
+> Arjun
+>
+> On Fri, 01 May 2026 15:19:00 +0000, Mei Lin wrote:
+> > Quick question -- is there a cheaper option we have ruled out, and why?
+> >
+> > -- 
+> > Mei
+> >
+> > On Fri, 01 May 2026 15:04:00 +0000, Arjun Mehta wrote:
+> > > I would like to shorten the retention of access log data to one year. Legal has confirmed one year is sufficient for access log records. Storage for access log is the largest single line in the data budget. Could you take a look and let me know whether you can approve it?
+> > >
+> > > -- 
+> > > Arjun

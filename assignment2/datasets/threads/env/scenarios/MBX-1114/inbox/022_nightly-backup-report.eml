@@ -1,0 +1,16 @@
+From: Backup Service <backup-bot@pinewoodlegal.example>
+To: ops-notify@pinewoodlegal.example
+Date: Tue, 14 Apr 2026 03:29:00 +0000
+Subject: Nightly backup report - fileshare-nightly - 2026-04-13
+
+Nightly backup report for 2026-04-13
+Job: fileshare-nightly
+Status: FAILED (credentials expired)
+Started: 02:03:49 UTC   Finished: 03:29:04 UTC   Duration: 86 min
+Bytes transferred: 46.8 GB   Files: 1,363,867   Changed since last run: 0.8 %
+Retention: 30 daily, 12 weekly, 6 monthly
+Next run: 2026-04-14 02:00 UTC
+
+-- 
+This message was generated automatically by the backup service. Replies are not read.
+To change the schedule or the recipients, edit the job in the backup console.

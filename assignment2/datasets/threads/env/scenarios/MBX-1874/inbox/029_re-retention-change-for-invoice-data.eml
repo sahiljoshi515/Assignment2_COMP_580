@@ -1,0 +1,40 @@
+From: Kenji Sato <kenji.sato@tessalabs.example>
+To: Sofia Rossi <sofia.rossi@tessalabs.example>
+Cc: daniel.ortega@tessalabs.example, luca.moretti@tessalabs.example, omar.haddad@tessalabs.example
+Date: Tue, 03 Mar 2026 17:19:00 +0000
+Subject: Re: Retention change for invoice data
+
+Correction to my note above: having seen the revised numbers, i have to say no to this one. We will not shorten the retention of invoice data to one year; the risk is not worth the saving.
+
+-- 
+Kenji
+
+On Sun, 01 Mar 2026 13:44:00 +0000, Kenji Sato wrote:
+> Decision: deferred. Let's not shorten the retention of invoice data to one year yet; after the audit closes next month.
+>
+> -- 
+> Kenji
+>
+> On Fri, 27 Feb 2026 14:19:00 +0000, Daniel Ortega wrote:
+> > I lean yes, provided the cost stays inside the current budget line.
+> >
+> > -- 
+> > Daniel
+> >
+> > On Thu, 26 Feb 2026 08:13:00 +0000, Sofia Rossi wrote:
+> > > If we wait, we lose the current terms and start over in the next quarter, which costs us about a month.
+> > >
+> > > -- 
+> > > Sofia
+> > >
+> > > On Wed, 25 Feb 2026 12:03:00 +0000, Grace Okafor wrote:
+> > > > Before I weigh in: what happens if we do nothing until the next quarter?
+> > > >
+> > > > -- 
+> > > > Grace
+> > > >
+> > > > On Wed, 25 Feb 2026 10:28:00 +0000, Sofia Rossi wrote:
+> > > > > I would like to shorten the retention of invoice data to one year. Legal has confirmed one year is sufficient for invoice records. Storage for invoice is the largest single line in the data budget. Could you take a look and let me know whether you can approve it?
+> > > > >
+> > > > > -- 
+> > > > > Sofia

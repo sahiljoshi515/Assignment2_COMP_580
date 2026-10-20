@@ -1,0 +1,11 @@
+{
+  "tid": "T-1e5bcf",
+  "seq": 18,
+  "exception": "KeyError",
+  "top_frame": "lattice/store/query.py::run",
+  "version": "3.2.9",
+  "title": "query.run raises KeyError when importing a CSV file",
+  "body": "ENVIRONMENT:\n\nLattice version 3.2.9; operating system Ubuntu 24.04 LTS;\nserver region us-west-2.\n\nSTEPS:\n\nSteps to reproduce:\n* Open Lattice and begin importing a CSV file.\n* Edit the settings file and use the renamed key.\n* Watch the log for the traceback below.\n\nEXPECTED:\n\nAs on every earlier run, importing a CSV file should just\ncomplete.\n\nACTUAL:\n\nThe missing key is the old name of a setting that was\nrenamed. Following the release notes we renamed that key in\nthe settings file.\n\nFREQUENCY:\n\nReproduces only on the first run after login.",
+  "stacktrace": "lattice/ui/main.py:46 in loop\nlattice/ui/dialog.py:88 in on_import\nlattice/io/batch.py:55 in run_import\nlattice/store/query.py:151 in run\nKeyError: 'legacy_id'",
+  "reported": "2026-01-28"
+}

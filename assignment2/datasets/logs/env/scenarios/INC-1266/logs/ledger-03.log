@@ -1,0 +1,94 @@
+2026-02-20T10:34:00Z ledger-03 INFO  starting ledger 8.16.8 (build 82bdd67) on ledger-03
+2026-02-20T10:34:01Z ledger-03 INFO  config: max_connections=512
+2026-02-20T10:34:01Z ledger-03 INFO  config: pool_size=16
+2026-02-20T10:34:01Z ledger-03 INFO  config: request_timeout_ms=2000
+2026-02-20T10:34:01Z ledger-03 INFO  config: cache_ttl_s=60
+2026-02-20T10:34:01Z ledger-03 INFO  config: log_level=DEBUG
+2026-02-20T10:34:01Z ledger-03 INFO  config: queue_depth=100
+2026-02-20T10:34:01Z ledger-03 INFO  config: gc_interval_s=60
+2026-02-20T10:34:02Z ledger-03 INFO  listening on 0.0.0.0:8080; workers=8
+2026-02-20T10:34:00Z ledger-03 INFO  health check ok (latency 1ms)
+2026-02-20T10:34:03Z ledger-03 INFO  GET /v1/orders/33356 200 in 173ms rid=3b65c9
+2026-02-20T10:34:11Z ledger-03 INFO  GET /v1/search 200 in 81ms rid=402aae
+2026-02-20T10:34:17Z ledger-03 INFO  metrics: rps=88 p99=797ms heap=1436MB goroutines=281
+2026-02-20T10:34:19Z ledger-03 INFO  GET /v1/orders/83019 200 in 378ms rid=f2850e
+2026-02-20T10:34:27Z ledger-03 INFO  DELETE /v1/cart/64581 200 in 271ms rid=46c4ef
+2026-02-20T10:34:30Z ledger-03 INFO  health check ok (latency 5ms)
+2026-02-20T10:34:35Z ledger-03 INFO  PUT /v1/cart 200 in 67ms rid=19a84c
+2026-02-20T10:34:41Z ledger-03 WARN  connection pool at 14% capacity
+2026-02-20T10:34:43Z ledger-03 INFO  POST /v1/payments 200 in 69ms rid=a6d333
+2026-02-20T10:34:51Z ledger-03 INFO  POST /v1/orders 200 in 387ms rid=ab8c50
+2026-02-20T10:34:59Z ledger-03 INFO  POST /v1/orders 200 in 171ms rid=c324c2
+2026-02-20T10:35:00Z ledger-03 INFO  health check ok (latency 1ms)
+2026-02-20T10:35:07Z ledger-03 INFO  GET /v1/search 200 in 80ms rid=6704ca
+2026-02-20T10:35:15Z ledger-03 INFO  GET /v1/items/1675 200 in 41ms rid=cd3107
+2026-02-20T10:35:23Z ledger-03 INFO  GET /v1/profile 200 in 72ms rid=def554
+2026-02-20T10:35:30Z ledger-03 INFO  health check ok (latency 7ms)
+2026-02-20T10:35:31Z ledger-03 INFO  GET /v1/search 200 in 322ms rid=cbd723
+2026-02-20T10:35:39Z ledger-03 INFO  GET /v1/profile 200 in 108ms rid=15bdda
+2026-02-20T10:35:47Z ledger-03 INFO  POST /v1/refunds 200 in 35ms rid=9841bc
+2026-02-20T10:35:55Z ledger-03 INFO  PUT /v1/cart 200 in 341ms rid=b571a2
+2026-02-20T10:36:00Z ledger-03 INFO  health check ok (latency 5ms)
+2026-02-20T10:36:03Z ledger-03 INFO  POST /v1/orders 200 in 28ms rid=431622
+2026-02-20T10:36:11Z ledger-03 INFO  POST /v1/payments 200 in 231ms rid=616643
+2026-02-20T10:36:17Z ledger-03 INFO  metrics: rps=187 p99=692ms heap=430MB goroutines=701
+2026-02-20T10:36:18Z ledger-03 WARN  slow query took 25ms on shard 1
+2026-02-20T10:36:19Z ledger-03 INFO  DELETE /v1/cart/7454 200 in 361ms rid=d2045e
+2026-02-20T10:36:27Z ledger-03 INFO  GET /v1/orders/72277 200 in 314ms rid=e7db2a
+2026-02-20T10:36:30Z ledger-03 INFO  health check ok (latency 2ms)
+2026-02-20T10:36:35Z ledger-03 INFO  PUT /v1/cart 200 in 144ms rid=3c7ef3
+2026-02-20T10:36:43Z ledger-03 INFO  GET /v1/search 200 in 126ms rid=1d9ff9
+2026-02-20T10:36:51Z ledger-03 INFO  DELETE /v1/cart/39071 200 in 121ms rid=5e4470
+2026-02-20T10:36:59Z ledger-03 INFO  GET /v1/profile 200 in 80ms rid=590795
+2026-02-20T10:37:00Z ledger-03 INFO  health check ok (latency 5ms)
+2026-02-20T10:37:07Z ledger-03 INFO  POST /v1/payments 200 in 123ms rid=e25e2b
+2026-02-20T10:37:15Z ledger-03 INFO  GET /health 200 in 239ms rid=c1a5dd
+2026-02-20T10:37:23Z ledger-03 INFO  POST /v1/payments 200 in 187ms rid=dd2899
+2026-02-20T10:37:30Z ledger-03 INFO  health check ok (latency 1ms)
+2026-02-20T10:37:31Z ledger-03 INFO  GET /v1/orders/6725 200 in 15ms rid=4d006a
+2026-02-20T10:37:39Z ledger-03 INFO  GET /v1/profile 200 in 93ms rid=074bab
+2026-02-20T10:37:47Z ledger-03 INFO  POST /v1/orders 200 in 123ms rid=b19b47
+2026-02-20T10:37:55Z ledger-03 INFO  POST /v1/payments 200 in 13ms rid=ecf39f
+2026-02-20T10:37:55Z ledger-03 WARN  cache miss ratio above 0.88
+2026-02-20T10:38:00Z ledger-03 INFO  health check ok (latency 1ms)
+2026-02-20T10:38:03Z ledger-03 INFO  PUT /v1/cart 200 in 209ms rid=9f033d
+2026-02-20T10:38:11Z ledger-03 INFO  DELETE /v1/cart/78347 200 in 318ms rid=856773
+2026-02-20T10:38:17Z ledger-03 INFO  metrics: rps=175 p99=217ms heap=1616MB goroutines=589
+2026-02-20T10:38:19Z ledger-03 INFO  POST /v1/payments 200 in 282ms rid=2aa731
+2026-02-20T10:38:27Z ledger-03 INFO  POST /v1/refunds 200 in 289ms rid=94c7da
+2026-02-20T10:38:30Z ledger-03 INFO  health check ok (latency 9ms)
+2026-02-20T10:38:35Z ledger-03 INFO  GET /health 200 in 166ms rid=73dd30
+2026-02-20T10:38:43Z ledger-03 INFO  GET /v1/orders/14441 200 in 349ms rid=09b9d6
+2026-02-20T10:38:51Z ledger-03 INFO  POST /v1/refunds 200 in 381ms rid=4bc093
+2026-02-20T10:38:59Z ledger-03 INFO  GET /v1/items/9774 200 in 196ms rid=5be4fe
+2026-02-20T10:39:00Z ledger-03 INFO  health check ok (latency 4ms)
+2026-02-20T10:39:07Z ledger-03 INFO  GET /v1/profile 200 in 264ms rid=7a2225
+2026-02-20T10:39:15Z ledger-03 INFO  GET /health 200 in 119ms rid=ff56e1
+2026-02-20T10:39:23Z ledger-03 INFO  POST /v1/orders 200 in 152ms rid=c6c267
+2026-02-20T10:39:30Z ledger-03 INFO  health check ok (latency 10ms)
+2026-02-20T10:39:31Z ledger-03 INFO  GET /v1/search 200 in 188ms rid=0aaae2
+2026-02-20T10:39:32Z ledger-03 WARN  connection pool at 70% capacity
+2026-02-20T10:39:39Z ledger-03 INFO  DELETE /v1/cart/76715 200 in 117ms rid=5e0cb4
+2026-02-20T10:39:47Z ledger-03 INFO  GET /v1/orders/72448 200 in 300ms rid=2565ac
+2026-02-20T10:39:55Z ledger-03 INFO  DELETE /v1/cart/51867 200 in 58ms rid=c16ea5
+2026-02-20T10:40:00Z ledger-03 INFO  health check ok (latency 10ms)
+2026-02-20T10:40:03Z ledger-03 INFO  POST /v1/refunds 200 in 350ms rid=d3a817
+2026-02-20T10:40:11Z ledger-03 INFO  GET /health 200 in 185ms rid=68d3a0
+2026-02-20T10:40:17Z ledger-03 INFO  metrics: rps=313 p99=753ms heap=1477MB goroutines=426
+2026-02-20T10:40:19Z ledger-03 INFO  POST /v1/payments 200 in 42ms rid=7b651b
+2026-02-20T10:40:27Z ledger-03 INFO  PUT /v1/cart 200 in 391ms rid=3e147f
+2026-02-20T10:40:30Z ledger-03 INFO  health check ok (latency 9ms)
+2026-02-20T10:40:35Z ledger-03 INFO  DELETE /v1/cart/15888 200 in 123ms rid=f1e797
+2026-02-20T10:40:43Z ledger-03 INFO  PUT /v1/cart 200 in 339ms rid=1a565a
+2026-02-20T10:40:51Z ledger-03 INFO  POST /v1/refunds 200 in 305ms rid=7d81d4
+2026-02-20T10:40:59Z ledger-03 INFO  GET /v1/orders/54285 200 in 385ms rid=3ba016
+2026-02-20T10:41:00Z ledger-03 INFO  health check ok (latency 9ms)
+2026-02-20T10:41:07Z ledger-03 INFO  POST /v1/payments 200 in 267ms rid=41fcd9
+2026-02-20T10:41:09Z ledger-03 WARN  slow query took 30ms on shard 3
+2026-02-20T10:41:15Z ledger-03 INFO  PUT /v1/cart 200 in 80ms rid=0448f1
+2026-02-20T10:41:23Z ledger-03 INFO  POST /v1/payments 200 in 345ms rid=fbcad6
+2026-02-20T10:41:30Z ledger-03 INFO  health check ok (latency 9ms)
+2026-02-20T10:41:31Z ledger-03 INFO  GET /v1/profile 200 in 191ms rid=5d6c6b
+2026-02-20T10:41:39Z ledger-03 INFO  POST /v1/payments 200 in 78ms rid=81afef
+2026-02-20T10:41:47Z ledger-03 INFO  GET /health 200 in 313ms rid=695e63
+2026-02-20T10:41:55Z ledger-03 INFO  GET /v1/profile 200 in 22ms rid=b3e522

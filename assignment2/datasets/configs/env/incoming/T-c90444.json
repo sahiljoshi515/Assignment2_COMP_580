@@ -1,0 +1,10 @@
+{
+  "tid": "T-c90444",
+  "seq": 22,
+  "scenario": "CFG1684",
+  "kind": "log_level_of",
+  "target": "canary",
+  "subject": "CFG-1684: what log level does canary use",
+  "body": "Hi, Mei Lin from the support team here. Read the canary configuration of shipping-api and report its logging level.\n\nIt is the value of logging.level in that environment's file.\n\nThanks, Mei Lin",
+  "received": "2026-02-18"
+}

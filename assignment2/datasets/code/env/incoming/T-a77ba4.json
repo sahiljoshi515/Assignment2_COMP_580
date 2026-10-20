@@ -1,0 +1,10 @@
+{
+  "tid": "T-a77ba4",
+  "seq": 24,
+  "scenario": "sdk-1456",
+  "kind": "timeout_drift",
+  "target": null,
+  "subject": "SDK-1456: which adapter uses a different timeout",
+  "body": "Hi, Omar Haddad from the infra team here. Which ledgerline adapter drifted on its HTTP timeout constant, and to what value?\n\nCompare the module constants across adapters/.\n\nThanks, Omar Haddad",
+  "received": "2026-02-22"
+}

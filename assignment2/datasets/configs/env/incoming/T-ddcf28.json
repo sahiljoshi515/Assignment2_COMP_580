@@ -1,0 +1,10 @@
+{
+  "tid": "T-ddcf28",
+  "seq": 29,
+  "scenario": "CFG1456",
+  "kind": "replicas_of",
+  "target": "dev",
+  "subject": "CFG-1456: how many replicas does dev run",
+  "body": "Tomas Vik (platform) writing with a quick request. Please read config/dev.yaml for billing-api and\ngive me its replica count.\n\nThe value is the integer under the service section, key replicas.\n\nRegards, Tomas Vik -- platform",
+  "received": "2026-03-04"
+}

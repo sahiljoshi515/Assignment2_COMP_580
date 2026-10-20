@@ -1,0 +1,18 @@
+{
+  "tid": "T-9752f8",
+  "seq": 66,
+  "citation": {
+    "authors": [
+      "Silva, Mei",
+      "Adeyemi, Aisha",
+      "Evans, Kenji"
+    ],
+    "title": "Learned indexing for robust node categorization",
+    "venue": "SIGIR",
+    "year": 2025,
+    "doi": "10.5555/kdd.2025.5cea",
+    "pages": "3925-3934"
+  },
+  "raw": "@inproceedings{silva2025learned,\n  author = {Silva, Mei and Adeyemi, Aisha and Evans, Kenji},\n  title = {Learned indexing for robust node categorization},\n  booktitle = {SIGIR},\n  year = {2025},\n  publisher = {ACM},\n  pages = {3925--3934},\n  doi = {10.5555/kdd.2025.5cea},\n}",
+  "received": "2026-03-24"
+}

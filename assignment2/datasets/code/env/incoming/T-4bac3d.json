@@ -1,0 +1,10 @@
+{
+  "tid": "T-4bac3d",
+  "seq": 35,
+  "scenario": "SDK1228",
+  "kind": "base_url_of",
+  "target": "klarna",
+  "subject": "SDK-1228: what base URL does the klarna adapter call",
+  "body": "Hi, Jonas Berg from the platform team here. What is the BASE_URL constant of the\nklarna adapter in the tollgate SDK?\n\nReport the string exactly as written in the module.\n\nMuch appreciated, Jonas Berg",
+  "received": "2026-03-17"
+}

@@ -1,0 +1,10 @@
+{
+  "tid": "T-dd6c39",
+  "seq": 67,
+  "product": "pixelforge",
+  "error_code": "e-4133",
+  "platform": "macos",
+  "subject": "E-4133: token rejected on macOS",
+  "body": "Hi, I'm using PixelForge 6.0.4 on macOS 14.7. Since the weekend, every time I open the app, I get 'E-4133: authentication token rejected'.\n\nThe failure is specific to the office network, the hotspot is fine. Our IT rolled out a new proxy to every desk this month.\n\nWhat I tried so far: waiting a day. No luck.\n\nSofia Rossi - Ferro & Sons. Appreciate any pointers.",
+  "opened": "2026-03-25"
+}

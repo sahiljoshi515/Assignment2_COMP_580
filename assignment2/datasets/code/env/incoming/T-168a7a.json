@@ -1,0 +1,10 @@
+{
+  "tid": "T-168a7a",
+  "seq": 6,
+  "scenario": "sdk-1190",
+  "kind": "missing_idempotency",
+  "target": null,
+  "subject": "SDK-1190: which adapter forgets the idempotency key",
+  "body": "Hi, Mei Lin from the support team here. Find the adapter that violates R4: one of its two idempotent\noperations calls _request without an idempotency key. File and method, please.\n\nCompare the charge and refund methods across the adapter files.\n\nRegards, Mei Lin -- support",
+  "received": "2026-01-15"
+}

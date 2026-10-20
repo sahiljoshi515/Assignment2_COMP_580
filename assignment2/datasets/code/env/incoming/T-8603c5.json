@@ -1,0 +1,10 @@
+{
+  "tid": "T-8603c5",
+  "seq": 26,
+  "scenario": "sdk-1608",
+  "kind": "missing_idempotency",
+  "target": null,
+  "subject": "SDK-1608: which adapter forgets the idempotency key",
+  "body": "Hello -- Ivan Petrov, compliance. Which paylane adapter has a charge or refund\nmethod that omits the idempotency key required by R4, and which method is it?\n\nCompare the charge and refund methods across the adapter files.\n\nRegards, Ivan Petrov -- compliance",
+  "received": "2026-02-26"
+}

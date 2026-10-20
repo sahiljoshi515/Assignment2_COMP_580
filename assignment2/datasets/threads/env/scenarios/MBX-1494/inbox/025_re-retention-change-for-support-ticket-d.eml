@@ -1,0 +1,16 @@
+From: Grace Okafor <grace.okafor@northbankstudio.example>
+To: Jonas Berg <jonas.berg@northbankstudio.example>
+Cc: priya.nair@northbankstudio.example, sofia.rossi@northbankstudio.example, tomas.vik@northbankstudio.example
+Date: Wed, 06 May 2026 15:44:00 +0000
+Subject: Re: Retention change for support ticket data
+
+Quick question -- is there a cheaper option we have ruled out, and why?
+
+-- 
+Grace
+
+On Tue, 05 May 2026 16:56:00 +0000, Jonas Berg wrote:
+> I would like to shorten the retention of support ticket data to one year. Legal has confirmed one year is sufficient for support ticket records. Storage for support ticket is the largest single line in the data budget. Could you take a look and let me know whether you can approve it?
+>
+> -- 
+> Jonas

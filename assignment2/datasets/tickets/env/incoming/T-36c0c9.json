@@ -1,0 +1,10 @@
+{
+  "tid": "T-36c0c9",
+  "seq": 36,
+  "product": "MeshMail",
+  "error_code": "E-3196",
+  "platform": "windows",
+  "subject": "E-3196: TLS handshake failed on Windows",
+  "body": "Hi, I'm using MeshMail 2.8.6 on Windows 11 24H2. Starting Tuesday, the moment I connect a dialog reads 'E-3196: TLS handshake failed'.\n\nThe clock shows a wrong date since the motherboard battery died. The login page in the browser also shows a certificate warning.\n\nWhat I tried so far: closing every other program. No luck.\n\nThanks, Sofia Rossi (Halden Logistics)",
+  "opened": "2026-02-16"
+}

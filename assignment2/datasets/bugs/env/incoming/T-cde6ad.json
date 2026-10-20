@@ -1,0 +1,11 @@
+{
+  "tid": "T-cde6ad",
+  "seq": 60,
+  "exception": "TypeError",
+  "top_frame": "lattice/ui/form.py::submit",
+  "version": "3.3.2",
+  "title": "form.submit raises TypeError when running a bulk import",
+  "body": "Environment\n\nRunning Lattice 3.3.2 on macOS 15.3 against eu-west-2.\n\nSteps\n\nTo reproduce:\n* Open Lattice and begin running a bulk import.\n* Use an input with an odd number of rows.\n* Watch the log for the traceback below.\n\nExpected\n\nNo traceback; running a bulk import normally takes a few\nseconds.\n\nActual\n\nEvery row works except the last row, which raises. Adding a\nline moves the failure to the new last row.\n\nFrequency\n\nReproduces twice this week.",
+  "stacktrace": "lattice/ui/main.py:51 in loop\nlattice/ui/dialog.py:93 in on_import\nlattice/io/batch.py:56 in run_import\nlattice/ui/form.py:257 in submit\nTypeError: 'NoneType' object is not subscriptable",
+  "reported": "2026-03-28"
+}

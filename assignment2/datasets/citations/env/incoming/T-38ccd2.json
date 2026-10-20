@@ -1,0 +1,17 @@
+{
+  "tid": "T-38ccd2",
+  "seq": 16,
+  "citation": {
+    "authors": [
+      "Zahra,Jonas",
+      "Weber,Elena",
+      "Tanaka,Zoe"
+    ],
+    "title": "Dense Retrieval with Interpretable Transformers",
+    "venue": "ICCV",
+    "year": 2015,
+    "doi": "10.5555/iccv.2016.9348"
+  },
+  "raw": "@inproceedings{zahra:dense,\n  author = {Zahra,Jonas and Weber,Elena and Tanaka,Zoe},\n  title = {Dense Retrieval with Interpretable Transformers},\n  booktitle = {Proc. of ICCV},\n  year = {2015},\n  publisher = {IEEE},\n  month = {sep},\n  doi = {10.5555/iccv.2016.9348},\n  note = {Available at https://proceedings.example.org/iccv/311},\n}",
+  "received": "2026-01-23"
+}

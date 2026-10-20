@@ -1,0 +1,106 @@
+2026-04-28T18:52:17Z billing-05 INFO  starting billing 3.3.4 (build 07127db) on billing-05
+2026-04-28T18:52:18Z billing-05 INFO  config: max_connections=256
+2026-04-28T18:52:18Z billing-05 INFO  config: pool_size=8
+2026-04-28T18:52:18Z billing-05 INFO  config: request_timeout_ms=8000
+2026-04-28T18:52:18Z billing-05 INFO  config: cache_ttl_s=60
+2026-04-28T18:52:18Z billing-05 INFO  config: log_level=DEBUG
+2026-04-28T18:52:18Z billing-05 INFO  config: queue_depth=100
+2026-04-28T18:52:18Z billing-05 INFO  config: gc_interval_s=60
+2026-04-28T18:52:19Z billing-05 INFO  listening on 0.0.0.0:8080; workers=16
+2026-04-28T18:52:17Z billing-05 INFO  health check ok (latency 7ms)
+2026-04-28T18:52:20Z billing-05 INFO  GET /v1/search 200 in 122ms rid=1e3263
+2026-04-28T18:52:28Z billing-05 INFO  GET /v1/orders/49384 200 in 62ms rid=61a269
+2026-04-28T18:52:34Z billing-05 INFO  metrics: rps=198 p99=216ms heap=596MB goroutines=491
+2026-04-28T18:52:36Z billing-05 INFO  GET /v1/orders/16421 200 in 51ms rid=9e2a91
+2026-04-28T18:52:44Z billing-05 INFO  GET /v1/profile 200 in 132ms rid=abf297
+2026-04-28T18:52:47Z billing-05 INFO  health check ok (latency 3ms)
+2026-04-28T18:52:52Z billing-05 INFO  POST /v1/refunds 200 in 37ms rid=3624ee
+2026-04-28T18:52:58Z billing-05 WARN  slow query took 16ms on shard 2
+2026-04-28T18:53:00Z billing-05 INFO  GET /v1/search 200 in 314ms rid=362a8a
+2026-04-28T18:53:08Z billing-05 INFO  DELETE /v1/cart/29584 200 in 290ms rid=1f6088
+2026-04-28T18:53:16Z billing-05 INFO  POST /v1/payments 200 in 387ms rid=068bb3
+2026-04-28T18:53:17Z billing-05 INFO  health check ok (latency 10ms)
+2026-04-28T18:53:24Z billing-05 INFO  PUT /v1/cart 200 in 112ms rid=198673
+2026-04-28T18:53:32Z billing-05 INFO  GET /v1/profile 200 in 15ms rid=e43389
+2026-04-28T18:53:40Z billing-05 INFO  GET /v1/items/87515 200 in 292ms rid=0186de
+2026-04-28T18:53:47Z billing-05 INFO  health check ok (latency 8ms)
+2026-04-28T18:53:48Z billing-05 INFO  GET /health 200 in 317ms rid=5c90cb
+2026-04-28T18:53:56Z billing-05 INFO  POST /v1/payments 200 in 191ms rid=874295
+2026-04-28T18:54:04Z billing-05 INFO  GET /v1/profile 200 in 284ms rid=e8e5d3
+2026-04-28T18:54:12Z billing-05 INFO  GET /v1/profile 200 in 64ms rid=6b7ffa
+2026-04-28T18:54:17Z billing-05 INFO  health check ok (latency 7ms)
+2026-04-28T18:54:20Z billing-05 INFO  GET /v1/search 200 in 360ms rid=c87fd6
+2026-04-28T18:54:28Z billing-05 INFO  GET /v1/orders/3998 200 in 356ms rid=1b1d4e
+2026-04-28T18:54:34Z billing-05 INFO  metrics: rps=369 p99=613ms heap=211MB goroutines=573
+2026-04-28T18:54:35Z billing-05 WARN  retrying upstream call (attempt 1/3)
+2026-04-28T18:54:36Z billing-05 INFO  POST /v1/payments 200 in 210ms rid=0954ac
+2026-04-28T18:54:44Z billing-05 INFO  POST /v1/refunds 200 in 290ms rid=960e29
+2026-04-28T18:54:47Z billing-05 INFO  health check ok (latency 1ms)
+2026-04-28T18:54:52Z billing-05 INFO  DELETE /v1/cart/94319 200 in 187ms rid=f54748
+2026-04-28T18:55:00Z billing-05 INFO  PUT /v1/cart 200 in 137ms rid=f789f2
+2026-04-28T18:55:08Z billing-05 INFO  DELETE /v1/cart/76845 200 in 60ms rid=94b6f6
+2026-04-28T18:55:16Z billing-05 INFO  GET /v1/items/74808 200 in 121ms rid=e979fe
+2026-04-28T18:55:17Z billing-05 INFO  health check ok (latency 5ms)
+2026-04-28T18:55:24Z billing-05 INFO  GET /v1/profile 200 in 314ms rid=72c35f
+2026-04-28T18:55:32Z billing-05 INFO  POST /v1/orders 200 in 232ms rid=d75868
+2026-04-28T18:55:40Z billing-05 INFO  PUT /v1/cart 200 in 358ms rid=ea6d1f
+2026-04-28T18:55:47Z billing-05 INFO  health check ok (latency 4ms)
+2026-04-28T18:55:48Z billing-05 INFO  GET /v1/orders/52849 200 in 63ms rid=3e713d
+2026-04-28T18:55:56Z billing-05 INFO  PUT /v1/cart 200 in 32ms rid=44f8c0
+2026-04-28T18:56:04Z billing-05 INFO  POST /v1/refunds 200 in 132ms rid=820b2c
+2026-04-28T18:56:12Z billing-05 INFO  GET /v1/items/23928 200 in 265ms rid=d25fa2
+2026-04-28T18:56:12Z billing-05 WARN  slow query took 13ms on shard 2
+2026-04-28T18:56:17Z billing-05 INFO  health check ok (latency 8ms)
+2026-04-28T18:56:20Z billing-05 INFO  GET /v1/profile 200 in 58ms rid=7b2458
+2026-04-28T18:56:28Z billing-05 INFO  GET /health 200 in 293ms rid=031ed1
+2026-04-28T18:56:34Z billing-05 INFO  metrics: rps=126 p99=894ms heap=785MB goroutines=576
+2026-04-28T18:56:36Z billing-05 INFO  GET /v1/orders/83641 200 in 198ms rid=b680b7
+2026-04-28T18:56:44Z billing-05 INFO  POST /v1/payments 200 in 161ms rid=347e92
+2026-04-28T18:56:47Z billing-05 INFO  health check ok (latency 6ms)
+2026-04-28T18:56:52Z billing-05 INFO  GET /v1/profile 200 in 209ms rid=02a4b0
+2026-04-28T18:57:00Z billing-05 INFO  POST /v1/payments 200 in 90ms rid=641ef8
+2026-04-28T18:57:08Z billing-05 INFO  POST /v1/orders 200 in 7ms rid=da0992
+2026-04-28T18:57:16Z billing-05 INFO  GET /health 200 in 104ms rid=469f86
+2026-04-28T18:57:17Z billing-05 INFO  health check ok (latency 10ms)
+2026-04-28T18:57:24Z billing-05 INFO  DELETE /v1/cart/2310 200 in 176ms rid=c3a24f
+2026-04-28T18:57:32Z billing-05 INFO  POST /v1/orders 200 in 115ms rid=b6b57f
+2026-04-28T18:57:40Z billing-05 INFO  GET /v1/orders/14664 200 in 104ms rid=60c694
+2026-04-28T18:57:47Z billing-05 INFO  health check ok (latency 9ms)
+2026-04-28T18:57:48Z billing-05 INFO  DELETE /v1/cart/32704 200 in 249ms rid=6f2eb0
+2026-04-28T18:57:49Z billing-05 WARN  connection pool at 33% capacity
+2026-04-28T18:57:56Z billing-05 INFO  POST /v1/orders 200 in 212ms rid=9a452c
+2026-04-28T18:58:04Z billing-05 INFO  POST /v1/orders 200 in 377ms rid=f0ef7f
+2026-04-28T18:58:12Z billing-05 INFO  POST /v1/refunds 200 in 72ms rid=15091c
+2026-04-28T18:58:17Z billing-05 INFO  health check ok (latency 11ms)
+2026-04-28T18:58:20Z billing-05 INFO  DELETE /v1/cart/15964 200 in 159ms rid=a13d28
+2026-04-28T18:58:28Z billing-05 INFO  GET /v1/profile 200 in 30ms rid=85e4d5
+2026-04-28T18:58:34Z billing-05 INFO  metrics: rps=77 p99=872ms heap=1542MB goroutines=170
+2026-04-28T18:58:36Z billing-05 INFO  PUT /v1/cart 200 in 355ms rid=ea53a2
+2026-04-28T18:58:44Z billing-05 INFO  POST /v1/orders 200 in 150ms rid=8daa84
+2026-04-28T18:58:47Z billing-05 INFO  health check ok (latency 9ms)
+2026-04-28T18:58:51Z billing-05 ERROR TimeoutError: user-service did not respond within 8000ms (attempt 1/3)
+2026-04-28T18:58:52Z billing-05 INFO  GET /v1/search 200 in 341ms rid=1ec013
+2026-04-28T18:58:59Z billing-05 ERROR TimeoutError: user-service did not respond within 8000ms (attempt 2/3)
+2026-04-28T18:59:00Z billing-05 INFO  GET /v1/items/41631 200 in 216ms rid=e3ef2d
+2026-04-28T18:59:07Z billing-05 ERROR TimeoutError: user-service did not respond within 8000ms (attempt 3/3)
+2026-04-28T18:59:08Z billing-05 INFO  POST /v1/payments 200 in 74ms rid=de49f0
+2026-04-28T18:59:15Z billing-05 ERROR TimeoutError: user-service did not respond within 8000ms (attempt 1/3)
+2026-04-28T18:59:16Z billing-05 INFO  GET /v1/search 503 in 38ms rid=ce5b9f
+2026-04-28T18:59:17Z billing-05 WARN  health check FAILED: user-service unreachable
+2026-04-28T18:59:23Z billing-05 ERROR TimeoutError: user-service did not respond within 8000ms (attempt 2/3)
+2026-04-28T18:59:24Z billing-05 INFO  POST /v1/payments 503 in 354ms rid=a20d17
+2026-04-28T18:59:26Z billing-05 WARN  connection pool at 28% capacity
+2026-04-28T18:59:31Z billing-05 ERROR TimeoutError: user-service did not respond within 8000ms (attempt 3/3)
+2026-04-28T18:59:32Z billing-05 INFO  DELETE /v1/cart/58245 200 in 284ms rid=c75d58
+2026-04-28T18:59:39Z billing-05 ERROR TimeoutError: user-service did not respond within 8000ms (attempt 1/3)
+2026-04-28T18:59:40Z billing-05 INFO  PUT /v1/cart 200 in 244ms rid=a60782
+2026-04-28T18:59:47Z billing-05 WARN  health check FAILED: user-service unreachable
+2026-04-28T18:59:47Z billing-05 ERROR TimeoutError: user-service did not respond within 8000ms (attempt 2/3)
+2026-04-28T18:59:48Z billing-05 INFO  DELETE /v1/cart/46222 503 in 33ms rid=a7d3a5
+2026-04-28T18:59:55Z billing-05 ERROR TimeoutError: user-service did not respond within 8000ms (attempt 3/3)
+2026-04-28T18:59:56Z billing-05 INFO  POST /v1/payments 503 in 142ms rid=197cca
+2026-04-28T19:00:03Z billing-05 ERROR TimeoutError: user-service did not respond within 8000ms (attempt 1/3)
+2026-04-28T19:00:04Z billing-05 INFO  PUT /v1/cart 200 in 175ms rid=4a3336
+2026-04-28T19:00:11Z billing-05 ERROR TimeoutError: user-service did not respond within 8000ms (attempt 2/3)
+2026-04-28T19:00:12Z billing-05 INFO  GET /v1/profile 200 in 322ms rid=e2c572
+2026-04-28T19:00:19Z billing-05 ERROR TimeoutError: giving up on user-service after 12 attempts

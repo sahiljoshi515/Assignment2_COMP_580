@@ -1,0 +1,40 @@
+From: Luca Moretti <luca.moretti@ferrosons.example>
+To: Arjun Mehta <arjun.mehta@ferrosons.example>
+Cc: aisha.bello@ferrosons.example, priya.nair@ferrosons.example, sofia.rossi@ferrosons.example
+Date: Tue, 05 May 2026 10:40:00 +0000
+Subject: Re: Retention change for access log data
+
+Correction to my note above: having seen the revised numbers, decision: not approved. We will not shorten the retention of access log data to one year this time; we come back to it in the next planning round.
+
+-- 
+Luca
+
+On Mon, 04 May 2026 08:06:00 +0000, Luca Moretti wrote:
+> I am approving this. Go ahead and shorten the retention of access log data to one year; the spend stays within the approved budget line.
+>
+> -- 
+> Luca
+>
+> On Sat, 02 May 2026 17:24:00 +0000, Priya Nair wrote:
+> > My only concern is timing: we have the audit in the same window, and I would rather not run both at once.
+> >
+> > -- 
+> > Priya
+> >
+> > On Sat, 02 May 2026 17:09:00 +0000, Arjun Mehta wrote:
+> > > We looked at the two alternatives; both were cheaper on paper and more expensive once the migration effort was counted.
+> > >
+> > > -- 
+> > > Arjun
+> > >
+> > > On Fri, 01 May 2026 15:19:00 +0000, Mei Lin wrote:
+> > > > Quick question -- is there a cheaper option we have ruled out, and why?
+> > > >
+> > > > -- 
+> > > > Mei
+> > > >
+> > > > On Fri, 01 May 2026 15:04:00 +0000, Arjun Mehta wrote:
+> > > > > I would like to shorten the retention of access log data to one year. Legal has confirmed one year is sufficient for access log records. Storage for access log is the largest single line in the data budget. Could you take a look and let me know whether you can approve it?
+> > > > >
+> > > > > -- 
+> > > > > Arjun

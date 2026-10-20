@@ -1,0 +1,11 @@
+{
+  "tid": "T-0d1492",
+  "seq": 51,
+  "exception": "LookupError",
+  "top_frame": "lattice.core.settings.validate",
+  "version": "v3.0.4",
+  "title": "LookupError in settings.validate when reloading the settings",
+  "body": "Environment\n\nRunning Lattice 3.0.4 on Windows Server 2022 against eu-\ncentral-1.\n\nSteps\n\nHow to trigger it:\n- With the log window open, start reloading the settings.\n- Use an old settings file with the retired name.\n- Watch the log for the traceback below.\n\nExpected\n\nExpected reloading the settings to finish without errors.\n\nActual\n\nThe lookup wants a name that is only in the settings file.\nThat name no longer exists in this release; the settings\nfile still uses the old one.\n\nFrequency\n\nReproduces every time.",
+  "stacktrace": "lattice/cli.py:11 in main\nlattice/core/app.py:35 in start\nlattice/core/boot.py:103 in load_all\nlattice/core/settings.py:277 in validate\nLookupError: unknown encoding: 'utf8-sig'",
+  "reported": "2026-03-16"
+}

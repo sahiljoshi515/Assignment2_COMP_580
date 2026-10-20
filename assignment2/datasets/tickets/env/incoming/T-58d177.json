@@ -1,0 +1,10 @@
+{
+  "tid": "T-58d177",
+  "seq": 63,
+  "product": "CourierOS",
+  "error_code": "E-5181",
+  "platform": "macos",
+  "subject": "E-5181: cannot write data directory on macOS",
+  "body": "Before writing in I attempted closing every other program; same error afterwards.\n\nTomas Vik -- Harbour Freight. Appreciate any hints.\n\nHi, I'm using CourierOS 3.5.8 on macOS 15.3. Since Monday, each time I open the app, I get \"E-5181:\ncannot write to data directory\".\n\nThere is less than a gigabyte free on the system drive. Other programs have began complaining\nabout space as well.",
+  "opened": "2026-03-20"
+}

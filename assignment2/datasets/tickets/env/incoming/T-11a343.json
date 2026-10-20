@@ -1,0 +1,10 @@
+{
+  "tid": "T-11a343",
+  "seq": 53,
+  "product": "CourierOS",
+  "error_code": "E5366",
+  "platform": "macos",
+  "subject": "E-5366: crash on launch on macOS",
+  "body": "Hi, I'm using CourierOS 3.5.6 on macOS 15.3. Since last week, every time I open\nthe app, I get 'E-5366: application crashed on launch'.\n\nSince this morning's automatic update the app crashes on start. Everything else\non the machine is as it was.\n\nI've already tried rebooting the router, which changed nothing.\n\nHannah Cole -- Tessa Labs. Appreciate any pointers.",
+  "opened": "2026-03-08"
+}

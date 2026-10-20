@@ -1,0 +1,11 @@
+{
+  "tid": "T-061e4e",
+  "seq": 56,
+  "exception": "KeyError",
+  "top_frame": "lattice.auth.user.lookup",
+  "version": "3.0.3",
+  "title": "KeyError while refreshing an expired session (user.lookup)",
+  "body": "## Environment\n\nRunning Lattice 3.0.3 on Ubuntu 24.04 LTS agaist eu-central-1.\n\n## Steps\n\nSteps to reproduce:\n* Start by refreshing an expired session.\n* Use the customer file with the missing column (sample attached).\n* Wait for the failure and read the log.\n\n## Expected\n\nExpected refreshing an expired session to finish without errors.\n\n## Actual\n\nIt fails on a field absent from the input; the file has no such column. A\ncustomer file with a missing column was accepted without any validation.\n\n## Frequency\n\nHappens on abut half the runs.",
+  "stacktrace": "lattice/ui/main.py:47 in loop\nlattice/ui/dialog.py:127 in on_login\nlattice/auth/flow.py:61 in start\nlattice/auth/user.py:214 in lookup\nKeyError: 'display_name'",
+  "reported": "2026-03-23"
+}

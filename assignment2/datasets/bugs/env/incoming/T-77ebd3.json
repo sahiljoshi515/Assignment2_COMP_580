@@ -1,0 +1,11 @@
+{
+  "tid": "T-77ebd3",
+  "seq": 1,
+  "exception": "ZeroDivisionError",
+  "top_frame": "lattice.report.summary.total",
+  "version": "v3.3.5",
+  "title": "ZeroDivisionError while sending a scheduled report (summary.total)",
+  "body": "Environment\n\nRunning Lattice 3.3.5 on Debian 12 against ap-south-1.\n\nSteps\n\nHow to trigger it:\n* Start by sending a scheduled report.\n* Use values that are fractions of a cent.\n* Wait for the failure and read the log.\n\nExpected\n\nAs on every earlier run, sending a scheduled report should\njust complete.\n\nActual\n\nWhen the total rounds to zero the division fails. Values\nsmaller than a cent get rounded to zero first.\n\nFrequency\n\nIt occurs on about half the runs.",
+  "stacktrace": "lattice/ui/main.py:49 in loop\nlattice/report/schedule.py:63 in run_due\nlattice/report/builder.py:143 in build\nlattice/report/summary.py:103 in total\nZeroDivisionError: division by zero",
+  "reported": "2026-01-05"
+}

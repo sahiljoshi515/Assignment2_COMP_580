@@ -1,0 +1,10 @@
+{
+  "tid": "T-21e398",
+  "seq": 35,
+  "scenario": "INC-1114",
+  "kind": "last_healthy",
+  "target": null,
+  "subject": "INC-1114: last successful health check before the failure",
+  "body": "Hello -- Luca Moretti, payments. For the failing billing\nhost, find the last 'health check ok' line that precedes its\nfirst ERROR and give me its timestamp.\n\nThe line reads 'health check ok (latency ...)'; quote its\ntimestamp with the Z suffix.\n\nRegards, Luca Moretti -- payments",
+  "received": "2026-03-17"
+}

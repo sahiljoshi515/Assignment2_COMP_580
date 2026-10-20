@@ -1,0 +1,7 @@
+{
+  "tid": "T-6a9f3a",
+  "seq": 48,
+  "title": "POL-159: policy for the Contract Archive",
+  "body": "SCOPE:\n\nThe policy below governs use of the Contract Archive; it is\neffective. Meridian Cloud audits compliance with the\ncontrols listed here each year on behalf of the owner,\nDaniel Ortega from Finance Operations.\n\nREQUIREMENTS:\n\nThe requirements, last reviewed on 10 July 2025, are:\n* Keep production data out of test and development\n  environments\n* Complete the annual security training before the published\n  deadline\n* Tag every cloud resource with an owner and a cost centre\n\nSTATUS:\n\nThe policy is effective according to the register. Issued by\nSofia Russo on 27 January 2025; 34 exceptions are on file\nwith Finance Operations and expire at the yearly audit.",
+  "received": "2026-03-11"
+}

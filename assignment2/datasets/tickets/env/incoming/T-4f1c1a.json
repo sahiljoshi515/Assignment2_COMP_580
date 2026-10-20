@@ -1,0 +1,10 @@
+{
+  "tid": "T-4f1c1a",
+  "seq": 22,
+  "product": "tallyboard",
+  "error_code": "e-6414",
+  "platform": "windows",
+  "subject": "E-6414: totals mismatch on Windows",
+  "body": "Hi, I'm using Tallyboard 1.9.6 on Windows 11 24H2. Whenever I export the report\nsince the weekend, the app shows \"E-6414: totals do not match source\".\n\nI switched the system regional format to one that uses comma decimals. Since\nthen thousands and decimals look swapped in the totals.\n\nWhat I tried so far: rebooting the router. No luck.\n\nThanks, Grace Okafor (Brightwater Clinics)",
+  "opened": "2026-01-30"
+}

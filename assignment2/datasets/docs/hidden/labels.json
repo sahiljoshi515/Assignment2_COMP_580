@@ -1,0 +1,744 @@
+{
+  "T-bec0fe": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "release-notes",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-f2ed80ce",
+    "seq": 1
+  },
+  "T-8a000c": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "policy-final",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-47cd2373",
+    "seq": 2
+  },
+  "T-a24d3d": {
+    "dup_of": "H-89e51b",
+    "dup_kind": "exact",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "incident-open",
+      "duplicate_of": "H-89e51b"
+    },
+    "canonical_id": "C-f6696a5a",
+    "seq": 3
+  },
+  "T-daca19": {
+    "dup_of": "T-8a000c",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "policy-final",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-47cd2373",
+    "seq": 4
+  },
+  "T-9f7d7c": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "T-8a000c",
+    "differs_in": [
+      "status"
+    ],
+    "answer": {
+      "category": "policy-draft",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-57f09f74",
+    "seq": 5
+  },
+  "T-762104": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-de0099",
+    "differs_in": [
+      "status"
+    ],
+    "answer": {
+      "category": "incident-resolved",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-3a25373e",
+    "seq": 6
+  },
+  "T-fff8e2": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "incident-open",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-cf283349",
+    "seq": 7
+  },
+  "T-71db26": {
+    "dup_of": "H-1e38c7",
+    "dup_kind": "reorder",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "policy-final",
+      "duplicate_of": "H-1e38c7"
+    },
+    "canonical_id": "C-db5f48e6",
+    "seq": 8
+  },
+  "T-a1eccd": {
+    "dup_of": "H-09657a",
+    "dup_kind": "exact",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "change-request",
+      "duplicate_of": "H-09657a"
+    },
+    "canonical_id": "C-2b6754ad",
+    "seq": 9
+  },
+  "T-46d840": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "change-request",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-fb763339",
+    "seq": 10
+  },
+  "T-56b268": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "policy-final",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-7d150088",
+    "seq": 11
+  },
+  "T-fc0f1b": {
+    "dup_of": "H-3224ba",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "change-approved",
+      "duplicate_of": "H-3224ba"
+    },
+    "canonical_id": "C-a30dbdbc",
+    "seq": 12
+  },
+  "T-37e1c7": {
+    "dup_of": "T-fff8e2",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "incident-open",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-cf283349",
+    "seq": 13
+  },
+  "T-c9042c": {
+    "dup_of": "H-77023b",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "incident-open",
+      "duplicate_of": "H-77023b"
+    },
+    "canonical_id": "C-799ba5c9",
+    "seq": 14
+  },
+  "T-8b27ff": {
+    "dup_of": "H-b2972d",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "change-request",
+      "duplicate_of": "H-b2972d"
+    },
+    "canonical_id": "C-10f0566e",
+    "seq": 15
+  },
+  "T-6d4e20": {
+    "dup_of": "H-9910ca",
+    "dup_kind": "exact",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "incident-resolved",
+      "duplicate_of": "H-9910ca"
+    },
+    "canonical_id": "C-7b9a39df",
+    "seq": 16
+  },
+  "T-2b283f": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "incident-resolved",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-2ebca2bc",
+    "seq": 17
+  },
+  "T-7599c7": {
+    "dup_of": "H-edc21d",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "release-notes",
+      "duplicate_of": "H-edc21d"
+    },
+    "canonical_id": "C-a5c5c03f",
+    "seq": 18
+  },
+  "T-b7e9fb": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-4b14df",
+    "differs_in": [
+      "status"
+    ],
+    "answer": {
+      "category": "policy-draft",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-cc4e4072",
+    "seq": 19
+  },
+  "T-0d3373": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-c4e1e0",
+    "differs_in": [
+      "status"
+    ],
+    "answer": {
+      "category": "change-rejected",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-70d05e63",
+    "seq": 20
+  },
+  "T-dd2148": {
+    "dup_of": "H-8f0d0f",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "incident-resolved",
+      "duplicate_of": "H-8f0d0f"
+    },
+    "canonical_id": "C-c8199bbc",
+    "seq": 21
+  },
+  "T-3f1738": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "change-request",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-c3541ad8",
+    "seq": 22
+  },
+  "T-90f9a8": {
+    "dup_of": "T-a24d3d",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "incident-open",
+      "duplicate_of": "H-89e51b"
+    },
+    "canonical_id": "C-f6696a5a",
+    "seq": 23
+  },
+  "T-3e5fe6": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "policy-final",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-9778f67b",
+    "seq": 24
+  },
+  "T-0902e5": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "incident-resolved",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-0aef1571",
+    "seq": 25
+  },
+  "T-b22eaf": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "change-approved",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-20e6c3ea",
+    "seq": 26
+  },
+  "T-d2134c": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "release-notes",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-b7db1afd",
+    "seq": 27
+  },
+  "T-9b0fff": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "policy-final",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-88faf852",
+    "seq": 28
+  },
+  "T-2b3efe": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "incident-resolved",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-cd5a77b0",
+    "seq": 29
+  },
+  "T-f78b68": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-142dd3",
+    "differs_in": [
+      "status"
+    ],
+    "answer": {
+      "category": "policy-draft",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-e81539d8",
+    "seq": 30
+  },
+  "T-0d37f2": {
+    "dup_of": "H-a893d0",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "change-request",
+      "duplicate_of": "H-a893d0"
+    },
+    "canonical_id": "C-69337bf6",
+    "seq": 31
+  },
+  "T-ab3724": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "change-request",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-31b15e2f",
+    "seq": 32
+  },
+  "T-c4d374": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "policy-draft",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-7b09c9b9",
+    "seq": 33
+  },
+  "T-5c743a": {
+    "dup_of": "T-8a000c",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "policy-final",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-47cd2373",
+    "seq": 34
+  },
+  "T-8be88e": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "incident-open",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-adfbfdef",
+    "seq": 35
+  },
+  "T-a1d996": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "T-71db26",
+    "differs_in": [
+      "status"
+    ],
+    "answer": {
+      "category": "policy-draft",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-9b9ffd25",
+    "seq": 36
+  },
+  "T-674c18": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "change-approved",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-ca1f489a",
+    "seq": 37
+  },
+  "T-f85e90": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "policy-draft",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-37eb62a3",
+    "seq": 38
+  },
+  "T-ade2ed": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "incident-open",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-ebe47cfe",
+    "seq": 39
+  },
+  "T-8d7fe9": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-c66364",
+    "differs_in": [
+      "status"
+    ],
+    "answer": {
+      "category": "incident-open",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-b9bd5829",
+    "seq": 40
+  },
+  "T-726f21": {
+    "dup_of": "T-46d840",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "change-request",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-fb763339",
+    "seq": 41
+  },
+  "T-a83b9a": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "change-rejected",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-9effc772",
+    "seq": 42
+  },
+  "T-69a88d": {
+    "dup_of": "T-7599c7",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "release-notes",
+      "duplicate_of": "H-edc21d"
+    },
+    "canonical_id": "C-a5c5c03f",
+    "seq": 43
+  },
+  "T-281bdc": {
+    "dup_of": "H-a3f12b",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "incident-resolved",
+      "duplicate_of": "H-a3f12b"
+    },
+    "canonical_id": "C-c28180b8",
+    "seq": 44
+  },
+  "T-b80b0d": {
+    "dup_of": "H-54e856",
+    "dup_kind": "reorder",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "policy-final",
+      "duplicate_of": "H-54e856"
+    },
+    "canonical_id": "C-6730f5d4",
+    "seq": 45
+  },
+  "T-2a0569": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-89e51b",
+    "differs_in": [
+      "status"
+    ],
+    "answer": {
+      "category": "incident-resolved",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-d0b082ff",
+    "seq": 46
+  },
+  "T-7e0969": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "release-notes",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-2201953f",
+    "seq": 47
+  },
+  "T-6a9f3a": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "policy-final",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-6eed5fea",
+    "seq": 48
+  },
+  "T-7f9ba7": {
+    "dup_of": "H-c412fe",
+    "dup_kind": "exact",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "policy-draft",
+      "duplicate_of": "H-c412fe"
+    },
+    "canonical_id": "C-1d0b555c",
+    "seq": 49
+  },
+  "T-8eee0d": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "incident-open",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-0e16369b",
+    "seq": 50
+  },
+  "T-2a65b5": {
+    "dup_of": "H-0b0507",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "incident-resolved",
+      "duplicate_of": "H-0b0507"
+    },
+    "canonical_id": "C-a13b8de5",
+    "seq": 51
+  },
+  "T-0c91d6": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "T-a83b9a",
+    "differs_in": [
+      "status"
+    ],
+    "answer": {
+      "category": "change-request",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-9354c3c1",
+    "seq": 52
+  },
+  "T-249268": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "change-approved",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-6f53d279",
+    "seq": 53
+  },
+  "T-c73252": {
+    "dup_of": "H-c34837",
+    "dup_kind": "reorder",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "change-rejected",
+      "duplicate_of": "H-c34837"
+    },
+    "canonical_id": "C-5606b572",
+    "seq": 54
+  },
+  "T-751440": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "policy-final",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-1cfdd4b1",
+    "seq": 55
+  },
+  "T-f15bb9": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-4c46f7",
+    "differs_in": [
+      "status"
+    ],
+    "answer": {
+      "category": "change-approved",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-9cf4acce",
+    "seq": 56
+  },
+  "T-ebbb84": {
+    "dup_of": "T-b22eaf",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "change-approved",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-20e6c3ea",
+    "seq": 57
+  },
+  "T-e21b12": {
+    "dup_of": "H-04d169",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "change-request",
+      "duplicate_of": "H-04d169"
+    },
+    "canonical_id": "C-f6202ad8",
+    "seq": 58
+  },
+  "T-b978b4": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-d126d0",
+    "differs_in": [
+      "status"
+    ],
+    "answer": {
+      "category": "incident-open",
+      "duplicate_of": null
+    },
+    "canonical_id": "C-8b6a772f",
+    "seq": 59
+  },
+  "T-5872c8": {
+    "dup_of": "H-c34837",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "category": "change-rejected",
+      "duplicate_of": "H-c34837"
+    },
+    "canonical_id": "C-5606b572",
+    "seq": 60
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "tid": "T-b9760a",
+  "seq": 35,
+  "scenario": "FLT1836",
+  "kind": "service_down",
+  "target": null,
+  "subject": "FLT-1836: which host has a service that is not running",
+  "body": "Hi, Omar Haddad from the SRE team here. Find the proxy host\nwith a service reported as inactive in its [services]\nsection and name the service.\n\nEvery other host reports that service as active.\n\nRegards, Omar Haddad -- SRE",
+  "received": "2026-03-17"
+}

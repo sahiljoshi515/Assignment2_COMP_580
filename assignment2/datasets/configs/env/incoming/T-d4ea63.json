@@ -1,0 +1,10 @@
+{
+  "tid": "T-d4ea63",
+  "seq": 11,
+  "scenario": "CFG1646",
+  "kind": "replicas_of",
+  "target": "prod-us-west",
+  "subject": "CFG-1646: how many replicas does prod-us-west run",
+  "body": "Hi, Ivan Petrov from the SRE team here. How many replicas does the ledger-api deployment in the\nprod-us-west environment run?\n\nThe value is the integer under the service section, key replicas.\n\nThanks, Ivan Petrov",
+  "received": "2026-01-26"
+}

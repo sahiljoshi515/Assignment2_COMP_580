@@ -1,0 +1,10 @@
+{
+  "tid": "T-46da16",
+  "seq": 68,
+  "product": "syncvault",
+  "error_code": "e-1100",
+  "platform": "android",
+  "subject": "E-1100: token rejected on Android",
+  "body": "Hello support team. We run SyncVault 4.2.1 on Android 15 (Pixel 8). Whenever I log in since\nyesterday, the app shows \"E-1100: authentication token rejected\".\n\nWe moved this seat from a shared account to a personal one. The title bar still shows the old shared\naccount after the move.\n\nWhat I tried so far: searching the help centre. No luck.\n\nThanks, Hannah Cole (Meridian Schools)",
+  "opened": "2026-03-26"
+}

@@ -1,0 +1,10 @@
+{
+  "tid": "T-28a408",
+  "seq": 2,
+  "scenario": "inc-1874",
+  "kind": "error_count",
+  "target": "billing-05",
+  "subject": "INC-1874: how many ERROR lines did billing-05 write",
+  "body": "Tomas Vik (platform) writing with a quick request. How many ERROR lines did the host billing-05\nwrite during the window?\n\nLook only at logs/billing-05.log and count ERROR-level lines; 0 if there are none.\n\nMuch appreciated, Tomas Vik",
+  "received": "2026-01-07"
+}

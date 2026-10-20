@@ -1,0 +1,11 @@
+{
+  "tid": "T-2b51a0",
+  "seq": 52,
+  "exception": "PermissionError",
+  "top_frame": "lattice.io.path.resolve",
+  "version": "v3.0.8",
+  "title": "PermissionError in path.resolve when uploading an attachment",
+  "body": "## Environment\n\nLattice version 3.0.8; operating system Debian 12; serer\nregion us-east-1.\n\n## Steps\n\nTo reproduce:\n- With the log window open, start uploading an attachment.\n- Start the application as the service account.\n- Check the log window; the traceback appears there.\n\n## Expected\n\nExpected uploading an attachment to finnish without errors.\n\n## Actual\n\nAccess is denied on a file the app itself created. The app\nruns under a service account that is not the owner of the\ndata directory.\n\n## Frequency\n\nReproduces on about half the runs.",
+  "stacktrace": "lattice/ui/main.py:50 in loop\nlattice/ui/upload.py:40 in on_drop\nlattice/io/upload.py:118 in send\nlattice/io/path.py:234 in resolve\nPermissionError: [Errno 13] Permission denied: 'uploads/scan.pdf'",
+  "reported": "2026-03-17"
+}

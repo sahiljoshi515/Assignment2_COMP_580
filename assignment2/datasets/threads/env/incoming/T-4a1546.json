@@ -1,0 +1,10 @@
+{
+  "tid": "T-4a1546",
+  "seq": 32,
+  "scenario": "MBX-1874",
+  "kind": "first_failed_backup",
+  "target": null,
+  "subject": "MBX-1874: first failed nightly backup and why",
+  "body": "Hello -- Arjun Mehta, QA. Find the earliest FAILED nightly\nbackup report in inbox/ and tell me its date and the stated\nreason.\n\nThe reason follows FAILED on the Status line, in\nparentheses.\n\nRegards, Arjun Mehta -- QA",
+  "received": "2026-03-11"
+}

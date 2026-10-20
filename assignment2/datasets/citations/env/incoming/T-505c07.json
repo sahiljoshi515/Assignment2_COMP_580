@@ -1,0 +1,17 @@
+{
+  "tid": "T-505c07",
+  "seq": 26,
+  "citation": {
+    "authors": [
+      "Tanaka, Jamal",
+      "Nakamura, Jonas",
+      "Vik, Farid"
+    ],
+    "title": "Node Classification with Hierarchical Query Plans",
+    "venue": "KDD",
+    "year": 2021,
+    "doi": "10.5555/kdd.2021.2a82"
+  },
+  "raw": "Tanaka, Jamal, Nakamura, Jonas, and Vik, Farid. April 2021. Node Classification with Hierarchical Query Plans. In KDD. ACM, New York, NY, USA. DOI:10.5555/kdd.2021.2a82",
+  "received": "2026-02-04"
+}

@@ -1,0 +1,10 @@
+{
+  "tid": "T-fe80c0",
+  "seq": 28,
+  "scenario": "FLT-1380",
+  "kind": "param_drift",
+  "target": null,
+  "subject": "FLT-1380: which host has a different kernel parameter",
+  "body": "Hello -- Tomas Vik, data. One kernel parameter on one batch host does not match\nthe fleet profile. Which host and which parameter (full dotted name)?\n\nReport the parameter by its full dotted name, e.g. vm.swappiness.\n\nThanks, Tomas Vik",
+  "received": "2026-03-02"
+}

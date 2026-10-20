@@ -1,0 +1,10 @@
+{
+  "tid": "T-186165",
+  "seq": 12,
+  "scenario": "POL1760",
+  "kind": "current_value",
+  "target": "password_length",
+  "subject": "POL-1760: current value of the minimum password length",
+  "body": "Hi, Tomas Vik from the data team here. What is the minimum password length in the latest revision of\nthe Backup and Recovery Standard?\n\nThe latest revision is the highest-numbered file in policy/.\n\nRegards, Tomas Vik -- data",
+  "received": "2026-01-28"
+}

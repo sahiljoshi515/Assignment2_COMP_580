@@ -1,0 +1,10 @@
+{
+  "tid": "T-fc2c7e",
+  "seq": 27,
+  "product": "meshmail",
+  "error_code": "e-3122",
+  "platform": "windows",
+  "subject": "E-3122: token rejected on Windows",
+  "body": "Good morning. My setup is MeshMail 2.8.0, Windows 11 23H2.\nWhenever I log in since last week, the app shows 'E-3122:\nauthentication token rejected'.\n\nThis month the organisation moved everyone to single sign-\non. I can log in through the browser; only the app refuses.\n\nI've already tried restarting the machine, which changed\nnothing.\n\nRegards, Priya Nair, Oakline Partners",
+  "opened": "2026-02-05"
+}

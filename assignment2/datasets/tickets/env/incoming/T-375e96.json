@@ -1,0 +1,10 @@
+{
+  "tid": "T-375e96",
+  "seq": 50,
+  "product": "MeshMail",
+  "error_code": "E-3381",
+  "platform": "linux",
+  "subject": "E-3381: totals mismatch on Linux",
+  "body": "Hi, I'm using MeshMail 2.8.4 on Ubuntu 24.04. Since Monday, every time I export\nthe report, I get 'E-3381: totals do not match source'.\n\nTwo colleagues imported the identical period independently. The reported totals\nare roughly double the source values.\n\nI've already tried rebooting the router, which changed nothing.\n\nRegards, Tomas Vik, Ferro & Sons",
+  "opened": "2026-03-04"
+}

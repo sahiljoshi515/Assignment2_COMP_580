@@ -1,0 +1,10 @@
+{
+  "tid": "T-d97997",
+  "seq": 12,
+  "scenario": "flt-1494",
+  "kind": "uptime_of",
+  "target": "batch-03",
+  "subject": "FLT-1494: how long has batch-03 been up",
+  "body": "Hello -- Tomas Vik, platform. How many days has the batch host batch-03 been up\naccording to its snapshot?\n\nOnly that host's file matters for this one.\n\nMuch appreciated, Tomas Vik",
+  "received": "2026-01-28"
+}

@@ -1,0 +1,10 @@
+{
+  "tid": "T-b1fec3",
+  "seq": 7,
+  "scenario": "SDK-1874",
+  "kind": "retry_violation",
+  "target": null,
+  "subject": "SDK-1874: which adapter breaks the retry rule",
+  "body": "Hi, Fatima Zahra from the compliance team here. One of the paylane adapters\nretries differently from the convention in R1. Name the file and the method\nwhere the retry loop lives.\n\nEvery adapter should have the same loop; one does not.\n\nRegards, Fatima Zahra -- compliance",
+  "received": "2026-01-17"
+}

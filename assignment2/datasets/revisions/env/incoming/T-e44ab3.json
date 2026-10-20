@@ -1,0 +1,10 @@
+{
+  "tid": "T-e44ab3",
+  "seq": 4,
+  "scenario": "POL1646",
+  "kind": "added_requirement",
+  "target": null,
+  "subject": "POL-1646: which revision added the newest requirement",
+  "body": "Hello -- Omar Haddad, security. Which revision of the Incident Response Standard\nadded the most recently introduced requirement, and what is that requirement's\nid?\n\nA requirement is added at the end of the Requirements section with the next free\nnumber.\n\nMuch appreciated, Omar Haddad",
+  "received": "2026-01-11"
+}

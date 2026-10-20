@@ -1,0 +1,10 @@
+{
+  "tid": "T-2e1d53",
+  "seq": 8,
+  "scenario": "POL1076",
+  "kind": "current_value",
+  "target": "review_months",
+  "subject": "POL-1076: current value of the review cadence",
+  "body": "Arjun Mehta (release) writing with a quick request. Please read the latest Data Retention Policy\nrevision and report the review cadence as a number.\n\nThe latest revision is the highest-numbered file in policy/.\n\nRegards, Arjun Mehta -- release",
+  "received": "2026-01-19"
+}

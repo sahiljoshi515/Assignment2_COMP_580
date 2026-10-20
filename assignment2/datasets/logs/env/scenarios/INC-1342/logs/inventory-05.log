@@ -1,0 +1,107 @@
+2026-04-13T14:46:54Z inventory-05 INFO  starting inventory 2.6.0 (build 823b200) on inventory-05
+2026-04-13T14:46:55Z inventory-05 INFO  config: max_connections=256
+2026-04-13T14:46:55Z inventory-05 INFO  config: pool_size=32
+2026-04-13T14:46:55Z inventory-05 INFO  config: request_timeout_ms=2000
+2026-04-13T14:46:55Z inventory-05 INFO  config: cache_ttl_s=300
+2026-04-13T14:46:55Z inventory-05 INFO  config: log_level=INFO
+2026-04-13T14:46:55Z inventory-05 INFO  config: queue_depth=500
+2026-04-13T14:46:55Z inventory-05 INFO  config: gc_interval_s=30
+2026-04-13T14:46:56Z inventory-05 INFO  listening on 0.0.0.0:8080; workers=12
+2026-04-13T14:46:54Z inventory-05 INFO  health check ok (latency 2ms)
+2026-04-13T14:46:57Z inventory-05 INFO  POST /v1/orders 200 in 383ms rid=d94a42
+2026-04-13T14:47:05Z inventory-05 INFO  POST /v1/orders 200 in 133ms rid=73654b
+2026-04-13T14:47:11Z inventory-05 INFO  metrics: rps=235 p99=614ms heap=630MB goroutines=552
+2026-04-13T14:47:13Z inventory-05 INFO  PUT /v1/cart 200 in 242ms rid=b70ef9
+2026-04-13T14:47:21Z inventory-05 INFO  GET /v1/search 200 in 76ms rid=a70ad6
+2026-04-13T14:47:24Z inventory-05 INFO  health check ok (latency 9ms)
+2026-04-13T14:47:29Z inventory-05 INFO  PUT /v1/cart 200 in 204ms rid=012c4e
+2026-04-13T14:47:35Z inventory-05 WARN  connection pool at 54% capacity
+2026-04-13T14:47:37Z inventory-05 INFO  POST /v1/orders 200 in 72ms rid=e0c02d
+2026-04-13T14:47:45Z inventory-05 INFO  GET /v1/orders/56914 200 in 360ms rid=09154f
+2026-04-13T14:47:53Z inventory-05 INFO  GET /health 200 in 387ms rid=23cc02
+2026-04-13T14:47:54Z inventory-05 INFO  health check ok (latency 2ms)
+2026-04-13T14:48:01Z inventory-05 INFO  POST /v1/orders 200 in 259ms rid=f2ef61
+2026-04-13T14:48:09Z inventory-05 INFO  GET /v1/orders/91396 200 in 275ms rid=fd64e1
+2026-04-13T14:48:17Z inventory-05 INFO  GET /health 200 in 224ms rid=0d2d38
+2026-04-13T14:48:24Z inventory-05 INFO  health check ok (latency 3ms)
+2026-04-13T14:48:25Z inventory-05 INFO  PUT /v1/cart 200 in 125ms rid=939076
+2026-04-13T14:48:33Z inventory-05 INFO  GET /health 200 in 239ms rid=90ec45
+2026-04-13T14:48:41Z inventory-05 INFO  POST /v1/refunds 200 in 297ms rid=54ebae
+2026-04-13T14:48:49Z inventory-05 INFO  DELETE /v1/cart/21736 200 in 181ms rid=8f2e26
+2026-04-13T14:48:54Z inventory-05 INFO  health check ok (latency 5ms)
+2026-04-13T14:48:57Z inventory-05 INFO  POST /v1/payments 200 in 204ms rid=c45f84
+2026-04-13T14:49:05Z inventory-05 INFO  GET /v1/profile 200 in 62ms rid=ed7100
+2026-04-13T14:49:11Z inventory-05 INFO  metrics: rps=94 p99=489ms heap=1672MB goroutines=728
+2026-04-13T14:49:12Z inventory-05 WARN  cache miss ratio above 0.89
+2026-04-13T14:49:13Z inventory-05 INFO  POST /v1/payments 200 in 48ms rid=586dac
+2026-04-13T14:49:21Z inventory-05 INFO  PUT /v1/cart 200 in 244ms rid=b92ab3
+2026-04-13T14:49:24Z inventory-05 INFO  health check ok (latency 3ms)
+2026-04-13T14:49:29Z inventory-05 INFO  POST /v1/payments 200 in 385ms rid=b64486
+2026-04-13T14:49:37Z inventory-05 INFO  PUT /v1/cart 200 in 302ms rid=08b9a8
+2026-04-13T14:49:45Z inventory-05 INFO  GET /v1/profile 200 in 47ms rid=bc303e
+2026-04-13T14:49:53Z inventory-05 INFO  POST /v1/payments 200 in 141ms rid=5a6dd7
+2026-04-13T14:49:54Z inventory-05 INFO  health check ok (latency 6ms)
+2026-04-13T14:49:55Z inventory-05 ERROR PoolExhausted: user-service did not respond within 2000ms (attempt 1/3)
+2026-04-13T14:49:58Z inventory-05 ERROR PoolExhausted: user-service did not respond within 2000ms (attempt 2/3)
+2026-04-13T14:50:01Z inventory-05 INFO  POST /v1/payments 503 in 68ms rid=e76cd8
+2026-04-13T14:50:01Z inventory-05 ERROR PoolExhausted: user-service did not respond within 2000ms (attempt 3/3)
+2026-04-13T14:50:04Z inventory-05 ERROR PoolExhausted: user-service did not respond within 2000ms (attempt 1/3)
+2026-04-13T14:50:07Z inventory-05 ERROR PoolExhausted: user-service did not respond within 2000ms (attempt 2/3)
+2026-04-13T14:50:09Z inventory-05 INFO  DELETE /v1/cart/25709 200 in 370ms rid=c7b0dc
+2026-04-13T14:50:10Z inventory-05 ERROR PoolExhausted: user-service did not respond within 2000ms (attempt 3/3)
+2026-04-13T14:50:13Z inventory-05 ERROR PoolExhausted: user-service did not respond within 2000ms (attempt 1/3)
+2026-04-13T14:50:16Z inventory-05 ERROR PoolExhausted: user-service did not respond within 2000ms (attempt 2/3)
+2026-04-13T14:50:17Z inventory-05 INFO  POST /v1/orders 503 in 138ms rid=99377f
+2026-04-13T14:50:19Z inventory-05 ERROR PoolExhausted: user-service did not respond within 2000ms (attempt 3/3)
+2026-04-13T14:50:22Z inventory-05 ERROR PoolExhausted: user-service did not respond within 2000ms (attempt 1/3)
+2026-04-13T14:50:24Z inventory-05 WARN  health check FAILED: user-service unreachable
+2026-04-13T14:50:25Z inventory-05 INFO  DELETE /v1/cart/52891 503 in 134ms rid=e792f1
+2026-04-13T14:50:25Z inventory-05 ERROR PoolExhausted: user-service did not respond within 2000ms (attempt 2/3)
+2026-04-13T14:50:28Z inventory-05 ERROR PoolExhausted: user-service did not respond within 2000ms (attempt 3/3)
+2026-04-13T14:50:31Z inventory-05 ERROR PoolExhausted: giving up on user-service after 13 attempts
+2026-04-13T14:50:33Z inventory-05 INFO  POST /v1/orders 200 in 75ms rid=899a19
+2026-04-13T14:50:41Z inventory-05 INFO  DELETE /v1/cart/36081 200 in 245ms rid=926060
+2026-04-13T14:50:49Z inventory-05 INFO  DELETE /v1/cart/50730 200 in 69ms rid=967c18
+2026-04-13T14:50:49Z inventory-05 WARN  slow query took 72ms on shard 1
+2026-04-13T14:50:54Z inventory-05 INFO  health check ok (latency 5ms)
+2026-04-13T14:50:57Z inventory-05 INFO  POST /v1/payments 200 in 380ms rid=13e7cd
+2026-04-13T14:51:05Z inventory-05 INFO  GET /v1/search 200 in 315ms rid=a1076f
+2026-04-13T14:51:11Z inventory-05 INFO  metrics: rps=224 p99=270ms heap=1038MB goroutines=860
+2026-04-13T14:51:13Z inventory-05 INFO  POST /v1/refunds 200 in 44ms rid=b377fe
+2026-04-13T14:51:21Z inventory-05 INFO  GET /health 200 in 234ms rid=bcc06e
+2026-04-13T14:51:24Z inventory-05 INFO  health check ok (latency 5ms)
+2026-04-13T14:51:29Z inventory-05 INFO  GET /health 200 in 249ms rid=ece139
+2026-04-13T14:51:37Z inventory-05 INFO  POST /v1/orders 200 in 332ms rid=cfff7e
+2026-04-13T14:51:45Z inventory-05 INFO  DELETE /v1/cart/56703 200 in 247ms rid=dc8b0f
+2026-04-13T14:51:53Z inventory-05 INFO  GET /health 200 in 243ms rid=eb5adb
+2026-04-13T14:51:54Z inventory-05 INFO  health check ok (latency 7ms)
+2026-04-13T14:52:01Z inventory-05 INFO  GET /health 200 in 196ms rid=f1ccbb
+2026-04-13T14:52:09Z inventory-05 INFO  PUT /v1/cart 200 in 147ms rid=a0ba97
+2026-04-13T14:52:17Z inventory-05 INFO  GET /v1/search 200 in 64ms rid=980212
+2026-04-13T14:52:24Z inventory-05 INFO  health check ok (latency 11ms)
+2026-04-13T14:52:25Z inventory-05 INFO  DELETE /v1/cart/71883 200 in 194ms rid=981754
+2026-04-13T14:52:26Z inventory-05 WARN  connection pool at 33% capacity
+2026-04-13T14:52:33Z inventory-05 INFO  GET /v1/profile 200 in 162ms rid=1a5275
+2026-04-13T14:52:41Z inventory-05 INFO  GET /v1/search 200 in 227ms rid=336288
+2026-04-13T14:52:49Z inventory-05 INFO  GET /v1/orders/46458 200 in 35ms rid=98e97b
+2026-04-13T14:52:54Z inventory-05 INFO  health check ok (latency 7ms)
+2026-04-13T14:52:57Z inventory-05 INFO  POST /v1/payments 200 in 184ms rid=34e1a7
+2026-04-13T14:53:05Z inventory-05 INFO  GET /health 200 in 224ms rid=12ff20
+2026-04-13T14:53:11Z inventory-05 INFO  metrics: rps=40 p99=411ms heap=1299MB goroutines=95
+2026-04-13T14:53:13Z inventory-05 INFO  DELETE /v1/cart/17559 200 in 191ms rid=61630c
+2026-04-13T14:53:21Z inventory-05 INFO  PUT /v1/cart 200 in 256ms rid=042f4c
+2026-04-13T14:53:24Z inventory-05 INFO  health check ok (latency 10ms)
+2026-04-13T14:53:29Z inventory-05 INFO  GET /v1/items/48083 200 in 156ms rid=9620d6
+2026-04-13T14:53:37Z inventory-05 INFO  GET /v1/orders/31983 200 in 320ms rid=06f19b
+2026-04-13T14:53:45Z inventory-05 INFO  GET /v1/orders/50829 200 in 258ms rid=59b8cb
+2026-04-13T14:53:53Z inventory-05 INFO  GET /health 200 in 342ms rid=145536
+2026-04-13T14:53:54Z inventory-05 INFO  health check ok (latency 10ms)
+2026-04-13T14:54:01Z inventory-05 INFO  GET /v1/search 200 in 63ms rid=0ea256
+2026-04-13T14:54:03Z inventory-05 WARN  retrying upstream call (attempt 1/3)
+2026-04-13T14:54:09Z inventory-05 INFO  POST /v1/refunds 200 in 74ms rid=980a29
+2026-04-13T14:54:17Z inventory-05 INFO  PUT /v1/cart 200 in 119ms rid=82c9f7
+2026-04-13T14:54:24Z inventory-05 INFO  health check ok (latency 1ms)
+2026-04-13T14:54:25Z inventory-05 INFO  GET /v1/profile 200 in 292ms rid=2d55ab
+2026-04-13T14:54:33Z inventory-05 INFO  GET /v1/search 200 in 390ms rid=d374cf
+2026-04-13T14:54:41Z inventory-05 INFO  GET /v1/profile 200 in 38ms rid=24b21b
+2026-04-13T14:54:49Z inventory-05 INFO  POST /v1/refunds 200 in 239ms rid=1b2ef9

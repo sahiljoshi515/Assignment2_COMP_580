@@ -1,0 +1,10 @@
+{
+  "tid": "T-1fa375",
+  "seq": 21,
+  "product": "PixelForge",
+  "error_code": "E-4355",
+  "platform": "windows",
+  "subject": "E-4355: crash on launch on Windows",
+  "body": "Hello support team. We run PixelForge 6.0.6 on Windows 11 23H2. Starting this\nmorning, the moment I open the app a dialog reads 'E-4355: application crashed\non launch'.\n\nIt started after I set the display scaling to 150 percent. At 100 percent\nscaling there is no crash.\n\nBefore writing in I tried logging out of my browser; same error afterwards.\n\nRegards, Fatima Zahra, Caldera Foods",
+  "opened": "2026-01-29"
+}

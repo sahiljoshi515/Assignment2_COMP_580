@@ -1,0 +1,7 @@
+{
+  "tid": "T-71db26",
+  "seq": 8,
+  "title": "POL-254: policy governing the Vendor Portal",
+  "body": "Status\n\nStatus of this policy: in force. Issued by Sofia Russo on 9 December 2025; 24\nexceptions are on file with Finance Operations and expire at the yearly audit.\n\nScope\n\nPolicy POL-254 covers the Vendor Portal and is in force, per the policy\nregister. Silverline Data audits compliance with the controls listed here each\nyear on behalf of the owner, Noah Fischer from Finance Operations.\n\nRequirements\n\nAs of the 10 September 2025 review the requirements are:\n- Report a suspected security incident within one hour of noticing it\n- Retain audit logs for at least thirteen months\n- Tag every cloud resource with an owner and a cost centre",
+  "received": "2026-01-14"
+}

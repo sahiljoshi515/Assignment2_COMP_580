@@ -1,0 +1,11 @@
+{
+  "tid": "T-704c01",
+  "seq": 50,
+  "exception": "ValueError",
+  "top_frame": "lattice/io/csv.py::parse",
+  "version": "3.1.3",
+  "title": "Csv.parse Raises ValueError When Running A Bulk Import",
+  "body": "## Environment\n\nLattice version 3.1.3; operating system Windows 11 24H2;\nserver region us-west-2.\n\n## Steps\n\nTo reproduce:\n* With the log window open, start running a bulk import.\n* Paste text with a stray character from a spreadsheet.\n* Watch the log for the traceback below.\n\n## Expected\n\nAs on every earlier run, running a bulk import should just\ncomplete.\n\n## Actual\n\nIt fails on input with characters that nothing validates.\nSomeone pasted the value from a spreadsheet, stray\ncharacters included, and nothing complained.\n\n## Frequency\n\nIt occurs only on the first run after login.",
+  "stacktrace": "lattice/ui/main.py:51 in loop\nlattice/ui/dialog.py:88 in on_import\nlattice/io/batch.py:53 in run_import\nlattice/io/csv.py:45 in parse\nValueError: could not convert string to float: '1.234,56'",
+  "reported": "2026-03-14"
+}

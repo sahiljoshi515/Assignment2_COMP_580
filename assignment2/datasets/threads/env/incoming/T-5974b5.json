@@ -1,0 +1,10 @@
+{
+  "tid": "T-5974b5",
+  "seq": 18,
+  "scenario": "MBX-1000",
+  "kind": "requester",
+  "target": "data-retention",
+  "subject": "MBX-1000: who opened the data-retention thread",
+  "body": "Hello -- Tomas Vik, release. Who originally asked for the retention change for telemetry data? Full name as it appears in the From header.\n\nUse the From header of the earliest message with that subject.\n\nRegards, Tomas Vik -- release",
+  "received": "2026-02-09"
+}

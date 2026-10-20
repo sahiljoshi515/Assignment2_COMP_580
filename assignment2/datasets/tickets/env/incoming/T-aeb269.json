@@ -1,0 +1,10 @@
+{
+  "tid": "T-aeb269",
+  "seq": 24,
+  "product": "PixelForge",
+  "error_code": "E-4355",
+  "platform": "linux",
+  "subject": "E-4355: crash on launch on Linux",
+  "body": "Hello support team. We run PixelForge 6.0.6 on Ubuntu 24.04. Starting this\nmorning, the moment I open the app a dialog reads 'E-4355: application crashed\non launch'.\n\nIt started after I set the display scaling to 150 percent. At 100 percent\nscaling there is no crash.\n\nBefore writing in I tried logging out of my browser; same error afterwards.\n\nRegards, Fatima Zahra, Caldera Foods",
+  "opened": "2026-02-01"
+}

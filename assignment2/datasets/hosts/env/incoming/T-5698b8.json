@@ -1,0 +1,10 @@
+{
+  "tid": "T-5698b8",
+  "seq": 24,
+  "scenario": "FLT-1760",
+  "kind": "uptime_of",
+  "target": "api-01",
+  "subject": "FLT-1760: how long has api-01 been up",
+  "body": "Hello -- Ivan Petrrov, platform. How many days has the api host api-01 been up according to its snaphsot?\n\nThe value is uptime_days under [system].\n\nRegards, Ivan Petrov -- platform",
+  "received": "2026-02-22"
+}

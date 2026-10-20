@@ -1,0 +1,19 @@
+{
+  "tid": "T-852fbc",
+  "seq": 46,
+  "citation": {
+    "authors": [
+      "Ahmed, Viktor",
+      "Mendes, Wen",
+      "Okafor, Jonas",
+      "Park, Tomas"
+    ],
+    "title": "Self-Supervised Pretraining for Scalable Machine Translation",
+    "venue": "SIGMOD",
+    "year": 2024,
+    "doi": "10.5555/sigmod.2024.ad61",
+    "pages": "7312-7322"
+  },
+  "raw": "Ahmed, Viktor, Mendes, Wen, Okafor, Jonas, & Park, Tomas. 2024. Self-Supervised Pretraining for Scalable Machine Translation. In Proc. SIGMOD. ACM, New York, NY, USA, 7312-7322. 10.5555/sigmod.2024.ad61",
+  "received": "2026-02-28"
+}

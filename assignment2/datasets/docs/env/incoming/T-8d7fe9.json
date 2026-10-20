@@ -1,0 +1,7 @@
+{
+  "tid": "T-8d7fe9",
+  "seq": 40,
+  "title": "INC-3367: service incident, identity hub",
+  "body": "IMPACT:\n\nThis report covers an incident on the Identity Hub that is ongoing. Data\nServices linked roughly 29 tickets to the event and engaged Pinecrest Hosting,\nthe hosting provider, within the first hour.\n\nTIMELINE:\n\nArjun Pillai logged the following events, state as of 7 February 2025:\n- The on-call engineer confirmed failed health checks on two nodes\n- The previous configuration was redeployed to the whole pool\n- Queue depth was sampled every five minutes and charted\n\nSTATUS:\n\nCurrent state of the incident: ongoing. Priya Raman wrote this report on 20\nOctober 2025 and will review it in the 01:00-03:00 UTC window before the weekly\nservice meeting.",
+  "received": "2026-02-28"
+}

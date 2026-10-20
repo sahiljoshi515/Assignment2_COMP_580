@@ -1,0 +1,19 @@
+{
+  "tid": "T-3f588b",
+  "seq": 3,
+  "citation": {
+    "authors": [
+      "L. Oliveira",
+      "C. Walsh",
+      "S. Rossi",
+      "et al."
+    ],
+    "title": "Cardinality estimation for differentiable object recognition",
+    "venue": "Annual Meeting of the Association for Computational Linguistics",
+    "year": 2017,
+    "doi": "10.5555/acl.2017.b276",
+    "pages": "2624-2630"
+  },
+  "raw": "L. Oliveira, C. Walsh, S. Rossi, et al. (2017). Cardinality estimation for differentiable object recognition. In Proceedings of the Annual Meeting of the Association for Computational Linguistics (pages 2624-2630). Association for Computational Linguistics. https://doi.org/10.5555/acl.2017.b276",
+  "received": "2026-01-07"
+}

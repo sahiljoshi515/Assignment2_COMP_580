@@ -1,0 +1,7 @@
+{
+  "tid": "T-b80b0d",
+  "seq": 45,
+  "title": "POL-510: Fleet Tracker usage policy",
+  "body": "Requirements\n\nEvery person in scope must meet these requirements, reviewed on 1 July 2025:\n* Use the single sign-on portal for all internal tools\n* Retain audit logs for at least thirteen months\n* Tag every cloud resource with an owner and a cost centre\n\nStatus\n\nStatus of this policy: in force. Version issued 26 November 2025 by Priya Raman; exceptions on file: 30, all expiring at the yearly audit.\n\nScope\n\nThis policy applies to every user of the Fleet Tracker and is in force. Pinecrest Hosting audits compliance with the controls listed here each year on behalf of the owner, Arjun Pillai from Platform Engineering.",
+  "received": "2026-03-07"
+}

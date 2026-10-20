@@ -1,0 +1,10 @@
+{
+  "tid": "T-194848",
+  "seq": 5,
+  "scenario": "MBX1114",
+  "kind": "message_count",
+  "target": "hiring-plan",
+  "subject": "MBX-1114: how many messages in the hiring-plan thread",
+  "body": "Hello -- Jonas Berg, infra. Please count the messages in the\nhiring plan for support team thread (original message plus\nreplies).\n\nReplies quote earlier messages; count messages, not quotes.\n\nMuch appreciated, Jonas Berg",
+  "received": "2026-01-13"
+}

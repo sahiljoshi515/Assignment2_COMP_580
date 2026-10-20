@@ -1,0 +1,11 @@
+{
+  "tid": "T-517a13",
+  "seq": 12,
+  "exception": "MemoryError",
+  "top_frame": "lattice.ui.table.render",
+  "version": "3.1.3",
+  "title": "MemoryError while refreshing the overview (table.render)",
+  "body": "## Environment\n\nLattice 3.1.3, macOS 15.3, server ca-central-1.\n\n## Steps\n\nSteps to reproduce:\n- Start by refreshing the overview.\n- Run the same input in a loop for several hours.\n- Watch the log for the traceback below.\n\n## Expected\n\nExpected refreshing the overview to finish without errors.\n\n## Actual\n\nEach run of the same input leaves memory a bit higher until\nit fails. A fresh start handles the same input fine; after\nhours of repeats it fails.\n\n## Frequency\n\nIt occurs on about half the runs.",
+  "stacktrace": "lattice/ui/main.py:49 in loop\nlattice/ui/view.py:211 in refresh\nlattice/report/live.py:63 in tiles\nlattice/ui/table.py:70 in render\nMemoryError: unable to allocate 2.0 GiB for row cache",
+  "reported": "2026-01-20"
+}

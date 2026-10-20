@@ -1,0 +1,10 @@
+{
+  "tid": "T-41f767",
+  "seq": 30,
+  "scenario": "MBX-1418",
+  "kind": "final_decision",
+  "target": "vendor-renewal",
+  "subject": "MBX-1418: final decision in the vendor-renewal thread",
+  "body": "Tomas Vik (QA) writing with a quick request. What did we finally decide on the vendor contract renewal for northwind? I need the outcome, who decided, and the date of the deciding message.\n\nMind that decisions are sometimes revised further down the thread; the last word is the answer.\n\nThanks, Tomas Vik",
+  "received": "2026-03-06"
+}

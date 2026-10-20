@@ -1,0 +1,7 @@
+{
+  "tid": "T-8eee0d",
+  "seq": 50,
+  "title": "INC-7016: incident on the Data Lake Ingest",
+  "body": "Impact\n\nThe Data Lake Ingest incident described here is under investigation at the time of writing. The\nhosting provider Bluegate Networks was engaged by Data Services within the first hour, and roughly\n26 tickets were linked to the event.\n\nTimeline\n\nTimeline recorded by Mei Chen, in order, as of 8 January 2025:\n- Traffic was drained from the affected pool to the standby\n- The previous configuration was redeployed to the whole pool\n- A disk on the storage node reported write failures\n\nStatus\n\nCurrent state of the incident: ongoing. Report written by Clara Dubois on 19 September 2025; the\nnext review falls in the 03:30-05:00 UTC window and goes to the weekly service meeting.",
+  "received": "2026-03-14"
+}

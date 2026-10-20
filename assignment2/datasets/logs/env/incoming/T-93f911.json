@@ -1,0 +1,10 @@
+{
+  "tid": "T-93f911",
+  "seq": 10,
+  "scenario": "inc-1342",
+  "kind": "old_version",
+  "target": null,
+  "subject": "INC-1342: which host runs a different release",
+  "body": "Sofia Rossi (security) writing with a quick request. Please check the release each inventory host\nreports at startup and name the host whose version differs, with that version.\n\nEach host logs its release and build in its startup line; the files are under logs/.\n\nRegards, Sofia Rossi -- security",
+  "received": "2026-01-23"
+}

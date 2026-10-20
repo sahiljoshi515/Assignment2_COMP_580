@@ -1,0 +1,10 @@
+{
+  "tid": "T-1b6a95",
+  "seq": 40,
+  "scenario": "SDK-1684",
+  "kind": "retry_violation",
+  "target": null,
+  "subject": "SDK-1684: which adapter breaks the retry rule",
+  "body": "Hi, Fatima Zahra from the compliance team here. One of the cashier adapters\nretries differently from the convention in R1. Name the file and the method\nwhere the retry loop lives.\n\nEvery adapter should have the same loop; one does not.\n\nRegards, Fatima Zahra -- compliance",
+  "received": "2026-03-27"
+}

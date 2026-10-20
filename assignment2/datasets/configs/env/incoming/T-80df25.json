@@ -1,0 +1,10 @@
+{
+  "tid": "T-80df25",
+  "seq": 26,
+  "scenario": "cfg-1114",
+  "kind": "replicas_of",
+  "target": "test",
+  "subject": "CFG-1114: how many replicas does test run",
+  "body": "Ivan Petrov (QA) writing with a quick request. Please read config/test.yaml for\nbilling-api and give me its replica count.\n\nReport the number as written in service.replicas.\n\nMuch appreciated, Ivan Petrov",
+  "received": "2026-02-26"
+}

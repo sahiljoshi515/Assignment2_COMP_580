@@ -1,0 +1,11 @@
+{
+  "tid": "T-7fbf8b",
+  "seq": 7,
+  "exception": "MemoryError",
+  "top_frame": "lattice/report/csv.py::write",
+  "version": "3.2.8",
+  "title": "csv.write raises MemoryError when resizing the main window",
+  "body": "Environment\n\nRunning Lattice 3.2.8 on Ubuntu 24.04 LTS against ap-\nsouth-1.\n\nSteps\n\nHow to trigger it:\n* Start by resizing the main window.\n* Choose a date range covering over two years.\n* Watch the log for the traceback below.\n\nExpected\n\nExpected resizing the main window to finish without errors.\n\nActual\n\nMemory climbs to several gigabytes within a minute and then\nit fails. A large export spanning over two years triggers\nit; smaller ranges work.\n\nFrequency\n\nReproduces every time.",
+  "stacktrace": "lattice/ui/main.py:49 in loop\nlattice/ui/view.py:210 in refresh\nlattice/report/live.py:59 in tiles\nlattice/report/csv.py:123 in write\nMemoryError: unable to allocate 1.5 GiB for export buffer",
+  "reported": "2026-01-13"
+}

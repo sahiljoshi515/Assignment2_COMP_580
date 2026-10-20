@@ -1,0 +1,10 @@
+{
+  "tid": "T-dfe263",
+  "seq": 9,
+  "scenario": "inc-1076",
+  "kind": "drift_host",
+  "target": null,
+  "subject": "INC-1076: which host started with a different configuration",
+  "body": "Hello -- Tomas Vik, data. We think one billing host loaded a different\nconfiguration at startup. Tell me which host it is and which key is set\ndifferently from the others.\n\nThe logs of every host for the incident window are in logs/, one file per host.\nThe startup banner prints the configuration one key per line.\n\nRegards, Tomas Vik -- data",
+  "received": "2026-01-21"
+}

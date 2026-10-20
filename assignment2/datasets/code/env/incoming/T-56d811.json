@@ -1,0 +1,10 @@
+{
+  "tid": "T-56d811",
+  "seq": 37,
+  "scenario": "sdk-1114",
+  "kind": "retry_violation",
+  "target": null,
+  "subject": "SDK-1114: which adapter breaks the retry rule",
+  "body": "Hello -- Kenji Sato, support. Please find the adapter whose retry behaviour\ndeviates from rule R1 (three attempts with exponential backoff) and tell me the\nfile and the method.\n\nEvery adapter should have the same loop; one does not.\n\nRegards, Kenji Sato -- support",
+  "received": "2026-03-21"
+}

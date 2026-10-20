@@ -1,0 +1,10 @@
+{
+  "tid": "T-e018e4",
+  "seq": 33,
+  "scenario": "cfg-1836",
+  "kind": "drift",
+  "target": null,
+  "subject": "CFG-1836: which environment drifted on a uniform key",
+  "body": "Use the uniformity list in config/POLICY.md; the environment-specific keys it allows to vary are not\ndrift, and the security keys are checked separately.\n\nRegards, Nora Lindqvist -- QA\n\nNora Lindqvist (QA) writing with a quick request. Please audit the shipping-api configs for drift:\nfind the environment whose copy sets a must-be-uniform key differently from the rest, and name the\nkey.",
+  "received": "2026-03-13"
+}

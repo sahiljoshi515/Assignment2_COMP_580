@@ -1,0 +1,11 @@
+{
+  "tid": "T-10a8c0",
+  "seq": 53,
+  "exception": "ConnectionError",
+  "top_frame": "lattice.auth.session.refresh",
+  "version": "3.1.0",
+  "title": "session.refresh raises ConnectionError when pushing local changes",
+  "body": "ENVIRONMENT:\n\nLattice 3.1.0, Fedora 41 Workstation, server us-west-2.\n\nSTEPS:\n\nSteps to reproduce:\n* Start by pushing local changes.\n* Generate load with the stress script and watch the connection gauge.\n* Watch the log for the traceback below.\n\nEXPECTED:\n\nAs on every earlier run, pushing local changes should just complete.\n\nACTUAL:\n\nAfter a few hundred calls every connection fails until the app is restarted.\nUnder load the open-connection gauge climbs steadily and never comes back down.\n\nFREQUENCY:\n\nReproduces roughly one run in three.",
+  "stacktrace": "lattice/ui/main.py:46 in loop\nlattice/sched/runner.py:134 in run_due\nlattice/store/remote.py:80 in sync_all\nlattice/auth/session.py:199 in refresh\nConnectionError: token endpoint unreachable (host=us-west-2)",
+  "reported": "2026-03-18"
+}

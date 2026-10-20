@@ -1,0 +1,10 @@
+{
+  "tid": "T-727b7f",
+  "seq": 17,
+  "scenario": "INC-1304",
+  "kind": "old_version",
+  "target": null,
+  "subject": "INC-1304: which host runs a different release",
+  "body": "Fatima Zahra (data) writing with a quick request. One of the ledger hosts was never upgraded with the rest of the fleet. Find that host and the version it reports.\n\nEach host logs its release and build in its startup line; the files are under logs/.\n\nThanks, Fatima Zahra",
+  "received": "2026-02-07"
+}

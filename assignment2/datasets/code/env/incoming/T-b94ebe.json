@@ -1,0 +1,10 @@
+{
+  "tid": "T-b94ebe",
+  "seq": 5,
+  "scenario": "sdk-1342",
+  "kind": "retry_violation",
+  "target": null,
+  "subject": "SDK-1342: which adapter breaks the retry rule",
+  "body": "Hello -- Sofia Rossi, infra. Kindly locate the adapter whose retry behaviour deviates from rule R1\n(three attempts with exponential backoff) and tell me the file and the method.\n\nEvery adapter should have the same loop; one does not.\n\nMuch appreciated a lot, Sofia Rossi",
+  "received": "2026-01-13"
+}

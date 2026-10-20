@@ -1,0 +1,10 @@
+{
+  "tid": "T-9e5b53",
+  "seq": 22,
+  "scenario": "MBX1228",
+  "kind": "requester",
+  "target": "office-move",
+  "subject": "MBX-1228: who opened the office-move thread",
+  "body": "Hello -- Nora Lindqvist, compliance. Please tell me who sent the first message of the office move to\nriverside annex thread in inbox/.\n\nUse the From header of the earliest message with that subject.\n\nThanks, Nora Lindqvist",
+  "received": "2026-02-18"
+}

@@ -1,0 +1,7 @@
+{
+  "tid": "T-c4d374",
+  "seq": 33,
+  "title": "POL-156: policy governing the Ledger Core",
+  "body": "SCOPE:\n\nThe policy below governs use of the Ledger Core; it is out for comment. Tomas Lindqvist of Data\nServices is the policy owner, and Bluegate Networks audits compliance each year against the controls\nlisted here.\n\nREQUIREMENTS:\n\nAs of the 19 March 2025 review the requirements are:\n* Report a suspected security incident within one hour of noticing it\n* Document every manual change in the shared change log\n* Obtain written sign-off before granting vendor access\n\nSTATUS:\n\nStatus of this policy: in draft. Issued by Hana Kowalski on 12 September 2025; 40 exceptions are on\nfile with Data Services and expire at the yearly audit.",
+  "received": "2026-02-18"
+}

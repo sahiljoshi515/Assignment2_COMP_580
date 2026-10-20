@@ -1,0 +1,10 @@
+{
+  "tid": "T-ff0cbc",
+  "seq": 40,
+  "scenario": "POL1684",
+  "kind": "added_requirement",
+  "target": null,
+  "subject": "POL-1684: which revision added the newest requirement",
+  "body": "Much appreciated, Omar Haddad\n\nHello -- Omar Haddad, security. Which revision of the Access Control Standard\nadded the most recently introduced requirement, and what is that requirement's\nid?\n\nA requirement is added at the end of the Requirements section with the next free\nnumber.",
+  "received": "2026-03-27"
+}

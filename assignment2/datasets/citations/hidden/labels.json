@@ -1,0 +1,1066 @@
+{
+  "T-6aebce": {
+    "dup_of": "H-ee440d",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/sigmod.2023.4f9d",
+      "status": "correct",
+      "wrong_fields": []
+    },
+    "canonical_id": "C-b88857b1",
+    "seq": 1
+  },
+  "T-aeee29": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-99d03b",
+    "differs_in": [
+      "corruption"
+    ],
+    "answer": {
+      "doi": "10.5555/sigmod.2024.4c04",
+      "status": "incorrect",
+      "wrong_fields": [
+        "authors",
+        "year"
+      ]
+    },
+    "canonical_id": "C-69730ee2",
+    "seq": 2
+  },
+  "T-3f588b": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-cee059",
+    "differs_in": [
+      "corruption"
+    ],
+    "answer": {
+      "doi": "10.5555/acl.2017.b276",
+      "status": "incorrect",
+      "wrong_fields": [
+        "title"
+      ]
+    },
+    "canonical_id": "C-502db52c",
+    "seq": 3
+  },
+  "T-52023e": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-69ec4f",
+    "differs_in": [
+      "corruption"
+    ],
+    "answer": {
+      "doi": "10.5555/iccv.2023.9842",
+      "status": "incorrect",
+      "wrong_fields": [
+        "authors",
+        "year"
+      ]
+    },
+    "canonical_id": "C-aadbee04",
+    "seq": 4
+  },
+  "T-4620e4": {
+    "dup_of": "H-486444",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.48550/arXiv.1509.88594",
+      "status": "correct",
+      "wrong_fields": []
+    },
+    "canonical_id": "C-cf810ff8",
+    "seq": 5
+  },
+  "T-f4c39f": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.48550/arXiv.2001.71864",
+      "status": "incorrect",
+      "wrong_fields": [
+        "authors"
+      ]
+    },
+    "canonical_id": "C-6a6682d7",
+    "seq": 6
+  },
+  "T-717be4": {
+    "dup_of": "T-aeee29",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/sigmod.2024.4c04",
+      "status": "incorrect",
+      "wrong_fields": [
+        "authors",
+        "year"
+      ]
+    },
+    "canonical_id": "C-69730ee2",
+    "seq": 7
+  },
+  "T-6e2719": {
+    "dup_of": "H-38b561",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/iccv.2018.cd13",
+      "status": "incorrect",
+      "wrong_fields": [
+        "title"
+      ]
+    },
+    "canonical_id": "C-422afb8c",
+    "seq": 8
+  },
+  "T-d42368": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/iccv.2019.89a0",
+      "status": "correct",
+      "wrong_fields": []
+    },
+    "canonical_id": "C-73730f86",
+    "seq": 9
+  },
+  "T-ef3d05": {
+    "dup_of": "T-4620e4",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.48550/arXiv.1509.88594",
+      "status": "correct",
+      "wrong_fields": []
+    },
+    "canonical_id": "C-cf810ff8",
+    "seq": 10
+  },
+  "T-dafefc": {
+    "dup_of": "H-6cddfc",
+    "dup_kind": "exact",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/sigir.2022.2f73",
+      "status": "incorrect",
+      "wrong_fields": [
+        "doi"
+      ]
+    },
+    "canonical_id": "C-020d3c09",
+    "seq": 11
+  },
+  "T-27c8ee": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/iccv.2018.cd13",
+      "status": "correct",
+      "wrong_fields": []
+    },
+    "canonical_id": "C-cc713826",
+    "seq": 12
+  },
+  "T-1cdd71": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/sigmod.2024.ad61",
+      "status": "incorrect",
+      "wrong_fields": [
+        "title"
+      ]
+    },
+    "canonical_id": "C-131c5972",
+    "seq": 13
+  },
+  "T-1b5ab9": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/iccv.2018.526e",
+      "status": "incorrect",
+      "wrong_fields": [
+        "title"
+      ]
+    },
+    "canonical_id": "C-f9724e1f",
+    "seq": 14
+  },
+  "T-68ba45": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-1ce12f",
+    "differs_in": [
+      "corruption"
+    ],
+    "answer": {
+      "doi": "10.5555/iclr.2023.e0bf",
+      "status": "incorrect",
+      "wrong_fields": [
+        "authors"
+      ]
+    },
+    "canonical_id": "C-bc576ec5",
+    "seq": 15
+  },
+  "T-38ccd2": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/iccv.2016.9348",
+      "status": "incorrect",
+      "wrong_fields": [
+        "authors",
+        "year"
+      ]
+    },
+    "canonical_id": "C-3b79042d",
+    "seq": 16
+  },
+  "T-da8c1e": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "T-27c8ee",
+    "differs_in": [
+      "corruption"
+    ],
+    "answer": {
+      "doi": "10.5555/iccv.2018.cd13",
+      "status": "incorrect",
+      "wrong_fields": [
+        "authors"
+      ]
+    },
+    "canonical_id": "C-258b9921",
+    "seq": 17
+  },
+  "T-25850c": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-cf84aa",
+    "differs_in": [
+      "corruption"
+    ],
+    "answer": {
+      "doi": "10.5555/sigmod.2023.4f9d",
+      "status": "incorrect",
+      "wrong_fields": [
+        "authors",
+        "venue"
+      ]
+    },
+    "canonical_id": "C-bf646189",
+    "seq": 18
+  },
+  "T-4409ac": {
+    "dup_of": "H-16b2d7",
+    "dup_kind": "exact",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/neurips.2023.9a1e",
+      "status": "correct",
+      "wrong_fields": []
+    },
+    "canonical_id": "C-e8bb7b9d",
+    "seq": 19
+  },
+  "T-ed7b7c": {
+    "dup_of": "T-4620e4",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.48550/arXiv.1509.88594",
+      "status": "correct",
+      "wrong_fields": []
+    },
+    "canonical_id": "C-cf810ff8",
+    "seq": 20
+  },
+  "T-f6e8d2": {
+    "dup_of": "H-c537ce",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/vldb.2021.1973",
+      "status": "incorrect",
+      "wrong_fields": [
+        "title",
+        "year"
+      ]
+    },
+    "canonical_id": "C-1b0415d5",
+    "seq": 21
+  },
+  "T-979805": {
+    "dup_of": "T-68ba45",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/iclr.2023.e0bf",
+      "status": "incorrect",
+      "wrong_fields": [
+        "authors"
+      ]
+    },
+    "canonical_id": "C-bc576ec5",
+    "seq": 22
+  },
+  "T-b75ca8": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "T-dafefc",
+    "differs_in": [
+      "corruption"
+    ],
+    "answer": {
+      "doi": "10.5555/sigir.2022.2f73",
+      "status": "incorrect",
+      "wrong_fields": [
+        "doi",
+        "year"
+      ]
+    },
+    "canonical_id": "C-1048b021",
+    "seq": 23
+  },
+  "T-6f7cbd": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/sigmod.2023.4f9d",
+      "status": "correct",
+      "wrong_fields": []
+    },
+    "canonical_id": "C-b42003c6",
+    "seq": 24
+  },
+  "T-de877e": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "T-dafefc",
+    "differs_in": [
+      "corruption"
+    ],
+    "answer": {
+      "doi": "10.5555/sigir.2022.2f73",
+      "status": "correct",
+      "wrong_fields": []
+    },
+    "canonical_id": "C-19dd75e8",
+    "seq": 25
+  },
+  "T-505c07": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/kdd.2021.2ab2",
+      "status": "incorrect",
+      "wrong_fields": [
+        "doi"
+      ]
+    },
+    "canonical_id": "C-3b6427a9",
+    "seq": 26
+  },
+  "T-5adb88": {
+    "dup_of": "H-773c67",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/kdd.2023.a8d7",
+      "status": "incorrect",
+      "wrong_fields": [
+        "title",
+        "year"
+      ]
+    },
+    "canonical_id": "C-e04ea409",
+    "seq": 27
+  },
+  "T-7d5a01": {
+    "dup_of": "H-8054c6",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/emnlp.2025.6930",
+      "status": "incorrect",
+      "wrong_fields": [
+        "authors"
+      ]
+    },
+    "canonical_id": "C-8f1a1ce5",
+    "seq": 28
+  },
+  "T-7aecce": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/iclr.2016.92b8",
+      "status": "correct",
+      "wrong_fields": []
+    },
+    "canonical_id": "C-51c81a31",
+    "seq": 29
+  },
+  "T-953edd": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/kdd.2015.2ed7",
+      "status": "incorrect",
+      "wrong_fields": [
+        "authors",
+        "venue"
+      ]
+    },
+    "canonical_id": "C-5909c0ce",
+    "seq": 30
+  },
+  "T-d5dac8": {
+    "dup_of": "H-59b8b9",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/emnlp.2024.3eea",
+      "status": "incorrect",
+      "wrong_fields": [
+        "authors",
+        "title"
+      ]
+    },
+    "canonical_id": "C-b229c9aa",
+    "seq": 31
+  },
+  "T-301413": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.48550/arXiv.2208.69032",
+      "status": "incorrect",
+      "wrong_fields": [
+        "authors",
+        "year"
+      ]
+    },
+    "canonical_id": "C-0e15ce1a",
+    "seq": 32
+  },
+  "T-1e6ecc": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/iccv.2016.9348",
+      "status": "correct",
+      "wrong_fields": []
+    },
+    "canonical_id": "C-dc62d400",
+    "seq": 33
+  },
+  "T-0528f1": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/sigir.2021.4735",
+      "status": "incorrect",
+      "wrong_fields": [
+        "doi"
+      ]
+    },
+    "canonical_id": "C-35c10330",
+    "seq": 34
+  },
+  "T-c82f17": {
+    "dup_of": "H-16f785",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/sigir.2023.77dc",
+      "status": "correct",
+      "wrong_fields": []
+    },
+    "canonical_id": "C-a889bc41",
+    "seq": 35
+  },
+  "T-0fb55a": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/icml.2020.72be",
+      "status": "incorrect",
+      "wrong_fields": [
+        "venue",
+        "year"
+      ]
+    },
+    "canonical_id": "C-af5d3a08",
+    "seq": 36
+  },
+  "T-2a210a": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.48550/arXiv.1711.59096",
+      "status": "incorrect",
+      "wrong_fields": [
+        "authors"
+      ]
+    },
+    "canonical_id": "C-4a4ae05b",
+    "seq": 37
+  },
+  "T-02d47e": {
+    "dup_of": "H-f9eadc",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/acl.2016.0cdd",
+      "status": "correct",
+      "wrong_fields": []
+    },
+    "canonical_id": "C-7619dfb3",
+    "seq": 38
+  },
+  "T-6150d0": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-4b38b4",
+    "differs_in": [
+      "corruption",
+      "record"
+    ],
+    "answer": {
+      "doi": "10.48550/arXiv.1411.71473",
+      "status": "incorrect",
+      "wrong_fields": [
+        "title",
+        "year"
+      ]
+    },
+    "canonical_id": "C-386c7248",
+    "seq": 39
+  },
+  "T-ce93a4": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "T-0528f1",
+    "differs_in": [
+      "corruption"
+    ],
+    "answer": {
+      "doi": "10.5555/sigir.2021.4735",
+      "status": "incorrect",
+      "wrong_fields": [
+        "doi",
+        "year"
+      ]
+    },
+    "canonical_id": "C-69eca8f3",
+    "seq": 40
+  },
+  "T-9c01a7": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-0a06fc",
+    "differs_in": [
+      "corruption"
+    ],
+    "answer": {
+      "doi": "10.5555/emnlp.2019.a7b3",
+      "status": "correct",
+      "wrong_fields": []
+    },
+    "canonical_id": "C-5ad4af0b",
+    "seq": 41
+  },
+  "T-9bd203": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/kdd.2024.9afb",
+      "status": "correct",
+      "wrong_fields": []
+    },
+    "canonical_id": "C-ae5b12d5",
+    "seq": 42
+  },
+  "T-41a7ee": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/iccv.2020.5012",
+      "status": "incorrect",
+      "wrong_fields": [
+        "year"
+      ]
+    },
+    "canonical_id": "C-17fa5525",
+    "seq": 43
+  },
+  "T-8c1bb3": {
+    "dup_of": "H-70ab9b",
+    "dup_kind": "exact",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/cvpr.2015.ade8",
+      "status": "correct",
+      "wrong_fields": []
+    },
+    "canonical_id": "C-f2ea834f",
+    "seq": 44
+  },
+  "T-d46623": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/neurips.2016.d3f8",
+      "status": "incorrect",
+      "wrong_fields": [
+        "authors",
+        "year"
+      ]
+    },
+    "canonical_id": "C-f38b769d",
+    "seq": 45
+  },
+  "T-852fbc": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/sigmod.2024.ad61",
+      "status": "correct",
+      "wrong_fields": []
+    },
+    "canonical_id": "C-bb1de1ae",
+    "seq": 46
+  },
+  "T-24a8e0": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.48550/arXiv.2405.28917",
+      "status": "incorrect",
+      "wrong_fields": [
+        "title"
+      ]
+    },
+    "canonical_id": "C-fe515049",
+    "seq": 47
+  },
+  "T-117423": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/sigir.2019.5519",
+      "status": "incorrect",
+      "wrong_fields": [
+        "authors",
+        "title"
+      ]
+    },
+    "canonical_id": "C-3679db9b",
+    "seq": 48
+  },
+  "T-2dfee9": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-26388f",
+    "differs_in": [
+      "corruption"
+    ],
+    "answer": {
+      "doi": "10.5555/sigir.2021.4735",
+      "status": "incorrect",
+      "wrong_fields": [
+        "venue"
+      ]
+    },
+    "canonical_id": "C-06781473",
+    "seq": 49
+  },
+  "T-43af6d": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/neurips.2025.a135",
+      "status": "incorrect",
+      "wrong_fields": [
+        "authors",
+        "year"
+      ]
+    },
+    "canonical_id": "C-17c76036",
+    "seq": 50
+  },
+  "T-158070": {
+    "dup_of": "H-9ae40b",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/vldb.2024.1769",
+      "status": "incorrect",
+      "wrong_fields": [
+        "doi"
+      ]
+    },
+    "canonical_id": "C-567cc4ff",
+    "seq": 51
+  },
+  "T-534543": {
+    "dup_of": "H-26388f",
+    "dup_kind": "reorder",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/sigir.2021.4735",
+      "status": "incorrect",
+      "wrong_fields": [
+        "venue",
+        "year"
+      ]
+    },
+    "canonical_id": "C-24c12bc4",
+    "seq": 52
+  },
+  "T-1aa2a1": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/iclr.2015.92dc",
+      "status": "incorrect",
+      "wrong_fields": [
+        "authors",
+        "year"
+      ]
+    },
+    "canonical_id": "C-a9b8e9eb",
+    "seq": 53
+  },
+  "T-2b05ab": {
+    "dup_of": "H-53ce3a",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/sigir.2025.af51",
+      "status": "correct",
+      "wrong_fields": []
+    },
+    "canonical_id": "C-c5e9ed2b",
+    "seq": 54
+  },
+  "T-7060e3": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/iclr.2019.2e5f",
+      "status": "incorrect",
+      "wrong_fields": [
+        "year"
+      ]
+    },
+    "canonical_id": "C-6faa6976",
+    "seq": 55
+  },
+  "T-f7cd84": {
+    "dup_of": "T-25850c",
+    "dup_kind": "reorder",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/sigmod.2023.4f9d",
+      "status": "incorrect",
+      "wrong_fields": [
+        "authors",
+        "venue"
+      ]
+    },
+    "canonical_id": "C-bf646189",
+    "seq": 56
+  },
+  "T-cf4fee": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/neurips.2025.a135",
+      "status": "incorrect",
+      "wrong_fields": [
+        "title"
+      ]
+    },
+    "canonical_id": "C-72600626",
+    "seq": 57
+  },
+  "T-d578e7": {
+    "dup_of": "T-de877e",
+    "dup_kind": "reorder",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/sigir.2022.2f73",
+      "status": "correct",
+      "wrong_fields": []
+    },
+    "canonical_id": "C-19dd75e8",
+    "seq": 58
+  },
+  "T-0f5c7c": {
+    "dup_of": "H-34ba3b",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/sigir.2017.b4a2",
+      "status": "incorrect",
+      "wrong_fields": [
+        "authors"
+      ]
+    },
+    "canonical_id": "C-95c2a655",
+    "seq": 59
+  },
+  "T-26af65": {
+    "dup_of": "T-2b05ab",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/sigir.2025.af51",
+      "status": "correct",
+      "wrong_fields": []
+    },
+    "canonical_id": "C-c5e9ed2b",
+    "seq": 60
+  },
+  "T-8bcf5f": {
+    "dup_of": "H-9b279b",
+    "dup_kind": "exact",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.48550/arXiv.2001.71864",
+      "status": "incorrect",
+      "wrong_fields": [
+        "authors",
+        "year"
+      ]
+    },
+    "canonical_id": "C-fa66c866",
+    "seq": 61
+  },
+  "T-e73d00": {
+    "dup_of": "H-16f785",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/sigir.2023.77dc",
+      "status": "correct",
+      "wrong_fields": []
+    },
+    "canonical_id": "C-a889bc41",
+    "seq": 62
+  },
+  "T-2a1b55": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/emnlp.2024.913e",
+      "status": "incorrect",
+      "wrong_fields": [
+        "venue",
+        "year"
+      ]
+    },
+    "canonical_id": "C-0fa3c2e2",
+    "seq": 63
+  },
+  "T-c55dc2": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/acl.2022.c45b",
+      "status": "incorrect",
+      "wrong_fields": [
+        "title"
+      ]
+    },
+    "canonical_id": "C-40294611",
+    "seq": 64
+  },
+  "T-24c0bd": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-1ce12f",
+    "differs_in": [
+      "corruption"
+    ],
+    "answer": {
+      "doi": "10.5555/iclr.2023.e0bf",
+      "status": "incorrect",
+      "wrong_fields": [
+        "title"
+      ]
+    },
+    "canonical_id": "C-02e97b86",
+    "seq": 65
+  },
+  "T-9752f8": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/kdd.2025.5cea",
+      "status": "incorrect",
+      "wrong_fields": [
+        "title",
+        "venue"
+      ]
+    },
+    "canonical_id": "C-ec70de16",
+    "seq": 66
+  },
+  "T-d02f46": {
+    "dup_of": "H-773c67",
+    "dup_kind": "reorder",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/kdd.2023.a8d7",
+      "status": "incorrect",
+      "wrong_fields": [
+        "title",
+        "year"
+      ]
+    },
+    "canonical_id": "C-e04ea409",
+    "seq": 67
+  },
+  "T-246d70": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-6cddfc",
+    "differs_in": [
+      "corruption"
+    ],
+    "answer": {
+      "doi": "10.5555/sigir.2022.2f73",
+      "status": "incorrect",
+      "wrong_fields": [
+        "authors",
+        "doi"
+      ]
+    },
+    "canonical_id": "C-069bd866",
+    "seq": 68
+  },
+  "T-7e3985": {
+    "dup_of": "T-5adb88",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/kdd.2023.a8d7",
+      "status": "incorrect",
+      "wrong_fields": [
+        "title",
+        "year"
+      ]
+    },
+    "canonical_id": "C-e04ea409",
+    "seq": 69
+  },
+  "T-499e7c": {
+    "dup_of": "H-c537ce",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "doi": "10.5555/vldb.2021.1973",
+      "status": "incorrect",
+      "wrong_fields": [
+        "title",
+        "year"
+      ]
+    },
+    "canonical_id": "C-1b0415d5",
+    "seq": 70
+  }
+}

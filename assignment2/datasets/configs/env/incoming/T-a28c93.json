@@ -1,0 +1,10 @@
+{
+  "tid": "T-a28c93",
+  "seq": 32,
+  "scenario": "CFG-1076",
+  "kind": "missing_key",
+  "target": null,
+  "subject": "CFG-1076: which environment is missing a key",
+  "body": "Hi, Daniel Ortega from the platform team here. One of the\ncatalog-api config files lacks a key that every other\nenvironment defines. Find the environment and the missing\nkey.\n\nThe key is simply not present in that environment's file;\nthe others all have it.\n\nMuch appreciated, Daniel Ortega",
+  "received": "2026-03-11"
+}

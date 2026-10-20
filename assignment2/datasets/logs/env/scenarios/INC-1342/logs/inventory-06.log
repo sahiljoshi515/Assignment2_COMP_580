@@ -1,0 +1,94 @@
+2026-04-13T14:46:54Z inventory-06 INFO  starting inventory 2.6.0 (build 823b200) on inventory-06
+2026-04-13T14:46:55Z inventory-06 INFO  config: max_connections=512
+2026-04-13T14:46:55Z inventory-06 INFO  config: pool_size=32
+2026-04-13T14:46:55Z inventory-06 INFO  config: request_timeout_ms=2000
+2026-04-13T14:46:55Z inventory-06 INFO  config: cache_ttl_s=300
+2026-04-13T14:46:55Z inventory-06 INFO  config: log_level=INFO
+2026-04-13T14:46:55Z inventory-06 INFO  config: queue_depth=500
+2026-04-13T14:46:55Z inventory-06 INFO  config: gc_interval_s=30
+2026-04-13T14:46:56Z inventory-06 INFO  listening on 0.0.0.0:8080; workers=12
+2026-04-13T14:46:54Z inventory-06 INFO  health check ok (latency 8ms)
+2026-04-13T14:46:57Z inventory-06 INFO  PUT /v1/cart 200 in 238ms rid=7bc399
+2026-04-13T14:47:05Z inventory-06 INFO  POST /v1/orders 200 in 281ms rid=8dc689
+2026-04-13T14:47:11Z inventory-06 INFO  metrics: rps=187 p99=585ms heap=245MB goroutines=397
+2026-04-13T14:47:13Z inventory-06 INFO  PUT /v1/cart 200 in 224ms rid=8752cf
+2026-04-13T14:47:21Z inventory-06 INFO  GET /v1/search 200 in 271ms rid=3571cc
+2026-04-13T14:47:24Z inventory-06 INFO  health check ok (latency 3ms)
+2026-04-13T14:47:29Z inventory-06 INFO  POST /v1/orders 200 in 183ms rid=62cf64
+2026-04-13T14:47:35Z inventory-06 WARN  connection pool at 85% capacity
+2026-04-13T14:47:37Z inventory-06 INFO  POST /v1/orders 200 in 353ms rid=afa7e3
+2026-04-13T14:47:45Z inventory-06 INFO  GET /v1/orders/67084 200 in 85ms rid=fbf027
+2026-04-13T14:47:53Z inventory-06 INFO  GET /health 200 in 178ms rid=a16067
+2026-04-13T14:47:54Z inventory-06 INFO  health check ok (latency 4ms)
+2026-04-13T14:48:01Z inventory-06 INFO  POST /v1/refunds 200 in 385ms rid=588f9c
+2026-04-13T14:48:09Z inventory-06 INFO  GET /v1/orders/68282 200 in 79ms rid=f5be23
+2026-04-13T14:48:17Z inventory-06 INFO  GET /health 200 in 323ms rid=fee75e
+2026-04-13T14:48:24Z inventory-06 INFO  health check ok (latency 11ms)
+2026-04-13T14:48:25Z inventory-06 INFO  POST /v1/refunds 200 in 369ms rid=4cbe87
+2026-04-13T14:48:33Z inventory-06 INFO  GET /health 200 in 70ms rid=305a8b
+2026-04-13T14:48:41Z inventory-06 INFO  GET /v1/search 200 in 349ms rid=f47160
+2026-04-13T14:48:49Z inventory-06 INFO  DELETE /v1/cart/78786 200 in 331ms rid=c14c68
+2026-04-13T14:48:54Z inventory-06 INFO  health check ok (latency 2ms)
+2026-04-13T14:48:57Z inventory-06 INFO  POST /v1/payments 200 in 362ms rid=a0c6ae
+2026-04-13T14:49:05Z inventory-06 INFO  GET /v1/profile 200 in 4ms rid=48ced1
+2026-04-13T14:49:11Z inventory-06 INFO  metrics: rps=383 p99=186ms heap=915MB goroutines=888
+2026-04-13T14:49:12Z inventory-06 WARN  cache miss ratio above 0.43
+2026-04-13T14:49:13Z inventory-06 INFO  POST /v1/payments 200 in 255ms rid=fcaccd
+2026-04-13T14:49:21Z inventory-06 INFO  PUT /v1/cart 200 in 27ms rid=f4599b
+2026-04-13T14:49:24Z inventory-06 INFO  health check ok (latency 8ms)
+2026-04-13T14:49:29Z inventory-06 INFO  POST /v1/payments 200 in 238ms rid=2c8c0a
+2026-04-13T14:49:37Z inventory-06 INFO  PUT /v1/cart 200 in 38ms rid=34bffc
+2026-04-13T14:49:45Z inventory-06 INFO  PUT /v1/cart 200 in 216ms rid=9eb6c0
+2026-04-13T14:49:53Z inventory-06 INFO  POST /v1/payments 200 in 339ms rid=5f621e
+2026-04-13T14:49:54Z inventory-06 INFO  health check ok (latency 2ms)
+2026-04-13T14:50:01Z inventory-06 INFO  POST /v1/payments 200 in 47ms rid=99c7b1
+2026-04-13T14:50:09Z inventory-06 INFO  DELETE /v1/cart/77667 200 in 391ms rid=5abfa8
+2026-04-13T14:50:17Z inventory-06 INFO  POST /v1/orders 200 in 117ms rid=148bb3
+2026-04-13T14:50:24Z inventory-06 INFO  health check ok (latency 11ms)
+2026-04-13T14:50:25Z inventory-06 INFO  DELETE /v1/cart/88255 200 in 296ms rid=5cc827
+2026-04-13T14:50:33Z inventory-06 INFO  POST /v1/orders 200 in 333ms rid=e60d18
+2026-04-13T14:50:41Z inventory-06 INFO  DELETE /v1/cart/36304 200 in 119ms rid=fb1b31
+2026-04-13T14:50:49Z inventory-06 INFO  DELETE /v1/cart/99450 200 in 62ms rid=148835
+2026-04-13T14:50:49Z inventory-06 WARN  slow query took 68ms on shard 2
+2026-04-13T14:50:54Z inventory-06 INFO  health check ok (latency 9ms)
+2026-04-13T14:50:57Z inventory-06 INFO  POST /v1/payments 200 in 125ms rid=d7ef51
+2026-04-13T14:51:05Z inventory-06 INFO  GET /v1/search 200 in 99ms rid=1db46e
+2026-04-13T14:51:11Z inventory-06 INFO  metrics: rps=286 p99=398ms heap=1350MB goroutines=614
+2026-04-13T14:51:13Z inventory-06 INFO  POST /v1/refunds 200 in 104ms rid=0c1e3a
+2026-04-13T14:51:21Z inventory-06 INFO  GET /health 200 in 189ms rid=7a63d1
+2026-04-13T14:51:24Z inventory-06 INFO  health check ok (latency 5ms)
+2026-04-13T14:51:29Z inventory-06 INFO  GET /health 200 in 122ms rid=bf7002
+2026-04-13T14:51:37Z inventory-06 INFO  POST /v1/orders 200 in 99ms rid=20f7c8
+2026-04-13T14:51:45Z inventory-06 INFO  DELETE /v1/cart/13362 200 in 252ms rid=e543fb
+2026-04-13T14:51:53Z inventory-06 INFO  GET /v1/items/82470 200 in 208ms rid=1bab2b
+2026-04-13T14:51:54Z inventory-06 INFO  health check ok (latency 5ms)
+2026-04-13T14:52:01Z inventory-06 INFO  GET /health 200 in 334ms rid=c94a4a
+2026-04-13T14:52:09Z inventory-06 INFO  PUT /v1/cart 200 in 69ms rid=740e2e
+2026-04-13T14:52:17Z inventory-06 INFO  GET /v1/search 200 in 353ms rid=6de77d
+2026-04-13T14:52:24Z inventory-06 INFO  health check ok (latency 5ms)
+2026-04-13T14:52:25Z inventory-06 INFO  DELETE /v1/cart/87173 200 in 389ms rid=f26170
+2026-04-13T14:52:26Z inventory-06 WARN  connection pool at 31% capacity
+2026-04-13T14:52:33Z inventory-06 INFO  DELETE /v1/cart/89931 200 in 343ms rid=e46d48
+2026-04-13T14:52:41Z inventory-06 INFO  GET /v1/search 200 in 121ms rid=b802b6
+2026-04-13T14:52:49Z inventory-06 INFO  GET /v1/orders/93422 200 in 188ms rid=234992
+2026-04-13T14:52:54Z inventory-06 INFO  health check ok (latency 10ms)
+2026-04-13T14:52:57Z inventory-06 INFO  POST /v1/payments 200 in 106ms rid=1793b5
+2026-04-13T14:53:05Z inventory-06 INFO  POST /v1/orders 200 in 272ms rid=bfe7be
+2026-04-13T14:53:11Z inventory-06 INFO  metrics: rps=55 p99=121ms heap=1603MB goroutines=698
+2026-04-13T14:53:13Z inventory-06 INFO  DELETE /v1/cart/83446 200 in 94ms rid=e1b4d2
+2026-04-13T14:53:21Z inventory-06 INFO  PUT /v1/cart 200 in 271ms rid=66b771
+2026-04-13T14:53:24Z inventory-06 INFO  health check ok (latency 8ms)
+2026-04-13T14:53:29Z inventory-06 INFO  POST /v1/orders 200 in 334ms rid=225338
+2026-04-13T14:53:37Z inventory-06 INFO  GET /v1/orders/71885 200 in 228ms rid=7d264e
+2026-04-13T14:53:45Z inventory-06 INFO  GET /v1/orders/99859 200 in 324ms rid=6d94cc
+2026-04-13T14:53:53Z inventory-06 INFO  GET /health 200 in 113ms rid=8c0c76
+2026-04-13T14:53:54Z inventory-06 INFO  health check ok (latency 6ms)
+2026-04-13T14:54:01Z inventory-06 INFO  GET /v1/search 200 in 364ms rid=d706d3
+2026-04-13T14:54:03Z inventory-06 WARN  retrying upstream call (attempt 2/3)
+2026-04-13T14:54:09Z inventory-06 INFO  POST /v1/refunds 200 in 166ms rid=cff14f
+2026-04-13T14:54:17Z inventory-06 INFO  PUT /v1/cart 200 in 140ms rid=602b05
+2026-04-13T14:54:24Z inventory-06 INFO  health check ok (latency 7ms)
+2026-04-13T14:54:25Z inventory-06 INFO  GET /v1/profile 200 in 377ms rid=ea3179
+2026-04-13T14:54:33Z inventory-06 INFO  GET /v1/search 200 in 172ms rid=7ae7a0
+2026-04-13T14:54:41Z inventory-06 INFO  GET /v1/profile 200 in 138ms rid=a5d214
+2026-04-13T14:54:49Z inventory-06 INFO  POST /v1/refunds 200 in 364ms rid=24211f

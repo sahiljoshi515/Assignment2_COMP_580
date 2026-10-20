@@ -1,0 +1,16 @@
+{
+  "tid": "T-52023e",
+  "seq": 4,
+  "citation": {
+    "authors": [
+      "Amara Zhou",
+      "Rosa Evans",
+      "Priya Qiunn"
+    ],
+    "title": "Scalable Graph Networks for Speech Recognition",
+    "venue": "ICCV",
+    "year": 2024
+  },
+  "raw": "Amara Zhou, Rosa Evans, and Priya Qiunn, \"Scalable Graph Networks for Speech Recognition,\" in Proc. ICCV '24, 2024.",
+  "received": "2026-01-08"
+}

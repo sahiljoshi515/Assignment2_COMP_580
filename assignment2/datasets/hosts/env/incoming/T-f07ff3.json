@@ -1,0 +1,10 @@
+{
+  "tid": "T-f07ff3",
+  "seq": 18,
+  "scenario": "FLT-1494",
+  "kind": "service_down",
+  "target": null,
+  "subject": "FLT-1494: which host has a service that is not running",
+  "body": "Grace Okafor (data) wriitng with a quick request. Find the batch host with a service reported as\ninactive in its [services] section and name the service.\n\nEvery other host reports that service as active.\n\nMuch aprpeciated, Grace Okafor",
+  "received": "2026-02-09"
+}

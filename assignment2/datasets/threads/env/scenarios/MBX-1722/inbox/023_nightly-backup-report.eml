@@ -1,0 +1,16 @@
+From: Backup Service <backup-bot@calderafoods.example>
+To: ops-notify@calderafoods.example
+Date: Mon, 16 Feb 2026 02:31:00 +0000
+Subject: Nightly backup report - fileshare-nightly - 2026-02-15
+
+Nightly backup report for 2026-02-15
+Job: fileshare-nightly
+Status: FAILED (target volume full)
+Started: 02:00:48 UTC   Finished: 02:31:35 UTC   Duration: 31 min
+Bytes transferred: 49.0 GB   Files: 1,158,237   Changed since last run: 5.6 %
+Retention: 30 daily, 12 weekly, 6 monthly
+Next run: 2026-02-16 02:00 UTC
+
+-- 
+This message was generated automatically by the backup service. Replies are not read.
+To change the schedule or the recipients, edit the job in the backup console.

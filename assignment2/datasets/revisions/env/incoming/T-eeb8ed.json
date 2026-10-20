@@ -1,0 +1,10 @@
+{
+  "tid": "T-eeb8ed",
+  "seq": 2,
+  "scenario": "pol-1684",
+  "kind": "current_value",
+  "target": "session_hours",
+  "subject": "POL-1684: current value of the maximum session length",
+  "body": "Hi, Nora Lindqvist from the SRE team here. What is the maximum session length in the latest revision\nof the Access Control Standard?\n\nJust the numeric value as written in the current versoin.\n\nThannks, Nora Lindqvist",
+  "received": "2026-01-07"
+}

@@ -1,0 +1,10 @@
+{
+  "tid": "T-1429da",
+  "seq": 1,
+  "scenario": "SDK-1266",
+  "kind": "missing_idempotency",
+  "target": null,
+  "subject": "SDK-1266: which adapter forgets the idempotency key",
+  "body": "Hi, Jonas Berg from the QA team here. Which paylane adapter has a charge or refund method that omits\nthe idempotency key required by R4, and which method is it?\n\nIn the compliant adapters both methods pass idempotency_key= to _request.\n\nThanks, Jonas Berg",
+  "received": "2026-01-05"
+}

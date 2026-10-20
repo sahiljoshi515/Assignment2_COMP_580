@@ -1,0 +1,10 @@
+{
+  "tid": "T-17ccf4",
+  "seq": 11,
+  "product": "CourierOS",
+  "error_code": "E5181",
+  "platform": "windows",
+  "subject": "E-5181: cannot write data directory on Windows",
+  "body": "Hi, I'm using CourierOS 3.5.0 on Windows 11 23H2. Since\nyesterday, every time I open the app, I get 'E-5181: cannot\nwrite to data directory'.\n\nThe data directory lives on a network share mapped by IT.\nWhen the machine wakes, the mapped share reconnects slowly.\n\nI've already tried waiting a day, which changed nothing.\n\nRegards, Sofia Rossi, Oakline Partners",
+  "opened": "2026-01-17"
+}

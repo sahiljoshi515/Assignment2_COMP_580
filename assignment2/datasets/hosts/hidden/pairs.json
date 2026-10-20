@@ -1,0 +1,153 @@
+{
+  "equivalent": [
+    {
+      "a": "H-8d4acb",
+      "b": "T-25de18",
+      "kind": "paraphrase"
+    },
+    {
+      "a": "T-f79c5b",
+      "b": "T-5376d5",
+      "kind": "reorder"
+    },
+    {
+      "a": "H-b16f14",
+      "b": "T-d92c2b",
+      "kind": "format"
+    },
+    {
+      "a": "T-cfd279",
+      "b": "T-c19bf7",
+      "kind": "paraphrase"
+    },
+    {
+      "a": "H-28609f",
+      "b": "T-0e0f58",
+      "kind": "edit"
+    },
+    {
+      "a": "H-219cd0",
+      "b": "T-c551ee",
+      "kind": "format"
+    },
+    {
+      "a": "H-199ee4",
+      "b": "T-ee8b1b",
+      "kind": "reorder"
+    },
+    {
+      "a": "H-e546cb",
+      "b": "T-157012",
+      "kind": "paraphrase"
+    },
+    {
+      "a": "H-b16f14",
+      "b": "T-f07ff3",
+      "kind": "class"
+    },
+    {
+      "a": "T-d92c2b",
+      "b": "T-f07ff3",
+      "kind": "edit"
+    },
+    {
+      "a": "H-de0b00",
+      "b": "T-f3006c",
+      "kind": "exact"
+    },
+    {
+      "a": "T-9ad237",
+      "b": "T-d76c8c",
+      "kind": "format"
+    },
+    {
+      "a": "H-bc55d9",
+      "b": "T-5698b8",
+      "kind": "edit"
+    },
+    {
+      "a": "H-6d9b75",
+      "b": "T-c5639a",
+      "kind": "format"
+    },
+    {
+      "a": "H-de0b00",
+      "b": "T-2eb3dc",
+      "kind": "class"
+    },
+    {
+      "a": "T-f3006c",
+      "b": "T-2eb3dc",
+      "kind": "paraphrase"
+    },
+    {
+      "a": "H-8788f0",
+      "b": "T-fe80c0",
+      "kind": "exact"
+    },
+    {
+      "a": "H-762bbf",
+      "b": "T-dc7ecb",
+      "kind": "exact"
+    }
+  ],
+  "hard_negative": [
+    {
+      "a": "H-cb609f",
+      "b": "T-cfd279",
+      "differs_in": [
+        "scenario"
+      ]
+    },
+    {
+      "a": "T-25de18",
+      "b": "T-9ad237",
+      "differs_in": [
+        "scenario"
+      ]
+    },
+    {
+      "a": "H-219cd0",
+      "b": "T-45d76f",
+      "differs_in": [
+        "scenario"
+      ]
+    },
+    {
+      "a": "H-8d4acb",
+      "b": "T-768a1f",
+      "differs_in": [
+        "scenario"
+      ]
+    },
+    {
+      "a": "H-0a4401",
+      "b": "T-36df4f",
+      "differs_in": [
+        "scenario"
+      ]
+    },
+    {
+      "a": "H-3b43e8",
+      "b": "T-ccb59d",
+      "differs_in": [
+        "scenario",
+        "target"
+      ]
+    },
+    {
+      "a": "T-768a1f",
+      "b": "T-60814c",
+      "differs_in": [
+        "scenario"
+      ]
+    },
+    {
+      "a": "H-80e0fd",
+      "b": "T-b9760a",
+      "differs_in": [
+        "scenario"
+      ]
+    }
+  ]
+}

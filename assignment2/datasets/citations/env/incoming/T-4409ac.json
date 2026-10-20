@@ -1,0 +1,17 @@
+{
+  "tid": "T-4409ac",
+  "seq": 19,
+  "citation": {
+    "authors": [
+      "Yamada, K.",
+      "Weber, B.",
+      "Farah, S."
+    ],
+    "title": "Low-Rank Adaptation for Lightweight Machine Translation",
+    "venue": "Conference on Neural Information Processing Systems",
+    "year": 2023,
+    "doi": "10.5555/neurips.2023.9a1e"
+  },
+  "raw": "Yamada, K., Weber, B., and Farah, S. (2023). Low-Rank Adaptation for Lightweight Machine Translation. In Proceedings of the Conference on Neural Information Processing Systems. Curran Associates. https://doi.org/10.5555/neurips.2023.9a1e Retrieved from https://proceedings.example.org/nips/860",
+  "received": "2026-01-26"
+}

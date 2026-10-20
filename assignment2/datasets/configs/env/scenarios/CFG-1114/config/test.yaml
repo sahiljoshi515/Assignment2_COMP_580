@@ -1,0 +1,50 @@
+# billing-api -- test environment. Generated from the shared template; see POLICY.md before editing.
+# Keys marked (uniform) must hold the same value in every environment.
+
+service:
+  name: billing-api
+  replicas: 1   # may vary per environment
+  port: 9000   # listening port, the same everywhere so the mesh routes work (uniform)
+  request_timeout_ms: 5000   # upstream request budget (uniform)
+  max_body_kb: 512   # request body cap (uniform)
+
+database:
+  host: db-test-18.internal   # per environment
+  port: 5432   # (uniform)
+  name: billing
+  pool_size: 40   # connections per replica (uniform)
+  statement_timeout_ms: 15000   # server-side statement cap (uniform)
+  ssl_mode: require   # never 'disable' (uniform)
+
+cache:
+  endpoint: redis://cache-test.internal:6379/0   # per environment
+  ttl_s: 900   # default entry lifetime (uniform)
+  max_entries: 5000   # per-replica cap (uniform)
+
+auth:
+  issuer: https://login.example.com   # token issuer (uniform)
+  token_ttl_s: 900   # access token lifetime (uniform)
+  allow_anonymous: false   # SECURITY: must be false in every environment (uniform)
+  required_scopes: [billing.read, billing.write]   # (uniform)
+
+tls:
+  verify: false   # SECURITY: must be true in every environment (uniform)
+  min_version: "1.2"   # lowest protocol version accepted (uniform)
+  cert_path: /etc/certs/billing-api/test.pem   # per environment
+
+logging:
+  level: debug   # debug outside production, info in production
+  format: logfmt   # one format so the pipeline can parse every environment (uniform)
+  sample_rate: 0.5   # share of debug lines kept (uniform)
+
+features:
+  new_checkout: false   # feature flags are rolled out fleet-wide (uniform)
+  async_refunds: true   # feature flags are rolled out fleet-wide (uniform)
+  rate_limiting: true   # feature flags are rolled out fleet-wide (uniform)
+
+payments:
+  provider: adyen   # one provider per service (uniform)
+  retry_limit: 3   # transient failures retried this many times (uniform)
+  backoff_ms: 100   # base backoff between retries (uniform)
+  idempotency: true   # every write carries an idempotency key (uniform)
+

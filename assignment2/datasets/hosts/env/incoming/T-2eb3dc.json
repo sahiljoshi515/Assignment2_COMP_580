@@ -1,0 +1,10 @@
+{
+  "tid": "T-2eb3dc",
+  "seq": 27,
+  "scenario": "flt-1228",
+  "kind": "service_down",
+  "target": null,
+  "subject": "FLT-1228: which host has a service that is not running",
+  "body": "Hi, Priya Nair from the support team here. All services listed in the edge snapshots should be active on every host. One host has one service inactive. Which host, and which service?\n\nServices are listed under [services] as identify = active or name = inactive.\n\nMuch appreciated a lot, Priya Nair",
+  "received": "2026-02-28"
+}

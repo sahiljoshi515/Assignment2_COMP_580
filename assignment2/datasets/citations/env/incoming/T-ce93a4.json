@@ -1,0 +1,18 @@
+{
+  "tid": "T-ce93a4",
+  "seq": 40,
+  "citation": {
+    "authors": [
+      "Jamal Farah",
+      "Samir Mendes",
+      "Amara Bello"
+    ],
+    "title": "Differentiable Policies for Join Optimization",
+    "venue": "ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "year": 2022,
+    "doi": "10.5555/sigir.2021.d735",
+    "pages": "1467-1474"
+  },
+  "raw": "@inproceedings{farah:differentiable,\n  author = {Jamal Farah and Samir Mendes and Amara Bello},\n  title = {Differentiable Policies for Join Optimization},\n  booktitle = {Proceedings of the ACM SIGIR Conference on Research and Development in Information Retrieval},\n  year = {2022},\n  publisher = {ACM},\n  pages = {1467--1474},\n  url = {https://doi.org/10.5555/sigir.2021.d735},\n  note = {Available at https://proceedings.example.org/sigir/492},\n}",
+  "received": "2026-02-20"
+}

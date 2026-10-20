@@ -1,0 +1,122 @@
+{
+  "dataset": "bugs",
+  "seed": 23,
+  "args": {
+    "history_size": 120,
+    "incoming": 60,
+    "dup_rate": 0.4
+  },
+  "counts": {
+    "history": 120,
+    "incoming": 60,
+    "duplicates": 24,
+    "hard_negatives": 12,
+    "by_kind": {
+      "exact": 4,
+      "format": 6,
+      "reorder": 3,
+      "edit": 5,
+      "paraphrase": 6
+    },
+    "dup_of_history": 17,
+    "dup_of_task": 7,
+    "history_twins": 13
+  },
+  "tokens": {
+    "instructions": 1606,
+    "history": 30581,
+    "incoming": 15005,
+    "reference": 0,
+    "total": 47192
+  },
+  "budget": {
+    "range": [
+      30000,
+      50000
+    ],
+    "enforced": true,
+    "ok": true
+  },
+  "similarity": {
+    "exact": {
+      "n": 4,
+      "min": 1.0,
+      "p10": 1.0,
+      "p50": 1.0,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "format": {
+      "n": 6,
+      "min": 1.0,
+      "p10": 1.0,
+      "p50": 1.0,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "reorder": {
+      "n": 3,
+      "min": 0.83,
+      "p10": 0.83,
+      "p50": 0.845,
+      "p90": 0.846,
+      "max": 0.846
+    },
+    "edit": {
+      "n": 5,
+      "min": 0.646,
+      "p10": 0.646,
+      "p50": 0.664,
+      "p90": 0.704,
+      "max": 0.704
+    },
+    "paraphrase": {
+      "n": 6,
+      "min": 0.287,
+      "p10": 0.287,
+      "p50": 0.326,
+      "p90": 0.375,
+      "max": 0.375
+    },
+    "hard_negative": {
+      "n": 12,
+      "min": 0.409,
+      "p10": 0.444,
+      "p50": 0.765,
+      "p90": 0.86,
+      "max": 0.952
+    },
+    "confusable": {
+      "n": 32,
+      "min": 0.127,
+      "p10": 0.151,
+      "p50": 0.192,
+      "p90": 0.226,
+      "max": 0.238
+    },
+    "random": {
+      "n": 300,
+      "min": 0.004,
+      "p10": 0.021,
+      "p50": 0.052,
+      "p90": 0.107,
+      "max": 0.246
+    }
+  },
+  "text_for_similarity": "title + body + stacktrace",
+  "answer_histogram": {
+    "{\"component\": \"networking\", \"root_cause\": \"RC-10\"}": 4,
+    "{\"component\": \"storage\", \"root_cause\": \"RC-05\"}": 4,
+    "{\"component\": \"auth\", \"root_cause\": \"RC-10\"}": 3,
+    "{\"component\": \"config\", \"root_cause\": \"RC-04\"}": 3,
+    "{\"component\": \"scheduler\", \"root_cause\": \"RC-16\"}": 3,
+    "{\"component\": \"storage\", \"root_cause\": \"RC-10\"}": 3,
+    "{\"component\": \"ui\", \"root_cause\": \"RC-02\"}": 3,
+    "{\"component\": \"ui\", \"root_cause\": \"RC-06\"}": 3,
+    "{\"component\": \"auth\", \"root_cause\": \"RC-16\"}": 2,
+    "{\"component\": \"auth\", \"root_cause\": \"RC-19\"}": 2,
+    "{\"component\": \"networking\", \"root_cause\": \"RC-18\"}": 2,
+    "{\"component\": \"reporting\", \"root_cause\": \"RC-06\"}": 2
+  },
+  "max_answer_share": 0.067
+}

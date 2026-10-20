@@ -1,0 +1,10 @@
+{
+  "tid": "T-53f313",
+  "seq": 3,
+  "product": "CourierOS",
+  "error_code": "E5218",
+  "platform": "windows",
+  "subject": "E-5218: TLS handshake failed on Windows",
+  "body": "Hi, I'm using CourierOS 3.5.3 on Windows 11 24H2. Since the weekend, every time\nI open the app, I get 'E-5218: TLS handshake failed'.\n\nThe system clock is wrong after a motherboard battery failure. The login page in\nthe browser also shows a certificate warning.\n\nI've already tried searching the help centre, which changed nothing.\n\nThanks, Grace Okafor (Northbank Studio)",
+  "opened": "2026-01-07"
+}

@@ -1,0 +1,10 @@
+{
+  "tid": "T-2a8e03",
+  "seq": 22,
+  "scenario": "SDK1722",
+  "kind": "timeout_drift",
+  "target": null,
+  "subject": "SDK-1722: which adapter uses a different timeout",
+  "body": "Priya Nair (payments) writing with a quick ask. Rule R2 says every adapter uses TIMEOUT_S = 10. One adapter sets a different value. Which file, and what value does it set?\n\nThe constant is near the top of each adapter module.\n\nMuch appreciated a lot, Priya Nair",
+  "received": "2026-02-18"
+}

@@ -1,0 +1,112 @@
+2026-03-19T14:24:53Z gateway-02 INFO  starting gateway 4.3.3 (build bb22ded) on gateway-02
+2026-03-19T14:24:54Z gateway-02 INFO  config: max_connections=256
+2026-03-19T14:24:54Z gateway-02 INFO  config: pool_size=32
+2026-03-19T14:24:54Z gateway-02 INFO  config: request_timeout_ms=5000
+2026-03-19T14:24:54Z gateway-02 INFO  config: cache_ttl_s=60
+2026-03-19T14:24:54Z gateway-02 INFO  config: log_level=DEBUG
+2026-03-19T14:24:54Z gateway-02 INFO  config: queue_depth=100
+2026-03-19T14:24:54Z gateway-02 INFO  config: gc_interval_s=60
+2026-03-19T14:24:55Z gateway-02 INFO  listening on 0.0.0.0:8080; workers=8
+2026-03-19T14:24:53Z gateway-02 INFO  health check ok (latency 3ms)
+2026-03-19T14:24:56Z gateway-02 INFO  GET /v1/profile 200 in 285ms rid=c8baec
+2026-03-19T14:25:04Z gateway-02 INFO  GET /health 200 in 375ms rid=85d83b
+2026-03-19T14:25:10Z gateway-02 INFO  metrics: rps=241 p99=717ms heap=1564MB goroutines=194
+2026-03-19T14:25:12Z gateway-02 INFO  GET /v1/orders/89482 200 in 104ms rid=7d0df6
+2026-03-19T14:25:20Z gateway-02 INFO  POST /v1/orders 200 in 360ms rid=9cc6bf
+2026-03-19T14:25:23Z gateway-02 INFO  health check ok (latency 5ms)
+2026-03-19T14:25:28Z gateway-02 INFO  DELETE /v1/cart/80759 200 in 16ms rid=a58583
+2026-03-19T14:25:34Z gateway-02 WARN  retrying upstream call (attempt 3/3)
+2026-03-19T14:25:36Z gateway-02 INFO  GET /v1/profile 200 in 245ms rid=74815a
+2026-03-19T14:25:44Z gateway-02 INFO  GET /v1/items/69585 200 in 160ms rid=165275
+2026-03-19T14:25:52Z gateway-02 INFO  GET /v1/orders/40106 200 in 235ms rid=79c17b
+2026-03-19T14:25:53Z gateway-02 INFO  health check ok (latency 8ms)
+2026-03-19T14:26:00Z gateway-02 INFO  PUT /v1/cart 200 in 120ms rid=efa1bc
+2026-03-19T14:26:08Z gateway-02 INFO  GET /v1/orders/10063 200 in 361ms rid=dc6d0f
+2026-03-19T14:26:16Z gateway-02 INFO  POST /v1/refunds 200 in 368ms rid=27cc38
+2026-03-19T14:26:23Z gateway-02 INFO  health check ok (latency 9ms)
+2026-03-19T14:26:24Z gateway-02 INFO  GET /v1/items/70584 200 in 174ms rid=cce030
+2026-03-19T14:26:32Z gateway-02 INFO  GET /v1/orders/39860 200 in 260ms rid=e59a0e
+2026-03-19T14:26:40Z gateway-02 INFO  GET /v1/orders/61994 200 in 228ms rid=b56798
+2026-03-19T14:26:48Z gateway-02 INFO  POST /v1/payments 200 in 276ms rid=fe5a53
+2026-03-19T14:26:53Z gateway-02 INFO  health check ok (latency 1ms)
+2026-03-19T14:26:56Z gateway-02 INFO  GET /v1/search 200 in 65ms rid=a472eb
+2026-03-19T14:27:04Z gateway-02 INFO  GET /v1/profile 200 in 138ms rid=37053c
+2026-03-19T14:27:10Z gateway-02 INFO  metrics: rps=383 p99=772ms heap=853MB goroutines=412
+2026-03-19T14:27:11Z gateway-02 WARN  connection pool at 77% capacity
+2026-03-19T14:27:12Z gateway-02 INFO  GET /health 200 in 286ms rid=6d6e8c
+2026-03-19T14:27:20Z gateway-02 INFO  POST /v1/orders 200 in 144ms rid=1dfa79
+2026-03-19T14:27:23Z gateway-02 INFO  health check ok (latency 2ms)
+2026-03-19T14:27:28Z gateway-02 INFO  DELETE /v1/cart/34777 200 in 376ms rid=e65369
+2026-03-19T14:27:36Z gateway-02 INFO  PUT /v1/cart 200 in 271ms rid=a2ebe8
+2026-03-19T14:27:44Z gateway-02 INFO  GET /v1/items/20207 200 in 175ms rid=754c82
+2026-03-19T14:27:52Z gateway-02 INFO  GET /v1/profile 200 in 12ms rid=ffc1ed
+2026-03-19T14:27:53Z gateway-02 INFO  health check ok (latency 3ms)
+2026-03-19T14:28:00Z gateway-02 INFO  POST /v1/payments 200 in 61ms rid=b7887b
+2026-03-19T14:28:08Z gateway-02 INFO  PUT /v1/cart 200 in 107ms rid=c4691e
+2026-03-19T14:28:16Z gateway-02 INFO  GET /v1/items/75271 200 in 197ms rid=41d7c4
+2026-03-19T14:28:23Z gateway-02 INFO  health check ok (latency 6ms)
+2026-03-19T14:28:24Z gateway-02 INFO  POST /v1/payments 200 in 377ms rid=04e677
+2026-03-19T14:28:32Z gateway-02 INFO  GET /v1/search 200 in 88ms rid=ec4445
+2026-03-19T14:28:40Z gateway-02 INFO  GET /v1/items/52072 200 in 365ms rid=a44112
+2026-03-19T14:28:48Z gateway-02 INFO  GET /v1/search 200 in 297ms rid=54000d
+2026-03-19T14:28:48Z gateway-02 WARN  retrying upstream call (attempt 3/3)
+2026-03-19T14:28:53Z gateway-02 INFO  health check ok (latency 7ms)
+2026-03-19T14:28:56Z gateway-02 INFO  GET /v1/search 200 in 201ms rid=ad983c
+2026-03-19T14:29:04Z gateway-02 INFO  GET /v1/orders/70261 200 in 149ms rid=4912d1
+2026-03-19T14:29:10Z gateway-02 INFO  metrics: rps=97 p99=690ms heap=734MB goroutines=129
+2026-03-19T14:29:12Z gateway-02 INFO  DELETE /v1/cart/41622 200 in 35ms rid=bb8c51
+2026-03-19T14:29:20Z gateway-02 INFO  POST /v1/payments 200 in 386ms rid=832e02
+2026-03-19T14:29:23Z gateway-02 INFO  health check ok (latency 2ms)
+2026-03-19T14:29:28Z gateway-02 INFO  PUT /v1/cart 200 in 258ms rid=da5f18
+2026-03-19T14:29:36Z gateway-02 INFO  POST /v1/refunds 200 in 93ms rid=a283d1
+2026-03-19T14:29:44Z gateway-02 INFO  GET /v1/items/22876 200 in 127ms rid=0bc665
+2026-03-19T14:29:52Z gateway-02 INFO  GET /v1/profile 200 in 210ms rid=880240
+2026-03-19T14:29:53Z gateway-02 INFO  health check ok (latency 4ms)
+2026-03-19T14:30:00Z gateway-02 INFO  POST /v1/refunds 200 in 252ms rid=261212
+2026-03-19T14:30:08Z gateway-02 INFO  GET /v1/profile 200 in 15ms rid=e41cf0
+2026-03-19T14:30:16Z gateway-02 INFO  POST /v1/orders 200 in 168ms rid=f23a40
+2026-03-19T14:30:23Z gateway-02 INFO  health check ok (latency 9ms)
+2026-03-19T14:30:24Z gateway-02 INFO  DELETE /v1/cart/65746 200 in 8ms rid=24e92d
+2026-03-19T14:30:25Z gateway-02 WARN  slow query took 93ms on shard 3
+2026-03-19T14:30:32Z gateway-02 INFO  GET /health 200 in 89ms rid=66171b
+2026-03-19T14:30:40Z gateway-02 INFO  GET /v1/items/67179 200 in 163ms rid=33f693
+2026-03-19T14:30:48Z gateway-02 INFO  GET /v1/profile 200 in 355ms rid=8ff1b4
+2026-03-19T14:30:53Z gateway-02 INFO  health check ok (latency 5ms)
+2026-03-19T14:30:56Z gateway-02 INFO  GET /health 200 in 134ms rid=a7f159
+2026-03-19T14:31:04Z gateway-02 INFO  PUT /v1/cart 200 in 368ms rid=6a1980
+2026-03-19T14:31:10Z gateway-02 INFO  metrics: rps=185 p99=325ms heap=1578MB goroutines=791
+2026-03-19T14:31:12Z gateway-02 INFO  GET /v1/profile 200 in 207ms rid=bf69bf
+2026-03-19T14:31:20Z gateway-02 INFO  GET /v1/search 200 in 338ms rid=8ed138
+2026-03-19T14:31:23Z gateway-02 INFO  health check ok (latency 9ms)
+2026-03-19T14:31:28Z gateway-02 INFO  POST /v1/refunds 200 in 183ms rid=c5f5e6
+2026-03-19T14:31:36Z gateway-02 INFO  POST /v1/orders 200 in 252ms rid=f84c94
+2026-03-19T14:31:44Z gateway-02 INFO  GET /health 200 in 139ms rid=8b62b6
+2026-03-19T14:31:49Z gateway-02 ERROR SerializationError: user-service did not respond within 5000ms (attempt 1/3)
+2026-03-19T14:31:52Z gateway-02 INFO  GET /v1/items/13235 200 in 107ms rid=a7ccb6
+2026-03-19T14:31:53Z gateway-02 WARN  health check FAILED: user-service unreachable
+2026-03-19T14:31:56Z gateway-02 ERROR SerializationError: user-service did not respond within 5000ms (attempt 2/3)
+2026-03-19T14:32:00Z gateway-02 INFO  POST /v1/refunds 503 in 339ms rid=1de3c8
+2026-03-19T14:32:02Z gateway-02 WARN  retrying upstream call (attempt 3/3)
+2026-03-19T14:32:03Z gateway-02 ERROR SerializationError: user-service did not respond within 5000ms (attempt 3/3)
+2026-03-19T14:32:08Z gateway-02 INFO  GET /health 503 in 396ms rid=220c1b
+2026-03-19T14:32:10Z gateway-02 ERROR SerializationError: user-service did not respond within 5000ms (attempt 1/3)
+2026-03-19T14:32:16Z gateway-02 INFO  GET /health 200 in 226ms rid=a15464
+2026-03-19T14:32:17Z gateway-02 ERROR SerializationError: user-service did not respond within 5000ms (attempt 2/3)
+2026-03-19T14:32:23Z gateway-02 WARN  health check FAILED: user-service unreachable
+2026-03-19T14:32:24Z gateway-02 INFO  PUT /v1/cart 200 in 83ms rid=93841a
+2026-03-19T14:32:24Z gateway-02 ERROR SerializationError: user-service did not respond within 5000ms (attempt 3/3)
+2026-03-19T14:32:31Z gateway-02 ERROR SerializationError: user-service did not respond within 5000ms (attempt 1/3)
+2026-03-19T14:32:32Z gateway-02 INFO  PUT /v1/cart 200 in 6ms rid=c17650
+2026-03-19T14:32:38Z gateway-02 ERROR SerializationError: user-service did not respond within 5000ms (attempt 2/3)
+2026-03-19T14:32:40Z gateway-02 INFO  PUT /v1/cart 503 in 67ms rid=767f28
+2026-03-19T14:32:45Z gateway-02 ERROR SerializationError: user-service did not respond within 5000ms (attempt 3/3)
+2026-03-19T14:32:48Z gateway-02 INFO  GET /v1/orders/55195 503 in 378ms rid=de465a
+2026-03-19T14:32:52Z gateway-02 ERROR SerializationError: user-service did not respond within 5000ms (attempt 1/3)
+2026-03-19T14:32:59Z gateway-02 ERROR SerializationError: user-service did not respond within 5000ms (attempt 2/3)
+2026-03-19T14:33:06Z gateway-02 ERROR SerializationError: user-service did not respond within 5000ms (attempt 3/3)
+2026-03-19T14:33:13Z gateway-02 ERROR SerializationError: user-service did not respond within 5000ms (attempt 1/3)
+2026-03-19T14:33:20Z gateway-02 ERROR SerializationError: user-service did not respond within 5000ms (attempt 2/3)
+2026-03-19T14:33:27Z gateway-02 ERROR SerializationError: user-service did not respond within 5000ms (attempt 3/3)
+2026-03-19T14:33:34Z gateway-02 ERROR SerializationError: user-service did not respond within 5000ms (attempt 1/3)
+2026-03-19T14:33:41Z gateway-02 ERROR SerializationError: user-service did not respond within 5000ms (attempt 2/3)
+2026-03-19T14:33:48Z gateway-02 ERROR SerializationError: giving up on user-service after 18 attempts

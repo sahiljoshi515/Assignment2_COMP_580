@@ -1,0 +1,10 @@
+{
+  "tid": "T-64658e",
+  "seq": 5,
+  "scenario": "POL-1380",
+  "kind": "introduced_in",
+  "target": "retention_days",
+  "subject": "POL-1380: which revision set the retention period to its current value",
+  "body": "Hello -- Kenji Sato, infra. When did the retention period in the Vendor Security\nPolicy become what it is today? Give the revision in which that value first\nappears.\n\nCompare the versions in policy/; report the revision label as in the file name.\n\nThanks, Kenji Sato",
+  "received": "2026-01-13"
+}

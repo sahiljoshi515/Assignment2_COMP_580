@@ -1,0 +1,7 @@
+{
+  "tid": "T-762104",
+  "seq": 6,
+  "title": "INC-9696: incident on the Edge Proxy Layer",
+  "body": "Impact\n\nThe Edge Proxy Layer incident described here is closed at\nthe time of writing. Release Management linked roughly 34\ntickets to the event and engaged Tessaro Labs, the hosting\nprovider, within the first hour.\n\nTimeline\n\nOmar Haddad logged the following events, state as of 28\nOctober 2025:\n* The on-call engineer confirmed failed health checks on two\n  nodes\n* A configuration push was identified as the likely trigger\n* The vendor was engaged through the premium support line\n\nStatus\n\nRelease Management lists the incident as closed. Report\nwritten by Ivan Petrov on 9 June 2025; the next review falls\nin the 20:00-21:00 UTC window and goes to the weekly service\nmeeting.",
+  "received": "2026-01-12"
+}

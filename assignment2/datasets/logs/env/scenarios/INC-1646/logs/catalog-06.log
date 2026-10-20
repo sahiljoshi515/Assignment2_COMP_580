@@ -1,0 +1,94 @@
+2026-03-07T20:12:24Z catalog-06 INFO  starting catalog 3.17.7 (build f89b239) on catalog-06
+2026-03-07T20:12:25Z catalog-06 INFO  config: max_connections=256
+2026-03-07T20:12:25Z catalog-06 INFO  config: pool_size=32
+2026-03-07T20:12:25Z catalog-06 INFO  config: request_timeout_ms=5000
+2026-03-07T20:12:25Z catalog-06 INFO  config: cache_ttl_s=900
+2026-03-07T20:12:25Z catalog-06 INFO  config: log_level=INFO
+2026-03-07T20:12:25Z catalog-06 INFO  config: queue_depth=1000
+2026-03-07T20:12:25Z catalog-06 INFO  config: gc_interval_s=120
+2026-03-07T20:12:26Z catalog-06 INFO  listening on 0.0.0.0:8080; workers=16
+2026-03-07T20:12:24Z catalog-06 INFO  health check ok (latency 8ms)
+2026-03-07T20:12:27Z catalog-06 INFO  DELETE /v1/cart/8473 200 in 293ms rid=70bf46
+2026-03-07T20:12:35Z catalog-06 INFO  POST /v1/refunds 200 in 243ms rid=2d7051
+2026-03-07T20:12:41Z catalog-06 INFO  metrics: rps=198 p99=275ms heap=1443MB goroutines=800
+2026-03-07T20:12:43Z catalog-06 INFO  POST /v1/refunds 200 in 74ms rid=c3d84d
+2026-03-07T20:12:51Z catalog-06 INFO  GET /v1/search 200 in 127ms rid=14a45c
+2026-03-07T20:12:54Z catalog-06 INFO  health check ok (latency 8ms)
+2026-03-07T20:12:59Z catalog-06 INFO  GET /v1/orders/44217 200 in 165ms rid=93df04
+2026-03-07T20:13:05Z catalog-06 WARN  slow query took 11ms on shard 2
+2026-03-07T20:13:07Z catalog-06 INFO  POST /v1/payments 200 in 103ms rid=443e8a
+2026-03-07T20:13:15Z catalog-06 INFO  GET /v1/items/85624 200 in 169ms rid=f32ab6
+2026-03-07T20:13:23Z catalog-06 INFO  GET /v1/orders/21207 200 in 320ms rid=c3c003
+2026-03-07T20:13:24Z catalog-06 INFO  health check ok (latency 8ms)
+2026-03-07T20:13:31Z catalog-06 INFO  GET /v1/items/37184 200 in 42ms rid=3d04c1
+2026-03-07T20:13:39Z catalog-06 INFO  GET /health 200 in 374ms rid=9b9102
+2026-03-07T20:13:47Z catalog-06 INFO  GET /v1/items/2128 200 in 123ms rid=ce3bb3
+2026-03-07T20:13:54Z catalog-06 INFO  health check ok (latency 5ms)
+2026-03-07T20:13:55Z catalog-06 INFO  GET /v1/items/51032 200 in 221ms rid=6b2b05
+2026-03-07T20:14:03Z catalog-06 INFO  DELETE /v1/cart/82449 200 in 185ms rid=983d13
+2026-03-07T20:14:11Z catalog-06 INFO  GET /v1/orders/26708 200 in 377ms rid=883867
+2026-03-07T20:14:19Z catalog-06 INFO  POST /v1/payments 200 in 255ms rid=1cb476
+2026-03-07T20:14:24Z catalog-06 INFO  health check ok (latency 2ms)
+2026-03-07T20:14:27Z catalog-06 INFO  GET /v1/profile 200 in 276ms rid=6a61b5
+2026-03-07T20:14:35Z catalog-06 INFO  GET /health 200 in 193ms rid=d26b8e
+2026-03-07T20:14:41Z catalog-06 INFO  metrics: rps=337 p99=580ms heap=1006MB goroutines=286
+2026-03-07T20:14:42Z catalog-06 WARN  slow query took 79ms on shard 3
+2026-03-07T20:14:43Z catalog-06 INFO  GET /v1/items/20619 200 in 87ms rid=2e2232
+2026-03-07T20:14:51Z catalog-06 INFO  PUT /v1/cart 200 in 345ms rid=86073d
+2026-03-07T20:14:54Z catalog-06 INFO  health check ok (latency 7ms)
+2026-03-07T20:14:59Z catalog-06 INFO  GET /v1/profile 200 in 296ms rid=93cdf3
+2026-03-07T20:15:07Z catalog-06 INFO  GET /v1/items/64614 200 in 72ms rid=deb2d6
+2026-03-07T20:15:15Z catalog-06 INFO  GET /health 200 in 365ms rid=1e9496
+2026-03-07T20:15:23Z catalog-06 INFO  POST /v1/payments 200 in 365ms rid=4b531e
+2026-03-07T20:15:24Z catalog-06 INFO  health check ok (latency 4ms)
+2026-03-07T20:15:31Z catalog-06 INFO  GET /v1/items/27896 200 in 210ms rid=0615eb
+2026-03-07T20:15:39Z catalog-06 INFO  POST /v1/orders 200 in 11ms rid=14d5c9
+2026-03-07T20:15:47Z catalog-06 INFO  GET /v1/items/37847 200 in 42ms rid=956f31
+2026-03-07T20:15:54Z catalog-06 INFO  health check ok (latency 2ms)
+2026-03-07T20:15:55Z catalog-06 INFO  GET /health 200 in 298ms rid=e74b93
+2026-03-07T20:16:03Z catalog-06 INFO  GET /health 200 in 141ms rid=a2f2ff
+2026-03-07T20:16:11Z catalog-06 INFO  POST /v1/refunds 200 in 174ms rid=ac481e
+2026-03-07T20:16:19Z catalog-06 INFO  GET /v1/search 200 in 227ms rid=59a18f
+2026-03-07T20:16:19Z catalog-06 WARN  cache miss ratio above 0.75
+2026-03-07T20:16:24Z catalog-06 INFO  health check ok (latency 6ms)
+2026-03-07T20:16:27Z catalog-06 INFO  GET /health 200 in 348ms rid=5f98a9
+2026-03-07T20:16:35Z catalog-06 INFO  PUT /v1/cart 200 in 37ms rid=fb9628
+2026-03-07T20:16:41Z catalog-06 INFO  metrics: rps=195 p99=393ms heap=1389MB goroutines=366
+2026-03-07T20:16:43Z catalog-06 INFO  PUT /v1/cart 200 in 337ms rid=bdf18d
+2026-03-07T20:16:51Z catalog-06 INFO  GET /v1/profile 200 in 237ms rid=7e9f97
+2026-03-07T20:16:54Z catalog-06 INFO  health check ok (latency 2ms)
+2026-03-07T20:16:59Z catalog-06 INFO  POST /v1/orders 200 in 348ms rid=575baa
+2026-03-07T20:17:07Z catalog-06 INFO  GET /v1/search 200 in 230ms rid=9e28ea
+2026-03-07T20:17:15Z catalog-06 INFO  GET /health 200 in 7ms rid=5245a8
+2026-03-07T20:17:23Z catalog-06 INFO  POST /v1/payments 200 in 270ms rid=7e0ed0
+2026-03-07T20:17:24Z catalog-06 INFO  health check ok (latency 4ms)
+2026-03-07T20:17:31Z catalog-06 INFO  GET /v1/search 200 in 203ms rid=f79930
+2026-03-07T20:17:39Z catalog-06 INFO  GET /health 200 in 234ms rid=98a020
+2026-03-07T20:17:47Z catalog-06 INFO  GET /v1/items/86036 200 in 237ms rid=461446
+2026-03-07T20:17:54Z catalog-06 INFO  health check ok (latency 6ms)
+2026-03-07T20:17:55Z catalog-06 INFO  POST /v1/payments 200 in 213ms rid=2491c6
+2026-03-07T20:17:56Z catalog-06 WARN  connection pool at 76% capacity
+2026-03-07T20:18:03Z catalog-06 INFO  POST /v1/payments 200 in 29ms rid=0addfc
+2026-03-07T20:18:11Z catalog-06 INFO  GET /health 200 in 366ms rid=d3756f
+2026-03-07T20:18:19Z catalog-06 INFO  PUT /v1/cart 200 in 264ms rid=2e19d7
+2026-03-07T20:18:24Z catalog-06 INFO  health check ok (latency 2ms)
+2026-03-07T20:18:27Z catalog-06 INFO  GET /health 200 in 11ms rid=bd89fe
+2026-03-07T20:18:35Z catalog-06 INFO  POST /v1/refunds 200 in 346ms rid=bd7597
+2026-03-07T20:18:41Z catalog-06 INFO  metrics: rps=261 p99=394ms heap=828MB goroutines=232
+2026-03-07T20:18:43Z catalog-06 INFO  GET /v1/items/22359 200 in 180ms rid=cee482
+2026-03-07T20:18:51Z catalog-06 INFO  POST /v1/refunds 200 in 183ms rid=8f84f7
+2026-03-07T20:18:54Z catalog-06 INFO  health check ok (latency 6ms)
+2026-03-07T20:18:59Z catalog-06 INFO  POST /v1/payments 200 in 320ms rid=64374b
+2026-03-07T20:19:07Z catalog-06 INFO  DELETE /v1/cart/54532 200 in 126ms rid=d52aea
+2026-03-07T20:19:15Z catalog-06 INFO  GET /health 200 in 257ms rid=59843f
+2026-03-07T20:19:23Z catalog-06 INFO  PUT /v1/cart 200 in 172ms rid=2adedd
+2026-03-07T20:19:24Z catalog-06 INFO  health check ok (latency 9ms)
+2026-03-07T20:19:31Z catalog-06 INFO  DELETE /v1/cart/25037 200 in 346ms rid=a781f7
+2026-03-07T20:19:33Z catalog-06 WARN  connection pool at 27% capacity
+2026-03-07T20:19:39Z catalog-06 INFO  PUT /v1/cart 200 in 55ms rid=4c6e0e
+2026-03-07T20:19:47Z catalog-06 INFO  PUT /v1/cart 200 in 293ms rid=e60d6d
+2026-03-07T20:19:54Z catalog-06 INFO  health check ok (latency 3ms)
+2026-03-07T20:19:55Z catalog-06 INFO  DELETE /v1/cart/15500 200 in 208ms rid=27f1ae
+2026-03-07T20:20:03Z catalog-06 INFO  GET /v1/profile 200 in 391ms rid=373a40
+2026-03-07T20:20:11Z catalog-06 INFO  GET /health 200 in 228ms rid=24d835
+2026-03-07T20:20:19Z catalog-06 INFO  DELETE /v1/cart/26822 200 in 126ms rid=db2769

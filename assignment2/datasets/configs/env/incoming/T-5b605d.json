@@ -1,0 +1,10 @@
+{
+  "tid": "T-5b605d",
+  "seq": 37,
+  "scenario": "CFG1076",
+  "kind": "most_replicas",
+  "target": null,
+  "subject": "CFG-1076: which environment runs the most replicas",
+  "body": "Fatima Zahra (QA) writing with a quick request. Across all catalog-api environments, find the largest service.replicas value and the environment that has it.\n\nEvery environment file sets service.replicas; the largest is unique.\n\nThanks, Fatima Zahra",
+  "received": "2026-03-21"
+}

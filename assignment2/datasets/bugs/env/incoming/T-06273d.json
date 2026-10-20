@@ -1,0 +1,11 @@
+{
+  "tid": "T-06273d",
+  "seq": 58,
+  "exception": "TimeoutError",
+  "top_frame": "lattice/net/tls.py::handshake",
+  "version": "3.0.6",
+  "title": "TimeoutError in tls.handshake when refreshing an expired session",
+  "body": "ENVIRONMENT:\n\nLattice version 3.0.6; operating system macOS 15.3; server\nregion us-east-1.\n\nSTEPS:\n\nHow to trigger it:\n- With the log window open, start refreshing an expired\n  session.\n- Run two workers side by side.\n- Wait for the failure and read the log.\n\nEXPECTED:\n\nNo traceback; refreshing an expired session normally takes a\nfew seconds.\n\nACTUAL:\n\nThe call never returns until the thirty-second guard fires.\nIt only happens when two workers run at once; a single\nworker is fine.\n\nFREQUENCY:\n\nIt occurs twice this week.",
+  "stacktrace": "lattice/ui/main.py:51 in loop\nlattice/ui/dialog.py:122 in on_login\nlattice/auth/flow.py:59 in start\nlattice/net/tls.py:161 in handshake\nTimeoutError: handshake timed out after 30s (host=us-east-1)",
+  "reported": "2026-03-25"
+}

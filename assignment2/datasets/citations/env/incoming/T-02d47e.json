@@ -1,0 +1,19 @@
+{
+  "tid": "T-02d47e",
+  "seq": 38,
+  "citation": {
+    "authors": [
+      "F. Evans",
+      "O. Gupta",
+      "O. Petrov",
+      "G. Zhou"
+    ],
+    "title": "Link prediction with efficient indexes",
+    "venue": "ACL",
+    "year": 2016,
+    "doi": "10.5555/acl.2016.0cdd",
+    "pages": "2424-2432"
+  },
+  "raw": "F. Evans, O. Gupta, O. Petrov, and G. Zhou, \"Link prediction with efficient indexes,\" in Proceedings of ACL, Oct. 2016, pp. 2424-2432, 10.5555/acl.2016.0cdd.",
+  "received": "2026-02-18"
+}

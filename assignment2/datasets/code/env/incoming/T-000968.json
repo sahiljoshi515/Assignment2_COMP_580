@@ -1,0 +1,10 @@
+{
+  "tid": "T-000968",
+  "seq": 28,
+  "scenario": "SDK-1836",
+  "kind": "decline_codes_of",
+  "target": "square",
+  "subject": "SDK-1836: which decline codes does the square adapter treat as permanent",
+  "body": "Hello -- Nora Lindqvist, SRE. Which decline codes does the square adapter of paylane treat as permanent failures?\n\nReport the tuple's entries as a JSON list of strings.\n\nThanks, Nora Lindqvist",
+  "received": "2026-03-02"
+}

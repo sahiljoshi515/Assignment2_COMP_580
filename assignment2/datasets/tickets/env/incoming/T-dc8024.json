@@ -1,0 +1,10 @@
+{
+  "tid": "T-dc8024",
+  "seq": 48,
+  "product": "MeshMail",
+  "error_code": "E-3307",
+  "platform": "macos",
+  "subject": "E-3307: quota exceeded on macOS",
+  "body": "Good morning. My setup is MeshMail 2.8.6, macOS 15.3. Since last week, every time I start a sync, I get \"E-3307: storage quota exceeded\".\n\nOur quota includes a large folder a partner company shared with us. Their folder alone is larger than our whole plan.\n\nI've already tried restarting the machine, which changed nothing.\n\nThanks, Ivan Petrov (Brightwater Clinics)",
+  "opened": "2026-03-02"
+}

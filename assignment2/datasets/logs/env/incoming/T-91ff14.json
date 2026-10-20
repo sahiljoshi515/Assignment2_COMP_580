@@ -1,0 +1,10 @@
+{
+  "tid": "T-91ff14",
+  "seq": 13,
+  "scenario": "inc-1760",
+  "kind": "first_error",
+  "target": null,
+  "subject": "INC-1760: which host failed first and when",
+  "body": "Hello -- Arjun Mehta, payments. Find the first ERROR\nanywhere in the ledger fleet: the host that wrote it and the\nexact timestamp of that line.\n\nThe logs are under logs/; lines at level ERROR are the ones\nto look for.\n\nThanks, Arjun Mehta",
+  "received": "2026-01-30"
+}

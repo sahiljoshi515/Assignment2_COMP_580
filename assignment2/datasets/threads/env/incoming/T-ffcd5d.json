@@ -1,0 +1,10 @@
+{
+  "tid": "T-ffcd5d",
+  "seq": 14,
+  "scenario": "MBX-1722",
+  "kind": "requester",
+  "target": "policy-exception",
+  "subject": "MBX-1722: who opened the policy-exception thread",
+  "body": "Hi, Grace Okafor from the support team here. Who originally\nasked for the exception request for device encryption\npolicy? Full name as it appears in the From header.\n\nUse the From header of the earliest message with that\nsubject.\n\nRegards, Grace Okafor -- support",
+  "received": "2026-02-01"
+}

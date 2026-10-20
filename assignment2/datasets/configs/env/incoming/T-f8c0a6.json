@@ -1,0 +1,10 @@
+{
+  "tid": "T-f8c0a6",
+  "seq": 10,
+  "scenario": "CFG1228",
+  "kind": "log_level_of",
+  "target": "canary",
+  "subject": "CFG-1228: what log level does canary use",
+  "body": "Hello -- Daniel Ortega, payments. Read the canary configuration of ledger-api and write-up its logging\nlevel.\n\nThe key is logging.level; write-up the value as written.\n\nThanks, Daniel Ortega",
+  "received": "2026-01-23"
+}

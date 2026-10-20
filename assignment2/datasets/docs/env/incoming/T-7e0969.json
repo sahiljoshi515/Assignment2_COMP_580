@@ -1,0 +1,7 @@
+{
+  "tid": "T-7e0969",
+  "seq": 47,
+  "title": "REL-15.5: What Changed In The Data Lake Ingest",
+  "body": "HIGHLIGHTS:\n\nREL-15.5 of the Data Lake Ingest rolls out to every tenant on 11 February 2025. Highlights are\nfaster search and a reworked admin console, with Northwind Systems contributing the search work and\n8 customer reports addressed.\n\nFIXES:\n\nFixes in this release, verified by Data Services on 3 January 2025:\n* Fixed the export job that stalled on empty batches\n* Updated the bundled TLS library to the current release\n* Removed the deprecated bulk endpoint from the public API\n\nUPGRADE NOTES:\n\nTenants are upgraded automatically during the 22:00-23:30 UTC window; no action is needed. Noah\nFischer managed this release and Yuki Tanaka is the support contact, reachable through the usual\nchannel.",
+  "received": "2026-03-10"
+}

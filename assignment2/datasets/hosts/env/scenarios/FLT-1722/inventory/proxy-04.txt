@@ -1,0 +1,97 @@
+# host: proxy-04.ap-south.example.net
+# collected: 2026-01-29T02:01:56Z by inventory-agent 1.10.5
+
+[system]
+hostname = proxy-04
+role = proxy
+region = ap-south
+os = Debian GNU/Linux 12 (bookworm)
+kernel = 6.1.0-28-amd64
+arch = x86_64
+timezone = UTC
+cpus = 16
+memory_mb = 65536
+memory_free_mb = 30941
+uptime_days = 102
+
+[kernel.params]
+net.core.somaxconn = 4096
+net.ipv4.tcp_tw_reuse = 0
+net.ipv4.ip_local_port_range = 10240 65535
+vm.swappiness = 60
+vm.max_map_count = 65530
+fs.file-max = 2097152
+net.ipv4.tcp_keepalive_time = 300
+kernel.pid_max = 4194304
+net.core.netdev_max_backlog = 1000
+vm.dirty_ratio = 20
+net.ipv4.tcp_fin_timeout = 60
+fs.inotify.max_user_watches = 8192
+
+[packages]
+openssl = 3.0.2-0ubuntu1.15
+nginx = 1.26.1-1
+curl = 8.5.0-2
+python3 = 3.10.12-1
+systemd = 252.26-1
+openssh-server = 9.6p1-3ubuntu13.5
+ca-certificates = 20230311
+git = 2.34.1-1ubuntu1.11
+jq = 1.7.1-3
+vim = 2:9.1.0016-1ubuntu7.3
+rsync = 3.2.7-1ubuntu1
+htop = 3.3.0-4build1
+logrotate = 3.21.0-2build1
+chrony = 4.5-1ubuntu4
+fail2ban = 1.0.2-2
+node-exporter = 1.8.2-1
+fluent-bit = 3.0.7-1
+docker-ce = 5:26.1.3-1
+containerd.io = 1.7.18-1
+unattended-upgrades = 2.8ubuntu1
+libc6 = 2.35-0ubuntu3.8
+zlib1g = 1:1.2.13.dfsg-1
+sudo = 1.9.13p3-1+deb12u1
+bash = 5.1-6ubuntu1.1
+coreutils = 8.32-4.1ubuntu1.2
+iproute2 = 6.1.0-3
+tcpdump = 4.99.4-3ubuntu4
+strace = 5.16-0ubuntu3
+
+[mounts]
+/  /dev/nvme0n1p2  ext4  size_gb=80  used_pct=32
+/boot/efi  /dev/nvme0n1p1  vfat  size_gb=1  used_pct=59
+/data  /dev/mapper/vg0-data  xfs  size_gb=1000  used_pct=64
+/srv/cache  /dev/mapper/vg0-cache  ext4  size_gb=200  used_pct=56
+/var/lib/docker  /dev/nvme1n1  xfs  size_gb=400  used_pct=5
+/var/log  /dev/mapper/vg0-log  ext4  size_gb=50  used_pct=52
+
+[services]
+chrony = active
+cron = active
+docker = active
+fluent-bit = active
+nginx = active
+node-exporter = active
+ssh = active
+unattended-upgrades = active
+
+[environment]
+APP_ENV = production
+REGION = ap-south
+LOG_LEVEL = info
+METRICS_PORT = 9100
+TZ = UTC
+JAVA_OPTS = -Xms2g -Xmx6g
+FEATURE_FLAGS = canary=off,tracing=on
+DEPLOY_CHANNEL = stable
+
+[certificates]
+/etc/ssl/certs/proxy.pem  expires=2026-10-31  issuer=internal-ca
+
+[load]
+load_1m = 0.49
+load_5m = 1.26
+processes = 425
+open_files = 4298
+tcp_established = 692

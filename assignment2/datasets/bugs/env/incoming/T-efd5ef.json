@@ -1,0 +1,11 @@
+{
+  "tid": "T-efd5ef",
+  "seq": 36,
+  "exception": "TypeError",
+  "top_frame": "lattice.ui.dialog.open",
+  "version": "3.1.5",
+  "title": "dialog.open raises TypeError when refreshing an expired session",
+  "body": "## Environment\n\nRunning Lattice 3.1.5 on Ubuntu 24.04 LTS against eu-central-1.\n\n## Steps\n\nTo reproduce:\n- With the log window open, start refreshing an expired session.\n- Use an input with an odd number of rows.\n- Check the log window; the traceback appears there.\n\n## Expected\n\nNo traceback; refreshing an expired session normally takes a few seconds.\n\n## Actual\n\nOnly the last row fails; the rest process normally. Whatever the input size, it is always the last row that fails.\n\n## Frequency\n\nReproduces only on the first run after login.",
+  "stacktrace": "lattice/ui/main.py:45 in loop\nlattice/ui/dialog.py:121 in on_login\nlattice/auth/flow.py:57 in start\nlattice/ui/dialog.py:267 in open\nTypeError: 'NoneType' object is not callable",
+  "reported": "2026-02-23"
+}

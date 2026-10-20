@@ -1,0 +1,97 @@
+# host: cache-08.ap-south.example.net
+# collected: 2026-04-23T02:04:20Z by inventory-agent 1.5.6
+
+[system]
+hostname = cache-08
+role = cache
+region = ap-south
+os = Ubuntu 24.04.1 LTS
+kernel = 6.8.0-48-generic
+arch = x86_64
+timezone = UTC
+cpus = 8
+memory_mb = 65536
+memory_free_mb = 1546
+uptime_days = 84
+
+[kernel.params]
+net.core.somaxconn = 4096
+net.ipv4.tcp_tw_reuse = 1
+net.ipv4.ip_local_port_range = 32768 60999
+vm.swappiness = 10
+vm.max_map_count = 262144
+fs.file-max = 2097152
+net.ipv4.tcp_keepalive_time = 7200
+kernel.pid_max = 32768
+net.core.netdev_max_backlog = 16384
+vm.dirty_ratio = 20
+net.ipv4.tcp_fin_timeout = 30
+fs.inotify.max_user_watches = 524288
+
+[packages]
+openssl = 3.0.2-0ubuntu1.15
+nginx = 1.26.1-1
+curl = 8.5.0-2
+python3 = 3.12.3-1
+systemd = 252.26-1
+openssh-server = 9.2p1-2+deb12u3
+ca-certificates = 20240203
+git = 2.43.0-1ubuntu7.1
+jq = 1.6-2.1
+vim = 2:9.1.0016-1ubuntu7.3
+rsync = 3.2.7-1ubuntu1
+htop = 3.2.2-2
+logrotate = 3.21.0-1
+chrony = 4.3-2+deb12u1
+fail2ban = 1.0.2-2
+node-exporter = 1.8.2-1
+fluent-bit = 3.1.4-1
+docker-ce = 5:27.1.1-1
+containerd.io = 1.7.18-1
+unattended-upgrades = 2.8ubuntu1
+libc6 = 2.35-0ubuntu3.8
+zlib1g = 1:1.2.11.dfsg-2ubuntu9.2
+sudo = 1.9.9-1ubuntu2.4
+bash = 5.1-6ubuntu1.1
+coreutils = 9.1-1
+iproute2 = 5.15.0-1ubuntu2
+tcpdump = 4.99.3-1
+strace = 6.1-0.1
+
+[mounts]
+/  /dev/nvme0n1p2  ext4  size_gb=80  used_pct=54
+/boot/efi  /dev/nvme0n1p1  vfat  size_gb=1  used_pct=35
+/data  /dev/mapper/vg0-data  xfs  size_gb=1000  used_pct=12
+/mnt/backup  nas-01.internal:/export/backup  nfs4  size_gb=4000  used_pct=85
+/srv/cache  /dev/mapper/vg0-cache  ext4  size_gb=200  used_pct=83
+/var/log  /dev/mapper/vg0-log  ext4  size_gb=50  used_pct=28
+
+[services]
+chrony = active
+containerd = active
+cron = active
+fail2ban = active
+fluent-bit = active
+nginx = active
+node-exporter = active
+ssh = active
+
+[environment]
+APP_ENV = production
+REGION = ap-south
+LOG_LEVEL = info
+METRICS_PORT = 9100
+TZ = UTC
+JAVA_OPTS = -Xms2g -Xmx6g
+FEATURE_FLAGS = canary=off,tracing=on
+DEPLOY_CHANNEL = stable
+
+[certificates]
+/etc/ssl/certs/cache.pem  expires=2026-12-23  issuer=internal-ca
+
+[load]
+load_1m = 3.90
+load_5m = 0.06
+processes = 186
+open_files = 3056
+tcp_established = 415

@@ -1,0 +1,10 @@
+{
+  "tid": "T-44edc6",
+  "seq": 24,
+  "scenario": "INC-1570",
+  "kind": "last_healthy",
+  "target": null,
+  "subject": "INC-1570: last successful health check before the failure",
+  "body": "Hi, Fatima Zahra from the platform team here. I need the exact timestamp of the\nfinal passing health check on the billing host that faled, taken before the\nfirrst ERROR it logged.\n\nThe line reads 'health check ok (latency ...)'; quote its timestamp with the Z\nsuffix.\n\nThanks, Fatima Zahra",
+  "received": "2026-02-22"
+}

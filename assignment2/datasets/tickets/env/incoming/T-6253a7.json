@@ -1,0 +1,10 @@
+{
+  "tid": "T-6253a7",
+  "seq": 42,
+  "product": "LedgerLine",
+  "error_code": "E-2296",
+  "platform": "macos",
+  "subject": "E-2296: quota exceeded on macOS",
+  "body": "Good morning. My setup is LedgerLine 9.1.5, macOS 14.7. Whenever I start a sync\nsince Tuesday, the app displays \"E-2296: storage quota exceeded\".\n\nOn this computer the cache folder is now many gigabytes large. The files we\nreally store are a fraction of that.\n\nI've already attempted logging out of my browser, which changed nothing.\n\nThanks, Aisha Bello (Caldera Foods)",
+  "opened": "2026-02-23"
+}

@@ -1,0 +1,10 @@
+{
+  "tid": "T-d5fe01",
+  "seq": 6,
+  "scenario": "CFG-1380",
+  "kind": "log_level_of",
+  "target": "test",
+  "subject": "CFG-1380: what log level does test use",
+  "body": "Hi, Priya Nair from the support team here. Please tell me logging.level in config/test.yaml for\nbilling-api.\n\nOnly the logging section matters for this one.\n\nThanks, Priya Nair",
+  "received": "2026-01-15"
+}

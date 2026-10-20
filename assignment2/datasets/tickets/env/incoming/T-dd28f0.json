@@ -1,0 +1,10 @@
+{
+  "tid": "T-dd28f0",
+  "seq": 15,
+  "product": "tallyboard",
+  "error_code": "e-6229",
+  "platform": "windows",
+  "subject": "E-6229: TLS handshake failed on Windows",
+  "body": "Hello support team. We run Tallyboard 1.9.6 on Windows 11\n24H2. Whenever I open the app since yesterday, the app shows\n'E-6229: TLS handshake failed'.\n\nWe never upgraded this machine; the OS release is years old.\nThe vendor's website says that release left support last\nyear.\n\nBefore writing in I tried restarting the machine; same error\nafterwards.\n\nRegards, Grace Okafor, Meridian Schools",
+  "opened": "2026-01-21"
+}

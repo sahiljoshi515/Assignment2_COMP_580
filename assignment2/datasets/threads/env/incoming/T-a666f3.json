@@ -1,0 +1,10 @@
+{
+  "tid": "T-a666f3",
+  "seq": 31,
+  "scenario": "MBX1798",
+  "kind": "failed_backups",
+  "target": null,
+  "subject": "MBX-1798: which nightly backups failed",
+  "body": "Ivan Petrov (security) writing with a quick request. Please list the dates of the nightly backup reports whose status is FAILED.\n\nThe status is on the Status line of each write-up; the date is in the subject.\n\nMuch appreciated a lot, Ivan Petrov",
+  "received": "2026-03-09"
+}

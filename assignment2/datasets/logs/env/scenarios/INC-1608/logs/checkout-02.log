@@ -1,0 +1,94 @@
+2026-02-06T13:52:08Z checkout-02 INFO  starting checkout 6.17.8 (build ba38446) on checkout-02
+2026-02-06T13:52:09Z checkout-02 INFO  config: max_connections=128
+2026-02-06T13:52:09Z checkout-02 INFO  config: pool_size=32
+2026-02-06T13:52:09Z checkout-02 INFO  config: request_timeout_ms=5000
+2026-02-06T13:52:09Z checkout-02 INFO  config: cache_ttl_s=300
+2026-02-06T13:52:09Z checkout-02 INFO  config: log_level=INFO
+2026-02-06T13:52:09Z checkout-02 INFO  config: queue_depth=500
+2026-02-06T13:52:09Z checkout-02 INFO  config: gc_interval_s=120
+2026-02-06T13:52:10Z checkout-02 INFO  listening on 0.0.0.0:8080; workers=16
+2026-02-06T13:52:08Z checkout-02 INFO  health check ok (latency 8ms)
+2026-02-06T13:52:11Z checkout-02 INFO  GET /v1/orders/71483 200 in 196ms rid=d6dd86
+2026-02-06T13:52:19Z checkout-02 INFO  GET /health 200 in 84ms rid=92ecc6
+2026-02-06T13:52:25Z checkout-02 INFO  metrics: rps=139 p99=665ms heap=1136MB goroutines=620
+2026-02-06T13:52:27Z checkout-02 INFO  GET /v1/profile 200 in 193ms rid=a1671c
+2026-02-06T13:52:35Z checkout-02 INFO  GET /v1/profile 200 in 383ms rid=9ed7db
+2026-02-06T13:52:38Z checkout-02 INFO  health check ok (latency 1ms)
+2026-02-06T13:52:43Z checkout-02 INFO  GET /v1/items/82193 200 in 121ms rid=81e7aa
+2026-02-06T13:52:49Z checkout-02 WARN  connection pool at 89% capacity
+2026-02-06T13:52:51Z checkout-02 INFO  POST /v1/orders 200 in 208ms rid=365a90
+2026-02-06T13:52:59Z checkout-02 INFO  GET /v1/search 200 in 77ms rid=9c39da
+2026-02-06T13:53:07Z checkout-02 INFO  POST /v1/orders 200 in 277ms rid=e79be1
+2026-02-06T13:53:08Z checkout-02 INFO  health check ok (latency 1ms)
+2026-02-06T13:53:15Z checkout-02 INFO  GET /v1/search 200 in 83ms rid=fff5a1
+2026-02-06T13:53:23Z checkout-02 INFO  GET /v1/profile 200 in 36ms rid=4bc63c
+2026-02-06T13:53:31Z checkout-02 INFO  GET /v1/orders/84249 200 in 5ms rid=71307b
+2026-02-06T13:53:38Z checkout-02 INFO  health check ok (latency 7ms)
+2026-02-06T13:53:39Z checkout-02 INFO  GET /v1/orders/91827 200 in 71ms rid=bcc32b
+2026-02-06T13:53:47Z checkout-02 INFO  GET /v1/orders/45308 200 in 201ms rid=d9c8fc
+2026-02-06T13:53:55Z checkout-02 INFO  GET /health 200 in 43ms rid=9d1077
+2026-02-06T13:54:03Z checkout-02 INFO  GET /v1/profile 200 in 28ms rid=157220
+2026-02-06T13:54:08Z checkout-02 INFO  health check ok (latency 10ms)
+2026-02-06T13:54:11Z checkout-02 INFO  PUT /v1/cart 200 in 53ms rid=22aa25
+2026-02-06T13:54:19Z checkout-02 INFO  GET /v1/items/11308 200 in 167ms rid=f3072a
+2026-02-06T13:54:25Z checkout-02 INFO  metrics: rps=69 p99=216ms heap=758MB goroutines=732
+2026-02-06T13:54:26Z checkout-02 WARN  retrying upstream call (attempt 3/3)
+2026-02-06T13:54:27Z checkout-02 INFO  GET /v1/orders/9831 200 in 28ms rid=ecb19e
+2026-02-06T13:54:35Z checkout-02 INFO  GET /v1/search 200 in 44ms rid=e04e84
+2026-02-06T13:54:38Z checkout-02 INFO  health check ok (latency 3ms)
+2026-02-06T13:54:43Z checkout-02 INFO  DELETE /v1/cart/55458 200 in 300ms rid=5587a7
+2026-02-06T13:54:51Z checkout-02 INFO  GET /v1/search 200 in 99ms rid=859849
+2026-02-06T13:54:59Z checkout-02 INFO  GET /v1/orders/18606 200 in 126ms rid=353b28
+2026-02-06T13:55:07Z checkout-02 INFO  POST /v1/orders 200 in 139ms rid=20654f
+2026-02-06T13:55:08Z checkout-02 INFO  health check ok (latency 7ms)
+2026-02-06T13:55:15Z checkout-02 INFO  GET /v1/search 200 in 399ms rid=1de562
+2026-02-06T13:55:23Z checkout-02 INFO  POST /v1/orders 200 in 162ms rid=21fefb
+2026-02-06T13:55:31Z checkout-02 INFO  POST /v1/refunds 200 in 371ms rid=57a881
+2026-02-06T13:55:38Z checkout-02 INFO  health check ok (latency 5ms)
+2026-02-06T13:55:39Z checkout-02 INFO  GET /v1/orders/78021 200 in 166ms rid=c6db60
+2026-02-06T13:55:47Z checkout-02 INFO  GET /v1/orders/99921 200 in 181ms rid=180634
+2026-02-06T13:55:55Z checkout-02 INFO  GET /v1/profile 200 in 377ms rid=6c57da
+2026-02-06T13:56:03Z checkout-02 INFO  GET /health 200 in 12ms rid=7cc4e0
+2026-02-06T13:56:03Z checkout-02 WARN  connection pool at 28% capacity
+2026-02-06T13:56:08Z checkout-02 INFO  health check ok (latency 2ms)
+2026-02-06T13:56:11Z checkout-02 INFO  GET /v1/profile 200 in 334ms rid=c1b873
+2026-02-06T13:56:19Z checkout-02 INFO  POST /v1/refunds 200 in 154ms rid=666890
+2026-02-06T13:56:25Z checkout-02 INFO  metrics: rps=75 p99=628ms heap=711MB goroutines=405
+2026-02-06T13:56:27Z checkout-02 INFO  POST /v1/payments 200 in 265ms rid=edcc47
+2026-02-06T13:56:35Z checkout-02 INFO  POST /v1/payments 200 in 9ms rid=d955d6
+2026-02-06T13:56:38Z checkout-02 INFO  health check ok (latency 11ms)
+2026-02-06T13:56:43Z checkout-02 INFO  GET /v1/profile 200 in 222ms rid=a4da21
+2026-02-06T13:56:51Z checkout-02 INFO  GET /v1/profile 200 in 298ms rid=aa83e9
+2026-02-06T13:56:59Z checkout-02 INFO  POST /v1/payments 200 in 396ms rid=ddb30d
+2026-02-06T13:57:07Z checkout-02 INFO  PUT /v1/cart 200 in 274ms rid=dfba0f
+2026-02-06T13:57:08Z checkout-02 INFO  health check ok (latency 8ms)
+2026-02-06T13:57:15Z checkout-02 INFO  GET /v1/search 200 in 222ms rid=aed351
+2026-02-06T13:57:23Z checkout-02 INFO  GET /v1/profile 200 in 394ms rid=9cd354
+2026-02-06T13:57:31Z checkout-02 INFO  GET /v1/profile 200 in 21ms rid=1a6a22
+2026-02-06T13:57:38Z checkout-02 INFO  health check ok (latency 7ms)
+2026-02-06T13:57:39Z checkout-02 INFO  POST /v1/payments 200 in 271ms rid=020632
+2026-02-06T13:57:40Z checkout-02 WARN  slow query took 23ms on shard 1
+2026-02-06T13:57:47Z checkout-02 INFO  GET /health 200 in 373ms rid=52b1e7
+2026-02-06T13:57:55Z checkout-02 INFO  POST /v1/orders 200 in 268ms rid=f20469
+2026-02-06T13:58:03Z checkout-02 INFO  PUT /v1/cart 200 in 298ms rid=96f74e
+2026-02-06T13:58:08Z checkout-02 INFO  health check ok (latency 3ms)
+2026-02-06T13:58:11Z checkout-02 INFO  POST /v1/orders 200 in 44ms rid=711839
+2026-02-06T13:58:19Z checkout-02 INFO  GET /v1/orders/63240 200 in 57ms rid=ee9848
+2026-02-06T13:58:25Z checkout-02 INFO  metrics: rps=152 p99=304ms heap=1424MB goroutines=528
+2026-02-06T13:58:27Z checkout-02 INFO  GET /v1/items/88004 200 in 166ms rid=8cc13b
+2026-02-06T13:58:35Z checkout-02 INFO  POST /v1/payments 200 in 132ms rid=31db6e
+2026-02-06T13:58:38Z checkout-02 INFO  health check ok (latency 2ms)
+2026-02-06T13:58:43Z checkout-02 INFO  GET /v1/search 200 in 231ms rid=20ffdd
+2026-02-06T13:58:51Z checkout-02 INFO  GET /health 200 in 388ms rid=9efd63
+2026-02-06T13:58:59Z checkout-02 INFO  PUT /v1/cart 200 in 175ms rid=6adcf2
+2026-02-06T13:59:07Z checkout-02 INFO  PUT /v1/cart 200 in 33ms rid=e8857c
+2026-02-06T13:59:08Z checkout-02 INFO  health check ok (latency 8ms)
+2026-02-06T13:59:15Z checkout-02 INFO  GET /v1/profile 200 in 122ms rid=88aeb0
+2026-02-06T13:59:17Z checkout-02 WARN  retrying upstream call (attempt 2/3)
+2026-02-06T13:59:23Z checkout-02 INFO  DELETE /v1/cart/25401 200 in 239ms rid=1c765b
+2026-02-06T13:59:31Z checkout-02 INFO  GET /v1/items/87422 200 in 397ms rid=bfedfb
+2026-02-06T13:59:38Z checkout-02 INFO  health check ok (latency 1ms)
+2026-02-06T13:59:39Z checkout-02 INFO  POST /v1/orders 200 in 156ms rid=c0cd07
+2026-02-06T13:59:47Z checkout-02 INFO  GET /v1/search 200 in 63ms rid=1d4614
+2026-02-06T13:59:55Z checkout-02 INFO  GET /v1/search 200 in 366ms rid=ac0d70
+2026-02-06T14:00:03Z checkout-02 INFO  POST /v1/refunds 200 in 137ms rid=cd45ec

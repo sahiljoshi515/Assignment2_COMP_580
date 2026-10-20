@@ -1,0 +1,10 @@
+{
+  "tid": "T-73df3b",
+  "seq": 1,
+  "scenario": "POL-1076",
+  "kind": "introduced_in",
+  "target": "retention_days",
+  "subject": "POL-1076: which revision set the retention period to its current value",
+  "body": "Hi, Tomas Vik from the payments team here. When did the\nretention period in the Data Retention Policy become what it\nis today? Give the revision in which that value first\nappears.\n\nCompare the versions in policy/; report the revision label\nas in the file name.\n\nRegards, Tomas Vik -- payments",
+  "received": "2026-01-05"
+}

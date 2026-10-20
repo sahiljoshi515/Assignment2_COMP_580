@@ -1,0 +1,7 @@
+{
+  "tid": "T-f85e90",
+  "seq": 38,
+  "title": "POL-831: policy for the Edge Proxy Layer",
+  "body": "## Scope\n\nThe policy below governs use of the Edge Proxy Layer; it is out for comment. Omar Haddad of Product Support is the policy owner, and Corvid Analytics audits compliance each year against the controls listed here.\n\n## Requirements\n\nEvery person in scope must meet these requirements, reviewed on 4 July 2025:\n- Encrypt laptops and removable media with the standard tooling\n- Keep production data out of test and development environments\n- Retain audit logs for at least thirteen months\n\n## Status\n\nThe policy is out for comment according to the register. Version issued 20 May 2025 by Sofia Russo; exceptions on file: 36, all expiring at the yearly audit.",
+  "received": "2026-02-25"
+}

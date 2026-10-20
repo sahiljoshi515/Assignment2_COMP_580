@@ -1,0 +1,18 @@
+{
+  "tid": "T-4620e4",
+  "seq": 5,
+  "citation": {
+    "authors": [
+      "Evans,Fatima",
+      "Gupta,Olga",
+      "Petrov,Omar",
+      "et al."
+    ],
+    "title": "Link Prediction with Efficient Indexes",
+    "venue": "arXiv preprint",
+    "year": 2015,
+    "doi": "10.48550/arXiv.1509.88594"
+  },
+  "raw": "Evans,Fatima, Gupta,Olga, Petrov,Omar, et al. April 2015. Link Prediction with Efficient Indexes. arXiv preprint. DOI:http://dx.doi.org/10.48550/arXiv.1509.88594",
+  "received": "2026-01-09"
+}

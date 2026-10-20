@@ -1,0 +1,10 @@
+{
+  "tid": "T-694290",
+  "seq": 21,
+  "scenario": "SDK1456",
+  "kind": "base_url_of",
+  "target": "worldpay",
+  "subject": "SDK-1456: what base URL does the worldpay adapter call",
+  "body": "Arjun Mehta (SRE) writing with a quick ask. Which API\nbase URL does adapters/worldpay.py send its requests to?\n\nWrite-up the string precisely as written in the module.\n\nRegards, Arjun Mehta -- SRE",
+  "received": "2026-02-16"
+}

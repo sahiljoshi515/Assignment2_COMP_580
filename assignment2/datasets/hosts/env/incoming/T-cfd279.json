@@ -1,0 +1,10 @@
+{
+  "tid": "T-cfd279",
+  "seq": 2,
+  "scenario": "flt-1152",
+  "kind": "fullest_disk",
+  "target": null,
+  "subject": "FLT-1152: which host has the fullest root filesystem",
+  "body": "Hello -- Tomas Vik, support. Which worker host has the highest usage on its root\nfilesystem (/), and what percentage is used?\n\nCompare the / lines under [mounts]; the highest value is unique.\n\nMuch appreciated, Tomas Vik",
+  "received": "2026-01-07"
+}

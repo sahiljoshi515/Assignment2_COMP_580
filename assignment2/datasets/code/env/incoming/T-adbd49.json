@@ -1,0 +1,10 @@
+{
+  "tid": "T-adbd49",
+  "seq": 33,
+  "scenario": "SDK1000",
+  "kind": "decline_codes_of",
+  "target": "adyen",
+  "subject": "SDK-1000: which decline codes does the adyen adapter treat as permanent",
+  "body": "Much appreciated, Daniel Ortega\n\nHi, Daniel Ortega from the support team here. Please give me the provider\ndecline codes that adapters/adyen.py maps to PermanentError.\n\nThey are the entries of the DECLINE_CODES tuple; report them as a list of\nstrings.",
+  "received": "2026-03-13"
+}

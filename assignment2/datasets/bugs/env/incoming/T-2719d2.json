@@ -1,0 +1,11 @@
+{
+  "tid": "T-2719d2",
+  "seq": 17,
+  "exception": "TypeError",
+  "top_frame": "lattice.ui.dialog.open",
+  "version": "v3.0.6",
+  "title": "TypeError in dialog.open when signing in",
+  "body": "ENVIRONMENT:\n\nLattice 3.0.6, Fedora 41 Workstation, server us-west-2.\n\nSTEPS:\n\nSteps to replicate:\n* With the log pane open, start signing in.\n* Install this version over the previous one with no\n  altering configuration.\n* Inspect the journal window; the traceback appears there.\n\nEXPECTED:\n\nExpected signing in to finish with no errors.\n\nACTUAL:\n\nSince upgrading, each try breaks here. Right after\nupgrading the behaviour altered; the same setup ran fine on\nthe previous version.\n\nFREQUENCY:\n\nIt occurs solely on the first run after login.",
+  "stacktrace": "lattice/ui/main.py:48 in loop\nlattice/ui/dialog.py:127 in on_login\nlattice/auth/flow.py:61 in start\nlattice/ui/dialog.py:267 in open\nTypeError: 'NoneType' object is not callable",
+  "reported": "2026-01-27"
+}

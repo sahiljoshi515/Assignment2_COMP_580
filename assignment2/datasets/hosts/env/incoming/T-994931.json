@@ -1,0 +1,10 @@
+{
+  "tid": "T-994931",
+  "seq": 32,
+  "scenario": "FLT1456",
+  "kind": "service_down",
+  "target": null,
+  "subject": "FLT-1456: which host has a service that is not running",
+  "body": "Aisha Bello (security) writing with a quick request. One service is down on one cache host. Which host and which service?\n\nReport the service name as written in the snapshot.\n\nMuch appreciated, Aisha Bello",
+  "received": "2026-03-11"
+}

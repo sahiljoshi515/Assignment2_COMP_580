@@ -1,0 +1,19 @@
+{
+  "tid": "T-6aebce",
+  "seq": 1,
+  "citation": {
+    "authors": [
+      "Petrov,Dmitri",
+      "Kowalski,Marta",
+      "Cole,Nikhil",
+      "et al."
+    ],
+    "title": "Join Optimization with Efficient Attention",
+    "venue": "ACM SIGMOD International Conference on Management of Data",
+    "year": 2023,
+    "doi": "10.5555/sigmod.2023.4f9d",
+    "pages": "8632-8640"
+  },
+  "raw": "Petrov,Dmitri, Kowalski,Marta, Cole,Nikhil, et al. 2023. Join Optimization with Efficient Attention. In ACM SIGMOD International Conference on Management of Data (SIGMOD '23). ACM, New York, NY, USA, 8632-8640. https://doi.org/10.5555/sigmod.2023.4f9d https://proceedings.example.org/sigmod/896",
+  "received": "2026-01-05"
+}

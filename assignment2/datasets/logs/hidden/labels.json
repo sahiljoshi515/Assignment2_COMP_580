@@ -1,0 +1,501 @@
+{
+  "T-539792": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-19e483",
+    "differs_in": [
+      "scenario",
+      "target"
+    ],
+    "answer": {
+      "host": "billing-05",
+      "count": 20
+    },
+    "canonical_id": "C-9dacce56",
+    "seq": 1
+  },
+  "T-28a408": {
+    "dup_of": "T-539792",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "billing-05",
+      "count": 20
+    },
+    "canonical_id": "C-9dacce56",
+    "seq": 2
+  },
+  "T-79218e": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "T-28a408",
+    "differs_in": [
+      "scenario",
+      "target"
+    ],
+    "answer": {
+      "host": "notify-03",
+      "count": 13
+    },
+    "canonical_id": "C-de5f4e23",
+    "seq": 3
+  },
+  "T-7504a1": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "billing-05",
+      "first_error_at": "2026-04-28T18:58:51Z"
+    },
+    "canonical_id": "C-cf5a0b45",
+    "seq": 4
+  },
+  "T-4f107c": {
+    "dup_of": "T-7504a1",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "billing-05",
+      "first_error_at": "2026-04-28T18:58:51Z"
+    },
+    "canonical_id": "C-cf5a0b45",
+    "seq": 5
+  },
+  "T-d73a4e": {
+    "dup_of": "H-e7eeca",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "inventory-06",
+      "key": "max_connections"
+    },
+    "canonical_id": "C-36f1ace5",
+    "seq": 6
+  },
+  "T-4b65ff": {
+    "dup_of": "H-dd448f",
+    "dup_kind": "reorder",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "search-03",
+      "count": 9
+    },
+    "canonical_id": "C-f786a80a",
+    "seq": 7
+  },
+  "T-38f875": {
+    "dup_of": "H-e09998",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "gateway-02",
+      "first_error_at": "2026-03-19T14:31:49Z"
+    },
+    "canonical_id": "C-35c0e462",
+    "seq": 8
+  },
+  "T-dfe263": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "billing-04",
+      "key": "cache_ttl_s"
+    },
+    "canonical_id": "C-ac4c2fd1",
+    "seq": 9
+  },
+  "T-93f911": {
+    "dup_of": "H-749d8b",
+    "dup_kind": "exact",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "inventory-02",
+      "version": "2.5.4"
+    },
+    "canonical_id": "C-ef58f71c",
+    "seq": 10
+  },
+  "T-8fe132": {
+    "dup_of": "H-56b064",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "inventory-05",
+      "first_error_at": "2026-04-13T14:49:55Z"
+    },
+    "canonical_id": "C-6877a6a9",
+    "seq": 11
+  },
+  "T-9fd6a0": {
+    "dup_of": "H-533b66",
+    "dup_kind": "exact",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "ledger-02",
+      "count": 18
+    },
+    "canonical_id": "C-471f2b16",
+    "seq": 12
+  },
+  "T-91ff14": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "T-38f875",
+    "differs_in": [
+      "scenario"
+    ],
+    "answer": {
+      "host": "ledger-02",
+      "first_error_at": "2026-03-16T09:51:32Z"
+    },
+    "canonical_id": "C-19418617",
+    "seq": 13
+  },
+  "T-a96f81": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "ledger-07",
+      "first_error_at": "2026-02-28T12:55:22Z"
+    },
+    "canonical_id": "C-9378d3b0",
+    "seq": 14
+  },
+  "T-b21067": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "error": "TimeoutError",
+      "count": 12
+    },
+    "canonical_id": "C-9d649458",
+    "seq": 15
+  },
+  "T-281279": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-dd972e",
+    "differs_in": [
+      "scenario"
+    ],
+    "answer": {
+      "host": "billing-07",
+      "first_error_at": "2026-03-04T19:37:48Z"
+    },
+    "canonical_id": "C-0f822ce7",
+    "seq": 16
+  },
+  "T-727b7f": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-aeabc7",
+    "differs_in": [
+      "scenario"
+    ],
+    "answer": {
+      "host": "ledger-06",
+      "version": "4.10.2"
+    },
+    "canonical_id": "C-3f412dd7",
+    "seq": 17
+  },
+  "T-5fd55f": {
+    "dup_of": "H-844e3a",
+    "dup_kind": "exact",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "ledger-07",
+      "count": 9
+    },
+    "canonical_id": "C-4fe0dd93",
+    "seq": 18
+  },
+  "T-3fc652": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-8e052a",
+    "differs_in": [
+      "scenario",
+      "target"
+    ],
+    "answer": {
+      "host": "ledger-09",
+      "count": 14
+    },
+    "canonical_id": "C-af56206c",
+    "seq": 19
+  },
+  "T-17e75b": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "inventory-05",
+      "key": "request_timeout_ms"
+    },
+    "canonical_id": "C-dc8d826a",
+    "seq": 20
+  },
+  "T-76768c": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "ledger-03",
+      "count": 0
+    },
+    "canonical_id": "C-45b2e6b6",
+    "seq": 21
+  },
+  "T-d7b131": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "billing-07",
+      "count": 0
+    },
+    "canonical_id": "C-b931c874",
+    "seq": 22
+  },
+  "T-08b2e8": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "error": "DeadlineExceeded",
+      "count": 9
+    },
+    "canonical_id": "C-dfd9e88e",
+    "seq": 23
+  },
+  "T-44edc6": {
+    "dup_of": "H-1c31fc",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "billing-07",
+      "last_healthy_at": "2026-03-04T19:37:47Z"
+    },
+    "canonical_id": "C-17cecfef",
+    "seq": 24
+  },
+  "T-8335d8": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "inventory-06",
+      "last_healthy_at": "2026-02-13T10:48:49Z"
+    },
+    "canonical_id": "C-1cd8c0e4",
+    "seq": 25
+  },
+  "T-71f19a": {
+    "dup_of": "T-91ff14",
+    "dup_kind": "reorder",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "ledger-02",
+      "first_error_at": "2026-03-16T09:51:32Z"
+    },
+    "canonical_id": "C-19418617",
+    "seq": 26
+  },
+  "T-0983f1": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "search-04",
+      "first_error_at": "2026-03-26T16:18:23Z"
+    },
+    "canonical_id": "C-4619569b",
+    "seq": 27
+  },
+  "T-34424a": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "error": "ConnectionResetError",
+      "count": 16
+    },
+    "canonical_id": "C-2569fc25",
+    "seq": 28
+  },
+  "T-54aac8": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-266df5",
+    "differs_in": [
+      "scenario"
+    ],
+    "answer": {
+      "host": "gateway-01",
+      "key": "gc_interval_s"
+    },
+    "canonical_id": "C-48c1f17b",
+    "seq": 29
+  },
+  "T-8b1bbb": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "notify-07",
+      "first_error_at": "2026-01-23T20:24:19Z"
+    },
+    "canonical_id": "C-1c34a2f6",
+    "seq": 30
+  },
+  "T-c3fe9d": {
+    "dup_of": "H-0df935",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "error": "UpstreamUnavailable",
+      "count": 11
+    },
+    "canonical_id": "C-aba8fe37",
+    "seq": 31
+  },
+  "T-1d0b05": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "notify-05",
+      "count": 9
+    },
+    "canonical_id": "C-f648af6d",
+    "seq": 32
+  },
+  "T-139e21": {
+    "dup_of": "T-dfe263",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "billing-04",
+      "key": "cache_ttl_s"
+    },
+    "canonical_id": "C-ac4c2fd1",
+    "seq": 33
+  },
+  "T-931c39": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "search-03",
+      "first_error_at": "2026-01-27T18:32:40Z"
+    },
+    "canonical_id": "C-6bc36ce2",
+    "seq": 34
+  },
+  "T-21e398": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-a7bde5",
+    "differs_in": [
+      "scenario"
+    ],
+    "answer": {
+      "host": "billing-03",
+      "last_healthy_at": "2026-03-21T14:59:12Z"
+    },
+    "canonical_id": "C-77cff3cf",
+    "seq": 35
+  },
+  "T-e489b0": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "search-08",
+      "count": 0
+    },
+    "canonical_id": "C-ef0df223",
+    "seq": 36
+  },
+  "T-922efa": {
+    "dup_of": "T-9fd6a0",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "ledger-02",
+      "count": 18
+    },
+    "canonical_id": "C-471f2b16",
+    "seq": 37
+  },
+  "T-2cfdb6": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "gateway-09",
+      "version": "8.6.4"
+    },
+    "canonical_id": "C-24443031",
+    "seq": 38
+  },
+  "T-92c9ff": {
+    "dup_of": "H-6d96dc",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "catalog-01",
+      "count": 0
+    },
+    "canonical_id": "C-2e7adb54",
+    "seq": 39
+  },
+  "T-6112e2": {
+    "dup_of": "H-a18d4e",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "error": "DeadlineExceeded",
+      "count": 17
+    },
+    "canonical_id": "C-1e2cfd6c",
+    "seq": 40
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "tid": "T-b06652",
+  "seq": 1,
+  "scenario": "CFG1000",
+  "kind": "insecure",
+  "target": null,
+  "subject": "CFG-1000: which environment violates a security requirement",
+  "body": "Hannah Cole (payments) writing with a quick ask. POLICY.md names two\nsecurity requirements every notify-worker environment must meet. One environment\nbreaks one of them. Which environment, and which key?\n\nconfig/POLICY.md spells out the required value of each security key.\n\nRegards, Hannah Cole -- payments",
+  "received": "2026-01-05"
+}

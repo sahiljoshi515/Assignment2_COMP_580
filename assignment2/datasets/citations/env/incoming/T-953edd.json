@@ -1,0 +1,16 @@
+{
+  "tid": "T-953edd",
+  "seq": 30,
+  "citation": {
+    "authors": [
+      "Garza, Grace",
+      "Castillo, Anders"
+    ],
+    "title": "Entity Resolution with Lightweight Policies",
+    "venue": "SIGIR",
+    "year": 2015,
+    "doi": "10.5555/kdd.2015.2ed7"
+  },
+  "raw": "Garza, Grace & Castillo, Anders, \"Entity Resolution with Lightweight Policies,\" in Proceedings of SIGIR, 2015, 10.5555/kdd.2015.2ed7.",
+  "received": "2026-02-08"
+}

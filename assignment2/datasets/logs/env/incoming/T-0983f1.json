@@ -1,0 +1,10 @@
+{
+  "tid": "T-0983f1",
+  "seq": 27,
+  "scenario": "INC-1722",
+  "kind": "first_error",
+  "target": null,
+  "subject": "INC-1722: which host failed first and when",
+  "body": "Hello -- Hannah Cole, data. Find the first ERROR anywhere in\nthe search fleet: the host that wrote it and the exact\ntimestamp of that line.\n\nTimestamps are ISO-8601 with a Z suffix; copy the one on the\nline itself.\n\nMuch appreciated, Hannah Cole",
+  "received": "2026-02-28"
+}

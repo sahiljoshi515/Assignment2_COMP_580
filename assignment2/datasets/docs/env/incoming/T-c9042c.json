@@ -1,0 +1,7 @@
+{
+  "tid": "T-c9042c",
+  "seq": 14,
+  "title": "INC-3418: service incident, Reporting Mart",
+  "body": "## Impact\n\nThis report covers an incident on the Reporting Mart that is ongoing. Finance\nOperations linked roughly 27 tickets to the event and engaged Pinecrest Hosting,\nthe hosting provider, within the first hour.\n\n## Timeline\n\nDaniel Ortega logged the following events, state as of 3 August 2025:\n* Monitoring raised a latency alert for the primary cluster\n* A disk on the storage node reported write failures\n* The vendor was engaged through the premium support line\n\n## Status\n\nFinance Operations lists the incident as under investigation. Report written by\nFelix Brandt on 8 January 2025; the next review falls in the 22:00-23:30 UTC\nwindow and goes to the weekly service meeting.",
+  "received": "2026-01-23"
+}

@@ -1,0 +1,7 @@
+{
+  "tid": "T-0d37f2",
+  "seq": 31,
+  "title": "CHG-4930: change to the Timesheet Service",
+  "body": "## Summary\n\nThis memo records a change to the Timesheet Service that is presently pending. The work affects 10\nproduction servers behind the Timesheet Service and was submitted by Mateo Silva from Network Operations.\n\n## Details\n\nThe implementation plan, drawn up with Bluegate Networks, spans these steps during the 22:00-23:30\nUTC window:\n- Rotate the database credentials used by the overnight batch jobs\n- Replace the hand-maintained cron schedule with the workflow engine\n- Archive documents older than seven years to cold storage\n\n## Decision\n\nAs noted by the board, this change is an open request. Recorded by Grace Okafor on 27 October\n2025; the board met on 22 April 2025 and the notes are in the shared archive.",
+  "received": "2026-02-16"
+}

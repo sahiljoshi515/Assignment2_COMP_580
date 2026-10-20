@@ -1,0 +1,7 @@
+{
+  "tid": "T-0902e5",
+  "seq": 25,
+  "title": "INC-4383: Service Incident, Timesheet Service",
+  "body": "Impact\n\nThis report covers an incident on the Timesheet Service that is resolved. The\nhosting provider Meridian Cloud was engaged by Infrastructure within the first\nhour, and roughly 32 tickets were linked to the event.\n\nTimeline\n\nHana Kowalski logged the following events, state as of 13 June 2025:\n- The on-call engineer confirmed failed health checks on two nodes\n- The previous configuration was redeployed to the whole pool\n- Queue depth was sampled every five minutes and charted\n\nStatus\n\nInfrastructure lists the incident as closed. Report written by Daniel Ortega on\n27 May 2025; the next review falls in the 22:00-23:30 UTC window and goes to the\nweekly service meeting.",
+  "received": "2026-02-07"
+}

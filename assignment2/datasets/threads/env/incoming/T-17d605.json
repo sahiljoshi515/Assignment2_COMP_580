@@ -1,0 +1,10 @@
+{
+  "tid": "T-17d605",
+  "seq": 3,
+  "scenario": "MBX-1456",
+  "kind": "final_decision",
+  "target": "hiring-plan",
+  "subject": "MBX-1456: final decision in the hiring-plan thread",
+  "body": "Hi, Priya Nair from the release team here. Please read the hiring plan for support team thread in inbox/ and tell me how it was finally decided: the decision, the decider and the date of that message.\n\nReport the decision as approve, reject or defer, the decider by full name, and the date as YYYY-MM-DD.\n\nMuch appreciated, Priya Nair",
+  "received": "2026-01-09"
+}

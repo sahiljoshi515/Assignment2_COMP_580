@@ -1,0 +1,11 @@
+{
+  "tid": "T-453fd0",
+  "seq": 55,
+  "exception": "FileNotFoundError",
+  "top_frame": "lattice/core/config.py::load",
+  "version": "3.0.7",
+  "title": "FileNotFoundError in config.load when starting the application",
+  "body": "ENVIRONMENT:\n\nLattice version 3.0.7; operating system Fedora 41 Workstation; server region ap-south-1.\n\nSTEPS:\n\nHow to trigger it:\n* Start by starting the application.\n* Start two jobs on the same folder at the same time.\n* Wait for the failure and read the log.\n\nEXPECTED:\n\nAs on every earlier run, starting the application should just complete.\n\nACTUAL:\n\nIt reports a missing file that turns out to exist seconds later. It only happens when two jobs touch the same folder at once.\n\nFREQUENCY:\n\nHappens roughly one run in three.",
+  "stacktrace": "lattice/cli.py:9 in main\nlattice/core/app.py:30 in start\nlattice/core/boot.py:100 in load_all\nlattice/core/config.py:118 in load\nFileNotFoundError: [Errno 2] No such file or directory: 'conf\\core.toml'",
+  "reported": "2026-03-21"
+}

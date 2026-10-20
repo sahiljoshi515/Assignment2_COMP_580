@@ -1,0 +1,10 @@
+{
+  "tid": "T-17e75b",
+  "seq": 20,
+  "scenario": "INC1836",
+  "kind": "drift_host",
+  "target": null,
+  "subject": "INC-1836: which host started with a different configuration",
+  "body": "Hi, Fatima Zahra from the payments team here. We think one inventory host loaded a different configuration at startup. Tell me which host it is and which key is set differently from the others.\n\nEvery host wrote its startup banner, configuration included, at the top of its log file in logs/.\n\nThanks, Fatima Zahra",
+  "received": "2026-02-13"
+}

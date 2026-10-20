@@ -1,0 +1,10 @@
+{
+  "tid": "T-2230de",
+  "seq": 62,
+  "product": "syncvault",
+  "error_code": "e-1248",
+  "platform": "windows",
+  "subject": "E-1248: upload stalls on Windows",
+  "body": "Hi, I'm using SyncVault 4.2.3 on Windows 11 24H2. Whenever I upload a file since Tuesday, the app\nshows 'E-1248: upload stalled at 0 bytes/s'.\n\nThe machine's power profile was switched to the battery-saver preset. Uploads stall as soon as the\nscreen turns off.\n\nI've already tried restarting the machine, which changed nothing.\n\nThanks, Aisha Bello (Caldera Foods)",
+  "opened": "2026-03-19"
+}

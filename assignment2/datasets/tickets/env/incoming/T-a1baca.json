@@ -1,0 +1,10 @@
+{
+  "tid": "T-a1baca",
+  "seq": 2,
+  "product": "SyncVault",
+  "error_code": "E-1211",
+  "platform": "windows",
+  "subject": "E-1211: database locked on Windows",
+  "body": "Good morning. My setup is SyncVault 4.2.7, Windows 11 23H2. Starting the\nweekend, the moment I open the app a dialog reads 'E-1211: local database is\nlocked'.\n\nOur team keeps the database file on a shared network drive. A colleague\nsaid the drive dropped out for a minute this forenoon.\n\nWhat I attempted so far: restarting the computer. No luck.\n\nThanks, Grace Okafor (Northbank Studio)",
+  "opened": "2026-01-06"
+}

@@ -1,0 +1,10 @@
+{
+  "tid": "T-79218e",
+  "seq": 3,
+  "scenario": "inc-1038",
+  "kind": "error_count",
+  "target": "notify-03",
+  "subject": "INC-1038: how many ERROR lines did notify-03 write",
+  "body": "Tomas Vik (platform) writing with a quick request. How many ERROR lines did the host notify-03 write\nduring the window?\n\nLook only at logs/notify-03.log and count ERROR-level lines; 0 if there are none.\n\nMuch appreciated, Tomas Vik",
+  "received": "2026-01-09"
+}

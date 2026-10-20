@@ -1,0 +1,10 @@
+{
+  "tid": "T-c5639a",
+  "seq": 26,
+  "scenario": "FLT-1646",
+  "kind": "service_down",
+  "target": null,
+  "subject": "FLT-1646: which host has a service that is not running",
+  "body": "Hi, Tomas Vik from the security team here. One service is down on one api host. Which host and which service?\n\nReport the service name as written in the snapshot.\n\nRegards, Tomas Vik -- security",
+  "received": "2026-02-26"
+}

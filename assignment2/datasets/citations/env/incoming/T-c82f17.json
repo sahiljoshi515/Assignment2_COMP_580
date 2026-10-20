@@ -1,0 +1,17 @@
+{
+  "tid": "T-c82f17",
+  "seq": 35,
+  "citation": {
+    "authors": [
+      "Patel, Ines",
+      "Xu, Fatima"
+    ],
+    "title": "Efficient Mixture Models for Question Answering",
+    "venue": "SIGIR",
+    "year": 2023,
+    "doi": "10.5555/sigir.2023.77dc",
+    "pages": "6584-6597"
+  },
+  "raw": "Patel, Ines and Xu, Fatima. June 2023. Efficient Mixture Models for Question Answering. In SIGIR '23. ACM, New York, NY, USA, pages 6584-6597. DOI:http://dx.doi.org/10.5555/sigir.2023.77dc",
+  "received": "2026-02-14"
+}

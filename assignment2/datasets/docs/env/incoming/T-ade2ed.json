@@ -1,0 +1,7 @@
+{
+  "tid": "T-ade2ed",
+  "seq": 39,
+  "title": "INC-3997: service incident, Vendor Portal",
+  "body": "## Impact\n\nThis report covers an incident on the Vendor Portal that is ongoing. Network\nOperations linked roughly 30 tickets to the event and engaged Silverline Data,\nthe hosting provider, within the first hour.\n\n## Timeline\n\nZoe Mitchell logged the following events, state as of 21 August 2025:\n- The on-call engineer confirmed failed health checks on two nodes\n- The previous configuration was redeployed to the whole pool\n- A disk on the storage node reported write failures\n\n## Status\n\nFor tracking purposes the incident is ongoing. Mateo Silva wrote this report on\n5 February 2025 and will review it in the 02:00-04:00 UTC window before the\nweekly service meeting.",
+  "received": "2026-02-27"
+}

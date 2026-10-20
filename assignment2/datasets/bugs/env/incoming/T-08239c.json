@@ -1,0 +1,11 @@
+{
+  "tid": "T-08239c",
+  "seq": 35,
+  "exception": "MemoryError",
+  "top_frame": "lattice.store.index.rebuild",
+  "version": "v3.3.7",
+  "title": "MemoryError while exporting the monthly report (index.rebuild)",
+  "body": "## Environment\n\nLattice version 3.3.7; operating system Windows 11 24H2; server region eu-\nwest-2.\n\n## Steps\n\nSteps to reproduce:\n* With the log window open, start exporting the monthly report.\n* Run the same input in a loop for several hours.\n* Wait for the failure and read the log.\n\n## Expected\n\nNo traceback; exporting the monthly report normally takes a few seconds.\n\n## Actual\n\nMemory grows a little on every run of the same input and eventually fails. The\nsame input succeeds on a fresh start and fails after a few hours of repeats.\n\n## Frequency\n\nReproduces twice this week.",
+  "stacktrace": "lattice/ui/main.py:49 in loop\nlattice/report/schedule.py:64 in run_due\nlattice/report/builder.py:140 in build\nlattice/store/index.py:156 in rebuild\nMemoryError: unable to allocate 3.1 GiB for index buffer",
+  "reported": "2026-02-21"
+}

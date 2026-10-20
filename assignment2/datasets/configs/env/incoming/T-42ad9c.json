@@ -1,0 +1,10 @@
+{
+  "tid": "T-42ad9c",
+  "seq": 38,
+  "scenario": "cfg-1836",
+  "kind": "replicas_of",
+  "target": "prod-us-west",
+  "subject": "CFG-1836: how many replicas does prod-us-west run",
+  "body": "Just the value of srevice.replicas for that environment.\n\nThnks, Nora Lindqvist\n\nHello -- Nora Lindqvist, QA. What is service.replicas in the prod-us-west environment of shipping-\napi?",
+  "received": "2026-03-23"
+}

@@ -1,0 +1,7 @@
+{
+  "tid": "T-3f1738",
+  "seq": 22,
+  "title": "CHG-6119: shipment planner change memo",
+  "body": "## Summary\n\nThis memo records a change to the Shipment Planner that is currently pending. Ivan Petrov (Release Management) raised it, and 3 production hosts behind the Shipment Planner are in scope for the work.\n\n## Details\n\nTogether with Meridian Cloud the team plans the following steps for the 22:00-23:30 UTC window:\n* Move the nightly export to the new object store bucket\n* Add a read replica in the secondary region for reporting\n* Replace the hand-maintained cron schedule with the workflow engine\n\n## Decision\n\nAs recorded by the board, this change is an open request. Minutes taken by Amara Osei, 18 March 2025, covering the session held on 15 September 2025, are kept in the shared archive.",
+  "received": "2026-02-03"
+}

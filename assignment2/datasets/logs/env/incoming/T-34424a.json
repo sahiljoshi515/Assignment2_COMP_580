@@ -1,0 +1,10 @@
+{
+  "tid": "T-34424a",
+  "seq": 28,
+  "scenario": "INC1532",
+  "kind": "error_class",
+  "target": null,
+  "subject": "INC-1532: what failed on the failing host and how often",
+  "body": "Hi, Omar Haddad from the payments team here. Tell me the\nexception class behind the catalog errors and the total\nnumber of ERROR lines on the host that logged them.\n\nOnly lines whose level is ERROR count; health-check warnings\ndo not.\n\nMuch appreciated, Omar Haddad",
+  "received": "2026-03-02"
+}

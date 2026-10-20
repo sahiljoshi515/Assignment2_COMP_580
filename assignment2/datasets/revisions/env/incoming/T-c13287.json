@@ -1,0 +1,10 @@
+{
+  "tid": "T-c13287",
+  "seq": 32,
+  "scenario": "POL-1152",
+  "kind": "owner_change",
+  "target": null,
+  "subject": "POL-1152: which revision changed the owner",
+  "body": "Priya Nair (SRE) writing with a quick request. Find the revision in which the Vendor Security Policy names a different owner than the revision before it, and give the new owner.\n\nThe owner is named in the Review and ownership section of every revision.\n\nRegards, Priya Nair -- SRE",
+  "received": "2026-03-11"
+}

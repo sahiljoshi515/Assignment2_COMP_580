@@ -1,0 +1,10 @@
+{
+  "tid": "T-30e2a0",
+  "seq": 56,
+  "product": "meshmail",
+  "error_code": "e-3307",
+  "platform": "android",
+  "subject": "E-3307: quota exceeded on Android",
+  "body": "Hello support team. We run MeshMail 2.8.1 on Android 14\n(Galaxy S23). Whenever I start a sync since the weekend, the\napp shows 'E-3307: storage quota exceeded'.\n\nOur quota includes a large folder a partner company shared\nwith us. That shared folder by itself exceeds our entire\nplan.\n\nWhat I tried so far: rebooting the router. No luck.\n\nMei Lin -- Tessa Labs. Appreciate any pointers.",
+  "opened": "2026-03-12"
+}

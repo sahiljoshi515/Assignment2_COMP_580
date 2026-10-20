@@ -1,0 +1,11 @@
+{
+  "tid": "T-9e34dc",
+  "seq": 23,
+  "exception": "ConnectionError",
+  "top_frame": "lattice/net/socket.py::connect",
+  "version": "3.1.5",
+  "title": "socket.connect raises ConnectionError when dragging a file into a record",
+  "body": "Environment\n\nRunning Lattice 3.1.5 on Windows Server 2022 against us-\neast-1.\n\nSteps\n\nSteps to reproduce:\n- With the log window open, start dragging a file into a\n  record.\n- Generate load with the stress script and watch the\n  connection gauge.\n- Wait for the failure and read the log.\n\nExpected\n\nExpected dragging a file into a record to finish without\nerrors.\n\nActual\n\nConnections start failing after a few hundred calls and\nrecover only after a restart. Under load the open-connection\ngauge climbs steadily and never comes back down.\n\nFrequency\n\nReproduces roughly one run in three.",
+  "stacktrace": "lattice/ui/main.py:50 in loop\nlattice/ui/upload.py:39 in on_drop\nlattice/io/upload.py:115 in send\nlattice/net/socket.py:75 in connect\nConnectionError: connection refused (host=us-east-1)",
+  "reported": "2026-02-04"
+}

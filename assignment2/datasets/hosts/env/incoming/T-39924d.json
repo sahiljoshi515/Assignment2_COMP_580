@@ -1,0 +1,10 @@
+{
+  "tid": "T-39924d",
+  "seq": 38,
+  "scenario": "FLT1418",
+  "kind": "service_down",
+  "target": null,
+  "subject": "FLT-1418: which host has a service that is not running",
+  "body": "Hello -- Jonas Berg, infra. All services listed in the cache snapshots should be active on every\nhost. One host has one service inactive. Which host, and which service?\n\nServices are listed under [services] as name = active or name = inactive.\n\nRegards, Jonas Berg -- infra",
+  "received": "2026-03-23"
+}

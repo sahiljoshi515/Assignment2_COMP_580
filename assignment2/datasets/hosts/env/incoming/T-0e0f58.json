@@ -1,0 +1,10 @@
+{
+  "tid": "T-0e0f58",
+  "seq": 13,
+  "scenario": "FLT1646",
+  "kind": "param_drift",
+  "target": null,
+  "subject": "FLT-1646: which host has a different kernel parameter",
+  "body": "Hlelo -- Hannnah Cole, SRE. Find the api host whose [kernel.params] section\ndiffers from the others and name the parameter that differs.\n\nEvery snapshot carries the same parameters; compare their values.\n\nThanks, Hannah Cole",
+  "received": "2026-01-30"
+}

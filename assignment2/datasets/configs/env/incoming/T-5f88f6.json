@@ -1,0 +1,10 @@
+{
+  "tid": "T-5f88f6",
+  "seq": 36,
+  "scenario": "CFG1228",
+  "kind": "replicas_of",
+  "target": "canary",
+  "subject": "CFG-1228: how many replicas does canary run",
+  "body": "Arjun Mehta (infra) writing with a quick request. How many replicas does the ledger-api deployment in the canary environment run?\n\nJust the value of service.replicas for that environment.\n\nMuch appreciated, Arjun Mehta",
+  "received": "2026-03-19"
+}

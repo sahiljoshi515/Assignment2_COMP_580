@@ -1,0 +1,10 @@
+{
+  "tid": "T-1ce271",
+  "seq": 21,
+  "scenario": "MBX1418",
+  "kind": "longest_backup",
+  "target": null,
+  "subject": "MBX-1418: which nightly backup took longest",
+  "body": "Hello -- Priya Nair, compliance. Which nightly backup report in inbox/ shows the longest duration,\nand how many minutes did it take?\n\nCompare the Duration values across the reports; the largest is unique.\n\nMuch appreciated, Priya Nair",
+  "received": "2026-02-16"
+}

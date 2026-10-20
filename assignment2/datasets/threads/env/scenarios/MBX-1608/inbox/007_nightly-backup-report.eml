@@ -1,0 +1,16 @@
+From: Backup Service <backup-bot@brightwaterclinics.example>
+To: ops-notify@brightwaterclinics.example
+Date: Sat, 21 Feb 2026 02:41:00 +0000
+Subject: Nightly backup report - prod-postgres-full - 2026-02-20
+
+Nightly backup report for 2026-02-20
+Job: prod-postgres-full
+Status: SUCCESS
+Started: 02:04:09 UTC   Finished: 02:41:10 UTC   Duration: 37 min
+Bytes transferred: 40.9 GB   Files: 1,184,647   Changed since last run: 3.0 %
+Retention: 30 daily, 12 weekly, 6 monthly
+Next run: 2026-02-21 02:00 UTC
+
+-- 
+This message was generated automatically by the backup service. Replies are not read.
+To change the schedule or the recipients, edit the job in the backup console.

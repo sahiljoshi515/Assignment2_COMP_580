@@ -1,0 +1,10 @@
+{
+  "tid": "T-c19bf7",
+  "seq": 10,
+  "scenario": "flt-1152",
+  "kind": "fullest_disk",
+  "target": null,
+  "subject": "FLT-1152: which host has the fullest root filesystem",
+  "body": "Tomas Vik (support) writing with a quick ask. Across the worker fleet, find\nthe host whose / mount is fullest and report the used percentage.\n\nUsage is the used_pct value on the / line of the [mounts] section.\n\nMuch appreciated a lot, Tomas Vik",
+  "received": "2026-01-23"
+}

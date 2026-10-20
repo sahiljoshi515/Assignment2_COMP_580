@@ -1,0 +1,10 @@
+{
+  "tid": "T-596542",
+  "seq": 18,
+  "scenario": "SDK1418",
+  "kind": "retry_violation",
+  "target": null,
+  "subject": "SDK-1418: which adapter breaks the retry rule",
+  "body": "Hello -- Sofia Rossi, QA. Rule R1 in docs/CONVENTIONS.md\nfixes the retry loop. One adapter in adapters/ does not\nfollow it. Which file, and which method holds the loop?\n\nThe adapters are copies of one template; compare the retry\nloops.\n\nThanks, Sofia Rossi",
+  "received": "2026-02-09"
+}

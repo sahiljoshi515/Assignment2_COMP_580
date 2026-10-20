@@ -1,0 +1,11 @@
+{
+  "tid": "T-044b2b",
+  "seq": 38,
+  "exception": "AttributeError",
+  "top_frame": "lattice/auth/user.py::lookup",
+  "version": "3.3.9",
+  "title": "AttributeError in user.lookup when signing in",
+  "body": "## Environment\n\nLattice 3.3.9, Debian 12, server eu-central-1.\n\n## Steps\n\nTo reproduce:\n* Start by signing in.\n* Install this release over the previous one without changing settings.\n* Wait for the failure and read the log.\n\n## Expected\n\nExpected signing in to finish without errors.\n\n## Actual\n\nIt fails on every attempt since the upgrade; the previous release never did this. It began right\nafter upgrading to this release; nothing else changed.\n\n## Frequency\n\nHappens every time.",
+  "stacktrace": "lattice/ui/main.py:50 in loop\nlattice/ui/dialog.py:124 in on_login\nlattice/auth/flow.py:56 in start\nlattice/auth/user.py:214 in lookup\nAttributeError: 'NoneType' object has no attribute 'roles'",
+  "reported": "2026-02-25"
+}

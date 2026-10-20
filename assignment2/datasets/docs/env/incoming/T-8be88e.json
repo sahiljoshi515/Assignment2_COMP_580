@@ -1,0 +1,7 @@
+{
+  "tid": "T-8be88e",
+  "seq": 35,
+  "title": "INC-3287: Message Broker incident report",
+  "body": "Impact\n\nThis report covers an incident on the Message Broker that is ongoing. About 32 customer tickets were\nlinked to it by Risk and Compliance, with Corvid Analytics engaged as the hosting provider from the\nfirst hour.\n\nTimeline\n\nTimeline recorded by Victor Nwosu, in order, as of 22 July 2025:\n* Queue depth was sampled every five minutes and charted\n* Error rates were compared against the weekly baseline\n* The vendor was engaged through the premium support line\n\nStatus\n\nCurrent state of the incident: ongoing. Written by Mateo Silva, 18 June 2025, with a follow-up\nreview set for the 20:00-21:00 UTC window ahead of the weekly service meeting.",
+  "received": "2026-02-21"
+}

@@ -1,0 +1,10 @@
+{
+  "tid": "T-36df4f",
+  "seq": 20,
+  "scenario": "FLT1266",
+  "kind": "fullest_disk",
+  "target": null,
+  "subject": "FLT-1266: which host has the fullest root filesystem",
+  "body": "Hello -- Hannah Cole, QA. Please report the batch host with\nthe most-used root filesystem and its used percentage.\n\nThe percentage is an integer in the snapshot.\n\nThanks, Hannah Cole",
+  "received": "2026-02-13"
+}

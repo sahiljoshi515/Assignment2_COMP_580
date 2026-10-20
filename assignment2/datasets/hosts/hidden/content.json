@@ -1,0 +1,1405 @@
+{
+  "FLT-1000": {
+    "groups": [
+      {
+        "name": "fleet-inventory",
+        "files": [
+          "inventory/worker-01.txt",
+          "inventory/worker-02.txt",
+          "inventory/worker-03.txt",
+          "inventory/worker-04.txt",
+          "inventory/worker-05.txt",
+          "inventory/worker-06.txt",
+          "inventory/worker-07.txt",
+          "inventory/worker-08.txt",
+          "inventory/worker-09.txt"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inventory/worker-01.txt": [
+        15,
+        62
+      ],
+      "inventory/worker-02.txt": [
+        15,
+        56,
+        62
+      ],
+      "inventory/worker-03.txt": [
+        15,
+        62,
+        72
+      ],
+      "inventory/worker-04.txt": [
+        9,
+        15,
+        62
+      ],
+      "inventory/worker-05.txt": [
+        15,
+        62
+      ],
+      "inventory/worker-06.txt": [
+        15,
+        62
+      ],
+      "inventory/worker-07.txt": [
+        15,
+        62
+      ],
+      "inventory/worker-08.txt": [
+        15,
+        22,
+        62
+      ],
+      "inventory/worker-09.txt": [
+        15,
+        62
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 36,
+      "within_min": 0.962,
+      "within_p50": 0.988,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "FLT-1038": {
+    "groups": [
+      {
+        "name": "fleet-inventory",
+        "files": [
+          "inventory/cache-01.txt",
+          "inventory/cache-02.txt",
+          "inventory/cache-03.txt",
+          "inventory/cache-04.txt",
+          "inventory/cache-05.txt",
+          "inventory/cache-06.txt",
+          "inventory/cache-07.txt"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inventory/cache-01.txt": [
+        15,
+        46,
+        62
+      ],
+      "inventory/cache-02.txt": [
+        15,
+        24,
+        62
+      ],
+      "inventory/cache-03.txt": [
+        15,
+        62
+      ],
+      "inventory/cache-04.txt": [
+        15,
+        62
+      ],
+      "inventory/cache-05.txt": [
+        9,
+        15,
+        62
+      ],
+      "inventory/cache-06.txt": [
+        15,
+        62,
+        70
+      ],
+      "inventory/cache-07.txt": [
+        15,
+        62
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.952,
+      "within_p50": 0.982,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "FLT-1076": {
+    "groups": [
+      {
+        "name": "fleet-inventory",
+        "files": [
+          "inventory/cache-01.txt",
+          "inventory/cache-02.txt",
+          "inventory/cache-03.txt",
+          "inventory/cache-04.txt",
+          "inventory/cache-05.txt",
+          "inventory/cache-06.txt"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inventory/cache-01.txt": [
+        15,
+        18,
+        62
+      ],
+      "inventory/cache-02.txt": [
+        15,
+        62,
+        70
+      ],
+      "inventory/cache-03.txt": [
+        15,
+        58,
+        62
+      ],
+      "inventory/cache-04.txt": [
+        15,
+        62
+      ],
+      "inventory/cache-05.txt": [
+        9,
+        15,
+        62
+      ],
+      "inventory/cache-06.txt": [
+        15,
+        62
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 15,
+      "within_min": 0.953,
+      "within_p50": 0.982,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "FLT-1114": {
+    "groups": [
+      {
+        "name": "fleet-inventory",
+        "files": [
+          "inventory/api-01.txt",
+          "inventory/api-02.txt",
+          "inventory/api-03.txt",
+          "inventory/api-04.txt",
+          "inventory/api-05.txt",
+          "inventory/api-06.txt",
+          "inventory/api-07.txt",
+          "inventory/api-08.txt"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inventory/api-01.txt": [
+        15,
+        62
+      ],
+      "inventory/api-02.txt": [
+        15,
+        62
+      ],
+      "inventory/api-03.txt": [
+        15,
+        62
+      ],
+      "inventory/api-04.txt": [
+        15,
+        62
+      ],
+      "inventory/api-05.txt": [
+        15,
+        62,
+        70
+      ],
+      "inventory/api-06.txt": [
+        15,
+        59,
+        62
+      ],
+      "inventory/api-07.txt": [
+        9,
+        15,
+        62
+      ],
+      "inventory/api-08.txt": [
+        15,
+        22,
+        62
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 28,
+      "within_min": 0.964,
+      "within_p50": 0.988,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "FLT-1152": {
+    "groups": [
+      {
+        "name": "fleet-inventory",
+        "files": [
+          "inventory/worker-01.txt",
+          "inventory/worker-02.txt",
+          "inventory/worker-03.txt",
+          "inventory/worker-04.txt",
+          "inventory/worker-05.txt",
+          "inventory/worker-06.txt"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inventory/worker-01.txt": [
+        9,
+        15,
+        62
+      ],
+      "inventory/worker-02.txt": [
+        15,
+        62
+      ],
+      "inventory/worker-03.txt": [
+        15,
+        53,
+        62
+      ],
+      "inventory/worker-04.txt": [
+        15,
+        23,
+        62
+      ],
+      "inventory/worker-05.txt": [
+        15,
+        62
+      ],
+      "inventory/worker-06.txt": [
+        15,
+        62,
+        75
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 15,
+      "within_min": 0.962,
+      "within_p50": 0.982,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "FLT-1190": {
+    "groups": [
+      {
+        "name": "fleet-inventory",
+        "files": [
+          "inventory/cache-01.txt",
+          "inventory/cache-02.txt",
+          "inventory/cache-03.txt",
+          "inventory/cache-04.txt",
+          "inventory/cache-05.txt",
+          "inventory/cache-06.txt",
+          "inventory/cache-07.txt",
+          "inventory/cache-08.txt",
+          "inventory/cache-09.txt"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inventory/cache-01.txt": [
+        15,
+        62
+      ],
+      "inventory/cache-02.txt": [
+        15,
+        62
+      ],
+      "inventory/cache-03.txt": [
+        15,
+        62
+      ],
+      "inventory/cache-04.txt": [
+        15,
+        62,
+        77
+      ],
+      "inventory/cache-05.txt": [
+        15,
+        27,
+        62
+      ],
+      "inventory/cache-06.txt": [
+        15,
+        62
+      ],
+      "inventory/cache-07.txt": [
+        15,
+        59,
+        62
+      ],
+      "inventory/cache-08.txt": [
+        9,
+        15,
+        62
+      ],
+      "inventory/cache-09.txt": [
+        15,
+        62
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 36,
+      "within_min": 0.961,
+      "within_p50": 0.988,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "FLT-1228": {
+    "groups": [
+      {
+        "name": "fleet-inventory",
+        "files": [
+          "inventory/edge-01.txt",
+          "inventory/edge-02.txt",
+          "inventory/edge-03.txt",
+          "inventory/edge-04.txt",
+          "inventory/edge-05.txt",
+          "inventory/edge-06.txt",
+          "inventory/edge-07.txt"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inventory/edge-01.txt": [
+        15,
+        27,
+        62
+      ],
+      "inventory/edge-02.txt": [
+        9,
+        15,
+        62
+      ],
+      "inventory/edge-03.txt": [
+        15,
+        62
+      ],
+      "inventory/edge-04.txt": [
+        15,
+        62
+      ],
+      "inventory/edge-05.txt": [
+        15,
+        62,
+        75
+      ],
+      "inventory/edge-06.txt": [
+        15,
+        43,
+        62
+      ],
+      "inventory/edge-07.txt": [
+        15,
+        62
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.964,
+      "within_p50": 0.982,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "FLT-1266": {
+    "groups": [
+      {
+        "name": "fleet-inventory",
+        "files": [
+          "inventory/batch-01.txt",
+          "inventory/batch-02.txt",
+          "inventory/batch-03.txt",
+          "inventory/batch-04.txt",
+          "inventory/batch-05.txt",
+          "inventory/batch-06.txt",
+          "inventory/batch-07.txt",
+          "inventory/batch-08.txt"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inventory/batch-01.txt": [
+        15,
+        62
+      ],
+      "inventory/batch-02.txt": [
+        15,
+        50,
+        62
+      ],
+      "inventory/batch-03.txt": [
+        15,
+        62
+      ],
+      "inventory/batch-04.txt": [
+        15,
+        21,
+        62
+      ],
+      "inventory/batch-05.txt": [
+        15,
+        62,
+        75
+      ],
+      "inventory/batch-06.txt": [
+        9,
+        15,
+        62
+      ],
+      "inventory/batch-07.txt": [
+        15,
+        62
+      ],
+      "inventory/batch-08.txt": [
+        15,
+        62
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 28,
+      "within_min": 0.961,
+      "within_p50": 1.0,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "FLT-1304": {
+    "groups": [
+      {
+        "name": "fleet-inventory",
+        "files": [
+          "inventory/api-01.txt",
+          "inventory/api-02.txt",
+          "inventory/api-03.txt",
+          "inventory/api-04.txt",
+          "inventory/api-05.txt",
+          "inventory/api-06.txt",
+          "inventory/api-07.txt",
+          "inventory/api-08.txt"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inventory/api-01.txt": [
+        15,
+        62,
+        77
+      ],
+      "inventory/api-02.txt": [
+        15,
+        62
+      ],
+      "inventory/api-03.txt": [
+        15,
+        62
+      ],
+      "inventory/api-04.txt": [
+        15,
+        26,
+        62
+      ],
+      "inventory/api-05.txt": [
+        15,
+        62
+      ],
+      "inventory/api-06.txt": [
+        15,
+        53,
+        62
+      ],
+      "inventory/api-07.txt": [
+        15,
+        62
+      ],
+      "inventory/api-08.txt": [
+        9,
+        15,
+        62
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 28,
+      "within_min": 0.965,
+      "within_p50": 0.985,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "FLT-1342": {
+    "groups": [
+      {
+        "name": "fleet-inventory",
+        "files": [
+          "inventory/edge-01.txt",
+          "inventory/edge-02.txt",
+          "inventory/edge-03.txt",
+          "inventory/edge-04.txt",
+          "inventory/edge-05.txt",
+          "inventory/edge-06.txt",
+          "inventory/edge-07.txt",
+          "inventory/edge-08.txt",
+          "inventory/edge-09.txt"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inventory/edge-01.txt": [
+        15,
+        62
+      ],
+      "inventory/edge-02.txt": [
+        15,
+        62
+      ],
+      "inventory/edge-03.txt": [
+        15,
+        29,
+        62
+      ],
+      "inventory/edge-04.txt": [
+        15,
+        62,
+        70
+      ],
+      "inventory/edge-05.txt": [
+        15,
+        62
+      ],
+      "inventory/edge-06.txt": [
+        9,
+        15,
+        62
+      ],
+      "inventory/edge-07.txt": [
+        15,
+        34,
+        62
+      ],
+      "inventory/edge-08.txt": [
+        15,
+        62
+      ],
+      "inventory/edge-09.txt": [
+        15,
+        62
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 36,
+      "within_min": 0.952,
+      "within_p50": 1.0,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "FLT-1380": {
+    "groups": [
+      {
+        "name": "fleet-inventory",
+        "files": [
+          "inventory/batch-01.txt",
+          "inventory/batch-02.txt",
+          "inventory/batch-03.txt",
+          "inventory/batch-04.txt",
+          "inventory/batch-05.txt",
+          "inventory/batch-06.txt",
+          "inventory/batch-07.txt"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inventory/batch-01.txt": [
+        15,
+        62
+      ],
+      "inventory/batch-02.txt": [
+        15,
+        18,
+        62
+      ],
+      "inventory/batch-03.txt": [
+        15,
+        62
+      ],
+      "inventory/batch-04.txt": [
+        9,
+        15,
+        62
+      ],
+      "inventory/batch-05.txt": [
+        15,
+        43,
+        62
+      ],
+      "inventory/batch-06.txt": [
+        15,
+        62
+      ],
+      "inventory/batch-07.txt": [
+        15,
+        62,
+        76
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.964,
+      "within_p50": 0.982,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "FLT-1418": {
+    "groups": [
+      {
+        "name": "fleet-inventory",
+        "files": [
+          "inventory/cache-01.txt",
+          "inventory/cache-02.txt",
+          "inventory/cache-03.txt",
+          "inventory/cache-04.txt",
+          "inventory/cache-05.txt",
+          "inventory/cache-06.txt",
+          "inventory/cache-07.txt",
+          "inventory/cache-08.txt"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inventory/cache-01.txt": [
+        15,
+        62,
+        74
+      ],
+      "inventory/cache-02.txt": [
+        15,
+        38,
+        62
+      ],
+      "inventory/cache-03.txt": [
+        15,
+        62
+      ],
+      "inventory/cache-04.txt": [
+        15,
+        24,
+        62
+      ],
+      "inventory/cache-05.txt": [
+        15,
+        62
+      ],
+      "inventory/cache-06.txt": [
+        15,
+        62
+      ],
+      "inventory/cache-07.txt": [
+        9,
+        15,
+        62
+      ],
+      "inventory/cache-08.txt": [
+        15,
+        62
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 28,
+      "within_min": 0.961,
+      "within_p50": 0.985,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "FLT-1456": {
+    "groups": [
+      {
+        "name": "fleet-inventory",
+        "files": [
+          "inventory/cache-01.txt",
+          "inventory/cache-02.txt",
+          "inventory/cache-03.txt",
+          "inventory/cache-04.txt",
+          "inventory/cache-05.txt",
+          "inventory/cache-06.txt",
+          "inventory/cache-07.txt"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inventory/cache-01.txt": [
+        15,
+        62
+      ],
+      "inventory/cache-02.txt": [
+        9,
+        15,
+        62
+      ],
+      "inventory/cache-03.txt": [
+        15,
+        18,
+        62
+      ],
+      "inventory/cache-04.txt": [
+        15,
+        62
+      ],
+      "inventory/cache-05.txt": [
+        15,
+        62,
+        74
+      ],
+      "inventory/cache-06.txt": [
+        15,
+        47,
+        62
+      ],
+      "inventory/cache-07.txt": [
+        15,
+        62
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.961,
+      "within_p50": 0.982,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "FLT-1494": {
+    "groups": [
+      {
+        "name": "fleet-inventory",
+        "files": [
+          "inventory/batch-01.txt",
+          "inventory/batch-02.txt",
+          "inventory/batch-03.txt",
+          "inventory/batch-04.txt",
+          "inventory/batch-05.txt",
+          "inventory/batch-06.txt",
+          "inventory/batch-07.txt"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inventory/batch-01.txt": [
+        15,
+        62
+      ],
+      "inventory/batch-02.txt": [
+        15,
+        62
+      ],
+      "inventory/batch-03.txt": [
+        9,
+        15,
+        62
+      ],
+      "inventory/batch-04.txt": [
+        15,
+        29,
+        62
+      ],
+      "inventory/batch-05.txt": [
+        15,
+        47,
+        62
+      ],
+      "inventory/batch-06.txt": [
+        15,
+        62,
+        75
+      ],
+      "inventory/batch-07.txt": [
+        15,
+        62
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.962,
+      "within_p50": 0.982,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "FLT-1532": {
+    "groups": [
+      {
+        "name": "fleet-inventory",
+        "files": [
+          "inventory/cache-01.txt",
+          "inventory/cache-02.txt",
+          "inventory/cache-03.txt",
+          "inventory/cache-04.txt",
+          "inventory/cache-05.txt",
+          "inventory/cache-06.txt"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inventory/cache-01.txt": [
+        15,
+        20,
+        62
+      ],
+      "inventory/cache-02.txt": [
+        15,
+        62
+      ],
+      "inventory/cache-03.txt": [
+        9,
+        15,
+        62
+      ],
+      "inventory/cache-04.txt": [
+        15,
+        59,
+        62
+      ],
+      "inventory/cache-05.txt": [
+        15,
+        62,
+        73
+      ],
+      "inventory/cache-06.txt": [
+        15,
+        62
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 15,
+      "within_min": 0.961,
+      "within_p50": 0.982,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "FLT-1570": {
+    "groups": [
+      {
+        "name": "fleet-inventory",
+        "files": [
+          "inventory/api-01.txt",
+          "inventory/api-02.txt",
+          "inventory/api-03.txt",
+          "inventory/api-04.txt",
+          "inventory/api-05.txt",
+          "inventory/api-06.txt",
+          "inventory/api-07.txt",
+          "inventory/api-08.txt",
+          "inventory/api-09.txt"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inventory/api-01.txt": [
+        15,
+        62
+      ],
+      "inventory/api-02.txt": [
+        15,
+        20,
+        62
+      ],
+      "inventory/api-03.txt": [
+        15,
+        62
+      ],
+      "inventory/api-04.txt": [
+        15,
+        44,
+        62
+      ],
+      "inventory/api-05.txt": [
+        9,
+        15,
+        62
+      ],
+      "inventory/api-06.txt": [
+        15,
+        62,
+        71
+      ],
+      "inventory/api-07.txt": [
+        15,
+        62
+      ],
+      "inventory/api-08.txt": [
+        15,
+        62
+      ],
+      "inventory/api-09.txt": [
+        15,
+        62
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 36,
+      "within_min": 0.964,
+      "within_p50": 0.988,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "FLT-1608": {
+    "groups": [
+      {
+        "name": "fleet-inventory",
+        "files": [
+          "inventory/edge-01.txt",
+          "inventory/edge-02.txt",
+          "inventory/edge-03.txt",
+          "inventory/edge-04.txt",
+          "inventory/edge-05.txt",
+          "inventory/edge-06.txt",
+          "inventory/edge-07.txt"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inventory/edge-01.txt": [
+        15,
+        62
+      ],
+      "inventory/edge-02.txt": [
+        9,
+        15,
+        62
+      ],
+      "inventory/edge-03.txt": [
+        15,
+        62
+      ],
+      "inventory/edge-04.txt": [
+        15,
+        62
+      ],
+      "inventory/edge-05.txt": [
+        15,
+        23,
+        62
+      ],
+      "inventory/edge-06.txt": [
+        15,
+        62,
+        74
+      ],
+      "inventory/edge-07.txt": [
+        15,
+        34,
+        62
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.961,
+      "within_p50": 0.982,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "FLT-1646": {
+    "groups": [
+      {
+        "name": "fleet-inventory",
+        "files": [
+          "inventory/api-01.txt",
+          "inventory/api-02.txt",
+          "inventory/api-03.txt",
+          "inventory/api-04.txt",
+          "inventory/api-05.txt",
+          "inventory/api-06.txt"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inventory/api-01.txt": [
+        15,
+        45,
+        62
+      ],
+      "inventory/api-02.txt": [
+        15,
+        62,
+        70
+      ],
+      "inventory/api-03.txt": [
+        15,
+        62
+      ],
+      "inventory/api-04.txt": [
+        15,
+        62
+      ],
+      "inventory/api-05.txt": [
+        9,
+        15,
+        62
+      ],
+      "inventory/api-06.txt": [
+        15,
+        25,
+        62
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 15,
+      "within_min": 0.964,
+      "within_p50": 0.982,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "FLT-1684": {
+    "groups": [
+      {
+        "name": "fleet-inventory",
+        "files": [
+          "inventory/worker-01.txt",
+          "inventory/worker-02.txt",
+          "inventory/worker-03.txt",
+          "inventory/worker-04.txt",
+          "inventory/worker-05.txt",
+          "inventory/worker-06.txt"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inventory/worker-01.txt": [
+        15,
+        42,
+        62
+      ],
+      "inventory/worker-02.txt": [
+        15,
+        29,
+        62
+      ],
+      "inventory/worker-03.txt": [
+        9,
+        15,
+        62
+      ],
+      "inventory/worker-04.txt": [
+        15,
+        62
+      ],
+      "inventory/worker-05.txt": [
+        15,
+        62
+      ],
+      "inventory/worker-06.txt": [
+        15,
+        62,
+        75
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 15,
+      "within_min": 0.962,
+      "within_p50": 0.982,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "FLT-1722": {
+    "groups": [
+      {
+        "name": "fleet-inventory",
+        "files": [
+          "inventory/proxy-01.txt",
+          "inventory/proxy-02.txt",
+          "inventory/proxy-03.txt",
+          "inventory/proxy-04.txt",
+          "inventory/proxy-05.txt",
+          "inventory/proxy-06.txt"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inventory/proxy-01.txt": [
+        15,
+        46,
+        62
+      ],
+      "inventory/proxy-02.txt": [
+        15,
+        24,
+        62
+      ],
+      "inventory/proxy-03.txt": [
+        15,
+        62,
+        72
+      ],
+      "inventory/proxy-04.txt": [
+        15,
+        62
+      ],
+      "inventory/proxy-05.txt": [
+        9,
+        15,
+        62
+      ],
+      "inventory/proxy-06.txt": [
+        15,
+        62
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 15,
+      "within_min": 0.964,
+      "within_p50": 0.982,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "FLT-1760": {
+    "groups": [
+      {
+        "name": "fleet-inventory",
+        "files": [
+          "inventory/api-01.txt",
+          "inventory/api-02.txt",
+          "inventory/api-03.txt",
+          "inventory/api-04.txt",
+          "inventory/api-05.txt",
+          "inventory/api-06.txt"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inventory/api-01.txt": [
+        15,
+        62,
+        73
+      ],
+      "inventory/api-02.txt": [
+        15,
+        62
+      ],
+      "inventory/api-03.txt": [
+        15,
+        62
+      ],
+      "inventory/api-04.txt": [
+        15,
+        43,
+        62
+      ],
+      "inventory/api-05.txt": [
+        9,
+        15,
+        62
+      ],
+      "inventory/api-06.txt": [
+        15,
+        23,
+        62
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 15,
+      "within_min": 0.964,
+      "within_p50": 0.982,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "FLT-1798": {
+    "groups": [
+      {
+        "name": "fleet-inventory",
+        "files": [
+          "inventory/api-01.txt",
+          "inventory/api-02.txt",
+          "inventory/api-03.txt",
+          "inventory/api-04.txt",
+          "inventory/api-05.txt",
+          "inventory/api-06.txt",
+          "inventory/api-07.txt",
+          "inventory/api-08.txt",
+          "inventory/api-09.txt"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inventory/api-01.txt": [
+        15,
+        29,
+        62
+      ],
+      "inventory/api-02.txt": [
+        15,
+        62
+      ],
+      "inventory/api-03.txt": [
+        15,
+        62,
+        76
+      ],
+      "inventory/api-04.txt": [
+        15,
+        62
+      ],
+      "inventory/api-05.txt": [
+        15,
+        57,
+        62
+      ],
+      "inventory/api-06.txt": [
+        9,
+        15,
+        62
+      ],
+      "inventory/api-07.txt": [
+        15,
+        62
+      ],
+      "inventory/api-08.txt": [
+        15,
+        62
+      ],
+      "inventory/api-09.txt": [
+        15,
+        62
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 36,
+      "within_min": 0.964,
+      "within_p50": 0.988,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "FLT-1836": {
+    "groups": [
+      {
+        "name": "fleet-inventory",
+        "files": [
+          "inventory/proxy-01.txt",
+          "inventory/proxy-02.txt",
+          "inventory/proxy-03.txt",
+          "inventory/proxy-04.txt",
+          "inventory/proxy-05.txt",
+          "inventory/proxy-06.txt"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inventory/proxy-01.txt": [
+        15,
+        62,
+        72
+      ],
+      "inventory/proxy-02.txt": [
+        15,
+        21,
+        62
+      ],
+      "inventory/proxy-03.txt": [
+        9,
+        15,
+        62
+      ],
+      "inventory/proxy-04.txt": [
+        15,
+        54,
+        62
+      ],
+      "inventory/proxy-05.txt": [
+        15,
+        62
+      ],
+      "inventory/proxy-06.txt": [
+        15,
+        62
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 15,
+      "within_min": 0.961,
+      "within_p50": 0.982,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "FLT-1874": {
+    "groups": [
+      {
+        "name": "fleet-inventory",
+        "files": [
+          "inventory/cache-01.txt",
+          "inventory/cache-02.txt",
+          "inventory/cache-03.txt",
+          "inventory/cache-04.txt",
+          "inventory/cache-05.txt",
+          "inventory/cache-06.txt",
+          "inventory/cache-07.txt",
+          "inventory/cache-08.txt"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inventory/cache-01.txt": [
+        9,
+        15,
+        62
+      ],
+      "inventory/cache-02.txt": [
+        15,
+        62
+      ],
+      "inventory/cache-03.txt": [
+        15,
+        62
+      ],
+      "inventory/cache-04.txt": [
+        15,
+        62,
+        77
+      ],
+      "inventory/cache-05.txt": [
+        15,
+        46,
+        62
+      ],
+      "inventory/cache-06.txt": [
+        15,
+        62
+      ],
+      "inventory/cache-07.txt": [
+        15,
+        62
+      ],
+      "inventory/cache-08.txt": [
+        15,
+        27,
+        62
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 28,
+      "within_min": 0.961,
+      "within_p50": 1.0,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  }
+}

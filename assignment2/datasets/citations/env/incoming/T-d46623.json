@@ -1,0 +1,16 @@
+{
+  "tid": "T-d46623",
+  "seq": 45,
+  "citation": {
+    "authors": [
+      "Nair, O.",
+      "Huang, G."
+    ],
+    "title": "Node classification with federated embeddings",
+    "venue": "NeurIPS",
+    "year": 2015,
+    "pages": "6289-6296"
+  },
+  "raw": "Nair, O. and Huang, G., \"Node classification with federated embeddings,\" in Proceedings of NeurIPS, 2015, pp. 6289-6296.",
+  "received": "2026-02-26"
+}

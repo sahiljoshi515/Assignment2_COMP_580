@@ -1,0 +1,11 @@
+{
+  "tid": "T-3dfe12",
+  "seq": 16,
+  "exception": "TimeoutError",
+  "top_frame": "lattice/net/tls.py::handshake",
+  "version": "3.0.6",
+  "title": "TimeoutError in tls.handshake when signing in",
+  "body": "ENVIRONMENT:\n\nLattice version 3.0.6; operating system Debian 12; server region ap-south-1.\n\nSTEPS:\n\nTo reproduce:\n- Start by signing in.\n- Upgrade from the prvious release and keep the old settings.\n- Wait for the failure and read the log.\n\nEXPECTED:\n\nAs on every earlier run, signing in should just complete.\n\nACTUAL:\n\nSinnce upgrading, every attempt fails here. It began right after upgrading to this release; nothing\nelse changed.\n\nFREQUENCY:\n\nReproduces every time.",
+  "stacktrace": "lattice/ui/main.py:45 in loop\nlattice/ui/dialog.py:122 in on_login\nlattice/auth/flow.py:61 in start\nlattice/net/tls.py:161 in handshake\nTimeoutError: handshake timed out after 30s (host=ap-south-1)",
+  "reported": "2026-01-26"
+}

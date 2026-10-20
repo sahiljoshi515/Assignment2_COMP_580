@@ -1,0 +1,11 @@
+{
+  "tid": "T-ac643b",
+  "seq": 13,
+  "exception": "ValueError",
+  "top_frame": "lattice.ui.form.submit",
+  "version": "3.1.5",
+  "title": "form.submit raises ValueError when running a bulk import",
+  "body": "Environment\n\nLattice version 3.1.5; operating system Fedora 41\nWorkstation; server region us-east-1.\n\nSteps\n\nSteps to reproduce:\n- Open Lattice and begin running a bulk import.\n- Enter an amount with eight decimal places.\n- Check the log window; the traceback appears there.\n\nExpected\n\nNo traceback; running a bulk import normally takes a few\nseconds.\n\nActual\n\nA long decimal is what trips it. Anything with over six\ndecimal digits fails, fewer digits work.\n\nFrequency\n\nReproduces twice this week.",
+  "stacktrace": "lattice/ui/main.py:48 in loop\nlattice/ui/dialog.py:92 in on_import\nlattice/io/batch.py:54 in run_import\nlattice/ui/form.py:257 in submit\nValueError: invalid date '2026-03-29 02:30'",
+  "reported": "2026-01-21"
+}

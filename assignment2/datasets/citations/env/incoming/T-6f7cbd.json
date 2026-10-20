@@ -1,0 +1,18 @@
+{
+  "tid": "T-6f7cbd",
+  "seq": 24,
+  "citation": {
+    "authors": [
+      "D Petrov",
+      "M Kowalski",
+      "N Cole",
+      "M Ramos"
+    ],
+    "title": "Join Optimization with Efficient Attention",
+    "venue": "SIGMOD",
+    "year": 2023,
+    "doi": "10.5555/sigmod.2023.4f9d"
+  },
+  "raw": "D Petrov, M Kowalski, N Cole, & M Ramos. 2023. Join Optimization with Efficient Attention. In SIGMOD '23. ACM, New York, NY, USA. DOI:http://dx.doi.org/10.5555/sigmod.2023.4f9d",
+  "received": "2026-02-01"
+}

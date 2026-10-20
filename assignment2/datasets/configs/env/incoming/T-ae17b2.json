@@ -1,0 +1,10 @@
+{
+  "tid": "T-ae17b2",
+  "seq": 21,
+  "scenario": "CFG1456",
+  "kind": "log_level_of",
+  "target": "prod-us-east",
+  "subject": "CFG-1456: what log level does prod-us-east use",
+  "body": "Hello -- Omar Haddad, release. What logging level is configured for billing-api in the prod-us-east\nenvironment?\n\nIt is the value of logging.level in that environment's file.\n\nMuch appreciated, Omar Haddad",
+  "received": "2026-02-16"
+}

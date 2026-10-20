@@ -1,0 +1,10 @@
+{
+  "tid": "T-456ba1",
+  "seq": 29,
+  "product": "meshmail",
+  "error_code": "e-3344",
+  "platform": "android",
+  "subject": "E-3344: crash on launch on Android",
+  "body": "Hi, I'm using MeshMail 2.8.5 on Android 14 (Galaxy S23). Since Monday, every time I log in, I get\n'E-3344: application crashed on launch'.\n\nIt crashes since the update that installed itself this morning. No other change was made to the\nmachine.\n\nWhat I tried so far: waiting a day. No luck.\n\nRegards, Grace Okafor, Ferro & Sons",
+  "opened": "2026-02-07"
+}

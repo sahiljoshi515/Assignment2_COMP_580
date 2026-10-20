@@ -1,0 +1,16 @@
+From: Backup Service <backup-bot@brightwaterclinics.example>
+To: ops-notify@brightwaterclinics.example
+Date: Thu, 19 Feb 2026 02:49:00 +0000
+Subject: Nightly backup report - fileshare-nightly - 2026-02-18
+
+Nightly backup report for 2026-02-18
+Job: fileshare-nightly
+Status: FAILED (checksum mismatch on 3 files)
+Started: 02:00:52 UTC   Finished: 02:49:20 UTC   Duration: 49 min
+Bytes transferred: 41.4 GB   Files: 1,147,044   Changed since last run: 5.5 %
+Retention: 30 daily, 12 weekly, 6 monthly
+Next run: 2026-02-19 02:00 UTC
+
+-- 
+This message was generated automatically by the backup service. Replies are not read.
+To change the schedule or the recipients, edit the job in the backup console.

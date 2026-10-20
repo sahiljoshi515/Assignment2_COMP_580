@@ -1,0 +1,7 @@
+{
+  "tid": "T-8b27ff",
+  "seq": 15,
+  "title": "CHG-3659: change record for the Expense Desk",
+  "body": "SUMMARY:\n\nThis memo records a change to the Expense Desk that is currently pending. The\nwork affects 8 production hosts behind the Expense Desk and was raised by Grace\nOkafor from Infrastructure.\n\nDETAILS:\n\nThe implementation plan, prepared with Meridian Cloud, covers these steps during\nthe 22:00-23:30 UTC window:\n- Move the nightly export to the new object store bucket\n- Add a read replica in the secondary region for reporting\n- Upgrade the message broker to the current long-term release\n\nDECISION:\n\nAs recorded by the board, this change is an open request. Omar Haddad filed this\nrecord on 5 September 2025 after the board session of 18 May 2025; minutes are\nin the shared archive.",
+  "received": "2026-01-24"
+}

@@ -1,0 +1,122 @@
+{
+  "dataset": "tickets",
+  "seed": 11,
+  "args": {
+    "history_size": 140,
+    "incoming": 70,
+    "dup_rate": 0.4
+  },
+  "counts": {
+    "history": 140,
+    "incoming": 70,
+    "duplicates": 28,
+    "hard_negatives": 14,
+    "by_kind": {
+      "exact": 4,
+      "format": 7,
+      "reorder": 4,
+      "edit": 6,
+      "paraphrase": 7
+    },
+    "dup_of_history": 20,
+    "dup_of_task": 8,
+    "history_twins": 15
+  },
+  "tokens": {
+    "instructions": 1626,
+    "history": 20776,
+    "incoming": 10350,
+    "reference": 0,
+    "total": 32752
+  },
+  "budget": {
+    "range": [
+      30000,
+      50000
+    ],
+    "enforced": true,
+    "ok": true
+  },
+  "similarity": {
+    "exact": {
+      "n": 4,
+      "min": 1.0,
+      "p10": 1.0,
+      "p50": 1.0,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "format": {
+      "n": 7,
+      "min": 1.0,
+      "p10": 1.0,
+      "p50": 1.0,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "reorder": {
+      "n": 4,
+      "min": 0.756,
+      "p10": 0.756,
+      "p50": 0.807,
+      "p90": 0.892,
+      "max": 0.892
+    },
+    "edit": {
+      "n": 6,
+      "min": 0.651,
+      "p10": 0.651,
+      "p50": 0.694,
+      "p90": 0.723,
+      "max": 0.723
+    },
+    "paraphrase": {
+      "n": 7,
+      "min": 0.205,
+      "p10": 0.205,
+      "p50": 0.216,
+      "p90": 0.349,
+      "max": 0.349
+    },
+    "hard_negative": {
+      "n": 14,
+      "min": 0.495,
+      "p10": 0.51,
+      "p50": 0.528,
+      "p90": 0.79,
+      "max": 0.802
+    },
+    "confusable": {
+      "n": 127,
+      "min": 0.059,
+      "p10": 0.08,
+      "p50": 0.147,
+      "p90": 0.505,
+      "max": 0.531
+    },
+    "random": {
+      "n": 299,
+      "min": 0.0,
+      "p10": 0.007,
+      "p50": 0.036,
+      "p90": 0.088,
+      "max": 0.522
+    }
+  },
+  "text_for_similarity": "subject + body",
+  "answer_histogram": {
+    "{\"resolution_id\": \"R-02\"}": 9,
+    "{\"resolution_id\": \"R-12\"}": 7,
+    "{\"resolution_id\": \"R-03\"}": 5,
+    "{\"resolution_id\": \"R-07\"}": 5,
+    "{\"resolution_id\": \"R-20\"}": 5,
+    "{\"resolution_id\": \"R-05\"}": 4,
+    "{\"resolution_id\": \"R-08\"}": 4,
+    "{\"resolution_id\": \"R-11\"}": 4,
+    "{\"resolution_id\": \"R-22\"}": 4,
+    "{\"resolution_id\": \"R-23\"}": 4,
+    "{\"resolution_id\": \"R-24\"}": 4,
+    "{\"resolution_id\": \"R-16\"}": 3
+  },
+  "max_answer_share": 0.129
+}

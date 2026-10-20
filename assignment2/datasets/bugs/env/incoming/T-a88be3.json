@@ -1,0 +1,11 @@
+{
+  "tid": "T-a88be3",
+  "seq": 28,
+  "exception": "KeyError",
+  "top_frame": "lattice.auth.oauth.callback",
+  "version": "3.1.6",
+  "title": "oauth.callback raises keyerror when switching accounts",
+  "body": "Environment\n\nLattice 3.1.6, macOS 15.3, server ap-south-1.\n\nSteps\n\nSteps to reproduce:\n* With the log window open, start switching accounts.\n* Apply the renamed key from the release notes to the\n  settings file.\n* Watch the log for the traceback below.\n\nExpected\n\nNo traceback; switching accounts normally takes a few\nseconds.\n\nActual\n\nA key that was renamed in the settings file is what the\nlookup wants. Following the release notes we renamed that\nkey in the settings file.\n\nFrequency\n\nReproduces roughly one run in three.",
+  "stacktrace": "lattice/ui/main.py:48 in loop\nlattice/ui/dialog.py:126 in on_login\nlattice/auth/flow.py:58 in start\nlattice/auth/oauth.py:108 in callback\nKeyError: 'state'",
+  "reported": "2026-02-11"
+}

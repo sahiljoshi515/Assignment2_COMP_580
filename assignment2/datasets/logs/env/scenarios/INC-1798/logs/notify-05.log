@@ -1,0 +1,94 @@
+2026-01-19T17:20:33Z notify-05 INFO  starting notify 2.15.3 (build 063d1e6) on notify-05
+2026-01-19T17:20:34Z notify-05 INFO  config: max_connections=256
+2026-01-19T17:20:34Z notify-05 INFO  config: pool_size=8
+2026-01-19T17:20:34Z notify-05 INFO  config: request_timeout_ms=5000
+2026-01-19T17:20:34Z notify-05 INFO  config: cache_ttl_s=60
+2026-01-19T17:20:34Z notify-05 INFO  config: log_level=INFO
+2026-01-19T17:20:34Z notify-05 INFO  config: queue_depth=1000
+2026-01-19T17:20:34Z notify-05 INFO  config: gc_interval_s=120
+2026-01-19T17:20:35Z notify-05 INFO  listening on 0.0.0.0:8080; workers=4
+2026-01-19T17:20:33Z notify-05 INFO  health check ok (latency 10ms)
+2026-01-19T17:20:36Z notify-05 INFO  GET /v1/search 200 in 300ms rid=551553
+2026-01-19T17:20:44Z notify-05 INFO  POST /v1/payments 200 in 15ms rid=2edd0a
+2026-01-19T17:20:50Z notify-05 INFO  metrics: rps=292 p99=525ms heap=1210MB goroutines=580
+2026-01-19T17:20:52Z notify-05 INFO  GET /v1/orders/72326 200 in 16ms rid=fabcd6
+2026-01-19T17:21:00Z notify-05 INFO  POST /v1/orders 200 in 31ms rid=425dcf
+2026-01-19T17:21:03Z notify-05 INFO  health check ok (latency 1ms)
+2026-01-19T17:21:08Z notify-05 INFO  POST /v1/orders 200 in 67ms rid=248c68
+2026-01-19T17:21:14Z notify-05 WARN  connection pool at 74% capacity
+2026-01-19T17:21:16Z notify-05 INFO  GET /v1/items/35280 200 in 175ms rid=3295a2
+2026-01-19T17:21:24Z notify-05 INFO  GET /v1/search 200 in 86ms rid=b8e64e
+2026-01-19T17:21:32Z notify-05 INFO  PUT /v1/cart 200 in 334ms rid=7eaafa
+2026-01-19T17:21:33Z notify-05 INFO  health check ok (latency 9ms)
+2026-01-19T17:21:40Z notify-05 INFO  PUT /v1/cart 200 in 275ms rid=06c081
+2026-01-19T17:21:48Z notify-05 INFO  POST /v1/payments 200 in 91ms rid=3fa1dd
+2026-01-19T17:21:56Z notify-05 INFO  POST /v1/refunds 200 in 242ms rid=48df28
+2026-01-19T17:22:03Z notify-05 INFO  health check ok (latency 8ms)
+2026-01-19T17:22:04Z notify-05 INFO  GET /v1/items/70868 200 in 310ms rid=77d485
+2026-01-19T17:22:12Z notify-05 INFO  GET /health 200 in 186ms rid=1d988f
+2026-01-19T17:22:20Z notify-05 INFO  GET /v1/items/40027 200 in 390ms rid=06f61c
+2026-01-19T17:22:28Z notify-05 INFO  GET /health 200 in 117ms rid=7ba011
+2026-01-19T17:22:33Z notify-05 INFO  health check ok (latency 4ms)
+2026-01-19T17:22:36Z notify-05 INFO  GET /v1/items/73739 200 in 398ms rid=759a0c
+2026-01-19T17:22:44Z notify-05 INFO  POST /v1/payments 200 in 323ms rid=5ca581
+2026-01-19T17:22:50Z notify-05 INFO  metrics: rps=184 p99=609ms heap=290MB goroutines=863
+2026-01-19T17:22:51Z notify-05 WARN  retrying upstream call (attempt 3/3)
+2026-01-19T17:22:52Z notify-05 INFO  PUT /v1/cart 200 in 181ms rid=18c230
+2026-01-19T17:23:00Z notify-05 INFO  GET /v1/profile 200 in 142ms rid=a33b69
+2026-01-19T17:23:03Z notify-05 INFO  health check ok (latency 4ms)
+2026-01-19T17:23:08Z notify-05 INFO  POST /v1/refunds 200 in 171ms rid=83681f
+2026-01-19T17:23:16Z notify-05 INFO  DELETE /v1/cart/46757 200 in 133ms rid=c44ca0
+2026-01-19T17:23:24Z notify-05 INFO  POST /v1/refunds 200 in 285ms rid=211a97
+2026-01-19T17:23:32Z notify-05 INFO  POST /v1/orders 200 in 353ms rid=66206d
+2026-01-19T17:23:33Z notify-05 INFO  health check ok (latency 3ms)
+2026-01-19T17:23:40Z notify-05 INFO  GET /v1/orders/4881 200 in 263ms rid=28f3b4
+2026-01-19T17:23:48Z notify-05 INFO  POST /v1/refunds 200 in 89ms rid=16ee72
+2026-01-19T17:23:56Z notify-05 INFO  POST /v1/orders 200 in 125ms rid=0e76ab
+2026-01-19T17:24:03Z notify-05 INFO  health check ok (latency 11ms)
+2026-01-19T17:24:04Z notify-05 INFO  DELETE /v1/cart/97969 200 in 176ms rid=663ec6
+2026-01-19T17:24:12Z notify-05 INFO  DELETE /v1/cart/11745 200 in 72ms rid=7a697d
+2026-01-19T17:24:20Z notify-05 INFO  GET /v1/orders/90604 200 in 351ms rid=b2245e
+2026-01-19T17:24:28Z notify-05 INFO  GET /v1/search 200 in 288ms rid=981cb5
+2026-01-19T17:24:28Z notify-05 WARN  slow query took 55ms on shard 2
+2026-01-19T17:24:33Z notify-05 INFO  health check ok (latency 1ms)
+2026-01-19T17:24:36Z notify-05 INFO  POST /v1/refunds 200 in 34ms rid=eadfed
+2026-01-19T17:24:44Z notify-05 INFO  GET /v1/orders/98848 200 in 286ms rid=c2185e
+2026-01-19T17:24:50Z notify-05 INFO  metrics: rps=395 p99=824ms heap=1784MB goroutines=723
+2026-01-19T17:24:52Z notify-05 INFO  GET /v1/profile 200 in 267ms rid=198bba
+2026-01-19T17:25:00Z notify-05 INFO  POST /v1/refunds 200 in 254ms rid=c1a722
+2026-01-19T17:25:03Z notify-05 INFO  health check ok (latency 10ms)
+2026-01-19T17:25:08Z notify-05 INFO  GET /v1/search 200 in 320ms rid=40e25d
+2026-01-19T17:25:16Z notify-05 INFO  POST /v1/refunds 200 in 267ms rid=12f128
+2026-01-19T17:25:24Z notify-05 INFO  POST /v1/refunds 200 in 191ms rid=279711
+2026-01-19T17:25:32Z notify-05 INFO  POST /v1/payments 200 in 149ms rid=f87c2e
+2026-01-19T17:25:33Z notify-05 INFO  health check ok (latency 7ms)
+2026-01-19T17:25:40Z notify-05 INFO  POST /v1/payments 200 in 86ms rid=4ffc9b
+2026-01-19T17:25:48Z notify-05 INFO  POST /v1/orders 200 in 321ms rid=8bcf35
+2026-01-19T17:25:56Z notify-05 INFO  GET /v1/orders/25725 200 in 230ms rid=e82103
+2026-01-19T17:26:03Z notify-05 INFO  health check ok (latency 10ms)
+2026-01-19T17:26:04Z notify-05 INFO  GET /v1/items/15000 200 in 256ms rid=06f61f
+2026-01-19T17:26:05Z notify-05 WARN  cache miss ratio above 0.84
+2026-01-19T17:26:12Z notify-05 INFO  POST /v1/orders 200 in 81ms rid=dc7a95
+2026-01-19T17:26:20Z notify-05 INFO  GET /v1/orders/84033 200 in 132ms rid=b0ca57
+2026-01-19T17:26:28Z notify-05 INFO  GET /v1/profile 200 in 171ms rid=eb2291
+2026-01-19T17:26:33Z notify-05 INFO  health check ok (latency 3ms)
+2026-01-19T17:26:36Z notify-05 INFO  GET /v1/search 200 in 139ms rid=aa9a41
+2026-01-19T17:26:44Z notify-05 INFO  POST /v1/refunds 200 in 344ms rid=8047ae
+2026-01-19T17:26:50Z notify-05 INFO  metrics: rps=139 p99=321ms heap=1455MB goroutines=407
+2026-01-19T17:26:52Z notify-05 INFO  GET /v1/profile 200 in 40ms rid=285f54
+2026-01-19T17:27:00Z notify-05 INFO  POST /v1/orders 200 in 384ms rid=fba1b7
+2026-01-19T17:27:03Z notify-05 INFO  health check ok (latency 1ms)
+2026-01-19T17:27:08Z notify-05 INFO  GET /v1/search 200 in 38ms rid=aa2352
+2026-01-19T17:27:16Z notify-05 INFO  PUT /v1/cart 200 in 18ms rid=b0676f
+2026-01-19T17:27:24Z notify-05 INFO  GET /v1/items/80757 200 in 222ms rid=1c696b
+2026-01-19T17:27:32Z notify-05 INFO  POST /v1/payments 200 in 297ms rid=350710
+2026-01-19T17:27:33Z notify-05 INFO  health check ok (latency 7ms)
+2026-01-19T17:27:40Z notify-05 INFO  PUT /v1/cart 200 in 44ms rid=dfdf79
+2026-01-19T17:27:42Z notify-05 WARN  connection pool at 57% capacity
+2026-01-19T17:27:48Z notify-05 INFO  PUT /v1/cart 200 in 327ms rid=8b7b42
+2026-01-19T17:27:56Z notify-05 INFO  GET /v1/items/93664 200 in 257ms rid=7abd55
+2026-01-19T17:28:03Z notify-05 INFO  health check ok (latency 11ms)
+2026-01-19T17:28:04Z notify-05 INFO  POST /v1/payments 200 in 287ms rid=c3c7c6
+2026-01-19T17:28:12Z notify-05 INFO  POST /v1/orders 200 in 286ms rid=e04de8
+2026-01-19T17:28:20Z notify-05 INFO  GET /health 200 in 209ms rid=980461
+2026-01-19T17:28:28Z notify-05 INFO  GET /v1/search 200 in 242ms rid=19e3d7

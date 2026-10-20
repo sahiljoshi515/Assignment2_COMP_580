@@ -1,0 +1,10 @@
+{
+  "tid": "T-6ccb52",
+  "seq": 33,
+  "scenario": "POL1000",
+  "kind": "changes_count",
+  "target": "session_hours",
+  "subject": "POL-1000: how many times the maximum session length changed",
+  "body": "Hello -- Nora Lindqvist, payments. Across all versions of the Change Management Policy, how often\nwas the maximum session length changed? A change is a revision whose value differs from the one\nbefore.\n\nReport an integer; zero if it never changed after v01.\n\nMuch appreciated, Nora Lindqvist",
+  "received": "2026-03-13"
+}

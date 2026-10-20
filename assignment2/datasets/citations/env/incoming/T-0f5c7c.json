@@ -1,0 +1,19 @@
+{
+  "tid": "T-0f5c7c",
+  "seq": 59,
+  "citation": {
+    "authors": [
+      "Evans, L.",
+      "Sato, H.",
+      "Vik, A.",
+      "et al."
+    ],
+    "title": "Low-Rank adaptation for efficient image segmentation",
+    "venue": "SIGIR",
+    "year": 2017,
+    "doi": "10.5555/sigir.2017.b4a2",
+    "pages": "7309-7319"
+  },
+  "raw": "Evans, L., Sato, H., Vik, A., et al. (2017, March). Low-Rank adaptation for efficient image segmentation. In Proceedings of SIGIR (pages 7309-7319). ACM. doi:10.5555/sigir.2017.b4a2",
+  "received": "2026-03-15"
+}

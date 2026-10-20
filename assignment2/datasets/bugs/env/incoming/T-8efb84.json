@@ -1,0 +1,11 @@
+{
+  "tid": "T-8efb84",
+  "seq": 37,
+  "exception": "FileNotFoundError",
+  "top_frame": "lattice.io.path.resolve",
+  "version": "v3.0.8",
+  "title": "FileNotFoundError in path.resolve when uploading an attachment",
+  "body": "## Environment\n\nLattice version 3.0.8; operating system Debian 12; server\nregion us-east-1.\n\n## Steps\n\nTo reproduce:\n- With the log window open, start uploading an attachment.\n- Use a Windows-style path with backslashes.\n- Check the log window; the traceback appears there.\n\n## Expected\n\nExpected uploading an attachment to finish wthout errors.\n\n## Actual\n\nThe path in the error mixes slashes and backslashes. The\npath was copiied from a Windows machine and contains\nbackslashes.\n\n## Frequency\n\nReproduces on about half the runs.",
+  "stacktrace": "lattice/ui/main.py:50 in loop\nlattice/ui/upload.py:40 in on_drop\nlattice/io/upload.py:118 in send\nlattice/io/path.py:234 in resolve\nFileNotFoundError: [Errno 2] No such file or directory: 'uploads\\2026\\scan.pdf'",
+  "reported": "2026-02-24"
+}

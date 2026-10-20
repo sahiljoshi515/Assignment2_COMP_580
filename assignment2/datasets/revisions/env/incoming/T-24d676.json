@@ -1,0 +1,10 @@
+{
+  "tid": "T-24d676",
+  "seq": 38,
+  "scenario": "POL1456",
+  "kind": "current_value",
+  "target": "backup_hours",
+  "subject": "POL-1456: current value of the backup interval",
+  "body": "Hello -- Jonas Berg, payments. What is the backup interval in the latest\nrevision of the Backup and Recovery Standard?\n\nReport the number only, without the unit.\n\nMuch appreciated, Jonas Berg",
+  "received": "2026-03-23"
+}

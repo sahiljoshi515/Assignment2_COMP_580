@@ -1,0 +1,16 @@
+From: Backup Service <backup-bot@brightwaterclinics.example>
+To: ops-notify@brightwaterclinics.example
+Date: Thu, 19 Mar 2026 02:47:00 +0000
+Subject: Nightly backup report - mailstore-incremental - 2026-03-18
+
+Nightly backup report for 2026-03-18
+Job: mailstore-incremental
+Status: FAILED (target volume full)
+Started: 02:01:28 UTC   Finished: 02:47:44 UTC   Duration: 46 min
+Bytes transferred: 44.8 GB   Files: 902,054   Changed since last run: 4.7 %
+Retention: 30 daily, 12 weekly, 6 monthly
+Next run: 2026-03-19 02:00 UTC
+
+-- 
+This message was generated automatically by the backup service. Replies are not read.
+To change the schedule or the recipients, edit the job in the backup console.

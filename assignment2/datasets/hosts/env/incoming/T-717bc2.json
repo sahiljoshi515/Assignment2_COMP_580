@@ -1,0 +1,10 @@
+{
+  "tid": "T-717bc2",
+  "seq": 11,
+  "scenario": "FLT1532",
+  "kind": "uptime_of",
+  "target": "cache-03",
+  "subject": "FLT-1532: how long has cache-03 been up",
+  "body": "Hello -- Sofia Rossi, compliance. How many days has the cache host cache-03 been up according to its\nsnapshot?\n\nOnly that host's file matters for this one.\n\nThanks, Sofia Rossi",
+  "received": "2026-01-26"
+}

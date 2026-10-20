@@ -1,0 +1,10 @@
+{
+  "tid": "T-fd57ab",
+  "seq": 29,
+  "scenario": "mbx-1114",
+  "kind": "final_decision",
+  "target": "policy-exception",
+  "subject": "MBX-1114: final decision in the policy-exception thread",
+  "body": "Hi, Nora Lindqvist from the compliance team here. What did we finally decide on the exception\nrequest for two-factor policy? I need the outcome, who decided, and the date of the deciding\nmessage.\n\nIf a later message corrects an earlier decision, the later one counts.\n\nRegards, Nora Lindqvist -- compliance",
+  "received": "2026-03-04"
+}

@@ -1,0 +1,10 @@
+{
+  "tid": "T-60abc6",
+  "seq": 7,
+  "scenario": "FLT-1494",
+  "kind": "uptime_of",
+  "target": "batch-07",
+  "subject": "FLT-1494: how long has batch-07 been up",
+  "body": "Daniel Ortega (infra) writing with a quick request. What is the uptime_days value in the batch snapshot of batch-07?\n\nOnly that host's file matters for this one.\n\nMuch appreciated, Daniel Ortega",
+  "received": "2026-01-17"
+}

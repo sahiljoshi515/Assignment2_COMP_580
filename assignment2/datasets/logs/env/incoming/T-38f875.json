@@ -1,0 +1,10 @@
+{
+  "tid": "T-38f875",
+  "seq": 8,
+  "scenario": "inc-1494",
+  "kind": "first_error",
+  "target": null,
+  "subject": "INC-1494: which host failed first and when",
+  "body": "Hello -- Arjun Mehta, payments. Find the first ERROR\nanywhere in the gateway fleet: the host that wrote it and\nthe exact timestamp of that line.\n\nThe logs are under logs/; lines at level ERROR are the ones\nto look for.\n\nThanks, Arjun Mehta",
+  "received": "2026-01-19"
+}

@@ -1,0 +1,855 @@
+{
+  "INC-1000": {
+    "groups": [
+      {
+        "name": "fleet-logs",
+        "files": [
+          "logs/search-01.log",
+          "logs/search-02.log",
+          "logs/search-03.log",
+          "logs/search-04.log",
+          "logs/search-05.log",
+          "logs/search-06.log",
+          "logs/search-07.log",
+          "logs/search-08.log",
+          "logs/search-09.log"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "logs/search-03.log": [
+        68,
+        71
+      ],
+      "logs/search-04.log": [
+        1
+      ],
+      "logs/search-08.log": [
+        4
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 36,
+      "within_min": 0.808,
+      "within_p50": 1.0,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "INC-1038": {
+    "groups": [
+      {
+        "name": "fleet-logs",
+        "files": [
+          "logs/notify-01.log",
+          "logs/notify-02.log",
+          "logs/notify-03.log",
+          "logs/notify-04.log",
+          "logs/notify-05.log",
+          "logs/notify-06.log",
+          "logs/notify-07.log",
+          "logs/notify-08.log"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "logs/notify-03.log": [
+        38,
+        42
+      ],
+      "logs/notify-05.log": [
+        3
+      ],
+      "logs/notify-06.log": [
+        1
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 28,
+      "within_min": 0.836,
+      "within_p50": 1.0,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "INC-1076": {
+    "groups": [
+      {
+        "name": "fleet-logs",
+        "files": [
+          "logs/billing-01.log",
+          "logs/billing-02.log",
+          "logs/billing-03.log",
+          "logs/billing-04.log",
+          "logs/billing-05.log",
+          "logs/billing-06.log",
+          "logs/billing-07.log"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "logs/billing-04.log": [
+        5
+      ],
+      "logs/billing-05.log": [
+        80,
+        81
+      ],
+      "logs/billing-06.log": [
+        1
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.818,
+      "within_p50": 0.978,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "INC-1114": {
+    "groups": [
+      {
+        "name": "fleet-logs",
+        "files": [
+          "logs/billing-01.log",
+          "logs/billing-02.log",
+          "logs/billing-03.log",
+          "logs/billing-04.log",
+          "logs/billing-05.log",
+          "logs/billing-06.log",
+          "logs/billing-07.log",
+          "logs/billing-08.log"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "logs/billing-01.log": [
+        7
+      ],
+      "logs/billing-03.log": [
+        53,
+        56
+      ],
+      "logs/billing-04.log": [
+        1
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 28,
+      "within_min": 0.794,
+      "within_p50": 0.984,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "INC-1152": {
+    "groups": [
+      {
+        "name": "fleet-logs",
+        "files": [
+          "logs/notify-01.log",
+          "logs/notify-02.log",
+          "logs/notify-03.log",
+          "logs/notify-04.log",
+          "logs/notify-05.log",
+          "logs/notify-06.log"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "logs/notify-01.log": [
+        6
+      ],
+      "logs/notify-03.log": [
+        1
+      ],
+      "logs/notify-05.log": [
+        53,
+        57
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 15,
+      "within_min": 0.8,
+      "within_p50": 0.957,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "INC-1190": {
+    "groups": [
+      {
+        "name": "fleet-logs",
+        "files": [
+          "logs/catalog-01.log",
+          "logs/catalog-02.log",
+          "logs/catalog-03.log",
+          "logs/catalog-04.log",
+          "logs/catalog-05.log",
+          "logs/catalog-06.log",
+          "logs/catalog-07.log"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "logs/catalog-02.log": [
+        1
+      ],
+      "logs/catalog-03.log": [
+        68,
+        70
+      ],
+      "logs/catalog-06.log": [
+        4
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.807,
+      "within_p50": 0.978,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "INC-1228": {
+    "groups": [
+      {
+        "name": "fleet-logs",
+        "files": [
+          "logs/catalog-01.log",
+          "logs/catalog-02.log",
+          "logs/catalog-03.log",
+          "logs/catalog-04.log",
+          "logs/catalog-05.log",
+          "logs/catalog-06.log",
+          "logs/catalog-07.log",
+          "logs/catalog-08.log"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "logs/catalog-03.log": [
+        7
+      ],
+      "logs/catalog-05.log": [
+        74,
+        80
+      ],
+      "logs/catalog-08.log": [
+        1
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 28,
+      "within_min": 0.79,
+      "within_p50": 0.965,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "INC-1266": {
+    "groups": [
+      {
+        "name": "fleet-logs",
+        "files": [
+          "logs/ledger-01.log",
+          "logs/ledger-02.log",
+          "logs/ledger-03.log",
+          "logs/ledger-04.log",
+          "logs/ledger-05.log",
+          "logs/ledger-06.log",
+          "logs/ledger-07.log"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "logs/ledger-01.log": [
+        6
+      ],
+      "logs/ledger-03.log": [
+        1
+      ],
+      "logs/ledger-07.log": [
+        74,
+        76
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.786,
+      "within_p50": 0.957,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "INC-1304": {
+    "groups": [
+      {
+        "name": "fleet-logs",
+        "files": [
+          "logs/ledger-01.log",
+          "logs/ledger-02.log",
+          "logs/ledger-03.log",
+          "logs/ledger-04.log",
+          "logs/ledger-05.log",
+          "logs/ledger-06.log",
+          "logs/ledger-07.log"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "logs/ledger-04.log": [
+        7
+      ],
+      "logs/ledger-06.log": [
+        1
+      ],
+      "logs/ledger-07.log": [
+        43,
+        44
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.855,
+      "within_p50": 0.979,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "INC-1342": {
+    "groups": [
+      {
+        "name": "fleet-logs",
+        "files": [
+          "logs/inventory-01.log",
+          "logs/inventory-02.log",
+          "logs/inventory-03.log",
+          "logs/inventory-04.log",
+          "logs/inventory-05.log",
+          "logs/inventory-06.log",
+          "logs/inventory-07.log"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "logs/inventory-02.log": [
+        1
+      ],
+      "logs/inventory-05.log": [
+        43,
+        44
+      ],
+      "logs/inventory-06.log": [
+        2
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.798,
+      "within_p50": 0.958,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "INC-1380": {
+    "groups": [
+      {
+        "name": "fleet-logs",
+        "files": [
+          "logs/gateway-01.log",
+          "logs/gateway-02.log",
+          "logs/gateway-03.log",
+          "logs/gateway-04.log",
+          "logs/gateway-05.log",
+          "logs/gateway-06.log",
+          "logs/gateway-07.log",
+          "logs/gateway-08.log",
+          "logs/gateway-09.log"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "logs/gateway-02.log": [
+        7
+      ],
+      "logs/gateway-07.log": [
+        68,
+        75
+      ],
+      "logs/gateway-09.log": [
+        1
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 36,
+      "within_min": 0.806,
+      "within_p50": 0.978,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "INC-1418": {
+    "groups": [
+      {
+        "name": "fleet-logs",
+        "files": [
+          "logs/notify-01.log",
+          "logs/notify-02.log",
+          "logs/notify-03.log",
+          "logs/notify-04.log",
+          "logs/notify-05.log",
+          "logs/notify-06.log",
+          "logs/notify-07.log"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "logs/notify-01.log": [
+        1
+      ],
+      "logs/notify-04.log": [
+        43,
+        47
+      ],
+      "logs/notify-07.log": [
+        4
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.829,
+      "within_p50": 1.0,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "INC-1456": {
+    "groups": [
+      {
+        "name": "fleet-logs",
+        "files": [
+          "logs/notify-01.log",
+          "logs/notify-02.log",
+          "logs/notify-03.log",
+          "logs/notify-04.log",
+          "logs/notify-05.log",
+          "logs/notify-06.log",
+          "logs/notify-07.log",
+          "logs/notify-08.log"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "logs/notify-05.log": [
+        3
+      ],
+      "logs/notify-06.log": [
+        1
+      ],
+      "logs/notify-07.log": [
+        74,
+        76
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 28,
+      "within_min": 0.806,
+      "within_p50": 1.0,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "INC-1494": {
+    "groups": [
+      {
+        "name": "fleet-logs",
+        "files": [
+          "logs/gateway-01.log",
+          "logs/gateway-02.log",
+          "logs/gateway-03.log",
+          "logs/gateway-04.log",
+          "logs/gateway-05.log",
+          "logs/gateway-06.log",
+          "logs/gateway-07.log"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "logs/gateway-01.log": [
+        8
+      ],
+      "logs/gateway-02.log": [
+        80,
+        84
+      ],
+      "logs/gateway-07.log": [
+        1
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.818,
+      "within_p50": 0.978,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "INC-1532": {
+    "groups": [
+      {
+        "name": "fleet-logs",
+        "files": [
+          "logs/catalog-01.log",
+          "logs/catalog-02.log",
+          "logs/catalog-03.log",
+          "logs/catalog-04.log",
+          "logs/catalog-05.log",
+          "logs/catalog-06.log"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "logs/catalog-01.log": [
+        7
+      ],
+      "logs/catalog-04.log": [
+        1
+      ],
+      "logs/catalog-05.log": [
+        38,
+        40
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 15,
+      "within_min": 0.808,
+      "within_p50": 0.978,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "INC-1570": {
+    "groups": [
+      {
+        "name": "fleet-logs",
+        "files": [
+          "logs/billing-01.log",
+          "logs/billing-02.log",
+          "logs/billing-03.log",
+          "logs/billing-04.log",
+          "logs/billing-05.log",
+          "logs/billing-06.log",
+          "logs/billing-07.log",
+          "logs/billing-08.log",
+          "logs/billing-09.log"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "logs/billing-01.log": [
+        1
+      ],
+      "logs/billing-02.log": [
+        4
+      ],
+      "logs/billing-07.log": [
+        59,
+        60
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 36,
+      "within_min": 0.8,
+      "within_p50": 0.977,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "INC-1608": {
+    "groups": [
+      {
+        "name": "fleet-logs",
+        "files": [
+          "logs/checkout-01.log",
+          "logs/checkout-02.log",
+          "logs/checkout-03.log",
+          "logs/checkout-04.log",
+          "logs/checkout-05.log",
+          "logs/checkout-06.log",
+          "logs/checkout-07.log"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "logs/checkout-02.log": [
+        1
+      ],
+      "logs/checkout-04.log": [
+        3
+      ],
+      "logs/checkout-06.log": [
+        80,
+        83
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.818,
+      "within_p50": 0.978,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "INC-1646": {
+    "groups": [
+      {
+        "name": "fleet-logs",
+        "files": [
+          "logs/catalog-01.log",
+          "logs/catalog-02.log",
+          "logs/catalog-03.log",
+          "logs/catalog-04.log",
+          "logs/catalog-05.log",
+          "logs/catalog-06.log"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "logs/catalog-02.log": [
+        80,
+        81
+      ],
+      "logs/catalog-05.log": [
+        2
+      ],
+      "logs/catalog-06.log": [
+        1
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 15,
+      "within_min": 0.844,
+      "within_p50": 1.0,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "INC-1684": {
+    "groups": [
+      {
+        "name": "fleet-logs",
+        "files": [
+          "logs/ledger-01.log",
+          "logs/ledger-02.log",
+          "logs/ledger-03.log",
+          "logs/ledger-04.log",
+          "logs/ledger-05.log",
+          "logs/ledger-06.log",
+          "logs/ledger-07.log",
+          "logs/ledger-08.log",
+          "logs/ledger-09.log"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "logs/ledger-01.log": [
+        5
+      ],
+      "logs/ledger-05.log": [
+        1
+      ],
+      "logs/ledger-09.log": [
+        74,
+        75
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 36,
+      "within_min": 0.815,
+      "within_p50": 0.979,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "INC-1722": {
+    "groups": [
+      {
+        "name": "fleet-logs",
+        "files": [
+          "logs/search-01.log",
+          "logs/search-02.log",
+          "logs/search-03.log",
+          "logs/search-04.log",
+          "logs/search-05.log",
+          "logs/search-06.log",
+          "logs/search-07.log",
+          "logs/search-08.log"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "logs/search-04.log": [
+        43,
+        45
+      ],
+      "logs/search-05.log": [
+        5
+      ],
+      "logs/search-06.log": [
+        1
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 28,
+      "within_min": 0.801,
+      "within_p50": 1.0,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "INC-1760": {
+    "groups": [
+      {
+        "name": "fleet-logs",
+        "files": [
+          "logs/ledger-01.log",
+          "logs/ledger-02.log",
+          "logs/ledger-03.log",
+          "logs/ledger-04.log",
+          "logs/ledger-05.log",
+          "logs/ledger-06.log",
+          "logs/ledger-07.log",
+          "logs/ledger-08.log"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "logs/ledger-02.log": [
+        59,
+        62
+      ],
+      "logs/ledger-04.log": [
+        5
+      ],
+      "logs/ledger-07.log": [
+        1
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 28,
+      "within_min": 0.78,
+      "within_p50": 1.0,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "INC-1798": {
+    "groups": [
+      {
+        "name": "fleet-logs",
+        "files": [
+          "logs/notify-01.log",
+          "logs/notify-02.log",
+          "logs/notify-03.log",
+          "logs/notify-04.log",
+          "logs/notify-05.log",
+          "logs/notify-06.log",
+          "logs/notify-07.log",
+          "logs/notify-08.log"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "logs/notify-01.log": [
+        59,
+        60
+      ],
+      "logs/notify-03.log": [
+        1
+      ],
+      "logs/notify-04.log": [
+        4
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 28,
+      "within_min": 0.788,
+      "within_p50": 0.959,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "INC-1836": {
+    "groups": [
+      {
+        "name": "fleet-logs",
+        "files": [
+          "logs/inventory-01.log",
+          "logs/inventory-02.log",
+          "logs/inventory-03.log",
+          "logs/inventory-04.log",
+          "logs/inventory-05.log",
+          "logs/inventory-06.log"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "logs/inventory-03.log": [
+        1
+      ],
+      "logs/inventory-05.log": [
+        4
+      ],
+      "logs/inventory-06.log": [
+        80,
+        81
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 15,
+      "within_min": 0.839,
+      "within_p50": 0.979,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "INC-1874": {
+    "groups": [
+      {
+        "name": "fleet-logs",
+        "files": [
+          "logs/billing-01.log",
+          "logs/billing-02.log",
+          "logs/billing-03.log",
+          "logs/billing-04.log",
+          "logs/billing-05.log",
+          "logs/billing-06.log",
+          "logs/billing-07.log",
+          "logs/billing-08.log",
+          "logs/billing-09.log"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "logs/billing-01.log": [
+        3
+      ],
+      "logs/billing-03.log": [
+        1
+      ],
+      "logs/billing-05.log": [
+        47,
+        49
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 36,
+      "within_min": 0.779,
+      "within_p50": 0.978,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  }
+}

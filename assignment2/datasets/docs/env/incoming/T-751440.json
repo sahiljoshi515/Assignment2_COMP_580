@@ -1,0 +1,7 @@
+{
+  "tid": "T-751440",
+  "seq": 55,
+  "title": "POL-462: policy for the Payroll Gateway",
+  "body": "## Scope\n\nThe policy below governs use of the Payroll Gateway; it is\neffective. The policy owner is Felix Brandt (Platform\nEngineering); yearly audits against the controls listed here\nare run by Meridian Cloud.\n\n## Requirements\n\nAs of the 19 October 2025 review the requirements are:\n- Complete the annual security training before the published\n  deadline\n- Tag every cloud resource with an owner and a cost centre\n- Document every manual change in the shared change log\n\n## Status\n\nThe policy is effective according to the register. Issued by\nHannah Cole on 9 October 2025; 33 exceptions are on file\nwith Platform Engineering and expire at the yearly audit.",
+  "received": "2026-03-21"
+}

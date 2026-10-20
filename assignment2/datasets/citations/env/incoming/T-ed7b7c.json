@@ -1,0 +1,18 @@
+{
+  "tid": "T-ed7b7c",
+  "seq": 20,
+  "citation": {
+    "authors": [
+      "Fatima Evans",
+      "Olga Gupta",
+      "Omar Petrov",
+      "et al."
+    ],
+    "title": "Link Prediction with Efficient Indexes",
+    "venue": "arXiv preprint",
+    "year": 2015,
+    "doi": "10.48550/arXiv.1509.88594"
+  },
+  "raw": "@article{evans2015link,\n  author = {Fatima Evans and Olga Gupta and Omar Petrov and others},\n  title = {Link Prediction with Efficient Indexes},\n  journal = {arXiv preprint},\n  year = {2015},\n  month = {apr},\n  url = {http://dx.doi.org/10.48550/arXiv.1509.88594},\n}",
+  "received": "2026-01-27"
+}

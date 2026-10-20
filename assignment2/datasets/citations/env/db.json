@@ -1,0 +1,1875 @@
+{
+  "venues": [
+    {
+      "name": "International Conference on Machine Learning",
+      "abbrev": [
+        "ICML"
+      ]
+    },
+    {
+      "name": "Conference on Neural Information Processing Systems",
+      "abbrev": [
+        "NeurIPS",
+        "NIPS"
+      ]
+    },
+    {
+      "name": "International Conference on Learning Representations",
+      "abbrev": [
+        "ICLR"
+      ]
+    },
+    {
+      "name": "Annual Meeting of the Association for Computational Linguistics",
+      "abbrev": [
+        "ACL"
+      ]
+    },
+    {
+      "name": "Conference on Empirical Methods in Natural Language Processing",
+      "abbrev": [
+        "EMNLP"
+      ]
+    },
+    {
+      "name": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "abbrev": [
+        "CVPR"
+      ]
+    },
+    {
+      "name": "IEEE/CVF International Conference on Computer Vision",
+      "abbrev": [
+        "ICCV"
+      ]
+    },
+    {
+      "name": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "abbrev": [
+        "KDD"
+      ]
+    },
+    {
+      "name": "ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "abbrev": [
+        "SIGIR"
+      ]
+    },
+    {
+      "name": "International Conference on Very Large Data Bases",
+      "abbrev": [
+        "VLDB"
+      ]
+    },
+    {
+      "name": "ACM SIGMOD International Conference on Management of Data",
+      "abbrev": [
+        "SIGMOD"
+      ]
+    },
+    {
+      "name": "arXiv preprint",
+      "abbrev": [
+        "arXiv"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "doi": "10.5555/kdd.2025.5cea",
+      "title": "Learned Indexing for Robust Node Classification",
+      "authors": [
+        "Mei Silva",
+        "Aisha Adeyemi",
+        "Kenji Evans"
+      ],
+      "venue": "KDD",
+      "year": 2025,
+      "pages": "3925-3934"
+    },
+    {
+      "doi": "10.5555/emnlp.2016.4742",
+      "title": "Robust Graph Networks for Anomaly Detection",
+      "authors": [
+        "Tariq Park",
+        "Hannah Cole"
+      ],
+      "venue": "EMNLP",
+      "year": 2016
+    },
+    {
+      "doi": "10.48550/arXiv.1508.65082",
+      "title": "Join Optimization with Differentiable Transformers",
+      "authors": [
+        "Mei Vik",
+        "Uma Huang",
+        "Samir Castillo",
+        "Kavya Rossi"
+      ],
+      "venue": "arXiv",
+      "year": 2015
+    },
+    {
+      "doi": "10.48550/arXiv.2001.69904",
+      "title": "Bayesian Optimization for Robust Link Prediction",
+      "authors": [
+        "Amara Zhou",
+        "Marta Gupta",
+        "Sofia Jensen"
+      ],
+      "venue": "arXiv",
+      "year": 2020
+    },
+    {
+      "doi": "10.48550/arXiv.2307.03108",
+      "title": "Lightweight Graph Networks for Dense Retrieval",
+      "authors": [
+        "Hannah Torres",
+        "Dmitri Schulz",
+        "Omar Bauer"
+      ],
+      "venue": "arXiv",
+      "year": 2023
+    },
+    {
+      "doi": "10.5555/iccv.2024.3862",
+      "title": "Prompt Tuning for Robust Join Optimization",
+      "authors": [
+        "Hannah Chen",
+        "Pablo Rahman",
+        "Leon Farah"
+      ],
+      "venue": "ICCV",
+      "year": 2024,
+      "pages": "944-958"
+    },
+    {
+      "doi": "10.5555/cvpr.2024.e80b",
+      "title": "Spectral Clustering for Lightweight Machine Translation",
+      "authors": [
+        "Sofia Xu",
+        "Rosa Lin",
+        "Anders Nair"
+      ],
+      "venue": "CVPR",
+      "year": 2024,
+      "pages": "2028-2040"
+    },
+    {
+      "doi": "10.5555/iccv.2017.c79a",
+      "title": "Time Series Forecasting with Lightweight Embeddings",
+      "authors": [
+        "Priya Murphy",
+        "Marta Ortega",
+        "Uma Cole"
+      ],
+      "venue": "ICCV",
+      "year": 2017,
+      "pages": "576-589"
+    },
+    {
+      "doi": "10.5555/emnlp.2020.852c",
+      "title": "Prompt Tuning for Contrastive Time Series Forecasting",
+      "authors": [
+        "Greta Weber",
+        "Zoe Rossi",
+        "Chloe Adeyemi",
+        "Ivan Osei"
+      ],
+      "venue": "EMNLP",
+      "year": 2020,
+      "pages": "8882-8888"
+    },
+    {
+      "doi": "10.5555/sigir.2017.b4a2",
+      "title": "Low-Rank Adaptation for Efficient Image Segmentation",
+      "authors": [
+        "Luca Evans",
+        "Amara Vik",
+        "Hiro Sato",
+        "Luca Weber"
+      ],
+      "venue": "SIGIR",
+      "year": 2017,
+      "pages": "7309-7319"
+    },
+    {
+      "doi": "10.5555/iclr.2025.32bf",
+      "title": "Learned Indexing for Robust Time Series Forecasting",
+      "authors": [
+        "Kenji Lopez",
+        "Jamal Patel",
+        "Nikhil Zhou"
+      ],
+      "venue": "ICLR",
+      "year": 2025,
+      "pages": "2715-2726"
+    },
+    {
+      "doi": "10.5555/iclr.2023.3482",
+      "title": "Object Detection with Interpretable Policies",
+      "authors": [
+        "Marta Jensen",
+        "Beatriz Berg",
+        "Zoe Tanaka"
+      ],
+      "venue": "ICLR",
+      "year": 2023,
+      "pages": "5474-5480"
+    },
+    {
+      "doi": "10.5555/iccv.2022.5366",
+      "title": "Federated Embeddings for Dense Retrieval",
+      "authors": [
+        "Viktor Lindqvist",
+        "Marta Chen",
+        "Uma Zhou"
+      ],
+      "venue": "ICCV",
+      "year": 2022,
+      "pages": "4795-4802"
+    },
+    {
+      "doi": "10.5555/emnlp.2025.8985",
+      "title": "Question Answering with Adaptive Mixture Models",
+      "authors": [
+        "Dmitri Zhou",
+        "Elena Schulz"
+      ],
+      "venue": "EMNLP",
+      "year": 2025,
+      "pages": "6048-6055"
+    },
+    {
+      "doi": "10.5555/sigir.2025.af51",
+      "title": "Dense Retrieval with Lightweight Graph Networks",
+      "authors": [
+        "Jonas Delgado",
+        "Viktor Ortega",
+        "Aisha Lin",
+        "Bruno Murphy"
+      ],
+      "venue": "SIGIR",
+      "year": 2025,
+      "pages": "8733-8740"
+    },
+    {
+      "doi": "10.5555/iccv.2023.9842",
+      "title": "Scalable Graph Networks for Speech Recognition",
+      "authors": [
+        "Amara Zhou",
+        "Rosa Evans",
+        "Priya Quinn"
+      ],
+      "venue": "ICCV",
+      "year": 2023,
+      "pages": "411-425"
+    },
+    {
+      "doi": "10.5555/cvpr.2015.9663",
+      "title": "Speech Recognition with Adaptive Diffusion Models",
+      "authors": [
+        "Beatriz Moretti",
+        "Chloe Huang",
+        "Pablo Delgado"
+      ],
+      "venue": "CVPR",
+      "year": 2015,
+      "pages": "2648-2654"
+    },
+    {
+      "doi": "10.5555/kdd.2023.a8d7",
+      "title": "Differentiable Query Plans for Object Detection",
+      "authors": [
+        "Nikhil Vik",
+        "Olga Cole",
+        "Omar Ibarra"
+      ],
+      "venue": "KDD",
+      "year": 2023,
+      "pages": "6266-6275"
+    },
+    {
+      "doi": "10.5555/sigmod.2019.6165",
+      "title": "Compositional Graph Networks for Time Series Forecasting",
+      "authors": [
+        "Daniel Fischer",
+        "Dmitri Novak"
+      ],
+      "venue": "SIGMOD",
+      "year": 2019,
+      "pages": "1600-1608"
+    },
+    {
+      "doi": "10.5555/emnlp.2017.7ab2",
+      "title": "Entity Resolution with Efficient Mixture Models",
+      "authors": [
+        "Pablo Cole",
+        "Samir Ortega",
+        "Daniel Huang"
+      ],
+      "venue": "EMNLP",
+      "year": 2017
+    },
+    {
+      "doi": "10.5555/kdd.2023.9186",
+      "title": "Self-Supervised Pretraining for Scalable Dense Retrieval",
+      "authors": [
+        "Samir Yamada",
+        "Beatriz Gupta"
+      ],
+      "venue": "KDD",
+      "year": 2023,
+      "pages": "7097-7104"
+    },
+    {
+      "doi": "10.5555/icml.2023.204f",
+      "title": "Federated Query Plans for Dense Retrieval",
+      "authors": [
+        "Omar Eriksen",
+        "Elena Silva"
+      ],
+      "venue": "ICML",
+      "year": 2023,
+      "pages": "2610-2617"
+    },
+    {
+      "doi": "10.5555/vldb.2021.1973",
+      "title": "Time Series Forecasting with Robust Diffusion Models",
+      "authors": [
+        "Uma Ueda",
+        "Jamal Bello",
+        "Amara Adeyemi",
+        "Aisha Fischer"
+      ],
+      "venue": "VLDB",
+      "year": 2021,
+      "pages": "8346-8357"
+    },
+    {
+      "doi": "10.5555/kdd.2017.e5b1",
+      "title": "Speech Recognition with Adaptive Graph Networks",
+      "authors": [
+        "Bruno Ortega",
+        "Anders Berg",
+        "Pablo Jiang"
+      ],
+      "venue": "KDD",
+      "year": 2017,
+      "pages": "3431-3441"
+    },
+    {
+      "doi": "10.5555/icml.2018.b1c4",
+      "title": "Efficient Autoencoders for Image Segmentation",
+      "authors": [
+        "Nikhil Berg",
+        "Nikhil Oliveira",
+        "Nikhil Zhou",
+        "Daniel Petrov"
+      ],
+      "venue": "ICML",
+      "year": 2018
+    },
+    {
+      "doi": "10.5555/neurips.2017.a93c",
+      "title": "Approximate Nearest Neighbor Search for Robust Entity Resolution",
+      "authors": [
+        "Elena Weber",
+        "Leon Ivanova",
+        "Bruno Huang",
+        "Ivan Kim"
+      ],
+      "venue": "NeurIPS",
+      "year": 2017,
+      "pages": "4727-4734"
+    },
+    {
+      "doi": "10.5555/kdd.2023.4b81",
+      "title": "Cardinality Estimation for Differentiable Speech Recognition",
+      "authors": [
+        "Olga Petrov",
+        "Jonas Osei",
+        "Uma Evans"
+      ],
+      "venue": "KDD",
+      "year": 2023,
+      "pages": "1566-1578"
+    },
+    {
+      "doi": "10.5555/neurips.2017.659f",
+      "title": "Anomaly Detection with Federated Attention",
+      "authors": [
+        "Omar Walsh",
+        "Hannah Ivanova",
+        "Hannah Xu"
+      ],
+      "venue": "NeurIPS",
+      "year": 2017,
+      "pages": "7313-7325"
+    },
+    {
+      "doi": "10.5555/cvpr.2022.d67e",
+      "title": "Anomaly Detection with Efficient Query Plans",
+      "authors": [
+        "Anders Zhou",
+        "Leon Osei"
+      ],
+      "venue": "CVPR",
+      "year": 2022,
+      "pages": "3180-3190"
+    },
+    {
+      "doi": "10.5555/acl.2025.0a6b",
+      "title": "Question Answering with Efficient Kernels",
+      "authors": [
+        "Kenji Lopez",
+        "Luca Silva",
+        "Wen Garza"
+      ],
+      "venue": "ACL",
+      "year": 2025,
+      "pages": "3646-3653"
+    },
+    {
+      "doi": "10.5555/acl.2017.b276",
+      "title": "Cardinality Estimation for Differentiable Object Detection",
+      "authors": [
+        "Luca Oliveira",
+        "Chloe Walsh",
+        "Samir Rossi",
+        "Nikhil Varga"
+      ],
+      "venue": "ACL",
+      "year": 2017,
+      "pages": "2624-2630"
+    },
+    {
+      "doi": "10.5555/sigir.2021.4735",
+      "title": "Differentiable Policies for Join Optimization",
+      "authors": [
+        "Jamal Farah",
+        "Samir Mendes",
+        "Amara Bello"
+      ],
+      "venue": "SIGIR",
+      "year": 2021,
+      "pages": "1467-1474"
+    },
+    {
+      "doi": "10.5555/vldb.2024.3fc1",
+      "title": "Differentiable Embeddings for Image Segmentation",
+      "authors": [
+        "Hiro Eriksen",
+        "Amara Vik",
+        "Ivan Adeyemi"
+      ],
+      "venue": "VLDB",
+      "year": 2024,
+      "pages": "1665-1678"
+    },
+    {
+      "doi": "10.5555/iccv.2016.9348",
+      "title": "Dense Retrieval with Interpretable Transformers",
+      "authors": [
+        "Jonas Zahra",
+        "Elena Weber",
+        "Zoe Tanaka",
+        "Kavya Mendes"
+      ],
+      "venue": "ICCV",
+      "year": 2016,
+      "pages": "4862-4868"
+    },
+    {
+      "doi": "10.5555/kdd.2023.d234",
+      "title": "Image Segmentation with Efficient Graph Networks",
+      "authors": [
+        "Dmitri Adeyemi",
+        "Omar Castillo",
+        "Jonas Yamada",
+        "Uma Nair"
+      ],
+      "venue": "KDD",
+      "year": 2023,
+      "pages": "2497-2508"
+    },
+    {
+      "doi": "10.5555/icml.2020.72be",
+      "title": "Curriculum Learning for Sparse Speech Recognition",
+      "authors": [
+        "Dmitri Lin",
+        "Uma Tanaka",
+        "Tariq Murphy"
+      ],
+      "venue": "ICML",
+      "year": 2020,
+      "pages": "1909-1922"
+    },
+    {
+      "doi": "10.5555/neurips.2016.d3f8",
+      "title": "Node Classification with Federated Embeddings",
+      "authors": [
+        "Olga Nair",
+        "Rosa Tanaka",
+        "Greta Huang"
+      ],
+      "venue": "NeurIPS",
+      "year": 2016,
+      "pages": "6289-6296"
+    },
+    {
+      "doi": "10.5555/neurips.2015.35b1",
+      "title": "Approximate Nearest Neighbor Search for Federated Image Segmentation",
+      "authors": [
+        "Ines Bauer",
+        "Daniel Zhou",
+        "Kavya Brennan"
+      ],
+      "venue": "NeurIPS",
+      "year": 2015
+    },
+    {
+      "doi": "10.5555/sigmod.2016.a3ad",
+      "title": "Prompt Tuning for Interpretable Speech Recognition",
+      "authors": [
+        "Jonas Quinn",
+        "Dmitri Park",
+        "Hannah Weber",
+        "Amara Oliveira"
+      ],
+      "venue": "SIGMOD",
+      "year": 2016,
+      "pages": "6812-6820"
+    },
+    {
+      "doi": "10.5555/icml.2016.a840",
+      "title": "Dense Retrieval with Scalable Attention",
+      "authors": [
+        "Viktor Petrov",
+        "Greta Zhou",
+        "Tomas Yamada"
+      ],
+      "venue": "ICML",
+      "year": 2016,
+      "pages": "2649-2656"
+    },
+    {
+      "doi": "10.48550/arXiv.2405.28917",
+      "title": "Dense Retrieval with Lightweight Graph Networks",
+      "authors": [
+        "Jonas Delgado",
+        "Viktor Ortega",
+        "Aisha Lin",
+        "Bruno Murphy"
+      ],
+      "venue": "arXiv",
+      "year": 2024
+    },
+    {
+      "doi": "10.5555/kdd.2019.50f3",
+      "title": "Differentiable Autoencoders for Image Segmentation",
+      "authors": [
+        "Elena Berg",
+        "Samir Ahmed",
+        "Sofia Osei"
+      ],
+      "venue": "KDD",
+      "year": 2019,
+      "pages": "422-434"
+    },
+    {
+      "doi": "10.5555/neurips.2025.a135",
+      "title": "Self-Supervised Pretraining for Efficient Link Prediction",
+      "authors": [
+        "Sofia Moretti",
+        "Pablo Ibarra",
+        "Dmitri Torres"
+      ],
+      "venue": "NeurIPS",
+      "year": 2025,
+      "pages": "2614-2626"
+    },
+    {
+      "doi": "10.5555/emnlp.2017.e765",
+      "title": "Knowledge Distillation for Compositional Machine Translation",
+      "authors": [
+        "Pablo Petrov",
+        "Wen Dubois"
+      ],
+      "venue": "EMNLP",
+      "year": 2017,
+      "pages": "1764-1778"
+    },
+    {
+      "doi": "10.5555/neurips.2015.665b",
+      "title": "Object Detection with Robust Attention",
+      "authors": [
+        "Hiro Delgado",
+        "Mei Tanaka",
+        "Chloe Okafor",
+        "Beatriz Haddad"
+      ],
+      "venue": "NeurIPS",
+      "year": 2015,
+      "pages": "4887-4899"
+    },
+    {
+      "doi": "10.5555/iclr.2015.1846",
+      "title": "Adaptive Attention for Image Segmentation",
+      "authors": [
+        "Yara Rossi",
+        "Ines Gupta",
+        "Chloe Cole",
+        "Viktor Haddad"
+      ],
+      "venue": "ICLR",
+      "year": 2015,
+      "pages": "5708-5717"
+    },
+    {
+      "doi": "10.5555/acl.2019.ca50",
+      "title": "Lightweight Graph Networks for Machine Translation",
+      "authors": [
+        "Nikhil Jiang",
+        "Zoe Adeyemi",
+        "Bruno Gupta"
+      ],
+      "venue": "ACL",
+      "year": 2019,
+      "pages": "3322-3329"
+    },
+    {
+      "doi": "10.5555/cvpr.2016.1d4d",
+      "title": "Differentiable Embeddings for Object Detection",
+      "authors": [
+        "Wen Oliveira",
+        "Zoe Ortega",
+        "Grace Evans",
+        "Jonas Adeyemi"
+      ],
+      "venue": "CVPR",
+      "year": 2016,
+      "pages": "3246-3254"
+    },
+    {
+      "doi": "10.48550/arXiv.2303.24577",
+      "title": "Prompt Tuning for Robust Join Optimization",
+      "authors": [
+        "Hannah Chen",
+        "Pablo Rahman",
+        "Leon Farah"
+      ],
+      "venue": "arXiv",
+      "year": 2023
+    },
+    {
+      "doi": "10.5555/icml.2017.c3fd",
+      "title": "Learned Indexing for Hierarchical Join Optimization",
+      "authors": [
+        "Nikhil Cole",
+        "Zoe Lopez",
+        "Priya Berg",
+        "Beatriz Garza"
+      ],
+      "venue": "ICML",
+      "year": 2017
+    },
+    {
+      "doi": "10.5555/sigir.2023.77dc",
+      "title": "Efficient Mixture Models for Question Answering",
+      "authors": [
+        "Ines Patel",
+        "Fatima Xu"
+      ],
+      "venue": "SIGIR",
+      "year": 2023,
+      "pages": "6584-6597"
+    },
+    {
+      "doi": "10.5555/neurips.2018.4c7d",
+      "title": "Learned Indexing for Differentiable Time Series Forecasting",
+      "authors": [
+        "Grace Quinn",
+        "Beatriz Farah",
+        "Pablo Castillo"
+      ],
+      "venue": "NeurIPS",
+      "year": 2018,
+      "pages": "2235-2247"
+    },
+    {
+      "doi": "10.5555/iccv.2019.7877",
+      "title": "Bayesian Optimization for Sparse Link Prediction",
+      "authors": [
+        "Luca Kowalski",
+        "Chloe Park"
+      ],
+      "venue": "ICCV",
+      "year": 2019,
+      "pages": "4130-4138"
+    },
+    {
+      "doi": "10.5555/vldb.2018.d11c",
+      "title": "Sparse Embeddings for Entity Resolution",
+      "authors": [
+        "Pablo Haddad",
+        "Tariq Silva",
+        "Sofia Eriksen"
+      ],
+      "venue": "VLDB",
+      "year": 2018,
+      "pages": "8892-8905"
+    },
+    {
+      "doi": "10.5555/iccv.2018.cd13",
+      "title": "Approximate Nearest Neighbor Search for Differentiable Time Series Forecasting",
+      "authors": [
+        "Rosa Patel",
+        "Aisha Castillo",
+        "Farid Adeyemi",
+        "Kenji Berg"
+      ],
+      "venue": "ICCV",
+      "year": 2018
+    },
+    {
+      "doi": "10.5555/iclr.2023.e0bf",
+      "title": "Prompt Tuning for Adaptive Entity Resolution",
+      "authors": [
+        "Mei Cole",
+        "Jamal Bello",
+        "Mei Lopez",
+        "Kavya Farah"
+      ],
+      "venue": "ICLR",
+      "year": 2023
+    },
+    {
+      "doi": "10.5555/sigir.2021.660d",
+      "title": "Knowledge Distillation for Hierarchical Entity Resolution",
+      "authors": [
+        "Hiro Bello",
+        "Hannah Sato",
+        "Viktor Huang",
+        "Zoe Bauer"
+      ],
+      "venue": "SIGIR",
+      "year": 2021,
+      "pages": "8362-8368"
+    },
+    {
+      "doi": "10.5555/sigir.2019.ad6c",
+      "title": "Importance Sampling for Adaptive Anomaly Detection",
+      "authors": [
+        "Viktor Kim",
+        "Priya Castillo",
+        "Jamal Ortega",
+        "Leon Dubois"
+      ],
+      "venue": "SIGIR",
+      "year": 2019,
+      "pages": "3634-3644"
+    },
+    {
+      "doi": "10.5555/iccv.2020.5100",
+      "title": "Self-Supervised Pretraining for Adaptive Node Classification",
+      "authors": [
+        "Rosa Murphy",
+        "Grace Weber",
+        "Priya Ortega"
+      ],
+      "venue": "ICCV",
+      "year": 2020,
+      "pages": "1929-1937"
+    },
+    {
+      "doi": "10.5555/sigir.2022.2f73",
+      "title": "Speech Recognition with Contrastive Query Plans",
+      "authors": [
+        "Hiro Vik",
+        "Elena Huang",
+        "Beatriz Moretti"
+      ],
+      "venue": "SIGIR",
+      "year": 2022,
+      "pages": "3711-3719"
+    },
+    {
+      "doi": "10.5555/vldb.2022.cbf6",
+      "title": "Anomaly Detection with Hierarchical Language Models",
+      "authors": [
+        "Aisha Moretti",
+        "Hannah Osei",
+        "Wen Kowalski"
+      ],
+      "venue": "VLDB",
+      "year": 2022,
+      "pages": "8095-8109"
+    },
+    {
+      "doi": "10.48550/arXiv.2101.53978",
+      "title": "Spectral Clustering for Differentiable Link Prediction",
+      "authors": [
+        "Rosa Fischer",
+        "Yara Silva"
+      ],
+      "venue": "arXiv",
+      "year": 2021
+    },
+    {
+      "doi": "10.5555/emnlp.2016.637c",
+      "title": "Prompt Tuning for Efficient Machine Translation",
+      "authors": [
+        "Hannah Gupta",
+        "Amara Hoffmann",
+        "Omar Adeyemi",
+        "Samir Garza"
+      ],
+      "venue": "EMNLP",
+      "year": 2016,
+      "pages": "4551-4565"
+    },
+    {
+      "doi": "10.5555/sigmod.2024.ad61",
+      "title": "Self-Supervised Pretraining for Scalable Machine Translation",
+      "authors": [
+        "Viktor Ahmed",
+        "Wen Mendes",
+        "Jonas Okafor",
+        "Tomas Park"
+      ],
+      "venue": "SIGMOD",
+      "year": 2024,
+      "pages": "7312-7322"
+    },
+    {
+      "doi": "10.5555/sigir.2019.5519",
+      "title": "Differentiable Mixture Models for Speech Recognition",
+      "authors": [
+        "Zoe Moretti",
+        "Ines Rossi",
+        "Nikhil Quinn",
+        "Hannah Nair"
+      ],
+      "venue": "SIGIR",
+      "year": 2019
+    },
+    {
+      "doi": "10.5555/iccv.2016.1540",
+      "title": "Contrastive Language Models for Dense Retrieval",
+      "authors": [
+        "Omar Oliveira",
+        "Wen Evans",
+        "Amara Ueda"
+      ],
+      "venue": "ICCV",
+      "year": 2016,
+      "pages": "2474-2482"
+    },
+    {
+      "doi": "10.5555/cvpr.2019.cb5a",
+      "title": "Curriculum Learning for Scalable Entity Resolution",
+      "authors": [
+        "Olga Adeyemi",
+        "Nikhil Chen",
+        "Bruno Berg"
+      ],
+      "venue": "CVPR",
+      "year": 2019,
+      "pages": "6363-6374"
+    },
+    {
+      "doi": "10.5555/cvpr.2015.ade8",
+      "title": "Knowledge Distillation for Compositional Dense Retrieval",
+      "authors": [
+        "Wen Novak",
+        "Bruno Huang",
+        "Hannah Xu",
+        "Greta Kowalski"
+      ],
+      "venue": "CVPR",
+      "year": 2015
+    },
+    {
+      "doi": "10.5555/neurips.2021.1487",
+      "title": "Link Prediction with Efficient Kernels",
+      "authors": [
+        "Samir Mendes",
+        "Rosa Jiang",
+        "Jonas Cole",
+        "Jamal Oliveira"
+      ],
+      "venue": "NeurIPS",
+      "year": 2021,
+      "pages": "7782-7793"
+    },
+    {
+      "doi": "10.5555/emnlp.2025.b8da",
+      "title": "Scalable Transformers for Entity Resolution",
+      "authors": [
+        "Greta Nakamura",
+        "Pablo Fischer",
+        "Sofia Osei",
+        "Kenji Xu"
+      ],
+      "venue": "EMNLP",
+      "year": 2025,
+      "pages": "484-497"
+    },
+    {
+      "doi": "10.48550/arXiv.1509.88594",
+      "title": "Link Prediction with Efficient Indexes",
+      "authors": [
+        "Fatima Evans",
+        "Olga Gupta",
+        "Omar Petrov",
+        "Greta Zhou"
+      ],
+      "venue": "arXiv",
+      "year": 2015
+    },
+    {
+      "doi": "10.5555/sigir.2025.2fbc",
+      "title": "Low-Rank Adaptation for Scalable Entity Resolution",
+      "authors": [
+        "Grace Osei",
+        "Luca Patel",
+        "Pablo Silva"
+      ],
+      "venue": "SIGIR",
+      "year": 2025,
+      "pages": "4795-4809"
+    },
+    {
+      "doi": "10.5555/sigir.2020.228e",
+      "title": "Prompt Tuning for Scalable Node Classification",
+      "authors": [
+        "Farid Ueda",
+        "Samir Brennan",
+        "Luca Kim",
+        "Olga Oliveira"
+      ],
+      "venue": "SIGIR",
+      "year": 2020
+    },
+    {
+      "doi": "10.5555/acl.2025.c699",
+      "title": "Interpretable Kernels for Time Series Forecasting",
+      "authors": [
+        "Jonas Vik",
+        "Amara Fischer"
+      ],
+      "venue": "ACL",
+      "year": 2025,
+      "pages": "672-683"
+    },
+    {
+      "doi": "10.48550/arXiv.2312.87353",
+      "title": "Differentiable Embeddings for Image Segmentation",
+      "authors": [
+        "Hiro Eriksen",
+        "Amara Vik",
+        "Ivan Adeyemi"
+      ],
+      "venue": "arXiv",
+      "year": 2023
+    },
+    {
+      "doi": "10.5555/acl.2020.28f2",
+      "title": "Prompt Tuning for Adaptive Link Prediction",
+      "authors": [
+        "Zoe Hoffmann",
+        "Dmitri Walsh"
+      ],
+      "venue": "ACL",
+      "year": 2020,
+      "pages": "5279-5287"
+    },
+    {
+      "doi": "10.5555/sigmod.2018.2559",
+      "title": "Low-Rank Adaptation for Adaptive Question Answering",
+      "authors": [
+        "Sofia Murphy",
+        "Bruno Mendes",
+        "Farid Haddad"
+      ],
+      "venue": "SIGMOD",
+      "year": 2018,
+      "pages": "3665-3675"
+    },
+    {
+      "doi": "10.5555/kdd.2016.9307",
+      "title": "Lightweight Transformers for Question Answering",
+      "authors": [
+        "Ines Castillo",
+        "Beatriz Delgado",
+        "Bruno Jiang",
+        "Samir Ramos"
+      ],
+      "venue": "KDD",
+      "year": 2016,
+      "pages": "432-438"
+    },
+    {
+      "doi": "10.5555/iclr.2021.f15f",
+      "title": "Learned Indexing for Federated Image Segmentation",
+      "authors": [
+        "Priya Lindqvist",
+        "Hannah Nair",
+        "Kavya Yamada",
+        "Pablo Rossi"
+      ],
+      "venue": "ICLR",
+      "year": 2021
+    },
+    {
+      "doi": "10.5555/iclr.2015.92dc",
+      "title": "Speech Recognition with Contrastive Indexes",
+      "authors": [
+        "Omar Eriksen",
+        "Fatima Walsh",
+        "Ivan Murphy",
+        "Dmitri Sato"
+      ],
+      "venue": "ICLR",
+      "year": 2015
+    },
+    {
+      "doi": "10.5555/neurips.2021.a390",
+      "title": "Scalable Query Plans for Machine Translation",
+      "authors": [
+        "Viktor Evans",
+        "Sofia Mendes",
+        "Wen Lin"
+      ],
+      "venue": "NeurIPS",
+      "year": 2021,
+      "pages": "2700-2706"
+    },
+    {
+      "doi": "10.5555/iccv.2021.0ab6",
+      "title": "Scalable Embeddings for Speech Recognition",
+      "authors": [
+        "Farid Walsh",
+        "Beatriz Sato",
+        "Elena Silva"
+      ],
+      "venue": "ICCV",
+      "year": 2021,
+      "pages": "283-289"
+    },
+    {
+      "doi": "10.5555/emnlp.2024.3eea",
+      "title": "Knowledge Distillation for Hierarchical Object Detection",
+      "authors": [
+        "Aisha Ramos",
+        "Jamal Petrov",
+        "Bruno Zahra"
+      ],
+      "venue": "EMNLP",
+      "year": 2024,
+      "pages": "5220-5226"
+    },
+    {
+      "doi": "10.5555/sigir.2018.c511",
+      "title": "Robust Kernels for Object Detection",
+      "authors": [
+        "Marta Chen",
+        "Kavya Moretti",
+        "Pablo Silva"
+      ],
+      "venue": "SIGIR",
+      "year": 2018,
+      "pages": "3600-3614"
+    },
+    {
+      "doi": "10.5555/neurips.2019.6d9b",
+      "title": "Link Prediction with Scalable Policies",
+      "authors": [
+        "Viktor Sato",
+        "Leon Oliveira",
+        "Marta Bauer"
+      ],
+      "venue": "NeurIPS",
+      "year": 2019,
+      "pages": "2342-2349"
+    },
+    {
+      "doi": "10.5555/vldb.2020.6eb1",
+      "title": "Dense Retrieval with Robust Language Models",
+      "authors": [
+        "Hannah Cole",
+        "Wen Dubois",
+        "Greta Hoffmann"
+      ],
+      "venue": "VLDB",
+      "year": 2020,
+      "pages": "7461-7473"
+    },
+    {
+      "doi": "10.5555/vldb.2024.1769",
+      "title": "Self-Supervised Pretraining for Hierarchical Speech Recognition",
+      "authors": [
+        "Sofia Huang",
+        "Pablo Haddad",
+        "Zoe Oliveira"
+      ],
+      "venue": "VLDB",
+      "year": 2024,
+      "pages": "7257-7268"
+    },
+    {
+      "doi": "10.5555/kdd.2015.2ed7",
+      "title": "Entity Resolution with Lightweight Policies",
+      "authors": [
+        "Samir Garza",
+        "Anders Castillo"
+      ],
+      "venue": "KDD",
+      "year": 2015,
+      "pages": "2264-2270"
+    },
+    {
+      "doi": "10.5555/sigmod.2021.8a08",
+      "title": "Bayesian Optimization for Robust Link Prediction",
+      "authors": [
+        "Amara Zhou",
+        "Marta Gupta",
+        "Sofia Jensen"
+      ],
+      "venue": "SIGMOD",
+      "year": 2021,
+      "pages": "7255-7266"
+    },
+    {
+      "doi": "10.5555/emnlp.2019.a7b3",
+      "title": "Image Segmentation with Contrastive Attention",
+      "authors": [
+        "Luca Ortega",
+        "Viktor Osei",
+        "Kavya Kowalski"
+      ],
+      "venue": "EMNLP",
+      "year": 2019,
+      "pages": "1610-1618"
+    },
+    {
+      "doi": "10.5555/sigir.2015.0190",
+      "title": "Machine Translation with Differentiable Query Plans",
+      "authors": [
+        "Tariq Lindqvist",
+        "Jonas Nair",
+        "Jonas Delgado"
+      ],
+      "venue": "SIGIR",
+      "year": 2015,
+      "pages": "7838-7850"
+    },
+    {
+      "doi": "10.5555/vldb.2018.442a",
+      "title": "Cardinality Estimation for Interpretable Dense Retrieval",
+      "authors": [
+        "Pablo Lin",
+        "Uma Haddad",
+        "Marta Kim"
+      ],
+      "venue": "VLDB",
+      "year": 2018,
+      "pages": "8536-8550"
+    },
+    {
+      "doi": "10.5555/iclr.2016.92b8",
+      "title": "Anomaly Detection with Sparse Graph Networks",
+      "authors": [
+        "Tariq Silva",
+        "Luca Brennan",
+        "Daniel Okafor"
+      ],
+      "venue": "ICLR",
+      "year": 2016,
+      "pages": "8238-8251"
+    },
+    {
+      "doi": "10.5555/icml.2017.c11f",
+      "title": "Spectral Clustering for Contrastive Node Classification",
+      "authors": [
+        "Fatima Fischer",
+        "Nikhil Varga",
+        "Marta Nair"
+      ],
+      "venue": "ICML",
+      "year": 2017
+    },
+    {
+      "doi": "10.48550/arXiv.2305.24826",
+      "title": "Hierarchical Autoencoders for Object Detection",
+      "authors": [
+        "Olga Yamada",
+        "Aisha Walsh",
+        "Nikhil Schulz",
+        "Wen Jiang"
+      ],
+      "venue": "arXiv",
+      "year": 2023
+    },
+    {
+      "doi": "10.5555/neurips.2023.9a1e",
+      "title": "Low-Rank Adaptation for Lightweight Machine Translation",
+      "authors": [
+        "Kavya Yamada",
+        "Bruno Weber",
+        "Sofia Farah"
+      ],
+      "venue": "NeurIPS",
+      "year": 2023,
+      "pages": "6302-6312"
+    },
+    {
+      "doi": "10.5555/acl.2020.bcfc",
+      "title": "Differentiable Indexes for Object Detection",
+      "authors": [
+        "Daniel Evans",
+        "Chloe Walsh",
+        "Rosa Park"
+      ],
+      "venue": "ACL",
+      "year": 2020
+    },
+    {
+      "doi": "10.5555/sigmod.2020.59df",
+      "title": "Speech Recognition with Scalable Mixture Models",
+      "authors": [
+        "Tariq Kowalski",
+        "Viktor Huang",
+        "Omar Rossi"
+      ],
+      "venue": "SIGMOD",
+      "year": 2020,
+      "pages": "2572-2578"
+    },
+    {
+      "doi": "10.48550/arXiv.2311.62959",
+      "title": "Knowledge Distillation for Hierarchical Object Detection",
+      "authors": [
+        "Aisha Ramos",
+        "Jamal Petrov",
+        "Bruno Zahra"
+      ],
+      "venue": "arXiv",
+      "year": 2023
+    },
+    {
+      "doi": "10.5555/kdd.2023.0b11",
+      "title": "Lightweight Graph Networks for Join Optimization",
+      "authors": [
+        "Beatriz Bauer",
+        "Hiro Delgado",
+        "Tomas Berg"
+      ],
+      "venue": "KDD",
+      "year": 2023,
+      "pages": "5634-5642"
+    },
+    {
+      "doi": "10.5555/iccv.2020.5012",
+      "title": "Entity Resolution with Scalable Embeddings",
+      "authors": [
+        "Aisha Sato",
+        "Pablo Xu",
+        "Zoe Ueda",
+        "Tomas Haddad"
+      ],
+      "venue": "ICCV",
+      "year": 2020,
+      "pages": "6784-6790"
+    },
+    {
+      "doi": "10.5555/cvpr.2025.1aba",
+      "title": "Time Series Forecasting with Efficient Diffusion Models",
+      "authors": [
+        "Pablo Ueda",
+        "Dmitri Novak"
+      ],
+      "venue": "CVPR",
+      "year": 2025,
+      "pages": "8182-8194"
+    },
+    {
+      "doi": "10.5555/emnlp.2024.913e",
+      "title": "Federated Indexes for Question Answering",
+      "authors": [
+        "Priya Rossi",
+        "Amara Zhou",
+        "Priya Novak"
+      ],
+      "venue": "EMNLP",
+      "year": 2024,
+      "pages": "3744-3753"
+    },
+    {
+      "doi": "10.5555/acl.2018.4649",
+      "title": "Efficient Language Models for Link Prediction",
+      "authors": [
+        "Tariq Fischer",
+        "Dmitri Haddad",
+        "Farid Walsh"
+      ],
+      "venue": "ACL",
+      "year": 2018,
+      "pages": "1907-1913"
+    },
+    {
+      "doi": "10.5555/iccv.2018.526e",
+      "title": "Federated Autoencoders for Link Prediction",
+      "authors": [
+        "Omar Park",
+        "Mei Moretti",
+        "Marta Chen",
+        "Hiro Walsh"
+      ],
+      "venue": "ICCV",
+      "year": 2018,
+      "pages": "6857-6866"
+    },
+    {
+      "doi": "10.5555/acl.2022.c45b",
+      "title": "Spectral Clustering for Differentiable Link Prediction",
+      "authors": [
+        "Rosa Fischer",
+        "Yara Silva"
+      ],
+      "venue": "ACL",
+      "year": 2022
+    },
+    {
+      "doi": "10.48550/arXiv.1711.59096",
+      "title": "Efficient Autoencoders for Image Segmentation",
+      "authors": [
+        "Nikhil Berg",
+        "Nikhil Oliveira",
+        "Nikhil Zhou",
+        "Daniel Petrov"
+      ],
+      "venue": "arXiv",
+      "year": 2017
+    },
+    {
+      "doi": "10.5555/cvpr.2025.1dc3",
+      "title": "Scalable Transformers for Machine Translation",
+      "authors": [
+        "Hannah Moretti",
+        "Hannah Walsh",
+        "Dmitri Zhou",
+        "Mei Kim"
+      ],
+      "venue": "CVPR",
+      "year": 2025,
+      "pages": "5460-5469"
+    },
+    {
+      "doi": "10.5555/cvpr.2016.cff1",
+      "title": "Low-Rank Adaptation for Scalable Time Series Forecasting",
+      "authors": [
+        "Ines Okafor",
+        "Marta Mendes",
+        "Chloe Schulz"
+      ],
+      "venue": "CVPR",
+      "year": 2016,
+      "pages": "3461-3469"
+    },
+    {
+      "doi": "10.5555/emnlp.2016.3782",
+      "title": "Bayesian Optimization for Interpretable Image Segmentation",
+      "authors": [
+        "Mei Xu",
+        "Elena Ivanova",
+        "Ines Lindqvist",
+        "Ivan Chen"
+      ],
+      "venue": "EMNLP",
+      "year": 2016,
+      "pages": "5058-5068"
+    },
+    {
+      "doi": "10.5555/cvpr.2021.1365",
+      "title": "Robust Mixture Models for Image Segmentation",
+      "authors": [
+        "Bruno Bauer",
+        "Pablo Patel",
+        "Aisha Eriksen"
+      ],
+      "venue": "CVPR",
+      "year": 2021,
+      "pages": "4648-4656"
+    },
+    {
+      "doi": "10.5555/emnlp.2025.6930",
+      "title": "Anomaly Detection with Scalable Policies",
+      "authors": [
+        "Fatima Jiang",
+        "Luca Torres",
+        "Farid Vik",
+        "Omar Fischer"
+      ],
+      "venue": "EMNLP",
+      "year": 2025,
+      "pages": "2849-2855"
+    },
+    {
+      "doi": "10.5555/acl.2017.4f0c",
+      "title": "Importance Sampling for Differentiable Anomaly Detection",
+      "authors": [
+        "Greta Nakamura",
+        "Anders Xu",
+        "Pablo Fischer",
+        "Ivan Zahra"
+      ],
+      "venue": "ACL",
+      "year": 2017,
+      "pages": "7515-7527"
+    },
+    {
+      "doi": "10.5555/sigmod.2024.4c04",
+      "title": "Adaptive Diffusion Models for Link Prediction",
+      "authors": [
+        "Amara Weber",
+        "Rosa Walsh"
+      ],
+      "venue": "SIGMOD",
+      "year": 2024,
+      "pages": "4665-4674"
+    },
+    {
+      "doi": "10.48550/arXiv.1411.71473",
+      "title": "Speech Recognition with Contrastive Indexes",
+      "authors": [
+        "Omar Eriksen",
+        "Fatima Walsh",
+        "Ivan Murphy",
+        "Dmitri Sato"
+      ],
+      "venue": "arXiv",
+      "year": 2014
+    },
+    {
+      "doi": "10.5555/cvpr.2017.7238",
+      "title": "Node Classification with Interpretable Embeddings",
+      "authors": [
+        "Nikhil Weber",
+        "Jonas Hoffmann",
+        "Viktor Schulz",
+        "Dmitri Fischer"
+      ],
+      "venue": "CVPR",
+      "year": 2017,
+      "pages": "7137-7144"
+    },
+    {
+      "doi": "10.48550/arXiv.2001.71864",
+      "title": "Federated Graph Networks for Machine Translation",
+      "authors": [
+        "Samir Quinn",
+        "Chloe Huang",
+        "Luca Mendes",
+        "Anders Gupta"
+      ],
+      "venue": "arXiv",
+      "year": 2020
+    },
+    {
+      "doi": "10.48550/arXiv.1911.83439",
+      "title": "Compositional Transformers for Dense Retrieval",
+      "authors": [
+        "Dmitri Novak",
+        "Kavya Petrov",
+        "Greta Fischer",
+        "Sofia Xu"
+      ],
+      "venue": "arXiv",
+      "year": 2019
+    },
+    {
+      "doi": "10.48550/arXiv.2301.57769",
+      "title": "Interpretable Policies for Question Answering",
+      "authors": [
+        "Viktor Yamada",
+        "Farid Adeyemi",
+        "Nikhil Nair"
+      ],
+      "venue": "arXiv",
+      "year": 2023
+    },
+    {
+      "doi": "10.5555/acl.2023.e9e5",
+      "title": "Image Segmentation with Contrastive Policies",
+      "authors": [
+        "Chloe Schulz",
+        "Zoe Zahra",
+        "Daniel Castillo"
+      ],
+      "venue": "ACL",
+      "year": 2023
+    },
+    {
+      "doi": "10.48550/arXiv.1706.69962",
+      "title": "Efficient Language Models for Link Prediction",
+      "authors": [
+        "Tariq Fischer",
+        "Dmitri Haddad",
+        "Farid Walsh"
+      ],
+      "venue": "arXiv",
+      "year": 2017
+    },
+    {
+      "doi": "10.5555/neurips.2019.daac",
+      "title": "Reinforcement Learning for Interpretable Dense Retrieval",
+      "authors": [
+        "Fatima Mendes",
+        "Tomas Xu",
+        "Sofia Bauer",
+        "Chloe Adeyemi"
+      ],
+      "venue": "NeurIPS",
+      "year": 2019,
+      "pages": "2166-2175"
+    },
+    {
+      "doi": "10.5555/iclr.2015.2e84",
+      "title": "Reinforcement Learning for Adaptive Object Detection",
+      "authors": [
+        "Farid Adeyemi",
+        "Priya Dubois",
+        "Marta Novak"
+      ],
+      "venue": "ICLR",
+      "year": 2015,
+      "pages": "5128-5134"
+    },
+    {
+      "doi": "10.5555/emnlp.2020.b75d",
+      "title": "Efficient Indexes for Dense Retrieval",
+      "authors": [
+        "Mei Quinn",
+        "Bruno Farah",
+        "Kenji Sato"
+      ],
+      "venue": "EMNLP",
+      "year": 2020,
+      "pages": "2673-2680"
+    },
+    {
+      "doi": "10.5555/sigmod.2022.0086",
+      "title": "Join Optimization with Contrastive Autoencoders",
+      "authors": [
+        "Marta Petrov",
+        "Farid Osei"
+      ],
+      "venue": "SIGMOD",
+      "year": 2022,
+      "pages": "3183-3192"
+    },
+    {
+      "doi": "10.5555/sigmod.2017.8cc1",
+      "title": "Interpretable Indexes for Image Segmentation",
+      "authors": [
+        "Bruno Murphy",
+        "Sofia Berg",
+        "Olga Jensen"
+      ],
+      "venue": "SIGMOD",
+      "year": 2017,
+      "pages": "2200-2214"
+    },
+    {
+      "doi": "10.5555/kdd.2021.2ab2",
+      "title": "Node Classification with Hierarchical Query Plans",
+      "authors": [
+        "Jamal Tanaka",
+        "Jonas Nakamura",
+        "Farid Vik"
+      ],
+      "venue": "KDD",
+      "year": 2021,
+      "pages": "66-72"
+    },
+    {
+      "doi": "10.5555/sigmod.2020.c0f2",
+      "title": "Differentiable Transformers for Entity Resolution",
+      "authors": [
+        "Jamal Lopez",
+        "Fatima Rahman",
+        "Bruno Jensen",
+        "Yara Murphy"
+      ],
+      "venue": "SIGMOD",
+      "year": 2020
+    },
+    {
+      "doi": "10.5555/acl.2016.da91",
+      "title": "Anomaly Detection with Contrastive Attention",
+      "authors": [
+        "Pablo Ahmed",
+        "Leon Berg",
+        "Kavya Gupta"
+      ],
+      "venue": "ACL",
+      "year": 2016,
+      "pages": "8177-8186"
+    },
+    {
+      "doi": "10.5555/sigmod.2016.55f5",
+      "title": "Low-Rank Adaptation for Hierarchical Time Series Forecasting",
+      "authors": [
+        "Anders Zahra",
+        "Tomas Lin",
+        "Fatima Patel"
+      ],
+      "venue": "SIGMOD",
+      "year": 2016,
+      "pages": "1069-1083"
+    },
+    {
+      "doi": "10.5555/iccv.2025.25ad",
+      "title": "Join Optimization with Lightweight Kernels",
+      "authors": [
+        "Omar Cole",
+        "Hannah Schulz",
+        "Greta Quinn"
+      ],
+      "venue": "ICCV",
+      "year": 2025,
+      "pages": "5336-5349"
+    },
+    {
+      "doi": "10.5555/acl.2016.0cdd",
+      "title": "Link Prediction with Efficient Indexes",
+      "authors": [
+        "Fatima Evans",
+        "Olga Gupta",
+        "Omar Petrov",
+        "Greta Zhou"
+      ],
+      "venue": "ACL",
+      "year": 2016,
+      "pages": "2424-2432"
+    },
+    {
+      "doi": "10.5555/acl.2020.e586",
+      "title": "Dense Retrieval with Hierarchical Policies",
+      "authors": [
+        "Ivan Nakamura",
+        "Pablo Yamada",
+        "Leon Eriksen"
+      ],
+      "venue": "ACL",
+      "year": 2020,
+      "pages": "8692-8706"
+    },
+    {
+      "doi": "10.5555/neurips.2018.1b31",
+      "title": "Cardinality Estimation for Adaptive Speech Recognition",
+      "authors": [
+        "Marta Sato",
+        "Uma Chen",
+        "Rosa Zhou"
+      ],
+      "venue": "NeurIPS",
+      "year": 2018,
+      "pages": "5165-5179"
+    },
+    {
+      "doi": "10.5555/iccv.2024.202b",
+      "title": "Interpretable Policies for Question Answering",
+      "authors": [
+        "Viktor Yamada",
+        "Farid Adeyemi",
+        "Nikhil Nair"
+      ],
+      "venue": "ICCV",
+      "year": 2024,
+      "pages": "8045-8059"
+    },
+    {
+      "doi": "10.48550/arXiv.2208.69032",
+      "title": "Image Segmentation with Efficient Graph Networks",
+      "authors": [
+        "Dmitri Adeyemi",
+        "Omar Castillo",
+        "Jonas Yamada",
+        "Uma Nair"
+      ],
+      "venue": "arXiv",
+      "year": 2022
+    },
+    {
+      "doi": "10.5555/icml.2015.d382",
+      "title": "Compositional Query Plans for Anomaly Detection",
+      "authors": [
+        "Pablo Garza",
+        "Rosa Ueda",
+        "Anders Novak",
+        "Beatriz Delgado"
+      ],
+      "venue": "ICML",
+      "year": 2015,
+      "pages": "4553-4567"
+    },
+    {
+      "doi": "10.5555/sigmod.2023.4f9d",
+      "title": "Join Optimization with Efficient Attention",
+      "authors": [
+        "Dmitri Petrov",
+        "Marta Kowalski",
+        "Nikhil Cole",
+        "Mei Ramos"
+      ],
+      "venue": "SIGMOD",
+      "year": 2023,
+      "pages": "8632-8640"
+    },
+    {
+      "doi": "10.5555/acl.2025.cf74",
+      "title": "Efficient Kernels for Machine Translation",
+      "authors": [
+        "Amara Sato",
+        "Hannah Cole",
+        "Farid Brennan"
+      ],
+      "venue": "ACL",
+      "year": 2025,
+      "pages": "4330-4339"
+    },
+    {
+      "doi": "10.48550/arXiv.2309.38869",
+      "title": "Speech Recognition with Contrastive Mixture Models",
+      "authors": [
+        "Elena Garza",
+        "Zoe Ueda"
+      ],
+      "venue": "arXiv",
+      "year": 2023
+    },
+    {
+      "doi": "10.48550/arXiv.1707.33124",
+      "title": "Federated Autoencoders for Link Prediction",
+      "authors": [
+        "Omar Park",
+        "Mei Moretti",
+        "Marta Chen",
+        "Hiro Walsh"
+      ],
+      "venue": "arXiv",
+      "year": 2017
+    },
+    {
+      "doi": "10.48550/arXiv.1512.66168",
+      "title": "Bayesian Optimization for Interpretable Image Segmentation",
+      "authors": [
+        "Mei Xu",
+        "Elena Ivanova",
+        "Ines Lindqvist",
+        "Ivan Chen"
+      ],
+      "venue": "arXiv",
+      "year": 2015
+    },
+    {
+      "doi": "10.5555/iccv.2019.89a0",
+      "title": "Dense Retrieval with Lightweight Diffusion Models",
+      "authors": [
+        "Jonas Ortega",
+        "Bruno Eriksen",
+        "Zoe Okafor"
+      ],
+      "venue": "ICCV",
+      "year": 2019,
+      "pages": "4673-4687"
+    },
+    {
+      "doi": "10.48550/arXiv.1508.66491",
+      "title": "Low-Rank Adaptation for Hierarchical Time Series Forecasting",
+      "authors": [
+        "Anders Zahra",
+        "Tomas Lin",
+        "Fatima Patel"
+      ],
+      "venue": "arXiv",
+      "year": 2015
+    },
+    {
+      "doi": "10.5555/iclr.2019.2e5f",
+      "title": "Speech Recognition with Adaptive Policies",
+      "authors": [
+        "Omar Nakamura",
+        "Anders Delgado",
+        "Ines Brennan",
+        "Kavya Ortega"
+      ],
+      "venue": "ICLR",
+      "year": 2019,
+      "pages": "2653-2666"
+    },
+    {
+      "doi": "10.5555/kdd.2024.9afb",
+      "title": "Speech Recognition with Adaptive Language Models",
+      "authors": [
+        "Pablo Ueda",
+        "Jonas Adeyemi",
+        "Zoe Ibarra",
+        "Samir Mendes"
+      ],
+      "venue": "KDD",
+      "year": 2024,
+      "pages": "5334-5340"
+    },
+    {
+      "doi": "10.5555/sigmod.2019.9469",
+      "title": "Machine Translation with Robust Indexes",
+      "authors": [
+        "Rosa Ortega",
+        "Farid Walsh",
+        "Tomas Okafor",
+        "Chloe Mendes"
+      ],
+      "venue": "SIGMOD",
+      "year": 2019
+    },
+    {
+      "doi": "10.5555/icml.2018.74b5",
+      "title": "Hierarchical Kernels for Entity Resolution",
+      "authors": [
+        "Hannah Haddad",
+        "Sofia Nakamura",
+        "Beatriz Petrov"
+      ],
+      "venue": "ICML",
+      "year": 2018,
+      "pages": "7353-7363"
+    },
+    {
+      "doi": "10.5555/icml.2025.b7b6",
+      "title": "Reinforcement Learning for Federated Object Detection",
+      "authors": [
+        "Luca Quinn",
+        "Farid Ramos"
+      ],
+      "venue": "ICML",
+      "year": 2025,
+      "pages": "2350-2364"
+    },
+    {
+      "doi": "10.5555/iclr.2025.7b21",
+      "title": "Robust Mixture Models for Link Prediction",
+      "authors": [
+        "Daniel Sato",
+        "Dmitri Lin",
+        "Beatriz Ramos"
+      ],
+      "venue": "ICLR",
+      "year": 2025,
+      "pages": "2144-2157"
+    }
+  ]
+}

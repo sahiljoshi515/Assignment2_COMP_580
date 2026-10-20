@@ -1,0 +1,10 @@
+{
+  "tid": "T-b8dc49",
+  "seq": 16,
+  "scenario": "sdk-1266",
+  "kind": "retry_violation",
+  "target": null,
+  "subject": "SDK-1266: which adapter breaks the retry rule",
+  "body": "Hi, Kenji Sato from the release team here. Rule R1 in\ndocs/CONVENTIONS.md fixes the retry loop. One adapter in\nadapters/ does not follow it. Which file, and which method\nholds the loop?\n\nAll adapters were copied from one template, so the deviating\nline stands out against the others.\n\nRegards, Kenji Sato -- release",
+  "received": "2026-02-05"
+}

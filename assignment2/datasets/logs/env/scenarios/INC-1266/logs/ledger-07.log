@@ -1,0 +1,107 @@
+2026-02-20T10:33:58Z ledger-07 INFO  starting ledger 8.17.5 (build 82bdd67) on ledger-07
+2026-02-20T10:33:59Z ledger-07 INFO  config: max_connections=512
+2026-02-20T10:33:59Z ledger-07 INFO  config: pool_size=16
+2026-02-20T10:33:59Z ledger-07 INFO  config: request_timeout_ms=2000
+2026-02-20T10:33:59Z ledger-07 INFO  config: cache_ttl_s=60
+2026-02-20T10:33:59Z ledger-07 INFO  config: log_level=DEBUG
+2026-02-20T10:33:59Z ledger-07 INFO  config: queue_depth=100
+2026-02-20T10:33:59Z ledger-07 INFO  config: gc_interval_s=60
+2026-02-20T10:34:00Z ledger-07 INFO  listening on 0.0.0.0:8080; workers=16
+2026-02-20T10:33:58Z ledger-07 INFO  health check ok (latency 3ms)
+2026-02-20T10:34:01Z ledger-07 INFO  GET /v1/orders/32185 200 in 18ms rid=f45753
+2026-02-20T10:34:09Z ledger-07 INFO  GET /v1/search 200 in 197ms rid=1a178e
+2026-02-20T10:34:15Z ledger-07 INFO  metrics: rps=226 p99=898ms heap=829MB goroutines=867
+2026-02-20T10:34:17Z ledger-07 INFO  GET /v1/orders/64283 200 in 21ms rid=d04df9
+2026-02-20T10:34:25Z ledger-07 INFO  DELETE /v1/cart/60814 200 in 175ms rid=23255a
+2026-02-20T10:34:28Z ledger-07 INFO  health check ok (latency 7ms)
+2026-02-20T10:34:33Z ledger-07 INFO  PUT /v1/cart 200 in 195ms rid=7da14e
+2026-02-20T10:34:39Z ledger-07 WARN  connection pool at 10% capacity
+2026-02-20T10:34:41Z ledger-07 INFO  POST /v1/payments 200 in 306ms rid=8adcf2
+2026-02-20T10:34:49Z ledger-07 INFO  POST /v1/orders 200 in 99ms rid=09a727
+2026-02-20T10:34:57Z ledger-07 INFO  POST /v1/orders 200 in 8ms rid=d0c4cd
+2026-02-20T10:34:58Z ledger-07 INFO  health check ok (latency 5ms)
+2026-02-20T10:35:05Z ledger-07 INFO  GET /v1/search 200 in 246ms rid=47bc33
+2026-02-20T10:35:13Z ledger-07 INFO  GET /v1/search 200 in 182ms rid=e9514b
+2026-02-20T10:35:21Z ledger-07 INFO  GET /v1/profile 200 in 126ms rid=b9264f
+2026-02-20T10:35:28Z ledger-07 INFO  health check ok (latency 4ms)
+2026-02-20T10:35:29Z ledger-07 INFO  GET /v1/search 200 in 207ms rid=b30f25
+2026-02-20T10:35:37Z ledger-07 INFO  GET /v1/profile 200 in 387ms rid=ec5067
+2026-02-20T10:35:45Z ledger-07 INFO  POST /v1/refunds 200 in 244ms rid=94c546
+2026-02-20T10:35:53Z ledger-07 INFO  PUT /v1/cart 200 in 232ms rid=acbfc3
+2026-02-20T10:35:58Z ledger-07 INFO  health check ok (latency 7ms)
+2026-02-20T10:36:01Z ledger-07 INFO  POST /v1/orders 200 in 101ms rid=714703
+2026-02-20T10:36:09Z ledger-07 INFO  POST /v1/payments 200 in 251ms rid=1edba3
+2026-02-20T10:36:15Z ledger-07 INFO  metrics: rps=348 p99=880ms heap=675MB goroutines=413
+2026-02-20T10:36:16Z ledger-07 WARN  slow query took 20ms on shard 3
+2026-02-20T10:36:17Z ledger-07 INFO  DELETE /v1/cart/74979 200 in 381ms rid=32bef5
+2026-02-20T10:36:25Z ledger-07 INFO  GET /v1/orders/45938 200 in 137ms rid=2f86ec
+2026-02-20T10:36:28Z ledger-07 INFO  health check ok (latency 6ms)
+2026-02-20T10:36:33Z ledger-07 INFO  PUT /v1/cart 200 in 114ms rid=a33db6
+2026-02-20T10:36:41Z ledger-07 INFO  GET /v1/search 200 in 112ms rid=926670
+2026-02-20T10:36:49Z ledger-07 INFO  DELETE /v1/cart/10093 200 in 8ms rid=3279d4
+2026-02-20T10:36:57Z ledger-07 INFO  GET /v1/profile 200 in 342ms rid=0a8744
+2026-02-20T10:36:58Z ledger-07 INFO  health check ok (latency 4ms)
+2026-02-20T10:37:05Z ledger-07 INFO  DELETE /v1/cart/85295 200 in 272ms rid=d51640
+2026-02-20T10:37:13Z ledger-07 INFO  GET /health 200 in 280ms rid=74e323
+2026-02-20T10:37:21Z ledger-07 INFO  POST /v1/payments 200 in 257ms rid=7a2787
+2026-02-20T10:37:28Z ledger-07 INFO  health check ok (latency 6ms)
+2026-02-20T10:37:29Z ledger-07 INFO  GET /v1/orders/3219 200 in 159ms rid=c1882f
+2026-02-20T10:37:37Z ledger-07 INFO  GET /v1/profile 200 in 43ms rid=795003
+2026-02-20T10:37:45Z ledger-07 INFO  POST /v1/orders 200 in 397ms rid=9665dd
+2026-02-20T10:37:53Z ledger-07 INFO  POST /v1/payments 200 in 298ms rid=781fbc
+2026-02-20T10:37:53Z ledger-07 WARN  cache miss ratio above 0.65
+2026-02-20T10:37:58Z ledger-07 INFO  health check ok (latency 9ms)
+2026-02-20T10:38:01Z ledger-07 INFO  PUT /v1/cart 200 in 319ms rid=33a695
+2026-02-20T10:38:09Z ledger-07 INFO  POST /v1/orders 200 in 99ms rid=1683ff
+2026-02-20T10:38:15Z ledger-07 INFO  metrics: rps=181 p99=389ms heap=471MB goroutines=411
+2026-02-20T10:38:17Z ledger-07 INFO  POST /v1/payments 200 in 165ms rid=740c26
+2026-02-20T10:38:25Z ledger-07 INFO  POST /v1/refunds 200 in 174ms rid=118749
+2026-02-20T10:38:28Z ledger-07 INFO  health check ok (latency 2ms)
+2026-02-20T10:38:33Z ledger-07 INFO  GET /health 200 in 53ms rid=a966f2
+2026-02-20T10:38:41Z ledger-07 INFO  GET /v1/orders/46407 200 in 223ms rid=c4b8ef
+2026-02-20T10:38:49Z ledger-07 INFO  POST /v1/refunds 200 in 128ms rid=c006f3
+2026-02-20T10:38:57Z ledger-07 INFO  GET /v1/items/34474 200 in 100ms rid=3b31dc
+2026-02-20T10:38:58Z ledger-07 INFO  health check ok (latency 5ms)
+2026-02-20T10:39:05Z ledger-07 INFO  GET /v1/profile 200 in 363ms rid=131b95
+2026-02-20T10:39:13Z ledger-07 INFO  GET /health 200 in 154ms rid=8eab29
+2026-02-20T10:39:21Z ledger-07 INFO  POST /v1/orders 200 in 169ms rid=b71935
+2026-02-20T10:39:28Z ledger-07 INFO  health check ok (latency 7ms)
+2026-02-20T10:39:29Z ledger-07 INFO  GET /health 200 in 197ms rid=686c91
+2026-02-20T10:39:30Z ledger-07 WARN  connection pool at 26% capacity
+2026-02-20T10:39:37Z ledger-07 INFO  DELETE /v1/cart/56431 200 in 333ms rid=125a3c
+2026-02-20T10:39:45Z ledger-07 INFO  GET /v1/orders/51162 200 in 6ms rid=fd720b
+2026-02-20T10:39:53Z ledger-07 INFO  DELETE /v1/cart/59639 200 in 44ms rid=a12807
+2026-02-20T10:39:58Z ledger-07 INFO  health check ok (latency 10ms)
+2026-02-20T10:40:01Z ledger-07 INFO  POST /v1/refunds 200 in 333ms rid=c39195
+2026-02-20T10:40:04Z ledger-07 ERROR SerializationError: payments-api did not respond within 2000ms (attempt 1/3)
+2026-02-20T10:40:09Z ledger-07 INFO  GET /health 503 in 362ms rid=3c16cf
+2026-02-20T10:40:10Z ledger-07 ERROR SerializationError: payments-api did not respond within 2000ms (attempt 2/3)
+2026-02-20T10:40:15Z ledger-07 INFO  metrics: rps=168 p99=847ms heap=1736MB goroutines=176
+2026-02-20T10:40:16Z ledger-07 ERROR SerializationError: payments-api did not respond within 2000ms (attempt 3/3)
+2026-02-20T10:40:17Z ledger-07 INFO  POST /v1/payments 503 in 260ms rid=8e5eea
+2026-02-20T10:40:22Z ledger-07 ERROR SerializationError: payments-api did not respond within 2000ms (attempt 1/3)
+2026-02-20T10:40:25Z ledger-07 INFO  PUT /v1/cart 200 in 278ms rid=efc073
+2026-02-20T10:40:28Z ledger-07 WARN  health check FAILED: payments-api unreachable
+2026-02-20T10:40:28Z ledger-07 ERROR SerializationError: payments-api did not respond within 2000ms (attempt 2/3)
+2026-02-20T10:40:33Z ledger-07 INFO  DELETE /v1/cart/37071 200 in 296ms rid=60eeb9
+2026-02-20T10:40:34Z ledger-07 ERROR SerializationError: payments-api did not respond within 2000ms (attempt 3/3)
+2026-02-20T10:40:40Z ledger-07 ERROR SerializationError: payments-api did not respond within 2000ms (attempt 1/3)
+2026-02-20T10:40:41Z ledger-07 INFO  DELETE /v1/cart/82881 200 in 91ms rid=b63f51
+2026-02-20T10:40:46Z ledger-07 ERROR SerializationError: payments-api did not respond within 2000ms (attempt 2/3)
+2026-02-20T10:40:49Z ledger-07 INFO  POST /v1/refunds 200 in 328ms rid=163d6a
+2026-02-20T10:40:52Z ledger-07 ERROR SerializationError: payments-api did not respond within 2000ms (attempt 3/3)
+2026-02-20T10:40:57Z ledger-07 INFO  GET /v1/orders/62964 503 in 36ms rid=5d9e95
+2026-02-20T10:40:58Z ledger-07 WARN  health check FAILED: payments-api unreachable
+2026-02-20T10:40:58Z ledger-07 ERROR SerializationError: payments-api did not respond within 2000ms (attempt 1/3)
+2026-02-20T10:41:04Z ledger-07 ERROR SerializationError: payments-api did not respond within 2000ms (attempt 2/3)
+2026-02-20T10:41:05Z ledger-07 INFO  POST /v1/payments 503 in 391ms rid=9a917c
+2026-02-20T10:41:07Z ledger-07 WARN  slow query took 71ms on shard 1
+2026-02-20T10:41:10Z ledger-07 ERROR SerializationError: payments-api did not respond within 2000ms (attempt 3/3)
+2026-02-20T10:41:13Z ledger-07 INFO  GET /v1/search 503 in 358ms rid=15020c
+2026-02-20T10:41:16Z ledger-07 ERROR SerializationError: giving up on payments-api after 13 attempts
+2026-02-20T10:41:21Z ledger-07 INFO  POST /v1/refunds 200 in 11ms rid=9180d6
+2026-02-20T10:41:28Z ledger-07 INFO  health check ok (latency 10ms)
+2026-02-20T10:41:29Z ledger-07 INFO  GET /v1/profile 200 in 270ms rid=cc55ab
+2026-02-20T10:41:37Z ledger-07 INFO  POST /v1/payments 200 in 182ms rid=d593ee
+2026-02-20T10:41:45Z ledger-07 INFO  POST /v1/payments 200 in 309ms rid=f3d88b
+2026-02-20T10:41:53Z ledger-07 INFO  POST /v1/payments 200 in 297ms rid=1d6577

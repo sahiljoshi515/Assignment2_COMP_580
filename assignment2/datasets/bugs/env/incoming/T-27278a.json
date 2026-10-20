@@ -1,0 +1,11 @@
+{
+  "tid": "T-27278a",
+  "seq": 24,
+  "exception": "OSError",
+  "top_frame": "lattice.net.dns.resolve",
+  "version": "3.2.1",
+  "title": "dns.resolve raises OSError when refreshing the overview",
+  "body": "Environment\n\nLattice 3.2.1, Fedora 41 Workstation, server ap-south-1.\n\nSteps\n\nTo reproduce:\n- Start by refreshing the overview.\n- Keep the application open overnight, then trigger the action.\n- Check the log window; the traceback appears there.\n\nExpected\n\nNo traceback; refreshing the overview normally takes a few seconds.\n\nActual\n\nIt fails only after the app has run for many hours. The number of open files in the monitor climbs over a long session and never drops.\n\nFrequency\n\nHappens on about half the runs.",
+  "stacktrace": "lattice/ui/main.py:48 in loop\nlattice/ui/view.py:213 in refresh\nlattice/report/live.py:59 in tiles\nlattice/net/dns.py:176 in resolve\nOSError: [Errno 8] nodename nor servname provided (host=ap-south-1)",
+  "reported": "2026-02-06"
+}

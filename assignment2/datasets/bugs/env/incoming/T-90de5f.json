@@ -1,0 +1,11 @@
+{
+  "tid": "T-90de5f",
+  "seq": 2,
+  "exception": "OSError",
+  "top_frame": "lattice/store/blob.py::write",
+  "version": "3.0.1",
+  "title": "OSError In Blob.write When Running The Nightly Sync",
+  "body": "Environment\n\nLattice 3.0.1, Ubuntu 24.04 LTS, server ca-central-1.\n\nSteps\n\nTo reproduce:\n* With the log window open, start running the nightly sync.\n* Run the app for a long session, then trigger the action.\n* Watch the log for the traceback below.\n\nExpected\n\nNo traceback; running the nightly sync normally takes a few seconds.\n\nActual\n\nAfter a long session of several hours it starts failing. During a long session the open file count grows steadily.\n\nFrequency\n\nReproduces on about half the runs.",
+  "stacktrace": "lattice/ui/main.py:46 in loop\nlattice/sched/runner.py:128 in run_due\nlattice/store/remote.py:76 in sync_all\nlattice/store/blob.py:252 in write\nOSError: [Errno 28] No space left on device",
+  "reported": "2026-01-06"
+}

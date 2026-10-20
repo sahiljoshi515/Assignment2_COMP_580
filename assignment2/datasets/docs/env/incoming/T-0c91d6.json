@@ -1,0 +1,7 @@
+{
+  "tid": "T-0c91d6",
+  "seq": 52,
+  "title": "CHG-8151: change record for the Timesheet Service",
+  "body": "SUMMARY:\n\nChange CHG-8151 against the Timesheet Service is pending, as noted by the change advisory board. It was raised by Daniel Ortega of Release Management and touches 11 hosts behind the Timesheet Service, all of them in the production estate.\n\nDETAILS:\n\nSteps scheduled in the 03:30-05:00 UTC window with support from Meridian Cloud:\n- Rotate the database credentials used by the nightly batch jobs\n- Split the shared config file into one file per environment\n- Switch alert delivery from email to the paging service\n\nDECISION:\n\nBoard outcome for CHG-8151: pending. Minutes taken by Kenji Sato, 13 March 2025, covering the session held on 18 July 2025, are kept in the shared archive.",
+  "received": "2026-03-17"
+}

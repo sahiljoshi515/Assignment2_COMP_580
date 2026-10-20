@@ -1,0 +1,7 @@
+{
+  "tid": "T-fc0f1b",
+  "seq": 12,
+  "title": "CHG-8104: Change Record For The Expense Desk",
+  "body": "Summary\n\nChange CHG-8104 against the Expense Desk is approved, as\nnoted by the change advisory board. It was raised by Arjun\nPillai of Platform Engineering and touches 8 hosts behind\nthe Expense Desk, all of them in the production estate.\n\nDetails\n\nTogether with Oakridge Software the team plans the following\nsteps for the 06:00-07:00 UTC widnow:\n- Rotate the database credentials used by the nightly batch\n  jobs\n- Enable TLS 1.3 on the internal load balancer listeners\n- Retire the legacy SOAP endpoint once the cut-over is\n  complete\n\nDeciison\n\nBoard outcome for CHG-8104: approved. Arjun Pillai filed\nthis record on 5 January 2025 after the board session of 23\nJanuary 2025; minutes are in the shared archive.",
+  "received": "2026-01-20"
+}

@@ -1,0 +1,10 @@
+{
+  "tid": "T-f7c48c",
+  "seq": 4,
+  "product": "MeshMail",
+  "error_code": "E-3270",
+  "platform": "linux",
+  "subject": "E-3270: upload stalls on Linux",
+  "body": "Good morning. My setup is MeshMail 2.8.5, Ubuntu 24.04.\nStarting the weekend, the moment I start a sync a dialog\nreads 'E-3270: upload stalled at 0 bytes/s'.\n\nPower management was set to the battery-saver profile\nrecently. Uploads stall as soon as the screen turns off.\n\nBefore writing in I tried waiting a day; same error\nafterwards.\n\nThanks, Kenji Sato (Ferro & Sons)",
+  "opened": "2026-01-08"
+}

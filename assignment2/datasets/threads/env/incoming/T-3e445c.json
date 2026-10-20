@@ -1,0 +1,10 @@
+{
+  "tid": "T-3e445c",
+  "seq": 38,
+  "scenario": "mbx-1798",
+  "kind": "first_failed_backup",
+  "target": null,
+  "subject": "MBX-1798: first failed nightly backup and why",
+  "body": "Hi, Grace Okafor from the support team here. Find the earliest FAILED nightly backup report in\ninbox/ and tell me its date and the stated reason.\n\nDate as YYYY-MM-DD; the reason is the text in parentheses after FAILED.\n\nRegards, Grace Okafor -- support",
+  "received": "2026-03-23"
+}

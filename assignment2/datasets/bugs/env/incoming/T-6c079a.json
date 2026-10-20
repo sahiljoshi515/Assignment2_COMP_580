@@ -1,0 +1,11 @@
+{
+  "tid": "T-6c079a",
+  "seq": 41,
+  "exception": "ConnectionError",
+  "top_frame": "lattice.auth.oauth.callback",
+  "version": "v3.3.0",
+  "title": "ConnectionError While Signing In (oauth.callback)",
+  "body": "## Actual\n\nOnce a few hundred calls have gone through, the connections fail until a restart. It shows up under load; the connection count in the monitor keeps climbing and never drops.\n\n## Expected\n\nExpected signing in to finish without errors.\n\n## Frequency\n\nHappens only on the first run after login.\n\n## Steps\n\nSteps to reproduce:\n* Start by signing in.\n* Put the app under load with the stress script for five minutes.\n* Wait for the failure and read the log.\n\n## Environment\n\nLattice 3.3.0, Windows 11 24H2, server ca-central-1.",
+  "stacktrace": "lattice/ui/main.py:50 in loop\nlattice/ui/dialog.py:122 in on_login\nlattice/auth/flow.py:55 in start\nlattice/auth/oauth.py:108 in callback\nConnectionError: connection reset by peer (host=ca-central-1)",
+  "reported": "2026-03-02"
+}

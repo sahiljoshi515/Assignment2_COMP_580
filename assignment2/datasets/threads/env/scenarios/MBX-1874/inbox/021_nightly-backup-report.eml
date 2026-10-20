@@ -1,0 +1,16 @@
+From: Backup Service <backup-bot@tessalabs.example>
+To: ops-notify@tessalabs.example
+Date: Mon, 23 Feb 2026 03:00:00 +0000
+Subject: Nightly backup report - wiki-and-tracker - 2026-02-22
+
+Nightly backup report for 2026-02-22
+Job: wiki-and-tracker
+Status: FAILED (credentials expired)
+Started: 02:00:41 UTC   Finished: 03:00:09 UTC   Duration: 60 min
+Bytes transferred: 39.8 GB   Files: 1,023,536   Changed since last run: 3.3 %
+Retention: 30 daily, 12 weekly, 6 monthly
+Next run: 2026-02-23 02:00 UTC
+
+-- 
+This message was generated automatically by the backup service. Replies are not read.
+To change the schedule or the recipients, edit the job in the backup console.

@@ -1,0 +1,112 @@
+2026-03-16T09:46:47Z ledger-02 INFO  starting ledger 3.4.3 (build 30f7d68) on ledger-02
+2026-03-16T09:46:48Z ledger-02 INFO  config: max_connections=128
+2026-03-16T09:46:48Z ledger-02 INFO  config: pool_size=32
+2026-03-16T09:46:48Z ledger-02 INFO  config: request_timeout_ms=5000
+2026-03-16T09:46:48Z ledger-02 INFO  config: cache_ttl_s=60
+2026-03-16T09:46:48Z ledger-02 INFO  config: log_level=DEBUG
+2026-03-16T09:46:48Z ledger-02 INFO  config: queue_depth=500
+2026-03-16T09:46:48Z ledger-02 INFO  config: gc_interval_s=120
+2026-03-16T09:46:49Z ledger-02 INFO  listening on 0.0.0.0:8080; workers=16
+2026-03-16T09:46:47Z ledger-02 INFO  health check ok (latency 11ms)
+2026-03-16T09:46:50Z ledger-02 INFO  GET /v1/orders/83927 200 in 252ms rid=4b42bd
+2026-03-16T09:46:58Z ledger-02 INFO  PUT /v1/cart 200 in 10ms rid=cfe7ef
+2026-03-16T09:47:04Z ledger-02 INFO  metrics: rps=244 p99=760ms heap=236MB goroutines=838
+2026-03-16T09:47:06Z ledger-02 INFO  POST /v1/payments 200 in 56ms rid=7e4542
+2026-03-16T09:47:14Z ledger-02 INFO  PUT /v1/cart 200 in 306ms rid=fb54e2
+2026-03-16T09:47:17Z ledger-02 INFO  health check ok (latency 11ms)
+2026-03-16T09:47:22Z ledger-02 INFO  POST /v1/refunds 200 in 233ms rid=afd266
+2026-03-16T09:47:28Z ledger-02 WARN  connection pool at 64% capacity
+2026-03-16T09:47:30Z ledger-02 INFO  PUT /v1/cart 200 in 395ms rid=38957a
+2026-03-16T09:47:38Z ledger-02 INFO  GET /health 200 in 301ms rid=d3b8d3
+2026-03-16T09:47:46Z ledger-02 INFO  POST /v1/orders 200 in 179ms rid=61f48e
+2026-03-16T09:47:47Z ledger-02 INFO  health check ok (latency 11ms)
+2026-03-16T09:47:54Z ledger-02 INFO  DELETE /v1/cart/84013 200 in 182ms rid=f24e0d
+2026-03-16T09:48:02Z ledger-02 INFO  GET /v1/profile 200 in 369ms rid=3bdbc5
+2026-03-16T09:48:10Z ledger-02 INFO  GET /v1/orders/49312 200 in 8ms rid=c3bd24
+2026-03-16T09:48:17Z ledger-02 INFO  health check ok (latency 11ms)
+2026-03-16T09:48:18Z ledger-02 INFO  POST /v1/payments 200 in 79ms rid=1563ef
+2026-03-16T09:48:26Z ledger-02 INFO  DELETE /v1/cart/17765 200 in 145ms rid=794647
+2026-03-16T09:48:34Z ledger-02 INFO  DELETE /v1/cart/44462 200 in 210ms rid=2dff0b
+2026-03-16T09:48:42Z ledger-02 INFO  POST /v1/orders 200 in 4ms rid=0e16ab
+2026-03-16T09:48:47Z ledger-02 INFO  health check ok (latency 5ms)
+2026-03-16T09:48:50Z ledger-02 INFO  GET /health 200 in 50ms rid=f98820
+2026-03-16T09:48:58Z ledger-02 INFO  GET /v1/search 200 in 372ms rid=71c8a3
+2026-03-16T09:49:04Z ledger-02 INFO  metrics: rps=266 p99=760ms heap=1664MB goroutines=242
+2026-03-16T09:49:05Z ledger-02 WARN  connection pool at 82% capacity
+2026-03-16T09:49:06Z ledger-02 INFO  GET /v1/orders/20363 200 in 228ms rid=158763
+2026-03-16T09:49:14Z ledger-02 INFO  GET /v1/search 200 in 273ms rid=f50363
+2026-03-16T09:49:17Z ledger-02 INFO  health check ok (latency 8ms)
+2026-03-16T09:49:22Z ledger-02 INFO  POST /v1/payments 200 in 150ms rid=fabbdf
+2026-03-16T09:49:30Z ledger-02 INFO  POST /v1/refunds 200 in 148ms rid=43e8ae
+2026-03-16T09:49:38Z ledger-02 INFO  GET /health 200 in 387ms rid=697be3
+2026-03-16T09:49:46Z ledger-02 INFO  GET /v1/search 200 in 125ms rid=686b74
+2026-03-16T09:49:47Z ledger-02 INFO  health check ok (latency 5ms)
+2026-03-16T09:49:54Z ledger-02 INFO  GET /v1/profile 200 in 143ms rid=574fc3
+2026-03-16T09:50:02Z ledger-02 INFO  GET /v1/items/23175 200 in 150ms rid=dc2205
+2026-03-16T09:50:10Z ledger-02 INFO  PUT /v1/cart 200 in 355ms rid=faae9e
+2026-03-16T09:50:17Z ledger-02 INFO  health check ok (latency 5ms)
+2026-03-16T09:50:18Z ledger-02 INFO  GET /v1/search 200 in 367ms rid=fa059d
+2026-03-16T09:50:26Z ledger-02 INFO  GET /v1/search 200 in 245ms rid=dcaede
+2026-03-16T09:50:34Z ledger-02 INFO  GET /v1/search 200 in 259ms rid=314e24
+2026-03-16T09:50:42Z ledger-02 INFO  GET /v1/profile 200 in 182ms rid=04fc11
+2026-03-16T09:50:42Z ledger-02 WARN  connection pool at 15% capacity
+2026-03-16T09:50:47Z ledger-02 INFO  health check ok (latency 1ms)
+2026-03-16T09:50:50Z ledger-02 INFO  DELETE /v1/cart/95602 200 in 362ms rid=b4c1ee
+2026-03-16T09:50:58Z ledger-02 INFO  GET /v1/search 200 in 86ms rid=897f45
+2026-03-16T09:51:04Z ledger-02 INFO  metrics: rps=97 p99=406ms heap=840MB goroutines=573
+2026-03-16T09:51:06Z ledger-02 INFO  GET /v1/search 200 in 124ms rid=1e8072
+2026-03-16T09:51:14Z ledger-02 INFO  GET /v1/profile 200 in 395ms rid=e0a36e
+2026-03-16T09:51:17Z ledger-02 INFO  health check ok (latency 9ms)
+2026-03-16T09:51:22Z ledger-02 INFO  POST /v1/payments 200 in 107ms rid=7e5012
+2026-03-16T09:51:30Z ledger-02 INFO  DELETE /v1/cart/34072 200 in 53ms rid=a34a02
+2026-03-16T09:51:32Z ledger-02 ERROR ConnectionResetError: search-index did not respond within 5000ms (attempt 1/3)
+2026-03-16T09:51:38Z ledger-02 INFO  GET /v1/items/35248 503 in 232ms rid=bfe04e
+2026-03-16T09:51:40Z ledger-02 ERROR ConnectionResetError: search-index did not respond within 5000ms (attempt 2/3)
+2026-03-16T09:51:46Z ledger-02 INFO  POST /v1/payments 503 in 95ms rid=f48663
+2026-03-16T09:51:47Z ledger-02 WARN  health check FAILED: search-index unreachable
+2026-03-16T09:51:48Z ledger-02 ERROR ConnectionResetError: search-index did not respond within 5000ms (attempt 3/3)
+2026-03-16T09:51:54Z ledger-02 INFO  GET /v1/orders/38310 200 in 311ms rid=fd2dee
+2026-03-16T09:51:56Z ledger-02 ERROR ConnectionResetError: search-index did not respond within 5000ms (attempt 1/3)
+2026-03-16T09:52:02Z ledger-02 INFO  GET /v1/profile 503 in 118ms rid=623f69
+2026-03-16T09:52:04Z ledger-02 ERROR ConnectionResetError: search-index did not respond within 5000ms (attempt 2/3)
+2026-03-16T09:52:10Z ledger-02 INFO  GET /v1/search 503 in 375ms rid=79bb9e
+2026-03-16T09:52:12Z ledger-02 ERROR ConnectionResetError: search-index did not respond within 5000ms (attempt 3/3)
+2026-03-16T09:52:17Z ledger-02 WARN  health check FAILED: search-index unreachable
+2026-03-16T09:52:18Z ledger-02 INFO  GET /v1/profile 503 in 279ms rid=b33647
+2026-03-16T09:52:19Z ledger-02 WARN  slow query took 26ms on shard 2
+2026-03-16T09:52:20Z ledger-02 ERROR ConnectionResetError: search-index did not respond within 5000ms (attempt 1/3)
+2026-03-16T09:52:26Z ledger-02 INFO  GET /v1/items/71767 503 in 13ms rid=c4bd31
+2026-03-16T09:52:28Z ledger-02 ERROR ConnectionResetError: search-index did not respond within 5000ms (attempt 2/3)
+2026-03-16T09:52:34Z ledger-02 INFO  GET /v1/items/70916 200 in 23ms rid=891174
+2026-03-16T09:52:36Z ledger-02 ERROR ConnectionResetError: search-index did not respond within 5000ms (attempt 3/3)
+2026-03-16T09:52:42Z ledger-02 INFO  POST /v1/refunds 503 in 243ms rid=cb944c
+2026-03-16T09:52:44Z ledger-02 ERROR ConnectionResetError: search-index did not respond within 5000ms (attempt 1/3)
+2026-03-16T09:52:47Z ledger-02 WARN  health check FAILED: search-index unreachable
+2026-03-16T09:52:50Z ledger-02 INFO  DELETE /v1/cart/8955 503 in 295ms rid=f2d1d2
+2026-03-16T09:52:52Z ledger-02 ERROR ConnectionResetError: search-index did not respond within 5000ms (attempt 2/3)
+2026-03-16T09:52:58Z ledger-02 INFO  DELETE /v1/cart/46924 503 in 330ms rid=d25911
+2026-03-16T09:53:00Z ledger-02 ERROR ConnectionResetError: search-index did not respond within 5000ms (attempt 3/3)
+2026-03-16T09:53:04Z ledger-02 INFO  metrics: rps=297 p99=193ms heap=1036MB goroutines=323
+2026-03-16T09:53:06Z ledger-02 INFO  POST /v1/refunds 503 in 83ms rid=af637f
+2026-03-16T09:53:08Z ledger-02 ERROR ConnectionResetError: search-index did not respond within 5000ms (attempt 1/3)
+2026-03-16T09:53:14Z ledger-02 INFO  PUT /v1/cart 200 in 172ms rid=385454
+2026-03-16T09:53:16Z ledger-02 ERROR ConnectionResetError: search-index did not respond within 5000ms (attempt 2/3)
+2026-03-16T09:53:17Z ledger-02 WARN  health check FAILED: search-index unreachable
+2026-03-16T09:53:22Z ledger-02 INFO  GET /v1/orders/84459 200 in 23ms rid=642a4a
+2026-03-16T09:53:24Z ledger-02 ERROR ConnectionResetError: search-index did not respond within 5000ms (attempt 3/3)
+2026-03-16T09:53:30Z ledger-02 INFO  DELETE /v1/cart/71975 503 in 210ms rid=c24043
+2026-03-16T09:53:32Z ledger-02 ERROR ConnectionResetError: search-index did not respond within 5000ms (attempt 1/3)
+2026-03-16T09:53:38Z ledger-02 INFO  DELETE /v1/cart/89312 200 in 310ms rid=c01aad
+2026-03-16T09:53:40Z ledger-02 ERROR ConnectionResetError: search-index did not respond within 5000ms (attempt 2/3)
+2026-03-16T09:53:46Z ledger-02 INFO  PUT /v1/cart 200 in 274ms rid=c65576
+2026-03-16T09:53:47Z ledger-02 WARN  health check FAILED: search-index unreachable
+2026-03-16T09:53:48Z ledger-02 ERROR ConnectionResetError: giving up on search-index after 18 attempts
+2026-03-16T09:53:54Z ledger-02 INFO  POST /v1/payments 200 in 111ms rid=e5ef6c
+2026-03-16T09:53:56Z ledger-02 WARN  retrying upstream call (attempt 1/3)
+2026-03-16T09:54:02Z ledger-02 INFO  DELETE /v1/cart/84475 200 in 18ms rid=a1a34f
+2026-03-16T09:54:10Z ledger-02 INFO  GET /v1/search 200 in 7ms rid=96487f
+2026-03-16T09:54:17Z ledger-02 INFO  health check ok (latency 9ms)
+2026-03-16T09:54:18Z ledger-02 INFO  POST /v1/refunds 200 in 359ms rid=5a5005
+2026-03-16T09:54:26Z ledger-02 INFO  GET /health 200 in 341ms rid=25dd7c
+2026-03-16T09:54:34Z ledger-02 INFO  GET /v1/items/57886 200 in 135ms rid=557c96
+2026-03-16T09:54:42Z ledger-02 INFO  POST /v1/refunds 200 in 224ms rid=267e63

@@ -1,0 +1,140 @@
+{
+  "dataset": "revisions",
+  "seed": 83,
+  "args": {
+    "history_size": 60,
+    "incoming": 40,
+    "dup_rate": 0.4
+  },
+  "counts": {
+    "history": 60,
+    "incoming": 40,
+    "duplicates": 16,
+    "hard_negatives": 8,
+    "by_kind": {
+      "exact": 3,
+      "format": 4,
+      "reorder": 2,
+      "edit": 3,
+      "paraphrase": 4
+    },
+    "dup_of_history": 11,
+    "dup_of_task": 5,
+    "history_twins": 3
+  },
+  "tokens": {
+    "instructions": 999,
+    "history": 7649,
+    "incoming": 5147,
+    "reference": 102894,
+    "total": 116689
+  },
+  "budget": {
+    "range": [
+      12000,
+      45000
+    ],
+    "enforced": true,
+    "ok": true,
+    "measured": 13063
+  },
+  "similarity": {
+    "exact": {
+      "n": 3,
+      "min": 1.0,
+      "p10": 1.0,
+      "p50": 1.0,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "format": {
+      "n": 4,
+      "min": 1.0,
+      "p10": 1.0,
+      "p50": 1.0,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "reorder": {
+      "n": 2,
+      "min": 0.852,
+      "p10": 0.852,
+      "p50": 0.867,
+      "p90": 0.867,
+      "max": 0.867
+    },
+    "edit": {
+      "n": 3,
+      "min": 0.681,
+      "p10": 0.681,
+      "p50": 0.708,
+      "p90": 0.778,
+      "max": 0.778
+    },
+    "paraphrase": {
+      "n": 4,
+      "min": 0.104,
+      "p10": 0.104,
+      "p50": 0.148,
+      "p90": 0.214,
+      "max": 0.214
+    },
+    "hard_negative": {
+      "n": 8,
+      "min": 0.75,
+      "p10": 0.75,
+      "p50": 0.785,
+      "p90": 0.93,
+      "max": 0.93
+    },
+    "confusable": {
+      "n": 0
+    },
+    "random": {
+      "n": 197,
+      "min": 0.0,
+      "p10": 0.0,
+      "p50": 0.01,
+      "p90": 0.158,
+      "max": 0.425
+    }
+  },
+  "text_for_similarity": "subject + body",
+  "answer_histogram": {
+    "{\"count\": 1}": 9,
+    "{\"revision\": \"v08\"}": 6,
+    "{\"revision\": \"v07\"}": 3,
+    "{\"value\": 12}": 3,
+    "{\"requirement\": \"R9\", \"revision\": \"v04\"}": 2,
+    "{\"revision\": \"v04\"}": 2,
+    "{\"count\": 2}": 1,
+    "{\"count\": 3}": 1,
+    "{\"owner\": \"Head of Information Security\", \"revision\": \"v04\"}": 1,
+    "{\"requirement\": \"R4\", \"revision\": \"v08\"}": 1,
+    "{\"requirement\": \"R5\", \"revision\": \"v03\"}": 1,
+    "{\"requirement\": \"R6\", \"revision\": \"v06\"}": 1
+  },
+  "max_answer_share": 0.225,
+  "content": {
+    "scenarios": 24,
+    "files_per_scenario": [
+      7,
+      10
+    ],
+    "tokens_per_scenario": {
+      "min": 3474,
+      "mean": 4287,
+      "max": 5409
+    },
+    "within_group_jaccard_p50": {
+      "min": 0.806,
+      "max": 0.951
+    },
+    "cross_group_jaccard_max": 0.0,
+    "groups_per_scenario": [
+      1,
+      1
+    ],
+    "normalisation": "lower-case alphanumeric tokens, digit runs masked to 0, word 3-shingles"
+  }
+}

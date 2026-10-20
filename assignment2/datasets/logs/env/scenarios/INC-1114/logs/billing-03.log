@@ -1,0 +1,107 @@
+2026-03-21T14:55:12Z billing-03 INFO  starting billing 2.11.1 (build c35c80f) on billing-03
+2026-03-21T14:55:13Z billing-03 INFO  config: max_connections=512
+2026-03-21T14:55:13Z billing-03 INFO  config: pool_size=8
+2026-03-21T14:55:13Z billing-03 INFO  config: request_timeout_ms=2000
+2026-03-21T14:55:13Z billing-03 INFO  config: cache_ttl_s=900
+2026-03-21T14:55:13Z billing-03 INFO  config: log_level=INFO
+2026-03-21T14:55:13Z billing-03 INFO  config: queue_depth=1000
+2026-03-21T14:55:13Z billing-03 INFO  config: gc_interval_s=60
+2026-03-21T14:55:14Z billing-03 INFO  listening on 0.0.0.0:8080; workers=12
+2026-03-21T14:55:12Z billing-03 INFO  health check ok (latency 6ms)
+2026-03-21T14:55:15Z billing-03 INFO  POST /v1/refunds 200 in 60ms rid=cf4f72
+2026-03-21T14:55:23Z billing-03 INFO  GET /v1/search 200 in 128ms rid=8a243e
+2026-03-21T14:55:29Z billing-03 INFO  metrics: rps=117 p99=253ms heap=621MB goroutines=663
+2026-03-21T14:55:31Z billing-03 INFO  POST /v1/refunds 200 in 69ms rid=983d06
+2026-03-21T14:55:39Z billing-03 INFO  GET /v1/search 200 in 353ms rid=6863d5
+2026-03-21T14:55:42Z billing-03 INFO  health check ok (latency 10ms)
+2026-03-21T14:55:47Z billing-03 INFO  GET /health 200 in 302ms rid=7f4fe2
+2026-03-21T14:55:53Z billing-03 WARN  cache miss ratio above 0.90
+2026-03-21T14:55:55Z billing-03 INFO  GET /v1/profile 200 in 268ms rid=68d389
+2026-03-21T14:56:03Z billing-03 INFO  GET /v1/items/79466 200 in 166ms rid=6126ff
+2026-03-21T14:56:11Z billing-03 INFO  GET /v1/orders/63461 200 in 229ms rid=e69b24
+2026-03-21T14:56:12Z billing-03 INFO  health check ok (latency 5ms)
+2026-03-21T14:56:19Z billing-03 INFO  GET /v1/orders/79041 200 in 204ms rid=af1a57
+2026-03-21T14:56:27Z billing-03 INFO  GET /v1/search 200 in 133ms rid=354b84
+2026-03-21T14:56:35Z billing-03 INFO  POST /v1/payments 200 in 265ms rid=39f418
+2026-03-21T14:56:42Z billing-03 INFO  health check ok (latency 5ms)
+2026-03-21T14:56:43Z billing-03 INFO  PUT /v1/cart 200 in 143ms rid=a35d2f
+2026-03-21T14:56:51Z billing-03 INFO  POST /v1/refunds 200 in 226ms rid=4d6f7a
+2026-03-21T14:56:59Z billing-03 INFO  POST /v1/refunds 200 in 191ms rid=2cd37e
+2026-03-21T14:57:07Z billing-03 INFO  POST /v1/payments 200 in 40ms rid=27f62f
+2026-03-21T14:57:12Z billing-03 INFO  health check ok (latency 7ms)
+2026-03-21T14:57:15Z billing-03 INFO  POST /v1/payments 200 in 131ms rid=c08a7e
+2026-03-21T14:57:23Z billing-03 INFO  GET /health 200 in 333ms rid=043554
+2026-03-21T14:57:29Z billing-03 INFO  metrics: rps=152 p99=416ms heap=661MB goroutines=254
+2026-03-21T14:57:30Z billing-03 WARN  cache miss ratio above 0.19
+2026-03-21T14:57:31Z billing-03 INFO  POST /v1/refunds 200 in 11ms rid=a9940c
+2026-03-21T14:57:39Z billing-03 INFO  POST /v1/orders 200 in 83ms rid=706589
+2026-03-21T14:57:42Z billing-03 INFO  health check ok (latency 9ms)
+2026-03-21T14:57:47Z billing-03 INFO  GET /health 200 in 31ms rid=f3edd1
+2026-03-21T14:57:55Z billing-03 INFO  POST /v1/payments 200 in 222ms rid=394aef
+2026-03-21T14:58:03Z billing-03 INFO  DELETE /v1/cart/9115 200 in 256ms rid=9a929c
+2026-03-21T14:58:11Z billing-03 INFO  POST /v1/payments 200 in 287ms rid=5f6446
+2026-03-21T14:58:12Z billing-03 INFO  health check ok (latency 4ms)
+2026-03-21T14:58:19Z billing-03 INFO  DELETE /v1/cart/61180 200 in 354ms rid=a3d99d
+2026-03-21T14:58:27Z billing-03 INFO  POST /v1/payments 200 in 263ms rid=a6e0a5
+2026-03-21T14:58:35Z billing-03 INFO  GET /health 200 in 314ms rid=fe568b
+2026-03-21T14:58:42Z billing-03 INFO  health check ok (latency 8ms)
+2026-03-21T14:58:43Z billing-03 INFO  GET /v1/search 200 in 226ms rid=b18aaa
+2026-03-21T14:58:51Z billing-03 INFO  GET /v1/search 200 in 239ms rid=c452a3
+2026-03-21T14:58:59Z billing-03 INFO  POST /v1/payments 200 in 296ms rid=1473c1
+2026-03-21T14:59:07Z billing-03 INFO  POST /v1/orders 200 in 246ms rid=e56ee4
+2026-03-21T14:59:07Z billing-03 WARN  connection pool at 94% capacity
+2026-03-21T14:59:12Z billing-03 INFO  health check ok (latency 2ms)
+2026-03-21T14:59:15Z billing-03 INFO  PUT /v1/cart 200 in 326ms rid=470074
+2026-03-21T14:59:23Z billing-03 INFO  GET /v1/items/55126 200 in 74ms rid=a23362
+2026-03-21T14:59:25Z billing-03 ERROR TimeoutError: search-index did not respond within 2000ms (attempt 1/3)
+2026-03-21T14:59:29Z billing-03 INFO  metrics: rps=217 p99=402ms heap=834MB goroutines=834
+2026-03-21T14:59:31Z billing-03 INFO  GET /v1/profile 200 in 241ms rid=c88d21
+2026-03-21T14:59:32Z billing-03 ERROR TimeoutError: search-index did not respond within 2000ms (attempt 2/3)
+2026-03-21T14:59:39Z billing-03 INFO  GET /v1/items/23886 503 in 259ms rid=c29872
+2026-03-21T14:59:39Z billing-03 ERROR TimeoutError: search-index did not respond within 2000ms (attempt 3/3)
+2026-03-21T14:59:42Z billing-03 WARN  health check FAILED: search-index unreachable
+2026-03-21T14:59:46Z billing-03 ERROR TimeoutError: search-index did not respond within 2000ms (attempt 1/3)
+2026-03-21T14:59:47Z billing-03 INFO  POST /v1/payments 200 in 312ms rid=3d0753
+2026-03-21T14:59:53Z billing-03 ERROR TimeoutError: search-index did not respond within 2000ms (attempt 2/3)
+2026-03-21T14:59:55Z billing-03 INFO  POST /v1/refunds 200 in 387ms rid=0b47b2
+2026-03-21T15:00:00Z billing-03 ERROR TimeoutError: search-index did not respond within 2000ms (attempt 3/3)
+2026-03-21T15:00:03Z billing-03 INFO  GET /v1/profile 503 in 214ms rid=551404
+2026-03-21T15:00:07Z billing-03 ERROR TimeoutError: search-index did not respond within 2000ms (attempt 1/3)
+2026-03-21T15:00:11Z billing-03 INFO  GET /v1/search 503 in 75ms rid=568762
+2026-03-21T15:00:12Z billing-03 WARN  health check FAILED: search-index unreachable
+2026-03-21T15:00:14Z billing-03 ERROR TimeoutError: search-index did not respond within 2000ms (attempt 2/3)
+2026-03-21T15:00:19Z billing-03 INFO  GET /v1/search 200 in 309ms rid=5d27fa
+2026-03-21T15:00:21Z billing-03 ERROR TimeoutError: search-index did not respond within 2000ms (attempt 3/3)
+2026-03-21T15:00:27Z billing-03 INFO  GET /v1/search 200 in 224ms rid=55090a
+2026-03-21T15:00:28Z billing-03 ERROR TimeoutError: search-index did not respond within 2000ms (attempt 1/3)
+2026-03-21T15:00:35Z billing-03 INFO  DELETE /v1/cart/99130 200 in 377ms rid=5a90ea
+2026-03-21T15:00:35Z billing-03 ERROR TimeoutError: search-index did not respond within 2000ms (attempt 2/3)
+2026-03-21T15:00:42Z billing-03 WARN  health check FAILED: search-index unreachable
+2026-03-21T15:00:42Z billing-03 ERROR TimeoutError: search-index did not respond within 2000ms (attempt 3/3)
+2026-03-21T15:00:43Z billing-03 INFO  GET /v1/profile 200 in 399ms rid=87a4e8
+2026-03-21T15:00:44Z billing-03 WARN  cache miss ratio above 0.55
+2026-03-21T15:00:49Z billing-03 ERROR TimeoutError: giving up on search-index after 13 attempts
+2026-03-21T15:00:51Z billing-03 INFO  POST /v1/orders 200 in 206ms rid=eb16d0
+2026-03-21T15:00:59Z billing-03 INFO  DELETE /v1/cart/3645 200 in 20ms rid=987129
+2026-03-21T15:01:07Z billing-03 INFO  POST /v1/orders 200 in 93ms rid=6ebded
+2026-03-21T15:01:12Z billing-03 INFO  health check ok (latency 6ms)
+2026-03-21T15:01:15Z billing-03 INFO  GET /v1/items/44844 200 in 36ms rid=97468b
+2026-03-21T15:01:23Z billing-03 INFO  GET /v1/profile 200 in 44ms rid=7b87d4
+2026-03-21T15:01:29Z billing-03 INFO  metrics: rps=268 p99=161ms heap=1030MB goroutines=846
+2026-03-21T15:01:31Z billing-03 INFO  GET /v1/items/53596 200 in 185ms rid=f2d79a
+2026-03-21T15:01:39Z billing-03 INFO  PUT /v1/cart 200 in 55ms rid=df6af5
+2026-03-21T15:01:42Z billing-03 INFO  health check ok (latency 9ms)
+2026-03-21T15:01:47Z billing-03 INFO  DELETE /v1/cart/85205 200 in 330ms rid=d4f543
+2026-03-21T15:01:55Z billing-03 INFO  GET /v1/search 200 in 151ms rid=bac003
+2026-03-21T15:02:03Z billing-03 INFO  GET /v1/search 200 in 87ms rid=7cb9da
+2026-03-21T15:02:11Z billing-03 INFO  GET /v1/items/69468 200 in 72ms rid=b5905e
+2026-03-21T15:02:12Z billing-03 INFO  health check ok (latency 5ms)
+2026-03-21T15:02:19Z billing-03 INFO  PUT /v1/cart 200 in 306ms rid=df38b3
+2026-03-21T15:02:21Z billing-03 WARN  cache miss ratio above 0.37
+2026-03-21T15:02:27Z billing-03 INFO  DELETE /v1/cart/23735 200 in 381ms rid=32ee50
+2026-03-21T15:02:35Z billing-03 INFO  POST /v1/refunds 200 in 231ms rid=c31c27
+2026-03-21T15:02:42Z billing-03 INFO  health check ok (latency 11ms)
+2026-03-21T15:02:43Z billing-03 INFO  GET /health 200 in 332ms rid=a4c6fa
+2026-03-21T15:02:51Z billing-03 INFO  PUT /v1/cart 200 in 324ms rid=95e8ef
+2026-03-21T15:02:59Z billing-03 INFO  PUT /v1/cart 200 in 216ms rid=860ea3
+2026-03-21T15:03:07Z billing-03 INFO  GET /v1/items/93019 200 in 385ms rid=f718f8

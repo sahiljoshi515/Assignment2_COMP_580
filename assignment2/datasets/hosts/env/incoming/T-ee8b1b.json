@@ -1,0 +1,10 @@
+{
+  "tid": "T-ee8b1b",
+  "seq": 16,
+  "scenario": "flt-1456",
+  "kind": "missing_mount",
+  "target": null,
+  "subject": "FLT-1456: which host is missing a mount",
+  "body": "Report the mount point path, e.g. /var/log.\n\nMuch appreciated, Mei Lin\n\nMei Lin (data) writing with a quick request. Compare the\n[mounts] sections of the cache snapshots and report the host\nwith a mount missing, and the mount point that is absent.",
+  "received": "2026-02-05"
+}

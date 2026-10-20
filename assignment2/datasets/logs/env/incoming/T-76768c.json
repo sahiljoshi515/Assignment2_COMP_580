@@ -1,0 +1,10 @@
+{
+  "tid": "T-76768c",
+  "seq": 21,
+  "scenario": "INC-1304",
+  "kind": "error_count",
+  "target": "ledger-03",
+  "subject": "INC-1304: how many ERROR lines did ledger-03 write",
+  "body": "Hi, Sofia Rossi from the security team here. How many ERROR lines did the host ledger-03 write\nduring the window?\n\nIts log is logs/ledger-03.log. Zero is a valid answer.\n\nMuch appreciated, Sofia Rossi",
+  "received": "2026-02-16"
+}

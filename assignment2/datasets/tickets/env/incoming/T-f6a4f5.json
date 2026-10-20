@@ -1,0 +1,10 @@
+{
+  "tid": "T-f6a4f5",
+  "seq": 49,
+  "product": "pixelforge",
+  "error_code": "e-4244",
+  "platform": "macos",
+  "subject": "E-4244: database locked on macOS",
+  "body": "Sofia Rossi -- Brightwater Clinics. Appreciate any pointers.\n\nI've already tried searching the help centre, which changed nothing.\n\nOur backup job runs nightly exactly when I sign in for the day. Waiting ten minutes and opening it again makes it work.\n\nHello support team. We run PixelForge 6.0.5 on macOS 14.7. Starting Tuesday, the moment I open the app a dialog reads \"E-4244: local database is locked\".",
+  "opened": "2026-03-03"
+}

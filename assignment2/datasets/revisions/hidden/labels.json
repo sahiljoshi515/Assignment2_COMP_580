@@ -1,0 +1,468 @@
+{
+  "T-73df3b": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-552afa",
+    "differs_in": [
+      "target"
+    ],
+    "answer": {
+      "revision": "v08"
+    },
+    "canonical_id": "C-8dd01c7f",
+    "seq": 1
+  },
+  "T-eeb8ed": {
+    "dup_of": "H-8a0d7d",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "value": 4
+    },
+    "canonical_id": "C-e7fc69d4",
+    "seq": 2
+  },
+  "T-5e8199": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "revision": "v08"
+    },
+    "canonical_id": "C-85c3966d",
+    "seq": 3
+  },
+  "T-e44ab3": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "revision": "v05",
+      "requirement": "R9"
+    },
+    "canonical_id": "C-6f415d51",
+    "seq": 4
+  },
+  "T-64658e": {
+    "dup_of": "T-5e8199",
+    "dup_kind": "exact",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "revision": "v08"
+    },
+    "canonical_id": "C-85c3966d",
+    "seq": 5
+  },
+  "T-b50c5b": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "T-e44ab3",
+    "differs_in": [
+      "scenario"
+    ],
+    "answer": {
+      "revision": "v04",
+      "requirement": "R9"
+    },
+    "canonical_id": "C-8cd6500d",
+    "seq": 6
+  },
+  "T-047a09": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "revision": "v07"
+    },
+    "canonical_id": "C-cf45db50",
+    "seq": 7
+  },
+  "T-2e1d53": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "value": 12
+    },
+    "canonical_id": "C-97ba7aea",
+    "seq": 8
+  },
+  "T-f76e99": {
+    "dup_of": "H-aa20ce",
+    "dup_kind": "exact",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "revision": "v03",
+      "requirement": "R5"
+    },
+    "canonical_id": "C-5db2524d",
+    "seq": 9
+  },
+  "T-08fb24": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "count": 1
+    },
+    "canonical_id": "C-a5316980",
+    "seq": 10
+  },
+  "T-7fa883": {
+    "dup_of": "T-08fb24",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "count": 1
+    },
+    "canonical_id": "C-a5316980",
+    "seq": 11
+  },
+  "T-186165": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "value": 12
+    },
+    "canonical_id": "C-49a7dcb9",
+    "seq": 12
+  },
+  "T-0fd77c": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "revision": "v08"
+    },
+    "canonical_id": "C-ccf93a12",
+    "seq": 13
+  },
+  "T-1e7db0": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "revision": "v06",
+      "requirement": "R6"
+    },
+    "canonical_id": "C-29ab5202",
+    "seq": 14
+  },
+  "T-0f2880": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "value": 24
+    },
+    "canonical_id": "C-b0f1b319",
+    "seq": 15
+  },
+  "T-78016b": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "revision": "v05",
+      "requirement": "R8"
+    },
+    "canonical_id": "C-8e5ef08b",
+    "seq": 16
+  },
+  "T-79a96b": {
+    "dup_of": "H-4c9d43",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "revision": "v04"
+    },
+    "canonical_id": "C-086fb33b",
+    "seq": 17
+  },
+  "T-6e6fa1": {
+    "dup_of": "T-08fb24",
+    "dup_kind": "exact",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "count": 1
+    },
+    "canonical_id": "C-a5316980",
+    "seq": 18
+  },
+  "T-1d2e91": {
+    "dup_of": "H-28a605",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "count": 1
+    },
+    "canonical_id": "C-8c7a5635",
+    "seq": 19
+  },
+  "T-3c0fab": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "revision": "v07"
+    },
+    "canonical_id": "C-0197e529",
+    "seq": 20
+  },
+  "T-881d64": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "count": 1
+    },
+    "canonical_id": "C-c134c164",
+    "seq": 21
+  },
+  "T-7ff8c6": {
+    "dup_of": "H-40bece",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "count": 2
+    },
+    "canonical_id": "C-18ad3cf9",
+    "seq": 22
+  },
+  "T-559d6c": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "revision": "v08",
+      "requirement": "R4"
+    },
+    "canonical_id": "C-e734aecf",
+    "seq": 23
+  },
+  "T-fcce06": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "count": 1
+    },
+    "canonical_id": "C-a0292311",
+    "seq": 24
+  },
+  "T-ad23c0": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-a2ba10",
+    "differs_in": [
+      "scenario"
+    ],
+    "answer": {
+      "revision": "v05"
+    },
+    "canonical_id": "C-b808fa64",
+    "seq": 25
+  },
+  "T-a7ea12": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-38dd4d",
+    "differs_in": [
+      "target"
+    ],
+    "answer": {
+      "count": 3
+    },
+    "canonical_id": "C-2b7627bd",
+    "seq": 26
+  },
+  "T-2cacdf": {
+    "dup_of": "H-397a44",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "revision": "v08"
+    },
+    "canonical_id": "C-02a8b090",
+    "seq": 27
+  },
+  "T-e65494": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "revision": "v07",
+      "requirement": "R9"
+    },
+    "canonical_id": "C-f3dde8f0",
+    "seq": 28
+  },
+  "T-5be970": {
+    "dup_of": "H-bfbca0",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "revision": "v08"
+    },
+    "canonical_id": "C-2d63c9a3",
+    "seq": 29
+  },
+  "T-189ba2": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-aa20ce",
+    "differs_in": [
+      "scenario"
+    ],
+    "answer": {
+      "revision": "v07",
+      "requirement": "R6"
+    },
+    "canonical_id": "C-8d8a0d34",
+    "seq": 30
+  },
+  "T-7d4d3f": {
+    "dup_of": "H-64321c",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "count": 1
+    },
+    "canonical_id": "C-65a47760",
+    "seq": 31
+  },
+  "T-c13287": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-e52e53",
+    "differs_in": [
+      "scenario"
+    ],
+    "answer": {
+      "revision": "v04",
+      "owner": "Head of Information Security"
+    },
+    "canonical_id": "C-5c133d22",
+    "seq": 32
+  },
+  "T-6ccb52": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-e77d55",
+    "differs_in": [
+      "scenario"
+    ],
+    "answer": {
+      "count": 1
+    },
+    "canonical_id": "C-d62c0238",
+    "seq": 33
+  },
+  "T-114ecb": {
+    "dup_of": "H-87a970",
+    "dup_kind": "reorder",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "revision": "v07"
+    },
+    "canonical_id": "C-ba8ffcbe",
+    "seq": 34
+  },
+  "T-d84601": {
+    "dup_of": "H-ba901a",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "revision": "v04"
+    },
+    "canonical_id": "C-1a54eba7",
+    "seq": 35
+  },
+  "T-49bb04": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "T-ad23c0",
+    "differs_in": [
+      "target"
+    ],
+    "answer": {
+      "revision": "v09"
+    },
+    "canonical_id": "C-7ff2326c",
+    "seq": 36
+  },
+  "T-bda07e": {
+    "dup_of": "T-6e6fa1",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "count": 1
+    },
+    "canonical_id": "C-a5316980",
+    "seq": 37
+  },
+  "T-24d676": {
+    "dup_of": "H-286327",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "value": 12
+    },
+    "canonical_id": "C-5f085a16",
+    "seq": 38
+  },
+  "T-1aa10f": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "value": 6
+    },
+    "canonical_id": "C-a84d5052",
+    "seq": 39
+  },
+  "T-ff0cbc": {
+    "dup_of": "T-b50c5b",
+    "dup_kind": "reorder",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "revision": "v04",
+      "requirement": "R9"
+    },
+    "canonical_id": "C-8cd6500d",
+    "seq": 40
+  }
+}

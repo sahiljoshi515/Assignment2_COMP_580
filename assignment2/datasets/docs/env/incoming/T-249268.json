@@ -1,0 +1,7 @@
+{
+  "tid": "T-249268",
+  "seq": 53,
+  "title": "CHG-6482: change record for the Ledger Core",
+  "body": "## Summary\n\nThis memo records a change to the Ledger Core that is currently approved. It was raised by Omar\nHaddad of Network Operations and touches 31 hosts behind the Ledger Core, all of them in the\nproduction estate.\n\n## Details\n\nTogether with Bluegate Networks the team plans the following steps for the 03:30-05:00 UTC window:\n- Raise the connection pool ceiling from 50 to 120 per node\n- Enable TLS 1.3 on the internal load balancer listeners\n- Split the shared config file into one file per environment\n\n## Decision\n\nBoard outcome for CHG-6482: approved. Recorded by Rohan Mehta on 5 November 2025; the board met on\n21 February 2025 and the minutes are in the shared archive.",
+  "received": "2026-03-18"
+}

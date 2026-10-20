@@ -1,0 +1,10 @@
+{
+  "tid": "T-a4f2cd",
+  "seq": 10,
+  "product": "MeshMail",
+  "error_code": "E-3159",
+  "platform": "android",
+  "subject": "E-3159: cannot write data directory on Android",
+  "body": "Hi, I'm using MeshMail 2.8.5 on Android 15 (Pixel 8). Starting last week, the moment I save my work a dialog reads \"E-3159: cannot write to data directory\".\n\nThere is less than a gigabyte free on the system drive. Other applications also warn about low disk space now.\n\nWhat I tried so far: waiting a day. No luck.\n\nAisha Bello -- Brightwater Clinics. Appreciate any pointers.",
+  "opened": "2026-01-15"
+}

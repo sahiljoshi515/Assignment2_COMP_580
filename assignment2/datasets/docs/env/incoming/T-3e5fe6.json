@@ -1,0 +1,7 @@
+{
+  "tid": "T-3e5fe6",
+  "seq": 24,
+  "title": "POL-731: policy governing the Pricing Engine",
+  "body": "## Scope\n\nThe policy below governs use of the Pricing Engine; it is effective. The policy\nowner is Mateo Silva (Product Support); yearly audits against the controls\nlisted here are run by Halvorsen Consulting.\n\n## Requirements\n\nAs of the 19 November 2025 review the requirements are:\n- Store secrets only in the central vault, never in source control\n- Keep production data out of test and development environments\n- Tag every cloud resource with an owner and a cost centre\n\n## Status\n\nThe policy is effective according to the register. Issued by Luca Moretti on 22\nDecember 2025; 26 exceptions are on file with Product Support and expire at the\nyearly audit.",
+  "received": "2026-02-06"
+}

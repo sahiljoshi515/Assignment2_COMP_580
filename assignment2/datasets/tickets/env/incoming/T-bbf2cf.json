@@ -1,0 +1,10 @@
+{
+  "tid": "T-bbf2cf",
+  "seq": 23,
+  "product": "syncvault",
+  "error_code": "e-1248",
+  "platform": "android",
+  "subject": "E-1248: upload stalls on Android",
+  "body": "Good morning. My setup is SyncVault 4.2.5, Android 15 (Pixel 8). Whenever I start a sync since Monday, the app shows \"E-1248: upload stalled at 0 bytes/s\".\n\nThis started right after the app updated itself on Tuesday. The very same files synced in minutes before the update.\n\nBefore writing in I tried logging out of my browser; same error afterwards.\n\nAisha Bello - Meridian Schools. Appreciate any pointers.",
+  "opened": "2026-01-31"
+}

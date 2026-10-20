@@ -1,0 +1,10 @@
+{
+  "tid": "T-e04e98",
+  "seq": 37,
+  "scenario": "MBX1684",
+  "kind": "message_count",
+  "target": "office-move",
+  "subject": "MBX-1684: how many messages in the office-move thread",
+  "body": "Hi, Hannah Cole from the data team here. Please count the messages in the office move to pier 9\nthread (original message plus replies).\n\nCount files whose Subject is that thread's subject, with or without Re:.\n\nMuch appreciated, Hannah Cole",
+  "received": "2026-03-21"
+}

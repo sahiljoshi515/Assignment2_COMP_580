@@ -1,0 +1,7 @@
+{
+  "tid": "T-b978b4",
+  "seq": 59,
+  "title": "INC-9841: Incident On The Support Console",
+  "body": "Impact\n\nThis report covers an incident on the Support Console that\nis ongoing. About 21 customer tickets were linked to it by\nSecurity Office, with Tessaro Labs engaged as the hosting\nprovider from the first hour.\n\nTimeline\n\nTimeline recorded by Kenji Sato, in order, as of 15 December\n2025:\n- Monitoring raised a latency alert for the primary cluster\n- Error rates were compared against the weekly baseline\n- The vendor was engaged through the premium support line\n\nStatus\n\nFor tracking purposes the incident is ongoing. Report\nwritten by Kenji Sato on 5 October 2025; the next review\nfalls in the 20:00-21:00 UTC window and goes to the weekly\nservice meeting.",
+  "received": "2026-03-27"
+}

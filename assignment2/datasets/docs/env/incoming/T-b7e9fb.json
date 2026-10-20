@@ -1,0 +1,7 @@
+{
+  "tid": "T-b7e9fb",
+  "seq": 19,
+  "title": "POL-534: policy for the Payroll Gateway",
+  "body": "## Scope\n\nThis policy applies to every user of the Payroll Gateway and is in draft. The policy owner is Clara\nDubois (Product Support); yearly audits against the controls listed here are run by Silverline Data.\n\n## Requirements\n\nEvery person in scope must meet these requirements, reviewed on 15 November 2025:\n- Review access lists for every production system each quarter\n- Encrypt laptops and removable media with the standard tooling\n- Obtain written sign-off before granting vendor access\n\n## Status\n\nFor the record, POL-534 is in draft. Version issued 9 August 2025 by Elena Vasquez; exceptions on\nfile: 11, all expiring at the yearly audit.",
+  "received": "2026-01-30"
+}

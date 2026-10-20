@@ -1,0 +1,18 @@
+{
+  "tid": "T-cf4fee",
+  "seq": 57,
+  "citation": {
+    "authors": [
+      "Moretti, Sofia",
+      "Ibarra, Pablo",
+      "Torres, Dmitri"
+    ],
+    "title": "Self-Supervised pretraining for effective link prediction",
+    "venue": "NIPS",
+    "year": 2025,
+    "doi": "10.5555/neurips.2025.a135",
+    "pages": "2614-2626"
+  },
+  "raw": "Moretti, Sofia, Ibarra, Pablo, and Torres, Dmitri, \"Self-Supervised pretraining for effective link prediction,\" in Proceedings of NIPS, Jul. 2025, pages 2614-2626, 10.5555/neurips.2025.a135.",
+  "received": "2026-03-13"
+}

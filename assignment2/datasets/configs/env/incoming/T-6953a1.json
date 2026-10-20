@@ -1,0 +1,10 @@
+{
+  "tid": "T-6953a1",
+  "seq": 24,
+  "scenario": "cfg-1836",
+  "kind": "log_level_of",
+  "target": "dev",
+  "subject": "CFG-1836: what log level does dev use",
+  "body": "Hello -- Luca Moretti, QA. What logging level is configured for shipping-api in\nthe dev environment?\n\nIt is the value of logging.level in that environment's file.\n\nRegards, Luca Moretti -- QA",
+  "received": "2026-02-22"
+}

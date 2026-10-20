@@ -1,0 +1,10 @@
+{
+  "tid": "T-d73a4e",
+  "seq": 6,
+  "scenario": "INC-1342",
+  "kind": "drift_host",
+  "target": null,
+  "subject": "INC-1342: which host started with a different configuration",
+  "body": "Ivan Petrov (security) writing with a brief request. We think one inventory host loaded a different\nconfiguration at startup. Let me know me which host it is and which key is set differently from the others.\n\nThe logs of every host for the incident window are in logs/, one file per host. The startup banner\nprints the configuration one key per line.\n\nThanks, Ivan Petrov",
+  "received": "2026-01-15"
+}

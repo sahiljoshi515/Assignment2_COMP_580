@@ -1,0 +1,140 @@
+{
+  "dataset": "code",
+  "seed": 71,
+  "args": {
+    "history_size": 60,
+    "incoming": 40,
+    "dup_rate": 0.4
+  },
+  "counts": {
+    "history": 60,
+    "incoming": 40,
+    "duplicates": 16,
+    "hard_negatives": 8,
+    "by_kind": {
+      "exact": 3,
+      "format": 4,
+      "reorder": 2,
+      "edit": 3,
+      "paraphrase": 4
+    },
+    "dup_of_history": 11,
+    "dup_of_task": 5,
+    "history_twins": 4
+  },
+  "tokens": {
+    "instructions": 1028,
+    "history": 7643,
+    "incoming": 4577,
+    "reference": 177455,
+    "total": 190703
+  },
+  "budget": {
+    "range": [
+      12000,
+      45000
+    ],
+    "enforced": true,
+    "ok": true,
+    "measured": 16178
+  },
+  "similarity": {
+    "exact": {
+      "n": 3,
+      "min": 1.0,
+      "p10": 1.0,
+      "p50": 1.0,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "format": {
+      "n": 4,
+      "min": 1.0,
+      "p10": 1.0,
+      "p50": 1.0,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "reorder": {
+      "n": 2,
+      "min": 0.852,
+      "p10": 0.852,
+      "p50": 0.857,
+      "p90": 0.857,
+      "max": 0.857
+    },
+    "edit": {
+      "n": 3,
+      "min": 0.592,
+      "p10": 0.592,
+      "p50": 0.66,
+      "p90": 0.755,
+      "max": 0.755
+    },
+    "paraphrase": {
+      "n": 4,
+      "min": 0.071,
+      "p10": 0.071,
+      "p50": 0.182,
+      "p90": 0.231,
+      "max": 0.231
+    },
+    "hard_negative": {
+      "n": 8,
+      "min": 0.581,
+      "p10": 0.581,
+      "p50": 0.815,
+      "p90": 0.925,
+      "max": 0.925
+    },
+    "confusable": {
+      "n": 0
+    },
+    "random": {
+      "n": 198,
+      "min": 0.0,
+      "p10": 0.0,
+      "p50": 0.0,
+      "p90": 0.084,
+      "max": 0.918
+    }
+  },
+  "text_for_similarity": "subject + body",
+  "answer_histogram": {
+    "{\"file\": \"adapters/adyen.py\", \"value\": \"https://api.adyen.com/v1\"}": 4,
+    "{\"file\": \"adapters/checkout.py\", \"function\": \"_request\"}": 4,
+    "{\"codes\": [\"INSTRUMENT_DECLINED\", \"PAYER_CANNOT_PAY\", \"TRANSACTION_REFUSED\"], \"file\": \"adapters/paypal.py\"}": 2,
+    "{\"codes\": [\"REFUSED\", \"NOT_ENOUGH_BALANCE\", \"EXPIRED_CARD\", \"CVC_DECLINED\"], \"file\": \"adapters/adyen.py\"}": 2,
+    "{\"file\": \"adapters/adyen.py\", \"function\": \"refund\"}": 2,
+    "{\"file\": \"adapters/braintree.py\", \"value\": \"https://api.braintreegateway.com/v2\"}": 2,
+    "{\"file\": \"adapters/paypal.py\", \"function\": \"_request\"}": 2,
+    "{\"file\": \"adapters/square.py\", \"function\": \"refund\"}": 2,
+    "{\"algorithm\": \"sha1\", \"file\": \"adapters/braintree.py\"}": 1,
+    "{\"algorithm\": \"sha1\", \"file\": \"adapters/worldpay.py\"}": 1,
+    "{\"codes\": [\"20005\", \"20051\", \"20054\", \"30004\"], \"file\": \"adapters/checkout.py\"}": 1,
+    "{\"codes\": [\"CARD_DECLINED\", \"INSUFFICIENT_FUNDS\", \"CVV_FAILURE\", \"CARD_EXPIRED\"], \"file\": \"adapters/square.py\"}": 1
+  },
+  "max_answer_share": 0.1,
+  "content": {
+    "scenarios": 24,
+    "files_per_scenario": [
+      11,
+      13
+    ],
+    "tokens_per_scenario": {
+      "min": 6589,
+      "mean": 7393,
+      "max": 8614
+    },
+    "within_group_jaccard_p50": {
+      "min": 0.874,
+      "max": 0.887
+    },
+    "cross_group_jaccard_max": 0.02,
+    "groups_per_scenario": [
+      1,
+      1
+    ],
+    "normalisation": "lower-case alphanumeric tokens, digit runs masked to 0, word 3-shingles"
+  }
+}

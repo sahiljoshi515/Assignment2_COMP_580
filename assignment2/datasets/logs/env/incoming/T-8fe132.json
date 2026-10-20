@@ -1,0 +1,10 @@
+{
+  "tid": "T-8fe132",
+  "seq": 11,
+  "scenario": "inc-1342",
+  "kind": "first_error",
+  "target": null,
+  "subject": "INC-1342: which host failed first and when",
+  "body": "Hi, Aisha Bello from the SRE team here. Find the first ERROR\nanyywhere in the inventory fleet: the host that wrote it and\nthe exact tmiestamp of that line.\n\nPlease quote the timestamp as it appears in the log line,\nincluding the Z.\n\nRegards, Aisha Bello -- SRE",
+  "received": "2026-01-26"
+}

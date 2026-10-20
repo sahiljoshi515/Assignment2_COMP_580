@@ -1,0 +1,10 @@
+{
+  "tid": "T-157012",
+  "seq": 17,
+  "scenario": "flt-1722",
+  "kind": "uptime_of",
+  "target": "proxy-03",
+  "subject": "FLT-1722: how long has proxy-03 been up",
+  "body": "Hello -- Grace Okafor, security. How many days has the proxy host proxy-03 been\nup according to its snapshot?\n\nOnly that host's file matters for this one.\n\nThanks, Grace Okafor",
+  "received": "2026-02-07"
+}

@@ -1,0 +1,499 @@
+{
+  "T-f79c5b": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "cache-04",
+      "service": "ssh"
+    },
+    "canonical_id": "C-43cfff23",
+    "seq": 1
+  },
+  "T-cfd279": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-cb609f",
+    "differs_in": [
+      "scenario"
+    ],
+    "answer": {
+      "host": "worker-02",
+      "used_pct": 78
+    },
+    "canonical_id": "C-925a6211",
+    "seq": 2
+  },
+  "T-25de18": {
+    "dup_of": "H-8d4acb",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "cache-02",
+      "parameter": "net.ipv4.tcp_keepalive_time"
+    },
+    "canonical_id": "C-81969c39",
+    "seq": 3
+  },
+  "T-9ad237": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "T-25de18",
+    "differs_in": [
+      "scenario"
+    ],
+    "answer": {
+      "host": "worker-08",
+      "parameter": "vm.max_map_count"
+    },
+    "canonical_id": "C-8b471c1b",
+    "seq": 4
+  },
+  "T-bae5fa": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "edge-05",
+      "days": 47
+    },
+    "canonical_id": "C-ea3686d1",
+    "seq": 5
+  },
+  "T-5376d5": {
+    "dup_of": "T-f79c5b",
+    "dup_kind": "reorder",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "cache-04",
+      "service": "ssh"
+    },
+    "canonical_id": "C-43cfff23",
+    "seq": 6
+  },
+  "T-60abc6": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "batch-07",
+      "days": 5
+    },
+    "canonical_id": "C-f9f37c32",
+    "seq": 7
+  },
+  "T-d92c2b": {
+    "dup_of": "H-b16f14",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "batch-06",
+      "service": "nginx"
+    },
+    "canonical_id": "C-06686880",
+    "seq": 8
+  },
+  "T-45d76f": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-219cd0",
+    "differs_in": [
+      "scenario"
+    ],
+    "answer": {
+      "host": "worker-06",
+      "service": "fluent-bit"
+    },
+    "canonical_id": "C-12d795d0",
+    "seq": 9
+  },
+  "T-c19bf7": {
+    "dup_of": "T-cfd279",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "worker-02",
+      "used_pct": 78
+    },
+    "canonical_id": "C-925a6211",
+    "seq": 10
+  },
+  "T-717bc2": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "cache-03",
+      "days": 48
+    },
+    "canonical_id": "C-4ec35251",
+    "seq": 11
+  },
+  "T-d97997": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "batch-03",
+      "days": 50
+    },
+    "canonical_id": "C-6491bb7a",
+    "seq": 12
+  },
+  "T-0e0f58": {
+    "dup_of": "H-28609f",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "api-06",
+      "parameter": "kernel.pid_max"
+    },
+    "canonical_id": "C-a2f19e8e",
+    "seq": 13
+  },
+  "T-c551ee": {
+    "dup_of": "H-219cd0",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "worker-06",
+      "service": "node-exporter"
+    },
+    "canonical_id": "C-4519ed9c",
+    "seq": 14
+  },
+  "T-768a1f": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-8d4acb",
+    "differs_in": [
+      "scenario"
+    ],
+    "answer": {
+      "host": "cache-08",
+      "parameter": "vm.dirty_ratio"
+    },
+    "canonical_id": "C-e7dfb4c8",
+    "seq": 15
+  },
+  "T-ee8b1b": {
+    "dup_of": "H-199ee4",
+    "dup_kind": "reorder",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "cache-04",
+      "mount": "/srv/cache"
+    },
+    "canonical_id": "C-ba216976",
+    "seq": 16
+  },
+  "T-157012": {
+    "dup_of": "H-e546cb",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "proxy-03",
+      "days": 172
+    },
+    "canonical_id": "C-a539293b",
+    "seq": 17
+  },
+  "T-f07ff3": {
+    "dup_of": "T-d92c2b",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "batch-06",
+      "service": "nginx"
+    },
+    "canonical_id": "C-06686880",
+    "seq": 18
+  },
+  "T-aac3f1": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "api-05",
+      "used_pct": 89
+    },
+    "canonical_id": "C-cded3328",
+    "seq": 19
+  },
+  "T-36df4f": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-0a4401",
+    "differs_in": [
+      "scenario"
+    ],
+    "answer": {
+      "host": "batch-08",
+      "used_pct": 89
+    },
+    "canonical_id": "C-00bcf802",
+    "seq": 20
+  },
+  "T-f3006c": {
+    "dup_of": "H-de0b00",
+    "dup_kind": "exact",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "edge-05",
+      "service": "nginx"
+    },
+    "canonical_id": "C-d3e64c58",
+    "seq": 21
+  },
+  "T-d76c8c": {
+    "dup_of": "T-9ad237",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "worker-08",
+      "parameter": "vm.max_map_count"
+    },
+    "canonical_id": "C-8b471c1b",
+    "seq": 22
+  },
+  "T-dda31a": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "proxy-03",
+      "kernel": "6.1.0-21-amd64"
+    },
+    "canonical_id": "C-35935782",
+    "seq": 23
+  },
+  "T-5698b8": {
+    "dup_of": "H-bc55d9",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "api-01",
+      "days": 64
+    },
+    "canonical_id": "C-ad2eeb31",
+    "seq": 24
+  },
+  "T-46ddac": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "edge-07",
+      "used_pct": 88
+    },
+    "canonical_id": "C-2e7c5e4d",
+    "seq": 25
+  },
+  "T-c5639a": {
+    "dup_of": "H-6d9b75",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "api-02",
+      "service": "chrony"
+    },
+    "canonical_id": "C-9241b1ca",
+    "seq": 26
+  },
+  "T-2eb3dc": {
+    "dup_of": "T-f3006c",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "edge-05",
+      "service": "nginx"
+    },
+    "canonical_id": "C-d3e64c58",
+    "seq": 27
+  },
+  "T-fe80c0": {
+    "dup_of": "H-8788f0",
+    "dup_kind": "exact",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "batch-02",
+      "parameter": "net.core.somaxconn"
+    },
+    "canonical_id": "C-1ad7851b",
+    "seq": 28
+  },
+  "T-1b5f82": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "api-02",
+      "days": 174
+    },
+    "canonical_id": "C-3866bcbe",
+    "seq": 29
+  },
+  "T-ccb59d": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-3b43e8",
+    "differs_in": [
+      "scenario",
+      "target"
+    ],
+    "answer": {
+      "host": "proxy-05",
+      "days": 77
+    },
+    "canonical_id": "C-509f1ebe",
+    "seq": 30
+  },
+  "T-60814c": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "T-768a1f",
+    "differs_in": [
+      "scenario"
+    ],
+    "answer": {
+      "host": "proxy-02",
+      "parameter": "vm.swappiness"
+    },
+    "canonical_id": "C-ab7460ef",
+    "seq": 31
+  },
+  "T-994931": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "cache-05",
+      "service": "nginx"
+    },
+    "canonical_id": "C-3f729232",
+    "seq": 32
+  },
+  "T-dc7ecb": {
+    "dup_of": "H-762bbf",
+    "dup_kind": "exact",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "edge-03",
+      "parameter": "fs.inotify.max_user_watches"
+    },
+    "canonical_id": "C-f25cfd0a",
+    "seq": 33
+  },
+  "T-cfb8d8": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "cache-02",
+      "days": 23
+    },
+    "canonical_id": "C-565ac8e3",
+    "seq": 34
+  },
+  "T-b9760a": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-80e0fd",
+    "differs_in": [
+      "scenario"
+    ],
+    "answer": {
+      "host": "proxy-01",
+      "service": "fail2ban"
+    },
+    "canonical_id": "C-a7510c5a",
+    "seq": 35
+  },
+  "T-89e600": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "worker-05",
+      "days": 140
+    },
+    "canonical_id": "C-093580c6",
+    "seq": 36
+  },
+  "T-ab4ae0": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "cache-03",
+      "days": 85
+    },
+    "canonical_id": "C-cf2888c5",
+    "seq": 37
+  },
+  "T-39924d": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "cache-01",
+      "service": "nginx"
+    },
+    "canonical_id": "C-c9dedeb8",
+    "seq": 38
+  },
+  "T-e7ccd6": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "api-08",
+      "kernel": "5.15.0-112-generic"
+    },
+    "canonical_id": "C-a4b67f1b",
+    "seq": 39
+  },
+  "T-3d7da6": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "host": "api-01",
+      "service": "unattended-upgrades"
+    },
+    "canonical_id": "C-a599d3fd",
+    "seq": 40
+  }
+}

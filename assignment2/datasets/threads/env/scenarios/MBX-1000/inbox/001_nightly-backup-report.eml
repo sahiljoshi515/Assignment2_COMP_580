@@ -1,0 +1,16 @@
+From: Backup Service <backup-bot@brightwaterclinics.example>
+To: ops-notify@brightwaterclinics.example
+Date: Tue, 21 Apr 2026 02:52:00 +0000
+Subject: Nightly backup report - wiki-and-tracker - 2026-04-20
+
+Nightly backup report for 2026-04-20
+Job: wiki-and-tracker
+Status: FAILED (snapshot lock held by a previous run)
+Started: 02:03:37 UTC   Finished: 02:52:24 UTC   Duration: 49 min
+Bytes transferred: 46.0 GB   Files: 1,178,696   Changed since last run: 1.5 %
+Retention: 30 daily, 12 weekly, 6 monthly
+Next run: 2026-04-21 02:00 UTC
+
+-- 
+This message was generated automatically by the backup service. Replies are not read.
+To change the schedule or the recipients, edit the job in the backup console.

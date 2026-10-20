@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.DS_Store
+# ablation variants of the datasets are generated, not kept
+assignment2/datasets/*-d[0-9][0-9]/
+assignment2/datasets/*-h[0-9]*/

@@ -1,0 +1,111 @@
+2026-03-07T20:12:24Z catalog-02 INFO  starting catalog 3.18.2 (build f89b239) on catalog-02
+2026-03-07T20:12:25Z catalog-02 INFO  config: max_connections=256
+2026-03-07T20:12:25Z catalog-02 INFO  config: pool_size=32
+2026-03-07T20:12:25Z catalog-02 INFO  config: request_timeout_ms=5000
+2026-03-07T20:12:25Z catalog-02 INFO  config: cache_ttl_s=900
+2026-03-07T20:12:25Z catalog-02 INFO  config: log_level=INFO
+2026-03-07T20:12:25Z catalog-02 INFO  config: queue_depth=1000
+2026-03-07T20:12:25Z catalog-02 INFO  config: gc_interval_s=120
+2026-03-07T20:12:26Z catalog-02 INFO  listening on 0.0.0.0:8080; workers=4
+2026-03-07T20:12:24Z catalog-02 INFO  health check ok (latency 11ms)
+2026-03-07T20:12:27Z catalog-02 INFO  DELETE /v1/cart/46864 200 in 175ms rid=db858a
+2026-03-07T20:12:35Z catalog-02 INFO  POST /v1/refunds 200 in 225ms rid=e10ce5
+2026-03-07T20:12:41Z catalog-02 INFO  metrics: rps=364 p99=538ms heap=1030MB goroutines=394
+2026-03-07T20:12:43Z catalog-02 INFO  POST /v1/refunds 200 in 274ms rid=8e9517
+2026-03-07T20:12:51Z catalog-02 INFO  GET /v1/search 200 in 397ms rid=7333c6
+2026-03-07T20:12:54Z catalog-02 INFO  health check ok (latency 1ms)
+2026-03-07T20:12:59Z catalog-02 INFO  GET /v1/orders/47847 200 in 182ms rid=833a8c
+2026-03-07T20:13:05Z catalog-02 WARN  slow query took 60ms on shard 1
+2026-03-07T20:13:07Z catalog-02 INFO  POST /v1/payments 200 in 298ms rid=045779
+2026-03-07T20:13:15Z catalog-02 INFO  GET /v1/items/79215 200 in 121ms rid=923a56
+2026-03-07T20:13:23Z catalog-02 INFO  GET /v1/orders/86314 200 in 178ms rid=656fed
+2026-03-07T20:13:24Z catalog-02 INFO  health check ok (latency 2ms)
+2026-03-07T20:13:31Z catalog-02 INFO  GET /v1/items/76409 200 in 271ms rid=2ef215
+2026-03-07T20:13:39Z catalog-02 INFO  GET /health 200 in 85ms rid=c48248
+2026-03-07T20:13:47Z catalog-02 INFO  GET /v1/items/63507 200 in 191ms rid=4aad24
+2026-03-07T20:13:54Z catalog-02 INFO  health check ok (latency 9ms)
+2026-03-07T20:13:55Z catalog-02 INFO  GET /v1/items/13985 200 in 280ms rid=d481d6
+2026-03-07T20:14:03Z catalog-02 INFO  DELETE /v1/cart/62010 200 in 28ms rid=b70044
+2026-03-07T20:14:11Z catalog-02 INFO  GET /v1/orders/51329 200 in 242ms rid=f4f86c
+2026-03-07T20:14:19Z catalog-02 INFO  POST /v1/payments 200 in 212ms rid=471702
+2026-03-07T20:14:24Z catalog-02 INFO  health check ok (latency 5ms)
+2026-03-07T20:14:27Z catalog-02 INFO  GET /v1/profile 200 in 133ms rid=2352fe
+2026-03-07T20:14:35Z catalog-02 INFO  GET /health 200 in 279ms rid=959a1f
+2026-03-07T20:14:41Z catalog-02 INFO  metrics: rps=396 p99=203ms heap=715MB goroutines=769
+2026-03-07T20:14:42Z catalog-02 WARN  slow query took 62ms on shard 3
+2026-03-07T20:14:43Z catalog-02 INFO  GET /v1/items/4596 200 in 66ms rid=da90cb
+2026-03-07T20:14:51Z catalog-02 INFO  PUT /v1/cart 200 in 92ms rid=ea7786
+2026-03-07T20:14:54Z catalog-02 INFO  health check ok (latency 2ms)
+2026-03-07T20:14:59Z catalog-02 INFO  GET /v1/profile 200 in 108ms rid=4a366d
+2026-03-07T20:15:07Z catalog-02 INFO  GET /v1/items/26402 200 in 205ms rid=702e3d
+2026-03-07T20:15:15Z catalog-02 INFO  GET /health 200 in 138ms rid=8f3349
+2026-03-07T20:15:23Z catalog-02 INFO  POST /v1/payments 200 in 385ms rid=ce4b27
+2026-03-07T20:15:24Z catalog-02 INFO  health check ok (latency 10ms)
+2026-03-07T20:15:31Z catalog-02 INFO  GET /v1/items/25635 200 in 230ms rid=b13db3
+2026-03-07T20:15:39Z catalog-02 INFO  POST /v1/orders 200 in 162ms rid=7270f6
+2026-03-07T20:15:47Z catalog-02 INFO  GET /v1/items/5798 200 in 31ms rid=d51288
+2026-03-07T20:15:54Z catalog-02 INFO  health check ok (latency 11ms)
+2026-03-07T20:15:55Z catalog-02 INFO  GET /health 200 in 315ms rid=c4a002
+2026-03-07T20:16:03Z catalog-02 INFO  GET /health 200 in 185ms rid=fa0bb3
+2026-03-07T20:16:11Z catalog-02 INFO  POST /v1/refunds 200 in 37ms rid=f95e30
+2026-03-07T20:16:19Z catalog-02 INFO  GET /v1/search 200 in 320ms rid=2ff4dc
+2026-03-07T20:16:19Z catalog-02 WARN  cache miss ratio above 0.50
+2026-03-07T20:16:24Z catalog-02 INFO  health check ok (latency 7ms)
+2026-03-07T20:16:27Z catalog-02 INFO  GET /health 200 in 381ms rid=579c96
+2026-03-07T20:16:35Z catalog-02 INFO  PUT /v1/cart 200 in 385ms rid=4f372e
+2026-03-07T20:16:41Z catalog-02 INFO  metrics: rps=153 p99=706ms heap=1769MB goroutines=626
+2026-03-07T20:16:43Z catalog-02 INFO  PUT /v1/cart 200 in 343ms rid=765985
+2026-03-07T20:16:51Z catalog-02 INFO  GET /v1/profile 200 in 156ms rid=08f01b
+2026-03-07T20:16:54Z catalog-02 INFO  health check ok (latency 5ms)
+2026-03-07T20:16:59Z catalog-02 INFO  GET /health 200 in 32ms rid=0e8d2f
+2026-03-07T20:17:07Z catalog-02 INFO  GET /v1/search 200 in 14ms rid=6bb755
+2026-03-07T20:17:15Z catalog-02 INFO  GET /health 200 in 177ms rid=3427bf
+2026-03-07T20:17:23Z catalog-02 INFO  POST /v1/payments 200 in 10ms rid=27c7ea
+2026-03-07T20:17:24Z catalog-02 INFO  health check ok (latency 3ms)
+2026-03-07T20:17:31Z catalog-02 INFO  GET /v1/search 200 in 315ms rid=b3862d
+2026-03-07T20:17:39Z catalog-02 INFO  GET /health 200 in 213ms rid=4bb3c1
+2026-03-07T20:17:47Z catalog-02 INFO  GET /v1/items/50886 200 in 278ms rid=e461f1
+2026-03-07T20:17:54Z catalog-02 INFO  health check ok (latency 7ms)
+2026-03-07T20:17:55Z catalog-02 INFO  POST /v1/payments 200 in 323ms rid=66d51d
+2026-03-07T20:17:56Z catalog-02 WARN  connection pool at 18% capacity
+2026-03-07T20:18:03Z catalog-02 INFO  POST /v1/payments 200 in 34ms rid=b89b96
+2026-03-07T20:18:11Z catalog-02 INFO  GET /health 200 in 261ms rid=dfa46a
+2026-03-07T20:18:19Z catalog-02 INFO  PUT /v1/cart 200 in 18ms rid=1909a9
+2026-03-07T20:18:24Z catalog-02 INFO  health check ok (latency 9ms)
+2026-03-07T20:18:27Z catalog-02 INFO  GET /health 200 in 5ms rid=6726ec
+2026-03-07T20:18:35Z catalog-02 INFO  POST /v1/refunds 200 in 100ms rid=8ebee5
+2026-03-07T20:18:41Z catalog-02 INFO  metrics: rps=144 p99=837ms heap=400MB goroutines=104
+2026-03-07T20:18:43Z catalog-02 INFO  GET /v1/profile 200 in 351ms rid=758b1a
+2026-03-07T20:18:51Z catalog-02 INFO  POST /v1/refunds 200 in 320ms rid=14129b
+2026-03-07T20:18:54Z catalog-02 INFO  health check ok (latency 10ms)
+2026-03-07T20:18:58Z catalog-02 ERROR DeadlineExceeded: mailer did not respond within 5000ms (attempt 1/3)
+2026-03-07T20:18:59Z catalog-02 INFO  POST /v1/payments 200 in 183ms rid=d1d201
+2026-03-07T20:19:05Z catalog-02 ERROR DeadlineExceeded: mailer did not respond within 5000ms (attempt 2/3)
+2026-03-07T20:19:07Z catalog-02 INFO  DELETE /v1/cart/41205 200 in 239ms rid=85384c
+2026-03-07T20:19:12Z catalog-02 ERROR DeadlineExceeded: mailer did not respond within 5000ms (attempt 3/3)
+2026-03-07T20:19:15Z catalog-02 INFO  GET /health 200 in 40ms rid=2712e0
+2026-03-07T20:19:19Z catalog-02 ERROR DeadlineExceeded: mailer did not respond within 5000ms (attempt 1/3)
+2026-03-07T20:19:23Z catalog-02 INFO  PUT /v1/cart 503 in 333ms rid=203a3d
+2026-03-07T20:19:24Z catalog-02 WARN  health check FAILED: mailer unreachable
+2026-03-07T20:19:26Z catalog-02 ERROR DeadlineExceeded: mailer did not respond within 5000ms (attempt 2/3)
+2026-03-07T20:19:31Z catalog-02 INFO  DELETE /v1/cart/55521 200 in 328ms rid=9dd35c
+2026-03-07T20:19:33Z catalog-02 WARN  connection pool at 88% capacity
+2026-03-07T20:19:33Z catalog-02 ERROR DeadlineExceeded: mailer did not respond within 5000ms (attempt 3/3)
+2026-03-07T20:19:39Z catalog-02 INFO  PUT /v1/cart 200 in 109ms rid=e55237
+2026-03-07T20:19:40Z catalog-02 ERROR DeadlineExceeded: mailer did not respond within 5000ms (attempt 1/3)
+2026-03-07T20:19:47Z catalog-02 INFO  PUT /v1/cart 200 in 183ms rid=5c0306
+2026-03-07T20:19:47Z catalog-02 ERROR DeadlineExceeded: mailer did not respond within 5000ms (attempt 2/3)
+2026-03-07T20:19:54Z catalog-02 WARN  health check FAILED: mailer unreachable
+2026-03-07T20:19:54Z catalog-02 ERROR DeadlineExceeded: mailer did not respond within 5000ms (attempt 3/3)
+2026-03-07T20:19:55Z catalog-02 INFO  DELETE /v1/cart/34353 503 in 158ms rid=622646
+2026-03-07T20:20:01Z catalog-02 ERROR DeadlineExceeded: mailer did not respond within 5000ms (attempt 1/3)
+2026-03-07T20:20:03Z catalog-02 INFO  GET /v1/profile 200 in 230ms rid=3779be
+2026-03-07T20:20:08Z catalog-02 ERROR DeadlineExceeded: mailer did not respond within 5000ms (attempt 2/3)
+2026-03-07T20:20:11Z catalog-02 INFO  GET /health 503 in 229ms rid=5f3825
+2026-03-07T20:20:15Z catalog-02 ERROR DeadlineExceeded: mailer did not respond within 5000ms (attempt 3/3)
+2026-03-07T20:20:19Z catalog-02 INFO  DELETE /v1/cart/57721 503 in 230ms rid=367fa3
+2026-03-07T20:20:22Z catalog-02 ERROR DeadlineExceeded: mailer did not respond within 5000ms (attempt 1/3)
+2026-03-07T20:20:29Z catalog-02 ERROR DeadlineExceeded: mailer did not respond within 5000ms (attempt 2/3)
+2026-03-07T20:20:36Z catalog-02 ERROR DeadlineExceeded: mailer did not respond within 5000ms (attempt 3/3)
+2026-03-07T20:20:43Z catalog-02 ERROR DeadlineExceeded: mailer did not respond within 5000ms (attempt 1/3)
+2026-03-07T20:20:50Z catalog-02 ERROR DeadlineExceeded: giving up on mailer after 17 attempts

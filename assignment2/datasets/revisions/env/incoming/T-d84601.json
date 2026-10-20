@@ -1,0 +1,10 @@
+{
+  "tid": "T-d84601",
+  "seq": 35,
+  "scenario": "POL1190",
+  "kind": "introduced_in",
+  "target": "retention_days",
+  "subject": "POL-1190: which revision set the retention period to its current value",
+  "body": "Hello -- Tomas Vik, support. Which version of the Incident Response Standard\nintroduced the current value of the retention period? I need the revision label,\ne.g. v04.\n\nCompare the versions in policy/; report the revision label as in the file name.\n\nThanks, Tomas Vik",
+  "received": "2026-03-17"
+}

@@ -1,0 +1,10 @@
+{
+  "tid": "T-78016b",
+  "seq": 16,
+  "scenario": "POL1418",
+  "kind": "removed_requirement",
+  "target": null,
+  "subject": "POL-1418: which revision struck a requirement",
+  "body": "Hello -- Daniel Ortega, SRE. Which requirement was dropped\nfrom the Access Control Standard and in which revision did\nit go?\n\nReport the requirement by its id, e.g. R3, and the revision\nlabel, e.g. v05.\n\nRegards, Daniel Ortega -- SRE",
+  "received": "2026-02-05"
+}

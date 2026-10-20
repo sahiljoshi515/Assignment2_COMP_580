@@ -1,0 +1,2018 @@
+{
+  "POL-1000": {
+    "groups": [
+      {
+        "name": "policy-revisions",
+        "files": [
+          "policy/v01.md",
+          "policy/v02.md",
+          "policy/v03.md",
+          "policy/v04.md",
+          "policy/v05.md",
+          "policy/v06.md",
+          "policy/v07.md"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "policy/v01.md": [
+        25,
+        27,
+        29,
+        30,
+        40
+      ],
+      "policy/v02.md": [
+        25,
+        27,
+        29,
+        30,
+        40
+      ],
+      "policy/v03.md": [
+        25,
+        27,
+        29,
+        30,
+        40
+      ],
+      "policy/v04.md": [
+        25,
+        27,
+        29,
+        30,
+        40
+      ],
+      "policy/v05.md": [
+        25,
+        27,
+        29,
+        30,
+        41
+      ],
+      "policy/v06.md": [
+        25,
+        27,
+        29,
+        30,
+        41
+      ],
+      "policy/v07.md": [
+        25,
+        26,
+        28,
+        29,
+        40
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.83,
+      "within_p50": 0.94,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "POL-1038": {
+    "groups": [
+      {
+        "name": "policy-revisions",
+        "files": [
+          "policy/v01.md",
+          "policy/v02.md",
+          "policy/v03.md",
+          "policy/v04.md",
+          "policy/v05.md",
+          "policy/v06.md",
+          "policy/v07.md",
+          "policy/v08.md",
+          "policy/v09.md"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "policy/v01.md": [
+        28,
+        29,
+        30,
+        31,
+        40
+      ],
+      "policy/v02.md": [
+        28,
+        29,
+        30,
+        31,
+        40
+      ],
+      "policy/v03.md": [
+        28,
+        29,
+        30,
+        31,
+        40
+      ],
+      "policy/v04.md": [
+        28,
+        29,
+        30,
+        31,
+        41
+      ],
+      "policy/v05.md": [
+        28,
+        29,
+        30,
+        31,
+        41
+      ],
+      "policy/v06.md": [
+        28,
+        29,
+        30,
+        31,
+        41
+      ],
+      "policy/v07.md": [
+        28,
+        29,
+        30,
+        31,
+        41
+      ],
+      "policy/v08.md": [
+        27,
+        28,
+        29,
+        30,
+        40
+      ],
+      "policy/v09.md": [
+        27,
+        28,
+        29,
+        30,
+        40
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 36,
+      "within_min": 0.746,
+      "within_p50": 0.912,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "POL-1076": {
+    "groups": [
+      {
+        "name": "policy-revisions",
+        "files": [
+          "policy/v01.md",
+          "policy/v02.md",
+          "policy/v03.md",
+          "policy/v04.md",
+          "policy/v05.md",
+          "policy/v06.md",
+          "policy/v07.md",
+          "policy/v08.md",
+          "policy/v09.md"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "policy/v01.md": [
+        24,
+        26,
+        29,
+        30,
+        40
+      ],
+      "policy/v02.md": [
+        24,
+        26,
+        29,
+        30,
+        40
+      ],
+      "policy/v03.md": [
+        24,
+        26,
+        29,
+        30,
+        41
+      ],
+      "policy/v04.md": [
+        24,
+        26,
+        29,
+        30,
+        41
+      ],
+      "policy/v05.md": [
+        24,
+        26,
+        29,
+        30,
+        41
+      ],
+      "policy/v06.md": [
+        24,
+        26,
+        29,
+        30,
+        41
+      ],
+      "policy/v07.md": [
+        24,
+        26,
+        29,
+        30,
+        41
+      ],
+      "policy/v08.md": [
+        24,
+        26,
+        28,
+        29,
+        40
+      ],
+      "policy/v09.md": [
+        24,
+        26,
+        28,
+        29,
+        40
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 36,
+      "within_min": 0.854,
+      "within_p50": 0.951,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "POL-1114": {
+    "groups": [
+      {
+        "name": "policy-revisions",
+        "files": [
+          "policy/v01.md",
+          "policy/v02.md",
+          "policy/v03.md",
+          "policy/v04.md",
+          "policy/v05.md",
+          "policy/v06.md",
+          "policy/v07.md",
+          "policy/v08.md",
+          "policy/v09.md",
+          "policy/v10.md"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "policy/v01.md": [
+        24,
+        25,
+        28,
+        31,
+        40
+      ],
+      "policy/v02.md": [
+        24,
+        25,
+        28,
+        31,
+        40
+      ],
+      "policy/v03.md": [
+        24,
+        25,
+        28,
+        31,
+        40
+      ],
+      "policy/v04.md": [
+        24,
+        25,
+        28,
+        31,
+        40
+      ],
+      "policy/v05.md": [
+        24,
+        25,
+        28,
+        31,
+        41
+      ],
+      "policy/v06.md": [
+        24,
+        25,
+        28,
+        31,
+        41
+      ],
+      "policy/v07.md": [
+        24,
+        25,
+        28,
+        31,
+        41
+      ],
+      "policy/v08.md": [
+        24,
+        25,
+        28,
+        31,
+        40
+      ],
+      "policy/v09.md": [
+        24,
+        25,
+        28,
+        31,
+        40
+      ],
+      "policy/v10.md": [
+        24,
+        25,
+        28,
+        31,
+        40
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 45,
+      "within_min": 0.835,
+      "within_p50": 0.925,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "POL-1152": {
+    "groups": [
+      {
+        "name": "policy-revisions",
+        "files": [
+          "policy/v01.md",
+          "policy/v02.md",
+          "policy/v03.md",
+          "policy/v04.md",
+          "policy/v05.md",
+          "policy/v06.md",
+          "policy/v07.md"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "policy/v01.md": [
+        24,
+        26,
+        28,
+        29,
+        40
+      ],
+      "policy/v02.md": [
+        24,
+        26,
+        28,
+        29,
+        40
+      ],
+      "policy/v03.md": [
+        24,
+        26,
+        28,
+        29,
+        40
+      ],
+      "policy/v04.md": [
+        24,
+        26,
+        28,
+        29,
+        40
+      ],
+      "policy/v05.md": [
+        24,
+        26,
+        28,
+        29,
+        41
+      ],
+      "policy/v06.md": [
+        24,
+        26,
+        28,
+        29,
+        41
+      ],
+      "policy/v07.md": [
+        24,
+        25,
+        27,
+        28,
+        40
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.848,
+      "within_p50": 0.938,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "POL-1190": {
+    "groups": [
+      {
+        "name": "policy-revisions",
+        "files": [
+          "policy/v01.md",
+          "policy/v02.md",
+          "policy/v03.md",
+          "policy/v04.md",
+          "policy/v05.md",
+          "policy/v06.md",
+          "policy/v07.md",
+          "policy/v08.md"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "policy/v01.md": [
+        24,
+        27,
+        30,
+        31,
+        40
+      ],
+      "policy/v02.md": [
+        24,
+        27,
+        30,
+        31,
+        40
+      ],
+      "policy/v03.md": [
+        24,
+        27,
+        30,
+        31,
+        40
+      ],
+      "policy/v04.md": [
+        24,
+        27,
+        30,
+        31,
+        40
+      ],
+      "policy/v05.md": [
+        24,
+        27,
+        30,
+        31,
+        41
+      ],
+      "policy/v06.md": [
+        24,
+        27,
+        30,
+        31,
+        41
+      ],
+      "policy/v07.md": [
+        24,
+        26,
+        29,
+        30,
+        40
+      ],
+      "policy/v08.md": [
+        24,
+        26,
+        29,
+        30,
+        40
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 28,
+      "within_min": 0.676,
+      "within_p50": 0.878,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "POL-1228": {
+    "groups": [
+      {
+        "name": "policy-revisions",
+        "files": [
+          "policy/v01.md",
+          "policy/v02.md",
+          "policy/v03.md",
+          "policy/v04.md",
+          "policy/v05.md",
+          "policy/v06.md",
+          "policy/v07.md",
+          "policy/v08.md",
+          "policy/v09.md",
+          "policy/v10.md"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "policy/v01.md": [
+        24,
+        28,
+        29,
+        31,
+        40
+      ],
+      "policy/v02.md": [
+        24,
+        28,
+        29,
+        31,
+        40
+      ],
+      "policy/v03.md": [
+        24,
+        28,
+        29,
+        31,
+        40
+      ],
+      "policy/v04.md": [
+        24,
+        28,
+        29,
+        31,
+        40
+      ],
+      "policy/v05.md": [
+        24,
+        28,
+        29,
+        31,
+        41
+      ],
+      "policy/v06.md": [
+        24,
+        28,
+        29,
+        31,
+        41
+      ],
+      "policy/v07.md": [
+        24,
+        27,
+        28,
+        30,
+        40
+      ],
+      "policy/v08.md": [
+        24,
+        27,
+        28,
+        30,
+        40
+      ],
+      "policy/v09.md": [
+        24,
+        27,
+        28,
+        30,
+        40
+      ],
+      "policy/v10.md": [
+        24,
+        27,
+        28,
+        30,
+        40
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 45,
+      "within_min": 0.844,
+      "within_p50": 0.942,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "POL-1266": {
+    "groups": [
+      {
+        "name": "policy-revisions",
+        "files": [
+          "policy/v01.md",
+          "policy/v02.md",
+          "policy/v03.md",
+          "policy/v04.md",
+          "policy/v05.md",
+          "policy/v06.md",
+          "policy/v07.md",
+          "policy/v08.md",
+          "policy/v09.md",
+          "policy/v10.md"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "policy/v01.md": [
+        24,
+        26,
+        27,
+        30,
+        40
+      ],
+      "policy/v02.md": [
+        24,
+        26,
+        27,
+        30,
+        40
+      ],
+      "policy/v03.md": [
+        24,
+        26,
+        27,
+        29,
+        39
+      ],
+      "policy/v04.md": [
+        24,
+        26,
+        27,
+        29,
+        39
+      ],
+      "policy/v05.md": [
+        24,
+        26,
+        27,
+        29,
+        39
+      ],
+      "policy/v06.md": [
+        24,
+        26,
+        27,
+        29,
+        40
+      ],
+      "policy/v07.md": [
+        24,
+        26,
+        27,
+        29,
+        40
+      ],
+      "policy/v08.md": [
+        24,
+        26,
+        27,
+        29,
+        40
+      ],
+      "policy/v09.md": [
+        24,
+        26,
+        27,
+        29,
+        40
+      ],
+      "policy/v10.md": [
+        24,
+        26,
+        27,
+        29,
+        40
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 45,
+      "within_min": 0.745,
+      "within_p50": 0.941,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "POL-1304": {
+    "groups": [
+      {
+        "name": "policy-revisions",
+        "files": [
+          "policy/v01.md",
+          "policy/v02.md",
+          "policy/v03.md",
+          "policy/v04.md",
+          "policy/v05.md",
+          "policy/v06.md",
+          "policy/v07.md",
+          "policy/v08.md"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "policy/v01.md": [
+        26,
+        28,
+        29,
+        30,
+        40
+      ],
+      "policy/v02.md": [
+        26,
+        28,
+        29,
+        30,
+        40
+      ],
+      "policy/v03.md": [
+        26,
+        28,
+        29,
+        30,
+        40
+      ],
+      "policy/v04.md": [
+        26,
+        28,
+        29,
+        30,
+        41
+      ],
+      "policy/v05.md": [
+        26,
+        28,
+        29,
+        30,
+        41
+      ],
+      "policy/v06.md": [
+        26,
+        28,
+        29,
+        30,
+        41
+      ],
+      "policy/v07.md": [
+        26,
+        28,
+        29,
+        30,
+        40
+      ],
+      "policy/v08.md": [
+        26,
+        28,
+        29,
+        30,
+        40
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 28,
+      "within_min": 0.807,
+      "within_p50": 0.946,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "POL-1342": {
+    "groups": [
+      {
+        "name": "policy-revisions",
+        "files": [
+          "policy/v01.md",
+          "policy/v02.md",
+          "policy/v03.md",
+          "policy/v04.md",
+          "policy/v05.md",
+          "policy/v06.md",
+          "policy/v07.md",
+          "policy/v08.md",
+          "policy/v09.md"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "policy/v01.md": [
+        26,
+        27,
+        28,
+        30,
+        40
+      ],
+      "policy/v02.md": [
+        26,
+        27,
+        28,
+        30,
+        40
+      ],
+      "policy/v03.md": [
+        26,
+        27,
+        28,
+        30,
+        40
+      ],
+      "policy/v04.md": [
+        26,
+        27,
+        28,
+        30,
+        40
+      ],
+      "policy/v05.md": [
+        26,
+        27,
+        28,
+        30,
+        40
+      ],
+      "policy/v06.md": [
+        26,
+        27,
+        28,
+        29,
+        39
+      ],
+      "policy/v07.md": [
+        26,
+        27,
+        28,
+        29,
+        39
+      ],
+      "policy/v08.md": [
+        26,
+        27,
+        28,
+        29,
+        40
+      ],
+      "policy/v09.md": [
+        26,
+        27,
+        28,
+        29,
+        40
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 36,
+      "within_min": 0.731,
+      "within_p50": 0.886,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "POL-1380": {
+    "groups": [
+      {
+        "name": "policy-revisions",
+        "files": [
+          "policy/v01.md",
+          "policy/v02.md",
+          "policy/v03.md",
+          "policy/v04.md",
+          "policy/v05.md",
+          "policy/v06.md",
+          "policy/v07.md",
+          "policy/v08.md"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "policy/v01.md": [
+        24,
+        25,
+        28,
+        29,
+        40
+      ],
+      "policy/v02.md": [
+        24,
+        25,
+        28,
+        29,
+        40
+      ],
+      "policy/v03.md": [
+        24,
+        25,
+        28,
+        29,
+        40
+      ],
+      "policy/v04.md": [
+        24,
+        25,
+        28,
+        29,
+        40
+      ],
+      "policy/v05.md": [
+        24,
+        25,
+        28,
+        29,
+        40
+      ],
+      "policy/v06.md": [
+        24,
+        25,
+        27,
+        28,
+        39
+      ],
+      "policy/v07.md": [
+        24,
+        25,
+        27,
+        28,
+        39
+      ],
+      "policy/v08.md": [
+        24,
+        25,
+        27,
+        28,
+        40
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 28,
+      "within_min": 0.736,
+      "within_p50": 0.874,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "POL-1418": {
+    "groups": [
+      {
+        "name": "policy-revisions",
+        "files": [
+          "policy/v01.md",
+          "policy/v02.md",
+          "policy/v03.md",
+          "policy/v04.md",
+          "policy/v05.md",
+          "policy/v06.md",
+          "policy/v07.md"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "policy/v01.md": [
+        24,
+        25,
+        26,
+        29,
+        40
+      ],
+      "policy/v02.md": [
+        24,
+        25,
+        26,
+        29,
+        40
+      ],
+      "policy/v03.md": [
+        24,
+        25,
+        26,
+        29,
+        40
+      ],
+      "policy/v04.md": [
+        24,
+        25,
+        26,
+        29,
+        40
+      ],
+      "policy/v05.md": [
+        24,
+        25,
+        26,
+        29,
+        39
+      ],
+      "policy/v06.md": [
+        24,
+        25,
+        26,
+        29,
+        39
+      ],
+      "policy/v07.md": [
+        24,
+        25,
+        26,
+        29,
+        40
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.788,
+      "within_p50": 0.864,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "POL-1456": {
+    "groups": [
+      {
+        "name": "policy-revisions",
+        "files": [
+          "policy/v01.md",
+          "policy/v02.md",
+          "policy/v03.md",
+          "policy/v04.md",
+          "policy/v05.md",
+          "policy/v06.md",
+          "policy/v07.md",
+          "policy/v08.md",
+          "policy/v09.md"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "policy/v01.md": [
+        25,
+        26,
+        30,
+        31,
+        40
+      ],
+      "policy/v02.md": [
+        25,
+        26,
+        30,
+        31,
+        40
+      ],
+      "policy/v03.md": [
+        25,
+        26,
+        30,
+        31,
+        40
+      ],
+      "policy/v04.md": [
+        25,
+        26,
+        30,
+        31,
+        40
+      ],
+      "policy/v05.md": [
+        25,
+        26,
+        30,
+        31,
+        40
+      ],
+      "policy/v06.md": [
+        25,
+        26,
+        30,
+        31,
+        40
+      ],
+      "policy/v07.md": [
+        25,
+        26,
+        29,
+        30,
+        39
+      ],
+      "policy/v08.md": [
+        25,
+        26,
+        29,
+        30,
+        40
+      ],
+      "policy/v09.md": [
+        25,
+        26,
+        29,
+        30,
+        40
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 36,
+      "within_min": 0.676,
+      "within_p50": 0.88,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "POL-1494": {
+    "groups": [
+      {
+        "name": "policy-revisions",
+        "files": [
+          "policy/v01.md",
+          "policy/v02.md",
+          "policy/v03.md",
+          "policy/v04.md",
+          "policy/v05.md",
+          "policy/v06.md",
+          "policy/v07.md",
+          "policy/v08.md",
+          "policy/v09.md"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "policy/v01.md": [
+        25,
+        28,
+        29,
+        31,
+        40
+      ],
+      "policy/v02.md": [
+        25,
+        28,
+        29,
+        31,
+        40
+      ],
+      "policy/v03.md": [
+        25,
+        28,
+        29,
+        31,
+        40
+      ],
+      "policy/v04.md": [
+        24,
+        27,
+        28,
+        30,
+        39
+      ],
+      "policy/v05.md": [
+        24,
+        27,
+        28,
+        30,
+        39
+      ],
+      "policy/v06.md": [
+        24,
+        27,
+        28,
+        30,
+        39
+      ],
+      "policy/v07.md": [
+        24,
+        27,
+        28,
+        30,
+        39
+      ],
+      "policy/v08.md": [
+        24,
+        27,
+        28,
+        30,
+        39
+      ],
+      "policy/v09.md": [
+        24,
+        27,
+        28,
+        30,
+        40
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 36,
+      "within_min": 0.676,
+      "within_p50": 0.868,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "POL-1532": {
+    "groups": [
+      {
+        "name": "policy-revisions",
+        "files": [
+          "policy/v01.md",
+          "policy/v02.md",
+          "policy/v03.md",
+          "policy/v04.md",
+          "policy/v05.md",
+          "policy/v06.md",
+          "policy/v07.md"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "policy/v01.md": [
+        25,
+        28,
+        29,
+        31,
+        40
+      ],
+      "policy/v02.md": [
+        25,
+        28,
+        29,
+        31,
+        40
+      ],
+      "policy/v03.md": [
+        25,
+        28,
+        29,
+        31,
+        41
+      ],
+      "policy/v04.md": [
+        25,
+        28,
+        29,
+        31,
+        41
+      ],
+      "policy/v05.md": [
+        25,
+        28,
+        29,
+        31,
+        41
+      ],
+      "policy/v06.md": [
+        25,
+        27,
+        28,
+        30,
+        40
+      ],
+      "policy/v07.md": [
+        25,
+        27,
+        28,
+        30,
+        40
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.863,
+      "within_p50": 0.945,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "POL-1570": {
+    "groups": [
+      {
+        "name": "policy-revisions",
+        "files": [
+          "policy/v01.md",
+          "policy/v02.md",
+          "policy/v03.md",
+          "policy/v04.md",
+          "policy/v05.md",
+          "policy/v06.md",
+          "policy/v07.md",
+          "policy/v08.md",
+          "policy/v09.md",
+          "policy/v10.md"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "policy/v01.md": [
+        24,
+        27,
+        28,
+        29,
+        40
+      ],
+      "policy/v02.md": [
+        24,
+        27,
+        28,
+        29,
+        41
+      ],
+      "policy/v03.md": [
+        24,
+        27,
+        28,
+        29,
+        41
+      ],
+      "policy/v04.md": [
+        24,
+        27,
+        28,
+        29,
+        41
+      ],
+      "policy/v05.md": [
+        24,
+        27,
+        28,
+        29,
+        41
+      ],
+      "policy/v06.md": [
+        24,
+        27,
+        28,
+        29,
+        41
+      ],
+      "policy/v07.md": [
+        24,
+        27,
+        28,
+        29,
+        41
+      ],
+      "policy/v08.md": [
+        24,
+        26,
+        27,
+        28,
+        40
+      ],
+      "policy/v09.md": [
+        24,
+        26,
+        27,
+        28,
+        40
+      ],
+      "policy/v10.md": [
+        24,
+        26,
+        27,
+        28,
+        40
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 45,
+      "within_min": 0.749,
+      "within_p50": 0.895,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "POL-1608": {
+    "groups": [
+      {
+        "name": "policy-revisions",
+        "files": [
+          "policy/v01.md",
+          "policy/v02.md",
+          "policy/v03.md",
+          "policy/v04.md",
+          "policy/v05.md",
+          "policy/v06.md",
+          "policy/v07.md",
+          "policy/v08.md"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "policy/v01.md": [
+        24,
+        28,
+        29,
+        30,
+        40
+      ],
+      "policy/v02.md": [
+        24,
+        28,
+        29,
+        30,
+        39
+      ],
+      "policy/v03.md": [
+        24,
+        28,
+        29,
+        30,
+        39
+      ],
+      "policy/v04.md": [
+        24,
+        28,
+        29,
+        30,
+        39
+      ],
+      "policy/v05.md": [
+        24,
+        28,
+        29,
+        30,
+        40
+      ],
+      "policy/v06.md": [
+        24,
+        28,
+        29,
+        30,
+        40
+      ],
+      "policy/v07.md": [
+        24,
+        28,
+        29,
+        30,
+        40
+      ],
+      "policy/v08.md": [
+        24,
+        28,
+        29,
+        30,
+        40
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 28,
+      "within_min": 0.751,
+      "within_p50": 0.877,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "POL-1646": {
+    "groups": [
+      {
+        "name": "policy-revisions",
+        "files": [
+          "policy/v01.md",
+          "policy/v02.md",
+          "policy/v03.md",
+          "policy/v04.md",
+          "policy/v05.md",
+          "policy/v06.md",
+          "policy/v07.md"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "policy/v01.md": [
+        24,
+        27,
+        28,
+        30,
+        40
+      ],
+      "policy/v02.md": [
+        24,
+        26,
+        27,
+        29,
+        39
+      ],
+      "policy/v03.md": [
+        24,
+        26,
+        27,
+        29,
+        39
+      ],
+      "policy/v04.md": [
+        24,
+        26,
+        27,
+        29,
+        39
+      ],
+      "policy/v05.md": [
+        24,
+        26,
+        27,
+        29,
+        40
+      ],
+      "policy/v06.md": [
+        24,
+        26,
+        27,
+        29,
+        40
+      ],
+      "policy/v07.md": [
+        24,
+        26,
+        27,
+        29,
+        40
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.775,
+      "within_p50": 0.861,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "POL-1684": {
+    "groups": [
+      {
+        "name": "policy-revisions",
+        "files": [
+          "policy/v01.md",
+          "policy/v02.md",
+          "policy/v03.md",
+          "policy/v04.md",
+          "policy/v05.md",
+          "policy/v06.md",
+          "policy/v07.md",
+          "policy/v08.md",
+          "policy/v09.md"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "policy/v01.md": [
+        25,
+        27,
+        29,
+        31,
+        40
+      ],
+      "policy/v02.md": [
+        25,
+        27,
+        29,
+        31,
+        40
+      ],
+      "policy/v03.md": [
+        25,
+        27,
+        29,
+        31,
+        40
+      ],
+      "policy/v04.md": [
+        25,
+        27,
+        29,
+        31,
+        41
+      ],
+      "policy/v05.md": [
+        25,
+        26,
+        28,
+        30,
+        40
+      ],
+      "policy/v06.md": [
+        25,
+        26,
+        28,
+        30,
+        40
+      ],
+      "policy/v07.md": [
+        25,
+        26,
+        28,
+        30,
+        40
+      ],
+      "policy/v08.md": [
+        25,
+        26,
+        28,
+        30,
+        40
+      ],
+      "policy/v09.md": [
+        25,
+        26,
+        28,
+        30,
+        40
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 36,
+      "within_min": 0.698,
+      "within_p50": 0.863,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "POL-1722": {
+    "groups": [
+      {
+        "name": "policy-revisions",
+        "files": [
+          "policy/v01.md",
+          "policy/v02.md",
+          "policy/v03.md",
+          "policy/v04.md",
+          "policy/v05.md",
+          "policy/v06.md",
+          "policy/v07.md"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "policy/v01.md": [
+        25,
+        26,
+        27,
+        30,
+        40
+      ],
+      "policy/v02.md": [
+        25,
+        26,
+        27,
+        30,
+        40
+      ],
+      "policy/v03.md": [
+        25,
+        26,
+        27,
+        30,
+        41
+      ],
+      "policy/v04.md": [
+        25,
+        26,
+        27,
+        30,
+        41
+      ],
+      "policy/v05.md": [
+        25,
+        26,
+        27,
+        30,
+        41
+      ],
+      "policy/v06.md": [
+        25,
+        26,
+        27,
+        29,
+        40
+      ],
+      "policy/v07.md": [
+        25,
+        26,
+        27,
+        29,
+        40
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.642,
+      "within_p50": 0.806,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "POL-1760": {
+    "groups": [
+      {
+        "name": "policy-revisions",
+        "files": [
+          "policy/v01.md",
+          "policy/v02.md",
+          "policy/v03.md",
+          "policy/v04.md",
+          "policy/v05.md",
+          "policy/v06.md",
+          "policy/v07.md"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "policy/v01.md": [
+        25,
+        26,
+        30,
+        31,
+        40
+      ],
+      "policy/v02.md": [
+        25,
+        26,
+        30,
+        31,
+        40
+      ],
+      "policy/v03.md": [
+        25,
+        26,
+        30,
+        31,
+        41
+      ],
+      "policy/v04.md": [
+        25,
+        26,
+        30,
+        31,
+        41
+      ],
+      "policy/v05.md": [
+        25,
+        26,
+        30,
+        31,
+        41
+      ],
+      "policy/v06.md": [
+        25,
+        26,
+        29,
+        30,
+        40
+      ],
+      "policy/v07.md": [
+        25,
+        26,
+        29,
+        30,
+        40
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.745,
+      "within_p50": 0.879,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "POL-1798": {
+    "groups": [
+      {
+        "name": "policy-revisions",
+        "files": [
+          "policy/v01.md",
+          "policy/v02.md",
+          "policy/v03.md",
+          "policy/v04.md",
+          "policy/v05.md",
+          "policy/v06.md",
+          "policy/v07.md",
+          "policy/v08.md",
+          "policy/v09.md"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "policy/v01.md": [
+        24,
+        25,
+        27,
+        31,
+        40
+      ],
+      "policy/v02.md": [
+        24,
+        25,
+        27,
+        31,
+        40
+      ],
+      "policy/v03.md": [
+        24,
+        25,
+        27,
+        31,
+        40
+      ],
+      "policy/v04.md": [
+        24,
+        25,
+        27,
+        31,
+        40
+      ],
+      "policy/v05.md": [
+        24,
+        25,
+        27,
+        30,
+        39
+      ],
+      "policy/v06.md": [
+        24,
+        25,
+        27,
+        30,
+        39
+      ],
+      "policy/v07.md": [
+        24,
+        25,
+        27,
+        30,
+        39
+      ],
+      "policy/v08.md": [
+        24,
+        25,
+        27,
+        30,
+        40
+      ],
+      "policy/v09.md": [
+        24,
+        25,
+        27,
+        30,
+        40
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 36,
+      "within_min": 0.823,
+      "within_p50": 0.94,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "POL-1836": {
+    "groups": [
+      {
+        "name": "policy-revisions",
+        "files": [
+          "policy/v01.md",
+          "policy/v02.md",
+          "policy/v03.md",
+          "policy/v04.md",
+          "policy/v05.md",
+          "policy/v06.md",
+          "policy/v07.md"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "policy/v01.md": [
+        25,
+        28,
+        29,
+        31,
+        40
+      ],
+      "policy/v02.md": [
+        25,
+        28,
+        29,
+        31,
+        40
+      ],
+      "policy/v03.md": [
+        25,
+        27,
+        28,
+        30,
+        39
+      ],
+      "policy/v04.md": [
+        25,
+        27,
+        28,
+        30,
+        39
+      ],
+      "policy/v05.md": [
+        25,
+        27,
+        28,
+        30,
+        39
+      ],
+      "policy/v06.md": [
+        25,
+        27,
+        28,
+        30,
+        39
+      ],
+      "policy/v07.md": [
+        25,
+        27,
+        28,
+        30,
+        40
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.739,
+      "within_p50": 0.887,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  },
+  "POL-1874": {
+    "groups": [
+      {
+        "name": "policy-revisions",
+        "files": [
+          "policy/v01.md",
+          "policy/v02.md",
+          "policy/v03.md",
+          "policy/v04.md",
+          "policy/v05.md",
+          "policy/v06.md",
+          "policy/v07.md"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "policy/v01.md": [
+        24,
+        25,
+        26,
+        30,
+        40
+      ],
+      "policy/v02.md": [
+        24,
+        25,
+        26,
+        30,
+        40
+      ],
+      "policy/v03.md": [
+        24,
+        25,
+        26,
+        30,
+        40
+      ],
+      "policy/v04.md": [
+        24,
+        25,
+        26,
+        29,
+        39
+      ],
+      "policy/v05.md": [
+        24,
+        25,
+        26,
+        29,
+        39
+      ],
+      "policy/v06.md": [
+        24,
+        25,
+        26,
+        29,
+        39
+      ],
+      "policy/v07.md": [
+        24,
+        25,
+        26,
+        29,
+        40
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.791,
+      "within_p50": 0.875,
+      "within_max": 1.0,
+      "cross_max": 0.0
+    }
+  }
+}

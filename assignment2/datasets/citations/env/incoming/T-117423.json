@@ -1,0 +1,17 @@
+{
+  "tid": "T-117423",
+  "seq": 48,
+  "citation": {
+    "authors": [
+      "Z. Moretti",
+      "N. Quinn",
+      "H. Nair"
+    ],
+    "title": "Differential mixture models for speech recognition",
+    "venue": "SIGIR",
+    "year": 2019,
+    "doi": "10.5555/sigir.2019.5519"
+  },
+  "raw": "@inproceedings{moretti2019differential,\n  author = {Z. Moretti and N. Quinn and H. Nair},\n  title = {Differential mixture models for speech recognition},\n  booktitle = {Proc. of SIGIR},\n  year = {2019},\n  publisher = {ACM},\n  doi = {10.5555/sigir.2019.5519},\n  note = {Available at https://proceedings.example.org/sigir/193},\n}",
+  "received": "2026-03-02"
+}

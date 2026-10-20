@@ -1,0 +1,10 @@
+{
+  "tid": "T-8bec2c",
+  "seq": 31,
+  "product": "SyncVault",
+  "error_code": "E-1100",
+  "platform": "android",
+  "subject": "E-1100: token rejected on Android",
+  "body": "Good morrning. My setup is SyncVault 4.2.5, Android 15 (Pixel 8). Whenever I log in since Tuesday,\nthe app shows \"E-1100: authentication token rejected\".\n\nThe failure is specific to the office network, the hotspot is fine. A new corporate proxy went live\nfor the wole staff this month.\n\nI've already tried searching the help centre, which changed nothing.\n\nRegards, Mei Lin, Ferro & Sons",
+  "opened": "2026-02-10"
+}

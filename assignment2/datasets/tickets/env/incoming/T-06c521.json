@@ -1,0 +1,10 @@
+{
+  "tid": "T-06c521",
+  "seq": 44,
+  "product": "Tallyboard",
+  "error_code": "E-6155",
+  "platform": "android",
+  "subject": "E-6155: token rejected on Android",
+  "body": "Hello support team. We run Tallyboard 1.9.5 on Android 15\n(Pixel 8). Whenever I log in since last week, the app shows\n\"E-6155: authentication token rejected\".\n\nIt only happens on the office network; on my phone's hotspot\nit works. IT installed a new web proxy for all staff this\nmonth.\n\nBefore writing in I tried rebooting the router; same error\nafterwards.\n\nRegards, Mei Lin, Meridian Schools",
+  "opened": "2026-02-25"
+}

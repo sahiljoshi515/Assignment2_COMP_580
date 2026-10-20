@@ -1,0 +1,10 @@
+{
+  "tid": "T-ab4ae0",
+  "seq": 37,
+  "scenario": "FLT1076",
+  "kind": "uptime_of",
+  "target": "cache-03",
+  "subject": "FLT-1076: how long has cache-03 been up",
+  "body": "Fatima Zahra (payments) writing with a quick request. Please read\ninventory/cache-03.txt and report its uptime in days.\n\nOnly that host's file matters for this one.\n\nThanks, Fatima Zahra",
+  "received": "2026-03-21"
+}

@@ -1,0 +1,108 @@
+2026-01-23T20:18:16Z notify-07 INFO  starting notify 3.2.0 (build 69d6550) on notify-07
+2026-01-23T20:18:17Z notify-07 INFO  config: max_connections=256
+2026-01-23T20:18:17Z notify-07 INFO  config: pool_size=32
+2026-01-23T20:18:17Z notify-07 INFO  config: request_timeout_ms=8000
+2026-01-23T20:18:17Z notify-07 INFO  config: cache_ttl_s=60
+2026-01-23T20:18:17Z notify-07 INFO  config: log_level=DEBUG
+2026-01-23T20:18:17Z notify-07 INFO  config: queue_depth=500
+2026-01-23T20:18:17Z notify-07 INFO  config: gc_interval_s=120
+2026-01-23T20:18:18Z notify-07 INFO  listening on 0.0.0.0:8080; workers=8
+2026-01-23T20:18:16Z notify-07 INFO  health check ok (latency 11ms)
+2026-01-23T20:18:19Z notify-07 INFO  POST /v1/refunds 200 in 357ms rid=0f5f5c
+2026-01-23T20:18:27Z notify-07 INFO  GET /v1/profile 200 in 331ms rid=52c397
+2026-01-23T20:18:33Z notify-07 INFO  metrics: rps=186 p99=112ms heap=718MB goroutines=812
+2026-01-23T20:18:35Z notify-07 INFO  PUT /v1/cart 200 in 12ms rid=0fbb63
+2026-01-23T20:18:43Z notify-07 INFO  GET /health 200 in 225ms rid=052887
+2026-01-23T20:18:46Z notify-07 INFO  health check ok (latency 6ms)
+2026-01-23T20:18:51Z notify-07 INFO  DELETE /v1/cart/99742 200 in 373ms rid=ce004c
+2026-01-23T20:18:57Z notify-07 WARN  retrying upstream call (attempt 2/3)
+2026-01-23T20:18:59Z notify-07 INFO  POST /v1/refunds 200 in 95ms rid=d23f67
+2026-01-23T20:19:07Z notify-07 INFO  POST /v1/payments 200 in 255ms rid=ce9772
+2026-01-23T20:19:15Z notify-07 INFO  GET /health 200 in 146ms rid=d971b6
+2026-01-23T20:19:16Z notify-07 INFO  health check ok (latency 1ms)
+2026-01-23T20:19:23Z notify-07 INFO  POST /v1/refunds 200 in 109ms rid=ee12ce
+2026-01-23T20:19:31Z notify-07 INFO  POST /v1/orders 200 in 229ms rid=8ea608
+2026-01-23T20:19:39Z notify-07 INFO  POST /v1/orders 200 in 142ms rid=bc7662
+2026-01-23T20:19:46Z notify-07 INFO  health check ok (latency 10ms)
+2026-01-23T20:19:47Z notify-07 INFO  GET /health 200 in 209ms rid=c5b40e
+2026-01-23T20:19:55Z notify-07 INFO  GET /v1/search 200 in 47ms rid=3bbce2
+2026-01-23T20:20:03Z notify-07 INFO  GET /v1/orders/76532 200 in 198ms rid=5df918
+2026-01-23T20:20:11Z notify-07 INFO  GET /health 200 in 202ms rid=a6f346
+2026-01-23T20:20:16Z notify-07 INFO  health check ok (latency 7ms)
+2026-01-23T20:20:19Z notify-07 INFO  POST /v1/orders 200 in 317ms rid=8084ec
+2026-01-23T20:20:27Z notify-07 INFO  GET /v1/orders/85787 200 in 94ms rid=9384f4
+2026-01-23T20:20:33Z notify-07 INFO  metrics: rps=319 p99=60ms heap=1265MB goroutines=54
+2026-01-23T20:20:34Z notify-07 WARN  cache miss ratio above 0.29
+2026-01-23T20:20:35Z notify-07 INFO  POST /v1/orders 200 in 117ms rid=2316df
+2026-01-23T20:20:43Z notify-07 INFO  GET /v1/orders/51381 200 in 376ms rid=7074ae
+2026-01-23T20:20:46Z notify-07 INFO  health check ok (latency 11ms)
+2026-01-23T20:20:51Z notify-07 INFO  GET /health 200 in 349ms rid=194562
+2026-01-23T20:20:59Z notify-07 INFO  PUT /v1/cart 200 in 151ms rid=c4cfbc
+2026-01-23T20:21:07Z notify-07 INFO  POST /v1/payments 200 in 330ms rid=3f75e3
+2026-01-23T20:21:15Z notify-07 INFO  GET /v1/profile 200 in 328ms rid=133cd1
+2026-01-23T20:21:16Z notify-07 INFO  health check ok (latency 8ms)
+2026-01-23T20:21:23Z notify-07 INFO  PUT /v1/cart 200 in 348ms rid=47a93d
+2026-01-23T20:21:31Z notify-07 INFO  GET /v1/orders/45771 200 in 250ms rid=f7ebd4
+2026-01-23T20:21:39Z notify-07 INFO  GET /v1/orders/91585 200 in 360ms rid=8bd663
+2026-01-23T20:21:46Z notify-07 INFO  health check ok (latency 6ms)
+2026-01-23T20:21:47Z notify-07 INFO  GET /v1/profile 200 in 91ms rid=7e2eb7
+2026-01-23T20:21:55Z notify-07 INFO  POST /v1/orders 200 in 4ms rid=bff370
+2026-01-23T20:22:03Z notify-07 INFO  DELETE /v1/cart/51441 200 in 297ms rid=c3bcb0
+2026-01-23T20:22:11Z notify-07 INFO  POST /v1/refunds 200 in 89ms rid=f23036
+2026-01-23T20:22:11Z notify-07 WARN  connection pool at 47% capacity
+2026-01-23T20:22:16Z notify-07 INFO  health check ok (latency 7ms)
+2026-01-23T20:22:19Z notify-07 INFO  GET /v1/orders/52381 200 in 141ms rid=e269c5
+2026-01-23T20:22:27Z notify-07 INFO  POST /v1/orders 200 in 115ms rid=b4d1ae
+2026-01-23T20:22:33Z notify-07 INFO  metrics: rps=242 p99=280ms heap=1554MB goroutines=516
+2026-01-23T20:22:35Z notify-07 INFO  GET /v1/orders/23929 200 in 234ms rid=27992b
+2026-01-23T20:22:43Z notify-07 INFO  DELETE /v1/cart/50084 200 in 130ms rid=b85254
+2026-01-23T20:22:46Z notify-07 INFO  health check ok (latency 10ms)
+2026-01-23T20:22:51Z notify-07 INFO  POST /v1/orders 200 in 98ms rid=865691
+2026-01-23T20:22:59Z notify-07 INFO  GET /v1/search 200 in 374ms rid=a7a8d6
+2026-01-23T20:23:07Z notify-07 INFO  GET /v1/profile 200 in 66ms rid=8fb09f
+2026-01-23T20:23:15Z notify-07 INFO  PUT /v1/cart 200 in 298ms rid=bcbf79
+2026-01-23T20:23:16Z notify-07 INFO  health check ok (latency 9ms)
+2026-01-23T20:23:23Z notify-07 INFO  GET /v1/search 200 in 109ms rid=fc66c8
+2026-01-23T20:23:31Z notify-07 INFO  POST /v1/payments 200 in 38ms rid=c72b80
+2026-01-23T20:23:39Z notify-07 INFO  GET /v1/search 200 in 194ms rid=5bfaa0
+2026-01-23T20:23:46Z notify-07 INFO  health check ok (latency 6ms)
+2026-01-23T20:23:47Z notify-07 INFO  GET /v1/search 200 in 20ms rid=59ae8c
+2026-01-23T20:23:48Z notify-07 WARN  cache miss ratio above 0.69
+2026-01-23T20:23:55Z notify-07 INFO  GET /v1/items/68828 200 in 305ms rid=667318
+2026-01-23T20:24:03Z notify-07 INFO  PUT /v1/cart 200 in 259ms rid=34c2ea
+2026-01-23T20:24:11Z notify-07 INFO  PUT /v1/cart 200 in 124ms rid=55b482
+2026-01-23T20:24:16Z notify-07 INFO  health check ok (latency 9ms)
+2026-01-23T20:24:19Z notify-07 INFO  GET /v1/orders/47581 200 in 269ms rid=d41724
+2026-01-23T20:24:19Z notify-07 ERROR DeadlineExceeded: user-service did not respond within 8000ms (attempt 1/3)
+2026-01-23T20:24:25Z notify-07 ERROR DeadlineExceeded: user-service did not respond within 8000ms (attempt 2/3)
+2026-01-23T20:24:27Z notify-07 INFO  GET /v1/search 200 in 332ms rid=029c44
+2026-01-23T20:24:31Z notify-07 ERROR DeadlineExceeded: user-service did not respond within 8000ms (attempt 3/3)
+2026-01-23T20:24:33Z notify-07 INFO  metrics: rps=107 p99=394ms heap=469MB goroutines=307
+2026-01-23T20:24:35Z notify-07 INFO  POST /v1/refunds 503 in 104ms rid=f76d31
+2026-01-23T20:24:37Z notify-07 ERROR DeadlineExceeded: user-service did not respond within 8000ms (attempt 1/3)
+2026-01-23T20:24:43Z notify-07 INFO  POST /v1/payments 200 in 309ms rid=f93da2
+2026-01-23T20:24:43Z notify-07 ERROR DeadlineExceeded: user-service did not respond within 8000ms (attempt 2/3)
+2026-01-23T20:24:46Z notify-07 WARN  health check FAILED: user-service unreachable
+2026-01-23T20:24:49Z notify-07 ERROR DeadlineExceeded: user-service did not respond within 8000ms (attempt 3/3)
+2026-01-23T20:24:51Z notify-07 INFO  POST /v1/orders 503 in 214ms rid=2b65ee
+2026-01-23T20:24:55Z notify-07 ERROR DeadlineExceeded: user-service did not respond within 8000ms (attempt 1/3)
+2026-01-23T20:24:59Z notify-07 INFO  GET /v1/profile 200 in 40ms rid=bc4ad4
+2026-01-23T20:25:01Z notify-07 ERROR DeadlineExceeded: user-service did not respond within 8000ms (attempt 2/3)
+2026-01-23T20:25:07Z notify-07 INFO  GET /health 503 in 272ms rid=e38416
+2026-01-23T20:25:07Z notify-07 ERROR DeadlineExceeded: user-service did not respond within 8000ms (attempt 3/3)
+2026-01-23T20:25:13Z notify-07 ERROR DeadlineExceeded: user-service did not respond within 8000ms (attempt 1/3)
+2026-01-23T20:25:15Z notify-07 INFO  GET /v1/items/67886 503 in 23ms rid=710369
+2026-01-23T20:25:16Z notify-07 WARN  health check FAILED: user-service unreachable
+2026-01-23T20:25:19Z notify-07 ERROR DeadlineExceeded: user-service did not respond within 8000ms (attempt 2/3)
+2026-01-23T20:25:23Z notify-07 INFO  DELETE /v1/cart/25598 200 in 222ms rid=3c1dc5
+2026-01-23T20:25:25Z notify-07 WARN  retrying upstream call (attempt 1/3)
+2026-01-23T20:25:25Z notify-07 ERROR DeadlineExceeded: user-service did not respond within 8000ms (attempt 3/3)
+2026-01-23T20:25:31Z notify-07 INFO  GET /v1/items/35407 503 in 366ms rid=bd8818
+2026-01-23T20:25:31Z notify-07 ERROR DeadlineExceeded: user-service did not respond within 8000ms (attempt 1/3)
+2026-01-23T20:25:37Z notify-07 ERROR DeadlineExceeded: giving up on user-service after 14 attempts
+2026-01-23T20:25:39Z notify-07 INFO  GET /v1/profile 200 in 23ms rid=3bb0f0
+2026-01-23T20:25:46Z notify-07 INFO  health check ok (latency 4ms)
+2026-01-23T20:25:47Z notify-07 INFO  POST /v1/payments 200 in 30ms rid=62ba9b
+2026-01-23T20:25:55Z notify-07 INFO  GET /v1/orders/98939 200 in 239ms rid=170b75
+2026-01-23T20:26:03Z notify-07 INFO  GET /v1/orders/79361 200 in 230ms rid=476a71
+2026-01-23T20:26:11Z notify-07 INFO  GET /health 200 in 15ms rid=5ca3df

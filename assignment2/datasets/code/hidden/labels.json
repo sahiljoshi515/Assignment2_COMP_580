@@ -1,0 +1,532 @@
+{
+  "T-1429da": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-7aa00a",
+    "differs_in": [
+      "scenario"
+    ],
+    "answer": {
+      "file": "adapters/paypal.py",
+      "function": "refund"
+    },
+    "canonical_id": "C-d507174b",
+    "seq": 1
+  },
+  "T-b372a7": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/adyen.py",
+      "function": "refund"
+    },
+    "canonical_id": "C-4fb05b9e",
+    "seq": 2
+  },
+  "T-2a13d0": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-6e7786",
+    "differs_in": [
+      "scenario",
+      "target"
+    ],
+    "answer": {
+      "file": "adapters/adyen.py",
+      "codes": [
+        "REFUSED",
+        "NOT_ENOUGH_BALANCE",
+        "EXPIRED_CARD",
+        "CVC_DECLINED"
+      ]
+    },
+    "canonical_id": "C-33a62209",
+    "seq": 3
+  },
+  "T-17d305": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/paypal.py",
+      "function": "_request"
+    },
+    "canonical_id": "C-6e5b36bc",
+    "seq": 4
+  },
+  "T-b94ebe": {
+    "dup_of": "T-17d305",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/paypal.py",
+      "function": "_request"
+    },
+    "canonical_id": "C-6e5b36bc",
+    "seq": 5
+  },
+  "T-168a7a": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/adyen.py",
+      "function": "refund"
+    },
+    "canonical_id": "C-ac9fc70d",
+    "seq": 6
+  },
+  "T-b1fec3": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/checkout.py",
+      "function": "_request"
+    },
+    "canonical_id": "C-cfcb2331",
+    "seq": 7
+  },
+  "T-2f07ad": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-bb78f4",
+    "differs_in": [
+      "scenario"
+    ],
+    "answer": {
+      "file": "adapters/square.py",
+      "value": 60
+    },
+    "canonical_id": "C-5772847b",
+    "seq": 8
+  },
+  "T-623e9a": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/adyen.py",
+      "value": "https://api.adyen.com/v1"
+    },
+    "canonical_id": "C-360261f1",
+    "seq": 9
+  },
+  "T-504956": {
+    "dup_of": "H-5821b0",
+    "dup_kind": "exact",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/mollie.py",
+      "function": "refund"
+    },
+    "canonical_id": "C-ff2fe651",
+    "seq": 10
+  },
+  "T-67e8ef": {
+    "dup_of": "T-623e9a",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/adyen.py",
+      "value": "https://api.adyen.com/v1"
+    },
+    "canonical_id": "C-360261f1",
+    "seq": 11
+  },
+  "T-47d145": {
+    "dup_of": "T-623e9a",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/adyen.py",
+      "value": "https://api.adyen.com/v1"
+    },
+    "canonical_id": "C-360261f1",
+    "seq": 12
+  },
+  "T-186fdd": {
+    "dup_of": "H-29fa1f",
+    "dup_kind": "exact",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/braintree.py",
+      "algorithm": "sha1"
+    },
+    "canonical_id": "C-4dd28797",
+    "seq": 13
+  },
+  "T-735ebe": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/checkout.py",
+      "codes": [
+        "20005",
+        "20051",
+        "20054",
+        "30004"
+      ]
+    },
+    "canonical_id": "C-3495122c",
+    "seq": 14
+  },
+  "T-82ed4d": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/stripe.py",
+      "value": 5
+    },
+    "canonical_id": "C-30c54680",
+    "seq": 15
+  },
+  "T-b8dc49": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/adyen.py",
+      "function": "_request"
+    },
+    "canonical_id": "C-37c3c158",
+    "seq": 16
+  },
+  "T-b33f7d": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/adyen.py",
+      "value": "https://api.adyen.com/v1"
+    },
+    "canonical_id": "C-09c8e640",
+    "seq": 17
+  },
+  "T-596542": {
+    "dup_of": "H-d1fd9c",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/checkout.py",
+      "function": "_request"
+    },
+    "canonical_id": "C-235e862c",
+    "seq": 18
+  },
+  "T-20b8da": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/stripe.py",
+      "value": "https://api.stripe.com/v1"
+    },
+    "canonical_id": "C-4a1a7579",
+    "seq": 19
+  },
+  "T-24ca74": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "T-1429da",
+    "differs_in": [
+      "scenario"
+    ],
+    "answer": {
+      "file": "adapters/checkout.py",
+      "function": "refund"
+    },
+    "canonical_id": "C-8f74e072",
+    "seq": 20
+  },
+  "T-694290": {
+    "dup_of": "H-3c75d3",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/worldpay.py",
+      "value": "https://api.worldpay.com/v3"
+    },
+    "canonical_id": "C-9c0845c4",
+    "seq": 21
+  },
+  "T-2a8e03": {
+    "dup_of": "H-cb9c70",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/checkout.py",
+      "value": 30
+    },
+    "canonical_id": "C-18ffe68a",
+    "seq": 22
+  },
+  "T-40e640": {
+    "dup_of": "H-fa7dbc",
+    "dup_kind": "exact",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/paypal.py",
+      "codes": [
+        "INSTRUMENT_DECLINED",
+        "PAYER_CANNOT_PAY",
+        "TRANSACTION_REFUSED"
+      ]
+    },
+    "canonical_id": "C-efa8ebdd",
+    "seq": 23
+  },
+  "T-a77ba4": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/adyen.py",
+      "value": 30
+    },
+    "canonical_id": "C-f8921ead",
+    "seq": 24
+  },
+  "T-767d34": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/square.py",
+      "function": "refund"
+    },
+    "canonical_id": "C-400d5a50",
+    "seq": 25
+  },
+  "T-8603c5": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-1b1c37",
+    "differs_in": [
+      "scenario"
+    ],
+    "answer": {
+      "file": "adapters/square.py",
+      "function": "refund"
+    },
+    "canonical_id": "C-9a7acbfb",
+    "seq": 26
+  },
+  "T-05709f": {
+    "dup_of": "H-56a90b",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/braintree.py",
+      "value": "https://api.braintreegateway.com/v2"
+    },
+    "canonical_id": "C-84680eaa",
+    "seq": 27
+  },
+  "T-000968": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/square.py",
+      "codes": [
+        "CARD_DECLINED",
+        "INSUFFICIENT_FUNDS",
+        "CVV_FAILURE",
+        "CARD_EXPIRED"
+      ]
+    },
+    "canonical_id": "C-dace1396",
+    "seq": 28
+  },
+  "T-a39638": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/paypal.py",
+      "value": "https://api.paypal.com/v3"
+    },
+    "canonical_id": "C-5afd3018",
+    "seq": 29
+  },
+  "T-63763b": {
+    "dup_of": "H-4c2c00",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/klarna.py",
+      "value": "https://api.klarna.com/v3"
+    },
+    "canonical_id": "C-be9b1cd7",
+    "seq": 30
+  },
+  "T-ba6f97": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-6e7786",
+    "differs_in": [
+      "scenario",
+      "target"
+    ],
+    "answer": {
+      "file": "adapters/paypal.py",
+      "codes": [
+        "INSTRUMENT_DECLINED",
+        "PAYER_CANNOT_PAY",
+        "TRANSACTION_REFUSED"
+      ]
+    },
+    "canonical_id": "C-7568bde9",
+    "seq": 31
+  },
+  "T-6425f7": {
+    "dup_of": "H-bc0de5",
+    "dup_kind": "reorder",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/worldpay.py",
+      "algorithm": "sha1"
+    },
+    "canonical_id": "C-046520b3",
+    "seq": 32
+  },
+  "T-adbd49": {
+    "dup_of": "H-07be33",
+    "dup_kind": "reorder",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/adyen.py",
+      "codes": [
+        "REFUSED",
+        "NOT_ENOUGH_BALANCE",
+        "EXPIRED_CARD",
+        "CVC_DECLINED"
+      ]
+    },
+    "canonical_id": "C-a2bd3fc2",
+    "seq": 33
+  },
+  "T-6e2474": {
+    "dup_of": "T-05709f",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/braintree.py",
+      "value": "https://api.braintreegateway.com/v2"
+    },
+    "canonical_id": "C-84680eaa",
+    "seq": 34
+  },
+  "T-4bac3d": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/klarna.py",
+      "value": "https://api.klarna.com/v1"
+    },
+    "canonical_id": "C-9e21c20f",
+    "seq": 35
+  },
+  "T-3747fb": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/klarna.py",
+      "codes": [
+        "REJECTED",
+        "CREDIT_DENIED",
+        "ORDER_LIMIT"
+      ]
+    },
+    "canonical_id": "C-64bfdbc1",
+    "seq": 36
+  },
+  "T-56d811": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-f02662",
+    "differs_in": [
+      "scenario"
+    ],
+    "answer": {
+      "file": "adapters/checkout.py",
+      "function": "_request"
+    },
+    "canonical_id": "C-0327d337",
+    "seq": 37
+  },
+  "T-d53425": {
+    "dup_of": "T-596542",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/checkout.py",
+      "function": "_request"
+    },
+    "canonical_id": "C-235e862c",
+    "seq": 38
+  },
+  "T-b1b84a": {
+    "dup_of": "H-7bfcd8",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "file": "adapters/adyen.py",
+      "value": 60
+    },
+    "canonical_id": "C-695de518",
+    "seq": 39
+  },
+  "T-1b6a95": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "T-b1fec3",
+    "differs_in": [
+      "scenario"
+    ],
+    "answer": {
+      "file": "adapters/braintree.py",
+      "function": "_request"
+    },
+    "canonical_id": "C-73b8c2b0",
+    "seq": 40
+  }
+}

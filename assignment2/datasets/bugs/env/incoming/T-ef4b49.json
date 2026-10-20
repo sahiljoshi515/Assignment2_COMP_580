@@ -1,0 +1,11 @@
+{
+  "tid": "T-ef4b49",
+  "seq": 25,
+  "exception": "ConnectionError",
+  "top_frame": "lattice.net.http.post",
+  "version": "3.1.0",
+  "title": "ConnectionError while pushing local changes (http.post)",
+  "body": "ENVIRONMENT:\n\nExecuting Lattice 3.1.0 on Fedora 41 Workstation against us-west-2.\n\nSTEPS:\n\nSteps to replicate:\n* Open Lattice and begin pushing local changes.\n* Run the stress script to generate load for about five minutes.\n* Observe the log for the traceback below.\n\nEXPECTED:\n\nNo stack trace; pushing local changes usually takes a few secs.\n\nACTUAL:\n\nAfter a few hundred calls every connection fails until the app is restarted. It\nshows up under load; the connection count in the gauge keeps climbing and\nnot once drops.\n\nFREQUENCY:\n\nHappens roughly one run in three.",
+  "stacktrace": "lattice/ui/main.py:46 in loop\nlattice/sched/runner.py:134 in run_due\nlattice/store/remote.py:80 in sync_all\nlattice/net/http.py:93 in post\nConnectionError: connection refused (host=us-west-2)",
+  "reported": "2026-02-07"
+}

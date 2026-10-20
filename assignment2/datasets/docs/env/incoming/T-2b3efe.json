@@ -1,0 +1,7 @@
+{
+  "tid": "T-2b3efe",
+  "seq": 29,
+  "title": "INC-1415: Ledger Core incident report",
+  "body": "## Impact\n\nThe Ledger Core incident described here is closed at the\ntime of writing. Network Operations linked roughly 12\ntickets to the event and engaged Brightpath Security, the\nhosting provider, within the first hour.\n\n## Timeline\n\nEvents noted by Yuki Tanaka up to 27 October 2025, in order:\n- The previous configuration was redeployed to the whole\n  pool\n- Customers were notified through the public status page\n- Failover to the standby database instance was started\n\n## Status\n\nNetwork Operations lists the incident as closed. Kenji Sato\nwrote this report on 20 February 2025 and will review it in\nthe 03:30-05:00 UTC window before the weekly service\nmeeting.",
+  "received": "2026-02-13"
+}

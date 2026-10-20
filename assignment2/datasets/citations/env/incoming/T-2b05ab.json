@@ -1,0 +1,18 @@
+{
+  "tid": "T-2b05ab",
+  "seq": 54,
+  "citation": {
+    "authors": [
+      "J. Delgado",
+      "V. Ortega",
+      "A. Lin",
+      "B. Murphy"
+    ],
+    "title": "Dense retrieval with lightweight graph networks",
+    "venue": "SIGIR",
+    "year": 2025,
+    "doi": "10.5555/sigir.2025.af51"
+  },
+  "raw": "@inproceedings{delgado:dense,\n  author = {J. Delgado and V. Ortega and A. Lin and B. Murphy},\n  title = {Dense retrieval with lightweight graph networks},\n  booktitle = {SIGIR},\n  year = {2025},\n  publisher = {ACM},\n  doi = {10.5555/sigir.2025.af51},\n}",
+  "received": "2026-03-09"
+}

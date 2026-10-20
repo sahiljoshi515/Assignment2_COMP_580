@@ -1,0 +1,16 @@
+From: Backup Service <backup-bot@brightwaterclinics.example>
+To: ops-notify@brightwaterclinics.example
+Date: Sun, 01 Mar 2026 03:15:00 +0000
+Subject: Nightly backup report - mailstore-incremental - 2026-02-28
+
+Nightly backup report for 2026-02-28
+Job: mailstore-incremental
+Status: FAILED (checksum mismatch on 3 files)
+Started: 02:02:09 UTC   Finished: 03:15:34 UTC   Duration: 73 min
+Bytes transferred: 45.7 GB   Files: 931,904   Changed since last run: 4.1 %
+Retention: 30 daily, 12 weekly, 6 monthly
+Next run: 2026-03-01 02:00 UTC
+
+-- 
+This message was generated automatically by the backup service. Replies are not read.
+To change the schedule or the recipients, edit the job in the backup console.

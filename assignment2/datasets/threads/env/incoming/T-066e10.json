@@ -1,0 +1,10 @@
+{
+  "tid": "T-066e10",
+  "seq": 16,
+  "scenario": "MBX-1532",
+  "kind": "message_count",
+  "target": "laptop-refresh",
+  "subject": "MBX-1532: how many messages in the laptop-refresh thread",
+  "body": "Hello -- Jonas Berg, SRE. How long is the laptop refresh for support team thread, in messages?\n\nRepplies qute earlier messages; count messages, not quotes.\n\nThanks, Jonas Berg",
+  "received": "2026-02-05"
+}

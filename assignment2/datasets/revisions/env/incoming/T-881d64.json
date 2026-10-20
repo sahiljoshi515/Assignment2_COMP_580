@@ -1,0 +1,10 @@
+{
+  "tid": "T-881d64",
+  "seq": 21,
+  "scenario": "pol-1418",
+  "kind": "changes_count",
+  "target": "retention_days",
+  "subject": "POL-1418: how many times the retention period changed",
+  "body": "Nora Lindqvist (QA) writing with a quick request. How many\ntimes did the retention period change across the revisions\nof the Access Control Standard?\n\nThe first revision setting the value is not a change; count\nonly later revisions where the value differs from the\nprevious one.\n\nRegards, Nora Lindqvist -- QA",
+  "received": "2026-02-16"
+}

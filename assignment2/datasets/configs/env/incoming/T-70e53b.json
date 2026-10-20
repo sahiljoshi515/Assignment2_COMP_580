@@ -1,0 +1,10 @@
+{
+  "tid": "T-70e53b",
+  "seq": 23,
+  "scenario": "CFG1000",
+  "kind": "replicas_of",
+  "target": "dr",
+  "subject": "CFG-1000: how many replicas does dr run",
+  "body": "Hi, Omar Haddad from the SRE team here. Please read config/dr.yaml for notify-worker and give me its replica count.\n\nReport the number as written in service.replicas.\n\nThanks, Omar Haddad",
+  "received": "2026-02-20"
+}

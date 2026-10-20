@@ -1,0 +1,16 @@
+From: Backup Service <backup-bot@tessalabs.example>
+To: ops-notify@tessalabs.example
+Date: Wed, 18 Feb 2026 03:28:00 +0000
+Subject: Nightly backup report - wiki-and-tracker - 2026-02-17
+
+Nightly backup report for 2026-02-17
+Job: wiki-and-tracker
+Status: SUCCESS
+Started: 02:04:37 UTC   Finished: 03:28:33 UTC   Duration: 84 min
+Bytes transferred: 45.0 GB   Files: 1,352,921   Changed since last run: 1.9 %
+Retention: 30 daily, 12 weekly, 6 monthly
+Next run: 2026-02-18 02:00 UTC
+
+-- 
+This message was generated automatically by the backup service. Replies are not read.
+To change the schedule or the recipients, edit the job in the backup console.

@@ -1,0 +1,18 @@
+{
+  "tid": "T-158070",
+  "seq": 51,
+  "citation": {
+    "authors": [
+      "Huang, Sofia",
+      "Haddad, Pablo",
+      "Oliveira, Zoe"
+    ],
+    "title": "Self-Supervised Pretraining for Hierarchical Speech Recognition",
+    "venue": "VLDB",
+    "year": 2024,
+    "doi": "10.5555/vldb.2024.1a69",
+    "pages": "7257-7268"
+  },
+  "raw": "@inproceedings{huang2024self-supervised,\n  author = {Huang, Sofia and Haddad, Pablo and Oliveira, Zoe},\n  title = {Self-Supervised Pretraining for Hierarchical Speech Recognition},\n  booktitle = {VLDB},\n  year = {2024},\n  publisher = {VLDB Endowment},\n  pages = {7257--7268},\n  doi = {10.5555/vldb.2024.1a69},\n}",
+  "received": "2026-03-06"
+}

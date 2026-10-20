@@ -1,0 +1,10 @@
+{
+  "tid": "T-cd7cb3",
+  "seq": 12,
+  "scenario": "MBX1874",
+  "kind": "message_count",
+  "target": "data-retention",
+  "subject": "MBX-1874: how many messages in the data-retention thread",
+  "body": "Luca Moretti (infra) writing with a quick request. Please count the messages in the retention change for invoice data thread (original message plus replies).\n\nCount files whose Subject is that thread's subject, with or without Re:.\n\nRegards, Luca Moretti -- infra",
+  "received": "2026-01-28"
+}

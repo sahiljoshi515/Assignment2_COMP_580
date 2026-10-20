@@ -1,0 +1,1369 @@
+{
+  "SDK-1000": {
+    "groups": [
+      {
+        "name": "provider-adapters",
+        "files": [
+          "adapters/adyen.py",
+          "adapters/braintree.py",
+          "adapters/checkout.py",
+          "adapters/paypal.py",
+          "adapters/square.py",
+          "adapters/stripe.py"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "adapters/adyen.py": [
+        17,
+        22,
+        45,
+        95
+      ],
+      "adapters/braintree.py": [
+        17,
+        22
+      ],
+      "adapters/checkout.py": [
+        17,
+        22,
+        49
+      ],
+      "adapters/paypal.py": [
+        17,
+        22,
+        82
+      ],
+      "adapters/square.py": [
+        17,
+        18,
+        22
+      ],
+      "adapters/stripe.py": [
+        17,
+        22
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 15,
+      "within_min": 0.869,
+      "within_p50": 0.883,
+      "within_max": 0.901,
+      "cross_max": 0.019
+    }
+  },
+  "SDK-1038": {
+    "groups": [
+      {
+        "name": "provider-adapters",
+        "files": [
+          "adapters/adyen.py",
+          "adapters/braintree.py",
+          "adapters/checkout.py",
+          "adapters/mollie.py",
+          "adapters/paypal.py",
+          "adapters/square.py"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "adapters/adyen.py": [
+        17,
+        18,
+        22
+      ],
+      "adapters/braintree.py": [
+        17,
+        22
+      ],
+      "adapters/checkout.py": [
+        17,
+        22,
+        45,
+        95
+      ],
+      "adapters/mollie.py": [
+        17,
+        22,
+        82
+      ],
+      "adapters/paypal.py": [
+        17,
+        22
+      ],
+      "adapters/square.py": [
+        17,
+        22,
+        49
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 15,
+      "within_min": 0.865,
+      "within_p50": 0.88,
+      "within_max": 0.898,
+      "cross_max": 0.019
+    }
+  },
+  "SDK-1076": {
+    "groups": [
+      {
+        "name": "provider-adapters",
+        "files": [
+          "adapters/adyen.py",
+          "adapters/braintree.py",
+          "adapters/mollie.py",
+          "adapters/paypal.py",
+          "adapters/square.py",
+          "adapters/stripe.py"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "adapters/adyen.py": [
+        17,
+        22,
+        82
+      ],
+      "adapters/braintree.py": [
+        17,
+        22,
+        45,
+        95
+      ],
+      "adapters/mollie.py": [
+        17,
+        22
+      ],
+      "adapters/paypal.py": [
+        17,
+        22,
+        49
+      ],
+      "adapters/square.py": [
+        17,
+        22
+      ],
+      "adapters/stripe.py": [
+        17,
+        18,
+        22
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 15,
+      "within_min": 0.856,
+      "within_p50": 0.874,
+      "within_max": 0.901,
+      "cross_max": 0.02
+    }
+  },
+  "SDK-1114": {
+    "groups": [
+      {
+        "name": "provider-adapters",
+        "files": [
+          "adapters/adyen.py",
+          "adapters/braintree.py",
+          "adapters/checkout.py",
+          "adapters/klarna.py",
+          "adapters/paypal.py",
+          "adapters/stripe.py",
+          "adapters/worldpay.py"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "adapters/adyen.py": [
+        17,
+        22
+      ],
+      "adapters/braintree.py": [
+        17,
+        22
+      ],
+      "adapters/checkout.py": [
+        17,
+        22,
+        49
+      ],
+      "adapters/klarna.py": [
+        17,
+        18,
+        22
+      ],
+      "adapters/paypal.py": [
+        17,
+        22,
+        45,
+        95
+      ],
+      "adapters/stripe.py": [
+        17,
+        22,
+        82
+      ],
+      "adapters/worldpay.py": [
+        17,
+        22
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.867,
+      "within_p50": 0.887,
+      "within_max": 0.896,
+      "cross_max": 0.019
+    }
+  },
+  "SDK-1152": {
+    "groups": [
+      {
+        "name": "provider-adapters",
+        "files": [
+          "adapters/braintree.py",
+          "adapters/checkout.py",
+          "adapters/klarna.py",
+          "adapters/paypal.py",
+          "adapters/square.py",
+          "adapters/stripe.py",
+          "adapters/worldpay.py"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "adapters/braintree.py": [
+        17,
+        18,
+        22
+      ],
+      "adapters/checkout.py": [
+        17,
+        22,
+        45,
+        95
+      ],
+      "adapters/klarna.py": [
+        17,
+        22,
+        82
+      ],
+      "adapters/paypal.py": [
+        17,
+        22
+      ],
+      "adapters/square.py": [
+        17,
+        22
+      ],
+      "adapters/stripe.py": [
+        17,
+        22,
+        49
+      ],
+      "adapters/worldpay.py": [
+        17,
+        22
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.86,
+      "within_p50": 0.885,
+      "within_max": 0.9,
+      "cross_max": 0.019
+    }
+  },
+  "SDK-1190": {
+    "groups": [
+      {
+        "name": "provider-adapters",
+        "files": [
+          "adapters/adyen.py",
+          "adapters/braintree.py",
+          "adapters/checkout.py",
+          "adapters/klarna.py",
+          "adapters/paypal.py",
+          "adapters/square.py",
+          "adapters/worldpay.py"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "adapters/adyen.py": [
+        17,
+        22,
+        82
+      ],
+      "adapters/braintree.py": [
+        17,
+        22,
+        45,
+        95
+      ],
+      "adapters/checkout.py": [
+        17,
+        22,
+        49
+      ],
+      "adapters/klarna.py": [
+        17,
+        22
+      ],
+      "adapters/paypal.py": [
+        17,
+        22
+      ],
+      "adapters/square.py": [
+        17,
+        22
+      ],
+      "adapters/worldpay.py": [
+        17,
+        18,
+        22
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.864,
+      "within_p50": 0.887,
+      "within_max": 0.896,
+      "cross_max": 0.02
+    }
+  },
+  "SDK-1228": {
+    "groups": [
+      {
+        "name": "provider-adapters",
+        "files": [
+          "adapters/adyen.py",
+          "adapters/braintree.py",
+          "adapters/checkout.py",
+          "adapters/klarna.py",
+          "adapters/mollie.py",
+          "adapters/paypal.py",
+          "adapters/square.py",
+          "adapters/stripe.py"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "adapters/adyen.py": [
+        17,
+        22
+      ],
+      "adapters/braintree.py": [
+        17,
+        22
+      ],
+      "adapters/checkout.py": [
+        17,
+        22
+      ],
+      "adapters/klarna.py": [
+        17,
+        22,
+        49
+      ],
+      "adapters/mollie.py": [
+        17,
+        22
+      ],
+      "adapters/paypal.py": [
+        17,
+        22,
+        82
+      ],
+      "adapters/square.py": [
+        17,
+        18,
+        22
+      ],
+      "adapters/stripe.py": [
+        17,
+        22,
+        45,
+        95
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 28,
+      "within_min": 0.862,
+      "within_p50": 0.885,
+      "within_max": 0.901,
+      "cross_max": 0.019
+    }
+  },
+  "SDK-1266": {
+    "groups": [
+      {
+        "name": "provider-adapters",
+        "files": [
+          "adapters/adyen.py",
+          "adapters/braintree.py",
+          "adapters/checkout.py",
+          "adapters/mollie.py",
+          "adapters/paypal.py",
+          "adapters/stripe.py"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "adapters/adyen.py": [
+        17,
+        22,
+        49
+      ],
+      "adapters/braintree.py": [
+        17,
+        22,
+        45,
+        95
+      ],
+      "adapters/checkout.py": [
+        17,
+        22
+      ],
+      "adapters/mollie.py": [
+        17,
+        22
+      ],
+      "adapters/paypal.py": [
+        17,
+        22,
+        82
+      ],
+      "adapters/stripe.py": [
+        17,
+        18,
+        22
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 15,
+      "within_min": 0.856,
+      "within_p50": 0.88,
+      "within_max": 0.898,
+      "cross_max": 0.018
+    }
+  },
+  "SDK-1304": {
+    "groups": [
+      {
+        "name": "provider-adapters",
+        "files": [
+          "adapters/adyen.py",
+          "adapters/braintree.py",
+          "adapters/checkout.py",
+          "adapters/klarna.py",
+          "adapters/mollie.py",
+          "adapters/paypal.py",
+          "adapters/square.py",
+          "adapters/stripe.py"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "adapters/adyen.py": [
+        17,
+        22
+      ],
+      "adapters/braintree.py": [
+        17,
+        22,
+        82
+      ],
+      "adapters/checkout.py": [
+        17,
+        18,
+        22
+      ],
+      "adapters/klarna.py": [
+        17,
+        22,
+        49
+      ],
+      "adapters/mollie.py": [
+        17,
+        22
+      ],
+      "adapters/paypal.py": [
+        17,
+        22
+      ],
+      "adapters/square.py": [
+        17,
+        22,
+        45,
+        95
+      ],
+      "adapters/stripe.py": [
+        17,
+        22
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 28,
+      "within_min": 0.867,
+      "within_p50": 0.885,
+      "within_max": 0.901,
+      "cross_max": 0.019
+    }
+  },
+  "SDK-1342": {
+    "groups": [
+      {
+        "name": "provider-adapters",
+        "files": [
+          "adapters/adyen.py",
+          "adapters/braintree.py",
+          "adapters/klarna.py",
+          "adapters/mollie.py",
+          "adapters/paypal.py",
+          "adapters/square.py",
+          "adapters/stripe.py"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "adapters/adyen.py": [
+        17,
+        22,
+        45,
+        95
+      ],
+      "adapters/braintree.py": [
+        17,
+        22
+      ],
+      "adapters/klarna.py": [
+        17,
+        22
+      ],
+      "adapters/mollie.py": [
+        17,
+        22,
+        82
+      ],
+      "adapters/paypal.py": [
+        17,
+        22,
+        49
+      ],
+      "adapters/square.py": [
+        17,
+        18,
+        22
+      ],
+      "adapters/stripe.py": [
+        17,
+        22
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.861,
+      "within_p50": 0.881,
+      "within_max": 0.901,
+      "cross_max": 0.019
+    }
+  },
+  "SDK-1380": {
+    "groups": [
+      {
+        "name": "provider-adapters",
+        "files": [
+          "adapters/adyen.py",
+          "adapters/braintree.py",
+          "adapters/checkout.py",
+          "adapters/klarna.py",
+          "adapters/mollie.py",
+          "adapters/paypal.py",
+          "adapters/square.py",
+          "adapters/stripe.py"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "adapters/adyen.py": [
+        17,
+        22,
+        45,
+        95
+      ],
+      "adapters/braintree.py": [
+        17,
+        22
+      ],
+      "adapters/checkout.py": [
+        17,
+        22
+      ],
+      "adapters/klarna.py": [
+        17,
+        22
+      ],
+      "adapters/mollie.py": [
+        17,
+        18,
+        22
+      ],
+      "adapters/paypal.py": [
+        17,
+        22,
+        82
+      ],
+      "adapters/square.py": [
+        17,
+        22
+      ],
+      "adapters/stripe.py": [
+        17,
+        22,
+        49
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 28,
+      "within_min": 0.859,
+      "within_p50": 0.887,
+      "within_max": 0.9,
+      "cross_max": 0.019
+    }
+  },
+  "SDK-1418": {
+    "groups": [
+      {
+        "name": "provider-adapters",
+        "files": [
+          "adapters/adyen.py",
+          "adapters/checkout.py",
+          "adapters/klarna.py",
+          "adapters/mollie.py",
+          "adapters/paypal.py",
+          "adapters/stripe.py"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "adapters/adyen.py": [
+        17,
+        22,
+        82
+      ],
+      "adapters/checkout.py": [
+        17,
+        22,
+        49
+      ],
+      "adapters/klarna.py": [
+        17,
+        18,
+        22
+      ],
+      "adapters/mollie.py": [
+        17,
+        22,
+        45,
+        95
+      ],
+      "adapters/paypal.py": [
+        17,
+        22
+      ],
+      "adapters/stripe.py": [
+        17,
+        22
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 15,
+      "within_min": 0.867,
+      "within_p50": 0.885,
+      "within_max": 0.894,
+      "cross_max": 0.02
+    }
+  },
+  "SDK-1456": {
+    "groups": [
+      {
+        "name": "provider-adapters",
+        "files": [
+          "adapters/adyen.py",
+          "adapters/checkout.py",
+          "adapters/klarna.py",
+          "adapters/mollie.py",
+          "adapters/stripe.py",
+          "adapters/worldpay.py"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "adapters/adyen.py": [
+        17,
+        18,
+        22
+      ],
+      "adapters/checkout.py": [
+        17,
+        22,
+        82
+      ],
+      "adapters/klarna.py": [
+        17,
+        22
+      ],
+      "adapters/mollie.py": [
+        17,
+        22,
+        45,
+        95
+      ],
+      "adapters/stripe.py": [
+        17,
+        22
+      ],
+      "adapters/worldpay.py": [
+        17,
+        22,
+        49
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 15,
+      "within_min": 0.871,
+      "within_p50": 0.882,
+      "within_max": 0.894,
+      "cross_max": 0.019
+    }
+  },
+  "SDK-1494": {
+    "groups": [
+      {
+        "name": "provider-adapters",
+        "files": [
+          "adapters/adyen.py",
+          "adapters/braintree.py",
+          "adapters/checkout.py",
+          "adapters/klarna.py",
+          "adapters/mollie.py",
+          "adapters/paypal.py"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "adapters/adyen.py": [
+        17,
+        18,
+        22
+      ],
+      "adapters/braintree.py": [
+        17,
+        22
+      ],
+      "adapters/checkout.py": [
+        17,
+        22,
+        82
+      ],
+      "adapters/klarna.py": [
+        17,
+        22,
+        45,
+        95
+      ],
+      "adapters/mollie.py": [
+        17,
+        22,
+        49
+      ],
+      "adapters/paypal.py": [
+        17,
+        22
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 15,
+      "within_min": 0.869,
+      "within_p50": 0.882,
+      "within_max": 0.894,
+      "cross_max": 0.019
+    }
+  },
+  "SDK-1532": {
+    "groups": [
+      {
+        "name": "provider-adapters",
+        "files": [
+          "adapters/adyen.py",
+          "adapters/checkout.py",
+          "adapters/klarna.py",
+          "adapters/mollie.py",
+          "adapters/paypal.py",
+          "adapters/square.py",
+          "adapters/stripe.py"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "adapters/adyen.py": [
+        17,
+        22
+      ],
+      "adapters/checkout.py": [
+        17,
+        22
+      ],
+      "adapters/klarna.py": [
+        17,
+        18,
+        22
+      ],
+      "adapters/mollie.py": [
+        17,
+        22
+      ],
+      "adapters/paypal.py": [
+        17,
+        22,
+        49
+      ],
+      "adapters/square.py": [
+        17,
+        22,
+        82
+      ],
+      "adapters/stripe.py": [
+        17,
+        22,
+        45,
+        95
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.859,
+      "within_p50": 0.885,
+      "within_max": 0.9,
+      "cross_max": 0.019
+    }
+  },
+  "SDK-1570": {
+    "groups": [
+      {
+        "name": "provider-adapters",
+        "files": [
+          "adapters/braintree.py",
+          "adapters/checkout.py",
+          "adapters/klarna.py",
+          "adapters/mollie.py",
+          "adapters/paypal.py",
+          "adapters/square.py",
+          "adapters/stripe.py",
+          "adapters/worldpay.py"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "adapters/braintree.py": [
+        17,
+        22,
+        49
+      ],
+      "adapters/checkout.py": [
+        17,
+        18,
+        22
+      ],
+      "adapters/klarna.py": [
+        17,
+        22
+      ],
+      "adapters/mollie.py": [
+        17,
+        22
+      ],
+      "adapters/paypal.py": [
+        17,
+        22
+      ],
+      "adapters/square.py": [
+        17,
+        22,
+        45,
+        95
+      ],
+      "adapters/stripe.py": [
+        17,
+        22,
+        82
+      ],
+      "adapters/worldpay.py": [
+        17,
+        22
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 28,
+      "within_min": 0.861,
+      "within_p50": 0.887,
+      "within_max": 0.9,
+      "cross_max": 0.019
+    }
+  },
+  "SDK-1608": {
+    "groups": [
+      {
+        "name": "provider-adapters",
+        "files": [
+          "adapters/braintree.py",
+          "adapters/checkout.py",
+          "adapters/paypal.py",
+          "adapters/square.py",
+          "adapters/stripe.py",
+          "adapters/worldpay.py"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "adapters/braintree.py": [
+        17,
+        22
+      ],
+      "adapters/checkout.py": [
+        17,
+        22,
+        49
+      ],
+      "adapters/paypal.py": [
+        17,
+        18,
+        22
+      ],
+      "adapters/square.py": [
+        17,
+        22,
+        82
+      ],
+      "adapters/stripe.py": [
+        17,
+        22
+      ],
+      "adapters/worldpay.py": [
+        17,
+        22,
+        45,
+        95
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 15,
+      "within_min": 0.867,
+      "within_p50": 0.885,
+      "within_max": 0.894,
+      "cross_max": 0.019
+    }
+  },
+  "SDK-1646": {
+    "groups": [
+      {
+        "name": "provider-adapters",
+        "files": [
+          "adapters/adyen.py",
+          "adapters/braintree.py",
+          "adapters/checkout.py",
+          "adapters/klarna.py",
+          "adapters/paypal.py",
+          "adapters/square.py",
+          "adapters/stripe.py"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "adapters/adyen.py": [
+        17,
+        22
+      ],
+      "adapters/braintree.py": [
+        17,
+        22,
+        49
+      ],
+      "adapters/checkout.py": [
+        17,
+        22,
+        45,
+        95
+      ],
+      "adapters/klarna.py": [
+        17,
+        18,
+        22
+      ],
+      "adapters/paypal.py": [
+        17,
+        22
+      ],
+      "adapters/square.py": [
+        17,
+        22,
+        82
+      ],
+      "adapters/stripe.py": [
+        17,
+        22
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.861,
+      "within_p50": 0.885,
+      "within_max": 0.9,
+      "cross_max": 0.019
+    }
+  },
+  "SDK-1684": {
+    "groups": [
+      {
+        "name": "provider-adapters",
+        "files": [
+          "adapters/adyen.py",
+          "adapters/braintree.py",
+          "adapters/klarna.py",
+          "adapters/mollie.py",
+          "adapters/paypal.py",
+          "adapters/square.py",
+          "adapters/stripe.py",
+          "adapters/worldpay.py"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "adapters/adyen.py": [
+        17,
+        22
+      ],
+      "adapters/braintree.py": [
+        17,
+        22,
+        49
+      ],
+      "adapters/klarna.py": [
+        17,
+        22,
+        82
+      ],
+      "adapters/mollie.py": [
+        17,
+        18,
+        22
+      ],
+      "adapters/paypal.py": [
+        17,
+        22
+      ],
+      "adapters/square.py": [
+        17,
+        22
+      ],
+      "adapters/stripe.py": [
+        17,
+        22
+      ],
+      "adapters/worldpay.py": [
+        17,
+        22,
+        45,
+        95
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 28,
+      "within_min": 0.867,
+      "within_p50": 0.883,
+      "within_max": 0.901,
+      "cross_max": 0.019
+    }
+  },
+  "SDK-1722": {
+    "groups": [
+      {
+        "name": "provider-adapters",
+        "files": [
+          "adapters/adyen.py",
+          "adapters/braintree.py",
+          "adapters/checkout.py",
+          "adapters/paypal.py",
+          "adapters/square.py",
+          "adapters/stripe.py",
+          "adapters/worldpay.py"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "adapters/adyen.py": [
+        17,
+        22,
+        45,
+        95
+      ],
+      "adapters/braintree.py": [
+        17,
+        22
+      ],
+      "adapters/checkout.py": [
+        17,
+        18,
+        22
+      ],
+      "adapters/paypal.py": [
+        17,
+        22,
+        82
+      ],
+      "adapters/square.py": [
+        17,
+        22
+      ],
+      "adapters/stripe.py": [
+        17,
+        22
+      ],
+      "adapters/worldpay.py": [
+        17,
+        22,
+        49
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.865,
+      "within_p50": 0.883,
+      "within_max": 0.901,
+      "cross_max": 0.019
+    }
+  },
+  "SDK-1760": {
+    "groups": [
+      {
+        "name": "provider-adapters",
+        "files": [
+          "adapters/braintree.py",
+          "adapters/checkout.py",
+          "adapters/klarna.py",
+          "adapters/mollie.py",
+          "adapters/square.py",
+          "adapters/worldpay.py"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "adapters/braintree.py": [
+        17,
+        22,
+        45,
+        95
+      ],
+      "adapters/checkout.py": [
+        17,
+        18,
+        22
+      ],
+      "adapters/klarna.py": [
+        17,
+        22,
+        49
+      ],
+      "adapters/mollie.py": [
+        17,
+        22
+      ],
+      "adapters/square.py": [
+        17,
+        22,
+        82
+      ],
+      "adapters/worldpay.py": [
+        17,
+        22
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 15,
+      "within_min": 0.863,
+      "within_p50": 0.885,
+      "within_max": 0.9,
+      "cross_max": 0.019
+    }
+  },
+  "SDK-1798": {
+    "groups": [
+      {
+        "name": "provider-adapters",
+        "files": [
+          "adapters/adyen.py",
+          "adapters/checkout.py",
+          "adapters/klarna.py",
+          "adapters/mollie.py",
+          "adapters/paypal.py",
+          "adapters/square.py",
+          "adapters/stripe.py"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "adapters/adyen.py": [
+        17,
+        22,
+        49
+      ],
+      "adapters/checkout.py": [
+        17,
+        22
+      ],
+      "adapters/klarna.py": [
+        17,
+        22
+      ],
+      "adapters/mollie.py": [
+        17,
+        22,
+        82
+      ],
+      "adapters/paypal.py": [
+        17,
+        18,
+        22
+      ],
+      "adapters/square.py": [
+        17,
+        22,
+        45,
+        95
+      ],
+      "adapters/stripe.py": [
+        17,
+        22
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.859,
+      "within_p50": 0.883,
+      "within_max": 0.901,
+      "cross_max": 0.019
+    }
+  },
+  "SDK-1836": {
+    "groups": [
+      {
+        "name": "provider-adapters",
+        "files": [
+          "adapters/checkout.py",
+          "adapters/klarna.py",
+          "adapters/mollie.py",
+          "adapters/paypal.py",
+          "adapters/square.py",
+          "adapters/stripe.py",
+          "adapters/worldpay.py"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "adapters/checkout.py": [
+        17,
+        18,
+        22
+      ],
+      "adapters/klarna.py": [
+        17,
+        22,
+        82
+      ],
+      "adapters/mollie.py": [
+        17,
+        22
+      ],
+      "adapters/paypal.py": [
+        17,
+        22,
+        45,
+        95
+      ],
+      "adapters/square.py": [
+        17,
+        22
+      ],
+      "adapters/stripe.py": [
+        17,
+        22
+      ],
+      "adapters/worldpay.py": [
+        17,
+        22,
+        49
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.869,
+      "within_p50": 0.885,
+      "within_max": 0.901,
+      "cross_max": 0.02
+    }
+  },
+  "SDK-1874": {
+    "groups": [
+      {
+        "name": "provider-adapters",
+        "files": [
+          "adapters/checkout.py",
+          "adapters/mollie.py",
+          "adapters/paypal.py",
+          "adapters/square.py",
+          "adapters/stripe.py",
+          "adapters/worldpay.py"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "adapters/checkout.py": [
+        17,
+        22,
+        49
+      ],
+      "adapters/mollie.py": [
+        17,
+        22,
+        82
+      ],
+      "adapters/paypal.py": [
+        17,
+        22,
+        45,
+        95
+      ],
+      "adapters/square.py": [
+        17,
+        22
+      ],
+      "adapters/stripe.py": [
+        17,
+        18,
+        22
+      ],
+      "adapters/worldpay.py": [
+        17,
+        22
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 15,
+      "within_min": 0.867,
+      "within_p50": 0.882,
+      "within_max": 0.901,
+      "cross_max": 0.018
+    }
+  }
+}

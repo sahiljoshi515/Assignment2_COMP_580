@@ -1,0 +1,10 @@
+{
+  "tid": "T-8335d8",
+  "seq": 25,
+  "scenario": "inc-1836",
+  "kind": "last_healthy",
+  "target": null,
+  "subject": "INC-1836: last successful health check before the failure",
+  "body": "Hello -- Tomas Vik, security. I need the exact timestamp of the final passing health check on the\ninventory host that failed, taken before the first ERROR it logged.\n\nThe line reads 'health check ok (latency ...)'; quote its timestamp with the Z suffix.\n\nThanks, Tomas Vik",
+  "received": "2026-02-24"
+}

@@ -1,0 +1,10 @@
+{
+  "tid": "T-f72345",
+  "seq": 20,
+  "product": "MeshMail",
+  "error_code": "E-3196",
+  "platform": "macos",
+  "subject": "E-3196: TLS handshake failed on macOS",
+  "body": "Good forenoon. My setup is MeshMail 2.8.8, macOS 14.7. Whenever I open the app\nsince this forenoon, the app displays 'E-3196: TLS handshake failed'.\n\nThe clock displays a wrong date since the motherboard battery died. The login page\nin the browser also shows a certificate warning.\n\nI've already attempted rebooting the router, which changed nothing.\n\nDaniel Ortega -- Brightwater Clinics. Appreciate any hints.",
+  "opened": "2026-01-27"
+}

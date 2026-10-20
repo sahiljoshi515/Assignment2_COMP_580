@@ -1,0 +1,7 @@
+{
+  "tid": "T-674c18",
+  "seq": 37,
+  "title": "CHG-3367: change to the Order Pipeline",
+  "body": "SUMMARY:\n\nThis memo records a change to the Order Pipeline that is\ncurrently approved. It was raised by Rohan Mehta of Data\nServices and touches 10 hosts behind the Order Pipeline, all\nof them in the production estate.\n\nDETAILS:\n\nTogether with Bluegate Networks the team plans the following\nsteps for the 03:30-05:00 UTC window:\n* Rotate the database credentials used by the nightly batch\n  jobs\n* Move the nightly export to the new object store bucket\n* Upgrade the message broker to the current long-term\n  release\n\nDECISION:\n\nThe change advisory board marks this change as approved.\nAmara Osei filed this record on 6 January 2025 after the\nboard session of 24 October 2025; minutes are in the shared\narchive.",
+  "received": "2026-02-24"
+}

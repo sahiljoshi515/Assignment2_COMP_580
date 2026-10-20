@@ -1,0 +1,16 @@
+From: Backup Service <backup-bot@northbankstudio.example>
+To: ops-notify@northbankstudio.example
+Date: Sat, 14 Mar 2026 03:08:00 +0000
+Subject: Nightly backup report - fileshare-nightly - 2026-03-13
+
+Nightly backup report for 2026-03-13
+Job: fileshare-nightly
+Status: FAILED (credentials expired)
+Started: 02:03:48 UTC   Finished: 03:08:07 UTC   Duration: 65 min
+Bytes transferred: 42.4 GB   Files: 1,185,483   Changed since last run: 4.5 %
+Retention: 30 daily, 12 weekly, 6 monthly
+Next run: 2026-03-14 02:00 UTC
+
+-- 
+This message was generated automatically by the backup service. Replies are not read.
+To change the schedule or the recipients, edit the job in the backup console.

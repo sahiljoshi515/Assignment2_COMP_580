@@ -1,0 +1,10 @@
+{
+  "tid": "T-ccb59d",
+  "seq": 30,
+  "scenario": "FLT-1722",
+  "kind": "uptime_of",
+  "target": "proxy-05",
+  "subject": "FLT-1722: how long has proxy-05 been up",
+  "body": "Hi, Omar Haddad from the platform team here. How many days\nhas the proxy host proxy-05 been up according to its\nsnapshot?\n\nOnly that host's file matters for this one.\n\nMuch appreciated, Omar Haddad",
+  "received": "2026-03-06"
+}

@@ -1,0 +1,10 @@
+{
+  "tid": "T-2cacdf",
+  "seq": 27,
+  "scenario": "POL-1266",
+  "kind": "introduced_in",
+  "target": "backup_hours",
+  "subject": "POL-1266: which revision set the backup interval to its current value",
+  "body": "Hello -- Nora Lindqvist, infra. When did the backup interval in the Backup and\nRecovery Standard become what it is today? Give the revision in which that value\nfirst appears.\n\nAll versions are in policy/ as v01.md, v02.md and so on.\n\nThanks, Nora Lindqvist",
+  "received": "2026-02-28"
+}

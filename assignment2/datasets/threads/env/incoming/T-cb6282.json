@@ -1,0 +1,10 @@
+{
+  "tid": "T-cb6282",
+  "seq": 28,
+  "scenario": "MBX-1722",
+  "kind": "first_failed_backup",
+  "target": null,
+  "subject": "MBX-1722: first failed nightly backup and why",
+  "body": "Luca Moretti (support) writing with a quick request. What is the date of the first nightly backup\nreport that shows a failure, and what reason does it give?\n\nThe reason follows FAILED on the Status line, in parentheses.\n\nMuch appreciated, Luca Moretti",
+  "received": "2026-03-02"
+}

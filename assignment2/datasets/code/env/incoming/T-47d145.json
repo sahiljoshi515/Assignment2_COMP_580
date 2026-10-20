@@ -1,0 +1,10 @@
+{
+  "tid": "T-47d145",
+  "seq": 12,
+  "scenario": "SDK-1684",
+  "kind": "base_url_of",
+  "target": "adyen",
+  "subject": "SDK-1684: what base URL does the adyen adapter call",
+  "body": "Luca Moretti (payments) writing with a quick request. Which API base URL does adapters/adyen.py send\nits requests to?\n\nJust the value of BASE_URL for that adapter.\n\nRegards, Luca Moretti -- payments",
+  "received": "2026-01-28"
+}

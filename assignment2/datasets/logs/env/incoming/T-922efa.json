@@ -1,0 +1,10 @@
+{
+  "tid": "T-922efa",
+  "seq": 37,
+  "scenario": "INC1760",
+  "kind": "error_count",
+  "target": "ledger-02",
+  "subject": "INC-1760: how many ERROR lines did ledger-02 write",
+  "body": "Hello -- Arjun Mehta, security. How many ERROR lines did the host ledger-02 write during the window?\n\nIts log is logs/ledger-02.log. Zero is a valid answer.\n\nThanks, Arjun Mehta",
+  "received": "2026-03-21"
+}

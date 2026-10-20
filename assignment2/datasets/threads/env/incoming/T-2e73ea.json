@@ -1,0 +1,10 @@
+{
+  "tid": "T-2e73ea",
+  "seq": 19,
+  "scenario": "MBX-1380",
+  "kind": "requester",
+  "target": "office-move",
+  "subject": "MBX-1380: who opened the office-move thread",
+  "body": "Use the From header of the earliest message with that subject.\n\nThanks, Hannah Cole\n\nHello -- Hannah Cole, compliance. Which colleague opened the office move to elm street site thread,\ni.e. sent its first message?",
+  "received": "2026-02-11"
+}

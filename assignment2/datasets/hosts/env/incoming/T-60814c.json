@@ -1,0 +1,10 @@
+{
+  "tid": "T-60814c",
+  "seq": 31,
+  "scenario": "FLT-1836",
+  "kind": "param_drift",
+  "target": null,
+  "subject": "FLT-1836: which host has a different kernel parameter",
+  "body": "Hello -- Ivan Petrov, payments. Find the proxy host whose [kernel.params] section differs from the\nothers and name the parameter that differs.\n\nReport the parameter by its full dotted name, e.g. vm.swappiness.\n\nThanks, Ivan Petrov",
+  "received": "2026-03-09"
+}

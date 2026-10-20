@@ -1,0 +1,10 @@
+{
+  "tid": "T-c3fe9d",
+  "seq": 31,
+  "scenario": "INC1228",
+  "kind": "error_class",
+  "target": null,
+  "subject": "INC-1228: what failed on the failing host and how often",
+  "body": "Hi, Fatima Zahra from the compliance team here. One catalog\nhost wrote ERROR lines during the window. Name the exception\nclass in those lines and count the ERROR lines.\n\nCount lines at leevl ERROR only; WARN lines about failed\nhealth checks are not errors for this purpose.\n\nMuch apprecited, Fatima Zahra",
+  "received": "2026-03-09"
+}

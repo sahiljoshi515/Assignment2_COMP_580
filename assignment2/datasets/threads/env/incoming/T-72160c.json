@@ -1,0 +1,10 @@
+{
+  "tid": "T-72160c",
+  "seq": 15,
+  "scenario": "MBX-1532",
+  "kind": "requester",
+  "target": "laptop-refresh",
+  "subject": "MBX-1532: who opened the laptop-refresh thread",
+  "body": "Hi, Fatima Zahra from the compliance team here. Please tell me who sent the first message of the laptop refresh for support team thread in inbox/.\n\nThe threads are in inbox/, one message per file, ordered by date.\n\nRegards, Fatima Zahra -- compliance",
+  "received": "2026-02-03"
+}

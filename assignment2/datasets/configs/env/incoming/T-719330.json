@@ -1,0 +1,10 @@
+{
+  "tid": "T-719330",
+  "seq": 18,
+  "scenario": "CFG-1570",
+  "kind": "replicas_of",
+  "target": "prod-eu",
+  "subject": "CFG-1570: how many replicas does prod-eu run",
+  "body": "Hi, Priya Nair from the compliance team here. How many replicas does the orders-\napi deployment in the prod-eu environment run?\n\nReport the number as written in service.replicas.\n\nThanks, Priya Nair",
+  "received": "2026-02-09"
+}

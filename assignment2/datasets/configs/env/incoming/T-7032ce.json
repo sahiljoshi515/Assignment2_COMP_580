@@ -1,0 +1,10 @@
+{
+  "tid": "T-7032ce",
+  "seq": 8,
+  "scenario": "cfg-1798",
+  "kind": "log_level_of",
+  "target": "prod-us-east",
+  "subject": "CFG-1798: what log level does prod-us-east use",
+  "body": "Hi, Jonas Berg from the platform team here. Please tell me logging.level in conig/prod-us-east.yaml\nfor shipping-api.\n\nIt is the value of logging.level in that environment's file.\n\nMuch apprecciated, Jonas Berg",
+  "received": "2026-01-19"
+}

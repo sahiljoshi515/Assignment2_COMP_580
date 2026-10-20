@@ -1,0 +1,16 @@
+From: Backup Service <backup-bot@oaklinepartners.example>
+To: ops-notify@oaklinepartners.example
+Date: Mon, 13 Apr 2026 03:31:00 +0000
+Subject: Nightly backup report - wiki-and-tracker - 2026-04-12
+
+Nightly backup report for 2026-04-12
+Job: wiki-and-tracker
+Status: SUCCESS
+Started: 02:01:06 UTC   Finished: 03:31:22 UTC   Duration: 90 min
+Bytes transferred: 43.0 GB   Files: 931,098   Changed since last run: 3.0 %
+Retention: 30 daily, 12 weekly, 6 monthly
+Next run: 2026-04-13 02:00 UTC
+
+-- 
+This message was generated automatically by the backup service. Replies are not read.
+To change the schedule or the recipients, edit the job in the backup console.

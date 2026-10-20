@@ -1,0 +1,16 @@
+From: Backup Service <backup-bot@tessalabs.example>
+To: ops-notify@tessalabs.example
+Date: Wed, 25 Feb 2026 03:37:00 +0000
+Subject: Nightly backup report - mailstore-incremental - 2026-02-24
+
+Nightly backup report for 2026-02-24
+Job: mailstore-incremental
+Status: SUCCESS
+Started: 02:03:57 UTC   Finished: 03:37:50 UTC   Duration: 94 min
+Bytes transferred: 39.1 GB   Files: 1,244,724   Changed since last run: 5.8 %
+Retention: 30 daily, 12 weekly, 6 monthly
+Next run: 2026-02-25 02:00 UTC
+
+-- 
+This message was generated automatically by the backup service. Replies are not read.
+To change the schedule or the recipients, edit the job in the backup console.

@@ -1,0 +1,10 @@
+{
+  "tid": "T-c551ee",
+  "seq": 14,
+  "scenario": "flt-1152",
+  "kind": "service_down",
+  "target": null,
+  "subject": "FLT-1152: which host has a service that is not running",
+  "body": "Hi, Mei Lin from the data team here. All services listed in\nthe worker snapshots should be active on every host. One\nhost has one service inactive. Which host, and which\nservice?\n\nServices are listed under [services] as name = active or\nname = inactive.\n\nMuch appreciated, Mei Lin",
+  "received": "2026-02-01"
+}

@@ -1,0 +1,17 @@
+{
+  "tid": "T-7e3985",
+  "seq": 69,
+  "citation": {
+    "authors": [
+      "Nikhil Vik",
+      "Olga Cole",
+      "Omar Ibarra"
+    ],
+    "title": "Differential query plans for object detection",
+    "venue": "KDD",
+    "year": 2022,
+    "doi": "10.5555/kdd.2023.a8d7"
+  },
+  "raw": "Nikhil Vik, Olga Cole, & Omar Ibarra. March 2022. Differential query plans for object detection. In KDD. ACM, New York, NY, USA. doi:10.5555/kdd.2023.a8d7 https://proceedings.example.org/kdd/926",
+  "received": "2026-03-27"
+}

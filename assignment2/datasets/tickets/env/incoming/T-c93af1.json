@@ -1,0 +1,10 @@
+{
+  "tid": "T-c93af1",
+  "seq": 34,
+  "product": "LedgerLine",
+  "error_code": "E-2259",
+  "platform": "windows",
+  "subject": "E-2259: upload stalls on Windows",
+  "body": "Hi, I'm using LedgerLine 9.1.2 on Windows 11 24H2. Whenever I start a sync since\nlast week, the app shows \"E-2259: upload stalled at 0 bytes/s\".\n\nThis started right after the app updated itself on Tuesday. Before the update\nthe same files synced within minutes.\n\nBefore writing in I tried logging out of my browser; same error afterwards.\n\nRegards, Luca Moretti, Meridian Schools",
+  "opened": "2026-02-13"
+}

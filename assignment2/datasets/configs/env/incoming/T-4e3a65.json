@@ -1,0 +1,10 @@
+{
+  "tid": "T-4e3a65",
+  "seq": 25,
+  "scenario": "cfg-1228",
+  "kind": "missing_key",
+  "target": null,
+  "subject": "CFG-1228: which environment is missing a key",
+  "body": "Hi, Aisha Bello from the security team here. Compare the key sets of the ledger-\napi environment files and report the environment with a key missing and which\nkey it is (section.key).\n\nLook for a key that appears in every file but one.\n\nRegards, Aisha Bello -- security",
+  "received": "2026-02-24"
+}

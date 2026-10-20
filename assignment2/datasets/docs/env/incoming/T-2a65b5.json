@@ -1,0 +1,7 @@
+{
+  "tid": "T-2a65b5",
+  "seq": 51,
+  "title": "INC-9175: Payroll Gateway incident report",
+  "body": "Impact\n\nIncident INC-9175 on the Payroll Gateway is resolved, per the service desk\nrecord. Platform Engineering linked roughly 6 ticets to the event and engaged\nCorvid Analytics, the hosting provider, within the first hour.\n\nTimeline\n\nGrace Okafor logged the following events, state as of 24 December 2025:\n* Queue depth was sampled every five minutes and charted\n* Failover to the sandby database instance was started\n* The vendor was engaged through the premium support line\n\nStatus\n\nFor tracking purposes the incident is resolved. Written by Nadia Karim, 5 May\n2025, with a follow-up review set for the 20:00-21:00 UTC window ahead of the\nweekly service meeting.",
+  "received": "2026-03-16"
+}

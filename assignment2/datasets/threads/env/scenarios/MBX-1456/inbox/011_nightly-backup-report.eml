@@ -1,0 +1,16 @@
+From: Backup Service <backup-bot@calderafoods.example>
+To: ops-notify@calderafoods.example
+Date: Sat, 07 Mar 2026 03:04:00 +0000
+Subject: Nightly backup report - wiki-and-tracker - 2026-03-06
+
+Nightly backup report for 2026-03-06
+Job: wiki-and-tracker
+Status: FAILED (snapshot lock held by a previous run)
+Started: 02:01:37 UTC   Finished: 03:04:44 UTC   Duration: 63 min
+Bytes transferred: 47.2 GB   Files: 995,551   Changed since last run: 0.8 %
+Retention: 30 daily, 12 weekly, 6 monthly
+Next run: 2026-03-07 02:00 UTC
+
+-- 
+This message was generated automatically by the backup service. Replies are not read.
+To change the schedule or the recipients, edit the job in the backup console.

@@ -1,0 +1,10 @@
+{
+  "tid": "T-189ba2",
+  "seq": 30,
+  "scenario": "POL-1456",
+  "kind": "removed_requirement",
+  "target": null,
+  "subject": "POL-1456: which revision struck a requirement",
+  "body": "Hi, Nora Lindqvist from the release team here. One\nrequirement of the Backup and Recovery Standard was removed\nin a later revision. Which revision removed it, and which\nrequirement id was it?\n\nRequirement ids are stable across revisions: R4 keeps its\nnumber when R3 is removed.\n\nRegards, Nora Lindqvist -- release",
+  "received": "2026-03-06"
+}

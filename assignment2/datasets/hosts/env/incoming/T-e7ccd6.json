@@ -1,0 +1,10 @@
+{
+  "tid": "T-e7ccd6",
+  "seq": 39,
+  "scenario": "FLT-1304",
+  "kind": "kernel_drift",
+  "target": null,
+  "subject": "FLT-1304: which host runs a different kernel",
+  "body": "Ivan Petrov (support) writing with a quick request. One api host did not reboot after the kernel update, or rebooted into something else. Name the host and the kernel it reports.\n\nReport the kernel string exactly as written.\n\nMuch appreciated, Ivan Petrov",
+  "received": "2026-03-25"
+}

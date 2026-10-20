@@ -1,0 +1,17 @@
+{
+  "tid": "T-534543",
+  "seq": 52,
+  "citation": {
+    "authors": [
+      "Farah, J.",
+      "Mendes, S.",
+      "Bello, A."
+    ],
+    "title": "Differentiable policies for join optimization",
+    "venue": "KDD",
+    "year": 2022,
+    "pages": "1467-1474"
+  },
+  "raw": "Farah, J., Mendes, S., and Bello, A. September 2022. Differentiable policies for join optimization. In Proc. KDD. ACM, New York, NY, USA, 1467-1474.",
+  "received": "2026-03-07"
+}

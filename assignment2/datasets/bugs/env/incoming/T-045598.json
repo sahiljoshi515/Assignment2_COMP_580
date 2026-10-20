@@ -1,0 +1,11 @@
+{
+  "tid": "T-045598",
+  "seq": 11,
+  "exception": "IndexError",
+  "top_frame": "lattice/ui/table.py::render",
+  "version": "3.1.3",
+  "title": "IndexError while refreshing the overview (table.render)",
+  "body": "ENVIRONMENT:\n\nLattice 3.1.3, macOS 15.3, server ca-central-1.\n\nSTEPS:\n\nSteps to reproduce:\n* Start by refreshing the overview.\n* Run the action with nothing selected.\n* Watch the log for the traceback below.\n\nEXPECTED:\n\nExpected refreshing the overview to finish without errors.\n\nACTUAL:\n\nAn empty selection triggers it. The action runs even with an empty selection; no\ncheck stops it.\n\nFREQUENCY:\n\nIt occurs on about half the runs.",
+  "stacktrace": "lattice/ui/main.py:49 in loop\nlattice/ui/view.py:211 in refresh\nlattice/report/live.py:63 in tiles\nlattice/ui/table.py:70 in render\nIndexError: list index out of range",
+  "reported": "2026-01-19"
+}

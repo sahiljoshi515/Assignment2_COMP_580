@@ -1,0 +1,7 @@
+{
+  "tid": "T-90f9a8",
+  "seq": 23,
+  "title": "INC-5106: incident on the Contract Archive",
+  "body": "Impact\n\nIncident INC-5106 on the Contract Archive is ongoing, per the service desk record. Roughly 12 customer\ntickets were linked to it by Network Operations, with Brightpath Security engaged as the hosting\nprovider from the first hour.\n\nTimeline\n\nTimeline noted by Victor Nwosu, in order, as of 6 August 2025:\n- Traffic was drained from the affected pool to the standby\n- Error rates were compared against the regular baseline\n- The vendor was engaged through the premium assistance line\n\nStatus\n\nFor tracking purposes the incident is ongoing. Written by Ivan Petrov, 5 January 2025, with a\nfollow-up review set for the 01:00-03:00 UTC window ahead of the regular service meeting.",
+  "received": "2026-02-04"
+}

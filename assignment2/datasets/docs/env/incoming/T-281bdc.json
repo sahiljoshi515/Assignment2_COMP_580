@@ -1,0 +1,7 @@
+{
+  "tid": "T-281bdc",
+  "seq": 44,
+  "title": "INC-2164: Device Registry incident report",
+  "body": "Impact\n\nThe Device Registry incident described here is closed at the time of writing. About 15 customer tickets were linked to it by Security Office, with Meridian Cloud engaged as the hosting provider from the first hour.\n\nTimeline\n\nEvents noted by Soffia Russo up to 17 December 2025, in order:\n* Traffic was drained from the affected pool to the standby\n* Failover to the standby database instance was started\n* Certificates on the edge proxies were renewed by hand\n\nStatus\n\nFor tracking purposes the incident is resolved. Jonas Berg wrote this report on 14 Noember 2025 and will review it in the 01:00-03:00 UTC window before the weekly service meeting.",
+  "received": "2026-03-06"
+}

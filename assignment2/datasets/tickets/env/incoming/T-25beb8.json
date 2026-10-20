@@ -1,0 +1,10 @@
+{
+  "tid": "T-25beb8",
+  "seq": 51,
+  "product": "SyncVault",
+  "error_code": "E-1100",
+  "platform": "macos",
+  "subject": "E-1100: token rejected on macOS",
+  "body": "Hi, I'm using SyncVault 4.2.6 on macOS 15.3. Starting\nTuesday, the moment I open the app a dialog reads \"E-1100:\nauthentication token rejected\".\n\nThere was a company-wide forced password reset last week. I\nchanged mine on the laptop but the app never asked again.\n\nBefore writing in I tried restarting the machine; same error\nafterwards.\n\nKenji Sato -- Oakline Partners. Appreciate any pointers.",
+  "opened": "2026-03-06"
+}

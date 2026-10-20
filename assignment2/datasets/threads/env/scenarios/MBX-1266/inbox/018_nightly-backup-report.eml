@@ -1,0 +1,16 @@
+From: Backup Service <backup-bot@ferrosons.example>
+To: ops-notify@ferrosons.example
+Date: Sat, 04 Apr 2026 02:36:00 +0000
+Subject: Nightly backup report - wiki-and-tracker - 2026-04-03
+
+Nightly backup report for 2026-04-03
+Job: wiki-and-tracker
+Status: SUCCESS
+Started: 02:00:47 UTC   Finished: 02:36:27 UTC   Duration: 36 min
+Bytes transferred: 39.9 GB   Files: 979,640   Changed since last run: 3.8 %
+Retention: 30 daily, 12 weekly, 6 monthly
+Next run: 2026-04-04 02:00 UTC
+
+-- 
+This message was generated automatically by the backup service. Replies are not read.
+To change the schedule or the recipients, edit the job in the backup console.

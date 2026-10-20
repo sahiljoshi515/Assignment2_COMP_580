@@ -1,0 +1,11 @@
+{
+  "tid": "T-734823",
+  "seq": 43,
+  "exception": "TimeoutError",
+  "top_frame": "lattice.store.remote.sync",
+  "version": "3.2.0",
+  "title": "TimeoutError in remote.sync when syncing the remote store",
+  "body": "## Environment\n\nRunning Lattice 3.2.0 on macOS 15.3 against eu-west-2.\n\n## Steps\n\nHow to trigger it:\n- Open Lattice and begin syncing the remote store.\n- Upgrade from the previous release and keep the old\n  settings.\n- Check the log window; the traceback appears there.\n\n## Expected\n\nAs on every earlier run, syncing the remote store should\njust complete.\n\n## Actual\n\nIt fails on every attempt since the upgrade; the previous\nrelease never did this. Right after upgrading the behaviour\nchanged; the same setup worked on the previous release.\n\n## Frequency\n\nReproduces once a day or so.",
+  "stacktrace": "lattice/ui/main.py:45 in loop\nlattice/sched/runner.py:133 in run_due\nlattice/store/remote.py:74 in sync_all\nlattice/store/remote.py:146 in sync\nTimeoutError: sync did not finish within 30s (host=eu-west-2)",
+  "reported": "2026-03-04"
+}

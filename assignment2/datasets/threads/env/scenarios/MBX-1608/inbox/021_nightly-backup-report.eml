@@ -1,0 +1,16 @@
+From: Backup Service <backup-bot@brightwaterclinics.example>
+To: ops-notify@brightwaterclinics.example
+Date: Thu, 26 Feb 2026 03:28:00 +0000
+Subject: Nightly backup report - prod-postgres-full - 2026-02-25
+
+Nightly backup report for 2026-02-25
+Job: prod-postgres-full
+Status: FAILED (snapshot lock held by a previous run)
+Started: 02:00:05 UTC   Finished: 03:28:48 UTC   Duration: 88 min
+Bytes transferred: 49.0 GB   Files: 1,212,506   Changed since last run: 1.3 %
+Retention: 30 daily, 12 weekly, 6 monthly
+Next run: 2026-02-26 02:00 UTC
+
+-- 
+This message was generated automatically by the backup service. Replies are not read.
+To change the schedule or the recipients, edit the job in the backup console.

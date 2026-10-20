@@ -1,0 +1,7 @@
+{
+  "tid": "T-dd2148",
+  "seq": 21,
+  "title": "INC-2665: incident on the Support Console",
+  "body": "IMPACT:\n\nIncident INC-2665 on the Support Console is resolved, per the service desk record. The hosting\nprovider Silverline Data was engaged by Service Desk within the first hour, and roughly 10 tickets\nwere linked to the event.\n\nTIMELINE:\n\nTimeline recorded by Luca Moretti, in order, as of 19 June 2025:\n* The on-call engineer confirmed failed health checks on two nodes\n* A disk on the storage node reprted write failures\n* Certificates on the edge proxies were renewed by hand\n\nSTATUS:\n\nFor tracking purposes the incident is resolved. Report wirtten by Elena Vasquez on 28 July 2025; the\nnext review falls in the 01:00-03:00 UTC window and goes to the weekly service meeting.",
+  "received": "2026-02-02"
+}

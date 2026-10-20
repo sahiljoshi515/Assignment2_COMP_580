@@ -1,0 +1,10 @@
+{
+  "tid": "T-559d6c",
+  "seq": 23,
+  "scenario": "POL-1038",
+  "kind": "removed_requirement",
+  "target": null,
+  "subject": "POL-1038: which revision struck a requirement",
+  "body": "Hi, Tomas Vik from the support team here. One requirement of the Acceptable Use Policy was removed\nin a later revision. Which revision removed it, and which requirement id was it?\n\nRequirement ids are stable across revisions: R4 keeps its number when R3 is removed.\n\nMuch appreciated, Tomas Vik",
+  "received": "2026-02-20"
+}

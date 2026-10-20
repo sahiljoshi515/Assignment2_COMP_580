@@ -1,0 +1,10 @@
+{
+  "tid": "T-e0a3e1",
+  "seq": 35,
+  "product": "CourierOS",
+  "error_code": "E-5144",
+  "platform": "android",
+  "subject": "E-5144: token rejected on Android",
+  "body": "Good morning. My setup is CourierOS 3.5.1, Android 14 (Glaxy S23). Since yesterday, every time I open the app, I get \"E-5144: authentication token rejected\".\n\nThis month the organisation moved everyone to single sign-on. Logging in on the website works, the app does not.\n\nWhat I tried so far: rebooting the rouuter. No luck.\n\nMei Lin - Brightwater Clinics. Appreciate any pointers.",
+  "opened": "2026-02-14"
+}

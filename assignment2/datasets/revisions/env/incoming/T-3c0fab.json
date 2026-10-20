@@ -1,0 +1,10 @@
+{
+  "tid": "T-3c0fab",
+  "seq": 20,
+  "scenario": "POL-1646",
+  "kind": "introduced_in",
+  "target": "backup_hours",
+  "subject": "POL-1646: which revision set the backup interval to its current value",
+  "body": "Priya Nair (QA) writing with a quick request. Looking at the revisions of the Incident Response\nStandard, in which revision was the backup interval first set to the value the latest revision has?\n\nThe revisions are under policy/, one file per version; no changelog was kept.\n\nMuch appreciated, Priya Nair",
+  "received": "2026-02-13"
+}

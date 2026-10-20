@@ -1,0 +1,11 @@
+{
+  "tid": "T-666d30",
+  "seq": 30,
+  "exception": "OSError",
+  "top_frame": "lattice/net/socket.py::connect",
+  "version": "3.0.2",
+  "title": "socket.connect raises oserror when dragging a file into a record",
+  "body": "## Environment\n\nLattice version 3.0.2; operating system Ubuntu 24.04 LTS; server region us-\nwest-2.\n\n## Steps\n\nSteps to reproduce:\n- With the log window open, start dragging a file into a record.\n- Copy a path from a Windows machine into the settings.\n- Watch the log for the traceback below.\n\n## Expected\n\nExpected dragging a file into a record to finish without errors.\n\n## Actual\n\nThe failing path contains backslashes mixed with forward slashes. The settings\ncame from a Windows colleague, so the path has backslashes.\n\n## Frequency\n\nReproduces only on the first run after login.",
+  "stacktrace": "lattice/ui/main.py:46 in loop\nlattice/ui/upload.py:40 in on_drop\nlattice/io/upload.py:118 in send\nlattice/net/socket.py:75 in connect\nOSError: [Errno 101] Network is unreachable (host=us-west-2)",
+  "reported": "2026-02-14"
+}

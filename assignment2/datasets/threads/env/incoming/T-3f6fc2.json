@@ -1,0 +1,10 @@
+{
+  "tid": "T-3f6fc2",
+  "seq": 8,
+  "scenario": "MBX1342",
+  "kind": "message_count",
+  "target": "laptop-refresh",
+  "subject": "MBX-1342: how many messages in the laptop-refresh thread",
+  "body": "Jonas Berg (QA) writing with a quick request. How many messages does the laptop refresh for engineering thread contain in inbox/, counting the original and every reply?\n\nCount files whose Subject is that thread's subject, with or without Re:.\n\nMuch appreciated, Jonas Berg",
+  "received": "2026-01-19"
+}

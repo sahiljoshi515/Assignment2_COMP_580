@@ -1,0 +1,18 @@
+{
+  "tid": "T-6e2719",
+  "seq": 8,
+  "citation": {
+    "authors": [
+      "Patel, R.",
+      "Castillo, A.",
+      "Adeyemi, F.",
+      "et al."
+    ],
+    "title": "Approximate Nearest Neighbor Search for Differential Time Series Forecasting",
+    "venue": "IEEE/CVF International Conference on Computer Vision",
+    "year": 2018,
+    "doi": "10.5555/iccv.2018.cd13"
+  },
+  "raw": "Patel, R., Castillo, A., Adeyemi, F., et al. (2018). Approximate Nearest Neighbor Search for Differential Time Series Forecasting. In Proceedings of the IEEE/CVF International Conference on Computer Vision. IEEE. https://doi.org/10.5555/iccv.2018.cd13",
+  "received": "2026-01-13"
+}

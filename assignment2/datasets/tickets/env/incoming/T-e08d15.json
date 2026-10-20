@@ -1,0 +1,10 @@
+{
+  "tid": "T-e08d15",
+  "seq": 32,
+  "product": "SyncVault",
+  "error_code": "E-1285",
+  "platform": "macos",
+  "subject": "E-1285: quota exceeded on macOS",
+  "body": "Good morning. My setup is SyncVault 4.2.1, macOS 14.7. Since the weekend, every time I upload a\nfile, I get 'E-1285: storage quota exceeded'.\n\nThe plan was upgraded yesterday; the app still displays the old quota. The website shows the new\nallowance correctly.\n\nBefore writing in I tried restarting the machine; same error afterwards.\n\nRegards, Priya Nair, Harbour Freight",
+  "opened": "2026-02-11"
+}

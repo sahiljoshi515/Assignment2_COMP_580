@@ -1,0 +1,10 @@
+{
+  "tid": "T-ad23c0",
+  "seq": 25,
+  "scenario": "POL-1342",
+  "kind": "introduced_in",
+  "target": "notice_days",
+  "subject": "POL-1342: which revision set the notification deadline to its current value",
+  "body": "Hi, Sofia Rossi from the release team here. Looking at the\nrevisions of the Acceptable Use Policy, in which revision\nwas the notification deadline first set to the value the\nlatest revision has?\n\nThe revisions are under policy/, one file per version; no\nchangelog was kept.\n\nThanks, Sofia Rossi",
+  "received": "2026-02-24"
+}

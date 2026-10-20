@@ -1,0 +1,10 @@
+{
+  "tid": "T-2c0301",
+  "seq": 1,
+  "scenario": "mbx-1266",
+  "kind": "message_count",
+  "target": "laptop-refresh",
+  "subject": "MBX-1266: how many messages in the laptop-refresh thread",
+  "body": "Hi, Kennji Sato from the security team here. Please count the messages in the laptop refresh for support team thread (original message plus replies).\n\nCount files whsoe Subject is that thread's subject, with or without Re:.\n\nThanks, Kenji Sato",
+  "received": "2026-01-05"
+}

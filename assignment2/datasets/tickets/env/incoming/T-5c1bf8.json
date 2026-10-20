@@ -1,0 +1,10 @@
+{
+  "tid": "T-5c1bf8",
+  "seq": 64,
+  "product": "MeshMail",
+  "error_code": "E3159",
+  "platform": "windows",
+  "subject": "E-3159: cannot write data directory on Windows",
+  "body": "Good morning. My setup is MeshMail 2.8.0, Windows 11 23H2. Starting Tuesday, the moment I save my work a dialog reads \"E-3159: cannot write to data directory\".\n\nAfter restoring from a backup the data folder came back read-only. I can open files from it but nothing can be saved into it.\n\nI've already tried searching the help centre, which changed nothing.\n\nThanks, Sofia Rossi (Pinewood Legal)",
+  "opened": "2026-03-21"
+}

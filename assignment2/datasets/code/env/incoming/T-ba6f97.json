@@ -1,0 +1,10 @@
+{
+  "tid": "T-ba6f97",
+  "seq": 31,
+  "scenario": "SDK1418",
+  "kind": "decline_codes_of",
+  "target": "paypal",
+  "subject": "SDK-1418: which decline codes does the paypal adapter treat as permanent",
+  "body": "Hello -- Tomas Vik, infra. Which decline codes does the\npaypal adapter of tollgate treat as permanent failures?\n\nThe codes are listed in the module constant DECLINE_CODES.\n\nRegards, Tomas Vik -- infra",
+  "received": "2026-03-09"
+}

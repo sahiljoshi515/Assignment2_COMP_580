@@ -1,0 +1,11 @@
+{
+  "tid": "T-344f1a",
+  "seq": 9,
+  "exception": "KeyError",
+  "top_frame": "lattice.ui.theme.load",
+  "version": "3.2.7",
+  "title": "KeyError in theme.load when starting the application",
+  "body": "## Environment\n\nLattice version 3.2.7; operating system Fedora 41 Workstation; server region eu-\nwest-2.\n\n## Steps\n\nTo reproduce:\n* Start by starting the application.\n* Edit the settings file and use the renamed key.\n* Watch the log for the traceback below.\n\n## Expected\n\nAs on every earlier run, starting the application should just complete.\n\n## Actual\n\nThe missing key is the old name of a setting that was renamed. The settings file\nuses the renamed key from the release notes.\n\n## Frequency\n\nReproduces once a day or so.",
+  "stacktrace": "lattice/cli.py:15 in main\nlattice/core/app.py:36 in start\nlattice/core/boot.py:102 in load_all\nlattice/ui/theme.py:224 in load\nKeyError: 'ui.theme'",
+  "reported": "2026-01-16"
+}

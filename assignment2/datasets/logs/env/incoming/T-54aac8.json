@@ -1,0 +1,10 @@
+{
+  "tid": "T-54aac8",
+  "seq": 29,
+  "scenario": "INC1494",
+  "kind": "drift_host",
+  "target": null,
+  "subject": "INC-1494: which host started with a different configuration",
+  "body": "Hello -- Ivan Petrov, platform. We think one gateway host loaded a different configuration at startup. Tell me which host it is and which key is set differently from the others.\n\nEvery host wrote its startup banner, configuration included, at the top of its log file in logs/.\n\nMuch appreciated, Ivan Petrov",
+  "received": "2026-03-04"
+}

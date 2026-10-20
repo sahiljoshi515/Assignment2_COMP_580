@@ -1,0 +1,16 @@
+From: Backup Service <backup-bot@harbourfreight.example>
+To: ops-notify@harbourfreight.example
+Date: Wed, 04 Mar 2026 02:47:00 +0000
+Subject: Nightly backup report - wiki-and-tracker - 2026-03-03
+
+Nightly backup report for 2026-03-03
+Job: wiki-and-tracker
+Status: FAILED (checksum mismatch on 3 files)
+Started: 02:02:31 UTC   Finished: 02:47:36 UTC   Duration: 45 min
+Bytes transferred: 46.7 GB   Files: 973,608   Changed since last run: 3.2 %
+Retention: 30 daily, 12 weekly, 6 monthly
+Next run: 2026-03-04 02:00 UTC
+
+-- 
+This message was generated automatically by the backup service. Replies are not read.
+To change the schedule or the recipients, edit the job in the backup console.

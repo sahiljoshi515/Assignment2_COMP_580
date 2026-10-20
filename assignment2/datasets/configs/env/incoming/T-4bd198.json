@@ -1,0 +1,10 @@
+{
+  "tid": "T-4bd198",
+  "seq": 35,
+  "scenario": "CFG1000",
+  "kind": "missing_key",
+  "target": null,
+  "subject": "CFG-1000: which environment is missing a key",
+  "body": "Hi, Nora Lindqvist from the SRE team here. Compare the key sets of the notify-worker environment files and report the environment with a key missing and which key it is (section.key).\n\nA missing key is absent from the file, not set to an empty value.\n\nRegards, Nora Lindqvist -- SRE",
+  "received": "2026-03-17"
+}

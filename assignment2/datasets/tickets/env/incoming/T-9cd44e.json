@@ -1,0 +1,10 @@
+{
+  "tid": "T-9cd44e",
+  "seq": 26,
+  "product": "CourierOS",
+  "error_code": "E-5292",
+  "platform": "macos",
+  "subject": "E-5292: upload stalls on macOS",
+  "body": "Hi, I'm using CourierOS 3.5.0 on macOS 15.3. Since last\nweek, every time I upload a file, I get 'E-5292: upload\nstalled at 0 bytes/s'.\n\nThe machine's power profile was switched to the battery-\nsaver preset. Uploads stall as soon as the screen turns off.\n\nI've already tried waiting a day, which changed nothing.\n\nRegards, Omar Haddad, Brightwater Clinics",
+  "opened": "2026-02-04"
+}

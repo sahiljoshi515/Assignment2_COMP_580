@@ -1,0 +1,10 @@
+{
+  "tid": "T-047a09",
+  "seq": 7,
+  "scenario": "POL1532",
+  "kind": "introduced_in",
+  "target": "password_length",
+  "subject": "POL-1532: which revision set the minimum password length to its current value",
+  "body": "Hello -- Kenji Sato, SRE. Looking at the revisions of the Data Retention Policy, in which revision\nwas the minimum password length first set to the value the latest revision has?\n\nThe revisions are under policy/, one file per version; no changelog was kept.\n\nThanks, Kenji Sato",
+  "received": "2026-01-17"
+}

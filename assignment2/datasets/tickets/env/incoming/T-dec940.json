@@ -1,0 +1,10 @@
+{
+  "tid": "T-dec940",
+  "seq": 59,
+  "product": "tallyboard",
+  "error_code": "e-6192",
+  "platform": "macos",
+  "subject": "E-6192: cannot write data directory on macOS",
+  "body": "Good morning. My seutp is Tallyboard 1.9.3, macOS 14.7. Starting Monday, the moment I open the app a\ndialog rads 'E-6192: cannot write to data directory'.\n\nSince Monday a new endpoint protection suite runs on all PCs. Looking at its log, the data directory\nis scanned nonstop.\n\nI've already tried searching the help centre, which changed nothing.\n\nThanks, Ivan Petrov (Oakline Partners)",
+  "opened": "2026-03-15"
+}

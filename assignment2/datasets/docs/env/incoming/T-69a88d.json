@@ -1,0 +1,7 @@
+{
+  "tid": "T-69a88d",
+  "seq": 43,
+  "title": "REL-28.4: order pipeline release notes",
+  "body": "## Highlights\n\nREL-28.4 of the Order Pipeline rolls out to each tenant on 4 January 2025.\nHighlights are quicker search and a redesigned admin console, with Northwind\nSystems contributing the search work and 37 customer reports addressed.\n\n## Fixes\n\nThe following fixes were checked by Platform Engineering on 21 July 2025:\n* Updated the bundled TLS library to the current release\n* Removed the deprecated bulk endpoint from the external API\n* Fixed the pagination bug in the admin console lists\n\n## Upgrade notes\n\nNo tenant action is required: the upgrade is applied in the 20:00-21:00 UTC\nwindow. Grace Okafor managed this release and Aisha Bello is the assistance\ncontact, reachable through the usual channel.",
+  "received": "2026-03-04"
+}

@@ -1,0 +1,10 @@
+{
+  "tid": "T-186fdd",
+  "seq": 13,
+  "scenario": "sdk-1760",
+  "kind": "weak_signature",
+  "target": null,
+  "subject": "SDK-1760: which adapter signs with a weaker hash",
+  "body": "Aisha Bello (infra) writing with a quick request. One of the\ntollgate adapters violates R3 by using a weaker hash for its\nsignatures. Name the file and the hashlib algorithm it uses.\n\nThe algorithm name is the hashlib attribute passed to\nhmac.new.\n\nRegards, Aisha Bello -- infra",
+  "received": "2026-01-30"
+}

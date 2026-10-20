@@ -1,0 +1,10 @@
+{
+  "tid": "T-0fd77c",
+  "seq": 13,
+  "scenario": "POL-1608",
+  "kind": "introduced_in",
+  "target": "session_hours",
+  "subject": "POL-1608: which revision set the maximum session length to its current value",
+  "body": "Hello -- Hannah Cole, compliance. When did the maximum session length in the Incident Response Standard become what it is today? Give the revision in which that value first appears.\n\nAll versions are in policy/ as v01.md, v02.md and so on.\n\nMuch appreciated, Hannah Cole",
+  "received": "2026-01-30"
+}

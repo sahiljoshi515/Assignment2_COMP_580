@@ -1,0 +1,7 @@
+{
+  "tid": "T-8a000c",
+  "seq": 2,
+  "title": "POL-599: support console usage policy",
+  "body": "## Scope\n\nPolicy POL-599 covers the Support Console and is in force, per the policy register. The policy owner\nis Hana Kowalski (Release Management); yearly audits against the controls listed here are run by\nBluegate Networks.\n\n## Requirements\n\nAs of the 5 June 2025 review the requirements are:\n* Keep production data out of test and development environments\n* Complete the annual security training before the published deadline\n* Patch critical vulnerabilities within fourteen days of publication\n\n## Status\n\nThe policy is effective according to the register. Felix Brandt issued this version on 13 July 2025,\nwith 19 exceptions on file that expire at the yearly audit.",
+  "received": "2026-01-06"
+}

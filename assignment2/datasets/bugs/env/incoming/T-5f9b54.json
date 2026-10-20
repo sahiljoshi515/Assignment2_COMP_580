@@ -1,0 +1,11 @@
+{
+  "tid": "T-5f9b54",
+  "seq": 44,
+  "exception": "ValueError",
+  "top_frame": "lattice.report.summary.total",
+  "version": "3.2.6",
+  "title": "ValueError in summary.total when sending a scheduled report",
+  "body": "ENVIRONMENT:\n\nLattice version 3.2.6; operating system Ubuntu 24.04 LTS; server region eu-\nwest-2.\n\nSTEPS:\n\nHow to trigger it:\n- Start by sending a scheduled report.\n- Change the system timezone to one ahead of UTC.\n- Check the log window; the traceback appears there.\n\nEXPECTED:\n\nNo traceback; sending a scheduled report normally takes a few seconds.\n\nACTUAL:\n\nIt fails on a timestamp near midnight. Our machines are set to a timezone ahead\nof UTC and the date flips at midnight.\n\nFREQUENCY:\n\nIt occurs once a day or so.",
+  "stacktrace": "lattice/ui/main.py:48 in loop\nlattice/report/schedule.py:67 in run_due\nlattice/report/builder.py:139 in build\nlattice/report/summary.py:103 in total\nValueError: cannot convert float NaN to integer",
+  "reported": "2026-03-06"
+}

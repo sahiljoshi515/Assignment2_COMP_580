@@ -1,0 +1,17 @@
+{
+  "tid": "T-d42368",
+  "seq": 9,
+  "citation": {
+    "authors": [
+      "Ortega, Jonas",
+      "Eriksen, Bruno",
+      "Okafor, Zoe"
+    ],
+    "title": "Dense Retrieval with Lightweight Diffusion Models",
+    "venue": "IEEE/CVF International Conference on Computer Vision",
+    "year": 2019,
+    "doi": "10.5555/iccv.2019.89a0"
+  },
+  "raw": "Ortega, Jonas, Eriksen, Bruno, & Okafor, Zoe, \"Dense Retrieval with Lightweight Diffusion Models,\" in Proc. IEEE/CVF International Conference on Computer Vision, Jan. 2019, https://doi.org/10.5555/iccv.2019.89a0.",
+  "received": "2026-01-14"
+}

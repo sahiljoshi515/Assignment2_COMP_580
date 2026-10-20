@@ -1,0 +1,102 @@
+2026-03-26T16:15:15Z search-04 INFO  starting search 5.15.4 (build 9e13c6d) on search-04
+2026-03-26T16:15:16Z search-04 INFO  config: max_connections=128
+2026-03-26T16:15:16Z search-04 INFO  config: pool_size=8
+2026-03-26T16:15:16Z search-04 INFO  config: request_timeout_ms=8000
+2026-03-26T16:15:16Z search-04 INFO  config: cache_ttl_s=300
+2026-03-26T16:15:16Z search-04 INFO  config: log_level=DEBUG
+2026-03-26T16:15:16Z search-04 INFO  config: queue_depth=500
+2026-03-26T16:15:16Z search-04 INFO  config: gc_interval_s=60
+2026-03-26T16:15:17Z search-04 INFO  listening on 0.0.0.0:8080; workers=16
+2026-03-26T16:15:15Z search-04 INFO  health check ok (latency 5ms)
+2026-03-26T16:15:18Z search-04 INFO  POST /v1/orders 200 in 327ms rid=031d98
+2026-03-26T16:15:26Z search-04 INFO  DELETE /v1/cart/11944 200 in 36ms rid=0f8de4
+2026-03-26T16:15:32Z search-04 INFO  metrics: rps=332 p99=635ms heap=458MB goroutines=689
+2026-03-26T16:15:34Z search-04 INFO  GET /v1/items/25523 200 in 282ms rid=02cc6c
+2026-03-26T16:15:42Z search-04 INFO  GET /v1/orders/47029 200 in 221ms rid=208817
+2026-03-26T16:15:45Z search-04 INFO  health check ok (latency 8ms)
+2026-03-26T16:15:50Z search-04 INFO  DELETE /v1/cart/50108 200 in 158ms rid=33f8ce
+2026-03-26T16:15:56Z search-04 WARN  connection pool at 57% capacity
+2026-03-26T16:15:58Z search-04 INFO  GET /v1/orders/19969 200 in 234ms rid=9e4d51
+2026-03-26T16:16:06Z search-04 INFO  PUT /v1/cart 200 in 52ms rid=cead27
+2026-03-26T16:16:14Z search-04 INFO  POST /v1/payments 200 in 160ms rid=f63a5a
+2026-03-26T16:16:15Z search-04 INFO  health check ok (latency 11ms)
+2026-03-26T16:16:22Z search-04 INFO  PUT /v1/cart 200 in 370ms rid=de87b7
+2026-03-26T16:16:30Z search-04 INFO  PUT /v1/cart 200 in 162ms rid=89eb13
+2026-03-26T16:16:38Z search-04 INFO  GET /v1/profile 200 in 370ms rid=b16aad
+2026-03-26T16:16:45Z search-04 INFO  health check ok (latency 3ms)
+2026-03-26T16:16:46Z search-04 INFO  GET /v1/orders/31775 200 in 299ms rid=c1fd03
+2026-03-26T16:16:54Z search-04 INFO  DELETE /v1/cart/36046 200 in 70ms rid=646d54
+2026-03-26T16:17:02Z search-04 INFO  POST /v1/orders 200 in 101ms rid=f0d0f5
+2026-03-26T16:17:10Z search-04 INFO  POST /v1/refunds 200 in 142ms rid=6fa1f0
+2026-03-26T16:17:15Z search-04 INFO  health check ok (latency 8ms)
+2026-03-26T16:17:18Z search-04 INFO  GET /v1/items/36995 200 in 207ms rid=f66766
+2026-03-26T16:17:26Z search-04 INFO  GET /v1/orders/7162 200 in 274ms rid=97804b
+2026-03-26T16:17:32Z search-04 INFO  metrics: rps=78 p99=139ms heap=884MB goroutines=336
+2026-03-26T16:17:33Z search-04 WARN  slow query took 33ms on shard 1
+2026-03-26T16:17:34Z search-04 INFO  POST /v1/refunds 200 in 384ms rid=967cdb
+2026-03-26T16:17:42Z search-04 INFO  GET /v1/profile 200 in 153ms rid=117df8
+2026-03-26T16:17:45Z search-04 INFO  health check ok (latency 9ms)
+2026-03-26T16:17:50Z search-04 INFO  POST /v1/orders 200 in 374ms rid=cdabad
+2026-03-26T16:17:58Z search-04 INFO  GET /health 200 in 157ms rid=03aa90
+2026-03-26T16:18:06Z search-04 INFO  PUT /v1/cart 200 in 113ms rid=ffe80a
+2026-03-26T16:18:14Z search-04 INFO  PUT /v1/cart 200 in 243ms rid=669010
+2026-03-26T16:18:15Z search-04 INFO  health check ok (latency 4ms)
+2026-03-26T16:18:22Z search-04 INFO  GET /v1/search 200 in 181ms rid=bd68f9
+2026-03-26T16:18:23Z search-04 ERROR DeadlineExceeded: user-service did not respond within 8000ms (attempt 1/3)
+2026-03-26T16:18:29Z search-04 ERROR DeadlineExceeded: user-service did not respond within 8000ms (attempt 2/3)
+2026-03-26T16:18:30Z search-04 INFO  POST /v1/orders 200 in 154ms rid=040628
+2026-03-26T16:18:35Z search-04 ERROR DeadlineExceeded: user-service did not respond within 8000ms (attempt 3/3)
+2026-03-26T16:18:38Z search-04 INFO  POST /v1/payments 200 in 151ms rid=30a347
+2026-03-26T16:18:41Z search-04 ERROR DeadlineExceeded: user-service did not respond within 8000ms (attempt 1/3)
+2026-03-26T16:18:45Z search-04 WARN  health check FAILED: user-service unreachable
+2026-03-26T16:18:46Z search-04 INFO  POST /v1/refunds 503 in 103ms rid=504611
+2026-03-26T16:18:47Z search-04 ERROR DeadlineExceeded: user-service did not respond within 8000ms (attempt 2/3)
+2026-03-26T16:18:53Z search-04 ERROR DeadlineExceeded: user-service did not respond within 8000ms (attempt 3/3)
+2026-03-26T16:18:54Z search-04 INFO  POST /v1/orders 200 in 131ms rid=abda58
+2026-03-26T16:18:59Z search-04 ERROR DeadlineExceeded: user-service did not respond within 8000ms (attempt 1/3)
+2026-03-26T16:19:02Z search-04 INFO  GET /v1/orders/88178 200 in 30ms rid=74b91a
+2026-03-26T16:19:05Z search-04 ERROR DeadlineExceeded: giving up on user-service after 8 attempts
+2026-03-26T16:19:10Z search-04 INFO  POST /v1/payments 200 in 163ms rid=c877ed
+2026-03-26T16:19:10Z search-04 WARN  retrying upstream call (attempt 2/3)
+2026-03-26T16:19:15Z search-04 INFO  health check ok (latency 2ms)
+2026-03-26T16:19:18Z search-04 INFO  GET /v1/search 200 in 223ms rid=4207fe
+2026-03-26T16:19:26Z search-04 INFO  POST /v1/orders 200 in 29ms rid=c8dbc4
+2026-03-26T16:19:32Z search-04 INFO  metrics: rps=141 p99=381ms heap=1647MB goroutines=472
+2026-03-26T16:19:34Z search-04 INFO  GET /v1/profile 200 in 345ms rid=51c829
+2026-03-26T16:19:42Z search-04 INFO  GET /v1/profile 200 in 302ms rid=2f7f03
+2026-03-26T16:19:45Z search-04 INFO  health check ok (latency 8ms)
+2026-03-26T16:19:50Z search-04 INFO  GET /v1/search 200 in 308ms rid=8b0d44
+2026-03-26T16:19:58Z search-04 INFO  POST /v1/payments 200 in 349ms rid=b83fc9
+2026-03-26T16:20:06Z search-04 INFO  DELETE /v1/cart/14749 200 in 160ms rid=b0cbad
+2026-03-26T16:20:14Z search-04 INFO  POST /v1/refunds 200 in 175ms rid=03cbfe
+2026-03-26T16:20:15Z search-04 INFO  health check ok (latency 4ms)
+2026-03-26T16:20:22Z search-04 INFO  POST /v1/orders 200 in 141ms rid=ab3acf
+2026-03-26T16:20:30Z search-04 INFO  DELETE /v1/cart/42183 200 in 316ms rid=0a48b0
+2026-03-26T16:20:38Z search-04 INFO  POST /v1/payments 200 in 328ms rid=cd01a7
+2026-03-26T16:20:45Z search-04 INFO  health check ok (latency 9ms)
+2026-03-26T16:20:46Z search-04 INFO  POST /v1/payments 200 in 108ms rid=9a8b58
+2026-03-26T16:20:47Z search-04 WARN  cache miss ratio above 0.50
+2026-03-26T16:20:54Z search-04 INFO  GET /health 200 in 247ms rid=565ac7
+2026-03-26T16:21:02Z search-04 INFO  GET /v1/profile 200 in 242ms rid=2225d2
+2026-03-26T16:21:10Z search-04 INFO  POST /v1/orders 200 in 277ms rid=cb85d6
+2026-03-26T16:21:15Z search-04 INFO  health check ok (latency 5ms)
+2026-03-26T16:21:18Z search-04 INFO  GET /v1/orders/75667 200 in 18ms rid=98acf9
+2026-03-26T16:21:26Z search-04 INFO  POST /v1/payments 200 in 286ms rid=f4aa14
+2026-03-26T16:21:32Z search-04 INFO  metrics: rps=72 p99=748ms heap=1536MB goroutines=893
+2026-03-26T16:21:34Z search-04 INFO  POST /v1/refunds 200 in 378ms rid=83396a
+2026-03-26T16:21:42Z search-04 INFO  GET /v1/items/26833 200 in 337ms rid=e1db40
+2026-03-26T16:21:45Z search-04 INFO  health check ok (latency 7ms)
+2026-03-26T16:21:50Z search-04 INFO  GET /v1/orders/80742 200 in 354ms rid=71910a
+2026-03-26T16:21:58Z search-04 INFO  GET /v1/items/72045 200 in 16ms rid=28fe3f
+2026-03-26T16:22:06Z search-04 INFO  GET /v1/orders/59459 200 in 201ms rid=8ff670
+2026-03-26T16:22:14Z search-04 INFO  GET /v1/search 200 in 40ms rid=eb3b32
+2026-03-26T16:22:15Z search-04 INFO  health check ok (latency 10ms)
+2026-03-26T16:22:22Z search-04 INFO  DELETE /v1/cart/30481 200 in 389ms rid=767177
+2026-03-26T16:22:24Z search-04 WARN  cache miss ratio above 0.15
+2026-03-26T16:22:30Z search-04 INFO  DELETE /v1/cart/12396 200 in 9ms rid=8f2caf
+2026-03-26T16:22:38Z search-04 INFO  GET /v1/items/68748 200 in 127ms rid=09df05
+2026-03-26T16:22:45Z search-04 INFO  health check ok (latency 9ms)
+2026-03-26T16:22:46Z search-04 INFO  GET /v1/items/80757 200 in 304ms rid=1a42a2
+2026-03-26T16:22:54Z search-04 INFO  GET /health 200 in 212ms rid=1d6d84
+2026-03-26T16:23:02Z search-04 INFO  POST /v1/orders 200 in 357ms rid=8edf0e
+2026-03-26T16:23:10Z search-04 INFO  PUT /v1/cart 200 in 313ms rid=fa6039

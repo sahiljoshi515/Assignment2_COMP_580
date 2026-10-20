@@ -1,0 +1,16 @@
+From: Backup Service <backup-bot@tessalabs.example>
+To: ops-notify@tessalabs.example
+Date: Fri, 03 Apr 2026 03:31:00 +0000
+Subject: Nightly backup report - fileshare-nightly - 2026-04-02
+
+Nightly backup report for 2026-04-02
+Job: fileshare-nightly
+Status: FAILED (target volume full)
+Started: 02:03:03 UTC   Finished: 03:31:25 UTC   Duration: 88 min
+Bytes transferred: 50.8 GB   Files: 1,224,560   Changed since last run: 5.2 %
+Retention: 30 daily, 12 weekly, 6 monthly
+Next run: 2026-04-03 02:00 UTC
+
+-- 
+This message was generated automatically by the backup service. Replies are not read.
+To change the schedule or the recipients, edit the job in the backup console.

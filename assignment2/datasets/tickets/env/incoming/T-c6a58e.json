@@ -1,0 +1,10 @@
+{
+  "tid": "T-c6a58e",
+  "seq": 45,
+  "product": "MeshMail",
+  "error_code": "E-3381",
+  "platform": "macos",
+  "subject": "E-3381: totals mismatch on macOS",
+  "body": "Good morning. My setup is MeshMail 2.8.1, macOS 14.7. Whenever I open the summary since Tuesday, the app shows \"E-3381: totals do not match source\".\n\nA time-zone change on the laptop shifted the daily totals. Entries close to midnight show up under the neighbouring day.\n\nBefore writing in I tried rebooting the router; same error afterwards.\n\nLuca Moretti - Northbank Studio. Appreciate any pointers.",
+  "opened": "2026-02-26"
+}

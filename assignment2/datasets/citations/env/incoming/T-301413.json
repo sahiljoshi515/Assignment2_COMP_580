@@ -1,0 +1,18 @@
+{
+  "tid": "T-301413",
+  "seq": 32,
+  "citation": {
+    "authors": [
+      "O. Castillo",
+      "J. Yamada",
+      "U. Nair",
+      "et al."
+    ],
+    "title": "Image segmentation with efficient graph networks",
+    "venue": "arXiv preprint",
+    "year": 2021,
+    "doi": "10.48550/arxiv.2208.69032"
+  },
+  "raw": "O. Castillo, J. Yamada, U. Nair, et al. (2021, January). Image segmentation with efficient graph networks. arXiv preprint. 10.48550/arxiv.2208.69032",
+  "received": "2026-02-11"
+}

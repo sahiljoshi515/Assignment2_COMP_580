@@ -1,0 +1,18 @@
+{
+  "tid": "T-41a7ee",
+  "seq": 43,
+  "citation": {
+    "authors": [
+      "A. Sato",
+      "P. Xu",
+      "Z. Ueda",
+      "et al."
+    ],
+    "title": "Entity resolution with scalable embeddings",
+    "venue": "ICCV",
+    "year": 2019,
+    "pages": "6784-6790"
+  },
+  "raw": "A. Sato, P. Xu, Z. Ueda, et al. (2019). Entity resolution with scalable embeddings. In Proceedings of ICCV (pp. 6784-6790). IEEE. Retrieved from https://proceedings.example.org/iccv/184",
+  "received": "2026-02-24"
+}

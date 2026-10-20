@@ -1,0 +1,10 @@
+{
+  "tid": "T-281279",
+  "seq": 16,
+  "scenario": "inc-1570",
+  "kind": "first_error",
+  "target": null,
+  "subject": "INC-1570: which host failed first and when",
+  "body": "Hello -- Grace Okafor, platform. I need the host and the exact timestamp of the earliest ERROR line across all billing hosts.\n\nPlease quote the timestamp as it appears in the log line, including the Z.\n\nRegards, Grace Okafor -- platform",
+  "received": "2026-02-05"
+}

@@ -1,0 +1,10 @@
+{
+  "tid": "T-7339af",
+  "seq": 39,
+  "product": "Tallyboard",
+  "error_code": "E6155",
+  "platform": "windows",
+  "subject": "E-6155: token rejected on Windows",
+  "body": "Hi, I'm using Tallyboard 1.9.1 on Windows 11 23H2. Starting yesterday, the\nmoment I open the app a dialog reads \"E-6155: authentication token rejected\".\n\nThe clock has been wrong since the battery was replaced. Websites complain about\ncertificates too, so it might be related.\n\nI've already tried restarting the machine, which changed nothing.\n\nRegards, Sofia Rossi, Tessa Labs",
+  "opened": "2026-02-19"
+}

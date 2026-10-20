@@ -1,0 +1,11 @@
+{
+  "tid": "T-de9c18",
+  "seq": 34,
+  "exception": "PermissionError",
+  "top_frame": "lattice/auth/policy.py::check",
+  "version": "3.0.1",
+  "title": "PermissionError while retrying a failed upload (policy.check)",
+  "body": "## Environment\n\nRunning Lattice 3.0.1 on Windows Server 2022 against ca-\ncentral-1.\n\n## Steps\n\nSteps to reproduce:\n* Start by retrying a failed upload.\n* Open the target file in a viewer, then trigger the action.\n* Wait for the failure and read the log.\n\n## Expected\n\nAs on every earlier run, retrying a failed upload should\njust complete.\n\n## Actual\n\nIt is denied once, then the same action works on retry.\nAnother process still has the file open when the app tries\nto replace it.\n\n## Frequency\n\nHappens only on the first run after login.",
+  "stacktrace": "lattice/ui/main.py:50 in loop\nlattice/ui/upload.py:34 in on_drop\nlattice/io/upload.py:115 in send\nlattice/auth/policy.py:128 in check\nPermissionError: upload denied for role 'viewer'",
+  "reported": "2026-02-20"
+}

@@ -1,0 +1,7 @@
+{
+  "tid": "T-ab3724",
+  "seq": 32,
+  "title": "CHG-9757: Device Registry change memo",
+  "body": "SUMMARY:\n\nChange CHG-9757 against the Device Registry is pending, as noted by the change advisory board. Omar Haddad (Security Office) raised it, and 16 production hosts behind the Device Registry are in scope for the work.\n\nDETAILS:\n\nSteps scheduled in the 01:00-03:00 UTC window with support from Tessaro Labs:\n- Move the nightly export to the new object store bucket\n- Enable TLS 1.3 on the internal load balancer listeners\n- Introduce rate limiting on the public API gateway routes\n\nDECISION:\n\nThe change advisory board marks this change as pending. Minutes taken by Mateo Silva, 4 May 2025, covering the session held on 3 April 2025, are kept in the shared archive.",
+  "received": "2026-02-17"
+}

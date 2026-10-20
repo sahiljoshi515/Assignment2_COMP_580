@@ -1,0 +1,16 @@
+{
+  "tid": "T-717be4",
+  "seq": 7,
+  "citation": {
+    "authors": [
+      "R. Walsh",
+      "A. Weber"
+    ],
+    "title": "Adaptive diffusion models for link prediction",
+    "venue": "SIGMOD",
+    "year": 2023,
+    "pages": "4665-4674"
+  },
+  "raw": "R. Walsh and A. Weber. 2023. Adaptive diffusion models for link prediction. In Proc. SIGMOD. ACM, New York, NY, USA, pages 4665-4674.",
+  "received": "2026-01-12"
+}

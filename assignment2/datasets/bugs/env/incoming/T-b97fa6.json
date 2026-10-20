@@ -1,0 +1,11 @@
+{
+  "tid": "T-b97fa6",
+  "seq": 27,
+  "exception": "TimeoutError",
+  "top_frame": "lattice.store.remote.sync",
+  "version": "3.0.0",
+  "title": "remote.sync raises timeouterror when syncing the remote store",
+  "body": "## Environment\n\nLattice version 3.0.0; operating system Windows 11 24H2; server region ap-south-1.\n\n## Steps\n\nSteps to replicate:\n* Open Lattice and begin syncing the remote store.\n* Run two workers side by side.\n* Observe the journal for the stack trace below.\n\n## Expected\n\nNo stack trace; syncing the remote store normally takes a few secs.\n\n## Actual\n\nNot a thing happens for thirty secs; the guard timer finally aborts it. It solely occurs when two\nworkers run at once; a single worker is fine.\n\n## Frequency\n\nIt occurs once a day or so.",
+  "stacktrace": "lattice/ui/main.py:50 in loop\nlattice/sched/runner.py:128 in run_due\nlattice/store/remote.py:80 in sync_all\nlattice/store/remote.py:146 in sync\nTimeoutError: sync did not finish within 30s (host=ap-south-1)",
+  "reported": "2026-02-10"
+}

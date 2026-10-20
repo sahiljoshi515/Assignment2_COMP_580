@@ -1,0 +1,18 @@
+{
+  "tid": "T-2a210a",
+  "seq": 37,
+  "citation": {
+    "authors": [
+      "Berg, Nikhil",
+      "Zhou, Nikhil",
+      "Oliveira, Nikhil",
+      "et al."
+    ],
+    "title": "Efficient autoencoders for image segmentation",
+    "venue": "arXiv preprint",
+    "year": 2017,
+    "doi": "10.48550/arxiv.1711.59096"
+  },
+  "raw": "Berg, Nikhil, Zhou, Nikhil, Oliveira, Nikhil, et al. September 2017. Efficient autoencoders for image segmentation. arXiv preprint. doi:10.48550/arxiv.1711.59096 https://arxiv.org/abs/1711.59096",
+  "received": "2026-02-17"
+}

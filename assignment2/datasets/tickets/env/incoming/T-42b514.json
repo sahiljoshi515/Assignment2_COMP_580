@@ -1,0 +1,10 @@
+{
+  "tid": "T-42b514",
+  "seq": 61,
+  "product": "PixelForge",
+  "error_code": "E4281",
+  "platform": "macos",
+  "subject": "E-4281: upload stalls on macOS",
+  "body": "Hello support team. We run PixelForge 6.0.8 on macOS 14.7. Since Tuesday, every time I upload a\nfile, I get 'E-4281: upload stalled at 0 bytes/s'.\n\nA sync was interrupted by a power cut halfway through last week. Ever since, it stops at the same\nfile every time.\n\nBefore writing in I tried rebooting the router; same error afterwards.\n\nRegards, Daniel Ortega, Tessa Labs",
+  "opened": "2026-03-18"
+}

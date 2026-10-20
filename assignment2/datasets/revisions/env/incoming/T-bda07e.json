@@ -1,0 +1,10 @@
+{
+  "tid": "T-bda07e",
+  "seq": 37,
+  "scenario": "POL1836",
+  "kind": "changes_count",
+  "target": "review_months",
+  "subject": "POL-1836: how many times the review cadence changed",
+  "body": "Hi, Kenji Sato from the SRE team here. Count the revisions of the Incident Response Standard in\nwhich the review cadence takes a value different from the previous revision.\n\nv01 establishes the value; count the later revisions that alter it.\n\nMuch appreciated a lot, Kenji Sato",
+  "received": "2026-03-21"
+}

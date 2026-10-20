@@ -1,0 +1,10 @@
+{
+  "tid": "T-3747fb",
+  "seq": 36,
+  "scenario": "SDK-1228",
+  "kind": "decline_codes_of",
+  "target": "klarna",
+  "subject": "SDK-1228: which decline codes does the klarna adapter treat as permanent",
+  "body": "Hi, Arjun Mehta from the data team here. List the DECLINE_CODES of adapters/klarna.py.\n\nReport the tuple's entries as a JSON list of strings.\n\nRegards, Arjun Mehta -- data",
+  "received": "2026-03-19"
+}

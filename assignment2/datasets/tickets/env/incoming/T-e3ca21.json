@@ -1,0 +1,10 @@
+{
+  "tid": "T-e3ca21",
+  "seq": 69,
+  "product": "syncvault",
+  "error_code": "e-1285",
+  "platform": "macos",
+  "subject": "E-1285: quota exceeded on macOS",
+  "body": "Hi, I'm using SyncVault 4.2.8 on macOS 15.3. Since this morning, each time I\nstart a sync, I get 'E-1285: storage quota exceeded'.\n\nOn this machine the cache directory is now many gigabytes large. Our real data is\nfar smaller than the cache.\n\nWhat I tried so far: waiting a day. No luck.\n\nFatima Zahra -- Meridian Schools. Appreciate any hints.",
+  "opened": "2026-03-27"
+}

@@ -1,0 +1,7 @@
+{
+  "tid": "T-7f9ba7",
+  "seq": 49,
+  "title": "POL-838: policy governing the warehouse console",
+  "body": "SCOPE:\n\nThis policy applies to every user of the Warehouse Console and is in draft. Pinecrest Hosting audits\ncompliance with the controls listed here each year on behalf of the owner, Grace Okafor from Data\nServices.\n\nREQUIREMENTS:\n\nThe requirements, last reviewed on 1 June 2025, are:\n* Report a suspected security incident within one hour of noticing it\n* Document every manual change in the shared change log\n* Obtain written sign-off before granting vendor access\n\nSTATUS:\n\nStatus of this policy: in draft. Version issued 17 May 2025 by Ivan Petrov; exceptions on file: 38,\nall expiring at the yearly audit.",
+  "received": "2026-03-13"
+}

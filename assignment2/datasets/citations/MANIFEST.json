@@ -1,0 +1,117 @@
+{
+  "dataset": "citations",
+  "seed": 53,
+  "args": {
+    "history_size": 140,
+    "incoming": 70,
+    "dup_rate": 0.4
+  },
+  "counts": {
+    "history": 140,
+    "incoming": 70,
+    "duplicates": 28,
+    "hard_negatives": 14,
+    "by_kind": {
+      "exact": 4,
+      "format": 7,
+      "reorder": 4,
+      "edit": 6,
+      "paraphrase": 7
+    },
+    "dup_of_history": 20,
+    "dup_of_task": 8,
+    "history_twins": 10
+  },
+  "tokens": {
+    "instructions": 1220,
+    "history": 21142,
+    "incoming": 9952,
+    "reference": 11094,
+    "total": 43408
+  },
+  "budget": {
+    "range": [
+      30000,
+      50000
+    ],
+    "enforced": true,
+    "ok": true
+  },
+  "similarity": {
+    "exact": {
+      "n": 4,
+      "min": 1.0,
+      "p10": 1.0,
+      "p50": 1.0,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "format": {
+      "n": 7,
+      "min": 1.0,
+      "p10": 1.0,
+      "p50": 1.0,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "reorder": {
+      "n": 4,
+      "min": 1.0,
+      "p10": 1.0,
+      "p50": 1.0,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "edit": {
+      "n": 6,
+      "min": 0.618,
+      "p10": 0.618,
+      "p50": 0.842,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "paraphrase": {
+      "n": 7,
+      "min": 0.16,
+      "p10": 0.16,
+      "p50": 0.304,
+      "p90": 0.375,
+      "max": 0.375
+    },
+    "hard_negative": {
+      "n": 14,
+      "min": 0.226,
+      "p10": 0.684,
+      "p50": 0.818,
+      "p90": 0.929,
+      "max": 0.933
+    },
+    "confusable": {
+      "n": 0
+    },
+    "random": {
+      "n": 298,
+      "min": 0.0,
+      "p10": 0.0,
+      "p50": 0.0,
+      "p90": 0.061,
+      "max": 0.854
+    }
+  },
+  "text_for_similarity": "raw",
+  "answer_histogram": {
+    "{\"doi\": \"10.48550/arXiv.1509.88594\", \"status\": \"correct\", \"wrong_fields\": []}": 3,
+    "{\"doi\": \"10.5555/kdd.2023.a8d7\", \"status\": \"incorrect\", \"wrong_fields\": [\"title\", \"year\"]}": 3,
+    "{\"doi\": \"10.5555/iclr.2023.e0bf\", \"status\": \"incorrect\", \"wrong_fields\": [\"authors\"]}": 2,
+    "{\"doi\": \"10.5555/sigir.2022.2f73\", \"status\": \"correct\", \"wrong_fields\": []}": 2,
+    "{\"doi\": \"10.5555/sigir.2023.77dc\", \"status\": \"correct\", \"wrong_fields\": []}": 2,
+    "{\"doi\": \"10.5555/sigir.2025.af51\", \"status\": \"correct\", \"wrong_fields\": []}": 2,
+    "{\"doi\": \"10.5555/sigmod.2023.4f9d\", \"status\": \"correct\", \"wrong_fields\": []}": 2,
+    "{\"doi\": \"10.5555/sigmod.2023.4f9d\", \"status\": \"incorrect\", \"wrong_fields\": [\"authors\", \"venue\"]}": 2,
+    "{\"doi\": \"10.5555/sigmod.2024.4c04\", \"status\": \"incorrect\", \"wrong_fields\": [\"authors\", \"year\"]}": 2,
+    "{\"doi\": \"10.5555/vldb.2021.1973\", \"status\": \"incorrect\", \"wrong_fields\": [\"title\", \"year\"]}": 2,
+    "{\"doi\": \"10.48550/arXiv.1411.71473\", \"status\": \"incorrect\", \"wrong_fields\": [\"title\", \"year\"]}": 1,
+    "{\"doi\": \"10.48550/arXiv.1711.59096\", \"status\": \"incorrect\", \"wrong_fields\": [\"authors\"]}": 1
+  },
+  "max_answer_share": 0.043
+}

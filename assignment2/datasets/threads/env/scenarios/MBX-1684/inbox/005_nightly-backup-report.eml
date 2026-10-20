@@ -1,0 +1,16 @@
+From: Backup Service <backup-bot@pinewoodlegal.example>
+To: ops-notify@pinewoodlegal.example
+Date: Sun, 15 Feb 2026 02:58:00 +0000
+Subject: Nightly backup report - fileshare-nightly - 2026-02-14
+
+Nightly backup report for 2026-02-14
+Job: fileshare-nightly
+Status: SUCCESS
+Started: 02:04:10 UTC   Finished: 02:58:25 UTC   Duration: 54 min
+Bytes transferred: 45.1 GB   Files: 1,133,972   Changed since last run: 1.1 %
+Retention: 30 daily, 12 weekly, 6 monthly
+Next run: 2026-02-15 02:00 UTC
+
+-- 
+This message was generated automatically by the backup service. Replies are not read.
+To change the schedule or the recipients, edit the job in the backup console.

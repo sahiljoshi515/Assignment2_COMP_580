@@ -1,0 +1,11 @@
+{
+  "tid": "T-8d0531",
+  "seq": 3,
+  "exception": "RuntimeError",
+  "top_frame": "lattice.sched.queue.pop",
+  "version": "v3.3.2",
+  "title": "RuntimeError in queue.pop when running a scheduled job",
+  "body": "## Environment\n\nLattice version 3.3.2; operating system Windows 11 24H2; server region ca-central-1.\n\n## Steps\n\nHow to trigger it:\n* With the log window open, start running a scheduled job.\n* Install this release over the previous one without changing settings.\n* Wait for the failure and read the log.\n\n## Expected\n\nNo traceback; running a scheduled job normally takes a few seconds.\n\n## Actual\n\nSince upgrading, every attempt fails here. It began right after upgrading to this release; nothing else changed.\n\n## Frequency\n\nHappens every time.",
+  "stacktrace": "lattice/ui/main.py:48 in loop\nlattice/sched/runner.py:133 in run_due\nlattice/sched/queue.py:81 in drain\nlattice/sched/queue.py:113 in pop\nRuntimeError: queue lock held by worker-2",
+  "reported": "2026-01-07"
+}

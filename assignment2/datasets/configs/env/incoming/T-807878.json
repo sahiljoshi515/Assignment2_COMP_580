@@ -1,0 +1,10 @@
+{
+  "tid": "T-807878",
+  "seq": 9,
+  "scenario": "cfg-1646",
+  "kind": "drift",
+  "target": null,
+  "subject": "CFG-1646: which environment drifted on a uniform key",
+  "body": "Hi, Daniel Ortega from the compliance team here. Please audit the ledger-api configs for drift: find the environment whose copy sets a must-be-uniform key differently from the rest, and name the key.\n\nKeys that may legitimately vary (hosts, replicas, log levels) are listed in config/POLICY.md and do not count. Ignore the security keys for this question; they are a separate audit.\n\nThanks, Daniel Ortega",
+  "received": "2026-01-21"
+}

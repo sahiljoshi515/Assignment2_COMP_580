@@ -1,0 +1,10 @@
+{
+  "tid": "T-504956",
+  "seq": 10,
+  "scenario": "SDK-1038",
+  "kind": "missing_idempotency",
+  "target": null,
+  "subject": "SDK-1038: which adapter forgets the idempotency key",
+  "body": "Hello -- Priya Nair, platform. Find the adapter that violates R4: one of its two idempotent operations calls _request without an idempotency key. File and method, please.\n\nIn the compliant adapters both methods pass idempotency_key= to _request.\n\nThanks, Priya Nair",
+  "received": "2026-01-23"
+}

@@ -1,0 +1,17 @@
+{
+  "tid": "T-9c01a7",
+  "seq": 41,
+  "citation": {
+    "authors": [
+      "Ortega,L",
+      "Osei,V",
+      "Kowalski,K"
+    ],
+    "title": "Image Segmentation with Contrastive Attention",
+    "venue": "EMNLP",
+    "year": 2019,
+    "pages": "1610-1618"
+  },
+  "raw": "Ortega,L, Osei,V, & Kowalski,K (2019). Image Segmentation with Contrastive Attention. In Proc. of EMNLP (pp.1610-1618). Association for Computational Linguistics.",
+  "received": "2026-02-22"
+}

@@ -1,0 +1,11 @@
+{
+  "tid": "T-a5fff8",
+  "seq": 48,
+  "exception": "PermissionError",
+  "top_frame": "lattice/report/pdf.py::export",
+  "version": "3.2.4",
+  "title": "PermissionError in pdf.export when sending a scheduled report",
+  "body": "## Environment\n\nLattice version 3.2.4; operating system Debian 12; server region eu-west-2.\n\n## Steps\n\nHow to trigger it:\n- Open Lattice and begin sending a scheduled report.\n- Start the application as the service account.\n- Watch the log for the traceback below.\n\n## Expected\n\nAs on every earlier run, sending a scheduled report should just complete.\n\n## Actual\n\nPermission is refused on a file created by the app. The service account that\nruns the app does not own that directory.\n\n## Frequency\n\nIt occurs once a day or so.",
+  "stacktrace": "lattice/ui/main.py:45 in loop\nlattice/report/schedule.py:69 in run_due\nlattice/report/builder.py:138 in build\nlattice/report/pdf.py:50 in export\nPermissionError: [Errno 13] Permission denied: 'exports/2026-02.pdf'",
+  "reported": "2026-03-11"
+}

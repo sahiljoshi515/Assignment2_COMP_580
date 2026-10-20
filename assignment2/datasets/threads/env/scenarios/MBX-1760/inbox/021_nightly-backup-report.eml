@@ -1,0 +1,16 @@
+From: Backup Service <backup-bot@pinewoodlegal.example>
+To: ops-notify@pinewoodlegal.example
+Date: Fri, 10 Apr 2026 03:16:00 +0000
+Subject: Nightly backup report - wiki-and-tracker - 2026-04-09
+
+Nightly backup report for 2026-04-09
+Job: wiki-and-tracker
+Status: SUCCESS
+Started: 02:00:07 UTC   Finished: 03:16:43 UTC   Duration: 76 min
+Bytes transferred: 50.3 GB   Files: 1,047,154   Changed since last run: 1.9 %
+Retention: 30 daily, 12 weekly, 6 monthly
+Next run: 2026-04-10 02:00 UTC
+
+-- 
+This message was generated automatically by the backup service. Replies are not read.
+To change the schedule or the recipients, edit the job in the backup console.

@@ -1,0 +1,10 @@
+{
+  "tid": "T-7ff8c6",
+  "seq": 22,
+  "scenario": "POL-1760",
+  "kind": "changes_count",
+  "target": "password_length",
+  "subject": "POL-1760: how many times the minimum password length changed",
+  "body": "Hello -- Ivan Petrov, platform. Across all versions of the Backup and Recovery Standard, how often was the minimum password length changed? A change is a revision whose value deviates from the one before.\n\nv01 establishes the value; count the later revisions that alter it.\n\nMuch appreciated a lot, Ivan Petrov",
+  "received": "2026-02-18"
+}

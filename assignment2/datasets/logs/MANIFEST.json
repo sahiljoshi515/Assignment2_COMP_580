@@ -1,0 +1,140 @@
+{
+  "dataset": "logs",
+  "seed": 61,
+  "args": {
+    "history_size": 60,
+    "incoming": 40,
+    "dup_rate": 0.4
+  },
+  "counts": {
+    "history": 60,
+    "incoming": 40,
+    "duplicates": 16,
+    "hard_negatives": 8,
+    "by_kind": {
+      "exact": 3,
+      "format": 4,
+      "reorder": 2,
+      "edit": 3,
+      "paraphrase": 4
+    },
+    "dup_of_history": 11,
+    "dup_of_task": 5,
+    "history_twins": 9
+  },
+  "tokens": {
+    "instructions": 1022,
+    "history": 7571,
+    "incoming": 4720,
+    "reference": 331134,
+    "total": 344447
+  },
+  "budget": {
+    "range": [
+      12000,
+      45000
+    ],
+    "enforced": true,
+    "ok": true,
+    "measured": 22508
+  },
+  "similarity": {
+    "exact": {
+      "n": 3,
+      "min": 1.0,
+      "p10": 1.0,
+      "p50": 1.0,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "format": {
+      "n": 4,
+      "min": 1.0,
+      "p10": 1.0,
+      "p50": 1.0,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "reorder": {
+      "n": 2,
+      "min": 0.849,
+      "p10": 0.849,
+      "p50": 0.852,
+      "p90": 0.852,
+      "max": 0.852
+    },
+    "edit": {
+      "n": 3,
+      "min": 0.536,
+      "p10": 0.536,
+      "p50": 0.723,
+      "p90": 0.739,
+      "max": 0.739
+    },
+    "paraphrase": {
+      "n": 4,
+      "min": 0.109,
+      "p10": 0.109,
+      "p50": 0.225,
+      "p90": 0.257,
+      "max": 0.257
+    },
+    "hard_negative": {
+      "n": 8,
+      "min": 0.552,
+      "p10": 0.552,
+      "p50": 0.815,
+      "p90": 0.922,
+      "max": 0.922
+    },
+    "confusable": {
+      "n": 0
+    },
+    "random": {
+      "n": 198,
+      "min": 0.0,
+      "p10": 0.0,
+      "p50": 0.0,
+      "p90": 0.152,
+      "max": 0.475
+    }
+  },
+  "text_for_similarity": "subject + body",
+  "answer_histogram": {
+    "{\"count\": 18, \"host\": \"ledger-02\"}": 2,
+    "{\"count\": 20, \"host\": \"billing-05\"}": 2,
+    "{\"first_error_at\": \"2026-03-16T09:51:32Z\", \"host\": \"ledger-02\"}": 2,
+    "{\"first_error_at\": \"2026-04-28T18:58:51Z\", \"host\": \"billing-05\"}": 2,
+    "{\"host\": \"billing-04\", \"key\": \"cache_ttl_s\"}": 2,
+    "{\"count\": 0, \"host\": \"billing-07\"}": 1,
+    "{\"count\": 0, \"host\": \"catalog-01\"}": 1,
+    "{\"count\": 0, \"host\": \"ledger-03\"}": 1,
+    "{\"count\": 0, \"host\": \"search-08\"}": 1,
+    "{\"count\": 11, \"error\": \"UpstreamUnavailable\"}": 1,
+    "{\"count\": 12, \"error\": \"TimeoutError\"}": 1,
+    "{\"count\": 13, \"host\": \"notify-03\"}": 1
+  },
+  "max_answer_share": 0.05,
+  "content": {
+    "scenarios": 24,
+    "files_per_scenario": [
+      6,
+      9
+    ],
+    "tokens_per_scenario": {
+      "min": 10801,
+      "mean": 13797,
+      "max": 16658
+    },
+    "within_group_jaccard_p50": {
+      "min": 0.957,
+      "max": 1.0
+    },
+    "cross_group_jaccard_max": 0.0,
+    "groups_per_scenario": [
+      1,
+      1
+    ],
+    "normalisation": "lower-case alphanumeric tokens, digit runs masked to 0, word 3-shingles"
+  }
+}

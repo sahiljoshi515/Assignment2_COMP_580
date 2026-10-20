@@ -1,0 +1,10 @@
+{
+  "tid": "T-5fd55f",
+  "seq": 18,
+  "scenario": "INC-1304",
+  "kind": "error_count",
+  "target": "ledger-07",
+  "subject": "INC-1304: how many ERROR lines did ledger-07 write",
+  "body": "Mei Lin (support) writing with a quick request. How many ERROR lines did the host ledger-07 write during the window?\n\nThe file is logs/ledger-07.log; if it logged no errors the count is 0.\n\nRegards, Mei Lin -- support",
+  "received": "2026-02-09"
+}

@@ -1,0 +1,10 @@
+{
+  "tid": "T-08b2e8",
+  "seq": 23,
+  "scenario": "INC-1152",
+  "kind": "error_class",
+  "target": null,
+  "subject": "INC-1152: what failed on the failing host and how often",
+  "body": "Hello -- Ivan Petrov, security. Tell me the exception class\nbehind the notify errors and the total number of ERROR lines\non the host that logged them.\n\nCount lines at level ERROR only; WARN lines about failed\nhealth checks are not errors for this purpose.\n\nMuch appreciated, Ivan Petrov",
+  "received": "2026-02-20"
+}

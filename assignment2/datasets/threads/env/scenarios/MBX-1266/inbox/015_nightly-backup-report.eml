@@ -1,0 +1,16 @@
+From: Backup Service <backup-bot@ferrosons.example>
+To: ops-notify@ferrosons.example
+Date: Fri, 03 Apr 2026 03:24:00 +0000
+Subject: Nightly backup report - wiki-and-tracker - 2026-04-02
+
+Nightly backup report for 2026-04-02
+Job: wiki-and-tracker
+Status: FAILED (target volume full)
+Started: 02:04:34 UTC   Finished: 03:24:12 UTC   Duration: 80 min
+Bytes transferred: 47.8 GB   Files: 1,173,442   Changed since last run: 3.5 %
+Retention: 30 daily, 12 weekly, 6 monthly
+Next run: 2026-04-03 02:00 UTC
+
+-- 
+This message was generated automatically by the backup service. Replies are not read.
+To change the schedule or the recipients, edit the job in the backup console.

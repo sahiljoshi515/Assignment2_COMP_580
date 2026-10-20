@@ -1,0 +1,7 @@
+{
+  "tid": "T-37e1c7",
+  "seq": 13,
+  "title": "INC-9734: incident on the Data Lake Ingest",
+  "body": "Impact\n\nThe Data Lake Ingest incident described here is under\ninvestigation at the time of writing. The hosting provider\nSilverline Data was brought in by Data Services within the\nfirst hour, and about 22 cases were tied to the event.\n\nTimeline\n\nEntries noted by Mei Chen up to 25 November 2025, in order:\n- Error rates were compared against the regular baseline\n- A disk on the storage node reported write failures\n- Certificates on the edge proxies were renewed by hand\n\nStatus\n\nData Services lists the incident as under investigation.\nAuthored by Rohan Mehta, 26 August 2025, with a follow-up\ncheck set for the 01:00-03:00 UTC window ahead of the\nregular service meeting.",
+  "received": "2026-01-21"
+}

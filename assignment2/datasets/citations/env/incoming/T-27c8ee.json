@@ -1,0 +1,17 @@
+{
+  "tid": "T-27c8ee",
+  "seq": 12,
+  "citation": {
+    "authors": [
+      "Patel, R.",
+      "Castillo, A.",
+      "Adeyemi, F.",
+      "et al."
+    ],
+    "title": "Approximate Nearest Neighbor Search for Differentiable Time Series Forecasting",
+    "venue": "ICCV",
+    "year": 2018
+  },
+  "raw": "@inproceedings{patel:approximate,\n  author = {Patel, R. and Castillo, A. and Adeyemi, F. and others},\n  title = {Approximate Nearest Neighbor Search for Differentiable Time Series Forecasting},\n  booktitle = {Proc. ICCV '18},\n  year = {2018},\n  publisher = {IEEE},\n}",
+  "received": "2026-01-18"
+}

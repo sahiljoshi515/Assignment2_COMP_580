@@ -1,0 +1,16 @@
+From: Backup Service <backup-bot@oaklinepartners.example>
+To: ops-notify@oaklinepartners.example
+Date: Fri, 06 Mar 2026 02:55:00 +0000
+Subject: Nightly backup report - prod-postgres-full - 2026-03-05
+
+Nightly backup report for 2026-03-05
+Job: prod-postgres-full
+Status: SUCCESS
+Started: 02:02:42 UTC   Finished: 02:55:42 UTC   Duration: 53 min
+Bytes transferred: 41.4 GB   Files: 1,348,556   Changed since last run: 1.7 %
+Retention: 30 daily, 12 weekly, 6 monthly
+Next run: 2026-03-06 02:00 UTC
+
+-- 
+This message was generated automatically by the backup service. Replies are not read.
+To change the schedule or the recipients, edit the job in the backup console.

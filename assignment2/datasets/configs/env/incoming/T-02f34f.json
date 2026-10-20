@@ -1,0 +1,10 @@
+{
+  "tid": "T-02f34f",
+  "seq": 40,
+  "scenario": "CFG1228",
+  "kind": "drift",
+  "target": null,
+  "subject": "CFG-1228: which environment drifted on a uniform key",
+  "body": "Hi, Fatima Zahra from the data team here. Please audit the\nledger-api configs for drift: find the environment whose\ncopy sets a must-be-uniform key differently from the rest,\nand name the key.\n\nKeys that may legitimately vary (hosts, replicas, log\nlevels) are listed in config/POLICY.md and do not count.\nIgnore the security keys for this question; they are a\nseparate audit.\n\nThanks, Fatima Zahra",
+  "received": "2026-03-27"
+}

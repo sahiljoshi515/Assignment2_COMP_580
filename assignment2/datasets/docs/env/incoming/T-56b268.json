@@ -1,0 +1,7 @@
+{
+  "tid": "T-56b268",
+  "seq": 11,
+  "title": "POL-160: Backup Vault Usage Policy",
+  "body": "SCOPE:\n\nThis policy applies to every user of the Backup Vault and is in force. Northwind Systems audits\ncompliance with the controls listed here each year on behalf of the owner, Samuel Adeyemi from Data\nServices.\n\nREQUIREMENTS:\n\nAs of the 13 February 2025 review the requirements are:\n* Review access lists for every production system each quarter\n* Report a suspected security incident within one hour of noticing it\n* Keep production data out of test and development environments\n\nSTATUS:\n\nThe policy is effective according to the register. Leila Nasser issued this version on 17 August\n2025, with 31 exceptions on file that expire at the yearly audit.",
+  "received": "2026-01-19"
+}

@@ -1,0 +1,10 @@
+{
+  "tid": "T-465e19",
+  "seq": 13,
+  "scenario": "cfg-1494",
+  "kind": "replicas_of",
+  "target": "canary",
+  "subject": "CFG-1494: how many replicas does canary run",
+  "body": "Hello -- Aisha Bello, payments. How many replicas does the orders-api deployment in the canary\nenvironment run?\n\nReport the number as written in service.replicas.\n\nThanks, Aisha Bello",
+  "received": "2026-01-30"
+}

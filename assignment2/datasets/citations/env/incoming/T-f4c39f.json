@@ -1,0 +1,17 @@
+{
+  "tid": "T-f4c39f",
+  "seq": 6,
+  "citation": {
+    "authors": [
+      "Huang,C",
+      "Mendes,L",
+      "Gupta,A",
+      "et al."
+    ],
+    "title": "Federated Graph Networks for Machine Translation",
+    "venue": "arXiv preprint",
+    "year": 2020
+  },
+  "raw": "@article{huang:federated,\n  author = {Huang,C and Mendes,L and Gupta,A and others},\n  title = {Federated Graph Networks for Machine Translation},\n  journal = {arXiv preprint},\n  year = {2020},\n  month = {oct},\n  note = {Available at https://arxiv.org/abs/2011.07474},\n}",
+  "received": "2026-01-11"
+}

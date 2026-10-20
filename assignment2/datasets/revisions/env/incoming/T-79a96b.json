@@ -1,0 +1,10 @@
+{
+  "tid": "T-79a96b",
+  "seq": 17,
+  "scenario": "pol-1114",
+  "kind": "introduced_in",
+  "target": "notice_days",
+  "subject": "POL-1114: which revision set the notification deadline to its current value",
+  "body": "Hi, Mei Lin from the platform team here. When did the notification deadline in the Change Management\nPolicy become what it is tdoay? Give the revision in which that value first appears.\n\nThe revisions are under policy/, one file per version; no changelog was kept.\n\nReagrds, Mei Lin -- platform",
+  "received": "2026-02-07"
+}

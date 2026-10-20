@@ -1,0 +1,11 @@
+{
+  "tid": "T-63ed36",
+  "seq": 8,
+  "exception": "TypeError",
+  "top_frame": "lattice.core.config.get",
+  "version": "3.3.4",
+  "title": "TypeError In Config.get When Opening The Preferences",
+  "body": "ENVIRONMENT:\n\nLattice 3.3.4, Debian 12, server us-west-2.\n\nSTEPS:\n\nTo reproduce:\n* With the log window open, start opening the preferences.\n* Make sure the input ends without a trailnig blank line.\n* Watch the log for the traceback below.\n\nEXPECTED:\n\nExpected opening the preferences to finish without errors.\n\nACTUAL:\n\nAll rows go through but the last row raises. Whatever the\ninput size, it is alwways the last row that fails.\n\nFREQUENCY:\n\nIt occurs roughly one run in three.",
+  "stacktrace": "lattice/cli.py:13 in main\nlattice/core/app.py:34 in start\nlattice/core/boot.py:102 in load_all\nlattice/core/config.py:65 in get\nTypeError: expected str, got NoneType",
+  "reported": "2026-01-14"
+}

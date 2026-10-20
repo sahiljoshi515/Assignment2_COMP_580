@@ -1,0 +1,18 @@
+{
+  "tid": "T-26af65",
+  "seq": 60,
+  "citation": {
+    "authors": [
+      "Delgado, Jonas",
+      "Ortega, Viktor",
+      "Lin, Aisha",
+      "Murphy, Bruno"
+    ],
+    "title": "Dense retrieval with lightweight graph networks",
+    "venue": "SIGIR",
+    "year": 2025,
+    "doi": "10.5555/sigir.2025.af51"
+  },
+  "raw": "Delgado, Jonas, Ortega, Viktor, Lin, Aisha, & Murphy, Bruno. 2025. Dense retrieval with lightweight graph networks. In SIGIR. ACM, New York, NY, USA. doi:10.5555/sigir.2025.af51",
+  "received": "2026-03-16"
+}

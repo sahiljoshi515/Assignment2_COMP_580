@@ -1,0 +1,10 @@
+{
+  "tid": "T-4b65ff",
+  "seq": 7,
+  "scenario": "INC-1000",
+  "kind": "error_count",
+  "target": "search-03",
+  "subject": "INC-1000: how many ERROR lines did search-03 write",
+  "body": "Look only at logs/search-03.log and count ERROR-level lines;\n0 if there are none.\n\nRegards, Omar Haddad -- SRE\n\nHi, Omar Haddad from the SRE team here. Please count the\nlines at level ERROR in the log of search-03.",
+  "received": "2026-01-17"
+}

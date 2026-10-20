@@ -1,0 +1,11 @@
+{
+  "tid": "T-e5023d",
+  "seq": 6,
+  "exception": "ConnectionError",
+  "top_frame": "lattice.auth.oauth.callback",
+  "version": "3.1.6",
+  "title": "ConnectionError in oauth.callback when refreshing an expired session",
+  "body": "ENVIRONMENT:\n\nRunning Lattice 3.1.6 on Ubuntu 24.04 LTS against ap-south-1.\n\nSTEPS:\n\nSteps to reproduce:\n- Start by refreshing an expired session.\n- Upgrade from the previous release and keep the old settings.\n- Watch the log for the traceback below.\n\nEXPECTED:\n\nAs on every earlier run, refreshing an expired session should just complete.\n\nACTUAL:\n\nEvery attempt has failed since we upgraded. It began right after upgrading to\nthis release; nothing else changed.\n\nFREQUENCY:\n\nIt occurs roughly one run in three.",
+  "stacktrace": "lattice/ui/main.py:49 in loop\nlattice/ui/dialog.py:125 in on_login\nlattice/auth/flow.py:57 in start\nlattice/auth/oauth.py:108 in callback\nConnectionError: connection reset by peer (host=ap-south-1)",
+  "reported": "2026-01-12"
+}

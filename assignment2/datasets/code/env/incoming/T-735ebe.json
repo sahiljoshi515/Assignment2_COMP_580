@@ -1,0 +1,10 @@
+{
+  "tid": "T-735ebe",
+  "seq": 14,
+  "scenario": "sdk-1304",
+  "kind": "decline_codes_of",
+  "target": "checkout",
+  "subject": "SDK-1304: which decline codes does the checkout adapter treat as permanent",
+  "body": "Mei Lin (support) writing with a quick request. Please give me the provider decline codes that\nadapters/checkout.py maps to PermanentError.\n\nReport the tuple's entries as a JSON list of strings.\n\nMuch appreciated, Mei Lin",
+  "received": "2026-02-01"
+}

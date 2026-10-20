@@ -1,0 +1,19 @@
+{
+  "tid": "T-9bd203",
+  "seq": 42,
+  "citation": {
+    "authors": [
+      "Pablo Ueda",
+      "Jonas Adeyemi",
+      "Zoe Ibarra",
+      "Samir Mendes"
+    ],
+    "title": "Speech Recognition with Adaptive Language Models",
+    "venue": "KDD",
+    "year": 2024,
+    "doi": "10.5555/kdd.2024.9afb",
+    "pages": "5334-5340"
+  },
+  "raw": "Pablo Ueda, Jonas Adeyemi, Zoe Ibarra, and Samir Mendes, \"Speech Recognition with Adaptive Language Models,\" in Proc. KDD, 2024, pp. 5334-5340, doi: 10.5555/kdd.2024.9afb.",
+  "received": "2026-02-23"
+}

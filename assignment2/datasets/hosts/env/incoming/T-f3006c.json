@@ -1,0 +1,10 @@
+{
+  "tid": "T-f3006c",
+  "seq": 21,
+  "scenario": "flt-1228",
+  "kind": "service_down",
+  "target": null,
+  "subject": "FLT-1228: which host has a service that is not running",
+  "body": "Hello -- Priya Nair, support. One service is down on one edge host. Which host and which service?\n\nEvery other host reports that service as active.\n\nMuch appreciated, Priya Nair",
+  "received": "2026-02-16"
+}

@@ -1,0 +1,10 @@
+{
+  "tid": "T-60d48f",
+  "seq": 14,
+  "scenario": "CFG1646",
+  "kind": "insecure",
+  "target": null,
+  "subject": "CFG-1646: which environment violates a security requirement",
+  "body": "Hello -- Luca Moretti, data. Check the two security keys\nfrom config/POLICY.md across all ledger-api environments and\nreport the environment and key that violate the policy.\n\nThe two requirements are stated under 'Security\nrequirements' in config/POLICY.md.\n\nMuch appreciated, Luca Moretti",
+  "received": "2026-02-01"
+}

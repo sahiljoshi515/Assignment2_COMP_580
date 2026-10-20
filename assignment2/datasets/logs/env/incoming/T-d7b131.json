@@ -1,0 +1,10 @@
+{
+  "tid": "T-d7b131",
+  "seq": 22,
+  "scenario": "INC1114",
+  "kind": "error_count",
+  "target": "billing-07",
+  "subject": "INC-1114: how many ERROR lines did billing-07 write",
+  "body": "Jonas Berg (security) writing with a quick request. Please count the lines at\nlevel ERROR in the log of billing-07.\n\nThe file is logs/billing-07.log; if it logged no errors the count is 0.\n\nRegards, Jonas Berg -- security",
+  "received": "2026-02-18"
+}

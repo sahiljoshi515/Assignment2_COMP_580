@@ -1,0 +1,10 @@
+{
+  "tid": "T-25de18",
+  "seq": 3,
+  "scenario": "FLT-1038",
+  "kind": "param_drift",
+  "target": null,
+  "subject": "FLT-1038: which host has a different kernel parameter",
+  "body": "Hi, Ivan Petrov from the payments team here. Find the cache host whose [kernel.params] section\ndeviates from the others and identify the parameter that deviates.\n\nParameters are listed under [kernel.params] as identify = value.\n\nRegards, Ivan Petrov -- payments",
+  "received": "2026-01-09"
+}

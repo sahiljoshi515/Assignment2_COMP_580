@@ -1,0 +1,19 @@
+{
+  "tid": "T-1e6ecc",
+  "seq": 33,
+  "citation": {
+    "authors": [
+      "J Zahra",
+      "E Weber",
+      "Z Tanaka",
+      "et al."
+    ],
+    "title": "Dense Retrieval with Interpretable Transformers",
+    "venue": "ICCV",
+    "year": 2016,
+    "doi": "10.5555/iccv.2016.9348",
+    "pages": "4862-4868"
+  },
+  "raw": "J Zahra, E Weber, Z Tanaka, et al. November 2016. Dense Retrieval with Interpretable Transformers. In ICCV. IEEE Computer Society, Los Alamitos, CA, USA, 4862-4868. DOI:10.5555/iccv.2016.9348 https://proceedings.example.org/iccv/691",
+  "received": "2026-02-12"
+}

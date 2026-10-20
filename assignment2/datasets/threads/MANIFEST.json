@@ -1,0 +1,140 @@
+{
+  "dataset": "threads",
+  "seed": 79,
+  "args": {
+    "history_size": 60,
+    "incoming": 40,
+    "dup_rate": 0.4
+  },
+  "counts": {
+    "history": 60,
+    "incoming": 40,
+    "duplicates": 16,
+    "hard_negatives": 8,
+    "by_kind": {
+      "exact": 3,
+      "format": 4,
+      "reorder": 2,
+      "edit": 3,
+      "paraphrase": 4
+    },
+    "dup_of_history": 11,
+    "dup_of_task": 5,
+    "history_twins": 8
+  },
+  "tokens": {
+    "instructions": 1048,
+    "history": 7406,
+    "incoming": 4663,
+    "reference": 160421,
+    "total": 173538
+  },
+  "budget": {
+    "range": [
+      12000,
+      45000
+    ],
+    "enforced": true,
+    "ok": true,
+    "measured": 15254
+  },
+  "similarity": {
+    "exact": {
+      "n": 3,
+      "min": 1.0,
+      "p10": 1.0,
+      "p50": 1.0,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "format": {
+      "n": 4,
+      "min": 1.0,
+      "p10": 1.0,
+      "p50": 1.0,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "reorder": {
+      "n": 2,
+      "min": 0.814,
+      "p10": 0.814,
+      "p50": 0.814,
+      "p90": 0.814,
+      "max": 0.814
+    },
+    "edit": {
+      "n": 3,
+      "min": 0.545,
+      "p10": 0.545,
+      "p50": 0.765,
+      "p90": 0.776,
+      "max": 0.776
+    },
+    "paraphrase": {
+      "n": 4,
+      "min": 0.152,
+      "p10": 0.152,
+      "p50": 0.333,
+      "p90": 0.393,
+      "max": 0.393
+    },
+    "hard_negative": {
+      "n": 8,
+      "min": 0.562,
+      "p10": 0.562,
+      "p50": 0.643,
+      "p90": 0.92,
+      "max": 0.92
+    },
+    "confusable": {
+      "n": 0
+    },
+    "random": {
+      "n": 198,
+      "min": 0.0,
+      "p10": 0.0,
+      "p50": 0.0,
+      "p90": 0.085,
+      "max": 0.765
+    }
+  },
+  "text_for_similarity": "subject + body",
+  "answer_histogram": {
+    "{\"count\": 6}": 7,
+    "{\"count\": 7}": 4,
+    "{\"count\": 5}": 3,
+    "{\"date\": \"2026-04-07\", \"minutes\": 94}": 2,
+    "{\"name\": \"Jonas Berg\"}": 2,
+    "{\"name\": \"Kenji Sato\"}": 2,
+    "{\"name\": \"Omar Haddad\"}": 2,
+    "{\"by\": \"Grace Okafor\", \"date\": \"2026-03-21\", \"decision\": \"defer\"}": 1,
+    "{\"by\": \"Grace Okafor\", \"date\": \"2026-04-13\", \"decision\": \"reject\"}": 1,
+    "{\"by\": \"Ivan Petrov\", \"date\": \"2026-03-12\", \"decision\": \"reject\"}": 1,
+    "{\"by\": \"Mei Lin\", \"date\": \"2026-02-22\", \"decision\": \"reject\"}": 1,
+    "{\"by\": \"Priya Nair\", \"date\": \"2026-03-11\", \"decision\": \"defer\"}": 1
+  },
+  "max_answer_share": 0.175,
+  "content": {
+    "scenarios": 24,
+    "files_per_scenario": [
+      27,
+      31
+    ],
+    "tokens_per_scenario": {
+      "min": 5581,
+      "mean": 6684,
+      "max": 7304
+    },
+    "within_group_jaccard_p50": {
+      "min": 0.723,
+      "max": 0.841
+    },
+    "cross_group_jaccard_max": 0.328,
+    "groups_per_scenario": [
+      4,
+      4
+    ],
+    "normalisation": "lower-case alphanumeric tokens, digit runs masked to 0, word 3-shingles"
+  }
+}

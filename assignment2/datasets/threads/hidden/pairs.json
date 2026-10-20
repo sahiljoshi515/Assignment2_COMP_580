@@ -1,0 +1,153 @@
+{
+  "equivalent": [
+    {
+      "a": "H-685b90",
+      "b": "T-2c0301",
+      "kind": "edit"
+    },
+    {
+      "a": "H-44a55e",
+      "b": "T-3a49c4",
+      "kind": "paraphrase"
+    },
+    {
+      "a": "T-327dd6",
+      "b": "T-32629a",
+      "kind": "format"
+    },
+    {
+      "a": "T-327dd6",
+      "b": "T-b14d5f",
+      "kind": "edit"
+    },
+    {
+      "a": "T-32629a",
+      "b": "T-b14d5f",
+      "kind": "class"
+    },
+    {
+      "a": "H-358860",
+      "b": "T-066e10",
+      "kind": "edit"
+    },
+    {
+      "a": "H-18b264",
+      "b": "T-3dbb29",
+      "kind": "exact"
+    },
+    {
+      "a": "H-ec5d52",
+      "b": "T-5974b5",
+      "kind": "paraphrase"
+    },
+    {
+      "a": "H-cbc81a",
+      "b": "T-2e73ea",
+      "kind": "reorder"
+    },
+    {
+      "a": "T-55b604",
+      "b": "T-2f6d37",
+      "kind": "reorder"
+    },
+    {
+      "a": "T-9e5b53",
+      "b": "T-58e59f",
+      "kind": "exact"
+    },
+    {
+      "a": "H-168927",
+      "b": "T-b7f6ee",
+      "kind": "format"
+    },
+    {
+      "a": "H-73ee1c",
+      "b": "T-41f767",
+      "kind": "paraphrase"
+    },
+    {
+      "a": "H-af137e",
+      "b": "T-a666f3",
+      "kind": "paraphrase"
+    },
+    {
+      "a": "H-358860",
+      "b": "T-26dd29",
+      "kind": "class"
+    },
+    {
+      "a": "T-066e10",
+      "b": "T-26dd29",
+      "kind": "exact"
+    },
+    {
+      "a": "H-671947",
+      "b": "T-957574",
+      "kind": "format"
+    },
+    {
+      "a": "H-7f6870",
+      "b": "T-601478",
+      "kind": "format"
+    }
+  ],
+  "hard_negative": [
+    {
+      "a": "H-3ddac1",
+      "b": "T-17d605",
+      "differs_in": [
+        "target"
+      ]
+    },
+    {
+      "a": "H-d25a6c",
+      "b": "T-7e289d",
+      "differs_in": [
+        "scenario",
+        "target"
+      ]
+    },
+    {
+      "a": "T-7e289d",
+      "b": "T-35a442",
+      "differs_in": [
+        "target"
+      ]
+    },
+    {
+      "a": "H-b54481",
+      "b": "T-cd7cb3",
+      "differs_in": [
+        "target"
+      ]
+    },
+    {
+      "a": "H-b00863",
+      "b": "T-1ce271",
+      "differs_in": [
+        "scenario"
+      ]
+    },
+    {
+      "a": "H-5fa49a",
+      "b": "T-9e5b53",
+      "differs_in": [
+        "target"
+      ]
+    },
+    {
+      "a": "T-32629a",
+      "b": "T-a3d605",
+      "differs_in": [
+        "target"
+      ]
+    },
+    {
+      "a": "H-44a55e",
+      "b": "T-cb6282",
+      "differs_in": [
+        "scenario"
+      ]
+    }
+  ]
+}

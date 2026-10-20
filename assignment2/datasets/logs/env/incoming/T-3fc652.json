@@ -1,0 +1,10 @@
+{
+  "tid": "T-3fc652",
+  "seq": 19,
+  "scenario": "INC-1684",
+  "kind": "error_count",
+  "target": "ledger-09",
+  "subject": "INC-1684: how many ERROR lines did ledger-09 write",
+  "body": "Grace Okafor (SRE) writing with a quick request. How many ERROR lines did the host ledger-09 write\nduring the window?\n\nThe file is logs/ledger-09.log; if it logged no errors the count is 0.\n\nMuch appreciated, Grace Okafor",
+  "received": "2026-02-11"
+}

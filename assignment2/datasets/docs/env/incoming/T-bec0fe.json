@@ -1,0 +1,7 @@
+{
+  "tid": "T-bec0fe",
+  "seq": 1,
+  "title": "REL-4.8: Device Registry Release Notes",
+  "body": "Highlights\n\nThe Device Registry team ships REL-4.8 to every tenant on 5\nMay 2025. Highlights are faster search and a reworked admin\nconsole, with Bluegate Networks contributing the search work\nand 12 customer reports addressed.\n\nFixes\n\nFixes in this release, verified by Network Operations on 14\nDecember 2025:\n* Reduced memory use of the import service by a third\n* Removed the deprecated bulk endpoint from the public API\n* Fixed the pagination bug in the admin console lists\n\nUpgrade notes\n\nTenants are upgraded automatically during the 03:30-05:00\nUTC window; no action is needed. Release manager: Kenji\nSato; support contact: Omar Haddad, reachable through the\nusual channel.",
+  "received": "2026-01-05"
+}

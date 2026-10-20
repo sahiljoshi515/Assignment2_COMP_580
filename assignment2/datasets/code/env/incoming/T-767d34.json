@@ -1,0 +1,10 @@
+{
+  "tid": "T-767d34",
+  "seq": 25,
+  "scenario": "sdk-1646",
+  "kind": "missing_idempotency",
+  "target": null,
+  "subject": "SDK-1646: which adapter forgets the idempotency key",
+  "body": "Hello -- Jonas Berg, platform. Which tollgate adapter has a charge or refund method that omits the\nidempotency key required by R4, and which method is it?\n\nCompare the charge and refund methods across the adapter files.\n\nRegards, Jonas Berg -- platform",
+  "received": "2026-02-24"
+}

@@ -1,0 +1,10 @@
+{
+  "tid": "T-a39638",
+  "seq": 29,
+  "scenario": "sdk-1380",
+  "kind": "base_url_of",
+  "target": "paypal",
+  "subject": "SDK-1380: what base URL does the paypal adapter call",
+  "body": "Luca Moretti (payments) writing with a quick request. Please read adapters/paypal.py and report its\nBASE_URL.\n\nThe constant is near the top of the file.\n\nThanks, Luca Moretti",
+  "received": "2026-03-04"
+}

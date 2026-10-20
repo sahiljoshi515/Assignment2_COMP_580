@@ -1,0 +1,10 @@
+{
+  "tid": "T-6112e2",
+  "seq": 40,
+  "scenario": "INC-1646",
+  "kind": "error_class",
+  "target": null,
+  "subject": "INC-1646: what failed on the failing host and how often",
+  "body": "Hi, Grace Okafor from the infra team here. Tell me the exception class behind the catalog errors and the total number of ERROR lines on the host that logged them.\n\nThe count is of ERROR-level lines on that host, nothing else.\n\nThanks, Grace Okafor",
+  "received": "2026-03-27"
+}

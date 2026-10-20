@@ -1,0 +1,94 @@
+2026-03-19T14:24:51Z gateway-01 INFO  starting gateway 4.3.3 (build bb22ded) on gateway-01
+2026-03-19T14:24:52Z gateway-01 INFO  config: max_connections=256
+2026-03-19T14:24:52Z gateway-01 INFO  config: pool_size=32
+2026-03-19T14:24:52Z gateway-01 INFO  config: request_timeout_ms=5000
+2026-03-19T14:24:52Z gateway-01 INFO  config: cache_ttl_s=60
+2026-03-19T14:24:52Z gateway-01 INFO  config: log_level=DEBUG
+2026-03-19T14:24:52Z gateway-01 INFO  config: queue_depth=100
+2026-03-19T14:24:52Z gateway-01 INFO  config: gc_interval_s=120
+2026-03-19T14:24:53Z gateway-01 INFO  listening on 0.0.0.0:8080; workers=4
+2026-03-19T14:24:51Z gateway-01 INFO  health check ok (latency 4ms)
+2026-03-19T14:24:54Z gateway-01 INFO  GET /v1/profile 200 in 83ms rid=5dec47
+2026-03-19T14:25:02Z gateway-01 INFO  GET /health 200 in 205ms rid=72e2ff
+2026-03-19T14:25:08Z gateway-01 INFO  metrics: rps=113 p99=90ms heap=343MB goroutines=443
+2026-03-19T14:25:10Z gateway-01 INFO  GET /v1/orders/97129 200 in 25ms rid=cd1c2b
+2026-03-19T14:25:18Z gateway-01 INFO  POST /v1/orders 200 in 219ms rid=77b1fc
+2026-03-19T14:25:21Z gateway-01 INFO  health check ok (latency 11ms)
+2026-03-19T14:25:26Z gateway-01 INFO  GET /v1/orders/69375 200 in 131ms rid=4887f0
+2026-03-19T14:25:32Z gateway-01 WARN  retrying upstream call (attempt 1/3)
+2026-03-19T14:25:34Z gateway-01 INFO  GET /v1/profile 200 in 57ms rid=9c64ad
+2026-03-19T14:25:42Z gateway-01 INFO  GET /v1/items/17854 200 in 109ms rid=cfdd00
+2026-03-19T14:25:50Z gateway-01 INFO  GET /v1/orders/7914 200 in 176ms rid=94bfc8
+2026-03-19T14:25:51Z gateway-01 INFO  health check ok (latency 6ms)
+2026-03-19T14:25:58Z gateway-01 INFO  PUT /v1/cart 200 in 50ms rid=1b8082
+2026-03-19T14:26:06Z gateway-01 INFO  GET /v1/orders/13004 200 in 253ms rid=84b506
+2026-03-19T14:26:14Z gateway-01 INFO  POST /v1/refunds 200 in 307ms rid=60e8fe
+2026-03-19T14:26:21Z gateway-01 INFO  health check ok (latency 6ms)
+2026-03-19T14:26:22Z gateway-01 INFO  GET /v1/items/72471 200 in 112ms rid=5e42f2
+2026-03-19T14:26:30Z gateway-01 INFO  GET /v1/orders/76259 200 in 317ms rid=a06da4
+2026-03-19T14:26:38Z gateway-01 INFO  GET /v1/orders/39867 200 in 177ms rid=488322
+2026-03-19T14:26:46Z gateway-01 INFO  POST /v1/payments 200 in 311ms rid=a0b360
+2026-03-19T14:26:51Z gateway-01 INFO  health check ok (latency 11ms)
+2026-03-19T14:26:54Z gateway-01 INFO  GET /v1/search 200 in 345ms rid=b08a53
+2026-03-19T14:27:02Z gateway-01 INFO  GET /v1/profile 200 in 226ms rid=a74730
+2026-03-19T14:27:08Z gateway-01 INFO  metrics: rps=114 p99=200ms heap=253MB goroutines=579
+2026-03-19T14:27:09Z gateway-01 WARN  connection pool at 78% capacity
+2026-03-19T14:27:10Z gateway-01 INFO  GET /health 200 in 167ms rid=d7dc56
+2026-03-19T14:27:18Z gateway-01 INFO  POST /v1/orders 200 in 55ms rid=37a02d
+2026-03-19T14:27:21Z gateway-01 INFO  health check ok (latency 3ms)
+2026-03-19T14:27:26Z gateway-01 INFO  DELETE /v1/cart/74014 200 in 365ms rid=ea8de3
+2026-03-19T14:27:34Z gateway-01 INFO  PUT /v1/cart 200 in 97ms rid=729d35
+2026-03-19T14:27:42Z gateway-01 INFO  GET /v1/items/84717 200 in 216ms rid=8afe33
+2026-03-19T14:27:50Z gateway-01 INFO  POST /v1/orders 200 in 108ms rid=dde03d
+2026-03-19T14:27:51Z gateway-01 INFO  health check ok (latency 3ms)
+2026-03-19T14:27:58Z gateway-01 INFO  POST /v1/payments 200 in 47ms rid=5f1fd7
+2026-03-19T14:28:06Z gateway-01 INFO  PUT /v1/cart 200 in 362ms rid=558add
+2026-03-19T14:28:14Z gateway-01 INFO  GET /v1/items/14505 200 in 342ms rid=199682
+2026-03-19T14:28:21Z gateway-01 INFO  health check ok (latency 6ms)
+2026-03-19T14:28:22Z gateway-01 INFO  POST /v1/payments 200 in 26ms rid=12deea
+2026-03-19T14:28:30Z gateway-01 INFO  GET /v1/search 200 in 332ms rid=1f63b7
+2026-03-19T14:28:38Z gateway-01 INFO  GET /v1/items/10882 200 in 282ms rid=dedcf5
+2026-03-19T14:28:46Z gateway-01 INFO  GET /v1/search 200 in 379ms rid=552c29
+2026-03-19T14:28:46Z gateway-01 WARN  retrying upstream call (attempt 2/3)
+2026-03-19T14:28:51Z gateway-01 INFO  health check ok (latency 10ms)
+2026-03-19T14:28:54Z gateway-01 INFO  GET /v1/search 200 in 310ms rid=edbae3
+2026-03-19T14:29:02Z gateway-01 INFO  GET /v1/orders/87990 200 in 12ms rid=0d1aec
+2026-03-19T14:29:08Z gateway-01 INFO  metrics: rps=248 p99=676ms heap=1237MB goroutines=830
+2026-03-19T14:29:10Z gateway-01 INFO  DELETE /v1/cart/90319 200 in 34ms rid=bd7d41
+2026-03-19T14:29:18Z gateway-01 INFO  POST /v1/payments 200 in 300ms rid=11cd1b
+2026-03-19T14:29:21Z gateway-01 INFO  health check ok (latency 10ms)
+2026-03-19T14:29:26Z gateway-01 INFO  PUT /v1/cart 200 in 389ms rid=d29ffc
+2026-03-19T14:29:34Z gateway-01 INFO  POST /v1/refunds 200 in 130ms rid=1cda63
+2026-03-19T14:29:42Z gateway-01 INFO  GET /v1/items/20747 200 in 49ms rid=b0e382
+2026-03-19T14:29:50Z gateway-01 INFO  GET /v1/profile 200 in 367ms rid=5249df
+2026-03-19T14:29:51Z gateway-01 INFO  health check ok (latency 2ms)
+2026-03-19T14:29:58Z gateway-01 INFO  POST /v1/refunds 200 in 64ms rid=85584e
+2026-03-19T14:30:06Z gateway-01 INFO  GET /v1/profile 200 in 106ms rid=248483
+2026-03-19T14:30:14Z gateway-01 INFO  POST /v1/orders 200 in 148ms rid=ed73ba
+2026-03-19T14:30:21Z gateway-01 INFO  health check ok (latency 1ms)
+2026-03-19T14:30:22Z gateway-01 INFO  DELETE /v1/cart/4334 200 in 308ms rid=8afb5b
+2026-03-19T14:30:23Z gateway-01 WARN  slow query took 71ms on shard 3
+2026-03-19T14:30:30Z gateway-01 INFO  GET /health 200 in 75ms rid=2f3846
+2026-03-19T14:30:38Z gateway-01 INFO  GET /v1/items/71227 200 in 145ms rid=9cfe54
+2026-03-19T14:30:46Z gateway-01 INFO  GET /v1/profile 200 in 320ms rid=8b8865
+2026-03-19T14:30:51Z gateway-01 INFO  health check ok (latency 3ms)
+2026-03-19T14:30:54Z gateway-01 INFO  GET /health 200 in 49ms rid=5e1561
+2026-03-19T14:31:02Z gateway-01 INFO  PUT /v1/cart 200 in 284ms rid=fec67f
+2026-03-19T14:31:08Z gateway-01 INFO  metrics: rps=315 p99=40ms heap=633MB goroutines=834
+2026-03-19T14:31:10Z gateway-01 INFO  GET /v1/profile 200 in 376ms rid=19780a
+2026-03-19T14:31:18Z gateway-01 INFO  GET /v1/search 200 in 71ms rid=bd09af
+2026-03-19T14:31:21Z gateway-01 INFO  health check ok (latency 9ms)
+2026-03-19T14:31:26Z gateway-01 INFO  POST /v1/refunds 200 in 93ms rid=01fa45
+2026-03-19T14:31:34Z gateway-01 INFO  POST /v1/orders 200 in 58ms rid=440757
+2026-03-19T14:31:42Z gateway-01 INFO  GET /health 200 in 256ms rid=bf54c2
+2026-03-19T14:31:50Z gateway-01 INFO  GET /v1/items/81270 200 in 252ms rid=6829f7
+2026-03-19T14:31:51Z gateway-01 INFO  health check ok (latency 2ms)
+2026-03-19T14:31:58Z gateway-01 INFO  POST /v1/refunds 200 in 231ms rid=c911cb
+2026-03-19T14:32:00Z gateway-01 WARN  retrying upstream call (attempt 3/3)
+2026-03-19T14:32:06Z gateway-01 INFO  GET /health 200 in 269ms rid=2df5de
+2026-03-19T14:32:14Z gateway-01 INFO  GET /health 200 in 152ms rid=ef82b0
+2026-03-19T14:32:21Z gateway-01 INFO  health check ok (latency 11ms)
+2026-03-19T14:32:22Z gateway-01 INFO  PUT /v1/cart 200 in 345ms rid=a06465
+2026-03-19T14:32:30Z gateway-01 INFO  PUT /v1/cart 200 in 305ms rid=eec23d
+2026-03-19T14:32:38Z gateway-01 INFO  PUT /v1/cart 200 in 339ms rid=844f3d
+2026-03-19T14:32:46Z gateway-01 INFO  GET /v1/orders/55030 200 in 334ms rid=8c9e74

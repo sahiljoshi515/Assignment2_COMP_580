@@ -1,0 +1,10 @@
+{
+  "tid": "T-4f107c",
+  "seq": 5,
+  "scenario": "INC1076",
+  "kind": "first_error",
+  "target": null,
+  "subject": "INC-1076: which host failed first and when",
+  "body": "Hi, Aisha Bello from the infra team here. Which billing host\nlogged the first ERROR line of the window, and at what\ntimestamp, exactly as logged?\n\nTimestamps are ISO-8601 with a Z suffix; copy the one on the\nline itself.\n\nThanks, Aisha Bello",
+  "received": "2026-01-13"
+}

@@ -1,0 +1,10 @@
+{
+  "tid": "T-6e2474",
+  "seq": 34,
+  "scenario": "SDK1722",
+  "kind": "base_url_of",
+  "target": "braintree",
+  "subject": "SDK-1722: what base URL does the braintree adapter call",
+  "body": "Ivan Petrov (payents) wirting with a quick request. Which API base URL does adapters/braintree.py send its requests to?\n\nJust the value of BASE_URL for that adapter.\n\nThanks, Ivan Petrov",
+  "received": "2026-03-15"
+}

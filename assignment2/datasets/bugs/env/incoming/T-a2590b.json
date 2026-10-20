@@ -1,0 +1,11 @@
+{
+  "tid": "T-a2590b",
+  "seq": 21,
+  "exception": "OSError",
+  "top_frame": "lattice.store.migrate.apply",
+  "version": "3.1.8",
+  "title": "OSError while opening the dashboard (migrate.apply)",
+  "body": "## Steps\n\nTo reproduce:\n* Start by opening the dashboard.\n* Run the app for a long session, then trigger the action.\n* Check the log window; the traceback appears there.\n\n## Environment\n\nLattice version 3.1.8; operating system Fedora 41\nWorkstation; server region eu-central-1.\n\n## Actual\n\nOnly after hours of uptime does the failure appear. A long\nsession shows open files increasing without ever being\nreleased.\n\n## Frequency\n\nHappens on about half the runs.\n\n## Expected\n\nNo traceback; opening the dashboard normally takes a few\nseconds.",
+  "stacktrace": "lattice/ui/main.py:47 in loop\nlattice/ui/view.py:210 in refresh\nlattice/report/live.py:58 in tiles\nlattice/store/migrate.py:229 in apply\nOSError: [Errno 28] No space left on device",
+  "reported": "2026-02-02"
+}

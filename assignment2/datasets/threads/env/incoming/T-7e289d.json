@@ -1,0 +1,10 @@
+{
+  "tid": "T-7e289d",
+  "seq": 6,
+  "scenario": "MBX-1608",
+  "kind": "requester",
+  "target": "laptop-refresh",
+  "subject": "MBX-1608: who opened the laptop-refresh thread",
+  "body": "Hello -- Hannah Cole, compliance. Which colleague opened the laptop refresh for sales team thread,\ni.e. sent its first message?\n\nUse the From header of the earliest message with that subject.\n\nThanks, Hannah Cole",
+  "received": "2026-01-15"
+}

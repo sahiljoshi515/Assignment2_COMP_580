@@ -1,0 +1,18 @@
+{
+  "tid": "T-25850c",
+  "seq": 18,
+  "citation": {
+    "authors": [
+      "Petrv, Dmitri",
+      "Kowalski, Marta",
+      "Cole, Nikhil",
+      "Ramos, Mei"
+    ],
+    "title": "Join optimization with efficient attention",
+    "venue": "VLDB",
+    "year": 2023,
+    "pages": "8632-8640"
+  },
+  "raw": "Petrv, Dmitri, Kowalski, Marta, Cole, Nikhil, and Ramos, Mei, \"Join optimization with efficient attention,\" in Proc. VLDB '23, Sep. 2023, pp. 8632-8640. [Online]. Available: https://proceedings.example.org/vldb/688",
+  "received": "2026-01-25"
+}

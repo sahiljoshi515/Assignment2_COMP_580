@@ -1,0 +1,16 @@
+From: Backup Service <backup-bot@northbankstudio.example>
+To: ops-notify@northbankstudio.example
+Date: Thu, 19 Feb 2026 03:00:00 +0000
+Subject: Nightly backup report - fileshare-nightly - 2026-02-18
+
+Nightly backup report for 2026-02-18
+Job: fileshare-nightly
+Status: SUCCESS
+Started: 02:01:42 UTC   Finished: 03:00:21 UTC   Duration: 59 min
+Bytes transferred: 47.6 GB   Files: 1,008,054   Changed since last run: 2.1 %
+Retention: 30 daily, 12 weekly, 6 monthly
+Next run: 2026-02-19 02:00 UTC
+
+-- 
+This message was generated automatically by the backup service. Replies are not read.
+To change the schedule or the recipients, edit the job in the backup console.

@@ -1,0 +1,7 @@
+{
+  "tid": "T-2b283f",
+  "seq": 17,
+  "title": "INC-3111: Invoice Router incident report",
+  "body": "## Impact\n\nThis report covers an incident on the Invoice Router that is resolved. The hosting provider Tessaro Labs was engaged by Network Operations within the first hour, and roughly 39 tickets were linked to the event.\n\n## Timeline\n\nTimeline recorded by Victor Nwosu, in order, as of 12 August 2025:\n* Monitoring raised a latency alert for the primary cluster\n* Traffic was drained from the affected pool to the standby\n* Customers were notified through the public status page\n\n## Status\n\nFor tracking purposes the incident is resolved. Ingrid Haugen wrote this report on 27 June 2025 and will review it in the 03:30-05:00 UTC window before the weekly service meeting.",
+  "received": "2026-01-27"
+}

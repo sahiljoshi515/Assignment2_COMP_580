@@ -1,0 +1,11 @@
+{
+  "tid": "T-eaa2bc",
+  "seq": 26,
+  "exception": "IndexError",
+  "top_frame": "lattice.sched.queue.pop",
+  "version": "v3.1.6",
+  "title": "queue.pop raises IndexError when running a scheduled job",
+  "body": "## Steps\n\nHow to trigger it:\n- With the log window open, start running a scheduled job.\n- Use an input with an odd number of rows.\n- Watch the log for the traceback below.\n\n## Environment\n\nLattice 3.1.6, Ubuntu 24.04 LTS, server eu-west-2.\n\n## Actual\n\nOnly the last row fails; the rest process normally. Whatever the input size, it is always the last\nrow that fails.\n\n## Frequency\n\nReproduces on about half the runs.\n\n## Expected\n\nNo traceback; running a scheduled job normally takes a few seconds.",
+  "stacktrace": "lattice/ui/main.py:49 in loop\nlattice/sched/runner.py:129 in run_due\nlattice/sched/queue.py:84 in drain\nlattice/sched/queue.py:113 in pop\nIndexError: pop from empty list",
+  "reported": "2026-02-09"
+}

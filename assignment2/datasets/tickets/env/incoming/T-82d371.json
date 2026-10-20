@@ -1,0 +1,10 @@
+{
+  "tid": "T-82d371",
+  "seq": 65,
+  "product": "MeshMail",
+  "error_code": "E3122",
+  "platform": "linux",
+  "subject": "E-3122: token rejected on Linux",
+  "body": "Hi, I'm using MeshMail 2.8.4 on Ubuntu 24.04. Starting the weekend, the moment I open the app a\ndialog reads 'E-3122: authentication token rejected'.\n\nIt only happens on the office network; on my phone's hotspot it works. A new corporate proxy went\nlive for the whole staff this month.\n\nBefore writing in I tried closing every other program; same error afterwards.\n\nRegards, Daniel Ortega, Pinewood Legal",
+  "opened": "2026-03-22"
+}

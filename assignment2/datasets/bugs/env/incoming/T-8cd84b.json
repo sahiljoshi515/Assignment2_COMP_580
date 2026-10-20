@@ -1,0 +1,11 @@
+{
+  "tid": "T-8cd84b",
+  "seq": 20,
+  "exception": "TimeoutError",
+  "top_frame": "lattice.sched.lock.acquire",
+  "version": "3.0.7",
+  "title": "lock.acquire raises TimeoutError when retrying a failed job",
+  "body": "Environment\n\nLattice version 3.0.7; operating system Windows Server 2022; server region us-east-1.\n\nSteps\n\nSteps to reproduce:\n- With the log window open, start retrying a failed job.\n- Switch the network profile to the slow network preset before starting.\n- Check the log window; the traceback appears there.\n\nExpected\n\nAs on every earlier run, retrying a failed job should just complete.\n\nActual\n\nAfter exactly thirty seconds the operation aborted and printed the traceback. We are on a slow\nnetwork here; one slow reply and the whole job dies instead of retrying.\n\nFrequency\n\nIt occurs twice this week.",
+  "stacktrace": "lattice/ui/main.py:45 in loop\nlattice/sched/runner.py:128 in run_due\nlattice/sched/queue.py:81 in drain\nlattice/sched/lock.py:166 in acquire\nTimeoutError: lock not acquired within 30s",
+  "reported": "2026-01-31"
+}

@@ -1,0 +1,10 @@
+{
+  "tid": "T-89e600",
+  "seq": 36,
+  "scenario": "FLT1684",
+  "kind": "uptime_of",
+  "target": "worker-05",
+  "subject": "FLT-1684: how long has worker-05 been up",
+  "body": "Daniel Ortega (release) writing with a quick request. What is the uptime_days value in the worker\nsnapshot of worker-05?\n\nIt is the integer on the uptime_days line.\n\nThanks, Daniel Ortega",
+  "received": "2026-03-19"
+}

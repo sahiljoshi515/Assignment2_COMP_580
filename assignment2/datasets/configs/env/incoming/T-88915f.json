@@ -1,0 +1,10 @@
+{
+  "tid": "T-88915f",
+  "seq": 30,
+  "scenario": "cfg-1190",
+  "kind": "replicas_of",
+  "target": "prod-eu",
+  "subject": "CFG-1190: how many replicas does prod-eu run",
+  "body": "Hi, Hannah Cole from the payments team here. Please read config/prod-eu.yaml for search-gateway and\ngive me its replica count.\n\nThe value is the integer under the service section, key replicas.\n\nMuch appreciated, Hannah Cole",
+  "received": "2026-03-06"
+}

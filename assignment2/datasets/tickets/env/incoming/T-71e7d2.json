@@ -1,0 +1,10 @@
+{
+  "tid": "T-71e7d2",
+  "seq": 66,
+  "product": "SyncVault",
+  "error_code": "E1285",
+  "platform": "windows",
+  "subject": "E-1285: quota exceeded on Windows",
+  "body": "Good morning. My setup is SyncVault 4.2.5, Windows 11 23H2. Whenever I start a\nsync since the weekend, the app shows \"E-1285: storage quota exceeded\".\n\nThe plan was upgraded yesterday; the app still displays the old quota. The\nwebsite shows the new allowance correctly.\n\nBefore writing in I tried rebooting the router; same error afterwards.\n\nRegards, Fatima Zahra, Pinewood Legal",
+  "opened": "2026-03-24"
+}

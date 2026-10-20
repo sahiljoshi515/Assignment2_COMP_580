@@ -1,0 +1,18 @@
+{
+  "tid": "T-8c1bb3",
+  "seq": 44,
+  "citation": {
+    "authors": [
+      "Wen Novak",
+      "Bruno Huang",
+      "Hannah Xu",
+      "et al."
+    ],
+    "title": "Knowledge Distillation for Compositional Dense Retrieval",
+    "venue": "CVPR",
+    "year": 2015,
+    "doi": "10.5555/cvpr.2015.ade8"
+  },
+  "raw": "@inproceedings{novak2015knowledge,\n  author = {Wen Novak and Bruno Huang and Hannah Xu and others},\n  title = {Knowledge Distillation for Compositional Dense Retrieval},\n  booktitle = {Proc. CVPR '15},\n  year = {2015},\n  publisher = {IEEE},\n  url = {http://dx.doi.org/10.5555/cvpr.2015.ade8},\n}",
+  "received": "2026-02-25"
+}

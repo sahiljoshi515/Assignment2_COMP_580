@@ -1,0 +1,10 @@
+{
+  "tid": "T-20b8da",
+  "seq": 19,
+  "scenario": "SDK-1418",
+  "kind": "base_url_of",
+  "target": "stripe",
+  "subject": "SDK-1418: what base URL does the stripe adapter call",
+  "body": "Hannah Cole (SRE) writing with a quick request. Please read\nadapters/stripe.py and report its BASE_URL.\n\nThe constant is near the top of the file.\n\nThanks, Hannah Cole",
+  "received": "2026-02-11"
+}

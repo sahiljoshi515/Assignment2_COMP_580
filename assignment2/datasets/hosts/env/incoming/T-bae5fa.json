@@ -1,0 +1,10 @@
+{
+  "tid": "T-bae5fa",
+  "seq": 5,
+  "scenario": "flt-1342",
+  "kind": "uptime_of",
+  "target": "edge-05",
+  "subject": "FLT-1342: how long has edge-05 been up",
+  "body": "Hi, Hannah Cole from the security team here. How many days\nhas the edge host edge-05 been up according to its snapshot?\n\nThe value is uptime_days under [system].\n\nMuch appreciated, Hannah Cole",
+  "received": "2026-01-13"
+}

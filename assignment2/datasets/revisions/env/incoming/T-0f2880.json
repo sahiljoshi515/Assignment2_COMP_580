@@ -1,0 +1,10 @@
+{
+  "tid": "T-0f2880",
+  "seq": 15,
+  "scenario": "POL-1152",
+  "kind": "current_value",
+  "target": "review_months",
+  "subject": "POL-1152: current value of the review cadence",
+  "body": "Hi, Tomas Vik from the support team here. What is the review cadence in the\nlatest revision of the Vendor Security Policy?\n\nJust the numeric value as written in the current version.\n\nRegards, Tomas Vik -- support",
+  "received": "2026-02-03"
+}

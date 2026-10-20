@@ -1,0 +1,18 @@
+{
+  "tid": "T-499e7c",
+  "seq": 70,
+  "citation": {
+    "authors": [
+      "Ueda, Uma",
+      "Bello, Jamal",
+      "Adeyemi, Amara",
+      "et al."
+    ],
+    "title": "Time series forecasting with robust diffusion model",
+    "venue": "VLDB",
+    "year": 2022,
+    "doi": "10.5555/vldb.2021.1973"
+  },
+  "raw": "@inproceedings{ueda2022time,\n  author = {Ueda, Uma and Bello, Jamal and Adeyemi, Amara and others},\n  title = {Time series forecasting with robust diffusion model},\n  booktitle = {Proc. VLDB '22},\n  year = {2022},\n  publisher = {VLDB Endowment},\n  month = {may},\n  url = {http://dx.doi.org/10.5555/vldb.2021.1973},\n}",
+  "received": "2026-03-28"
+}

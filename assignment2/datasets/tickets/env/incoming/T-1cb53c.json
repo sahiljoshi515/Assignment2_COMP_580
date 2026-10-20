@@ -1,0 +1,10 @@
+{
+  "tid": "T-1cb53c",
+  "seq": 9,
+  "product": "CourierOS",
+  "error_code": "E-5403",
+  "platform": "linux",
+  "subject": "E-5403: totals mismatch on Linux",
+  "body": "Hello support team. We run CourierOS 3.5.5 on Fedora 41.\nStarting Tuesday, the moment I export the report a dialog\nreads 'E-5403: totals do not match source'.\n\nI switched the system regional format to one that uses comma\ndecimals. Thousands separators and decimals appear exchanged\nin the totals.\n\nBefore writing in I attempted closing each other program; same\nerror afterwards.\n\nThanks, Fatima Zahra (Oakline Partners)",
+  "opened": "2026-01-14"
+}

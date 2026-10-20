@@ -1,0 +1,10 @@
+{
+  "tid": "T-59e09a",
+  "seq": 28,
+  "scenario": "CFG-1608",
+  "kind": "missing_key",
+  "target": null,
+  "subject": "CFG-1608: which environment is missing a key",
+  "body": "Hello -- Luca Moretti, QA. One of the catalog-api config\nfiles lacks a key that every other environment defines. Find\nthe environment and the missing key.\n\nThe key is simply not present in that environment's file;\nthe others all have it.\n\nThanks, Luca Moretti",
+  "received": "2026-03-02"
+}

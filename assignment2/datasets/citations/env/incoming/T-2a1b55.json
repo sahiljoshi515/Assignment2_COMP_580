@@ -1,0 +1,18 @@
+{
+  "tid": "T-2a1b55",
+  "seq": 63,
+  "citation": {
+    "authors": [
+      "Rossi,Priya",
+      "Zhou,Amara",
+      "Novak,Priya"
+    ],
+    "title": "Federated Indexes for Question Answering",
+    "venue": "Annual Meeting of the Association for Computational Linguistics",
+    "year": 2025,
+    "doi": "10.5555/emnlp.2024.913e",
+    "pages": "3744-3753"
+  },
+  "raw": "Rossi,Priya, Zhou,Amara, & Novak,Priya (2025). Federated Indexes for Question Answering. In Proceedings of the Annual Meeting of the Association for Computational Linguistics (pp.3744-3753). Association for Computational Linguistics. https://doi.org/10.5555/emnlp.2024.913e Retrieved from https://proceedings.example.org/acl/919",
+  "received": "2026-03-20"
+}

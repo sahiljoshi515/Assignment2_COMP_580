@@ -1,0 +1,10 @@
+{
+  "tid": "T-7f3cdb",
+  "seq": 54,
+  "product": "SyncVault",
+  "error_code": "E-1322",
+  "platform": "android",
+  "subject": "E-1322: crash on launch on Android",
+  "body": "Hello support team. We run SyncVault 4.2.2 on Android 15 (Pixel 8). Since last week, every time I log in, I get 'E-1322: application crashed on launch'.\n\nThe vendor updater installed a fresh graphics driver. A fix for that driver is mentioned in the latest release notes.\n\nI've already tried rebooting the router, which changed nothing.\n\nThanks, Daniel Ortega (Northbank Studio)",
+  "opened": "2026-03-09"
+}

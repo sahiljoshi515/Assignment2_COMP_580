@@ -1,0 +1,10 @@
+{
+  "tid": "T-c24ed9",
+  "seq": 1,
+  "product": "pixelforge",
+  "error_code": "e-4133",
+  "platform": "macos",
+  "subject": "E-4133: token rejected on macOS",
+  "body": "Hello support team. We run PixelForge 6.0.3 on macOS 15.3.\nSince Monday, every time I log in, I get \"E-4133:\nauthentication token rejected\".\n\nIT forced a password reset for everyone last week. I changed\nmine on the laptop but the app never asked again.\n\nI've already tried waiting a day, which changed nothing.\n\nMei Lin -- Harbour Freight. Appreciate any pointers.",
+  "opened": "2026-01-05"
+}

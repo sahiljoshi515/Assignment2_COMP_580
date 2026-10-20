@@ -1,0 +1,11 @@
+{
+  "tid": "T-eff784",
+  "seq": 31,
+  "exception": "ValueError",
+  "top_frame": "lattice.ui.form.submit",
+  "version": "3.0.2",
+  "title": "form.submit raises valueerror when running a bulk import",
+  "body": "Environment\n\nRunning Lattice 3.0.2 on Ubuntu 24.04 LTS against eu-west-2.\n\nSteps\n\nHow to trigger it:\n* Start by running a bulk import.\n* Set the machine timezone to UTC+2.\n* Wait for the failure and read the log.\n\nExpected\n\nNo traceback; running a bulk import normally takes a few seconds.\n\nActual\n\nA time just before midnight is what is rejected. Our machines are set to a timezone ahead of UTC and\nthe date flips at midnight.\n\nFrequency\n\nHappens every time.",
+  "stacktrace": "lattice/ui/main.py:48 in loop\nlattice/ui/dialog.py:91 in on_import\nlattice/io/batch.py:56 in run_import\nlattice/ui/form.py:257 in submit\nValueError: invalid date '2026-03-29 02:30'",
+  "reported": "2026-02-16"
+}

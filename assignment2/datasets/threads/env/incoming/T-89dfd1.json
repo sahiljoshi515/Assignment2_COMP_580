@@ -1,0 +1,10 @@
+{
+  "tid": "T-89dfd1",
+  "seq": 26,
+  "scenario": "MBX1836",
+  "kind": "message_count",
+  "target": "vendor-renewal",
+  "subject": "MBX-1836: how many messages in the vendor-renewal thread",
+  "body": "Hello -- Jonas Berg, data. How long is the vendor contract renewal for fabrikam support thread, in\nmessages?\n\nReplies quote earlier messages; count messages, not quotes.\n\nMuch appreciated, Jonas Berg",
+  "received": "2026-02-26"
+}

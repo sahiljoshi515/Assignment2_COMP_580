@@ -1,0 +1,10 @@
+{
+  "tid": "T-07ab1c",
+  "seq": 58,
+  "product": "LedgerLine",
+  "error_code": "E-2185",
+  "platform": "android",
+  "subject": "E-2185: TLS handshake failed on Android",
+  "body": "Hi, I'm using LedgerLine 9.1.8 on Android 15 (Pixel 8). Starting yesterday, the moment I open the\napp a dialog reads \"E-2185: TLS handshake failed\".\n\nThe security team switched on TLS inspection at the proxy. The latest release notes talk about\ncorporate root certificate support.\n\nBefore writing in I tried searching the help centre; same error afterwards.\n\nThanks, Ivan Petrov (Brightwater Clinics)",
+  "opened": "2026-03-14"
+}

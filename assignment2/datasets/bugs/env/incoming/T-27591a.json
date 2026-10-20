@@ -1,0 +1,11 @@
+{
+  "tid": "T-27591a",
+  "seq": 59,
+  "exception": "MemoryError",
+  "top_frame": "lattice.report.pdf.export",
+  "version": "v3.2.8",
+  "title": "MemoryError in pdf.export when building the summary",
+  "body": "Environment\n\nLattice version 3.2.8; operating system Windows 11 24H2; server region ca-central-1.\n\nSteps\n\nHow to trigger it:\n- With the log window open, start building the summary.\n- Run the same input in a loop for several hours.\n- Wait for the failure and read the log.\n\nExpected\n\nNo traceback; building the summary normally takes a few seconds.\n\nActual\n\nMemory grows a little on every run of the same input and eventually fails. The same input succeeds\non a fresh start and fails after a few hours of repeats.\n\nFrequency\n\nIt occurs only on the first run after login.",
+  "stacktrace": "lattice/ui/main.py:51 in loop\nlattice/report/schedule.py:68 in run_due\nlattice/report/builder.py:142 in build\nlattice/report/pdf.py:50 in export\nMemoryError: unable to allocate 1.2 GiB for page buffer",
+  "reported": "2026-03-27"
+}

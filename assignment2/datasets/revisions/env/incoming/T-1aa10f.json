@@ -1,0 +1,10 @@
+{
+  "tid": "T-1aa10f",
+  "seq": 39,
+  "scenario": "POL1722",
+  "kind": "current_value",
+  "target": "review_months",
+  "subject": "POL-1722: current value of the review cadence",
+  "body": "Daniel Ortega (platform) writing with a quick request. According to the newest\nversion of the Data Retention Policy under policy/, what value does the review\ncadence have?\n\nJust the numeric value as written in the current version.\n\nMuch appreciated, Daniel Ortega",
+  "received": "2026-03-25"
+}

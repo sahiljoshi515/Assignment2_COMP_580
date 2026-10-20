@@ -1,0 +1,10 @@
+{
+  "tid": "T-f6f237",
+  "seq": 55,
+  "product": "pixelforge",
+  "error_code": "e-4355",
+  "platform": "macos",
+  "subject": "E-4355: crash on launch on macOS",
+  "body": "Good morning. My setup is PixelForge 6.0.7, macOS 15.3. Starting the weekend, the moment I log in a dialog reads 'E-4355: application crashed on launch'.\n\nChanging the display scaling to 150 percent is when it began. Restoring 100 percent scaling makes the app open again.\n\nBefore writing in I tried reebooting the router; same eror afterwards.\n\nRegards, Luca Moretti, Brightwater Clinics",
+  "opened": "2026-03-10"
+}

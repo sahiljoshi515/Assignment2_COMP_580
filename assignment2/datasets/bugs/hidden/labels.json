@@ -1,0 +1,746 @@
+{
+  "T-77ebd3": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "reporting",
+      "root_cause": "RC-06"
+    },
+    "canonical_id": "C-f4014dbb",
+    "seq": 1
+  },
+  "T-90de5f": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "storage",
+      "root_cause": "RC-10"
+    },
+    "canonical_id": "C-ccbabbce",
+    "seq": 2
+  },
+  "T-8d0531": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "scheduler",
+      "root_cause": "RC-16"
+    },
+    "canonical_id": "C-0edc3ee3",
+    "seq": 3
+  },
+  "T-986f57": {
+    "dup_of": "H-e22c7d",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "auth",
+      "root_cause": "RC-10"
+    },
+    "canonical_id": "C-af3db342",
+    "seq": 4
+  },
+  "T-67e674": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "scheduler",
+      "root_cause": "RC-02"
+    },
+    "canonical_id": "C-384667cc",
+    "seq": 5
+  },
+  "T-e5023d": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "auth",
+      "root_cause": "RC-16"
+    },
+    "canonical_id": "C-b7f064eb",
+    "seq": 6
+  },
+  "T-7fbf8b": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-02f0d0",
+    "differs_in": [
+      "frame"
+    ],
+    "answer": {
+      "component": "reporting",
+      "root_cause": "RC-15"
+    },
+    "canonical_id": "C-3e3cc70b",
+    "seq": 7
+  },
+  "T-63ed36": {
+    "dup_of": "H-e7c226",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "config",
+      "root_cause": "RC-04"
+    },
+    "canonical_id": "C-d51220a7",
+    "seq": 8
+  },
+  "T-344f1a": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "ui",
+      "root_cause": "RC-04"
+    },
+    "canonical_id": "C-c01a32b3",
+    "seq": 9
+  },
+  "T-8a9bff": {
+    "dup_of": "H-f9d6dd",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "storage",
+      "root_cause": "RC-03"
+    },
+    "canonical_id": "C-b964b548",
+    "seq": 10
+  },
+  "T-045598": {
+    "dup_of": "H-0f8cc4",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "ui",
+      "root_cause": "RC-19"
+    },
+    "canonical_id": "C-2c9d0309",
+    "seq": 11
+  },
+  "T-517a13": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-0f8cc4",
+    "differs_in": [
+      "exception"
+    ],
+    "answer": {
+      "component": "ui",
+      "root_cause": "RC-10"
+    },
+    "canonical_id": "C-720b2622",
+    "seq": 12
+  },
+  "T-ac643b": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "ui",
+      "root_cause": "RC-06"
+    },
+    "canonical_id": "C-456e96d1",
+    "seq": 13
+  },
+  "T-32bd31": {
+    "dup_of": "H-ba7707",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "networking",
+      "root_cause": "RC-18"
+    },
+    "canonical_id": "C-878e087e",
+    "seq": 14
+  },
+  "T-96a367": {
+    "dup_of": "T-ac643b",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "ui",
+      "root_cause": "RC-06"
+    },
+    "canonical_id": "C-456e96d1",
+    "seq": 15
+  },
+  "T-3dfe12": {
+    "dup_of": "H-0a54a5",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "networking",
+      "root_cause": "RC-16"
+    },
+    "canonical_id": "C-bf31f6e2",
+    "seq": 16
+  },
+  "T-2719d2": {
+    "dup_of": "H-bf0c84",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "ui",
+      "root_cause": "RC-16"
+    },
+    "canonical_id": "C-2501c5c2",
+    "seq": 17
+  },
+  "T-1e5bcf": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-119f53",
+    "differs_in": [
+      "frame"
+    ],
+    "answer": {
+      "component": "storage",
+      "root_cause": "RC-05"
+    },
+    "canonical_id": "C-b09d845e",
+    "seq": 18
+  },
+  "T-b7279b": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "networking",
+      "root_cause": "RC-10"
+    },
+    "canonical_id": "C-e2eebd99",
+    "seq": 19
+  },
+  "T-8cd84b": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "scheduler",
+      "root_cause": "RC-07"
+    },
+    "canonical_id": "C-a5ce55df",
+    "seq": 20
+  },
+  "T-a2590b": {
+    "dup_of": "H-1f71b7",
+    "dup_kind": "reorder",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "storage",
+      "root_cause": "RC-10"
+    },
+    "canonical_id": "C-2b4a20a4",
+    "seq": 21
+  },
+  "T-b281d9": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "importer",
+      "root_cause": "RC-02"
+    },
+    "canonical_id": "C-8f43c6c2",
+    "seq": 22
+  },
+  "T-9e34dc": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "networking",
+      "root_cause": "RC-10"
+    },
+    "canonical_id": "C-87531574",
+    "seq": 23
+  },
+  "T-27278a": {
+    "dup_of": "T-b7279b",
+    "dup_kind": "exact",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "networking",
+      "root_cause": "RC-10"
+    },
+    "canonical_id": "C-e2eebd99",
+    "seq": 24
+  },
+  "T-ef4b49": {
+    "dup_of": "H-e1644e",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "networking",
+      "root_cause": "RC-10"
+    },
+    "canonical_id": "C-8f09eb58",
+    "seq": 25
+  },
+  "T-eaa2bc": {
+    "dup_of": "H-21c50e",
+    "dup_kind": "reorder",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "scheduler",
+      "root_cause": "RC-02"
+    },
+    "canonical_id": "C-2b09a328",
+    "seq": 26
+  },
+  "T-b97fa6": {
+    "dup_of": "H-4f0aaa",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "storage",
+      "root_cause": "RC-18"
+    },
+    "canonical_id": "C-b3ca40bc",
+    "seq": 27
+  },
+  "T-a88be3": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-e82083",
+    "differs_in": [
+      "exception"
+    ],
+    "answer": {
+      "component": "auth",
+      "root_cause": "RC-04"
+    },
+    "canonical_id": "C-4c92a3e0",
+    "seq": 28
+  },
+  "T-7d7283": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "auth",
+      "root_cause": "RC-19"
+    },
+    "canonical_id": "C-875e22a3",
+    "seq": 29
+  },
+  "T-666d30": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "networking",
+      "root_cause": "RC-09"
+    },
+    "canonical_id": "C-f2c8a0d4",
+    "seq": 30
+  },
+  "T-eff784": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-153c46",
+    "differs_in": [
+      "frame"
+    ],
+    "answer": {
+      "component": "ui",
+      "root_cause": "RC-12"
+    },
+    "canonical_id": "C-197b5cb3",
+    "seq": 31
+  },
+  "T-fe5340": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "T-90de5f",
+    "differs_in": [
+      "series"
+    ],
+    "answer": {
+      "component": "storage",
+      "root_cause": "RC-05"
+    },
+    "canonical_id": "C-95be098d",
+    "seq": 32
+  },
+  "T-5c984a": {
+    "dup_of": "T-63ed36",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "config",
+      "root_cause": "RC-04"
+    },
+    "canonical_id": "C-d51220a7",
+    "seq": 33
+  },
+  "T-de9c18": {
+    "dup_of": "H-7d7c52",
+    "dup_kind": "exact",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "auth",
+      "root_cause": "RC-03"
+    },
+    "canonical_id": "C-3db05dce",
+    "seq": 34
+  },
+  "T-08239c": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "storage",
+      "root_cause": "RC-10"
+    },
+    "canonical_id": "C-93bb75ba",
+    "seq": 35
+  },
+  "T-efd5ef": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-d95472",
+    "differs_in": [
+      "frame"
+    ],
+    "answer": {
+      "component": "ui",
+      "root_cause": "RC-02"
+    },
+    "canonical_id": "C-ea878db5",
+    "seq": 36
+  },
+  "T-8efb84": {
+    "dup_of": "H-f96a07",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "importer",
+      "root_cause": "RC-09"
+    },
+    "canonical_id": "C-d1c86338",
+    "seq": 37
+  },
+  "T-044b2b": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "auth",
+      "root_cause": "RC-16"
+    },
+    "canonical_id": "C-4e84be7f",
+    "seq": 38
+  },
+  "T-62b60f": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "ui",
+      "root_cause": "RC-19"
+    },
+    "canonical_id": "C-62ad4f53",
+    "seq": 39
+  },
+  "T-accd0f": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "T-27278a",
+    "differs_in": [
+      "frame"
+    ],
+    "answer": {
+      "component": "storage",
+      "root_cause": "RC-05"
+    },
+    "canonical_id": "C-ad8fa9f6",
+    "seq": 40
+  },
+  "T-6c079a": {
+    "dup_of": "H-e22c7d",
+    "dup_kind": "reorder",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "auth",
+      "root_cause": "RC-10"
+    },
+    "canonical_id": "C-af3db342",
+    "seq": 41
+  },
+  "T-172932": {
+    "dup_of": "H-782983",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "reporting",
+      "root_cause": "RC-06"
+    },
+    "canonical_id": "C-989647b4",
+    "seq": 42
+  },
+  "T-734823": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "storage",
+      "root_cause": "RC-05"
+    },
+    "canonical_id": "C-9d0348e4",
+    "seq": 43
+  },
+  "T-5f9b54": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "reporting",
+      "root_cause": "RC-12"
+    },
+    "canonical_id": "C-ce6f9df2",
+    "seq": 44
+  },
+  "T-c967b0": {
+    "dup_of": "T-ac643b",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "ui",
+      "root_cause": "RC-06"
+    },
+    "canonical_id": "C-456e96d1",
+    "seq": 45
+  },
+  "T-60400a": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "importer",
+      "root_cause": "RC-12"
+    },
+    "canonical_id": "C-ced911dd",
+    "seq": 46
+  },
+  "T-e1faf0": {
+    "dup_of": "T-8d0531",
+    "dup_kind": "exact",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "scheduler",
+      "root_cause": "RC-16"
+    },
+    "canonical_id": "C-0edc3ee3",
+    "seq": 47
+  },
+  "T-a5fff8": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "reporting",
+      "root_cause": "RC-14"
+    },
+    "canonical_id": "C-ef1cfc17",
+    "seq": 48
+  },
+  "T-5307e5": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "T-ac643b",
+    "differs_in": [
+      "frame"
+    ],
+    "answer": {
+      "component": "storage",
+      "root_cause": "RC-06"
+    },
+    "canonical_id": "C-96c058a3",
+    "seq": 49
+  },
+  "T-704c01": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "importer",
+      "root_cause": "RC-19"
+    },
+    "canonical_id": "C-3840d67c",
+    "seq": 50
+  },
+  "T-0d1492": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "config",
+      "root_cause": "RC-04"
+    },
+    "canonical_id": "C-9a9d1123",
+    "seq": 51
+  },
+  "T-2b51a0": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "T-8efb84",
+    "differs_in": [
+      "exception"
+    ],
+    "answer": {
+      "component": "importer",
+      "root_cause": "RC-14"
+    },
+    "canonical_id": "C-fe153abb",
+    "seq": 52
+  },
+  "T-10a8c0": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-e1644e",
+    "differs_in": [
+      "frame"
+    ],
+    "answer": {
+      "component": "auth",
+      "root_cause": "RC-10"
+    },
+    "canonical_id": "C-cf960ddb",
+    "seq": 53
+  },
+  "T-8c5b55": {
+    "dup_of": "T-8d0531",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "scheduler",
+      "root_cause": "RC-16"
+    },
+    "canonical_id": "C-0edc3ee3",
+    "seq": 54
+  },
+  "T-453fd0": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "config",
+      "root_cause": "RC-03"
+    },
+    "canonical_id": "C-f2fe4f6d",
+    "seq": 55
+  },
+  "T-061e4e": {
+    "dup_of": "T-7d7283",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "auth",
+      "root_cause": "RC-19"
+    },
+    "canonical_id": "C-875e22a3",
+    "seq": 56
+  },
+  "T-0b0aa7": {
+    "dup_of": "H-0c06ff",
+    "dup_kind": "exact",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "ui",
+      "root_cause": "RC-02"
+    },
+    "canonical_id": "C-54d474b7",
+    "seq": 57
+  },
+  "T-06273d": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "networking",
+      "root_cause": "RC-18"
+    },
+    "canonical_id": "C-7a3a1999",
+    "seq": 58
+  },
+  "T-27591a": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-24c7c8",
+    "differs_in": [
+      "exception"
+    ],
+    "answer": {
+      "component": "reporting",
+      "root_cause": "RC-10"
+    },
+    "canonical_id": "C-3b6db4ec",
+    "seq": 59
+  },
+  "T-cde6ad": {
+    "dup_of": "H-0c06ff",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "component": "ui",
+      "root_cause": "RC-02"
+    },
+    "canonical_id": "C-54d474b7",
+    "seq": 60
+  }
+}

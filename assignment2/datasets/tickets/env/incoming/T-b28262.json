@@ -1,0 +1,10 @@
+{
+  "tid": "T-b28262",
+  "seq": 30,
+  "product": "courieros",
+  "error_code": "e-5292",
+  "platform": "windows",
+  "subject": "E-5292: upload stalls on Windows",
+  "body": "Hello support team. We run CourierOS 3.5.3 on Windows 11 24H2. Since this\nmorning, every time I upload a file, I get 'E-5292: upload stalled at 0\nbytes/s'.\n\nIt started when I began working from home over the VPN. On the office network\nwith no VPN the uploads complete.\n\nI've already tried restarting the machine, which changed nothing.\n\nKenji Sato - Oakline Partners. Appreciate any pointers.",
+  "opened": "2026-02-08"
+}

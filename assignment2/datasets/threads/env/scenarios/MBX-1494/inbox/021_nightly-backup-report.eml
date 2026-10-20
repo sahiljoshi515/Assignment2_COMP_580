@@ -1,0 +1,16 @@
+From: Backup Service <backup-bot@northbankstudio.example>
+To: ops-notify@northbankstudio.example
+Date: Sun, 03 May 2026 03:12:00 +0000
+Subject: Nightly backup report - prod-postgres-full - 2026-05-02
+
+Nightly backup report for 2026-05-02
+Job: prod-postgres-full
+Status: SUCCESS
+Started: 02:02:35 UTC   Finished: 03:12:13 UTC   Duration: 70 min
+Bytes transferred: 40.6 GB   Files: 987,102   Changed since last run: 3.8 %
+Retention: 30 daily, 12 weekly, 6 monthly
+Next run: 2026-05-03 02:00 UTC
+
+-- 
+This message was generated automatically by the backup service. Replies are not read.
+To change the schedule or the recipients, edit the job in the backup console.

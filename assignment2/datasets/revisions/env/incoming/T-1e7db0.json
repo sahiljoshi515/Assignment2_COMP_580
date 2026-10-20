@@ -1,0 +1,10 @@
+{
+  "tid": "T-1e7db0",
+  "seq": 14,
+  "scenario": "POL1722",
+  "kind": "removed_requirement",
+  "target": null,
+  "subject": "POL-1722: which revision struck a requirement",
+  "body": "Omar Haddad (compliance) writing with a quick request. Find the revision of the Data Retention\nPolicy in which a numbered requirement disappears, and name the requirement (R-number) that was\nstruck.\n\nRequirement ids are stable across revisions: R4 keeps its number when R3 is removed.\n\nMuch appreciated, Omar Haddad",
+  "received": "2026-02-01"
+}

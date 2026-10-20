@@ -1,0 +1,18 @@
+{
+  "tid": "T-0fb55a",
+  "seq": 36,
+  "citation": {
+    "authors": [
+      "Lin,D",
+      "Tanaka,U",
+      "Murphy,T"
+    ],
+    "title": "Curriculum Learning for Sparse Speech Recognition",
+    "venue": "NeurIPS",
+    "year": 2021,
+    "doi": "10.5555/icml.2020.72be",
+    "pages": "1909-1922"
+  },
+  "raw": "@inproceedings{lin:curriculum,\n  author = {Lin,D and Tanaka,U and Murphy,T},\n  title = {Curriculum Learning for Sparse Speech Recognition},\n  booktitle = {Proc. of NeurIPS},\n  year = {2021},\n  publisher = {Curran Associates},\n  pages = {1909--1922},\n  doi = {10.5555/icml.2020.72be},\n}",
+  "received": "2026-02-16"
+}

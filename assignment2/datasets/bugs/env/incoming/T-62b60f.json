@@ -1,0 +1,11 @@
+{
+  "tid": "T-62b60f",
+  "seq": 39,
+  "exception": "ValueError",
+  "top_frame": "lattice.ui.form.submit",
+  "version": "v3.1.1",
+  "title": "ValueError While Importing A CSV File (form.submit)",
+  "body": "## Environment\n\nLattice version 3.1.1; operating system Windows 11 24H2; server region eu-\nwest-2.\n\n## Steps\n\nHow to trigger it:\n- Open Lattice and begin importing a CSV file.\n- Paste text with a stray character from a spreadsheet.\n- Wait for the failure and read the log.\n\n## Expected\n\nNo traceback; importing a CSV file normally takes a few seconds.\n\n## Actual\n\nIt fails on input with characters that nothing validates. Someone pasted the\nvalue from a spreadsheet, stray characters included, and nothing complained.\n\n## Frequency\n\nHappens twice this week.",
+  "stacktrace": "lattice/ui/main.py:46 in loop\nlattice/ui/dialog.py:90 in on_import\nlattice/io/batch.py:54 in run_import\nlattice/ui/form.py:257 in submit\nValueError: invalid date '2026-03-29 02:30'",
+  "reported": "2026-02-27"
+}

@@ -1,0 +1,800 @@
+{
+  "T-c24ed9": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-fc4cec",
+    "differs_in": [
+      "cue"
+    ],
+    "answer": {
+      "resolution_id": "R-02"
+    },
+    "canonical_id": "C-317ee2da",
+    "seq": 1
+  },
+  "T-a1baca": {
+    "dup_of": "H-34d4de",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-20"
+    },
+    "canonical_id": "C-58494f7a",
+    "seq": 2
+  },
+  "T-53f313": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-12"
+    },
+    "canonical_id": "C-d294dea2",
+    "seq": 3
+  },
+  "T-f7c48c": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-22"
+    },
+    "canonical_id": "C-9a997894",
+    "seq": 4
+  },
+  "T-295009": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-24"
+    },
+    "canonical_id": "C-d3e8fbd5",
+    "seq": 5
+  },
+  "T-27a7f4": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-f01546",
+    "differs_in": [
+      "cue"
+    ],
+    "answer": {
+      "resolution_id": "R-08"
+    },
+    "canonical_id": "C-1966e06d",
+    "seq": 6
+  },
+  "T-4d016b": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-9ec269",
+    "differs_in": [
+      "cue"
+    ],
+    "answer": {
+      "resolution_id": "R-02"
+    },
+    "canonical_id": "C-bf7d548b",
+    "seq": 7
+  },
+  "T-c4a890": {
+    "dup_of": "T-27a7f4",
+    "dup_kind": "exact",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-08"
+    },
+    "canonical_id": "C-1966e06d",
+    "seq": 8
+  },
+  "T-1cb53c": {
+    "dup_of": "H-6e0858",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-16"
+    },
+    "canonical_id": "C-e51db76e",
+    "seq": 9
+  },
+  "T-a4f2cd": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-f75d23",
+    "differs_in": [
+      "cue"
+    ],
+    "answer": {
+      "resolution_id": "R-10"
+    },
+    "canonical_id": "C-0daf21e3",
+    "seq": 10
+  },
+  "T-17ccf4": {
+    "dup_of": "H-63f6c4",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-20"
+    },
+    "canonical_id": "C-d3cc3e3f",
+    "seq": 11
+  },
+  "T-879895": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-12"
+    },
+    "canonical_id": "C-d20a7770",
+    "seq": 12
+  },
+  "T-e65487": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-23"
+    },
+    "canonical_id": "C-7c508e52",
+    "seq": 13
+  },
+  "T-552742": {
+    "dup_of": "T-295009",
+    "dup_kind": "reorder",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-24"
+    },
+    "canonical_id": "C-d3e8fbd5",
+    "seq": 14
+  },
+  "T-dd28f0": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-18"
+    },
+    "canonical_id": "C-241845ea",
+    "seq": 15
+  },
+  "T-bcf21d": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-f5ea55",
+    "differs_in": [
+      "platform"
+    ],
+    "answer": {
+      "resolution_id": "R-08"
+    },
+    "canonical_id": "C-18bdc41e",
+    "seq": 16
+  },
+  "T-ba3d95": {
+    "dup_of": "H-16db84",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-05"
+    },
+    "canonical_id": "C-47126e92",
+    "seq": 17
+  },
+  "T-60a009": {
+    "dup_of": "H-f5a5c8",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-03"
+    },
+    "canonical_id": "C-19261f7a",
+    "seq": 18
+  },
+  "T-45f943": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-20"
+    },
+    "canonical_id": "C-c0232fae",
+    "seq": 19
+  },
+  "T-f72345": {
+    "dup_of": "H-769322",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-12"
+    },
+    "canonical_id": "C-4d4bce0c",
+    "seq": 20
+  },
+  "T-1fa375": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-05"
+    },
+    "canonical_id": "C-212305be",
+    "seq": 21
+  },
+  "T-4f1c1a": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-16"
+    },
+    "canonical_id": "C-fdb1dff6",
+    "seq": 22
+  },
+  "T-bbf2cf": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-03"
+    },
+    "canonical_id": "C-e945bded",
+    "seq": 23
+  },
+  "T-aeb269": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "T-1fa375",
+    "differs_in": [
+      "platform"
+    ],
+    "answer": {
+      "resolution_id": "R-22"
+    },
+    "canonical_id": "C-a28076aa",
+    "seq": 24
+  },
+  "T-209a4b": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "T-45f943",
+    "differs_in": [
+      "cue"
+    ],
+    "answer": {
+      "resolution_id": "R-11"
+    },
+    "canonical_id": "C-1c225ecb",
+    "seq": 25
+  },
+  "T-9cd44e": {
+    "dup_of": "H-2ce382",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-22"
+    },
+    "canonical_id": "C-94e6861f",
+    "seq": 26
+  },
+  "T-fc2c7e": {
+    "dup_of": "T-e65487",
+    "dup_kind": "exact",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-23"
+    },
+    "canonical_id": "C-7c508e52",
+    "seq": 27
+  },
+  "T-acca64": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-12"
+    },
+    "canonical_id": "C-64e359b5",
+    "seq": 28
+  },
+  "T-456ba1": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-04"
+    },
+    "canonical_id": "C-351c3343",
+    "seq": 29
+  },
+  "T-b28262": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-07"
+    },
+    "canonical_id": "C-0fa0f1cd",
+    "seq": 30
+  },
+  "T-8bec2c": {
+    "dup_of": "H-5d4900",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-07"
+    },
+    "canonical_id": "C-2a73e05e",
+    "seq": 31
+  },
+  "T-e08d15": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-1b89e5",
+    "differs_in": [
+      "cue"
+    ],
+    "answer": {
+      "resolution_id": "R-02"
+    },
+    "canonical_id": "C-c92112ea",
+    "seq": 32
+  },
+  "T-602e5f": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-05"
+    },
+    "canonical_id": "C-06afc4db",
+    "seq": 33
+  },
+  "T-c93af1": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-03"
+    },
+    "canonical_id": "C-e8d4ace9",
+    "seq": 34
+  },
+  "T-e0a3e1": {
+    "dup_of": "H-34814c",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-23"
+    },
+    "canonical_id": "C-3149b2d5",
+    "seq": 35
+  },
+  "T-36c0c9": {
+    "dup_of": "T-879895",
+    "dup_kind": "exact",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-12"
+    },
+    "canonical_id": "C-d20a7770",
+    "seq": 36
+  },
+  "T-7d829b": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "T-dd28f0",
+    "differs_in": [
+      "platform"
+    ],
+    "answer": {
+      "resolution_id": "R-15"
+    },
+    "canonical_id": "C-d171d82c",
+    "seq": 37
+  },
+  "T-69368e": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-11"
+    },
+    "canonical_id": "C-ea8be5d0",
+    "seq": 38
+  },
+  "T-7339af": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-12"
+    },
+    "canonical_id": "C-ee9b4c0a",
+    "seq": 39
+  },
+  "T-c43cb9": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-02"
+    },
+    "canonical_id": "C-a69485c7",
+    "seq": 40
+  },
+  "T-f0e6c2": {
+    "dup_of": "H-06ce87",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-20"
+    },
+    "canonical_id": "C-85221160",
+    "seq": 41
+  },
+  "T-6253a7": {
+    "dup_of": "H-f5a5c8",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-03"
+    },
+    "canonical_id": "C-19261f7a",
+    "seq": 42
+  },
+  "T-9d421c": {
+    "dup_of": "H-449e51",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-24"
+    },
+    "canonical_id": "C-35ce1fb6",
+    "seq": 43
+  },
+  "T-06c521": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-07"
+    },
+    "canonical_id": "C-a606f0bd",
+    "seq": 44
+  },
+  "T-c6a58e": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "T-4d016b",
+    "differs_in": [
+      "platform"
+    ],
+    "answer": {
+      "resolution_id": "R-16"
+    },
+    "canonical_id": "C-55890d3f",
+    "seq": 45
+  },
+  "T-a9fb53": {
+    "dup_of": "T-c43cb9",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-02"
+    },
+    "canonical_id": "C-a69485c7",
+    "seq": 46
+  },
+  "T-532a00": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-20"
+    },
+    "canonical_id": "C-57a4c750",
+    "seq": 47
+  },
+  "T-dc8024": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-17"
+    },
+    "canonical_id": "C-631b2dee",
+    "seq": 48
+  },
+  "T-f6a4f5": {
+    "dup_of": "H-0339bd",
+    "dup_kind": "reorder",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-01"
+    },
+    "canonical_id": "C-28e98e01",
+    "seq": 49
+  },
+  "T-375e96": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-21"
+    },
+    "canonical_id": "C-37718e9a",
+    "seq": 50
+  },
+  "T-25beb8": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-6bcd2a",
+    "differs_in": [
+      "platform"
+    ],
+    "answer": {
+      "resolution_id": "R-02"
+    },
+    "canonical_id": "C-4412fdbd",
+    "seq": 51
+  },
+  "T-0ab662": {
+    "dup_of": "H-769322",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-12"
+    },
+    "canonical_id": "C-4d4bce0c",
+    "seq": 52
+  },
+  "T-11a343": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-4ce672",
+    "differs_in": [
+      "cue"
+    ],
+    "answer": {
+      "resolution_id": "R-04"
+    },
+    "canonical_id": "C-e3a5f133",
+    "seq": 53
+  },
+  "T-7f3cdb": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-25"
+    },
+    "canonical_id": "C-57d37e66",
+    "seq": 54
+  },
+  "T-f6f237": {
+    "dup_of": "H-e38c47",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-05"
+    },
+    "canonical_id": "C-bbb7cee9",
+    "seq": 55
+  },
+  "T-30e2a0": {
+    "dup_of": "H-b33c00",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-02"
+    },
+    "canonical_id": "C-0d7ee9f5",
+    "seq": 56
+  },
+  "T-e01fd5": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-ae3ecd",
+    "differs_in": [
+      "cue"
+    ],
+    "answer": {
+      "resolution_id": "R-02"
+    },
+    "canonical_id": "C-4536205d",
+    "seq": 57
+  },
+  "T-07ab1c": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": "H-d1018e",
+    "differs_in": [
+      "platform"
+    ],
+    "answer": {
+      "resolution_id": "R-25"
+    },
+    "canonical_id": "C-3fcffe88",
+    "seq": 58
+  },
+  "T-dec940": {
+    "dup_of": "T-69368e",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-11"
+    },
+    "canonical_id": "C-ea8be5d0",
+    "seq": 59
+  },
+  "T-efeb68": {
+    "dup_of": "H-b955c4",
+    "dup_kind": "edit",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-01"
+    },
+    "canonical_id": "C-c859d558",
+    "seq": 60
+  },
+  "T-42b514": {
+    "dup_of": "H-d90331",
+    "dup_kind": "format",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-08"
+    },
+    "canonical_id": "C-96a44abf",
+    "seq": 61
+  },
+  "T-2230de": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-22"
+    },
+    "canonical_id": "C-5d572b89",
+    "seq": 62
+  },
+  "T-58d177": {
+    "dup_of": "T-9d421c",
+    "dup_kind": "reorder",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-24"
+    },
+    "canonical_id": "C-35ce1fb6",
+    "seq": 63
+  },
+  "T-5c1bf8": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-11"
+    },
+    "canonical_id": "C-6e95ddd0",
+    "seq": 64
+  },
+  "T-82d371": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-07"
+    },
+    "canonical_id": "C-ca124739",
+    "seq": 65
+  },
+  "T-71e7d2": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-02"
+    },
+    "canonical_id": "C-530dfb2c",
+    "seq": 66
+  },
+  "T-dd6c39": {
+    "dup_of": null,
+    "dup_kind": "none",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-07"
+    },
+    "canonical_id": "C-5dcc25cc",
+    "seq": 67
+  },
+  "T-46da16": {
+    "dup_of": "H-88fa3b",
+    "dup_kind": "exact",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-23"
+    },
+    "canonical_id": "C-c6cca127",
+    "seq": 68
+  },
+  "T-e3ca21": {
+    "dup_of": "H-13ad39",
+    "dup_kind": "paraphrase",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-03"
+    },
+    "canonical_id": "C-3eb19a89",
+    "seq": 69
+  },
+  "T-d2c754": {
+    "dup_of": "T-7d829b",
+    "dup_kind": "reorder",
+    "hard_negative_of": null,
+    "differs_in": [],
+    "answer": {
+      "resolution_id": "R-15"
+    },
+    "canonical_id": "C-d171d82c",
+    "seq": 70
+  }
+}

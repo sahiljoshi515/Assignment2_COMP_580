@@ -1,0 +1,17 @@
+{
+  "tid": "T-7d5a01",
+  "seq": 28,
+  "citation": {
+    "authors": [
+      "F. Jiang",
+      "L. Torres",
+      "F. Vk",
+      "O. Fischer"
+    ],
+    "title": "Anomaly Detection with Scalable Policies",
+    "venue": "EMNLP",
+    "year": 2025
+  },
+  "raw": "F. Jiang, L. Torres, F. Vk, and O. Fischer, \"Anomaly Detection with Scalable Policies,\" in Proc. EMNLP '25, 2025.",
+  "received": "2026-02-06"
+}

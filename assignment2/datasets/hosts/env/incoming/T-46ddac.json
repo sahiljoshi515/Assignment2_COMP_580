@@ -1,0 +1,10 @@
+{
+  "tid": "T-46ddac",
+  "seq": 25,
+  "scenario": "FLT1342",
+  "kind": "fullest_disk",
+  "target": null,
+  "subject": "FLT-1342: which host has the fullest root filesystem",
+  "body": "Hi, Sofia Rossi from the release team here. Which edge host has the highest usage on its root filesystem (/), and what percentage is used?\n\nUsage is the used_pct value on the / line of the [mounts] section.\n\nMuch appreciated, Sofia Rossi",
+  "received": "2026-02-24"
+}

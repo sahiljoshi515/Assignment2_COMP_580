@@ -1,0 +1,11 @@
+{
+  "tid": "T-32bd31",
+  "seq": 14,
+  "exception": "TimeoutError",
+  "top_frame": "lattice.net.dns.resolve",
+  "version": "3.0.3",
+  "title": "dns.resolve raises TimeoutError when refreshing the overview",
+  "body": "## Environment\n\nRunning Lattice 3.0.3 on Windows Server 2022 against eu-\ncentral-1.\n\n## Steps\n\nTo reproduce:\n- With the log window open, start refreshing the overview.\n- Start two workers at the same time.\n- Check the log window; the traceback appears there.\n\n## Expected\n\nAs on every earlier run, refreshing the overview should just\ncomplete.\n\n## Actual\n\nIt hangs for the full thirty seconds and only the guard\ntimer ends it. Two workers started together reproduce it;\none worker alone works.\n\n## Frequency\n\nReproduces only on the first run after login.",
+  "stacktrace": "lattice/ui/main.py:46 in loop\nlattice/ui/view.py:212 in refresh\nlattice/report/live.py:63 in tiles\nlattice/net/dns.py:176 in resolve\nTimeoutError: resolve timed out after 30s (host=eu-central-1)",
+  "reported": "2026-01-23"
+}

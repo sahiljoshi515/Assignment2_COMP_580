@@ -1,0 +1,10 @@
+{
+  "tid": "T-a7ea12",
+  "seq": 26,
+  "scenario": "POL-1266",
+  "kind": "changes_count",
+  "target": "backup_hours",
+  "subject": "POL-1266: how many times the backup interval changed",
+  "body": "Hi, Luca Moretti from the support team here. Count the revisions of the Backup and Recovery Standard\nin which the backup interval takes a value different from the previous revision.\n\nReport an integer; zero if it never changed after v01.\n\nRegards, Luca Moretti -- support",
+  "received": "2026-02-26"
+}

@@ -1,0 +1,19 @@
+{
+  "tid": "T-1b5ab9",
+  "seq": 14,
+  "citation": {
+    "authors": [
+      "Park, Omar",
+      "Moretti, Mei",
+      "Chen, Marta",
+      "Walsh, Hiro"
+    ],
+    "title": "Federated autoencoder for link prediction",
+    "venue": "ICCV",
+    "year": 2018,
+    "doi": "10.5555/iccv.2018.526e",
+    "pages": "6857-6866"
+  },
+  "raw": "Park, Omar, Moretti, Mei, Chen, Marta, & Walsh, Hiro. 2018. Federated autoencoder for link prediction. In ICCV. IEEE Computer Society, Los Alamitos, CA, USA, pages 6857-6866. doi:10.5555/iccv.2018.526e https://proceedings.example.org/iccv/350",
+  "received": "2026-01-20"
+}

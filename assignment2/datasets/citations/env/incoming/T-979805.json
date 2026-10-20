@@ -1,0 +1,18 @@
+{
+  "tid": "T-979805",
+  "seq": 22,
+  "citation": {
+    "authors": [
+      "M. Cole",
+      "M. Lopez",
+      "J. Bello",
+      "K. Farah"
+    ],
+    "title": "Prompt Tuning for Adaptive Entity Resolution",
+    "venue": "ICLR",
+    "year": 2023,
+    "doi": "10.5555/iclr.2023.e0bf"
+  },
+  "raw": "M. Cole, M. Lopez, J. Bello, and K. Farah (2023, September). Prompt Tuning for Adaptive Entity Resolution. In Proceedings of ICLR. OpenReview.net. doi:10.5555/iclr.2023.e0bf Retrieved from https://proceedings.example.org/iclr/476",
+  "received": "2026-01-30"
+}

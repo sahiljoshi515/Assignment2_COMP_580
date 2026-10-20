@@ -1,0 +1,10 @@
+{
+  "tid": "T-f0e6c2",
+  "seq": 41,
+  "product": "SyncVault",
+  "error_code": "E1211",
+  "platform": "windows",
+  "subject": "E-1211: database locked on Windows",
+  "body": "Hello help desk team. We run SyncVault 4.2.2 on Windows 11\n23H2. Whenever I open the app since the weekend, the app\nshows \"E-1211: local database is locked\".\n\nA file-sync tool continuously mirrors the directory that holds\nthe app data. Whenever the sync tool uploads something the\nlock displays up.\n\nBefore writing in I tried waiting a day; same error\nafterwards.\n\nThanks, Sofia Rossi (Ferro & Sons)",
+  "opened": "2026-02-22"
+}

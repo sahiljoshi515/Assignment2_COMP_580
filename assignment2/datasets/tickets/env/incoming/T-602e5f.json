@@ -1,0 +1,10 @@
+{
+  "tid": "T-602e5f",
+  "seq": 33,
+  "product": "SyncVault",
+  "error_code": "E1359",
+  "platform": "linux",
+  "subject": "E-1359: totals mismatch on Linux",
+  "body": "Hello support team. We run SyncVault 4.2.2 on Fedora 41. Starting this morning, the moment I export the report a dialog reads 'E-1359: totals do not match source'.\n\nEvery line differs by a cent or two, which looks like rounding. A rounding fix is listed in the newest version's release notes.\n\nWhat I tried so far: waiting a day. No luck.\n\nThanks, Kenji Sato (Ferro & Sons)",
+  "opened": "2026-02-12"
+}

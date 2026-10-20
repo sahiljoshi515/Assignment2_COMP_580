@@ -1,0 +1,10 @@
+{
+  "tid": "T-8b1bbb",
+  "seq": 30,
+  "scenario": "inc-1456",
+  "kind": "first_error",
+  "target": null,
+  "subject": "INC-1456: which host failed first and when",
+  "body": "Arjun Mehta (compliance) writing with a quick request. Find\nthe first ERROR anywhere in the notify fleet: the host that\nwrote it and the exact timestamp of that line.\n\nThe logs are under logs/; lines at level ERROR are the ones\nto look for.\n\nThanks, Arjun Mehta",
+  "received": "2026-03-06"
+}

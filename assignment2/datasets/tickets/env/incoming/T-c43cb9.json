@@ -1,0 +1,10 @@
+{
+  "tid": "T-c43cb9",
+  "seq": 40,
+  "product": "MeshMail",
+  "error_code": "E-3307",
+  "platform": "linux",
+  "subject": "E-3307: quota exceeded on Linux",
+  "body": "Hi, I'm using MeshMail 2.8.8 on Fedora 41. Whenever I upload a file since last\nweek, the app shows 'E-3307: storage quota exceeded'.\n\nThe plan was upgraded yesterday; the app still displays the old quota. The\nwebsite shows the new allowance correctly.\n\nBefore writing in I tried closing every other program; same error afterwards.\n\nRegards, Fatima Zahra, Brightwater Clinics",
+  "opened": "2026-02-20"
+}

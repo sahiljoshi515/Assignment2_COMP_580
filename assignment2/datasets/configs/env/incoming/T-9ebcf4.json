@@ -1,0 +1,10 @@
+{
+  "tid": "T-9ebcf4",
+  "seq": 31,
+  "scenario": "CFG1114",
+  "kind": "replicas_of",
+  "target": "prod-us-west",
+  "subject": "CFG-1114: how many replicas does prod-us-west run",
+  "body": "Hello -- Sofia Rossi, infra. Please read config/prod-us-\nwest.yaml for billing-api and give me its replica count.\n\nThe value is the integer under the service section, key\nreplicas.\n\nRegards, Sofia Rossi -- infra",
+  "received": "2026-03-09"
+}

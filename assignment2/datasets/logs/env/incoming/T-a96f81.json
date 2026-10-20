@@ -1,0 +1,10 @@
+{
+  "tid": "T-a96f81",
+  "seq": 14,
+  "scenario": "inc-1304",
+  "kind": "first_error",
+  "target": null,
+  "subject": "INC-1304: which host failed first and when",
+  "body": "Hi, Sofia Rossi from the payments team here. Find the first ERROR anywhere in the ledger fleet: the host that wrote it and the exact timestamp of that line.\n\nTimestamps are ISO-8601 with a Z suffix; copy the one on the line itself.\n\nMuch appreciated, Sofia Rossi",
+  "received": "2026-02-01"
+}

@@ -1,0 +1,16 @@
+From: Backup Service <backup-bot@harbourfreight.example>
+To: ops-notify@harbourfreight.example
+Date: Thu, 05 Mar 2026 03:05:00 +0000
+Subject: Nightly backup report - wiki-and-tracker - 2026-03-04
+
+Nightly backup report for 2026-03-04
+Job: wiki-and-tracker
+Status: SUCCESS
+Started: 02:00:23 UTC   Finished: 03:05:05 UTC   Duration: 65 min
+Bytes transferred: 40.5 GB   Files: 1,318,753   Changed since last run: 4.4 %
+Retention: 30 daily, 12 weekly, 6 monthly
+Next run: 2026-03-05 02:00 UTC
+
+-- 
+This message was generated automatically by the backup service. Replies are not read.
+To change the schedule or the recipients, edit the job in the backup console.

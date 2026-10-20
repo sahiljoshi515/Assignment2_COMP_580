@@ -1,0 +1,10 @@
+{
+  "tid": "T-060357",
+  "seq": 40,
+  "scenario": "MBX-1760",
+  "kind": "requester",
+  "target": "vendor-renewal",
+  "subject": "MBX-1760: who opened the vendor-renewal thread",
+  "body": "Hello -- Mei Lin, support. Who originally asked for the vendor contract renewal for northwind? Full\nname as it appears in the From header.\n\nUse the From header of the earliest message with that subject.\n\nMuch appreciated, Mei Lin",
+  "received": "2026-03-27"
+}

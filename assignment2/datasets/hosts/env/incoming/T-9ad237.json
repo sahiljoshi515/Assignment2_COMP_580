@@ -1,0 +1,10 @@
+{
+  "tid": "T-9ad237",
+  "seq": 4,
+  "scenario": "FLT-1000",
+  "kind": "param_drift",
+  "target": null,
+  "subject": "FLT-1000: which host has a different kernel parameter",
+  "body": "Hi, Ivan Petrov from the payments team here. Find the worker host whose [kernel.params] section\ndeviates from the others and identify the parameter that deviates.\n\nParameters are listed under [kernel.params] as identify = value.\n\nRegards, Ivan Petrov -- payments",
+  "received": "2026-01-11"
+}

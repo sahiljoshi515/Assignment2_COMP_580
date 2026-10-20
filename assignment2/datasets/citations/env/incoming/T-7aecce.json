@@ -1,0 +1,17 @@
+{
+  "tid": "T-7aecce",
+  "seq": 29,
+  "citation": {
+    "authors": [
+      "Tariq Silva",
+      "Luca Brennan",
+      "Daniel Okafor"
+    ],
+    "title": "Anomaly detection with sparse graph networks",
+    "venue": "ICLR",
+    "year": 2016,
+    "doi": "10.5555/iclr.2016.92b8"
+  },
+  "raw": "Tariq Silva, Luca Brennan, and Daniel Okafor, \"Anomaly detection with sparse graph networks,\" in Proc. ICLR '16, 2016, http://dx.doi.org/10.5555/iclr.2016.92b8. [Online]. Available: https://proceedings.example.org/iclr/700",
+  "received": "2026-02-07"
+}

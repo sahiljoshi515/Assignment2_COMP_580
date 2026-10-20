@@ -1,0 +1,10 @@
+{
+  "tid": "T-5be970",
+  "seq": 29,
+  "scenario": "POL-1266",
+  "kind": "introduced_in",
+  "target": "review_months",
+  "subject": "POL-1266: which revision set the review cadence to its current value",
+  "body": "Hello -- Priya Nair, QA. Looking at the revisions of the Backup and Recovery Standard, in which revision was the review cadence first set to the value the latest revision has?\n\nCompare the versions in policy/; report the revision label as in the file name.\n\nMuch appreciated, Priya Nair",
+  "received": "2026-03-04"
+}

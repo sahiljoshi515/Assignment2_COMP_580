@@ -1,0 +1,50 @@
+# catalog-api -- dr environment. Generated from the shared template; see POLICY.md before editing.
+# Keys marked (uniform) must hold the same value in every environment.
+
+service:
+  name: catalog-api
+  replicas: 2   # may vary per environment
+  port: 8080   # listening port, the same everywhere so the mesh routes work (uniform)
+  request_timeout_ms: 5000   # upstream request budget (uniform)
+  max_body_kb: 512   # request body cap (uniform)
+
+database:
+  host: db-dr-21.internal   # per environment
+  port: 5432   # (uniform)
+  name: catalog
+  pool_size: 20   # connections per replica (uniform)
+  statement_timeout_ms: 60000   # server-side statement cap (uniform)
+  ssl_mode: require   # never 'disable' (uniform)
+
+cache:
+  endpoint: redis://cache-dr.internal:6379/0   # per environment
+  ttl_s: 900   # default entry lifetime (uniform)
+  max_entries: 50000   # per-replica cap (uniform)
+
+auth:
+  issuer: https://login.example.com   # token issuer (uniform)
+  token_ttl_s: 3600   # access token lifetime (uniform)
+  allow_anonymous: false   # SECURITY: must be false in every environment (uniform)
+  required_scopes: [catalog.read, catalog.write]   # (uniform)
+
+tls:
+  verify: true   # SECURITY: must be true in every environment (uniform)
+  min_version: "1.3"   # lowest protocol version accepted (uniform)
+  cert_path: /etc/certs/catalog-api/dr.pem   # per environment
+
+logging:
+  level: info   # debug outside production, info in production
+  format: json   # one format so the pipeline can parse every environment (uniform)
+  sample_rate: 0.25   # share of debug lines kept (uniform)
+
+features:
+  new_checkout: true   # feature flags are rolled out fleet-wide (uniform)
+  async_refunds: true   # feature flags are rolled out fleet-wide (uniform)
+  rate_limiting: false   # feature flags are rolled out fleet-wide (uniform)
+
+payments:
+  provider: braintree   # one provider per service (uniform)
+  retry_limit: 5   # transient failures retried this many times (uniform)
+  backoff_ms: 100   # base backoff between retries (uniform)
+  idempotency: true   # every write carries an idempotency key (uniform)
+

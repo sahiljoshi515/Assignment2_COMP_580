@@ -1,0 +1,10 @@
+{
+  "tid": "T-e65494",
+  "seq": 28,
+  "scenario": "POL1874",
+  "kind": "added_requirement",
+  "target": null,
+  "subject": "POL-1874: which revision added the newest requirement",
+  "body": "Omar Haddad (support) writing with a quick request. In which revision did the\nnewest numbered requirement of the Backup and Recovery Standard first appear,\nand which id does it carry?\n\nReport the revision label (v07) and the requirement id (R9).\n\nRegards, Omar Haddad -- support",
+  "received": "2026-03-02"
+}

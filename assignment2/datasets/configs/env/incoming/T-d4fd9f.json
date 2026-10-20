@@ -1,0 +1,10 @@
+{
+  "tid": "T-d4fd9f",
+  "seq": 19,
+  "scenario": "cfg-1076",
+  "kind": "drift",
+  "target": null,
+  "subject": "CFG-1076: which environment drifted on a uniform key",
+  "body": "Hello -- Daniel Ortega, security. Please audit the catalog-api configs for\ndrift: find the environment whose copy sets a must-be-uniform key differently\nfrom the rest, and name the key.\n\nconfig/POLICY.md lists which keys may differ between environments; only a key\noutside that list counts as drift. Leave the two security keys to the separate\nsecurity check.\n\nRegards, Daniel Ortega -- security",
+  "received": "2026-02-11"
+}

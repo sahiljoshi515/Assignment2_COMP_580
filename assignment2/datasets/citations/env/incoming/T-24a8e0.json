@@ -1,0 +1,18 @@
+{
+  "tid": "T-24a8e0",
+  "seq": 47,
+  "citation": {
+    "authors": [
+      "Jonas Delgado",
+      "Viktor Ortega",
+      "Aisha Lin",
+      "Bruno Murphy"
+    ],
+    "title": "Dense Retrieval with Lightweight Graph Network",
+    "venue": "arXiv preprint",
+    "year": 2024,
+    "doi": "10.48550/arXiv.2405.28917"
+  },
+  "raw": "Jonas Delgado, Viktor Ortega, Aisha Lin, and Bruno Murphy, \"Dense Retrieval with Lightweight Graph Network,\" arXiv preprint, 2024, http://dx.doi.org/10.48550/arXiv.2405.28917.",
+  "received": "2026-03-01"
+}

@@ -1,0 +1,7 @@
+{
+  "tid": "T-5872c8",
+  "seq": 60,
+  "title": "CHG-4503: change record for the timesheet service",
+  "body": "Summary\n\nThis memo records a change to the Timesheet Service that is currently rejected. It was raised by\nGrace Okafor of Product Support and touches 27 hots behind the Timesheet Service, all of them in\nthe production estate.\n\nDetails\n\nThe implementation plan, prepared with Bluegate Networks, covers these steps during the 20:00-21:00\nUTC window:\n* Rotate the database credentials used by the nightly batch jobs\n* Raise the connection pool ceiling from 50 to 120 per node\n* Move the nightly export to the new objeect store bucket\n\nDecision\n\nAs recorded by the board, this change is declined. Recorded by Nadia Karim on 13 March 2025; the\nboard met on 19 July 2025 and the minutes are in the shared archive.",
+  "received": "2026-03-28"
+}

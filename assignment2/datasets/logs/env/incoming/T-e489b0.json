@@ -1,0 +1,10 @@
+{
+  "tid": "T-e489b0",
+  "seq": 36,
+  "scenario": "INC1722",
+  "kind": "error_count",
+  "target": "search-08",
+  "subject": "INC-1722: how many ERROR lines did search-08 write",
+  "body": "Hi, Tomas Vik from the data team here. Please count the lines at level ERROR in\nthe log of search-08.\n\nThe file is logs/search-08.log; if it logged no errors the count is 0.\n\nMuch appreciated, Tomas Vik",
+  "received": "2026-03-19"
+}

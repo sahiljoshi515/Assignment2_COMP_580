@@ -1,0 +1,10 @@
+{
+  "tid": "T-552742",
+  "seq": 14,
+  "product": "Tallyboard",
+  "error_code": "E-6192",
+  "platform": "macos",
+  "subject": "E-6192: cannot write data directory on macOS",
+  "body": "Regards, Omar Haddad, Tessa Labs\n\nHi, I'm using Tallyboard 1.9.6 on macOS 15.3. Starting last week, the moment I save my work a dialog\nreads \"E-6192: cannot write to data directory\".\n\nThe system drive is nearly full, under one gigabyte left. Other programs have started complaining\nabout space as well.\n\nBefore writing in I tried rebooting the router; same error afterwards.",
+  "opened": "2026-01-20"
+}

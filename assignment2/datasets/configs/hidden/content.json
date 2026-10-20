@@ -1,0 +1,1422 @@
+{
+  "CFG-1000": {
+    "groups": [
+      {
+        "name": "environment-configs",
+        "files": [
+          "config/dev.yaml",
+          "config/dr.yaml",
+          "config/prod-apac.yaml",
+          "config/prod-eu.yaml",
+          "config/prod-us-east.yaml",
+          "config/prod-us-west.yaml",
+          "config/staging.yaml",
+          "config/test.yaml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "config/dev.yaml": [
+        6,
+        36
+      ],
+      "config/test.yaml": [
+        6,
+        9,
+        36
+      ],
+      "config/staging.yaml": [
+        6,
+        36
+      ],
+      "config/prod-us-east.yaml": [
+        6,
+        36
+      ],
+      "config/prod-us-west.yaml": [
+        6,
+        36
+      ],
+      "config/prod-eu.yaml": [
+        6,
+        27,
+        36
+      ],
+      "config/prod-apac.yaml": [
+        6,
+        35
+      ],
+      "config/dr.yaml": [
+        6,
+        36
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 28,
+      "within_min": 0.837,
+      "within_p50": 0.886,
+      "within_max": 0.935,
+      "cross_max": 0.04
+    }
+  },
+  "CFG-1038": {
+    "groups": [
+      {
+        "name": "environment-configs",
+        "files": [
+          "config/canary.yaml",
+          "config/dev.yaml",
+          "config/dr.yaml",
+          "config/prod-apac.yaml",
+          "config/prod-eu.yaml",
+          "config/prod-us-west.yaml",
+          "config/staging.yaml",
+          "config/test.yaml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "config/dev.yaml": [
+        6,
+        36
+      ],
+      "config/test.yaml": [
+        6,
+        35
+      ],
+      "config/staging.yaml": [
+        6,
+        36
+      ],
+      "config/canary.yaml": [
+        6,
+        36
+      ],
+      "config/prod-us-west.yaml": [
+        6,
+        36
+      ],
+      "config/prod-eu.yaml": [
+        6,
+        27,
+        36
+      ],
+      "config/prod-apac.yaml": [
+        6,
+        36
+      ],
+      "config/dr.yaml": [
+        6,
+        36,
+        48
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 28,
+      "within_min": 0.845,
+      "within_p50": 0.892,
+      "within_max": 0.92,
+      "cross_max": 0.04
+    }
+  },
+  "CFG-1076": {
+    "groups": [
+      {
+        "name": "environment-configs",
+        "files": [
+          "config/canary.yaml",
+          "config/dev.yaml",
+          "config/dr.yaml",
+          "config/prod-apac.yaml",
+          "config/prod-eu.yaml",
+          "config/prod-us-east.yaml",
+          "config/prod-us-west.yaml",
+          "config/staging.yaml",
+          "config/test.yaml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "config/dev.yaml": [
+        6,
+        36,
+        47
+      ],
+      "config/test.yaml": [
+        6,
+        36
+      ],
+      "config/staging.yaml": [
+        6,
+        36
+      ],
+      "config/canary.yaml": [
+        6,
+        35
+      ],
+      "config/prod-us-east.yaml": [
+        6,
+        31,
+        36
+      ],
+      "config/prod-us-west.yaml": [
+        6,
+        36
+      ],
+      "config/prod-eu.yaml": [
+        6,
+        36
+      ],
+      "config/prod-apac.yaml": [
+        6,
+        36
+      ],
+      "config/dr.yaml": [
+        6,
+        36
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 36,
+      "within_min": 0.858,
+      "within_p50": 0.89,
+      "within_max": 0.921,
+      "cross_max": 0.041
+    }
+  },
+  "CFG-1114": {
+    "groups": [
+      {
+        "name": "environment-configs",
+        "files": [
+          "config/canary.yaml",
+          "config/dev.yaml",
+          "config/prod-apac.yaml",
+          "config/prod-eu.yaml",
+          "config/prod-us-west.yaml",
+          "config/staging.yaml",
+          "config/test.yaml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "config/dev.yaml": [
+        6,
+        35
+      ],
+      "config/test.yaml": [
+        6,
+        31,
+        36
+      ],
+      "config/staging.yaml": [
+        6,
+        36
+      ],
+      "config/canary.yaml": [
+        6,
+        36
+      ],
+      "config/prod-us-west.yaml": [
+        6,
+        36
+      ],
+      "config/prod-eu.yaml": [
+        6,
+        36
+      ],
+      "config/prod-apac.yaml": [
+        6,
+        36,
+        37
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.838,
+      "within_p50": 0.886,
+      "within_max": 0.917,
+      "cross_max": 0.04
+    }
+  },
+  "CFG-1152": {
+    "groups": [
+      {
+        "name": "environment-configs",
+        "files": [
+          "config/canary.yaml",
+          "config/dev.yaml",
+          "config/dr.yaml",
+          "config/prod-apac.yaml",
+          "config/prod-eu.yaml",
+          "config/prod-us-west.yaml",
+          "config/staging.yaml",
+          "config/test.yaml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "config/dev.yaml": [
+        6,
+        36
+      ],
+      "config/test.yaml": [
+        6,
+        36,
+        43
+      ],
+      "config/staging.yaml": [
+        6,
+        36
+      ],
+      "config/canary.yaml": [
+        6,
+        36
+      ],
+      "config/prod-us-west.yaml": [
+        6,
+        36
+      ],
+      "config/prod-eu.yaml": [
+        6,
+        35
+      ],
+      "config/prod-apac.yaml": [
+        6,
+        36
+      ],
+      "config/dr.yaml": [
+        6,
+        27,
+        36
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 28,
+      "within_min": 0.842,
+      "within_p50": 0.889,
+      "within_max": 0.92,
+      "cross_max": 0.04
+    }
+  },
+  "CFG-1190": {
+    "groups": [
+      {
+        "name": "environment-configs",
+        "files": [
+          "config/canary.yaml",
+          "config/dev.yaml",
+          "config/dr.yaml",
+          "config/prod-apac.yaml",
+          "config/prod-eu.yaml",
+          "config/prod-us-east.yaml",
+          "config/prod-us-west.yaml",
+          "config/staging.yaml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "config/dev.yaml": [
+        6,
+        27,
+        36
+      ],
+      "config/staging.yaml": [
+        6,
+        36
+      ],
+      "config/canary.yaml": [
+        6,
+        36
+      ],
+      "config/prod-us-east.yaml": [
+        6,
+        36
+      ],
+      "config/prod-us-west.yaml": [
+        6,
+        36
+      ],
+      "config/prod-eu.yaml": [
+        6,
+        26,
+        36
+      ],
+      "config/prod-apac.yaml": [
+        6,
+        36
+      ],
+      "config/dr.yaml": [
+        6,
+        36
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 28,
+      "within_min": 0.867,
+      "within_p50": 0.895,
+      "within_max": 0.935,
+      "cross_max": 0.041
+    }
+  },
+  "CFG-1228": {
+    "groups": [
+      {
+        "name": "environment-configs",
+        "files": [
+          "config/canary.yaml",
+          "config/dev.yaml",
+          "config/dr.yaml",
+          "config/prod-apac.yaml",
+          "config/prod-eu.yaml",
+          "config/prod-us-east.yaml",
+          "config/staging.yaml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "config/dev.yaml": [
+        6,
+        36
+      ],
+      "config/staging.yaml": [
+        6,
+        36
+      ],
+      "config/canary.yaml": [
+        6,
+        36,
+        48
+      ],
+      "config/prod-us-east.yaml": [
+        6,
+        27,
+        36
+      ],
+      "config/prod-eu.yaml": [
+        6,
+        36
+      ],
+      "config/prod-apac.yaml": [
+        6,
+        36
+      ],
+      "config/dr.yaml": [
+        6,
+        36
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.832,
+      "within_p50": 0.89,
+      "within_max": 0.921,
+      "cross_max": 0.04
+    }
+  },
+  "CFG-1266": {
+    "groups": [
+      {
+        "name": "environment-configs",
+        "files": [
+          "config/canary.yaml",
+          "config/dev.yaml",
+          "config/prod-apac.yaml",
+          "config/prod-eu.yaml",
+          "config/prod-us-east.yaml",
+          "config/staging.yaml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "config/dev.yaml": [
+        6,
+        36
+      ],
+      "config/staging.yaml": [
+        6,
+        36
+      ],
+      "config/canary.yaml": [
+        6,
+        25,
+        36
+      ],
+      "config/prod-us-east.yaml": [
+        6,
+        27,
+        36
+      ],
+      "config/prod-eu.yaml": [
+        6,
+        36
+      ],
+      "config/prod-apac.yaml": [
+        6,
+        36
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 15,
+      "within_min": 0.818,
+      "within_p50": 0.879,
+      "within_max": 0.921,
+      "cross_max": 0.04
+    }
+  },
+  "CFG-1304": {
+    "groups": [
+      {
+        "name": "environment-configs",
+        "files": [
+          "config/dev.yaml",
+          "config/dr.yaml",
+          "config/prod-apac.yaml",
+          "config/prod-eu.yaml",
+          "config/prod-us-east.yaml",
+          "config/staging.yaml",
+          "config/test.yaml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "config/dev.yaml": [
+        6,
+        36
+      ],
+      "config/test.yaml": [
+        6,
+        36
+      ],
+      "config/staging.yaml": [
+        6,
+        36
+      ],
+      "config/prod-us-east.yaml": [
+        6,
+        9,
+        36
+      ],
+      "config/prod-eu.yaml": [
+        6,
+        36
+      ],
+      "config/prod-apac.yaml": [
+        6,
+        36
+      ],
+      "config/dr.yaml": [
+        6,
+        27,
+        36
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.875,
+      "within_p50": 0.889,
+      "within_max": 0.92,
+      "cross_max": 0.04
+    }
+  },
+  "CFG-1342": {
+    "groups": [
+      {
+        "name": "environment-configs",
+        "files": [
+          "config/dev.yaml",
+          "config/dr.yaml",
+          "config/prod-apac.yaml",
+          "config/prod-eu.yaml",
+          "config/prod-us-east.yaml",
+          "config/staging.yaml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "config/dev.yaml": [
+        6,
+        36
+      ],
+      "config/staging.yaml": [
+        6,
+        36
+      ],
+      "config/prod-us-east.yaml": [
+        6,
+        35
+      ],
+      "config/prod-eu.yaml": [
+        6,
+        36
+      ],
+      "config/prod-apac.yaml": [
+        6,
+        22,
+        36
+      ],
+      "config/dr.yaml": [
+        6,
+        31,
+        36
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 15,
+      "within_min": 0.854,
+      "within_p50": 0.889,
+      "within_max": 0.92,
+      "cross_max": 0.04
+    }
+  },
+  "CFG-1380": {
+    "groups": [
+      {
+        "name": "environment-configs",
+        "files": [
+          "config/canary.yaml",
+          "config/dev.yaml",
+          "config/dr.yaml",
+          "config/prod-apac.yaml",
+          "config/prod-eu.yaml",
+          "config/prod-us-east.yaml",
+          "config/prod-us-west.yaml",
+          "config/staging.yaml",
+          "config/test.yaml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "config/dev.yaml": [
+        6,
+        36
+      ],
+      "config/test.yaml": [
+        6,
+        36
+      ],
+      "config/staging.yaml": [
+        6,
+        36
+      ],
+      "config/canary.yaml": [
+        6,
+        36
+      ],
+      "config/prod-us-east.yaml": [
+        6,
+        35
+      ],
+      "config/prod-us-west.yaml": [
+        6,
+        17,
+        36
+      ],
+      "config/prod-eu.yaml": [
+        6,
+        36
+      ],
+      "config/prod-apac.yaml": [
+        6,
+        36
+      ],
+      "config/dr.yaml": [
+        6,
+        27,
+        36
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 36,
+      "within_min": 0.855,
+      "within_p50": 0.889,
+      "within_max": 0.921,
+      "cross_max": 0.04
+    }
+  },
+  "CFG-1418": {
+    "groups": [
+      {
+        "name": "environment-configs",
+        "files": [
+          "config/dev.yaml",
+          "config/dr.yaml",
+          "config/prod-apac.yaml",
+          "config/prod-eu.yaml",
+          "config/prod-us-east.yaml",
+          "config/prod-us-west.yaml",
+          "config/staging.yaml",
+          "config/test.yaml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "config/dev.yaml": [
+        6,
+        36
+      ],
+      "config/test.yaml": [
+        6,
+        36
+      ],
+      "config/staging.yaml": [
+        6,
+        36,
+        41
+      ],
+      "config/prod-us-east.yaml": [
+        6,
+        36
+      ],
+      "config/prod-us-west.yaml": [
+        6,
+        36
+      ],
+      "config/prod-eu.yaml": [
+        6,
+        27,
+        36
+      ],
+      "config/prod-apac.yaml": [
+        6,
+        35
+      ],
+      "config/dr.yaml": [
+        6,
+        36
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 28,
+      "within_min": 0.841,
+      "within_p50": 0.886,
+      "within_max": 0.935,
+      "cross_max": 0.04
+    }
+  },
+  "CFG-1456": {
+    "groups": [
+      {
+        "name": "environment-configs",
+        "files": [
+          "config/canary.yaml",
+          "config/dev.yaml",
+          "config/dr.yaml",
+          "config/prod-apac.yaml",
+          "config/prod-eu.yaml",
+          "config/prod-us-east.yaml",
+          "config/prod-us-west.yaml",
+          "config/staging.yaml",
+          "config/test.yaml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "config/dev.yaml": [
+        6,
+        36
+      ],
+      "config/test.yaml": [
+        6,
+        36
+      ],
+      "config/staging.yaml": [
+        6,
+        16,
+        36
+      ],
+      "config/canary.yaml": [
+        6,
+        36
+      ],
+      "config/prod-us-east.yaml": [
+        6,
+        36
+      ],
+      "config/prod-us-west.yaml": [
+        6,
+        36
+      ],
+      "config/prod-eu.yaml": [
+        6,
+        36
+      ],
+      "config/prod-apac.yaml": [
+        6,
+        31,
+        36
+      ],
+      "config/dr.yaml": [
+        6,
+        36
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 36,
+      "within_min": 0.83,
+      "within_p50": 0.899,
+      "within_max": 0.935,
+      "cross_max": 0.04
+    }
+  },
+  "CFG-1494": {
+    "groups": [
+      {
+        "name": "environment-configs",
+        "files": [
+          "config/canary.yaml",
+          "config/dev.yaml",
+          "config/dr.yaml",
+          "config/prod-apac.yaml",
+          "config/prod-eu.yaml",
+          "config/prod-us-east.yaml",
+          "config/prod-us-west.yaml",
+          "config/staging.yaml",
+          "config/test.yaml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "config/dev.yaml": [
+        6,
+        36
+      ],
+      "config/test.yaml": [
+        6,
+        36
+      ],
+      "config/staging.yaml": [
+        6,
+        36
+      ],
+      "config/canary.yaml": [
+        6,
+        36
+      ],
+      "config/prod-us-east.yaml": [
+        6,
+        36
+      ],
+      "config/prod-us-west.yaml": [
+        6,
+        36
+      ],
+      "config/prod-eu.yaml": [
+        6,
+        36,
+        46
+      ],
+      "config/prod-apac.yaml": [
+        6,
+        36
+      ],
+      "config/dr.yaml": [
+        6,
+        31,
+        36
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 36,
+      "within_min": 0.837,
+      "within_p50": 0.887,
+      "within_max": 0.935,
+      "cross_max": 0.04
+    }
+  },
+  "CFG-1532": {
+    "groups": [
+      {
+        "name": "environment-configs",
+        "files": [
+          "config/canary.yaml",
+          "config/dev.yaml",
+          "config/dr.yaml",
+          "config/prod-apac.yaml",
+          "config/prod-us-east.yaml",
+          "config/prod-us-west.yaml",
+          "config/staging.yaml",
+          "config/test.yaml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "config/dev.yaml": [
+        6,
+        8,
+        36
+      ],
+      "config/test.yaml": [
+        6,
+        27,
+        36
+      ],
+      "config/staging.yaml": [
+        6,
+        36
+      ],
+      "config/canary.yaml": [
+        6,
+        36
+      ],
+      "config/prod-us-east.yaml": [
+        6,
+        36
+      ],
+      "config/prod-us-west.yaml": [
+        6,
+        36
+      ],
+      "config/prod-apac.yaml": [
+        6,
+        36
+      ],
+      "config/dr.yaml": [
+        6,
+        36
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 28,
+      "within_min": 0.839,
+      "within_p50": 0.886,
+      "within_max": 0.935,
+      "cross_max": 0.041
+    }
+  },
+  "CFG-1570": {
+    "groups": [
+      {
+        "name": "environment-configs",
+        "files": [
+          "config/canary.yaml",
+          "config/dev.yaml",
+          "config/prod-apac.yaml",
+          "config/prod-eu.yaml",
+          "config/prod-us-east.yaml",
+          "config/prod-us-west.yaml",
+          "config/staging.yaml",
+          "config/test.yaml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "config/dev.yaml": [
+        6,
+        36
+      ],
+      "config/test.yaml": [
+        6,
+        36
+      ],
+      "config/staging.yaml": [
+        6,
+        36
+      ],
+      "config/canary.yaml": [
+        6,
+        36
+      ],
+      "config/prod-us-east.yaml": [
+        6,
+        27,
+        36
+      ],
+      "config/prod-us-west.yaml": [
+        6,
+        36
+      ],
+      "config/prod-eu.yaml": [
+        6,
+        36
+      ],
+      "config/prod-apac.yaml": [
+        6,
+        16,
+        36
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 28,
+      "within_min": 0.832,
+      "within_p50": 0.889,
+      "within_max": 0.921,
+      "cross_max": 0.04
+    }
+  },
+  "CFG-1608": {
+    "groups": [
+      {
+        "name": "environment-configs",
+        "files": [
+          "config/canary.yaml",
+          "config/dev.yaml",
+          "config/dr.yaml",
+          "config/prod-apac.yaml",
+          "config/prod-eu.yaml",
+          "config/prod-us-east.yaml",
+          "config/prod-us-west.yaml",
+          "config/staging.yaml",
+          "config/test.yaml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "config/dev.yaml": [
+        6,
+        15,
+        36
+      ],
+      "config/test.yaml": [
+        6,
+        31,
+        36
+      ],
+      "config/staging.yaml": [
+        6,
+        35
+      ],
+      "config/canary.yaml": [
+        6,
+        36
+      ],
+      "config/prod-us-east.yaml": [
+        6,
+        36
+      ],
+      "config/prod-us-west.yaml": [
+        6,
+        36
+      ],
+      "config/prod-eu.yaml": [
+        6,
+        36
+      ],
+      "config/prod-apac.yaml": [
+        6,
+        36
+      ],
+      "config/dr.yaml": [
+        6,
+        36
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 36,
+      "within_min": 0.855,
+      "within_p50": 0.899,
+      "within_max": 0.935,
+      "cross_max": 0.04
+    }
+  },
+  "CFG-1646": {
+    "groups": [
+      {
+        "name": "environment-configs",
+        "files": [
+          "config/dev.yaml",
+          "config/prod-apac.yaml",
+          "config/prod-eu.yaml",
+          "config/prod-us-east.yaml",
+          "config/prod-us-west.yaml",
+          "config/staging.yaml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "config/dev.yaml": [
+        6,
+        31,
+        36
+      ],
+      "config/staging.yaml": [
+        6,
+        36
+      ],
+      "config/prod-us-east.yaml": [
+        6,
+        36
+      ],
+      "config/prod-us-west.yaml": [
+        6,
+        36
+      ],
+      "config/prod-eu.yaml": [
+        6,
+        36,
+        42
+      ],
+      "config/prod-apac.yaml": [
+        6,
+        35
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 15,
+      "within_min": 0.831,
+      "within_p50": 0.875,
+      "within_max": 0.935,
+      "cross_max": 0.04
+    }
+  },
+  "CFG-1684": {
+    "groups": [
+      {
+        "name": "environment-configs",
+        "files": [
+          "config/canary.yaml",
+          "config/dev.yaml",
+          "config/dr.yaml",
+          "config/prod-apac.yaml",
+          "config/prod-eu.yaml",
+          "config/prod-us-east.yaml",
+          "config/prod-us-west.yaml",
+          "config/staging.yaml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "config/dev.yaml": [
+        6,
+        36
+      ],
+      "config/staging.yaml": [
+        6,
+        36
+      ],
+      "config/canary.yaml": [
+        6,
+        36
+      ],
+      "config/prod-us-east.yaml": [
+        6,
+        36
+      ],
+      "config/prod-us-west.yaml": [
+        6,
+        36
+      ],
+      "config/prod-eu.yaml": [
+        6,
+        31,
+        36
+      ],
+      "config/prod-apac.yaml": [
+        6,
+        36
+      ],
+      "config/dr.yaml": [
+        6,
+        36,
+        48
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 28,
+      "within_min": 0.868,
+      "within_p50": 0.899,
+      "within_max": 0.92,
+      "cross_max": 0.04
+    }
+  },
+  "CFG-1722": {
+    "groups": [
+      {
+        "name": "environment-configs",
+        "files": [
+          "config/canary.yaml",
+          "config/dev.yaml",
+          "config/dr.yaml",
+          "config/prod-apac.yaml",
+          "config/prod-eu.yaml",
+          "config/prod-us-east.yaml",
+          "config/staging.yaml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "config/dev.yaml": [
+        6,
+        36
+      ],
+      "config/staging.yaml": [
+        6,
+        36
+      ],
+      "config/canary.yaml": [
+        6,
+        31,
+        36
+      ],
+      "config/prod-us-east.yaml": [
+        6,
+        36
+      ],
+      "config/prod-eu.yaml": [
+        6,
+        36,
+        47
+      ],
+      "config/prod-apac.yaml": [
+        6,
+        36
+      ],
+      "config/dr.yaml": [
+        6,
+        36
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 21,
+      "within_min": 0.839,
+      "within_p50": 0.889,
+      "within_max": 0.921,
+      "cross_max": 0.04
+    }
+  },
+  "CFG-1760": {
+    "groups": [
+      {
+        "name": "environment-configs",
+        "files": [
+          "config/canary.yaml",
+          "config/dev.yaml",
+          "config/dr.yaml",
+          "config/prod-apac.yaml",
+          "config/prod-eu.yaml",
+          "config/prod-us-east.yaml",
+          "config/prod-us-west.yaml",
+          "config/staging.yaml",
+          "config/test.yaml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "config/dev.yaml": [
+        6,
+        36
+      ],
+      "config/test.yaml": [
+        6,
+        36
+      ],
+      "config/staging.yaml": [
+        6,
+        36
+      ],
+      "config/canary.yaml": [
+        6,
+        36
+      ],
+      "config/prod-us-east.yaml": [
+        6,
+        36
+      ],
+      "config/prod-us-west.yaml": [
+        6,
+        36
+      ],
+      "config/prod-eu.yaml": [
+        6,
+        21,
+        36
+      ],
+      "config/prod-apac.yaml": [
+        6,
+        36
+      ],
+      "config/dr.yaml": [
+        6,
+        27,
+        36
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 36,
+      "within_min": 0.861,
+      "within_p50": 0.89,
+      "within_max": 0.935,
+      "cross_max": 0.043
+    }
+  },
+  "CFG-1798": {
+    "groups": [
+      {
+        "name": "environment-configs",
+        "files": [
+          "config/dev.yaml",
+          "config/prod-apac.yaml",
+          "config/prod-us-east.yaml",
+          "config/prod-us-west.yaml",
+          "config/staging.yaml",
+          "config/test.yaml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "config/dev.yaml": [
+        6,
+        36,
+        37
+      ],
+      "config/test.yaml": [
+        6,
+        31,
+        36
+      ],
+      "config/staging.yaml": [
+        6,
+        36
+      ],
+      "config/prod-us-east.yaml": [
+        6,
+        36
+      ],
+      "config/prod-us-west.yaml": [
+        6,
+        36
+      ],
+      "config/prod-apac.yaml": [
+        6,
+        36
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 15,
+      "within_min": 0.825,
+      "within_p50": 0.875,
+      "within_max": 0.917,
+      "cross_max": 0.04
+    }
+  },
+  "CFG-1836": {
+    "groups": [
+      {
+        "name": "environment-configs",
+        "files": [
+          "config/canary.yaml",
+          "config/dev.yaml",
+          "config/dr.yaml",
+          "config/prod-apac.yaml",
+          "config/prod-eu.yaml",
+          "config/prod-us-east.yaml",
+          "config/prod-us-west.yaml",
+          "config/staging.yaml",
+          "config/test.yaml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "config/dev.yaml": [
+        6,
+        36
+      ],
+      "config/test.yaml": [
+        6,
+        36
+      ],
+      "config/staging.yaml": [
+        6,
+        31,
+        36
+      ],
+      "config/canary.yaml": [
+        6,
+        21,
+        36
+      ],
+      "config/prod-us-east.yaml": [
+        6,
+        36
+      ],
+      "config/prod-us-west.yaml": [
+        6,
+        36
+      ],
+      "config/prod-eu.yaml": [
+        6,
+        36
+      ],
+      "config/prod-apac.yaml": [
+        6,
+        36
+      ],
+      "config/dr.yaml": [
+        6,
+        36
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 36,
+      "within_min": 0.827,
+      "within_p50": 0.892,
+      "within_max": 0.921,
+      "cross_max": 0.04
+    }
+  },
+  "CFG-1874": {
+    "groups": [
+      {
+        "name": "environment-configs",
+        "files": [
+          "config/canary.yaml",
+          "config/dev.yaml",
+          "config/dr.yaml",
+          "config/prod-apac.yaml",
+          "config/prod-eu.yaml",
+          "config/prod-us-east.yaml",
+          "config/prod-us-west.yaml",
+          "config/staging.yaml",
+          "config/test.yaml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "config/dev.yaml": [
+        6,
+        35
+      ],
+      "config/test.yaml": [
+        6,
+        36
+      ],
+      "config/staging.yaml": [
+        6,
+        36,
+        46
+      ],
+      "config/canary.yaml": [
+        6,
+        27,
+        36
+      ],
+      "config/prod-us-east.yaml": [
+        6,
+        36
+      ],
+      "config/prod-us-west.yaml": [
+        6,
+        36
+      ],
+      "config/prod-eu.yaml": [
+        6,
+        36
+      ],
+      "config/prod-apac.yaml": [
+        6,
+        36
+      ],
+      "config/dr.yaml": [
+        6,
+        36
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 36,
+      "within_min": 0.846,
+      "within_p50": 0.889,
+      "within_max": 0.935,
+      "cross_max": 0.04
+    }
+  }
+}

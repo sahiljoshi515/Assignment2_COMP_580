@@ -1,0 +1,97 @@
+# host: worker-03.us-east.example.net
+# collected: 2026-04-30T02:13:10Z by inventory-agent 1.10.8
+
+[system]
+hostname = worker-03
+role = worker
+region = us-east
+os = Debian GNU/Linux 12 (bookworm)
+kernel = 6.1.0-21-amd64
+arch = x86_64
+timezone = UTC
+cpus = 16
+memory_mb = 16384
+memory_free_mb = 6330
+uptime_days = 38
+
+[kernel.params]
+net.core.somaxconn = 8192
+net.ipv4.tcp_tw_reuse = 1
+net.ipv4.ip_local_port_range = 32768 60999
+vm.swappiness = 10
+vm.max_map_count = 262144
+fs.file-max = 2097152
+net.ipv4.tcp_keepalive_time = 600
+kernel.pid_max = 4194304
+net.core.netdev_max_backlog = 1000
+vm.dirty_ratio = 10
+net.ipv4.tcp_fin_timeout = 60
+fs.inotify.max_user_watches = 524288
+
+[packages]
+openssl = 3.0.2-0ubuntu1.18
+nginx = 1.24.0-2
+curl = 8.5.0-3
+python3 = 3.10.12-1
+systemd = 255.4-1ubuntu8.4
+openssh-server = 8.9p1-3ubuntu0.10
+ca-certificates = 20230311ubuntu0.22.04.1
+git = 2.39.2-1.1
+jq = 1.7.1-3
+vim = 2:8.2.3995-1ubuntu2.17
+rsync = 3.2.7-0ubuntu0.22.04.2
+htop = 3.2.2-2
+logrotate = 3.21.0-1
+chrony = 4.2-2ubuntu2
+fail2ban = 0.11.2-6
+node-exporter = 1.8.1-1
+fluent-bit = 3.0.7-1
+docker-ce = 5:27.0.3-1
+containerd.io = 1.7.19-1
+unattended-upgrades = 2.9.1+nmu3
+libc6 = 2.39-0ubuntu8.3
+zlib1g = 1:1.3.dfsg-3.1ubuntu2.1
+sudo = 1.9.15p5-3ubuntu5
+bash = 5.1-6ubuntu1.1
+coreutils = 9.1-1
+iproute2 = 5.15.0-1ubuntu2
+tcpdump = 4.99.3-1
+strace = 6.8-0ubuntu2
+
+[mounts]
+/  /dev/nvme0n1p2  ext4  size_gb=80  used_pct=70
+/boot/efi  /dev/nvme0n1p1  vfat  size_gb=1  used_pct=62
+/data  /dev/mapper/vg0-data  xfs  size_gb=1000  used_pct=25
+/mnt/backup  nas-01.internal:/export/backup  nfs4  size_gb=4000  used_pct=67
+/srv/cache  /dev/mapper/vg0-cache  ext4  size_gb=200  used_pct=90
+/var/log  /dev/mapper/vg0-log  ext4  size_gb=50  used_pct=85
+
+[services]
+chrony = active
+containerd = active
+cron = active
+docker = active
+fail2ban = active
+fluent-bit = active
+nginx = active
+unattended-upgrades = active
+
+[environment]
+APP_ENV = production
+REGION = us-east
+LOG_LEVEL = info
+METRICS_PORT = 9100
+TZ = UTC
+JAVA_OPTS = -Xms2g -Xmx6g
+FEATURE_FLAGS = canary=off,tracing=on
+DEPLOY_CHANNEL = stable
+
+[certificates]
+/etc/ssl/certs/worker.pem  expires=2026-07-20  issuer=internal-ca
+
+[load]
+load_1m = 1.13
+load_5m = 1.88
+processes = 302
+open_files = 23799
+tcp_established = 851

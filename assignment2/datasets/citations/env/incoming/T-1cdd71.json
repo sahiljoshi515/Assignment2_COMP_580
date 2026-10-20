@@ -1,0 +1,19 @@
+{
+  "tid": "T-1cdd71",
+  "seq": 13,
+  "citation": {
+    "authors": [
+      "Ahmed, Viktor",
+      "Mendes, Wen",
+      "Okafor, Jonas",
+      "Park, Tomas"
+    ],
+    "title": "Self-Supervised pretraining for scaled machine translation",
+    "venue": "ACM SIGMOD International Conference on Management of Data",
+    "year": 2024,
+    "doi": "10.5555/sigmod.2024.ad61",
+    "pages": "7312-7322"
+  },
+  "raw": "Ahmed, Viktor, Mendes, Wen, Okafor, Jonas, and Park, Tomas, \"Self-Supervised pretraining for scaled machine translation,\" in Proc. ACM SIGMOD International Conference on Management of Data, Dec. 2024, pages 7312-7322, https://doi.org/10.5555/sigmod.2024.ad61.",
+  "received": "2026-01-19"
+}

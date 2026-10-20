@@ -1,0 +1,18 @@
+{
+  "tid": "T-43af6d",
+  "seq": 50,
+  "citation": {
+    "authors": [
+      "Moretti, Sofia",
+      "Ibarra, Pablo",
+      "Tores, Dmitri"
+    ],
+    "title": "Self-Supervised Pretraining for Efficient Link Prediction",
+    "venue": "NeurIPS",
+    "year": 2026,
+    "doi": "10.5555/neurips.2025.a135",
+    "pages": "2614-2626"
+  },
+  "raw": "Moretti, Sofia, Ibarra, Pablo, & Tores, Dmitri. April 2026. Self-Supervised Pretraining for Efficient Link Prediction. In Proc. NeurIPS. Curran Associates, Inc., Red Hook, NY, USA, 2614-2626. 10.5555/neurips.2025.a135",
+  "received": "2026-03-04"
+}

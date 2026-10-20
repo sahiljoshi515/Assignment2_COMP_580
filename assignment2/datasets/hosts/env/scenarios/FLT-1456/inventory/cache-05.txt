@@ -1,0 +1,97 @@
+# host: cache-05.eu-west.example.net
+# collected: 2026-04-19T02:06:55Z by inventory-agent 1.6.4
+
+[system]
+hostname = cache-05
+role = cache
+region = eu-west
+os = Ubuntu 22.04.4 LTS
+kernel = 5.15.0-105-generic
+arch = x86_64
+timezone = UTC
+cpus = 4
+memory_mb = 65536
+memory_free_mb = 22912
+uptime_days = 41
+
+[kernel.params]
+net.core.somaxconn = 8192
+net.ipv4.tcp_tw_reuse = 0
+net.ipv4.ip_local_port_range = 32768 60999
+vm.swappiness = 10
+vm.max_map_count = 262144
+fs.file-max = 1048576
+net.ipv4.tcp_keepalive_time = 600
+kernel.pid_max = 4194304
+net.core.netdev_max_backlog = 5000
+vm.dirty_ratio = 40
+net.ipv4.tcp_fin_timeout = 60
+fs.inotify.max_user_watches = 8192
+
+[packages]
+openssl = 3.0.13-0ubuntu3.4
+nginx = 1.24.0-2
+curl = 8.9.1-1
+python3 = 3.11.2-6
+systemd = 255.4-1ubuntu8.4
+openssh-server = 8.9p1-3ubuntu0.10
+ca-certificates = 20230311ubuntu0.22.04.1
+git = 2.39.2-1.1
+jq = 1.6-2.1
+vim = 2:9.0.1378-2
+rsync = 3.2.7-0ubuntu0.22.04.2
+htop = 3.0.5-7build2
+logrotate = 3.21.0-1
+chrony = 4.5-1ubuntu4
+fail2ban = 1.0.2-3ubuntu0.1
+node-exporter = 1.8.1-1
+fluent-bit = 3.1.4-1
+docker-ce = 5:27.0.3-1
+containerd.io = 1.6.33-1
+unattended-upgrades = 2.9.1+nmu4ubuntu1
+libc6 = 2.39-0ubuntu8.3
+zlib1g = 1:1.2.13.dfsg-1
+sudo = 1.9.9-1ubuntu2.4
+bash = 5.1-6ubuntu1.1
+coreutils = 8.32-4.1ubuntu1.2
+iproute2 = 5.15.0-1ubuntu2
+tcpdump = 4.99.3-1
+strace = 5.16-0ubuntu3
+
+[mounts]
+/  /dev/nvme0n1p2  ext4  size_gb=80  used_pct=41
+/boot/efi  /dev/nvme0n1p1  vfat  size_gb=1  used_pct=74
+/data  /dev/mapper/vg0-data  xfs  size_gb=1000  used_pct=26
+/mnt/backup  nas-01.internal:/export/backup  nfs4  size_gb=4000  used_pct=21
+/srv/cache  /dev/mapper/vg0-cache  ext4  size_gb=200  used_pct=61
+/var/log  /dev/mapper/vg0-log  ext4  size_gb=50  used_pct=83
+
+[services]
+chrony = active
+containerd = active
+docker = active
+fluent-bit = active
+nginx = inactive
+node-exporter = active
+ssh = active
+unattended-upgrades = active
+
+[environment]
+APP_ENV = production
+REGION = eu-west
+LOG_LEVEL = info
+METRICS_PORT = 9100
+TZ = UTC
+JAVA_OPTS = -Xms2g -Xmx6g
+FEATURE_FLAGS = canary=off,tracing=on
+DEPLOY_CHANNEL = stable
+
+[certificates]
+/etc/ssl/certs/cache.pem  expires=2026-12-15  issuer=internal-ca
+
+[load]
+load_1m = 1.33
+load_5m = 3.58
+processes = 145
+open_files = 35156
+tcp_established = 564

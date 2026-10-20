@@ -1,0 +1,10 @@
+{
+  "tid": "T-2cfdb6",
+  "seq": 38,
+  "scenario": "INC-1380",
+  "kind": "old_version",
+  "target": null,
+  "subject": "INC-1380: which host runs a different release",
+  "body": "Hi, Nora Lindqvist from the payments team here. Which\ngateway host is running a different release than the others,\nand which version is it on?\n\nThe release is printed in the first line of each host's log\nin logs/.\n\nRegards, Nora Lindqvist -- payments",
+  "received": "2026-03-23"
+}

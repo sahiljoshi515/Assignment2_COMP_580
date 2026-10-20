@@ -1,0 +1,114 @@
+2026-02-01T07:12:09Z billing-05 INFO  starting billing 2.7.2 (build f0fabb2) on billing-05
+2026-02-01T07:12:10Z billing-05 INFO  config: max_connections=128
+2026-02-01T07:12:10Z billing-05 INFO  config: pool_size=16
+2026-02-01T07:12:10Z billing-05 INFO  config: request_timeout_ms=2000
+2026-02-01T07:12:10Z billing-05 INFO  config: cache_ttl_s=900
+2026-02-01T07:12:10Z billing-05 INFO  config: log_level=DEBUG
+2026-02-01T07:12:10Z billing-05 INFO  config: queue_depth=1000
+2026-02-01T07:12:10Z billing-05 INFO  config: gc_interval_s=120
+2026-02-01T07:12:11Z billing-05 INFO  listening on 0.0.0.0:8080; workers=4
+2026-02-01T07:12:09Z billing-05 INFO  health check ok (latency 11ms)
+2026-02-01T07:12:12Z billing-05 INFO  GET /v1/profile 200 in 310ms rid=1c4025
+2026-02-01T07:12:20Z billing-05 INFO  GET /health 200 in 390ms rid=f33847
+2026-02-01T07:12:26Z billing-05 INFO  metrics: rps=257 p99=669ms heap=1285MB goroutines=368
+2026-02-01T07:12:28Z billing-05 INFO  GET /v1/profile 200 in 237ms rid=1d370b
+2026-02-01T07:12:36Z billing-05 INFO  POST /v1/refunds 200 in 142ms rid=717b2a
+2026-02-01T07:12:39Z billing-05 INFO  health check ok (latency 8ms)
+2026-02-01T07:12:44Z billing-05 INFO  POST /v1/payments 200 in 172ms rid=c1f1d1
+2026-02-01T07:12:50Z billing-05 WARN  slow query took 41ms on shard 3
+2026-02-01T07:12:52Z billing-05 INFO  GET /health 200 in 380ms rid=ac3beb
+2026-02-01T07:13:00Z billing-05 INFO  GET /v1/search 200 in 333ms rid=20fe98
+2026-02-01T07:13:08Z billing-05 INFO  GET /v1/items/51506 200 in 389ms rid=7f15ed
+2026-02-01T07:13:09Z billing-05 INFO  health check ok (latency 5ms)
+2026-02-01T07:13:16Z billing-05 INFO  GET /v1/orders/34947 200 in 377ms rid=e1c6c8
+2026-02-01T07:13:24Z billing-05 INFO  GET /v1/items/35066 200 in 219ms rid=a45705
+2026-02-01T07:13:32Z billing-05 INFO  GET /v1/orders/98449 200 in 227ms rid=ca995f
+2026-02-01T07:13:39Z billing-05 INFO  health check ok (latency 7ms)
+2026-02-01T07:13:40Z billing-05 INFO  DELETE /v1/cart/29446 200 in 94ms rid=ba404f
+2026-02-01T07:13:48Z billing-05 INFO  DELETE /v1/cart/3162 200 in 121ms rid=54951c
+2026-02-01T07:13:56Z billing-05 INFO  PUT /v1/cart 200 in 380ms rid=cb6225
+2026-02-01T07:14:04Z billing-05 INFO  GET /v1/profile 200 in 41ms rid=463aba
+2026-02-01T07:14:09Z billing-05 INFO  health check ok (latency 2ms)
+2026-02-01T07:14:12Z billing-05 INFO  PUT /v1/cart 200 in 274ms rid=6f5174
+2026-02-01T07:14:20Z billing-05 INFO  DELETE /v1/cart/69220 200 in 82ms rid=7503e6
+2026-02-01T07:14:26Z billing-05 INFO  metrics: rps=374 p99=617ms heap=1590MB goroutines=72
+2026-02-01T07:14:27Z billing-05 WARN  cache miss ratio above 0.32
+2026-02-01T07:14:28Z billing-05 INFO  GET /v1/profile 200 in 329ms rid=e91c79
+2026-02-01T07:14:36Z billing-05 INFO  POST /v1/payments 200 in 134ms rid=1f460f
+2026-02-01T07:14:39Z billing-05 INFO  health check ok (latency 2ms)
+2026-02-01T07:14:44Z billing-05 INFO  GET /v1/orders/26944 200 in 157ms rid=4d38ff
+2026-02-01T07:14:52Z billing-05 INFO  GET /v1/items/59467 200 in 125ms rid=9013e5
+2026-02-01T07:15:00Z billing-05 INFO  GET /v1/orders/13322 200 in 100ms rid=015414
+2026-02-01T07:15:08Z billing-05 INFO  POST /v1/orders 200 in 200ms rid=f9898e
+2026-02-01T07:15:09Z billing-05 INFO  health check ok (latency 10ms)
+2026-02-01T07:15:16Z billing-05 INFO  PUT /v1/cart 200 in 156ms rid=a05ea4
+2026-02-01T07:15:24Z billing-05 INFO  DELETE /v1/cart/95788 200 in 236ms rid=05ff14
+2026-02-01T07:15:32Z billing-05 INFO  PUT /v1/cart 200 in 75ms rid=763183
+2026-02-01T07:15:39Z billing-05 INFO  health check ok (latency 3ms)
+2026-02-01T07:15:40Z billing-05 INFO  GET /v1/profile 503 in 337ms rid=b51e53
+2026-02-01T07:15:40Z billing-05 ERROR TimeoutError: pricing-cache did not respond within 2000ms (attempt 1/3)
+2026-02-01T07:15:44Z billing-05 ERROR TimeoutError: pricing-cache did not respond within 2000ms (attempt 2/3)
+2026-02-01T07:15:48Z billing-05 INFO  DELETE /v1/cart/99144 503 in 363ms rid=33d10b
+2026-02-01T07:15:48Z billing-05 ERROR TimeoutError: pricing-cache did not respond within 2000ms (attempt 3/3)
+2026-02-01T07:15:52Z billing-05 ERROR TimeoutError: pricing-cache did not respond within 2000ms (attempt 1/3)
+2026-02-01T07:15:56Z billing-05 INFO  GET /v1/orders/41690 503 in 85ms rid=08b34c
+2026-02-01T07:15:56Z billing-05 ERROR TimeoutError: pricing-cache did not respond within 2000ms (attempt 2/3)
+2026-02-01T07:16:00Z billing-05 ERROR TimeoutError: pricing-cache did not respond within 2000ms (attempt 3/3)
+2026-02-01T07:16:04Z billing-05 INFO  POST /v1/orders 200 in 30ms rid=4c85d3
+2026-02-01T07:16:04Z billing-05 WARN  retrying upstream call (attempt 3/3)
+2026-02-01T07:16:04Z billing-05 ERROR TimeoutError: pricing-cache did not respond within 2000ms (attempt 1/3)
+2026-02-01T07:16:08Z billing-05 ERROR TimeoutError: pricing-cache did not respond within 2000ms (attempt 2/3)
+2026-02-01T07:16:09Z billing-05 WARN  health check FAILED: pricing-cache unreachable
+2026-02-01T07:16:12Z billing-05 INFO  POST /v1/orders 200 in 101ms rid=e657e0
+2026-02-01T07:16:12Z billing-05 ERROR TimeoutError: pricing-cache did not respond within 2000ms (attempt 3/3)
+2026-02-01T07:16:16Z billing-05 ERROR TimeoutError: pricing-cache did not respond within 2000ms (attempt 1/3)
+2026-02-01T07:16:20Z billing-05 INFO  DELETE /v1/cart/46983 503 in 328ms rid=ceaaac
+2026-02-01T07:16:20Z billing-05 ERROR TimeoutError: pricing-cache did not respond within 2000ms (attempt 2/3)
+2026-02-01T07:16:24Z billing-05 ERROR TimeoutError: pricing-cache did not respond within 2000ms (attempt 3/3)
+2026-02-01T07:16:26Z billing-05 INFO  metrics: rps=293 p99=251ms heap=1219MB goroutines=542
+2026-02-01T07:16:28Z billing-05 INFO  GET /v1/orders/9460 503 in 399ms rid=174113
+2026-02-01T07:16:28Z billing-05 ERROR TimeoutError: pricing-cache did not respond within 2000ms (attempt 1/3)
+2026-02-01T07:16:32Z billing-05 ERROR TimeoutError: pricing-cache did not respond within 2000ms (attempt 2/3)
+2026-02-01T07:16:36Z billing-05 INFO  GET /v1/search 200 in 196ms rid=cef5f7
+2026-02-01T07:16:36Z billing-05 ERROR TimeoutError: pricing-cache did not respond within 2000ms (attempt 3/3)
+2026-02-01T07:16:39Z billing-05 WARN  health check FAILED: pricing-cache unreachable
+2026-02-01T07:16:40Z billing-05 ERROR TimeoutError: pricing-cache did not respond within 2000ms (attempt 1/3)
+2026-02-01T07:16:44Z billing-05 INFO  GET /v1/items/51850 503 in 212ms rid=c36532
+2026-02-01T07:16:44Z billing-05 ERROR TimeoutError: pricing-cache did not respond within 2000ms (attempt 2/3)
+2026-02-01T07:16:48Z billing-05 ERROR TimeoutError: pricing-cache did not respond within 2000ms (attempt 3/3)
+2026-02-01T07:16:52Z billing-05 INFO  PUT /v1/cart 503 in 396ms rid=776a66
+2026-02-01T07:16:52Z billing-05 ERROR TimeoutError: pricing-cache did not respond within 2000ms (attempt 1/3)
+2026-02-01T07:16:56Z billing-05 ERROR TimeoutError: giving up on pricing-cache after 20 attempts
+2026-02-01T07:17:00Z billing-05 INFO  GET /v1/search 200 in 277ms rid=29c0c5
+2026-02-01T07:17:08Z billing-05 INFO  GET /v1/profile 200 in 168ms rid=cc0ca0
+2026-02-01T07:17:09Z billing-05 INFO  health check ok (latency 5ms)
+2026-02-01T07:17:16Z billing-05 INFO  POST /v1/refunds 200 in 124ms rid=a67491
+2026-02-01T07:17:24Z billing-05 INFO  GET /health 200 in 259ms rid=b360bc
+2026-02-01T07:17:32Z billing-05 INFO  GET /v1/profile 200 in 61ms rid=9e496a
+2026-02-01T07:17:39Z billing-05 INFO  health check ok (latency 10ms)
+2026-02-01T07:17:40Z billing-05 INFO  GET /v1/profile 200 in 162ms rid=836ea6
+2026-02-01T07:17:41Z billing-05 WARN  slow query took 64ms on shard 2
+2026-02-01T07:17:48Z billing-05 INFO  POST /v1/orders 200 in 76ms rid=eecafa
+2026-02-01T07:17:56Z billing-05 INFO  GET /v1/items/46430 200 in 159ms rid=636ffc
+2026-02-01T07:18:04Z billing-05 INFO  POST /v1/payments 200 in 226ms rid=7e1d63
+2026-02-01T07:18:09Z billing-05 INFO  health check ok (latency 6ms)
+2026-02-01T07:18:12Z billing-05 INFO  PUT /v1/cart 200 in 84ms rid=37e9c3
+2026-02-01T07:18:20Z billing-05 INFO  GET /v1/orders/9097 200 in 294ms rid=e25006
+2026-02-01T07:18:26Z billing-05 INFO  metrics: rps=323 p99=794ms heap=356MB goroutines=208
+2026-02-01T07:18:28Z billing-05 INFO  GET /v1/profile 200 in 149ms rid=a1a342
+2026-02-01T07:18:36Z billing-05 INFO  PUT /v1/cart 200 in 251ms rid=71e1f0
+2026-02-01T07:18:39Z billing-05 INFO  health check ok (latency 6ms)
+2026-02-01T07:18:44Z billing-05 INFO  POST /v1/payments 200 in 362ms rid=a8a8b9
+2026-02-01T07:18:52Z billing-05 INFO  POST /v1/payments 200 in 304ms rid=5c23d5
+2026-02-01T07:19:00Z billing-05 INFO  POST /v1/orders 200 in 56ms rid=141ccf
+2026-02-01T07:19:08Z billing-05 INFO  POST /v1/orders 200 in 186ms rid=40b4fb
+2026-02-01T07:19:09Z billing-05 INFO  health check ok (latency 11ms)
+2026-02-01T07:19:16Z billing-05 INFO  GET /v1/orders/92641 200 in 82ms rid=a712dd
+2026-02-01T07:19:18Z billing-05 WARN  slow query took 26ms on shard 3
+2026-02-01T07:19:24Z billing-05 INFO  GET /health 200 in 94ms rid=64d015
+2026-02-01T07:19:32Z billing-05 INFO  GET /v1/orders/86307 200 in 41ms rid=5351d8
+2026-02-01T07:19:39Z billing-05 INFO  health check ok (latency 8ms)
+2026-02-01T07:19:40Z billing-05 INFO  POST /v1/refunds 200 in 238ms rid=3625b3
+2026-02-01T07:19:48Z billing-05 INFO  GET /v1/orders/20771 200 in 31ms rid=c5b1d5
+2026-02-01T07:19:56Z billing-05 INFO  GET /v1/profile 200 in 5ms rid=22cdcc
+2026-02-01T07:20:04Z billing-05 INFO  DELETE /v1/cart/36116 200 in 170ms rid=766beb

@@ -1,0 +1,4533 @@
+{
+  "MBX-1000": {
+    "groups": [
+      {
+        "name": "data-retention",
+        "files": [
+          "inbox/025_retention-change-for-telemetry-data.eml",
+          "inbox/026_re-retention-change-for-telemetry-data.eml",
+          "inbox/027_re-retention-change-for-telemetry-data.eml",
+          "inbox/028_re-retention-change-for-telemetry-data.eml",
+          "inbox/029_re-retention-change-for-telemetry-data.eml",
+          "inbox/030_re-retention-change-for-telemetry-data.eml",
+          "inbox/031_re-retention-change-for-telemetry-data.eml"
+        ]
+      },
+      {
+        "name": "nightly-reports",
+        "files": [
+          "inbox/001_nightly-backup-report.eml",
+          "inbox/004_nightly-backup-report.eml",
+          "inbox/005_nightly-backup-report.eml",
+          "inbox/009_nightly-backup-report.eml",
+          "inbox/014_nightly-backup-report.eml",
+          "inbox/016_nightly-backup-report.eml",
+          "inbox/017_nightly-backup-report.eml",
+          "inbox/019_nightly-backup-report.eml",
+          "inbox/020_nightly-backup-report.eml",
+          "inbox/022_nightly-backup-report.eml",
+          "inbox/024_nightly-backup-report.eml"
+        ]
+      },
+      {
+        "name": "office-move",
+        "files": [
+          "inbox/010_office-move-to-the-riverside-annex.eml",
+          "inbox/011_re-office-move-to-the-riverside-annex.eml",
+          "inbox/015_re-office-move-to-the-riverside-annex.eml",
+          "inbox/018_re-office-move-to-the-riverside-annex.eml",
+          "inbox/021_re-office-move-to-the-riverside-annex.eml",
+          "inbox/023_re-office-move-to-the-riverside-annex.eml"
+        ]
+      },
+      {
+        "name": "sponsorship",
+        "files": [
+          "inbox/006_sponsorship-of-kubecon-local.eml",
+          "inbox/007_re-sponsorship-of-kubecon-local.eml",
+          "inbox/008_re-sponsorship-of-kubecon-local.eml",
+          "inbox/012_re-sponsorship-of-kubecon-local.eml",
+          "inbox/013_re-sponsorship-of-kubecon-local.eml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inbox/001_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/004_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/005_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/006_sponsorship-of-kubecon-local.eml": [
+        1,
+        4
+      ],
+      "inbox/007_re-sponsorship-of-kubecon-local.eml": [
+        1,
+        4
+      ],
+      "inbox/008_re-sponsorship-of-kubecon-local.eml": [
+        1,
+        4
+      ],
+      "inbox/009_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/010_office-move-to-the-riverside-annex.eml": [
+        1,
+        4
+      ],
+      "inbox/011_re-office-move-to-the-riverside-annex.eml": [
+        1,
+        4
+      ],
+      "inbox/012_re-sponsorship-of-kubecon-local.eml": [
+        1,
+        4
+      ],
+      "inbox/013_re-sponsorship-of-kubecon-local.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/014_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/015_re-office-move-to-the-riverside-annex.eml": [
+        1,
+        4
+      ],
+      "inbox/016_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/017_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/018_re-office-move-to-the-riverside-annex.eml": [
+        1,
+        4
+      ],
+      "inbox/019_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/020_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/021_re-office-move-to-the-riverside-annex.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/022_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/023_re-office-move-to-the-riverside-annex.eml": [
+        1,
+        4
+      ],
+      "inbox/024_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/025_retention-change-for-telemetry-data.eml": [
+        1,
+        4
+      ],
+      "inbox/026_re-retention-change-for-telemetry-data.eml": [
+        1,
+        4
+      ],
+      "inbox/027_re-retention-change-for-telemetry-data.eml": [
+        1,
+        4
+      ],
+      "inbox/028_re-retention-change-for-telemetry-data.eml": [
+        1,
+        4
+      ],
+      "inbox/029_re-retention-change-for-telemetry-data.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/030_re-retention-change-for-telemetry-data.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/031_re-retention-change-for-telemetry-data.eml": [
+        1,
+        4
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 101,
+      "within_min": 0.343,
+      "within_p50": 0.827,
+      "within_max": 1.0,
+      "cross_max": 0.257
+    }
+  },
+  "MBX-1038": {
+    "groups": [
+      {
+        "name": "hiring-plan",
+        "files": [
+          "inbox/015_hiring-plan-for-the-support-team.eml",
+          "inbox/017_re-hiring-plan-for-the-support-team.eml",
+          "inbox/019_re-hiring-plan-for-the-support-team.eml",
+          "inbox/021_re-hiring-plan-for-the-support-team.eml",
+          "inbox/023_re-hiring-plan-for-the-support-team.eml"
+        ]
+      },
+      {
+        "name": "laptop-refresh",
+        "files": [
+          "inbox/002_laptop-refresh-for-the-support-team.eml",
+          "inbox/003_re-laptop-refresh-for-the-support-team.eml",
+          "inbox/004_re-laptop-refresh-for-the-support-team.eml",
+          "inbox/007_re-laptop-refresh-for-the-support-team.eml",
+          "inbox/008_re-laptop-refresh-for-the-support-team.eml",
+          "inbox/014_re-laptop-refresh-for-the-support-team.eml"
+        ]
+      },
+      {
+        "name": "nightly-reports",
+        "files": [
+          "inbox/001_nightly-backup-report.eml",
+          "inbox/005_nightly-backup-report.eml",
+          "inbox/006_nightly-backup-report.eml",
+          "inbox/009_nightly-backup-report.eml",
+          "inbox/010_nightly-backup-report.eml",
+          "inbox/013_nightly-backup-report.eml",
+          "inbox/016_nightly-backup-report.eml",
+          "inbox/018_nightly-backup-report.eml",
+          "inbox/020_nightly-backup-report.eml"
+        ]
+      },
+      {
+        "name": "office-move",
+        "files": [
+          "inbox/022_office-move-to-the-riverside-annex.eml",
+          "inbox/024_re-office-move-to-the-riverside-annex.eml",
+          "inbox/025_re-office-move-to-the-riverside-annex.eml",
+          "inbox/026_re-office-move-to-the-riverside-annex.eml",
+          "inbox/027_re-office-move-to-the-riverside-annex.eml",
+          "inbox/028_re-office-move-to-the-riverside-annex.eml",
+          "inbox/029_re-office-move-to-the-riverside-annex.eml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inbox/001_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/002_laptop-refresh-for-the-support-team.eml": [
+        1,
+        4
+      ],
+      "inbox/003_re-laptop-refresh-for-the-support-team.eml": [
+        1,
+        4
+      ],
+      "inbox/004_re-laptop-refresh-for-the-support-team.eml": [
+        1,
+        4
+      ],
+      "inbox/005_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/006_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/007_re-laptop-refresh-for-the-support-team.eml": [
+        1,
+        4
+      ],
+      "inbox/008_re-laptop-refresh-for-the-support-team.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/009_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/010_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/013_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/014_re-laptop-refresh-for-the-support-team.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/015_hiring-plan-for-the-support-team.eml": [
+        1,
+        4
+      ],
+      "inbox/016_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/017_re-hiring-plan-for-the-support-team.eml": [
+        1,
+        4
+      ],
+      "inbox/018_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/019_re-hiring-plan-for-the-support-team.eml": [
+        1,
+        4
+      ],
+      "inbox/020_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/021_re-hiring-plan-for-the-support-team.eml": [
+        1,
+        4
+      ],
+      "inbox/022_office-move-to-the-riverside-annex.eml": [
+        1,
+        4
+      ],
+      "inbox/023_re-hiring-plan-for-the-support-team.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/024_re-office-move-to-the-riverside-annex.eml": [
+        1,
+        4
+      ],
+      "inbox/025_re-office-move-to-the-riverside-annex.eml": [
+        1,
+        4
+      ],
+      "inbox/026_re-office-move-to-the-riverside-annex.eml": [
+        1,
+        4
+      ],
+      "inbox/027_re-office-move-to-the-riverside-annex.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/028_re-office-move-to-the-riverside-annex.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/029_re-office-move-to-the-riverside-annex.eml": [
+        1,
+        4
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 82,
+      "within_min": 0.362,
+      "within_p50": 0.781,
+      "within_max": 1.0,
+      "cross_max": 0.273
+    }
+  },
+  "MBX-1076": {
+    "groups": [
+      {
+        "name": "laptop-refresh",
+        "files": [
+          "inbox/002_laptop-refresh-for-engineering.eml",
+          "inbox/004_re-laptop-refresh-for-engineering.eml",
+          "inbox/007_re-laptop-refresh-for-engineering.eml",
+          "inbox/009_re-laptop-refresh-for-engineering.eml",
+          "inbox/010_re-laptop-refresh-for-engineering.eml"
+        ]
+      },
+      {
+        "name": "nightly-reports",
+        "files": [
+          "inbox/001_nightly-backup-report.eml",
+          "inbox/003_nightly-backup-report.eml",
+          "inbox/005_nightly-backup-report.eml",
+          "inbox/008_nightly-backup-report.eml",
+          "inbox/011_nightly-backup-report.eml",
+          "inbox/013_nightly-backup-report.eml",
+          "inbox/016_nightly-backup-report.eml",
+          "inbox/017_nightly-backup-report.eml",
+          "inbox/019_nightly-backup-report.eml"
+        ]
+      },
+      {
+        "name": "sponsorship",
+        "files": [
+          "inbox/022_sponsorship-of-kubecon-local.eml",
+          "inbox/023_re-sponsorship-of-kubecon-local.eml",
+          "inbox/024_re-sponsorship-of-kubecon-local.eml",
+          "inbox/025_re-sponsorship-of-kubecon-local.eml",
+          "inbox/026_re-sponsorship-of-kubecon-local.eml",
+          "inbox/027_re-sponsorship-of-kubecon-local.eml"
+        ]
+      },
+      {
+        "name": "vendor-renewal",
+        "files": [
+          "inbox/012_vendor-contract-renewal-for-contoso-clou.eml",
+          "inbox/014_re-vendor-contract-renewal-for-contoso-c.eml",
+          "inbox/015_re-vendor-contract-renewal-for-contoso-c.eml",
+          "inbox/018_re-vendor-contract-renewal-for-contoso-c.eml",
+          "inbox/021_re-vendor-contract-renewal-for-contoso-c.eml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inbox/001_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/002_laptop-refresh-for-engineering.eml": [
+        1,
+        4
+      ],
+      "inbox/003_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/004_re-laptop-refresh-for-engineering.eml": [
+        1,
+        4
+      ],
+      "inbox/005_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/007_re-laptop-refresh-for-engineering.eml": [
+        1,
+        4
+      ],
+      "inbox/008_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/009_re-laptop-refresh-for-engineering.eml": [
+        1,
+        4
+      ],
+      "inbox/010_re-laptop-refresh-for-engineering.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/011_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/012_vendor-contract-renewal-for-contoso-clou.eml": [
+        1,
+        4
+      ],
+      "inbox/013_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/014_re-vendor-contract-renewal-for-contoso-c.eml": [
+        1,
+        4
+      ],
+      "inbox/015_re-vendor-contract-renewal-for-contoso-c.eml": [
+        1,
+        4
+      ],
+      "inbox/016_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/017_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/018_re-vendor-contract-renewal-for-contoso-c.eml": [
+        1,
+        4
+      ],
+      "inbox/019_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/021_re-vendor-contract-renewal-for-contoso-c.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/022_sponsorship-of-kubecon-local.eml": [
+        1,
+        4
+      ],
+      "inbox/023_re-sponsorship-of-kubecon-local.eml": [
+        1,
+        4
+      ],
+      "inbox/024_re-sponsorship-of-kubecon-local.eml": [
+        1,
+        4
+      ],
+      "inbox/025_re-sponsorship-of-kubecon-local.eml": [
+        1,
+        4
+      ],
+      "inbox/026_re-sponsorship-of-kubecon-local.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/027_re-sponsorship-of-kubecon-local.eml": [
+        1,
+        4
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 71,
+      "within_min": 0.41,
+      "within_p50": 0.807,
+      "within_max": 0.939,
+      "cross_max": 0.237
+    }
+  },
+  "MBX-1114": {
+    "groups": [
+      {
+        "name": "hiring-plan",
+        "files": [
+          "inbox/007_hiring-plan-for-the-support-team.eml",
+          "inbox/008_re-hiring-plan-for-the-support-team.eml",
+          "inbox/009_re-hiring-plan-for-the-support-team.eml",
+          "inbox/013_re-hiring-plan-for-the-support-team.eml",
+          "inbox/014_re-hiring-plan-for-the-support-team.eml"
+        ]
+      },
+      {
+        "name": "laptop-refresh",
+        "files": [
+          "inbox/021_laptop-refresh-for-the-sales-team.eml",
+          "inbox/023_re-laptop-refresh-for-the-sales-team.eml",
+          "inbox/024_re-laptop-refresh-for-the-sales-team.eml",
+          "inbox/025_re-laptop-refresh-for-the-sales-team.eml",
+          "inbox/026_re-laptop-refresh-for-the-sales-team.eml",
+          "inbox/028_re-laptop-refresh-for-the-sales-team.eml"
+        ]
+      },
+      {
+        "name": "nightly-reports",
+        "files": [
+          "inbox/001_nightly-backup-report.eml",
+          "inbox/002_nightly-backup-report.eml",
+          "inbox/004_nightly-backup-report.eml",
+          "inbox/010_nightly-backup-report.eml",
+          "inbox/012_nightly-backup-report.eml",
+          "inbox/016_nightly-backup-report.eml",
+          "inbox/018_nightly-backup-report.eml",
+          "inbox/019_nightly-backup-report.eml",
+          "inbox/022_nightly-backup-report.eml"
+        ]
+      },
+      {
+        "name": "policy-exception",
+        "files": [
+          "inbox/003_exception-request-for-the-two-factor-pol.eml",
+          "inbox/005_re-exception-request-for-the-two-factor-.eml",
+          "inbox/006_re-exception-request-for-the-two-factor-.eml",
+          "inbox/011_re-exception-request-for-the-two-factor-.eml",
+          "inbox/015_re-exception-request-for-the-two-factor-.eml",
+          "inbox/020_re-exception-request-for-the-two-factor-.eml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inbox/001_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/002_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/003_exception-request-for-the-two-factor-pol.eml": [
+        1,
+        4
+      ],
+      "inbox/004_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/005_re-exception-request-for-the-two-factor-.eml": [
+        1,
+        4
+      ],
+      "inbox/006_re-exception-request-for-the-two-factor-.eml": [
+        1,
+        4
+      ],
+      "inbox/007_hiring-plan-for-the-support-team.eml": [
+        1,
+        4
+      ],
+      "inbox/008_re-hiring-plan-for-the-support-team.eml": [
+        1,
+        4
+      ],
+      "inbox/009_re-hiring-plan-for-the-support-team.eml": [
+        1,
+        4
+      ],
+      "inbox/010_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/011_re-exception-request-for-the-two-factor-.eml": [
+        1,
+        4
+      ],
+      "inbox/012_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/013_re-hiring-plan-for-the-support-team.eml": [
+        1,
+        4
+      ],
+      "inbox/014_re-hiring-plan-for-the-support-team.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/015_re-exception-request-for-the-two-factor-.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/016_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/018_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/019_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/020_re-exception-request-for-the-two-factor-.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/021_laptop-refresh-for-the-sales-team.eml": [
+        1,
+        4
+      ],
+      "inbox/022_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/023_re-laptop-refresh-for-the-sales-team.eml": [
+        1,
+        4
+      ],
+      "inbox/024_re-laptop-refresh-for-the-sales-team.eml": [
+        1,
+        4
+      ],
+      "inbox/025_re-laptop-refresh-for-the-sales-team.eml": [
+        1,
+        4
+      ],
+      "inbox/026_re-laptop-refresh-for-the-sales-team.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/028_re-laptop-refresh-for-the-sales-team.eml": [
+        1,
+        4,
+        7,
+        10
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 76,
+      "within_min": 0.359,
+      "within_p50": 0.799,
+      "within_max": 1.0,
+      "cross_max": 0.262
+    }
+  },
+  "MBX-1152": {
+    "groups": [
+      {
+        "name": "nightly-reports",
+        "files": [
+          "inbox/001_nightly-backup-report.eml",
+          "inbox/003_nightly-backup-report.eml",
+          "inbox/005_nightly-backup-report.eml",
+          "inbox/010_nightly-backup-report.eml",
+          "inbox/012_nightly-backup-report.eml",
+          "inbox/014_nightly-backup-report.eml",
+          "inbox/017_nightly-backup-report.eml",
+          "inbox/022_nightly-backup-report.eml",
+          "inbox/026_nightly-backup-report.eml",
+          "inbox/028_nightly-backup-report.eml",
+          "inbox/030_nightly-backup-report.eml"
+        ]
+      },
+      {
+        "name": "office-move",
+        "files": [
+          "inbox/006_office-move-to-harbour-house.eml",
+          "inbox/008_re-office-move-to-harbour-house.eml",
+          "inbox/009_re-office-move-to-harbour-house.eml",
+          "inbox/011_re-office-move-to-harbour-house.eml",
+          "inbox/016_re-office-move-to-harbour-house.eml",
+          "inbox/019_re-office-move-to-harbour-house.eml",
+          "inbox/023_re-office-move-to-harbour-house.eml"
+        ]
+      },
+      {
+        "name": "policy-exception",
+        "files": [
+          "inbox/020_exception-request-for-the-screen-lock-po.eml",
+          "inbox/021_re-exception-request-for-the-screen-lock.eml",
+          "inbox/024_re-exception-request-for-the-screen-lock.eml",
+          "inbox/025_re-exception-request-for-the-screen-lock.eml",
+          "inbox/027_re-exception-request-for-the-screen-lock.eml",
+          "inbox/029_re-exception-request-for-the-screen-lock.eml"
+        ]
+      },
+      {
+        "name": "tool-migration",
+        "files": [
+          "inbox/002_migration-from-issuehub-to-the-new-track.eml",
+          "inbox/004_re-migration-from-issuehub-to-the-new-tr.eml",
+          "inbox/007_re-migration-from-issuehub-to-the-new-tr.eml",
+          "inbox/013_re-migration-from-issuehub-to-the-new-tr.eml",
+          "inbox/015_re-migration-from-issuehub-to-the-new-tr.eml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inbox/001_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/002_migration-from-issuehub-to-the-new-track.eml": [
+        1,
+        4
+      ],
+      "inbox/003_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/004_re-migration-from-issuehub-to-the-new-tr.eml": [
+        1,
+        4
+      ],
+      "inbox/005_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/006_office-move-to-harbour-house.eml": [
+        1,
+        4
+      ],
+      "inbox/007_re-migration-from-issuehub-to-the-new-tr.eml": [
+        1,
+        4
+      ],
+      "inbox/008_re-office-move-to-harbour-house.eml": [
+        1,
+        4
+      ],
+      "inbox/009_re-office-move-to-harbour-house.eml": [
+        1,
+        4
+      ],
+      "inbox/010_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/011_re-office-move-to-harbour-house.eml": [
+        1,
+        4
+      ],
+      "inbox/012_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/013_re-migration-from-issuehub-to-the-new-tr.eml": [
+        1,
+        4
+      ],
+      "inbox/014_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/015_re-migration-from-issuehub-to-the-new-tr.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/016_re-office-move-to-harbour-house.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/017_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/019_re-office-move-to-harbour-house.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/020_exception-request-for-the-screen-lock-po.eml": [
+        1,
+        4
+      ],
+      "inbox/021_re-exception-request-for-the-screen-lock.eml": [
+        1,
+        4
+      ],
+      "inbox/022_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/023_re-office-move-to-harbour-house.eml": [
+        1,
+        4
+      ],
+      "inbox/024_re-exception-request-for-the-screen-lock.eml": [
+        1,
+        4
+      ],
+      "inbox/025_re-exception-request-for-the-screen-lock.eml": [
+        1,
+        4
+      ],
+      "inbox/026_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/027_re-exception-request-for-the-screen-lock.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/028_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/029_re-exception-request-for-the-screen-lock.eml": [
+        1,
+        4
+      ],
+      "inbox/030_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 101,
+      "within_min": 0.355,
+      "within_p50": 0.807,
+      "within_max": 1.0,
+      "cross_max": 0.328
+    }
+  },
+  "MBX-1190": {
+    "groups": [
+      {
+        "name": "laptop-refresh",
+        "files": [
+          "inbox/022_laptop-refresh-for-engineering.eml",
+          "inbox/023_re-laptop-refresh-for-engineering.eml",
+          "inbox/024_re-laptop-refresh-for-engineering.eml",
+          "inbox/026_re-laptop-refresh-for-engineering.eml",
+          "inbox/029_re-laptop-refresh-for-engineering.eml"
+        ]
+      },
+      {
+        "name": "nightly-reports",
+        "files": [
+          "inbox/001_nightly-backup-report.eml",
+          "inbox/003_nightly-backup-report.eml",
+          "inbox/004_nightly-backup-report.eml",
+          "inbox/007_nightly-backup-report.eml",
+          "inbox/011_nightly-backup-report.eml",
+          "inbox/013_nightly-backup-report.eml",
+          "inbox/015_nightly-backup-report.eml",
+          "inbox/018_nightly-backup-report.eml",
+          "inbox/019_nightly-backup-report.eml",
+          "inbox/025_nightly-backup-report.eml",
+          "inbox/027_nightly-backup-report.eml"
+        ]
+      },
+      {
+        "name": "policy-exception",
+        "files": [
+          "inbox/005_exception-request-for-the-vpn-only-acces.eml",
+          "inbox/006_re-exception-request-for-the-vpn-only-ac.eml",
+          "inbox/008_re-exception-request-for-the-vpn-only-ac.eml",
+          "inbox/014_re-exception-request-for-the-vpn-only-ac.eml",
+          "inbox/017_re-exception-request-for-the-vpn-only-ac.eml",
+          "inbox/021_re-exception-request-for-the-vpn-only-ac.eml"
+        ]
+      },
+      {
+        "name": "vendor-renewal",
+        "files": [
+          "inbox/009_vendor-contract-renewal-for-fabrikam-sup.eml",
+          "inbox/010_re-vendor-contract-renewal-for-fabrikam-.eml",
+          "inbox/012_re-vendor-contract-renewal-for-fabrikam-.eml",
+          "inbox/016_re-vendor-contract-renewal-for-fabrikam-.eml",
+          "inbox/020_re-vendor-contract-renewal-for-fabrikam-.eml",
+          "inbox/030_re-vendor-contract-renewal-for-fabrikam-.eml",
+          "inbox/031_re-vendor-contract-renewal-for-fabrikam-.eml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inbox/001_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/003_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/004_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/005_exception-request-for-the-vpn-only-acces.eml": [
+        1,
+        4
+      ],
+      "inbox/006_re-exception-request-for-the-vpn-only-ac.eml": [
+        1,
+        4
+      ],
+      "inbox/007_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/008_re-exception-request-for-the-vpn-only-ac.eml": [
+        1,
+        4
+      ],
+      "inbox/009_vendor-contract-renewal-for-fabrikam-sup.eml": [
+        1,
+        4
+      ],
+      "inbox/010_re-vendor-contract-renewal-for-fabrikam-.eml": [
+        1,
+        4
+      ],
+      "inbox/011_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/012_re-vendor-contract-renewal-for-fabrikam-.eml": [
+        1,
+        4
+      ],
+      "inbox/013_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/014_re-exception-request-for-the-vpn-only-ac.eml": [
+        1,
+        4
+      ],
+      "inbox/015_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/016_re-vendor-contract-renewal-for-fabrikam-.eml": [
+        1,
+        4
+      ],
+      "inbox/017_re-exception-request-for-the-vpn-only-ac.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/018_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/019_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/020_re-vendor-contract-renewal-for-fabrikam-.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/021_re-exception-request-for-the-vpn-only-ac.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/022_laptop-refresh-for-engineering.eml": [
+        1,
+        4
+      ],
+      "inbox/023_re-laptop-refresh-for-engineering.eml": [
+        1,
+        4
+      ],
+      "inbox/024_re-laptop-refresh-for-engineering.eml": [
+        1,
+        4
+      ],
+      "inbox/025_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/026_re-laptop-refresh-for-engineering.eml": [
+        1,
+        4
+      ],
+      "inbox/027_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/029_re-laptop-refresh-for-engineering.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/030_re-vendor-contract-renewal-for-fabrikam-.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/031_re-vendor-contract-renewal-for-fabrikam-.eml": [
+        1,
+        4
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 101,
+      "within_min": 0.354,
+      "within_p50": 0.841,
+      "within_max": 1.0,
+      "cross_max": 0.253
+    }
+  },
+  "MBX-1228": {
+    "groups": [
+      {
+        "name": "nightly-reports",
+        "files": [
+          "inbox/001_nightly-backup-report.eml",
+          "inbox/004_nightly-backup-report.eml",
+          "inbox/007_nightly-backup-report.eml",
+          "inbox/010_nightly-backup-report.eml",
+          "inbox/012_nightly-backup-report.eml",
+          "inbox/013_nightly-backup-report.eml",
+          "inbox/016_nightly-backup-report.eml",
+          "inbox/020_nightly-backup-report.eml"
+        ]
+      },
+      {
+        "name": "office-move",
+        "files": [
+          "inbox/003_office-move-to-the-riverside-annex.eml",
+          "inbox/005_re-office-move-to-the-riverside-annex.eml",
+          "inbox/006_re-office-move-to-the-riverside-annex.eml",
+          "inbox/008_re-office-move-to-the-riverside-annex.eml",
+          "inbox/009_re-office-move-to-the-riverside-annex.eml"
+        ]
+      },
+      {
+        "name": "policy-exception",
+        "files": [
+          "inbox/022_exception-request-for-the-screen-lock-po.eml",
+          "inbox/024_re-exception-request-for-the-screen-lock.eml",
+          "inbox/025_re-exception-request-for-the-screen-lock.eml",
+          "inbox/026_re-exception-request-for-the-screen-lock.eml",
+          "inbox/027_re-exception-request-for-the-screen-lock.eml"
+        ]
+      },
+      {
+        "name": "vendor-renewal",
+        "files": [
+          "inbox/014_vendor-contract-renewal-for-contoso-clou.eml",
+          "inbox/015_re-vendor-contract-renewal-for-contoso-c.eml",
+          "inbox/017_re-vendor-contract-renewal-for-contoso-c.eml",
+          "inbox/018_re-vendor-contract-renewal-for-contoso-c.eml",
+          "inbox/019_re-vendor-contract-renewal-for-contoso-c.eml",
+          "inbox/021_re-vendor-contract-renewal-for-contoso-c.eml",
+          "inbox/023_re-vendor-contract-renewal-for-contoso-c.eml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inbox/001_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/003_office-move-to-the-riverside-annex.eml": [
+        1,
+        4
+      ],
+      "inbox/004_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/005_re-office-move-to-the-riverside-annex.eml": [
+        1,
+        4
+      ],
+      "inbox/006_re-office-move-to-the-riverside-annex.eml": [
+        1,
+        4
+      ],
+      "inbox/007_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/008_re-office-move-to-the-riverside-annex.eml": [
+        1,
+        4
+      ],
+      "inbox/009_re-office-move-to-the-riverside-annex.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/010_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/012_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/013_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/014_vendor-contract-renewal-for-contoso-clou.eml": [
+        1,
+        4
+      ],
+      "inbox/015_re-vendor-contract-renewal-for-contoso-c.eml": [
+        1,
+        4
+      ],
+      "inbox/016_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/017_re-vendor-contract-renewal-for-contoso-c.eml": [
+        1,
+        4
+      ],
+      "inbox/018_re-vendor-contract-renewal-for-contoso-c.eml": [
+        1,
+        4
+      ],
+      "inbox/019_re-vendor-contract-renewal-for-contoso-c.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/020_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/021_re-vendor-contract-renewal-for-contoso-c.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/022_exception-request-for-the-screen-lock-po.eml": [
+        1,
+        4
+      ],
+      "inbox/023_re-vendor-contract-renewal-for-contoso-c.eml": [
+        1,
+        4
+      ],
+      "inbox/024_re-exception-request-for-the-screen-lock.eml": [
+        1,
+        4
+      ],
+      "inbox/025_re-exception-request-for-the-screen-lock.eml": [
+        1,
+        4
+      ],
+      "inbox/026_re-exception-request-for-the-screen-lock.eml": [
+        1,
+        4
+      ],
+      "inbox/027_re-exception-request-for-the-screen-lock.eml": [
+        1,
+        4,
+        7,
+        10
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 69,
+      "within_min": 0.388,
+      "within_p50": 0.743,
+      "within_max": 1.0,
+      "cross_max": 0.272
+    }
+  },
+  "MBX-1266": {
+    "groups": [
+      {
+        "name": "laptop-refresh",
+        "files": [
+          "inbox/004_laptop-refresh-for-the-support-team.eml",
+          "inbox/005_re-laptop-refresh-for-the-support-team.eml",
+          "inbox/007_re-laptop-refresh-for-the-support-team.eml",
+          "inbox/009_re-laptop-refresh-for-the-support-team.eml",
+          "inbox/017_re-laptop-refresh-for-the-support-team.eml",
+          "inbox/025_re-laptop-refresh-for-the-support-team.eml",
+          "inbox/027_re-laptop-refresh-for-the-support-team.eml"
+        ]
+      },
+      {
+        "name": "nightly-reports",
+        "files": [
+          "inbox/001_nightly-backup-report.eml",
+          "inbox/002_nightly-backup-report.eml",
+          "inbox/003_nightly-backup-report.eml",
+          "inbox/006_nightly-backup-report.eml",
+          "inbox/008_nightly-backup-report.eml",
+          "inbox/011_nightly-backup-report.eml",
+          "inbox/015_nightly-backup-report.eml",
+          "inbox/018_nightly-backup-report.eml",
+          "inbox/021_nightly-backup-report.eml"
+        ]
+      },
+      {
+        "name": "policy-exception",
+        "files": [
+          "inbox/014_exception-request-for-the-vpn-only-acces.eml",
+          "inbox/016_re-exception-request-for-the-vpn-only-ac.eml",
+          "inbox/019_re-exception-request-for-the-vpn-only-ac.eml",
+          "inbox/022_re-exception-request-for-the-vpn-only-ac.eml",
+          "inbox/023_re-exception-request-for-the-vpn-only-ac.eml",
+          "inbox/024_re-exception-request-for-the-vpn-only-ac.eml"
+        ]
+      },
+      {
+        "name": "tool-migration",
+        "files": [
+          "inbox/010_migration-from-issuehub-to-the-new-track.eml",
+          "inbox/012_re-migration-from-issuehub-to-the-new-tr.eml",
+          "inbox/013_re-migration-from-issuehub-to-the-new-tr.eml",
+          "inbox/020_re-migration-from-issuehub-to-the-new-tr.eml",
+          "inbox/026_re-migration-from-issuehub-to-the-new-tr.eml",
+          "inbox/030_re-migration-from-issuehub-to-the-new-tr.eml",
+          "inbox/031_re-migration-from-issuehub-to-the-new-tr.eml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inbox/001_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/002_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/003_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/004_laptop-refresh-for-the-support-team.eml": [
+        1,
+        4
+      ],
+      "inbox/005_re-laptop-refresh-for-the-support-team.eml": [
+        1,
+        4
+      ],
+      "inbox/006_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/007_re-laptop-refresh-for-the-support-team.eml": [
+        1,
+        4
+      ],
+      "inbox/008_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/009_re-laptop-refresh-for-the-support-team.eml": [
+        1,
+        4
+      ],
+      "inbox/010_migration-from-issuehub-to-the-new-track.eml": [
+        1,
+        4
+      ],
+      "inbox/011_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/012_re-migration-from-issuehub-to-the-new-tr.eml": [
+        1,
+        4
+      ],
+      "inbox/013_re-migration-from-issuehub-to-the-new-tr.eml": [
+        1,
+        4
+      ],
+      "inbox/014_exception-request-for-the-vpn-only-acces.eml": [
+        1,
+        4
+      ],
+      "inbox/015_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/016_re-exception-request-for-the-vpn-only-ac.eml": [
+        1,
+        4
+      ],
+      "inbox/017_re-laptop-refresh-for-the-support-team.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/018_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/019_re-exception-request-for-the-vpn-only-ac.eml": [
+        1,
+        4
+      ],
+      "inbox/020_re-migration-from-issuehub-to-the-new-tr.eml": [
+        1,
+        4
+      ],
+      "inbox/021_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/022_re-exception-request-for-the-vpn-only-ac.eml": [
+        1,
+        4
+      ],
+      "inbox/023_re-exception-request-for-the-vpn-only-ac.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/024_re-exception-request-for-the-vpn-only-ac.eml": [
+        1,
+        4
+      ],
+      "inbox/025_re-laptop-refresh-for-the-support-team.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/026_re-migration-from-issuehub-to-the-new-tr.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/027_re-laptop-refresh-for-the-support-team.eml": [
+        1,
+        4
+      ],
+      "inbox/030_re-migration-from-issuehub-to-the-new-tr.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/031_re-migration-from-issuehub-to-the-new-tr.eml": [
+        1,
+        4
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 93,
+      "within_min": 0.358,
+      "within_p50": 0.741,
+      "within_max": 0.94,
+      "cross_max": 0.287
+    }
+  },
+  "MBX-1304": {
+    "groups": [
+      {
+        "name": "data-retention",
+        "files": [
+          "inbox/019_retention-change-for-support-ticket-data.eml",
+          "inbox/020_re-retention-change-for-support-ticket-d.eml",
+          "inbox/024_re-retention-change-for-support-ticket-d.eml",
+          "inbox/027_re-retention-change-for-support-ticket-d.eml",
+          "inbox/028_re-retention-change-for-support-ticket-d.eml",
+          "inbox/029_re-retention-change-for-support-ticket-d.eml"
+        ]
+      },
+      {
+        "name": "nightly-reports",
+        "files": [
+          "inbox/001_nightly-backup-report.eml",
+          "inbox/005_nightly-backup-report.eml",
+          "inbox/006_nightly-backup-report.eml",
+          "inbox/009_nightly-backup-report.eml",
+          "inbox/012_nightly-backup-report.eml",
+          "inbox/013_nightly-backup-report.eml",
+          "inbox/017_nightly-backup-report.eml",
+          "inbox/021_nightly-backup-report.eml",
+          "inbox/026_nightly-backup-report.eml"
+        ]
+      },
+      {
+        "name": "policy-exception",
+        "files": [
+          "inbox/002_exception-request-for-the-device-encrypt.eml",
+          "inbox/003_re-exception-request-for-the-device-encr.eml",
+          "inbox/004_re-exception-request-for-the-device-encr.eml",
+          "inbox/007_re-exception-request-for-the-device-encr.eml",
+          "inbox/008_re-exception-request-for-the-device-encr.eml",
+          "inbox/011_re-exception-request-for-the-device-encr.eml"
+        ]
+      },
+      {
+        "name": "vendor-renewal",
+        "files": [
+          "inbox/015_vendor-contract-renewal-for-contoso-clou.eml",
+          "inbox/016_re-vendor-contract-renewal-for-contoso-c.eml",
+          "inbox/018_re-vendor-contract-renewal-for-contoso-c.eml",
+          "inbox/022_re-vendor-contract-renewal-for-contoso-c.eml",
+          "inbox/023_re-vendor-contract-renewal-for-contoso-c.eml",
+          "inbox/025_re-vendor-contract-renewal-for-contoso-c.eml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inbox/001_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/002_exception-request-for-the-device-encrypt.eml": [
+        1,
+        4
+      ],
+      "inbox/003_re-exception-request-for-the-device-encr.eml": [
+        1,
+        4
+      ],
+      "inbox/004_re-exception-request-for-the-device-encr.eml": [
+        1,
+        4
+      ],
+      "inbox/005_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/006_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/007_re-exception-request-for-the-device-encr.eml": [
+        1,
+        4
+      ],
+      "inbox/008_re-exception-request-for-the-device-encr.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/009_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/011_re-exception-request-for-the-device-encr.eml": [
+        1,
+        4
+      ],
+      "inbox/012_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/013_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/015_vendor-contract-renewal-for-contoso-clou.eml": [
+        1,
+        4
+      ],
+      "inbox/016_re-vendor-contract-renewal-for-contoso-c.eml": [
+        1,
+        4
+      ],
+      "inbox/017_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/018_re-vendor-contract-renewal-for-contoso-c.eml": [
+        1,
+        4
+      ],
+      "inbox/019_retention-change-for-support-ticket-data.eml": [
+        1,
+        4
+      ],
+      "inbox/020_re-retention-change-for-support-ticket-d.eml": [
+        1,
+        4
+      ],
+      "inbox/021_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/022_re-vendor-contract-renewal-for-contoso-c.eml": [
+        1,
+        4
+      ],
+      "inbox/023_re-vendor-contract-renewal-for-contoso-c.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/024_re-retention-change-for-support-ticket-d.eml": [
+        1,
+        4
+      ],
+      "inbox/025_re-vendor-contract-renewal-for-contoso-c.eml": [
+        1,
+        4
+      ],
+      "inbox/026_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/027_re-retention-change-for-support-ticket-d.eml": [
+        1,
+        4
+      ],
+      "inbox/028_re-retention-change-for-support-ticket-d.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/029_re-retention-change-for-support-ticket-d.eml": [
+        1,
+        4
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 81,
+      "within_min": 0.417,
+      "within_p50": 0.791,
+      "within_max": 1.0,
+      "cross_max": 0.238
+    }
+  },
+  "MBX-1342": {
+    "groups": [
+      {
+        "name": "hiring-plan",
+        "files": [
+          "inbox/007_hiring-plan-for-the-data-team.eml",
+          "inbox/008_re-hiring-plan-for-the-data-team.eml",
+          "inbox/011_re-hiring-plan-for-the-data-team.eml",
+          "inbox/015_re-hiring-plan-for-the-data-team.eml",
+          "inbox/016_re-hiring-plan-for-the-data-team.eml",
+          "inbox/024_re-hiring-plan-for-the-data-team.eml",
+          "inbox/025_re-hiring-plan-for-the-data-team.eml"
+        ]
+      },
+      {
+        "name": "laptop-refresh",
+        "files": [
+          "inbox/004_laptop-refresh-for-engineering.eml",
+          "inbox/005_re-laptop-refresh-for-engineering.eml",
+          "inbox/009_re-laptop-refresh-for-engineering.eml",
+          "inbox/013_re-laptop-refresh-for-engineering.eml",
+          "inbox/017_re-laptop-refresh-for-engineering.eml",
+          "inbox/020_re-laptop-refresh-for-engineering.eml"
+        ]
+      },
+      {
+        "name": "nightly-reports",
+        "files": [
+          "inbox/001_nightly-backup-report.eml",
+          "inbox/002_nightly-backup-report.eml",
+          "inbox/003_nightly-backup-report.eml",
+          "inbox/006_nightly-backup-report.eml",
+          "inbox/010_nightly-backup-report.eml",
+          "inbox/012_nightly-backup-report.eml",
+          "inbox/014_nightly-backup-report.eml",
+          "inbox/018_nightly-backup-report.eml",
+          "inbox/021_nightly-backup-report.eml"
+        ]
+      },
+      {
+        "name": "office-move",
+        "files": [
+          "inbox/022_office-move-to-the-elm-street-site.eml",
+          "inbox/023_re-office-move-to-the-elm-street-site.eml",
+          "inbox/026_re-office-move-to-the-elm-street-site.eml",
+          "inbox/027_re-office-move-to-the-elm-street-site.eml",
+          "inbox/029_re-office-move-to-the-elm-street-site.eml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inbox/001_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/002_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/003_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/004_laptop-refresh-for-engineering.eml": [
+        1,
+        4
+      ],
+      "inbox/005_re-laptop-refresh-for-engineering.eml": [
+        1,
+        4
+      ],
+      "inbox/006_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/007_hiring-plan-for-the-data-team.eml": [
+        1,
+        4
+      ],
+      "inbox/008_re-hiring-plan-for-the-data-team.eml": [
+        1,
+        4
+      ],
+      "inbox/009_re-laptop-refresh-for-engineering.eml": [
+        1,
+        4
+      ],
+      "inbox/010_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/011_re-hiring-plan-for-the-data-team.eml": [
+        1,
+        4
+      ],
+      "inbox/012_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/013_re-laptop-refresh-for-engineering.eml": [
+        1,
+        4
+      ],
+      "inbox/014_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/015_re-hiring-plan-for-the-data-team.eml": [
+        1,
+        4
+      ],
+      "inbox/016_re-hiring-plan-for-the-data-team.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/017_re-laptop-refresh-for-engineering.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/018_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/020_re-laptop-refresh-for-engineering.eml": [
+        1,
+        4
+      ],
+      "inbox/021_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/022_office-move-to-the-elm-street-site.eml": [
+        1,
+        4
+      ],
+      "inbox/023_re-office-move-to-the-elm-street-site.eml": [
+        1,
+        4
+      ],
+      "inbox/024_re-hiring-plan-for-the-data-team.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/025_re-hiring-plan-for-the-data-team.eml": [
+        1,
+        4
+      ],
+      "inbox/026_re-office-move-to-the-elm-street-site.eml": [
+        1,
+        4
+      ],
+      "inbox/027_re-office-move-to-the-elm-street-site.eml": [
+        1,
+        4
+      ],
+      "inbox/029_re-office-move-to-the-elm-street-site.eml": [
+        1,
+        4,
+        7,
+        10
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 82,
+      "within_min": 0.389,
+      "within_p50": 0.795,
+      "within_max": 0.943,
+      "cross_max": 0.253
+    }
+  },
+  "MBX-1380": {
+    "groups": [
+      {
+        "name": "data-retention",
+        "files": [
+          "inbox/003_retention-change-for-access-log-data.eml",
+          "inbox/004_re-retention-change-for-access-log-data.eml",
+          "inbox/006_re-retention-change-for-access-log-data.eml",
+          "inbox/007_re-retention-change-for-access-log-data.eml",
+          "inbox/010_re-retention-change-for-access-log-data.eml",
+          "inbox/014_re-retention-change-for-access-log-data.eml",
+          "inbox/016_re-retention-change-for-access-log-data.eml"
+        ]
+      },
+      {
+        "name": "nightly-reports",
+        "files": [
+          "inbox/001_nightly-backup-report.eml",
+          "inbox/002_nightly-backup-report.eml",
+          "inbox/005_nightly-backup-report.eml",
+          "inbox/008_nightly-backup-report.eml",
+          "inbox/009_nightly-backup-report.eml",
+          "inbox/012_nightly-backup-report.eml",
+          "inbox/015_nightly-backup-report.eml",
+          "inbox/018_nightly-backup-report.eml",
+          "inbox/021_nightly-backup-report.eml",
+          "inbox/025_nightly-backup-report.eml",
+          "inbox/028_nightly-backup-report.eml"
+        ]
+      },
+      {
+        "name": "office-move",
+        "files": [
+          "inbox/019_office-move-to-the-elm-street-site.eml",
+          "inbox/022_re-office-move-to-the-elm-street-site.eml",
+          "inbox/026_re-office-move-to-the-elm-street-site.eml",
+          "inbox/029_re-office-move-to-the-elm-street-site.eml",
+          "inbox/030_re-office-move-to-the-elm-street-site.eml",
+          "inbox/031_re-office-move-to-the-elm-street-site.eml"
+        ]
+      },
+      {
+        "name": "sponsorship",
+        "files": [
+          "inbox/017_sponsorship-of-pydata-north.eml",
+          "inbox/020_re-sponsorship-of-pydata-north.eml",
+          "inbox/023_re-sponsorship-of-pydata-north.eml",
+          "inbox/024_re-sponsorship-of-pydata-north.eml",
+          "inbox/027_re-sponsorship-of-pydata-north.eml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inbox/001_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/002_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/003_retention-change-for-access-log-data.eml": [
+        1,
+        4
+      ],
+      "inbox/004_re-retention-change-for-access-log-data.eml": [
+        1,
+        4
+      ],
+      "inbox/005_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/006_re-retention-change-for-access-log-data.eml": [
+        1,
+        4
+      ],
+      "inbox/007_re-retention-change-for-access-log-data.eml": [
+        1,
+        4
+      ],
+      "inbox/008_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/009_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/010_re-retention-change-for-access-log-data.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/012_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/014_re-retention-change-for-access-log-data.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/015_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/016_re-retention-change-for-access-log-data.eml": [
+        1,
+        4
+      ],
+      "inbox/017_sponsorship-of-pydata-north.eml": [
+        1,
+        4
+      ],
+      "inbox/018_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/019_office-move-to-the-elm-street-site.eml": [
+        1,
+        4
+      ],
+      "inbox/020_re-sponsorship-of-pydata-north.eml": [
+        1,
+        4
+      ],
+      "inbox/021_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/022_re-office-move-to-the-elm-street-site.eml": [
+        1,
+        4
+      ],
+      "inbox/023_re-sponsorship-of-pydata-north.eml": [
+        1,
+        4
+      ],
+      "inbox/024_re-sponsorship-of-pydata-north.eml": [
+        1,
+        4
+      ],
+      "inbox/025_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/026_re-office-move-to-the-elm-street-site.eml": [
+        1,
+        4
+      ],
+      "inbox/027_re-sponsorship-of-pydata-north.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/028_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/029_re-office-move-to-the-elm-street-site.eml": [
+        1,
+        4
+      ],
+      "inbox/030_re-office-move-to-the-elm-street-site.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/031_re-office-move-to-the-elm-street-site.eml": [
+        1,
+        4
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 101,
+      "within_min": 0.339,
+      "within_p50": 0.835,
+      "within_max": 0.94,
+      "cross_max": 0.283
+    }
+  },
+  "MBX-1418": {
+    "groups": [
+      {
+        "name": "data-retention",
+        "files": [
+          "inbox/002_retention-change-for-access-log-data.eml",
+          "inbox/004_re-retention-change-for-access-log-data.eml",
+          "inbox/006_re-retention-change-for-access-log-data.eml",
+          "inbox/008_re-retention-change-for-access-log-data.eml",
+          "inbox/009_re-retention-change-for-access-log-data.eml"
+        ]
+      },
+      {
+        "name": "nightly-reports",
+        "files": [
+          "inbox/001_nightly-backup-report.eml",
+          "inbox/003_nightly-backup-report.eml",
+          "inbox/005_nightly-backup-report.eml",
+          "inbox/007_nightly-backup-report.eml",
+          "inbox/011_nightly-backup-report.eml",
+          "inbox/014_nightly-backup-report.eml",
+          "inbox/018_nightly-backup-report.eml",
+          "inbox/021_nightly-backup-report.eml",
+          "inbox/023_nightly-backup-report.eml",
+          "inbox/025_nightly-backup-report.eml",
+          "inbox/028_nightly-backup-report.eml"
+        ]
+      },
+      {
+        "name": "sponsorship",
+        "files": [
+          "inbox/010_sponsorship-of-the-regional-security-mee.eml",
+          "inbox/012_re-sponsorship-of-the-regional-security-.eml",
+          "inbox/013_re-sponsorship-of-the-regional-security-.eml",
+          "inbox/016_re-sponsorship-of-the-regional-security-.eml",
+          "inbox/020_re-sponsorship-of-the-regional-security-.eml",
+          "inbox/022_re-sponsorship-of-the-regional-security-.eml"
+        ]
+      },
+      {
+        "name": "vendor-renewal",
+        "files": [
+          "inbox/015_vendor-contract-renewal-for-northwind.eml",
+          "inbox/017_re-vendor-contract-renewal-for-northwind.eml",
+          "inbox/019_re-vendor-contract-renewal-for-northwind.eml",
+          "inbox/024_re-vendor-contract-renewal-for-northwind.eml",
+          "inbox/027_re-vendor-contract-renewal-for-northwind.eml",
+          "inbox/030_re-vendor-contract-renewal-for-northwind.eml",
+          "inbox/031_re-vendor-contract-renewal-for-northwind.eml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inbox/001_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/002_retention-change-for-access-log-data.eml": [
+        1,
+        4
+      ],
+      "inbox/003_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/004_re-retention-change-for-access-log-data.eml": [
+        1,
+        4
+      ],
+      "inbox/005_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/006_re-retention-change-for-access-log-data.eml": [
+        1,
+        4
+      ],
+      "inbox/007_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/008_re-retention-change-for-access-log-data.eml": [
+        1,
+        4
+      ],
+      "inbox/009_re-retention-change-for-access-log-data.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/010_sponsorship-of-the-regional-security-mee.eml": [
+        1,
+        4
+      ],
+      "inbox/011_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/012_re-sponsorship-of-the-regional-security-.eml": [
+        1,
+        4
+      ],
+      "inbox/013_re-sponsorship-of-the-regional-security-.eml": [
+        1,
+        4
+      ],
+      "inbox/014_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/015_vendor-contract-renewal-for-northwind.eml": [
+        1,
+        4
+      ],
+      "inbox/016_re-sponsorship-of-the-regional-security-.eml": [
+        1,
+        4
+      ],
+      "inbox/017_re-vendor-contract-renewal-for-northwind.eml": [
+        1,
+        4
+      ],
+      "inbox/018_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/019_re-vendor-contract-renewal-for-northwind.eml": [
+        1,
+        4
+      ],
+      "inbox/020_re-sponsorship-of-the-regional-security-.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/021_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/022_re-sponsorship-of-the-regional-security-.eml": [
+        1,
+        4
+      ],
+      "inbox/023_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/024_re-vendor-contract-renewal-for-northwind.eml": [
+        1,
+        4
+      ],
+      "inbox/025_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/027_re-vendor-contract-renewal-for-northwind.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/028_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/030_re-vendor-contract-renewal-for-northwind.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/031_re-vendor-contract-renewal-for-northwind.eml": [
+        1,
+        4
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 101,
+      "within_min": 0.385,
+      "within_p50": 0.833,
+      "within_max": 1.0,
+      "cross_max": 0.265
+    }
+  },
+  "MBX-1456": {
+    "groups": [
+      {
+        "name": "hiring-plan",
+        "files": [
+          "inbox/013_hiring-plan-for-the-support-team.eml",
+          "inbox/016_re-hiring-plan-for-the-support-team.eml",
+          "inbox/018_re-hiring-plan-for-the-support-team.eml",
+          "inbox/020_re-hiring-plan-for-the-support-team.eml",
+          "inbox/021_re-hiring-plan-for-the-support-team.eml",
+          "inbox/023_re-hiring-plan-for-the-support-team.eml"
+        ]
+      },
+      {
+        "name": "laptop-refresh",
+        "files": [
+          "inbox/003_laptop-refresh-for-engineering.eml",
+          "inbox/005_re-laptop-refresh-for-engineering.eml",
+          "inbox/006_re-laptop-refresh-for-engineering.eml",
+          "inbox/007_re-laptop-refresh-for-engineering.eml",
+          "inbox/009_re-laptop-refresh-for-engineering.eml",
+          "inbox/014_re-laptop-refresh-for-engineering.eml"
+        ]
+      },
+      {
+        "name": "nightly-reports",
+        "files": [
+          "inbox/001_nightly-backup-report.eml",
+          "inbox/002_nightly-backup-report.eml",
+          "inbox/004_nightly-backup-report.eml",
+          "inbox/008_nightly-backup-report.eml",
+          "inbox/010_nightly-backup-report.eml",
+          "inbox/011_nightly-backup-report.eml",
+          "inbox/012_nightly-backup-report.eml",
+          "inbox/015_nightly-backup-report.eml",
+          "inbox/017_nightly-backup-report.eml",
+          "inbox/019_nightly-backup-report.eml"
+        ]
+      },
+      {
+        "name": "policy-exception",
+        "files": [
+          "inbox/024_exception-request-for-the-screen-lock-po.eml",
+          "inbox/025_re-exception-request-for-the-screen-lock.eml",
+          "inbox/027_re-exception-request-for-the-screen-lock.eml",
+          "inbox/028_re-exception-request-for-the-screen-lock.eml",
+          "inbox/029_re-exception-request-for-the-screen-lock.eml",
+          "inbox/030_re-exception-request-for-the-screen-lock.eml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inbox/001_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/002_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/003_laptop-refresh-for-engineering.eml": [
+        1,
+        4
+      ],
+      "inbox/004_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/005_re-laptop-refresh-for-engineering.eml": [
+        1,
+        4
+      ],
+      "inbox/006_re-laptop-refresh-for-engineering.eml": [
+        1,
+        4
+      ],
+      "inbox/007_re-laptop-refresh-for-engineering.eml": [
+        1,
+        4
+      ],
+      "inbox/008_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/009_re-laptop-refresh-for-engineering.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/010_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/011_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/012_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/013_hiring-plan-for-the-support-team.eml": [
+        1,
+        4
+      ],
+      "inbox/014_re-laptop-refresh-for-engineering.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/015_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/016_re-hiring-plan-for-the-support-team.eml": [
+        1,
+        4
+      ],
+      "inbox/017_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/018_re-hiring-plan-for-the-support-team.eml": [
+        1,
+        4
+      ],
+      "inbox/019_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/020_re-hiring-plan-for-the-support-team.eml": [
+        1,
+        4
+      ],
+      "inbox/021_re-hiring-plan-for-the-support-team.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/023_re-hiring-plan-for-the-support-team.eml": [
+        1,
+        4
+      ],
+      "inbox/024_exception-request-for-the-screen-lock-po.eml": [
+        1,
+        4
+      ],
+      "inbox/025_re-exception-request-for-the-screen-lock.eml": [
+        1,
+        4
+      ],
+      "inbox/027_re-exception-request-for-the-screen-lock.eml": [
+        1,
+        4
+      ],
+      "inbox/028_re-exception-request-for-the-screen-lock.eml": [
+        1,
+        4
+      ],
+      "inbox/029_re-exception-request-for-the-screen-lock.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/030_re-exception-request-for-the-screen-lock.eml": [
+        1,
+        4
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 90,
+      "within_min": 0.385,
+      "within_p50": 0.827,
+      "within_max": 1.0,
+      "cross_max": 0.245
+    }
+  },
+  "MBX-1494": {
+    "groups": [
+      {
+        "name": "data-retention",
+        "files": [
+          "inbox/024_retention-change-for-support-ticket-data.eml",
+          "inbox/025_re-retention-change-for-support-ticket-d.eml",
+          "inbox/026_re-retention-change-for-support-ticket-d.eml",
+          "inbox/027_re-retention-change-for-support-ticket-d.eml",
+          "inbox/028_re-retention-change-for-support-ticket-d.eml",
+          "inbox/029_re-retention-change-for-support-ticket-d.eml",
+          "inbox/030_re-retention-change-for-support-ticket-d.eml"
+        ]
+      },
+      {
+        "name": "laptop-refresh",
+        "files": [
+          "inbox/003_laptop-refresh-for-the-sales-team.eml",
+          "inbox/005_re-laptop-refresh-for-the-sales-team.eml",
+          "inbox/006_re-laptop-refresh-for-the-sales-team.eml",
+          "inbox/007_re-laptop-refresh-for-the-sales-team.eml",
+          "inbox/010_re-laptop-refresh-for-the-sales-team.eml",
+          "inbox/012_re-laptop-refresh-for-the-sales-team.eml"
+        ]
+      },
+      {
+        "name": "nightly-reports",
+        "files": [
+          "inbox/001_nightly-backup-report.eml",
+          "inbox/004_nightly-backup-report.eml",
+          "inbox/008_nightly-backup-report.eml",
+          "inbox/009_nightly-backup-report.eml",
+          "inbox/011_nightly-backup-report.eml",
+          "inbox/013_nightly-backup-report.eml",
+          "inbox/014_nightly-backup-report.eml",
+          "inbox/016_nightly-backup-report.eml",
+          "inbox/019_nightly-backup-report.eml",
+          "inbox/021_nightly-backup-report.eml"
+        ]
+      },
+      {
+        "name": "vendor-renewal",
+        "files": [
+          "inbox/015_vendor-contract-renewal-for-northwind.eml",
+          "inbox/017_re-vendor-contract-renewal-for-northwind.eml",
+          "inbox/018_re-vendor-contract-renewal-for-northwind.eml",
+          "inbox/022_re-vendor-contract-renewal-for-northwind.eml",
+          "inbox/023_re-vendor-contract-renewal-for-northwind.eml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inbox/001_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/003_laptop-refresh-for-the-sales-team.eml": [
+        1,
+        4
+      ],
+      "inbox/004_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/005_re-laptop-refresh-for-the-sales-team.eml": [
+        1,
+        4
+      ],
+      "inbox/006_re-laptop-refresh-for-the-sales-team.eml": [
+        1,
+        4
+      ],
+      "inbox/007_re-laptop-refresh-for-the-sales-team.eml": [
+        1,
+        4
+      ],
+      "inbox/008_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/009_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/010_re-laptop-refresh-for-the-sales-team.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/011_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/012_re-laptop-refresh-for-the-sales-team.eml": [
+        1,
+        4
+      ],
+      "inbox/013_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/014_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/015_vendor-contract-renewal-for-northwind.eml": [
+        1,
+        4
+      ],
+      "inbox/016_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/017_re-vendor-contract-renewal-for-northwind.eml": [
+        1,
+        4
+      ],
+      "inbox/018_re-vendor-contract-renewal-for-northwind.eml": [
+        1,
+        4
+      ],
+      "inbox/019_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/021_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/022_re-vendor-contract-renewal-for-northwind.eml": [
+        1,
+        4
+      ],
+      "inbox/023_re-vendor-contract-renewal-for-northwind.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/024_retention-change-for-support-ticket-data.eml": [
+        1,
+        4
+      ],
+      "inbox/025_re-retention-change-for-support-ticket-d.eml": [
+        1,
+        4
+      ],
+      "inbox/026_re-retention-change-for-support-ticket-d.eml": [
+        1,
+        4
+      ],
+      "inbox/027_re-retention-change-for-support-ticket-d.eml": [
+        1,
+        4
+      ],
+      "inbox/028_re-retention-change-for-support-ticket-d.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/029_re-retention-change-for-support-ticket-d.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/030_re-retention-change-for-support-ticket-d.eml": [
+        1,
+        4
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 91,
+      "within_min": 0.335,
+      "within_p50": 0.811,
+      "within_max": 0.94,
+      "cross_max": 0.299
+    }
+  },
+  "MBX-1532": {
+    "groups": [
+      {
+        "name": "data-retention",
+        "files": [
+          "inbox/008_retention-change-for-telemetry-data.eml",
+          "inbox/011_re-retention-change-for-telemetry-data.eml",
+          "inbox/015_re-retention-change-for-telemetry-data.eml",
+          "inbox/021_re-retention-change-for-telemetry-data.eml",
+          "inbox/022_re-retention-change-for-telemetry-data.eml",
+          "inbox/030_re-retention-change-for-telemetry-data.eml"
+        ]
+      },
+      {
+        "name": "laptop-refresh",
+        "files": [
+          "inbox/017_laptop-refresh-for-the-support-team.eml",
+          "inbox/019_re-laptop-refresh-for-the-support-team.eml",
+          "inbox/023_re-laptop-refresh-for-the-support-team.eml",
+          "inbox/024_re-laptop-refresh-for-the-support-team.eml",
+          "inbox/025_re-laptop-refresh-for-the-support-team.eml",
+          "inbox/026_re-laptop-refresh-for-the-support-team.eml"
+        ]
+      },
+      {
+        "name": "nightly-reports",
+        "files": [
+          "inbox/001_nightly-backup-report.eml",
+          "inbox/002_nightly-backup-report.eml",
+          "inbox/003_nightly-backup-report.eml",
+          "inbox/005_nightly-backup-report.eml",
+          "inbox/007_nightly-backup-report.eml",
+          "inbox/010_nightly-backup-report.eml",
+          "inbox/012_nightly-backup-report.eml",
+          "inbox/016_nightly-backup-report.eml",
+          "inbox/018_nightly-backup-report.eml"
+        ]
+      },
+      {
+        "name": "policy-exception",
+        "files": [
+          "inbox/004_exception-request-for-the-device-encrypt.eml",
+          "inbox/006_re-exception-request-for-the-device-encr.eml",
+          "inbox/009_re-exception-request-for-the-device-encr.eml",
+          "inbox/014_re-exception-request-for-the-device-encr.eml",
+          "inbox/020_re-exception-request-for-the-device-encr.eml",
+          "inbox/028_re-exception-request-for-the-device-encr.eml",
+          "inbox/029_re-exception-request-for-the-device-encr.eml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inbox/001_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/002_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/003_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/004_exception-request-for-the-device-encrypt.eml": [
+        1,
+        4
+      ],
+      "inbox/005_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/006_re-exception-request-for-the-device-encr.eml": [
+        1,
+        4
+      ],
+      "inbox/007_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/008_retention-change-for-telemetry-data.eml": [
+        1,
+        4
+      ],
+      "inbox/009_re-exception-request-for-the-device-encr.eml": [
+        1,
+        4
+      ],
+      "inbox/010_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/011_re-retention-change-for-telemetry-data.eml": [
+        1,
+        4
+      ],
+      "inbox/012_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/014_re-exception-request-for-the-device-encr.eml": [
+        1,
+        4
+      ],
+      "inbox/015_re-retention-change-for-telemetry-data.eml": [
+        1,
+        4
+      ],
+      "inbox/016_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/017_laptop-refresh-for-the-support-team.eml": [
+        1,
+        4
+      ],
+      "inbox/018_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/019_re-laptop-refresh-for-the-support-team.eml": [
+        1,
+        4
+      ],
+      "inbox/020_re-exception-request-for-the-device-encr.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/021_re-retention-change-for-telemetry-data.eml": [
+        1,
+        4
+      ],
+      "inbox/022_re-retention-change-for-telemetry-data.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/023_re-laptop-refresh-for-the-support-team.eml": [
+        1,
+        4
+      ],
+      "inbox/024_re-laptop-refresh-for-the-support-team.eml": [
+        1,
+        4
+      ],
+      "inbox/025_re-laptop-refresh-for-the-support-team.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/026_re-laptop-refresh-for-the-support-team.eml": [
+        1,
+        4
+      ],
+      "inbox/028_re-exception-request-for-the-device-encr.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/029_re-exception-request-for-the-device-encr.eml": [
+        1,
+        4
+      ],
+      "inbox/030_re-retention-change-for-telemetry-data.eml": [
+        1,
+        4,
+        7,
+        10
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 87,
+      "within_min": 0.366,
+      "within_p50": 0.782,
+      "within_max": 1.0,
+      "cross_max": 0.273
+    }
+  },
+  "MBX-1570": {
+    "groups": [
+      {
+        "name": "data-retention",
+        "files": [
+          "inbox/005_retention-change-for-invoice-data.eml",
+          "inbox/007_re-retention-change-for-invoice-data.eml",
+          "inbox/008_re-retention-change-for-invoice-data.eml",
+          "inbox/011_re-retention-change-for-invoice-data.eml",
+          "inbox/013_re-retention-change-for-invoice-data.eml",
+          "inbox/017_re-retention-change-for-invoice-data.eml"
+        ]
+      },
+      {
+        "name": "hiring-plan",
+        "files": [
+          "inbox/014_hiring-plan-for-the-platform-team.eml",
+          "inbox/018_re-hiring-plan-for-the-platform-team.eml",
+          "inbox/020_re-hiring-plan-for-the-platform-team.eml",
+          "inbox/022_re-hiring-plan-for-the-platform-team.eml",
+          "inbox/023_re-hiring-plan-for-the-platform-team.eml",
+          "inbox/024_re-hiring-plan-for-the-platform-team.eml"
+        ]
+      },
+      {
+        "name": "laptop-refresh",
+        "files": [
+          "inbox/026_laptop-refresh-for-engineering.eml",
+          "inbox/027_re-laptop-refresh-for-engineering.eml",
+          "inbox/028_re-laptop-refresh-for-engineering.eml",
+          "inbox/029_re-laptop-refresh-for-engineering.eml",
+          "inbox/030_re-laptop-refresh-for-engineering.eml"
+        ]
+      },
+      {
+        "name": "nightly-reports",
+        "files": [
+          "inbox/001_nightly-backup-report.eml",
+          "inbox/003_nightly-backup-report.eml",
+          "inbox/004_nightly-backup-report.eml",
+          "inbox/006_nightly-backup-report.eml",
+          "inbox/009_nightly-backup-report.eml",
+          "inbox/010_nightly-backup-report.eml",
+          "inbox/012_nightly-backup-report.eml",
+          "inbox/015_nightly-backup-report.eml",
+          "inbox/019_nightly-backup-report.eml",
+          "inbox/021_nightly-backup-report.eml",
+          "inbox/025_nightly-backup-report.eml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inbox/001_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/003_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/004_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/005_retention-change-for-invoice-data.eml": [
+        1,
+        4
+      ],
+      "inbox/006_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/007_re-retention-change-for-invoice-data.eml": [
+        1,
+        4
+      ],
+      "inbox/008_re-retention-change-for-invoice-data.eml": [
+        1,
+        4
+      ],
+      "inbox/009_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/010_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/011_re-retention-change-for-invoice-data.eml": [
+        1,
+        4
+      ],
+      "inbox/012_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/013_re-retention-change-for-invoice-data.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/014_hiring-plan-for-the-platform-team.eml": [
+        1,
+        4
+      ],
+      "inbox/015_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/017_re-retention-change-for-invoice-data.eml": [
+        1,
+        4
+      ],
+      "inbox/018_re-hiring-plan-for-the-platform-team.eml": [
+        1,
+        4
+      ],
+      "inbox/019_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/020_re-hiring-plan-for-the-platform-team.eml": [
+        1,
+        4
+      ],
+      "inbox/021_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/022_re-hiring-plan-for-the-platform-team.eml": [
+        1,
+        4
+      ],
+      "inbox/023_re-hiring-plan-for-the-platform-team.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/024_re-hiring-plan-for-the-platform-team.eml": [
+        1,
+        4
+      ],
+      "inbox/025_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/026_laptop-refresh-for-engineering.eml": [
+        1,
+        4
+      ],
+      "inbox/027_re-laptop-refresh-for-engineering.eml": [
+        1,
+        4
+      ],
+      "inbox/028_re-laptop-refresh-for-engineering.eml": [
+        1,
+        4
+      ],
+      "inbox/029_re-laptop-refresh-for-engineering.eml": [
+        1,
+        4
+      ],
+      "inbox/030_re-laptop-refresh-for-engineering.eml": [
+        1,
+        4,
+        7,
+        10
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 95,
+      "within_min": 0.4,
+      "within_p50": 0.822,
+      "within_max": 0.939,
+      "cross_max": 0.243
+    }
+  },
+  "MBX-1608": {
+    "groups": [
+      {
+        "name": "laptop-refresh",
+        "files": [
+          "inbox/024_laptop-refresh-for-the-sales-team.eml",
+          "inbox/025_re-laptop-refresh-for-the-sales-team.eml",
+          "inbox/027_re-laptop-refresh-for-the-sales-team.eml",
+          "inbox/028_re-laptop-refresh-for-the-sales-team.eml",
+          "inbox/029_re-laptop-refresh-for-the-sales-team.eml",
+          "inbox/030_re-laptop-refresh-for-the-sales-team.eml",
+          "inbox/031_re-laptop-refresh-for-the-sales-team.eml"
+        ]
+      },
+      {
+        "name": "nightly-reports",
+        "files": [
+          "inbox/001_nightly-backup-report.eml",
+          "inbox/002_nightly-backup-report.eml",
+          "inbox/004_nightly-backup-report.eml",
+          "inbox/007_nightly-backup-report.eml",
+          "inbox/010_nightly-backup-report.eml",
+          "inbox/014_nightly-backup-report.eml",
+          "inbox/017_nightly-backup-report.eml",
+          "inbox/019_nightly-backup-report.eml",
+          "inbox/021_nightly-backup-report.eml",
+          "inbox/022_nightly-backup-report.eml",
+          "inbox/026_nightly-backup-report.eml"
+        ]
+      },
+      {
+        "name": "tool-migration",
+        "files": [
+          "inbox/003_migration-from-planwise-to-the-new-track.eml",
+          "inbox/006_re-migration-from-planwise-to-the-new-tr.eml",
+          "inbox/009_re-migration-from-planwise-to-the-new-tr.eml",
+          "inbox/011_re-migration-from-planwise-to-the-new-tr.eml",
+          "inbox/013_re-migration-from-planwise-to-the-new-tr.eml"
+        ]
+      },
+      {
+        "name": "vendor-renewal",
+        "files": [
+          "inbox/008_vendor-contract-renewal-for-fabrikam-sup.eml",
+          "inbox/012_re-vendor-contract-renewal-for-fabrikam-.eml",
+          "inbox/015_re-vendor-contract-renewal-for-fabrikam-.eml",
+          "inbox/016_re-vendor-contract-renewal-for-fabrikam-.eml",
+          "inbox/018_re-vendor-contract-renewal-for-fabrikam-.eml",
+          "inbox/020_re-vendor-contract-renewal-for-fabrikam-.eml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inbox/001_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/002_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/003_migration-from-planwise-to-the-new-track.eml": [
+        1,
+        4
+      ],
+      "inbox/004_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/006_re-migration-from-planwise-to-the-new-tr.eml": [
+        1,
+        4
+      ],
+      "inbox/007_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/008_vendor-contract-renewal-for-fabrikam-sup.eml": [
+        1,
+        4
+      ],
+      "inbox/009_re-migration-from-planwise-to-the-new-tr.eml": [
+        1,
+        4
+      ],
+      "inbox/010_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/011_re-migration-from-planwise-to-the-new-tr.eml": [
+        1,
+        4
+      ],
+      "inbox/012_re-vendor-contract-renewal-for-fabrikam-.eml": [
+        1,
+        4
+      ],
+      "inbox/013_re-migration-from-planwise-to-the-new-tr.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/014_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/015_re-vendor-contract-renewal-for-fabrikam-.eml": [
+        1,
+        4
+      ],
+      "inbox/016_re-vendor-contract-renewal-for-fabrikam-.eml": [
+        1,
+        4
+      ],
+      "inbox/017_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/018_re-vendor-contract-renewal-for-fabrikam-.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/019_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/020_re-vendor-contract-renewal-for-fabrikam-.eml": [
+        1,
+        4
+      ],
+      "inbox/021_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/022_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/024_laptop-refresh-for-the-sales-team.eml": [
+        1,
+        4
+      ],
+      "inbox/025_re-laptop-refresh-for-the-sales-team.eml": [
+        1,
+        4
+      ],
+      "inbox/026_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/027_re-laptop-refresh-for-the-sales-team.eml": [
+        1,
+        4
+      ],
+      "inbox/028_re-laptop-refresh-for-the-sales-team.eml": [
+        1,
+        4
+      ],
+      "inbox/029_re-laptop-refresh-for-the-sales-team.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/030_re-laptop-refresh-for-the-sales-team.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/031_re-laptop-refresh-for-the-sales-team.eml": [
+        1,
+        4
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 101,
+      "within_min": 0.368,
+      "within_p50": 0.827,
+      "within_max": 1.0,
+      "cross_max": 0.296
+    }
+  },
+  "MBX-1646": {
+    "groups": [
+      {
+        "name": "hiring-plan",
+        "files": [
+          "inbox/023_hiring-plan-for-the-platform-team.eml",
+          "inbox/024_re-hiring-plan-for-the-platform-team.eml",
+          "inbox/025_re-hiring-plan-for-the-platform-team.eml",
+          "inbox/026_re-hiring-plan-for-the-platform-team.eml",
+          "inbox/027_re-hiring-plan-for-the-platform-team.eml",
+          "inbox/028_re-hiring-plan-for-the-platform-team.eml"
+        ]
+      },
+      {
+        "name": "laptop-refresh",
+        "files": [
+          "inbox/016_laptop-refresh-for-the-finance-team.eml",
+          "inbox/019_re-laptop-refresh-for-the-finance-team.eml",
+          "inbox/020_re-laptop-refresh-for-the-finance-team.eml",
+          "inbox/021_re-laptop-refresh-for-the-finance-team.eml",
+          "inbox/022_re-laptop-refresh-for-the-finance-team.eml",
+          "inbox/029_re-laptop-refresh-for-the-finance-team.eml",
+          "inbox/030_re-laptop-refresh-for-the-finance-team.eml"
+        ]
+      },
+      {
+        "name": "nightly-reports",
+        "files": [
+          "inbox/001_nightly-backup-report.eml",
+          "inbox/002_nightly-backup-report.eml",
+          "inbox/004_nightly-backup-report.eml",
+          "inbox/007_nightly-backup-report.eml",
+          "inbox/009_nightly-backup-report.eml",
+          "inbox/010_nightly-backup-report.eml",
+          "inbox/013_nightly-backup-report.eml",
+          "inbox/015_nightly-backup-report.eml",
+          "inbox/017_nightly-backup-report.eml"
+        ]
+      },
+      {
+        "name": "policy-exception",
+        "files": [
+          "inbox/005_exception-request-for-the-screen-lock-po.eml",
+          "inbox/006_re-exception-request-for-the-screen-lock.eml",
+          "inbox/008_re-exception-request-for-the-screen-lock.eml",
+          "inbox/011_re-exception-request-for-the-screen-lock.eml",
+          "inbox/012_re-exception-request-for-the-screen-lock.eml",
+          "inbox/014_re-exception-request-for-the-screen-lock.eml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inbox/001_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/002_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/004_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/005_exception-request-for-the-screen-lock-po.eml": [
+        1,
+        4
+      ],
+      "inbox/006_re-exception-request-for-the-screen-lock.eml": [
+        1,
+        4
+      ],
+      "inbox/007_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/008_re-exception-request-for-the-screen-lock.eml": [
+        1,
+        4
+      ],
+      "inbox/009_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/010_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/011_re-exception-request-for-the-screen-lock.eml": [
+        1,
+        4
+      ],
+      "inbox/012_re-exception-request-for-the-screen-lock.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/013_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/014_re-exception-request-for-the-screen-lock.eml": [
+        1,
+        4
+      ],
+      "inbox/015_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/016_laptop-refresh-for-the-finance-team.eml": [
+        1,
+        4
+      ],
+      "inbox/017_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/019_re-laptop-refresh-for-the-finance-team.eml": [
+        1,
+        4
+      ],
+      "inbox/020_re-laptop-refresh-for-the-finance-team.eml": [
+        1,
+        4
+      ],
+      "inbox/021_re-laptop-refresh-for-the-finance-team.eml": [
+        1,
+        4
+      ],
+      "inbox/022_re-laptop-refresh-for-the-finance-team.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/023_hiring-plan-for-the-platform-team.eml": [
+        1,
+        4
+      ],
+      "inbox/024_re-hiring-plan-for-the-platform-team.eml": [
+        1,
+        4
+      ],
+      "inbox/025_re-hiring-plan-for-the-platform-team.eml": [
+        1,
+        4
+      ],
+      "inbox/026_re-hiring-plan-for-the-platform-team.eml": [
+        1,
+        4
+      ],
+      "inbox/027_re-hiring-plan-for-the-platform-team.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/028_re-hiring-plan-for-the-platform-team.eml": [
+        1,
+        4
+      ],
+      "inbox/029_re-laptop-refresh-for-the-finance-team.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/030_re-laptop-refresh-for-the-finance-team.eml": [
+        1,
+        4
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 87,
+      "within_min": 0.369,
+      "within_p50": 0.769,
+      "within_max": 1.0,
+      "cross_max": 0.245
+    }
+  },
+  "MBX-1684": {
+    "groups": [
+      {
+        "name": "data-retention",
+        "files": [
+          "inbox/024_retention-change-for-support-ticket-data.eml",
+          "inbox/025_re-retention-change-for-support-ticket-d.eml",
+          "inbox/026_re-retention-change-for-support-ticket-d.eml",
+          "inbox/027_re-retention-change-for-support-ticket-d.eml",
+          "inbox/028_re-retention-change-for-support-ticket-d.eml",
+          "inbox/029_re-retention-change-for-support-ticket-d.eml"
+        ]
+      },
+      {
+        "name": "nightly-reports",
+        "files": [
+          "inbox/001_nightly-backup-report.eml",
+          "inbox/003_nightly-backup-report.eml",
+          "inbox/005_nightly-backup-report.eml",
+          "inbox/010_nightly-backup-report.eml",
+          "inbox/012_nightly-backup-report.eml",
+          "inbox/014_nightly-backup-report.eml",
+          "inbox/016_nightly-backup-report.eml",
+          "inbox/020_nightly-backup-report.eml"
+        ]
+      },
+      {
+        "name": "office-move",
+        "files": [
+          "inbox/002_office-move-to-pier-9.eml",
+          "inbox/004_re-office-move-to-pier-9.eml",
+          "inbox/006_re-office-move-to-pier-9.eml",
+          "inbox/007_re-office-move-to-pier-9.eml",
+          "inbox/008_re-office-move-to-pier-9.eml",
+          "inbox/009_re-office-move-to-pier-9.eml"
+        ]
+      },
+      {
+        "name": "tool-migration",
+        "files": [
+          "inbox/013_migration-from-taskforge-to-the-new-trac.eml",
+          "inbox/015_re-migration-from-taskforge-to-the-new-t.eml",
+          "inbox/017_re-migration-from-taskforge-to-the-new-t.eml",
+          "inbox/018_re-migration-from-taskforge-to-the-new-t.eml",
+          "inbox/019_re-migration-from-taskforge-to-the-new-t.eml",
+          "inbox/022_re-migration-from-taskforge-to-the-new-t.eml",
+          "inbox/023_re-migration-from-taskforge-to-the-new-t.eml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inbox/001_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/002_office-move-to-pier-9.eml": [
+        1,
+        4
+      ],
+      "inbox/003_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/004_re-office-move-to-pier-9.eml": [
+        1,
+        4
+      ],
+      "inbox/005_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/006_re-office-move-to-pier-9.eml": [
+        1,
+        4
+      ],
+      "inbox/007_re-office-move-to-pier-9.eml": [
+        1,
+        4
+      ],
+      "inbox/008_re-office-move-to-pier-9.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/009_re-office-move-to-pier-9.eml": [
+        1,
+        4
+      ],
+      "inbox/010_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/012_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/013_migration-from-taskforge-to-the-new-trac.eml": [
+        1,
+        4
+      ],
+      "inbox/014_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/015_re-migration-from-taskforge-to-the-new-t.eml": [
+        1,
+        4
+      ],
+      "inbox/016_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/017_re-migration-from-taskforge-to-the-new-t.eml": [
+        1,
+        4
+      ],
+      "inbox/018_re-migration-from-taskforge-to-the-new-t.eml": [
+        1,
+        4
+      ],
+      "inbox/019_re-migration-from-taskforge-to-the-new-t.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/020_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/022_re-migration-from-taskforge-to-the-new-t.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/023_re-migration-from-taskforge-to-the-new-t.eml": [
+        1,
+        4
+      ],
+      "inbox/024_retention-change-for-support-ticket-data.eml": [
+        1,
+        4
+      ],
+      "inbox/025_re-retention-change-for-support-ticket-d.eml": [
+        1,
+        4
+      ],
+      "inbox/026_re-retention-change-for-support-ticket-d.eml": [
+        1,
+        4
+      ],
+      "inbox/027_re-retention-change-for-support-ticket-d.eml": [
+        1,
+        4
+      ],
+      "inbox/028_re-retention-change-for-support-ticket-d.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/029_re-retention-change-for-support-ticket-d.eml": [
+        1,
+        4
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 79,
+      "within_min": 0.364,
+      "within_p50": 0.739,
+      "within_max": 1.0,
+      "cross_max": 0.328
+    }
+  },
+  "MBX-1722": {
+    "groups": [
+      {
+        "name": "laptop-refresh",
+        "files": [
+          "inbox/009_laptop-refresh-for-the-sales-team.eml",
+          "inbox/010_re-laptop-refresh-for-the-sales-team.eml",
+          "inbox/011_re-laptop-refresh-for-the-sales-team.eml",
+          "inbox/014_re-laptop-refresh-for-the-sales-team.eml",
+          "inbox/019_re-laptop-refresh-for-the-sales-team.eml",
+          "inbox/020_re-laptop-refresh-for-the-sales-team.eml"
+        ]
+      },
+      {
+        "name": "nightly-reports",
+        "files": [
+          "inbox/001_nightly-backup-report.eml",
+          "inbox/002_nightly-backup-report.eml",
+          "inbox/003_nightly-backup-report.eml",
+          "inbox/008_nightly-backup-report.eml",
+          "inbox/012_nightly-backup-report.eml",
+          "inbox/016_nightly-backup-report.eml",
+          "inbox/018_nightly-backup-report.eml",
+          "inbox/021_nightly-backup-report.eml",
+          "inbox/023_nightly-backup-report.eml",
+          "inbox/026_nightly-backup-report.eml"
+        ]
+      },
+      {
+        "name": "office-move",
+        "files": [
+          "inbox/004_office-move-to-the-riverside-annex.eml",
+          "inbox/005_re-office-move-to-the-riverside-annex.eml",
+          "inbox/006_re-office-move-to-the-riverside-annex.eml",
+          "inbox/007_re-office-move-to-the-riverside-annex.eml",
+          "inbox/015_re-office-move-to-the-riverside-annex.eml",
+          "inbox/017_re-office-move-to-the-riverside-annex.eml"
+        ]
+      },
+      {
+        "name": "policy-exception",
+        "files": [
+          "inbox/022_exception-request-for-the-device-encrypt.eml",
+          "inbox/024_re-exception-request-for-the-device-encr.eml",
+          "inbox/025_re-exception-request-for-the-device-encr.eml",
+          "inbox/028_re-exception-request-for-the-device-encr.eml",
+          "inbox/029_re-exception-request-for-the-device-encr.eml",
+          "inbox/030_re-exception-request-for-the-device-encr.eml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inbox/001_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/002_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/003_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/004_office-move-to-the-riverside-annex.eml": [
+        1,
+        4
+      ],
+      "inbox/005_re-office-move-to-the-riverside-annex.eml": [
+        1,
+        4
+      ],
+      "inbox/006_re-office-move-to-the-riverside-annex.eml": [
+        1,
+        4
+      ],
+      "inbox/007_re-office-move-to-the-riverside-annex.eml": [
+        1,
+        4
+      ],
+      "inbox/008_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/009_laptop-refresh-for-the-sales-team.eml": [
+        1,
+        4
+      ],
+      "inbox/010_re-laptop-refresh-for-the-sales-team.eml": [
+        1,
+        4
+      ],
+      "inbox/011_re-laptop-refresh-for-the-sales-team.eml": [
+        1,
+        4
+      ],
+      "inbox/012_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/014_re-laptop-refresh-for-the-sales-team.eml": [
+        1,
+        4
+      ],
+      "inbox/015_re-office-move-to-the-riverside-annex.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/016_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/017_re-office-move-to-the-riverside-annex.eml": [
+        1,
+        4
+      ],
+      "inbox/018_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/019_re-laptop-refresh-for-the-sales-team.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/020_re-laptop-refresh-for-the-sales-team.eml": [
+        1,
+        4
+      ],
+      "inbox/021_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/022_exception-request-for-the-device-encrypt.eml": [
+        1,
+        4
+      ],
+      "inbox/023_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/024_re-exception-request-for-the-device-encr.eml": [
+        1,
+        4
+      ],
+      "inbox/025_re-exception-request-for-the-device-encr.eml": [
+        1,
+        4
+      ],
+      "inbox/026_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/028_re-exception-request-for-the-device-encr.eml": [
+        1,
+        4
+      ],
+      "inbox/029_re-exception-request-for-the-device-encr.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/030_re-exception-request-for-the-device-encr.eml": [
+        1,
+        4
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 90,
+      "within_min": 0.407,
+      "within_p50": 0.841,
+      "within_max": 1.0,
+      "cross_max": 0.257
+    }
+  },
+  "MBX-1760": {
+    "groups": [
+      {
+        "name": "laptop-refresh",
+        "files": [
+          "inbox/014_laptop-refresh-for-the-finance-team.eml",
+          "inbox/015_re-laptop-refresh-for-the-finance-team.eml",
+          "inbox/016_re-laptop-refresh-for-the-finance-team.eml",
+          "inbox/019_re-laptop-refresh-for-the-finance-team.eml",
+          "inbox/022_re-laptop-refresh-for-the-finance-team.eml",
+          "inbox/023_re-laptop-refresh-for-the-finance-team.eml"
+        ]
+      },
+      {
+        "name": "nightly-reports",
+        "files": [
+          "inbox/001_nightly-backup-report.eml",
+          "inbox/003_nightly-backup-report.eml",
+          "inbox/004_nightly-backup-report.eml",
+          "inbox/006_nightly-backup-report.eml",
+          "inbox/011_nightly-backup-report.eml",
+          "inbox/013_nightly-backup-report.eml",
+          "inbox/017_nightly-backup-report.eml",
+          "inbox/020_nightly-backup-report.eml",
+          "inbox/021_nightly-backup-report.eml"
+        ]
+      },
+      {
+        "name": "policy-exception",
+        "files": [
+          "inbox/024_exception-request-for-the-vpn-only-acces.eml",
+          "inbox/025_re-exception-request-for-the-vpn-only-ac.eml",
+          "inbox/026_re-exception-request-for-the-vpn-only-ac.eml",
+          "inbox/027_re-exception-request-for-the-vpn-only-ac.eml",
+          "inbox/028_re-exception-request-for-the-vpn-only-ac.eml",
+          "inbox/029_re-exception-request-for-the-vpn-only-ac.eml"
+        ]
+      },
+      {
+        "name": "vendor-renewal",
+        "files": [
+          "inbox/005_vendor-contract-renewal-for-northwind.eml",
+          "inbox/007_re-vendor-contract-renewal-for-northwind.eml",
+          "inbox/008_re-vendor-contract-renewal-for-northwind.eml",
+          "inbox/009_re-vendor-contract-renewal-for-northwind.eml",
+          "inbox/010_re-vendor-contract-renewal-for-northwind.eml",
+          "inbox/012_re-vendor-contract-renewal-for-northwind.eml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inbox/001_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/003_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/004_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/005_vendor-contract-renewal-for-northwind.eml": [
+        1,
+        4
+      ],
+      "inbox/006_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/007_re-vendor-contract-renewal-for-northwind.eml": [
+        1,
+        4
+      ],
+      "inbox/008_re-vendor-contract-renewal-for-northwind.eml": [
+        1,
+        4
+      ],
+      "inbox/009_re-vendor-contract-renewal-for-northwind.eml": [
+        1,
+        4
+      ],
+      "inbox/010_re-vendor-contract-renewal-for-northwind.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/011_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/012_re-vendor-contract-renewal-for-northwind.eml": [
+        1,
+        4
+      ],
+      "inbox/013_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/014_laptop-refresh-for-the-finance-team.eml": [
+        1,
+        4
+      ],
+      "inbox/015_re-laptop-refresh-for-the-finance-team.eml": [
+        1,
+        4
+      ],
+      "inbox/016_re-laptop-refresh-for-the-finance-team.eml": [
+        1,
+        4
+      ],
+      "inbox/017_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/019_re-laptop-refresh-for-the-finance-team.eml": [
+        1,
+        4
+      ],
+      "inbox/020_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/021_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/022_re-laptop-refresh-for-the-finance-team.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/023_re-laptop-refresh-for-the-finance-team.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/024_exception-request-for-the-vpn-only-acces.eml": [
+        1,
+        4
+      ],
+      "inbox/025_re-exception-request-for-the-vpn-only-ac.eml": [
+        1,
+        4
+      ],
+      "inbox/026_re-exception-request-for-the-vpn-only-ac.eml": [
+        1,
+        4
+      ],
+      "inbox/027_re-exception-request-for-the-vpn-only-ac.eml": [
+        1,
+        4
+      ],
+      "inbox/028_re-exception-request-for-the-vpn-only-ac.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/029_re-exception-request-for-the-vpn-only-ac.eml": [
+        1,
+        4,
+        7,
+        10
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 81,
+      "within_min": 0.37,
+      "within_p50": 0.801,
+      "within_max": 0.944,
+      "cross_max": 0.24
+    }
+  },
+  "MBX-1798": {
+    "groups": [
+      {
+        "name": "hiring-plan",
+        "files": [
+          "inbox/014_hiring-plan-for-the-data-team.eml",
+          "inbox/016_re-hiring-plan-for-the-data-team.eml",
+          "inbox/017_re-hiring-plan-for-the-data-team.eml",
+          "inbox/018_re-hiring-plan-for-the-data-team.eml",
+          "inbox/021_re-hiring-plan-for-the-data-team.eml",
+          "inbox/025_re-hiring-plan-for-the-data-team.eml"
+        ]
+      },
+      {
+        "name": "laptop-refresh",
+        "files": [
+          "inbox/022_laptop-refresh-for-the-finance-team.eml",
+          "inbox/023_re-laptop-refresh-for-the-finance-team.eml",
+          "inbox/024_re-laptop-refresh-for-the-finance-team.eml",
+          "inbox/026_re-laptop-refresh-for-the-finance-team.eml",
+          "inbox/027_re-laptop-refresh-for-the-finance-team.eml",
+          "inbox/028_re-laptop-refresh-for-the-finance-team.eml",
+          "inbox/029_re-laptop-refresh-for-the-finance-team.eml"
+        ]
+      },
+      {
+        "name": "nightly-reports",
+        "files": [
+          "inbox/001_nightly-backup-report.eml",
+          "inbox/003_nightly-backup-report.eml",
+          "inbox/005_nightly-backup-report.eml",
+          "inbox/009_nightly-backup-report.eml",
+          "inbox/010_nightly-backup-report.eml",
+          "inbox/012_nightly-backup-report.eml",
+          "inbox/015_nightly-backup-report.eml",
+          "inbox/020_nightly-backup-report.eml"
+        ]
+      },
+      {
+        "name": "sponsorship",
+        "files": [
+          "inbox/002_sponsorship-of-pydata-north.eml",
+          "inbox/004_re-sponsorship-of-pydata-north.eml",
+          "inbox/008_re-sponsorship-of-pydata-north.eml",
+          "inbox/011_re-sponsorship-of-pydata-north.eml",
+          "inbox/013_re-sponsorship-of-pydata-north.eml",
+          "inbox/019_re-sponsorship-of-pydata-north.eml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inbox/001_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/002_sponsorship-of-pydata-north.eml": [
+        1,
+        4
+      ],
+      "inbox/003_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/004_re-sponsorship-of-pydata-north.eml": [
+        1,
+        4
+      ],
+      "inbox/005_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/008_re-sponsorship-of-pydata-north.eml": [
+        1,
+        4
+      ],
+      "inbox/009_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/010_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/011_re-sponsorship-of-pydata-north.eml": [
+        1,
+        4
+      ],
+      "inbox/012_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/013_re-sponsorship-of-pydata-north.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/014_hiring-plan-for-the-data-team.eml": [
+        1,
+        4
+      ],
+      "inbox/015_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/016_re-hiring-plan-for-the-data-team.eml": [
+        1,
+        4
+      ],
+      "inbox/017_re-hiring-plan-for-the-data-team.eml": [
+        1,
+        4
+      ],
+      "inbox/018_re-hiring-plan-for-the-data-team.eml": [
+        1,
+        4
+      ],
+      "inbox/019_re-sponsorship-of-pydata-north.eml": [
+        1,
+        4
+      ],
+      "inbox/020_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/021_re-hiring-plan-for-the-data-team.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/022_laptop-refresh-for-the-finance-team.eml": [
+        1,
+        4
+      ],
+      "inbox/023_re-laptop-refresh-for-the-finance-team.eml": [
+        1,
+        4
+      ],
+      "inbox/024_re-laptop-refresh-for-the-finance-team.eml": [
+        1,
+        4
+      ],
+      "inbox/025_re-hiring-plan-for-the-data-team.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/026_re-laptop-refresh-for-the-finance-team.eml": [
+        1,
+        4
+      ],
+      "inbox/027_re-laptop-refresh-for-the-finance-team.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/028_re-laptop-refresh-for-the-finance-team.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/029_re-laptop-refresh-for-the-finance-team.eml": [
+        1,
+        4
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 79,
+      "within_min": 0.371,
+      "within_p50": 0.723,
+      "within_max": 0.94,
+      "cross_max": 0.278
+    }
+  },
+  "MBX-1836": {
+    "groups": [
+      {
+        "name": "laptop-refresh",
+        "files": [
+          "inbox/006_laptop-refresh-for-engineering.eml",
+          "inbox/008_re-laptop-refresh-for-engineering.eml",
+          "inbox/011_re-laptop-refresh-for-engineering.eml",
+          "inbox/013_re-laptop-refresh-for-engineering.eml",
+          "inbox/014_re-laptop-refresh-for-engineering.eml",
+          "inbox/017_re-laptop-refresh-for-engineering.eml",
+          "inbox/021_re-laptop-refresh-for-engineering.eml"
+        ]
+      },
+      {
+        "name": "nightly-reports",
+        "files": [
+          "inbox/001_nightly-backup-report.eml",
+          "inbox/003_nightly-backup-report.eml",
+          "inbox/004_nightly-backup-report.eml",
+          "inbox/007_nightly-backup-report.eml",
+          "inbox/012_nightly-backup-report.eml",
+          "inbox/016_nightly-backup-report.eml",
+          "inbox/018_nightly-backup-report.eml",
+          "inbox/025_nightly-backup-report.eml"
+        ]
+      },
+      {
+        "name": "policy-exception",
+        "files": [
+          "inbox/005_exception-request-for-the-vpn-only-acces.eml",
+          "inbox/009_re-exception-request-for-the-vpn-only-ac.eml",
+          "inbox/010_re-exception-request-for-the-vpn-only-ac.eml",
+          "inbox/015_re-exception-request-for-the-vpn-only-ac.eml",
+          "inbox/020_re-exception-request-for-the-vpn-only-ac.eml"
+        ]
+      },
+      {
+        "name": "vendor-renewal",
+        "files": [
+          "inbox/022_vendor-contract-renewal-for-fabrikam-sup.eml",
+          "inbox/023_re-vendor-contract-renewal-for-fabrikam-.eml",
+          "inbox/024_re-vendor-contract-renewal-for-fabrikam-.eml",
+          "inbox/026_re-vendor-contract-renewal-for-fabrikam-.eml",
+          "inbox/027_re-vendor-contract-renewal-for-fabrikam-.eml",
+          "inbox/028_re-vendor-contract-renewal-for-fabrikam-.eml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inbox/001_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/003_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/004_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/005_exception-request-for-the-vpn-only-acces.eml": [
+        1,
+        4
+      ],
+      "inbox/006_laptop-refresh-for-engineering.eml": [
+        1,
+        4
+      ],
+      "inbox/007_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/008_re-laptop-refresh-for-engineering.eml": [
+        1,
+        4
+      ],
+      "inbox/009_re-exception-request-for-the-vpn-only-ac.eml": [
+        1,
+        4
+      ],
+      "inbox/010_re-exception-request-for-the-vpn-only-ac.eml": [
+        1,
+        4
+      ],
+      "inbox/011_re-laptop-refresh-for-engineering.eml": [
+        1,
+        4
+      ],
+      "inbox/012_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/013_re-laptop-refresh-for-engineering.eml": [
+        1,
+        4
+      ],
+      "inbox/014_re-laptop-refresh-for-engineering.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/015_re-exception-request-for-the-vpn-only-ac.eml": [
+        1,
+        4
+      ],
+      "inbox/016_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/017_re-laptop-refresh-for-engineering.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/018_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/020_re-exception-request-for-the-vpn-only-ac.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/021_re-laptop-refresh-for-engineering.eml": [
+        1,
+        4
+      ],
+      "inbox/022_vendor-contract-renewal-for-fabrikam-sup.eml": [
+        1,
+        4
+      ],
+      "inbox/023_re-vendor-contract-renewal-for-fabrikam-.eml": [
+        1,
+        4
+      ],
+      "inbox/024_re-vendor-contract-renewal-for-fabrikam-.eml": [
+        1,
+        4
+      ],
+      "inbox/025_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/026_re-vendor-contract-renewal-for-fabrikam-.eml": [
+        1,
+        4
+      ],
+      "inbox/027_re-vendor-contract-renewal-for-fabrikam-.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/028_re-vendor-contract-renewal-for-fabrikam-.eml": [
+        1,
+        4
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 74,
+      "within_min": 0.37,
+      "within_p50": 0.757,
+      "within_max": 0.943,
+      "cross_max": 0.253
+    }
+  },
+  "MBX-1874": {
+    "groups": [
+      {
+        "name": "data-retention",
+        "files": [
+          "inbox/024_retention-change-for-invoice-data.eml",
+          "inbox/025_re-retention-change-for-invoice-data.eml",
+          "inbox/026_re-retention-change-for-invoice-data.eml",
+          "inbox/027_re-retention-change-for-invoice-data.eml",
+          "inbox/028_re-retention-change-for-invoice-data.eml",
+          "inbox/029_re-retention-change-for-invoice-data.eml"
+        ]
+      },
+      {
+        "name": "hiring-plan",
+        "files": [
+          "inbox/016_hiring-plan-for-the-support-team.eml",
+          "inbox/017_re-hiring-plan-for-the-support-team.eml",
+          "inbox/019_re-hiring-plan-for-the-support-team.eml",
+          "inbox/022_re-hiring-plan-for-the-support-team.eml",
+          "inbox/023_re-hiring-plan-for-the-support-team.eml"
+        ]
+      },
+      {
+        "name": "nightly-reports",
+        "files": [
+          "inbox/001_nightly-backup-report.eml",
+          "inbox/002_nightly-backup-report.eml",
+          "inbox/004_nightly-backup-report.eml",
+          "inbox/007_nightly-backup-report.eml",
+          "inbox/011_nightly-backup-report.eml",
+          "inbox/012_nightly-backup-report.eml",
+          "inbox/014_nightly-backup-report.eml",
+          "inbox/018_nightly-backup-report.eml",
+          "inbox/021_nightly-backup-report.eml"
+        ]
+      },
+      {
+        "name": "sponsorship",
+        "files": [
+          "inbox/005_sponsorship-of-devopsdays-harbour.eml",
+          "inbox/006_re-sponsorship-of-devopsdays-harbour.eml",
+          "inbox/008_re-sponsorship-of-devopsdays-harbour.eml",
+          "inbox/009_re-sponsorship-of-devopsdays-harbour.eml",
+          "inbox/010_re-sponsorship-of-devopsdays-harbour.eml",
+          "inbox/013_re-sponsorship-of-devopsdays-harbour.eml",
+          "inbox/015_re-sponsorship-of-devopsdays-harbour.eml"
+        ]
+      }
+    ],
+    "answer_lines": {
+      "inbox/001_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/002_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/004_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/005_sponsorship-of-devopsdays-harbour.eml": [
+        1,
+        4
+      ],
+      "inbox/006_re-sponsorship-of-devopsdays-harbour.eml": [
+        1,
+        4
+      ],
+      "inbox/007_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/008_re-sponsorship-of-devopsdays-harbour.eml": [
+        1,
+        4
+      ],
+      "inbox/009_re-sponsorship-of-devopsdays-harbour.eml": [
+        1,
+        4
+      ],
+      "inbox/010_re-sponsorship-of-devopsdays-harbour.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/011_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/012_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/013_re-sponsorship-of-devopsdays-harbour.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/014_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/015_re-sponsorship-of-devopsdays-harbour.eml": [
+        1,
+        4
+      ],
+      "inbox/016_hiring-plan-for-the-support-team.eml": [
+        1,
+        4
+      ],
+      "inbox/017_re-hiring-plan-for-the-support-team.eml": [
+        1,
+        4
+      ],
+      "inbox/018_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/019_re-hiring-plan-for-the-support-team.eml": [
+        1,
+        4
+      ],
+      "inbox/021_nightly-backup-report.eml": [
+        4,
+        8,
+        9
+      ],
+      "inbox/022_re-hiring-plan-for-the-support-team.eml": [
+        1,
+        4
+      ],
+      "inbox/023_re-hiring-plan-for-the-support-team.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/024_retention-change-for-invoice-data.eml": [
+        1,
+        4
+      ],
+      "inbox/025_re-retention-change-for-invoice-data.eml": [
+        1,
+        4
+      ],
+      "inbox/026_re-retention-change-for-invoice-data.eml": [
+        1,
+        4
+      ],
+      "inbox/027_re-retention-change-for-invoice-data.eml": [
+        1,
+        4
+      ],
+      "inbox/028_re-retention-change-for-invoice-data.eml": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "inbox/029_re-retention-change-for-invoice-data.eml": [
+        1,
+        4,
+        7,
+        10
+      ]
+    },
+    "jaccard": {
+      "n_pairs": 82,
+      "within_min": 0.353,
+      "within_p50": 0.789,
+      "within_max": 1.0,
+      "cross_max": 0.326
+    }
+  }
+}

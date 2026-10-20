@@ -1,0 +1,18 @@
+{
+  "tid": "T-d5dac8",
+  "seq": 31,
+  "citation": {
+    "authors": [
+      "A. Ramos",
+      "J. Petrov",
+      "B. Zaha"
+    ],
+    "title": "Knowledge distillation for hierarchic object detection",
+    "venue": "EMNLP",
+    "year": 2024,
+    "doi": "10.5555/emnlp.2024.3eea",
+    "pages": "5220-5226"
+  },
+  "raw": "A. Ramos, J. Petrov, and B. Zaha, \"Knowledge distillation for hierarchic object detection,\" in Proc. EMNLP, 2024, pages 5220-5226, doi: 10.5555/emnlp.2024.3eea. [Online]. Available: https://proceedings.example.org/emnlp/666",
+  "received": "2026-02-10"
+}

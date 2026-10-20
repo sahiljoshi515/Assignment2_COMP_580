@@ -1,0 +1,10 @@
+{
+  "tid": "T-30cdd8",
+  "seq": 17,
+  "scenario": "cfg-1570",
+  "kind": "most_replicas",
+  "target": null,
+  "subject": "CFG-1570: which environment runs the most replicas",
+  "body": "Ivan Petrov (support) writing with a quick request. Name the orders-api environment with the highest replica count and give the count.\n\nCompare service.replicas across the files under config/.\n\nThanks, Ivan Petrov",
+  "received": "2026-02-07"
+}

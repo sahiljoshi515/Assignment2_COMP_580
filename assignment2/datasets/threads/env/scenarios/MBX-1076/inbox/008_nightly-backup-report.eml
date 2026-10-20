@@ -1,0 +1,16 @@
+From: Backup Service <backup-bot@tessalabs.example>
+To: ops-notify@tessalabs.example
+Date: Thu, 02 Apr 2026 02:56:00 +0000
+Subject: Nightly backup report - fileshare-nightly - 2026-04-01
+
+Nightly backup report for 2026-04-01
+Job: fileshare-nightly
+Status: SUCCESS
+Started: 02:01:39 UTC   Finished: 02:56:49 UTC   Duration: 55 min
+Bytes transferred: 48.9 GB   Files: 1,151,970   Changed since last run: 0.8 %
+Retention: 30 daily, 12 weekly, 6 monthly
+Next run: 2026-04-02 02:00 UTC
+
+-- 
+This message was generated automatically by the backup service. Replies are not read.
+To change the schedule or the recipients, edit the job in the backup console.

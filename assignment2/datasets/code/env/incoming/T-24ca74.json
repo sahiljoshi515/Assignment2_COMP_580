@@ -1,0 +1,10 @@
+{
+  "tid": "T-24ca74",
+  "seq": 20,
+  "scenario": "SDK-1456",
+  "kind": "missing_idempotency",
+  "target": null,
+  "subject": "SDK-1456: which adapter forgets the idempotency key",
+  "body": "Hi, Jonas Berg from the QA team here. Which ledgerline adapter has a charge or refund method that\nomits the idempotency key required by R4, and which method is it?\n\nIn the compliant adapters both methods pass idempotency_key= to _request.\n\nThanks, Jonas Berg",
+  "received": "2026-02-13"
+}

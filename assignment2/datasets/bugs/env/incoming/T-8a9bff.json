@@ -1,0 +1,11 @@
+{
+  "tid": "T-8a9bff",
+  "seq": 10,
+  "exception": "OSError",
+  "top_frame": "lattice/store/blob.py::write",
+  "version": "3.3.7",
+  "title": "OSError while running the nightly sync (blob.write)",
+  "body": "## Environment\n\nRunning Lattice 3.3.7 on Debian 12 against eu-west-2.\n\n## Steps\n\nHow to trigger it:\n- Open Lattice and begin running the nightly sync.\n- Run two jobs in parallel against one folder.\n- Wait for the failure and read the log.\n\n## Expected\n\nExpected running the nightly sync to finish without errors.\n\n## Actual\n\nThe file is reported missing although it exists a moment later. It only happens\nwhen two jobs touch the same folder at once.\n\n## Frequency\n\nIt occurs roughly one run in three.",
+  "stacktrace": "lattice/ui/main.py:48 in loop\nlattice/sched/runner.py:128 in run_due\nlattice/store/remote.py:77 in sync_all\nlattice/store/blob.py:252 in write\nOSError: [Errno 28] No space left on device",
+  "reported": "2026-01-17"
+}

@@ -1,0 +1,10 @@
+{
+  "tid": "T-efeb68",
+  "seq": 60,
+  "product": "Tallyboard",
+  "error_code": "E6266",
+  "platform": "android",
+  "subject": "E-6266: database locked on Android",
+  "body": "Hi, I'm using Tallyboard 1.9.2 on Android 14 (Galaxy S23). Since the weekend,\nevery time I save my work, I get 'E-6266: local database is locked'.\n\nI think a second copy of the app is stlil running in the background. After login\nthe tray icon appears two times.\n\nWhat I tried so far: waiting a day. No luck.\n\nThanks, Ivan Petorv (Brightwater Clinics)",
+  "opened": "2026-03-16"
+}

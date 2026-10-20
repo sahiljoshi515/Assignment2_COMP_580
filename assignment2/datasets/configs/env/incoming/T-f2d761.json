@@ -1,0 +1,10 @@
+{
+  "tid": "T-f2d761",
+  "seq": 39,
+  "scenario": "CFG1000",
+  "kind": "log_level_of",
+  "target": "prod-apac",
+  "subject": "CFG-1000: what log level does prod-apac use",
+  "body": "Hello -- Omar Haddad, release. What logging level is configured for notify-worker in the prod-apac\nenvironment?\n\nIt is the value of logging.level in that environment's file.\n\nMuch appreciated, Omar Haddad",
+  "received": "2026-03-25"
+}

@@ -1,0 +1,10 @@
+{
+  "tid": "T-d2c754",
+  "seq": 70,
+  "product": "tallyboard",
+  "error_code": "e-6229",
+  "platform": "macos",
+  "subject": "E-6229: TLS handshake failed on macOS",
+  "body": "Regards, Grace Okafor, Meridian Schools\n\nBefore writing in I tried restarting the machine; same error\nafterwards.\n\nWe never upgraded this machine; the OS release is years old.\nThe vendor's website says that release left support last\nyear.\n\nHello support team. We run Tallyboard 1.9.6 on macOS 14.7.\nWhenever I open the app since yesterday, the app shows\n'E-6229: TLS handshake failed'.",
+  "opened": "2026-03-28"
+}

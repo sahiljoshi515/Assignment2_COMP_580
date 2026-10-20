@@ -1,0 +1,290 @@
+{
+  "equivalent": [
+    {
+      "a": "H-ee440d",
+      "b": "T-6aebce",
+      "kind": "paraphrase"
+    },
+    {
+      "a": "H-486444",
+      "b": "T-4620e4",
+      "kind": "format"
+    },
+    {
+      "a": "T-aeee29",
+      "b": "T-717be4",
+      "kind": "format"
+    },
+    {
+      "a": "H-38b561",
+      "b": "T-6e2719",
+      "kind": "format"
+    },
+    {
+      "a": "H-486444",
+      "b": "T-ef3d05",
+      "kind": "class"
+    },
+    {
+      "a": "T-4620e4",
+      "b": "T-ef3d05",
+      "kind": "format"
+    },
+    {
+      "a": "H-6cddfc",
+      "b": "T-dafefc",
+      "kind": "exact"
+    },
+    {
+      "a": "H-16b2d7",
+      "b": "T-4409ac",
+      "kind": "exact"
+    },
+    {
+      "a": "H-486444",
+      "b": "T-ed7b7c",
+      "kind": "class"
+    },
+    {
+      "a": "T-4620e4",
+      "b": "T-ed7b7c",
+      "kind": "paraphrase"
+    },
+    {
+      "a": "T-ef3d05",
+      "b": "T-ed7b7c",
+      "kind": "class"
+    },
+    {
+      "a": "H-c537ce",
+      "b": "T-f6e8d2",
+      "kind": "paraphrase"
+    },
+    {
+      "a": "T-68ba45",
+      "b": "T-979805",
+      "kind": "paraphrase"
+    },
+    {
+      "a": "H-773c67",
+      "b": "T-5adb88",
+      "kind": "edit"
+    },
+    {
+      "a": "H-8054c6",
+      "b": "T-7d5a01",
+      "kind": "edit"
+    },
+    {
+      "a": "H-59b8b9",
+      "b": "T-d5dac8",
+      "kind": "edit"
+    },
+    {
+      "a": "H-16f785",
+      "b": "T-c82f17",
+      "kind": "edit"
+    },
+    {
+      "a": "H-f9eadc",
+      "b": "T-02d47e",
+      "kind": "paraphrase"
+    },
+    {
+      "a": "H-70ab9b",
+      "b": "T-8c1bb3",
+      "kind": "exact"
+    },
+    {
+      "a": "H-9ae40b",
+      "b": "T-158070",
+      "kind": "format"
+    },
+    {
+      "a": "H-26388f",
+      "b": "T-534543",
+      "kind": "reorder"
+    },
+    {
+      "a": "H-53ce3a",
+      "b": "T-2b05ab",
+      "kind": "edit"
+    },
+    {
+      "a": "T-25850c",
+      "b": "T-f7cd84",
+      "kind": "reorder"
+    },
+    {
+      "a": "T-de877e",
+      "b": "T-d578e7",
+      "kind": "reorder"
+    },
+    {
+      "a": "H-34ba3b",
+      "b": "T-0f5c7c",
+      "kind": "edit"
+    },
+    {
+      "a": "H-53ce3a",
+      "b": "T-26af65",
+      "kind": "class"
+    },
+    {
+      "a": "T-2b05ab",
+      "b": "T-26af65",
+      "kind": "paraphrase"
+    },
+    {
+      "a": "H-9b279b",
+      "b": "T-8bcf5f",
+      "kind": "exact"
+    },
+    {
+      "a": "H-16f785",
+      "b": "T-e73d00",
+      "kind": "paraphrase"
+    },
+    {
+      "a": "T-c82f17",
+      "b": "T-e73d00",
+      "kind": "class"
+    },
+    {
+      "a": "H-773c67",
+      "b": "T-d02f46",
+      "kind": "reorder"
+    },
+    {
+      "a": "T-5adb88",
+      "b": "T-d02f46",
+      "kind": "class"
+    },
+    {
+      "a": "H-773c67",
+      "b": "T-7e3985",
+      "kind": "class"
+    },
+    {
+      "a": "T-5adb88",
+      "b": "T-7e3985",
+      "kind": "format"
+    },
+    {
+      "a": "T-d02f46",
+      "b": "T-7e3985",
+      "kind": "class"
+    },
+    {
+      "a": "H-c537ce",
+      "b": "T-499e7c",
+      "kind": "format"
+    },
+    {
+      "a": "T-f6e8d2",
+      "b": "T-499e7c",
+      "kind": "class"
+    }
+  ],
+  "hard_negative": [
+    {
+      "a": "H-99d03b",
+      "b": "T-aeee29",
+      "differs_in": [
+        "corruption"
+      ]
+    },
+    {
+      "a": "H-cee059",
+      "b": "T-3f588b",
+      "differs_in": [
+        "corruption"
+      ]
+    },
+    {
+      "a": "H-69ec4f",
+      "b": "T-52023e",
+      "differs_in": [
+        "corruption"
+      ]
+    },
+    {
+      "a": "H-1ce12f",
+      "b": "T-68ba45",
+      "differs_in": [
+        "corruption"
+      ]
+    },
+    {
+      "a": "T-27c8ee",
+      "b": "T-da8c1e",
+      "differs_in": [
+        "corruption"
+      ]
+    },
+    {
+      "a": "H-cf84aa",
+      "b": "T-25850c",
+      "differs_in": [
+        "corruption"
+      ]
+    },
+    {
+      "a": "T-dafefc",
+      "b": "T-b75ca8",
+      "differs_in": [
+        "corruption"
+      ]
+    },
+    {
+      "a": "T-dafefc",
+      "b": "T-de877e",
+      "differs_in": [
+        "corruption"
+      ]
+    },
+    {
+      "a": "H-4b38b4",
+      "b": "T-6150d0",
+      "differs_in": [
+        "corruption",
+        "record"
+      ]
+    },
+    {
+      "a": "T-0528f1",
+      "b": "T-ce93a4",
+      "differs_in": [
+        "corruption"
+      ]
+    },
+    {
+      "a": "H-0a06fc",
+      "b": "T-9c01a7",
+      "differs_in": [
+        "corruption"
+      ]
+    },
+    {
+      "a": "H-26388f",
+      "b": "T-2dfee9",
+      "differs_in": [
+        "corruption"
+      ]
+    },
+    {
+      "a": "H-1ce12f",
+      "b": "T-24c0bd",
+      "differs_in": [
+        "corruption"
+      ]
+    },
+    {
+      "a": "H-6cddfc",
+      "b": "T-246d70",
+      "differs_in": [
+        "corruption"
+      ]
+    }
+  ]
+}

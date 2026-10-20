@@ -1,0 +1,10 @@
+{
+  "tid": "T-ba3d95",
+  "seq": 17,
+  "product": "meshmail",
+  "error_code": "e-3381",
+  "platform": "linux",
+  "subject": "E-3381: totals mismatch on Linux",
+  "body": "Hello support team. We run MeshMail 2.8.7 on Fedora 41. Whenever I export the report since Monday, the app shows \"E-3381: totals do not match source\".\n\nEach line is off by a few cents, clearly a rounding issue. The latest changelog talks about a fix for rounding.\n\nWhat I tried so far: searching the help centre. No luck.\n\nRegards, Sofia Rossi, Caldera Foods",
+  "opened": "2026-01-24"
+}

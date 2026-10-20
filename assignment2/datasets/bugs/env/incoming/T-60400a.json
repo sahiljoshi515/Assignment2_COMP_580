@@ -1,0 +1,11 @@
+{
+  "tid": "T-60400a",
+  "seq": 46,
+  "exception": "ValueError",
+  "top_frame": "lattice.io.json.load",
+  "version": "3.3.5",
+  "title": "json.load raises ValueError when dragging a file into a record",
+  "body": "ENVIRONMENT:\n\nRunning Lattice 3.3.5 on Debian 12 against eu-west-2.\n\nSTEPS:\n\nHow to trigger it:\n- Open Lattice and begin dragging a file into a record.\n- Use a timestamp between 23:00 and 01:00 local time.\n- Watch the log for the traceback below.\n\nEXPECTED:\n\nNo traceback; dragging a file into a record normally takes a\nfew seconds.\n\nACTUAL:\n\nThe rejected value is a timestamp close to midnight. We are\nin a timezone ahead of UTC; around midnight the date differs\nfrom UTC.\n\nFREQUENCY:\n\nIt occurs every time.",
+  "stacktrace": "lattice/ui/main.py:46 in loop\nlattice/ui/upload.py:39 in on_drop\nlattice/io/upload.py:115 in send\nlattice/io/json.py:181 in load\nValueError: Expecting value: line 1 column 1 (char 0)",
+  "reported": "2026-03-09"
+}

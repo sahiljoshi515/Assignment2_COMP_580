@@ -1,0 +1,7 @@
+{
+  "tid": "T-6d4e20",
+  "seq": 16,
+  "title": "INC-6582: incident on the Reporting Mart",
+  "body": "IMPACT:\n\nThis report covers an incident on the Reporting Mart that is\nresolved. Infrastructure linked roughly 38 tickets to the\nevent and engaged Corvid Analytics, the hosting provider,\nwithin the first hour.\n\nTIMELINE:\n\nRohan Mehta logged the following events, state as of 19\nApril 2025:\n- Customers were notified through the public status page\n- Failover to the standby database instance was started\n- Error rates were compared against the weekly baseline\n\nSTATUS:\n\nFor tracking purposes the incident is resolved. Report\nwritten by Hana Kowalski on 14 March 2025; the next review\nfalls in the 06:00-07:00 UTC window and goes to the weekly\nservice meeting.",
+  "received": "2026-01-26"
+}

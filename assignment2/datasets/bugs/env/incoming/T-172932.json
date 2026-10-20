@@ -1,0 +1,11 @@
+{
+  "tid": "T-172932",
+  "seq": 42,
+  "exception": "ValueError",
+  "top_frame": "lattice.report.summary.total",
+  "version": "v3.1.2",
+  "title": "valueerror while exporting the monthly report (summary.total)",
+  "body": "Environment\n\nLattice version 3.1.2; operating system Windows Server 2022;\nserver region us-east-1.\n\nSteps\n\nHow to trigger it:\n* With the log window open, start exporting the monthly\n  report.\n* Use a figure such as 0.12345678.\n* Check the journal pane; the stack trace appears there.\n\nExpected\n\nNo stack trace; exporting the monthly report normally takes a\nfew seconds.\n\nActual\n\nIt fails on a decimal figure with many digits after the\npoint. The decimal values that fail all have seven or more\nfractional digits.\n\nFrequency\n\nReproduces roughly one run in three.",
+  "stacktrace": "lattice/ui/main.py:49 in loop\nlattice/report/schedule.py:67 in run_due\nlattice/report/builder.py:137 in build\nlattice/report/summary.py:103 in total\nValueError: cannot convert float NaN to integer",
+  "reported": "2026-03-03"
+}

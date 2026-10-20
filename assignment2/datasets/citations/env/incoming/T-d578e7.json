@@ -1,0 +1,18 @@
+{
+  "tid": "T-d578e7",
+  "seq": 58,
+  "citation": {
+    "authors": [
+      "Vik,H",
+      "Huang,E",
+      "Moretti,B"
+    ],
+    "title": "Speech Recognition with Contrastive Query Plans",
+    "venue": "SIGIR",
+    "year": 2022,
+    "doi": "10.5555/sigir.2022.2f73",
+    "pages": "3711-3719"
+  },
+  "raw": "Vik,H, Huang,E, and Moretti,B (2022, November). Speech Recognition with Contrastive Query Plans. In Proceedings of SIGIR (pp.3711-3719). ACM. doi:10.5555/sigir.2022.2f73",
+  "received": "2026-03-14"
+}

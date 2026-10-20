@@ -1,0 +1,105 @@
+2026-04-13T17:08:24Z gateway-07 INFO  starting gateway 8.7.4 (build 7575885) on gateway-07
+2026-04-13T17:08:25Z gateway-07 INFO  config: max_connections=512
+2026-04-13T17:08:25Z gateway-07 INFO  config: pool_size=16
+2026-04-13T17:08:25Z gateway-07 INFO  config: request_timeout_ms=8000
+2026-04-13T17:08:25Z gateway-07 INFO  config: cache_ttl_s=300
+2026-04-13T17:08:25Z gateway-07 INFO  config: log_level=INFO
+2026-04-13T17:08:25Z gateway-07 INFO  config: queue_depth=500
+2026-04-13T17:08:25Z gateway-07 INFO  config: gc_interval_s=120
+2026-04-13T17:08:26Z gateway-07 INFO  listening on 0.0.0.0:8080; workers=4
+2026-04-13T17:08:24Z gateway-07 INFO  health check ok (latency 1ms)
+2026-04-13T17:08:27Z gateway-07 INFO  DELETE /v1/cart/88618 200 in 39ms rid=aec985
+2026-04-13T17:08:35Z gateway-07 INFO  GET /v1/profile 200 in 191ms rid=d990d9
+2026-04-13T17:08:41Z gateway-07 INFO  metrics: rps=273 p99=301ms heap=1045MB goroutines=712
+2026-04-13T17:08:43Z gateway-07 INFO  POST /v1/orders 200 in 308ms rid=c605c5
+2026-04-13T17:08:51Z gateway-07 INFO  GET /health 200 in 25ms rid=43d448
+2026-04-13T17:08:54Z gateway-07 INFO  health check ok (latency 10ms)
+2026-04-13T17:08:59Z gateway-07 INFO  GET /v1/items/7348 200 in 374ms rid=2dab0e
+2026-04-13T17:09:05Z gateway-07 WARN  retrying upstream call (attempt 2/3)
+2026-04-13T17:09:07Z gateway-07 INFO  PUT /v1/cart 200 in 314ms rid=7c14ef
+2026-04-13T17:09:15Z gateway-07 INFO  DELETE /v1/cart/36180 200 in 291ms rid=ede461
+2026-04-13T17:09:23Z gateway-07 INFO  GET /v1/items/61354 200 in 354ms rid=5aefe2
+2026-04-13T17:09:24Z gateway-07 INFO  health check ok (latency 6ms)
+2026-04-13T17:09:31Z gateway-07 INFO  GET /v1/search 200 in 328ms rid=9c58d4
+2026-04-13T17:09:39Z gateway-07 INFO  GET /v1/items/7848 200 in 47ms rid=d06552
+2026-04-13T17:09:47Z gateway-07 INFO  DELETE /v1/cart/88355 200 in 269ms rid=a76ab5
+2026-04-13T17:09:54Z gateway-07 INFO  health check ok (latency 2ms)
+2026-04-13T17:09:55Z gateway-07 INFO  GET /health 200 in 217ms rid=57b9d9
+2026-04-13T17:10:03Z gateway-07 INFO  DELETE /v1/cart/23225 200 in 226ms rid=731063
+2026-04-13T17:10:11Z gateway-07 INFO  DELETE /v1/cart/93856 200 in 66ms rid=b31de2
+2026-04-13T17:10:19Z gateway-07 INFO  GET /v1/profile 200 in 344ms rid=e6bcfd
+2026-04-13T17:10:24Z gateway-07 INFO  health check ok (latency 5ms)
+2026-04-13T17:10:27Z gateway-07 INFO  GET /v1/profile 200 in 349ms rid=cc179a
+2026-04-13T17:10:35Z gateway-07 INFO  GET /v1/search 200 in 50ms rid=63d1c6
+2026-04-13T17:10:41Z gateway-07 INFO  metrics: rps=358 p99=61ms heap=429MB goroutines=782
+2026-04-13T17:10:42Z gateway-07 WARN  connection pool at 89% capacity
+2026-04-13T17:10:43Z gateway-07 INFO  POST /v1/refunds 200 in 15ms rid=816215
+2026-04-13T17:10:51Z gateway-07 INFO  GET /v1/items/25839 200 in 47ms rid=eedb3b
+2026-04-13T17:10:54Z gateway-07 INFO  health check ok (latency 7ms)
+2026-04-13T17:10:59Z gateway-07 INFO  PUT /v1/cart 200 in 287ms rid=b17236
+2026-04-13T17:11:07Z gateway-07 INFO  POST /v1/orders 200 in 232ms rid=be3573
+2026-04-13T17:11:15Z gateway-07 INFO  GET /v1/profile 200 in 324ms rid=93a5bc
+2026-04-13T17:11:23Z gateway-07 INFO  POST /v1/payments 200 in 386ms rid=f62073
+2026-04-13T17:11:24Z gateway-07 INFO  health check ok (latency 5ms)
+2026-04-13T17:11:31Z gateway-07 INFO  GET /v1/items/98187 200 in 275ms rid=d5372a
+2026-04-13T17:11:39Z gateway-07 INFO  GET /v1/items/11999 200 in 316ms rid=635bc6
+2026-04-13T17:11:47Z gateway-07 INFO  GET /v1/search 200 in 157ms rid=f35d50
+2026-04-13T17:11:54Z gateway-07 INFO  health check ok (latency 3ms)
+2026-04-13T17:11:55Z gateway-07 INFO  GET /v1/items/82174 200 in 21ms rid=51e750
+2026-04-13T17:12:03Z gateway-07 INFO  GET /v1/profile 200 in 184ms rid=3442b6
+2026-04-13T17:12:11Z gateway-07 INFO  POST /v1/payments 200 in 260ms rid=2a1c2d
+2026-04-13T17:12:19Z gateway-07 INFO  GET /v1/search 200 in 146ms rid=7ed963
+2026-04-13T17:12:19Z gateway-07 WARN  cache miss ratio above 0.45
+2026-04-13T17:12:24Z gateway-07 INFO  health check ok (latency 2ms)
+2026-04-13T17:12:27Z gateway-07 INFO  GET /v1/profile 200 in 246ms rid=87779d
+2026-04-13T17:12:35Z gateway-07 INFO  GET /health 200 in 179ms rid=fd5a69
+2026-04-13T17:12:41Z gateway-07 INFO  metrics: rps=65 p99=390ms heap=1436MB goroutines=490
+2026-04-13T17:12:43Z gateway-07 INFO  GET /v1/items/44421 200 in 5ms rid=0c1a7b
+2026-04-13T17:12:51Z gateway-07 INFO  POST /v1/orders 200 in 125ms rid=3432fb
+2026-04-13T17:12:54Z gateway-07 INFO  health check ok (latency 10ms)
+2026-04-13T17:12:59Z gateway-07 INFO  PUT /v1/cart 200 in 114ms rid=ba2887
+2026-04-13T17:13:07Z gateway-07 INFO  DELETE /v1/cart/28504 200 in 379ms rid=f6023f
+2026-04-13T17:13:15Z gateway-07 INFO  GET /health 200 in 331ms rid=9dec49
+2026-04-13T17:13:23Z gateway-07 INFO  GET /health 200 in 67ms rid=b4a3dc
+2026-04-13T17:13:24Z gateway-07 INFO  health check ok (latency 5ms)
+2026-04-13T17:13:31Z gateway-07 INFO  GET /v1/search 200 in 255ms rid=fe7ab2
+2026-04-13T17:13:39Z gateway-07 INFO  PUT /v1/cart 200 in 128ms rid=aff04c
+2026-04-13T17:13:47Z gateway-07 INFO  PUT /v1/cart 200 in 162ms rid=164958
+2026-04-13T17:13:54Z gateway-07 INFO  health check ok (latency 11ms)
+2026-04-13T17:13:55Z gateway-07 INFO  GET /v1/profile 200 in 35ms rid=49892f
+2026-04-13T17:13:56Z gateway-07 WARN  cache miss ratio above 0.38
+2026-04-13T17:14:03Z gateway-07 INFO  POST /v1/orders 200 in 101ms rid=c68a42
+2026-04-13T17:14:11Z gateway-07 INFO  POST /v1/payments 200 in 121ms rid=2b132a
+2026-04-13T17:14:19Z gateway-07 INFO  PUT /v1/cart 200 in 78ms rid=9366c5
+2026-04-13T17:14:24Z gateway-07 WARN  health check FAILED: payments-api unreachable
+2026-04-13T17:14:24Z gateway-07 ERROR SerializationError: payments-api did not respond within 8000ms (attempt 1/3)
+2026-04-13T17:14:27Z gateway-07 INFO  POST /v1/payments 200 in 5ms rid=cf2564
+2026-04-13T17:14:31Z gateway-07 ERROR SerializationError: payments-api did not respond within 8000ms (attempt 2/3)
+2026-04-13T17:14:35Z gateway-07 INFO  GET /v1/orders/87513 503 in 175ms rid=5bd911
+2026-04-13T17:14:38Z gateway-07 ERROR SerializationError: payments-api did not respond within 8000ms (attempt 3/3)
+2026-04-13T17:14:41Z gateway-07 INFO  metrics: rps=323 p99=710ms heap=787MB goroutines=331
+2026-04-13T17:14:43Z gateway-07 INFO  GET /health 200 in 242ms rid=25dbf5
+2026-04-13T17:14:45Z gateway-07 ERROR SerializationError: payments-api did not respond within 8000ms (attempt 1/3)
+2026-04-13T17:14:51Z gateway-07 INFO  POST /v1/refunds 200 in 241ms rid=ca3d9c
+2026-04-13T17:14:52Z gateway-07 ERROR SerializationError: payments-api did not respond within 8000ms (attempt 2/3)
+2026-04-13T17:14:54Z gateway-07 WARN  health check FAILED: payments-api unreachable
+2026-04-13T17:14:59Z gateway-07 INFO  GET /v1/orders/57967 200 in 210ms rid=c10bf2
+2026-04-13T17:14:59Z gateway-07 ERROR SerializationError: payments-api did not respond within 8000ms (attempt 3/3)
+2026-04-13T17:15:06Z gateway-07 ERROR SerializationError: payments-api did not respond within 8000ms (attempt 1/3)
+2026-04-13T17:15:07Z gateway-07 INFO  GET /health 200 in 188ms rid=fd4a0d
+2026-04-13T17:15:13Z gateway-07 ERROR SerializationError: payments-api did not respond within 8000ms (attempt 2/3)
+2026-04-13T17:15:15Z gateway-07 INFO  GET /health 200 in 164ms rid=eb7356
+2026-04-13T17:15:20Z gateway-07 ERROR SerializationError: payments-api did not respond within 8000ms (attempt 3/3)
+2026-04-13T17:15:23Z gateway-07 INFO  PUT /v1/cart 503 in 392ms rid=e71ea0
+2026-04-13T17:15:24Z gateway-07 WARN  health check FAILED: payments-api unreachable
+2026-04-13T17:15:27Z gateway-07 ERROR SerializationError: payments-api did not respond within 8000ms (attempt 1/3)
+2026-04-13T17:15:31Z gateway-07 INFO  POST /v1/refunds 503 in 346ms rid=c53c88
+2026-04-13T17:15:33Z gateway-07 WARN  connection pool at 89% capacity
+2026-04-13T17:15:34Z gateway-07 ERROR SerializationError: giving up on payments-api after 11 attempts
+2026-04-13T17:15:39Z gateway-07 INFO  DELETE /v1/cart/88183 200 in 161ms rid=e18f74
+2026-04-13T17:15:47Z gateway-07 INFO  GET /v1/search 200 in 60ms rid=d83bcd
+2026-04-13T17:15:54Z gateway-07 INFO  health check ok (latency 6ms)
+2026-04-13T17:15:55Z gateway-07 INFO  GET /v1/items/53484 200 in 182ms rid=caf937
+2026-04-13T17:16:03Z gateway-07 INFO  GET /v1/profile 200 in 253ms rid=ebb1f4
+2026-04-13T17:16:11Z gateway-07 INFO  GET /v1/orders/42132 200 in 257ms rid=f8f496
+2026-04-13T17:16:19Z gateway-07 INFO  DELETE /v1/cart/58495 200 in 330ms rid=42f1a2

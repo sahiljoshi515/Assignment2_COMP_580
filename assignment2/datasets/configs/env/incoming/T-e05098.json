@@ -1,0 +1,10 @@
+{
+  "tid": "T-e05098",
+  "seq": 15,
+  "scenario": "cfg-1494",
+  "kind": "replicas_of",
+  "target": "prod-eu",
+  "subject": "CFG-1494: how many replicas does prod-eu run",
+  "body": "Hello -- Aisha Bello, payments. How many replicas does the orders-api deployment in the prod-eu\nenvironment run?\n\nReport the number as written in service.replicas.\n\nThanks, Aisha Bello",
+  "received": "2026-02-03"
+}

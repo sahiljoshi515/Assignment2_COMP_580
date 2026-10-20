@@ -1,0 +1,11 @@
+{
+  "tid": "T-b281d9",
+  "seq": 22,
+  "exception": "IndexError",
+  "top_frame": "lattice.io.excel.read",
+  "version": "v3.1.7",
+  "title": "IndexError while importing a CSV file (excel.read)",
+  "body": "ENVIRONMENT:\n\nLattice version 3.1.7; operating system Windows 11 24H2; server region ap-south-1.\n\nSTEPS:\n\nSteps to reproduce:\n* With the log window open, start importing a CSV file.\n* Make sure the input ends without a trailing blank line.\n* Wait for the failure and read the log.\n\nEXPECTED:\n\nExpected importing a CSV file to finish without errors.\n\nACTUAL:\n\nEvery row works except the last row, which raises. Adding a line moves the failure to the new last row.\n\nFREQUENCY:\n\nIt occurs once a day or so.",
+  "stacktrace": "lattice/ui/main.py:49 in loop\nlattice/ui/dialog.py:88 in on_import\nlattice/io/batch.py:55 in run_import\nlattice/io/excel.py:98 in read\nIndexError: list index out of range",
+  "reported": "2026-02-03"
+}

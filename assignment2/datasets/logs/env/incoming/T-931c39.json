@@ -1,0 +1,10 @@
+{
+  "tid": "T-931c39",
+  "seq": 34,
+  "scenario": "INC1000",
+  "kind": "first_error",
+  "target": null,
+  "subject": "INC-1000: which host failed first and when",
+  "body": "Hi, Mei Lin from the payments team here. Which search host logged the first\nERROR line of the window, and at what timestamp, exactly as logged?\n\nPlease quote the timestamp as it appears in the log line, including the Z.\n\nRegards, Mei Lin -- payments",
+  "received": "2026-03-15"
+}

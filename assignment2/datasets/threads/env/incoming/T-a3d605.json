@@ -1,0 +1,10 @@
+{
+  "tid": "T-a3d605",
+  "seq": 24,
+  "scenario": "MBX1152",
+  "kind": "message_count",
+  "target": "tool-migration",
+  "subject": "MBX-1152: how many messages in the tool-migration thread",
+  "body": "Hello -- Grace Okafor, compliance. How long is the migration from issuehub to new tracker thread, in\nmessages?\n\nEvery message is its own file; quoted text inside a reply does not count as a message.\n\nRegards, Grace Okafor -- compliance",
+  "received": "2026-02-22"
+}

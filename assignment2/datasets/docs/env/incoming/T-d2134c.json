@@ -1,0 +1,7 @@
+{
+  "tid": "T-d2134c",
+  "seq": 27,
+  "title": "REL-11.9: invoice router release notes",
+  "body": "## Highlights\n\nThe Invoice Router team ships REL-11.9 to every tenant on 19\nAugust 2025. Besides faster search, built with Bluegate\nNetworks, and a reworked admin console, 21 customer reports\nwere addressed.\n\n## Fixes\n\nFixes in this release, verified by Security Office on 27\nNovember 2025:\n* Restored keyboard shortcuts in the search panel\n* Reduced memory use of the import service by a third\n* Updated the bundled TLS library to the current release\n\n## Upgrade notes\n\nTenants are upgraded automatically during the 03:30-05:00\nUTC window; no action is needed. Release manager: Aisha\nBello; support contact: Jonas Berg, reachable through the\nusual channel.",
+  "received": "2026-02-10"
+}

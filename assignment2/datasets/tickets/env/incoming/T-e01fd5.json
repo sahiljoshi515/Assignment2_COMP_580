@@ -1,0 +1,10 @@
+{
+  "tid": "T-e01fd5",
+  "seq": 57,
+  "product": "meshmail",
+  "error_code": "e-3307",
+  "platform": "macos",
+  "subject": "E-3307: quota exceeded on macOS",
+  "body": "Good morning. My setup is MeshMail 2.8.4, macOS 14.7. Since last week, every time I upload a file, I\nget 'E-3307: storage quota exceeded'.\n\nYesterday's plan upgrade is not reflected, the old limit is still shown. The web console already\nshows the new allowance.\n\nI've already tried waiting a day, which changed nothing.\n\nPriya Nair - Caldera Foods. Appreciate any pointers.",
+  "opened": "2026-03-13"
+}

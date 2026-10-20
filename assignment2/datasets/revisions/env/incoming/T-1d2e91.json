@@ -1,0 +1,10 @@
+{
+  "tid": "T-1d2e91",
+  "seq": 19,
+  "scenario": "POL-1342",
+  "kind": "changes_count",
+  "target": "session_hours",
+  "subject": "POL-1342: how many times the maximum session length changed",
+  "body": "Hello -- Hannah Cole, compliance. Count the revisions of the\nAcceptable Use Policy in which the maximum session length\ntakes a value different from the previous revision.\n\nv01 establishes the value; count the later revisions that\nalter it.\n\nRegards, Hannah Cole -- compliance",
+  "received": "2026-02-11"
+}

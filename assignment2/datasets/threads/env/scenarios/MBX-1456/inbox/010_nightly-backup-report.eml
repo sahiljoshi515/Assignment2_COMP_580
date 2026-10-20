@@ -1,0 +1,16 @@
+From: Backup Service <backup-bot@calderafoods.example>
+To: ops-notify@calderafoods.example
+Date: Fri, 06 Mar 2026 02:54:00 +0000
+Subject: Nightly backup report - wiki-and-tracker - 2026-03-05
+
+Nightly backup report for 2026-03-05
+Job: wiki-and-tracker
+Status: SUCCESS
+Started: 02:03:33 UTC   Finished: 02:54:17 UTC   Duration: 51 min
+Bytes transferred: 51.7 GB   Files: 1,203,684   Changed since last run: 3.6 %
+Retention: 30 daily, 12 weekly, 6 monthly
+Next run: 2026-03-06 02:00 UTC
+
+-- 
+This message was generated automatically by the backup service. Replies are not read.
+To change the schedule or the recipients, edit the job in the backup console.

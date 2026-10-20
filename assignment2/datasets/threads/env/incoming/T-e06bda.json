@@ -1,0 +1,10 @@
+{
+  "tid": "T-e06bda",
+  "seq": 39,
+  "scenario": "mbx-1076",
+  "kind": "requester",
+  "target": "vendor-renewal",
+  "subject": "MBX-1076: who opened the vendor-renewal thread",
+  "body": "Hi, Omar Haddad from the compliance team here. Which\ncolleague opened the vendor contract renewal for contoso\ncloud thread, i.e. sent its first message?\n\nReport the display name, not the address.\n\nRegards, Omar Haddad -- compliance",
+  "received": "2026-03-25"
+}

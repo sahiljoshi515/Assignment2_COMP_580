@@ -1,0 +1,94 @@
+2026-03-04T19:33:19Z billing-09 INFO  starting billing 3.14.3 (build 016aa2b) on billing-09
+2026-03-04T19:33:20Z billing-09 INFO  config: max_connections=512
+2026-03-04T19:33:20Z billing-09 INFO  config: pool_size=16
+2026-03-04T19:33:20Z billing-09 INFO  config: request_timeout_ms=5000
+2026-03-04T19:33:20Z billing-09 INFO  config: cache_ttl_s=300
+2026-03-04T19:33:20Z billing-09 INFO  config: log_level=DEBUG
+2026-03-04T19:33:20Z billing-09 INFO  config: queue_depth=1000
+2026-03-04T19:33:20Z billing-09 INFO  config: gc_interval_s=60
+2026-03-04T19:33:21Z billing-09 INFO  listening on 0.0.0.0:8080; workers=4
+2026-03-04T19:33:19Z billing-09 INFO  health check ok (latency 5ms)
+2026-03-04T19:33:22Z billing-09 INFO  PUT /v1/cart 200 in 285ms rid=782608
+2026-03-04T19:33:30Z billing-09 INFO  GET /v1/profile 200 in 349ms rid=24cfaa
+2026-03-04T19:33:36Z billing-09 INFO  metrics: rps=247 p99=684ms heap=223MB goroutines=533
+2026-03-04T19:33:38Z billing-09 INFO  DELETE /v1/cart/99488 200 in 235ms rid=5a1252
+2026-03-04T19:33:46Z billing-09 INFO  GET /v1/profile 200 in 19ms rid=50d532
+2026-03-04T19:33:49Z billing-09 INFO  health check ok (latency 3ms)
+2026-03-04T19:33:54Z billing-09 INFO  DELETE /v1/cart/81477 200 in 356ms rid=54f00b
+2026-03-04T19:34:00Z billing-09 WARN  slow query took 25ms on shard 2
+2026-03-04T19:34:02Z billing-09 INFO  GET /v1/orders/40965 200 in 23ms rid=3f9e64
+2026-03-04T19:34:10Z billing-09 INFO  POST /v1/refunds 200 in 124ms rid=756feb
+2026-03-04T19:34:18Z billing-09 INFO  GET /v1/items/76948 200 in 283ms rid=a712a5
+2026-03-04T19:34:19Z billing-09 INFO  health check ok (latency 1ms)
+2026-03-04T19:34:26Z billing-09 INFO  POST /v1/refunds 200 in 323ms rid=8fc56a
+2026-03-04T19:34:34Z billing-09 INFO  GET /v1/orders/74942 200 in 382ms rid=e59e43
+2026-03-04T19:34:42Z billing-09 INFO  GET /v1/search 200 in 363ms rid=02e771
+2026-03-04T19:34:49Z billing-09 INFO  health check ok (latency 3ms)
+2026-03-04T19:34:50Z billing-09 INFO  PUT /v1/cart 200 in 95ms rid=e39a8b
+2026-03-04T19:34:58Z billing-09 INFO  GET /health 200 in 228ms rid=16672b
+2026-03-04T19:35:06Z billing-09 INFO  POST /v1/refunds 200 in 215ms rid=049e58
+2026-03-04T19:35:14Z billing-09 INFO  PUT /v1/cart 200 in 183ms rid=01dcc2
+2026-03-04T19:35:19Z billing-09 INFO  health check ok (latency 3ms)
+2026-03-04T19:35:22Z billing-09 INFO  GET /health 200 in 96ms rid=02d365
+2026-03-04T19:35:30Z billing-09 INFO  GET /v1/profile 200 in 239ms rid=3fadbb
+2026-03-04T19:35:36Z billing-09 INFO  metrics: rps=71 p99=805ms heap=1017MB goroutines=894
+2026-03-04T19:35:37Z billing-09 WARN  retrying upstream call (attempt 1/3)
+2026-03-04T19:35:38Z billing-09 INFO  GET /v1/items/32576 200 in 388ms rid=e9993f
+2026-03-04T19:35:46Z billing-09 INFO  GET /health 200 in 341ms rid=97f8db
+2026-03-04T19:35:49Z billing-09 INFO  health check ok (latency 11ms)
+2026-03-04T19:35:54Z billing-09 INFO  GET /v1/orders/3044 200 in 153ms rid=4ce65a
+2026-03-04T19:36:02Z billing-09 INFO  GET /health 200 in 304ms rid=d9b1bb
+2026-03-04T19:36:10Z billing-09 INFO  POST /v1/refunds 200 in 326ms rid=d3b38d
+2026-03-04T19:36:18Z billing-09 INFO  GET /v1/orders/19911 200 in 173ms rid=3997ea
+2026-03-04T19:36:19Z billing-09 INFO  health check ok (latency 7ms)
+2026-03-04T19:36:26Z billing-09 INFO  POST /v1/payments 200 in 320ms rid=a72a8c
+2026-03-04T19:36:34Z billing-09 INFO  POST /v1/payments 200 in 122ms rid=19cbad
+2026-03-04T19:36:42Z billing-09 INFO  DELETE /v1/cart/81744 200 in 101ms rid=0b0183
+2026-03-04T19:36:49Z billing-09 INFO  health check ok (latency 8ms)
+2026-03-04T19:36:50Z billing-09 INFO  GET /v1/items/57485 200 in 132ms rid=c46650
+2026-03-04T19:36:58Z billing-09 INFO  POST /v1/payments 200 in 113ms rid=bbccab
+2026-03-04T19:37:06Z billing-09 INFO  GET /v1/profile 200 in 216ms rid=5b1560
+2026-03-04T19:37:14Z billing-09 INFO  DELETE /v1/cart/43668 200 in 177ms rid=8e4893
+2026-03-04T19:37:14Z billing-09 WARN  retrying upstream call (attempt 2/3)
+2026-03-04T19:37:19Z billing-09 INFO  health check ok (latency 5ms)
+2026-03-04T19:37:22Z billing-09 INFO  POST /v1/orders 200 in 315ms rid=d5e97d
+2026-03-04T19:37:30Z billing-09 INFO  GET /health 200 in 5ms rid=36a771
+2026-03-04T19:37:36Z billing-09 INFO  metrics: rps=58 p99=858ms heap=1358MB goroutines=432
+2026-03-04T19:37:38Z billing-09 INFO  GET /v1/orders/81548 200 in 252ms rid=0b3ce0
+2026-03-04T19:37:46Z billing-09 INFO  POST /v1/payments 200 in 211ms rid=02fb19
+2026-03-04T19:37:49Z billing-09 INFO  health check ok (latency 10ms)
+2026-03-04T19:37:54Z billing-09 INFO  PUT /v1/cart 200 in 154ms rid=66be3f
+2026-03-04T19:38:02Z billing-09 INFO  GET /v1/profile 200 in 265ms rid=5310e6
+2026-03-04T19:38:10Z billing-09 INFO  POST /v1/refunds 200 in 130ms rid=ac7206
+2026-03-04T19:38:18Z billing-09 INFO  GET /v1/profile 200 in 170ms rid=dbe562
+2026-03-04T19:38:19Z billing-09 INFO  health check ok (latency 3ms)
+2026-03-04T19:38:26Z billing-09 INFO  POST /v1/refunds 200 in 5ms rid=70019d
+2026-03-04T19:38:34Z billing-09 INFO  GET /health 200 in 30ms rid=feb959
+2026-03-04T19:38:42Z billing-09 INFO  PUT /v1/cart 200 in 162ms rid=b627df
+2026-03-04T19:38:49Z billing-09 INFO  health check ok (latency 9ms)
+2026-03-04T19:38:50Z billing-09 INFO  POST /v1/payments 200 in 395ms rid=0043a0
+2026-03-04T19:38:51Z billing-09 WARN  retrying upstream call (attempt 2/3)
+2026-03-04T19:38:58Z billing-09 INFO  GET /v1/search 200 in 140ms rid=242baf
+2026-03-04T19:39:06Z billing-09 INFO  POST /v1/orders 200 in 69ms rid=97caf8
+2026-03-04T19:39:14Z billing-09 INFO  GET /health 200 in 85ms rid=624b2f
+2026-03-04T19:39:19Z billing-09 INFO  health check ok (latency 2ms)
+2026-03-04T19:39:22Z billing-09 INFO  GET /v1/profile 200 in 223ms rid=c9b759
+2026-03-04T19:39:30Z billing-09 INFO  GET /v1/orders/36559 200 in 312ms rid=2f046d
+2026-03-04T19:39:36Z billing-09 INFO  metrics: rps=128 p99=348ms heap=801MB goroutines=474
+2026-03-04T19:39:38Z billing-09 INFO  DELETE /v1/cart/39647 200 in 130ms rid=492b75
+2026-03-04T19:39:46Z billing-09 INFO  GET /v1/profile 200 in 378ms rid=107cc8
+2026-03-04T19:39:49Z billing-09 INFO  health check ok (latency 8ms)
+2026-03-04T19:39:54Z billing-09 INFO  POST /v1/payments 200 in 182ms rid=40d486
+2026-03-04T19:40:02Z billing-09 INFO  POST /v1/orders 200 in 172ms rid=53d99b
+2026-03-04T19:40:10Z billing-09 INFO  GET /v1/profile 200 in 41ms rid=7df483
+2026-03-04T19:40:18Z billing-09 INFO  POST /v1/refunds 200 in 345ms rid=b97ddb
+2026-03-04T19:40:19Z billing-09 INFO  health check ok (latency 4ms)
+2026-03-04T19:40:26Z billing-09 INFO  GET /v1/items/23201 200 in 52ms rid=3821f2
+2026-03-04T19:40:28Z billing-09 WARN  retrying upstream call (attempt 1/3)
+2026-03-04T19:40:34Z billing-09 INFO  POST /v1/orders 200 in 245ms rid=27cfe9
+2026-03-04T19:40:42Z billing-09 INFO  GET /v1/search 200 in 322ms rid=33e512
+2026-03-04T19:40:49Z billing-09 INFO  health check ok (latency 9ms)
+2026-03-04T19:40:50Z billing-09 INFO  POST /v1/payments 200 in 315ms rid=1d3c1a
+2026-03-04T19:40:58Z billing-09 INFO  POST /v1/orders 200 in 308ms rid=28529f
+2026-03-04T19:41:06Z billing-09 INFO  GET /health 200 in 326ms rid=bb5cc1
+2026-03-04T19:41:14Z billing-09 INFO  GET /v1/profile 200 in 313ms rid=aabd9b

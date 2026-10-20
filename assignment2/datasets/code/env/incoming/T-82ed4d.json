@@ -1,0 +1,10 @@
+{
+  "tid": "T-82ed4d",
+  "seq": 15,
+  "scenario": "SDK1266",
+  "kind": "timeout_drift",
+  "target": null,
+  "subject": "SDK-1266: which adapter uses a different timeout",
+  "body": "Hi, Grace Okafor from the compliance team here. Find the adapter whose TIMEOUT_S constant differs from the convention (R2) and report the file and the value.\n\nCompare the module constants across adapters/.\n\nThanks, Grace Okafor",
+  "received": "2026-02-03"
+}

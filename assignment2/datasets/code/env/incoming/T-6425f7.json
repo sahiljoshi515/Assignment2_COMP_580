@@ -1,0 +1,10 @@
+{
+  "tid": "T-6425f7",
+  "seq": 32,
+  "scenario": "sdk-1608",
+  "kind": "weak_signature",
+  "target": null,
+  "subject": "SDK-1608: which adapter signs with a weaker hash",
+  "body": "Look at _sign and webhook_valid in each adapter.\n\nThanks, Hannah Cole\n\nHi, Hannah Cole from the payments team here. One of the\npaylane adapters violates R3 by using a weaker hash for its\nsignatures. Name the file and the hashlib algorithm it uses.",
+  "received": "2026-03-11"
+}

@@ -1,0 +1,10 @@
+{
+  "tid": "T-cfb8d8",
+  "seq": 34,
+  "scenario": "FLT1038",
+  "kind": "uptime_of",
+  "target": "cache-02",
+  "subject": "FLT-1038: how long has cache-02 been up",
+  "body": "Kenji Sato (release) writing with a quick request. How many days has the cache host cache-02 been up according to its snapshot?\n\nIt is the integer on the uptime_days line.\n\nThanks, Kenji Sato",
+  "received": "2026-03-15"
+}

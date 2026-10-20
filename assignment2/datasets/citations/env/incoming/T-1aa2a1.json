@@ -1,0 +1,18 @@
+{
+  "tid": "T-1aa2a1",
+  "seq": 53,
+  "citation": {
+    "authors": [
+      "O Eriksen",
+      "F Walh",
+      "I Murphy",
+      "et al."
+    ],
+    "title": "Speech Recognition with Contrastive Indexes",
+    "venue": "ICLR",
+    "year": 2016,
+    "doi": "10.5555/iclr.2015.92dc"
+  },
+  "raw": "O Eriksen, F Walh, I Murphy, et al. (2016, June). Speech Recognition with Contrastive Indexes. In Proc. of ICLR. OpenReview.net. 10.5555/iclr.2015.92dc Retrieved from https://proceedings.example.org/iclr/837",
+  "received": "2026-03-08"
+}

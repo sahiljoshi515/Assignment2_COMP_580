@@ -1,0 +1,10 @@
+{
+  "tid": "T-209a4b",
+  "seq": 25,
+  "product": "ledgerline",
+  "error_code": "e-2148",
+  "platform": "windows",
+  "subject": "E-2148: cannot write data directory on Windows",
+  "body": "Good morning. My setup is LedgerLine 9.1.3, Windows 11 23H2. Starting last week, the moment I open\nthe app a dialog reads 'E-2148: cannot write to data directory'.\n\nThis began right after the operating system upgrade last weekend. I suspect an access prompt was\ndismissed while the upgrade ran.\n\nWhat I tried so far: closing every other program. No luck.\n\nRegards, Priya Nair, Halden Logistics",
+  "opened": "2026-02-02"
+}

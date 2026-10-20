@@ -1,0 +1,10 @@
+{
+  "tid": "T-4885f6",
+  "seq": 4,
+  "scenario": "CFG1228",
+  "kind": "insecure",
+  "target": null,
+  "subject": "CFG-1228: which environment violates a security requirement",
+  "body": "Hannah Cole (payments) writing with a quick ask. POLICY.md names two\nsecurity requirements every ledger-api environment must meet. One environment\nbreaks one of them. Which environment, and which key?\n\nconfig/POLICY.md spells out the required value of each security key.\n\nRegards, Hannah Cole -- payments",
+  "received": "2026-01-11"
+}
